@@ -1,0 +1,89 @@
+{
+  "data": [
+  [
+    "Developer",
+    "University of London, Universitat de Barcelona",
+    "Athabasca University",
+    "Knowledge Media Institute, Olnet",
+    "Open Society Foundations, TakingITGlobal, OASIS",
+    "Computer Science Research Institute, Universidad Técnica Particular de Loja"
+  ],
+  [
+    "Creation date","Not informed","2012","2012","Not informed","Not informed"
+  ],
+  [
+    "Focus","OER","OER","Multuple","Open access","OCW"
+  ],
+  [
+    "Tiles","Google Maps","Google Maps","Google Maps","Google Maps","Google Maps"
+  ],
+  [
+    "System","Serviço","Serviço","Unique system","Unique system","Unique system"
+  ],
+  [
+    "Type","Zeemaps","Google Maps","Evidence Hub","Not informed","Serendipity"
+  ],
+  [
+    "Content access","Open","Open","Open","Open","Open"
+  ],
+  [
+    "Content licence","CC-BY-NC-SA","Not specific","Creative Commons Attribution 2.0 UK: England &amp, Wales","Not specified","Not specified"
+  ],
+  [
+    "Downloadable system","No","No","http://evidence-hub.net/open-source/download","Not found","Not found"
+  ],
+  [
+    "Mobile view","Yes","No","No","No","No"
+  ],
+  [
+    "Permission to input data",
+    "Open, immediate",
+    "No, static",
+    "Create account, immediate",
+    "Open input, mediated",
+    "Open input, mediated"
+  ],
+  [
+    "Input formats",
+    "Location (Search), Crowd Source, Google Spreadsheets, Microsoft Excel, CSV, KML, GeoRSS feed, or Copy-and-Paste",
+    "HTML, Google maps",
+    "Form",
+    "Online form",
+    "Online form"
+  ],
+  [
+    "Output formats","Administrador (CSV,PNG,PDF)","Not available","Not found","Not found","JSON / Data visualization"
+  ],
+  [
+    "API available","Not informed","Not available","Not found","Not found","Not found"
+  ],
+  [
+    "POI categories",
+    "None",
+    "Institution of Higher Education, Organisational Member, Associate Consortia ",
+    "Organization or projects. Access, Adoption of OER, Community building, Content creation, Copyright and licensing, Deeper learning, Discoverability, Dissemination and awareness, Networks and sharing, OER research, Ongoing support, Policy, Reuse of OER, Sustainability, Teaching and learning, Tools and technologies, Training, Uses of OER",
+    "Map: Repository, Journal, Policy, and Other. Listing: Service or research study, Technical resource, Institutional resource",
+    "The mapping interface uses: OCW Repository, OER repository, OER practice, OER project, OER initiative, Ope Data for educational context, MOOC. Serendipity search permits filtering through: resource types (OER or OCW), topics, licences, tags, authors, languages, platforms, consortiums (OCW or Universia) as well as regiong categories (North America, Europe, Asia, Africa, South America), which are loaded from the OCW data that is being served"
+  ],
+  [
+    "POI types",
+    "Not a finite scope, multiple",
+    "OCW","Not a finite scope, multiple","Not a finite scope, admin multiple","OCW"
+  ],
+  [
+    "POI metadata",
+    "Name of the initiative and link","Links to the sites",
+    "Allows for evidence-based information, including: partners, Key challenges addressed, Issues addressed, Potential Solutions specified, Research claims made, Evidence specified, Managing organizations, Resources, Themes",
+    "Link to the site",
+    "university, universityName, universityLat, universityLong, universityLogo, universityDescription, universityContinent, universityCountry, universityCity, universityURL, universityOCWURL, universityOCWURSS, universitySubject, universityAddress, consortium, consortiumURL, language, languageURL, license, licenseURL, ocw, ocwURL"
+  ],
+  [
+    "Comments",
+    "Site with limited data on a service platform",
+    "A map model, with static information on OCW as a demosntration",
+    "The platform is more positioned as an evidence base for OER projects and their claims, but the mapping system itself is complimentary, rather than the center-piece of the project. Allows for heavy data input on each project and a list view",
+    "It has a clean interface and is simple to use, but the taxonomy does not make it easy to identify initiatives. Allows for list view",
+    "Multiple ways to visualize the results: as a map, as a search with detailed (table) linked data on each initiative, as a downloadable list (JSON), and multiple aggregate data visualization methods"
+  ]
+]
+}

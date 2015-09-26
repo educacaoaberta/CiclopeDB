@@ -1,0 +1,155 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+           "Nome" : "Universidade Federal Fluminense",
+           "Sigla" : "UFF",
+           "Arquivo" : "uff.html"
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+            -43.13113,
+            -22.90603
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -56.065403,
+               -15.608964
+            ]
+         },
+         "properties":{
+            "IES":"Universidade Federal do Mato Grosso",
+            "Sigla" : "UFMT",
+            "Arquivo" : "ufmt.html"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.5067544,
+               -20.3899004
+            ]
+         },
+         "properties":{
+            "IES":"Universidade Federal de Outro Preto",
+            "Sigla" : "UFOP",
+            "Arquivo" : "ufop.html"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              -48.45599,
+              -1.47569
+            ]
+         },
+         "properties":{
+            "IES":"Universidade Federal do Pará",
+            "Sigla" : "UFPA",
+            "Arquivo" : "ufpa.html"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              -51.201809,
+              -23.325521
+            ]
+         },
+         "properties":{
+            "IES":"Universidade Estadual de Londrina",
+            "Sigla" : "UEL",
+            "Arquivo" : "uel.html"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              -51.218640,
+              -30.033841
+            ]
+         },
+         "properties":{
+            "IES":"Universidade Federal do Rio Grande do Sul",
+            "Sigla" : "UFRGS",
+            "Arquivo" : "ufrgs.html"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              -47.882661,
+              -21.980772
+            ]
+         },
+         "properties":{
+            "IES":"Universidade Federal de São Carlos",
+            "Sigla" : "UFScar",
+            "Arquivo" : "ufscar.html"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              -38.576916,
+              -3.7500105
+            ]
+         },
+         "properties":{
+            "IES":"Universidade Federal do Ceará",
+            "Sigla" : "UFC",
+            "Arquivo" : "ufc.html"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              -44.2068516,
+              -2.5803716
+            ]
+         },
+         "properties":{
+            "IES":"Universidade Estadual do Maranhão",
+            "Sigla" : "UEMA",
+            "Arquivo" : "uema.html"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+            -48.520369,
+            -27.600216
+            ]
+         },
+         "properties":{
+            "IES":"Universidade Federal de Santa Catarina",
+            "Sigla" : "UFSC",
+            "Arquivo" : "ufsc.html"
+         }
+      }
+   ]
+}
