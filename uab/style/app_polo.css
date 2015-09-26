@@ -1,0 +1,167 @@
+/* Cooper font courtesy of http://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/ */
+/* layer icons from http://findicons.com/icon/437348/layers */
+
+@font-face {
+  font-family: cabin;
+  src: url(../font/QuattrocentoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: cabin-bold;
+  src: url(../font/QuattrocentoSans-Bold.ttf);
+}
+
+@media screen and (max-width: 479px) {
+
+.leaflet-sidebar {
+  	width: 60%;
+}
+
+.menuitem, .menucontent {
+  font-size: 0.9em;
+}
+
+} /* closing bracket, for smaller screens*/
+
+
+@media screen and (min-width: 480px) {
+
+html, body {
+	font-family: "cabin", sans-serif;
+}
+
+/*custom tooltip, tried using className in bindPopup but it does not override*/
+.leaflet-popup-content-wrapper {
+	background-color:#FFFFFF;
+	background-color: rgba(255,255,255,.9);
+	background: transparent\9; /* clear current background for ie */
+	zoom:1; /* required for the filters */
+	/* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF, endColorstr=#7FFFFFFF);
+  /* For IE 8*/
+  -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF, endColorstr=#7FFFFFFF)";
+	border-radius: 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+#map {
+  float:left;
+  position:fixed;
+  /*background: #eee;*/
+	background-color: #1DA7D2;
+	background-image:
+    radial-gradient(
+			circle closest-corner,
+      #1DA7D2,
+			#0F3153
+    );
+  top: 0px;
+  z-index: 0;
+  left:0px;
+  right:0;
+  bottom:0px;
+  border-top:1px solid #ccc;
+}
+
+#inputcontainer{
+	position: absolute;
+	left:45px;
+	top:60px;
+	width:40px;
+}
+
+td, th {
+	vertical-align: top;
+}
+
+img {
+	padding: 2px;
+}
+
+/*tamanho da janela que abre, e posiciona ela no máximo para a frente, cobrindo os ícones*/
+.leaflet-sidebar {
+	width: 50%;
+	height: 97%;
+	z-index: 99999;
+  border: 1px solid #ccc;
+}
+
+
+/*garante que os popups aparecem com o tamanho das imagens contidas*/
+.leaflet-popup-content {
+    width:auto !important;
+}
+
+.dataTables_wrapper {
+	border: 1px solid #aaa;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.vco-storyjs, .storyjs-embed, .vco-slider, .timenav-interval-background {
+	background-color: rgba(255,255,255,0) !important;
+}
+
+.vco-storyjs, .vco-feature, .slider, .vco-storyjs, .vco-feature, .vco-slider {
+	box-shadow: 0px !important;
+}
+
+.menu {
+  margin-top: 0px;
+  margin-left: 55px;
+  z-index: 9999;
+  position: relative;
+  }
+
+.menuitem {
+  display: none;
+  font-size: 1.3em;
+  background-color: white;
+  color: #0F3153;
+  text-decoration: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.menuitem:hover {
+  background-color: #0F3153;
+  color: white;
+}
+
+.menucontent {
+  font-size: 1.3em;
+  padding: 8px;
+  border: 3px white solid;
+  margin-top: 5px;
+  color: #0F3153;
+  background-color: white;
+  position: relative;
+  border: 0px;
+  width: 500px;
+  z-index: 9999;
+}
+
+.menucontent a:link, .menucontent a:visited {
+  color: #888;
+  text-decoration: none;
+}
+
+.pontoschave {
+	background-color: #0F3153;
+	color: white;
+	margin-right: 0px;
+  margin-top: 5px;
+	padding: 20px;
+}
+
+.pontoschave a:link, .pontoschave a:visited {
+  color: white;
+}
+
+img {
+  padding: 4px;
+}
+
+} /* close @media

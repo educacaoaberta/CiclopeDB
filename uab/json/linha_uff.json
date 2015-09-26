@@ -1,0 +1,32 @@
+{
+    "timeline":
+    {
+        "headline":"Universidade Federal Fluminense",
+        "type":"default",
+        "text":"<p>Linha do tempo da Universidade Aberta do Brasil</p>",
+        "date": [
+            {
+                "startDate":"2001",
+                "endDate":"",
+                "headline":"Licenciatura em Matemática",
+                "text":"<p>UFF começa a oferecer licenciatura em Matemática na modalidade EAD.</p>",
+                "tag":"",
+                "classname":""
+            },
+            {
+                "startDate":"2011",
+                "endDate":"",
+                "headline":"Criação da Coordenação de Educação a Distância",
+                "text":"<p>Cria-se o CEAD que dá suporte, presta assessoria, desenvolve atividades que viabilizam ações educativas a distância em diversas áreas do conhecimento para a UFF.</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"images/uff-cead.png",
+                    "thumbnail":"images/uff-cead.png",
+                    "credit":"(http://www.cead.uff.br)",
+                    "caption":"Logo CEAD-UFF"
+                }
+            }
+        ]
+    }
+}
