@@ -1,0 +1,52 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="style/dataTables.css">
+  <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
+
+  <script type='text/javascript' src="libraries/datatables/jquery.dataTables.min.js"></script>
+  <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
+  <script type='text/javascript' src="libraries/datatables/currency_sort_br.js"></script>
+<script>
+$(function() {
+        $('#table_data').dataTable( {
+                 "language": {
+                     "url": "json/datatables_pt-br.json"
+                     },
+                    "ajax": "json/datatable.json",
+                    "paging": true,
+                    "order": [0,'asc'],
+                    //To guarantee data is loaded before rendering
+                    "initComplete": function(settings, json) {
+                    }
+                  })
+                  });
+</script>
+</head>
+
+<body>
+    <table id="table_data" class="responsive" width="100%">
+        <thead>
+            <tr>
+                <th class="dt-left">Category</th>
+                <th class="dt-left">OER Repositories World Map</th>
+                <th class="dt-left">OER world map</th>
+                <th class="dt-left">Evidence map for open education</th>
+                <th class="dt-left">Global Open Access Map (OASIS)</th>
+                <th class="dt-left">Serendipity</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <th class="dt-left">Category</th>
+                <th class="dt-left">OER Repositories World Map</th>
+                <th class="dt-left">OER world map</th>
+                <th class="dt-left">Evidence map for open education</th>
+                <th class="dt-left">Global Open Access Map (OASIS)</th>
+                <th class="dt-left">Serendipity</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
