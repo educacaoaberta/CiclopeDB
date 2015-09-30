@@ -19,13 +19,21 @@
 </script>
 
 
+
+
+
+
 <script type="text/javascript">
 var result;
-var dados = $.getJSON("linha_ufpa.json", function (timeline){
+dados = $.getJSON("linha_ufpa.json", function (timeline){
   result = timeline;
   //$.each(timeline, function (key, val) {
   //  console.log(val.headline);
   //});
+})
+.done(function(parsedResponse,statusText,jqXhr) {
+    console.log(jqXhr.responseJSON);
+    result = jqXhr.responseJSON
 });
 
 console.log(result);
