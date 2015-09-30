@@ -1,0 +1,91 @@
+{
+"UFOP":
+{
+  {
+     "timeline":
+     {
+        "headline":"Universidade Federal de Ouro Preto",
+        "type":"default",
+        "text":"<p>Linha do tempo da UFOP na Universidade Aberta do Brasil</p>",
+        "date":[
+           {
+              "startDate":"1998",
+              "endDate":"",
+              "headline":"Formação local",
+              "text":"<p>Município de Itabirito estabeleceu parceria com a UFOP objetivando graduar os professores da rede pública municipal na modalidade presencial. O projeto é um sucesso. Municípios circunvizinhos também solicitaram a mesma parceria. UFOP deseja atender, mas vê limitações para o atendimento presencial de tamanha proporção. </p>",
+              "tag":"",
+              "classname":""
+           },
+           {
+              "startDate":"1998",
+              "endDate":"2000",
+              "headline":"Apoio EaD",
+              "text":"<p>UFOP toma como referência a modalidade à distância, oferecida pela Universidade Federal do Mato Grosso (UFMT) com reconhecimento do Ministério da Educação e bons resultados. UFOP faz parceria com UFMT para atender à demanda dos municípios, assessorada pela equipe da UFMT. </p>",
+              "tag":"",
+              "classname":""
+           },
+           {
+              "startDate":"2000",
+              "endDate":"",
+              "headline":"Criação do NEAD",
+              "text":"<p>Com a educação à distância na UFOP, cria-se o NEAD - Núcleo de Educação Aberta e a Distância - da UFOP (NEAD/UFOP) e aprova-se o Curso de Licenciatura Plena.</p>",
+              "tag":"",
+              "classname":""
+           },
+           {
+              "startDate":"2000",
+              "endDate":"",
+              "headline":"Expansão",
+              "text":"<p>UFOP implementa pólos presenciais em Barão de Cocais, Nova Era, Paraopeba e outros dez pólos, abrangendo 88 municípios e 3.750 alunos em regiões diversas no estado de Minas Gerais.</p>",
+              "tag":"",
+              "classname":""
+           },
+           {
+              "startDate":"2003",
+              "endDate":"",
+              "headline":"Institucionalização",
+              "text":"<p>Criação do CEAD/UFOP: o NEAD/UFOP é aprovado pelo Conselho Universitário passa a constituir-se em um Centro de Educação Aberta e a Distância - CEAD - (CEAD/UFOP), que é uma unidade acadêmica da UFOP vinculado à Pró-reitoria de Extensão e órgão responsável pela administração e coordenação didático-pedagógica dos Programas e Projetos de EAD da UFOP. CEAD oferece cursos de graduação e pós-graduação lato sensu, de Educação Básica e de Educação Infantil; informatiza pólos para levar a inclusão digital a municípios e desenvolve atividades de extensão contemplando a educação infantil e a educação ambiental.</p>",
+              "tag":"",
+              "classname":""
+           }
+         ]
+     }
+  }
+
+},
+
+"UFF":
+{
+    "timeline":
+    {
+        "headline":"Universidade Federal Fluminense",
+        "type":"default",
+        "text":"<p>Linha do tempo da Universidade Aberta do Brasil</p>",
+        "date": [
+            {
+                "startDate":"2001",
+                "endDate":"",
+                "headline":"Licenciatura em Matemática",
+                "text":"<p>UFF começa a oferecer licenciatura em Matemática na modalidade EAD.</p>",
+                "tag":"",
+                "classname":""
+            },
+            {
+                "startDate":"2011",
+                "endDate":"",
+                "headline":"Criação da Coordenação de Educação a Distância",
+                "text":"<p>Cria-se o CEAD que dá suporte, presta assessoria, desenvolve atividades que viabilizam ações educativas a distância em diversas áreas do conhecimento para a UFF.</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"images/uff-cead.png",
+                    "thumbnail":"images/uff-cead.png",
+                    "credit":"(http://www.cead.uff.br)",
+                    "caption":"Logo CEAD-UFF"
+                }
+            }
+        ]
+    }
+}
+
+}
