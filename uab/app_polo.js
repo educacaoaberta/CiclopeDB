@@ -106,8 +106,12 @@ var overlayMaps = {
   "Polos": polos
   };
 
+// add locate button
+L.control.locate().addTo(map);
+
+
 //adds controls but also adds al layews to map
-L.control.layers(baseMaps, overlayMaps).addTo(map);
+L.control.layers(baseMaps, overlayMaps,{position: 'topleft'}).addTo(map);
 // map.addControl( new L.Control.Search({ callData: searchLayer }) );
 
 // set sidebar
@@ -179,8 +183,6 @@ $('.menuitem').click(function(){
   });
 
 
-// add locate button
-L.control.locate().addTo(map);
 
 // for hiding the sidebar and showing the "about" div again
 // map.on("click",function() {
