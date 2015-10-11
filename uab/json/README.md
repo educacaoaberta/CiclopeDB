@@ -27,8 +27,7 @@ Formato:
       },
 
 
-polos.json => Indica todos polos (coordenada e a qual ipes está associado) -
-
+polos.json => Indica todos polos (coordenada e a qual ipes está associado)
 
 cursos_* => Cada um desses arquivos contém os dados dos cursos oferecidos por uma ipes. Esses dados são utilizados pelo datatables.
 Tentar juntar todos esses dados em um único .json
