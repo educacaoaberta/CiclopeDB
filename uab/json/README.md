@@ -27,27 +27,7 @@ Formato:
       },
 
 
-polos.json => Arquivo similiar com o anterior, porém não contém informação do arquivo, verificar a possibilidade de eliminar um dos 2
-
-cursos_* => Cada um desses arquivos contém os dados dos cursos oferecidos por uma ipes. Esses dados são utilizados pelo datatables.
-Tentar juntar todos esses dados em um único .json
-Formato: (Nome, Tipo, Chamada, Carga Horária, Períodos)
-
-{
-  "data": [
-  [
-    "Administração publica",
-    "Bacharelado",
-    "PNAP I",
-    2775,
-    8
-  ],
-
-
-
-linha_*.json => Cada um destes contém os dados temporais de uma IPES, que será usado para fazer a timeline
-Tentar juntar todos esses arquivos em um único
-
+polos.json => Indica todos polos (coordenada e a qual ipes está associado)
 
 uf*.json => Cada um destes arquivos contém todos os pólos associados à uma ipes.
 O ideal seriam todos estarem juntos em um único arquivo, ou até no mesmo arquivo de ipes/polos
@@ -71,3 +51,23 @@ Formato:
             "estado":"Ceará"
          }
       },
+
+
+cursos_* => Cada um desses arquivos contém os dados dos cursos oferecidos por uma ipes. Esses dados são utilizados pelo datatables.
+Tentar juntar todos esses dados em um único .json
+Formato: (Nome, Tipo, Chamada, Carga Horária, Períodos)
+
+{
+  "data": [
+  [
+    "Administração publica",
+    "Bacharelado",
+    "PNAP I",
+    2775,
+    8
+  ],
+
+
+
+linha_*.json => Cada um destes contém os dados temporais de uma IPES, que será usado para fazer a timeline
+Tentar juntar todos esses arquivos em um único
