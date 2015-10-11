@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Testes com Datatable</title>
+
+<link rel="stylesheet" href="meucss.css">
+<link title="timeline-styles" rel="stylesheet" href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+
+<script src="jquery-2.1.3.min.js"></script>
+<script src="meujs.js"></script>
+<script type='text/javascript' src="jquery.dataTables.min.js"></script>
+<script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
+<script src="http://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+
+<script>
+//var result;
+$.getJSON("cursos_uff.json", function (data){
+  $(function() {
+          $('#table_data').dataTable( {
+                   "language": {
+                         "url": "datatables_pt-br.json"
+                         },
+                        "aaData": data.UFF.data,
+                        "paging": true,
+                        "order": [0,'asc']
+                    })
+                    });
+});
+
+
+</script>
+
+<script type="text/javascript">
+var options = {
+  lang: 'pt-br',
+  start_at_slide: '1',
+};
+
+/* Tentando fazer a adição das timelines manualmente, mas não consegui fazer funcionar :/
+$.getJSON("linhas.json", function (data){
+  $.each(data, function (key, val) {
+    console.log(val);
+    window.timeline = new TL.Timeline('timeline-'+key, val,options);
+  });
+});
+*/
+
+
+ $.getJSON("linhas.json", function (data){
+  window.timeline = new TL.Timeline('timeline-uff', data.UFF ,options);
+  window.timeline = new TL.Timeline('timeline-ufop', data.UFOP ,options);
+ });
+
+
+</script>
+
+
+</head>
+
+<body>
+
+Oi tudo bem?
+
+<table id="table_data" class="responsive" width="100%">
+  <thead>
+    <tr>
+      <th class="dt-left">Nome</th>
+      <th class="dt-left">Tipo</th>
+      <th class="dt-left">Chamada</th>
+      <th class="dt-left">Carga horária</th>
+      <th class="dt-left">Períodos</th>
+    </tr>
+  </thead>
+</table>
+
+<a href="#" class="menu" id="ufop">UFOP</a>
+<a href="#" class="menu" id="uff">UFF</a>
+
+<div class="bottombar">
+  <a href="#" class="close-bottom">X</a>
+  <div id='timeline-ufop'></div>
+  <div id='timeline-uff'></div>
+</div>
+
+</body>
+
+</html>

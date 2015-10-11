@@ -1,0 +1,63 @@
+{
+  "UFF" : {
+    "title" : {
+      "text" : {
+        "headline" : "Universidade Federal Fluminense",
+        "text" : "<p>Linha do tempo da UFF na Universidade Aberta do Brasil</p>"
+      }
+    },
+    "events" : [ {
+      "start_date" : {
+        "year" : "1998"
+      },
+      "text" : {
+        "headline":"Formação local",
+        "text":"<p>Município de Itabirito estabeleceu parceria com a UFOP objetivando graduar os professores da rede pública municipal na modalidade presencial. O projeto é um sucesso. Municípios circunvizinhos também solicitaram a mesma parceria. UFOP deseja atender, mas vê limitações para o atendimento presencial de tamanha proporção. </p>"
+      }
+    },
+    {
+      "start_date" : {
+        "year": "1998"
+      },
+      "end_date":{
+        "year": "2000"
+      },
+      "text" : {
+        "headline":"Apoio EaD",
+        "text":"<p>UFOP toma como referência a modalidade à distância, oferecida pela Universidade Federal do Mato Grosso (UFMT) com reconhecimento do Ministério da Educação e bons resultados. UFOP faz parceria com UFMT para atender à demanda dos municípios, assessorada pela equipe da UFMT. </p>"
+      }
+    }
+    ]
+  },
+  "UFOP" : {
+    "title" : {
+      "text" : {
+        "headline" : "Universidade Federal de Ouro Preto",
+        "text" : "<p>Linha do tempo da UFOP na Universidade Aberta do Brasil</p>"
+      }
+    },
+    "events" : [ {
+      "start_date" : {
+        "year" : "1998"
+      },
+      "text" : {
+        "headline":"Formação local",
+        "text":"<p>Município de Itabirito estabeleceu parceria com a UFOP objetivando graduar os professores da rede pública municipal na modalidade presencial. O projeto é um sucesso. Municípios circunvizinhos também solicitaram a mesma parceria. UFOP deseja atender, mas vê limitações para o atendimento presencial de tamanha proporção. </p>"
+      }
+    },
+    {
+      "start_date" : {
+        "year": "1998"
+      },
+      "end_date":{
+        "year": "2000"
+      },
+      "text" : {
+        "headline":"Apoio EaD",
+        "text":"<p>UFOP toma como referência a modalidade à distância, oferecida pela Universidade Federal do Mato Grosso (UFMT) com reconhecimento do Ministério da Educação e bons resultados. UFOP faz parceria com UFMT para atender à demanda dos municípios, assessorada pela equipe da UFMT. </p>"
+      }
+    }
+    ]
+  }
+
+}
