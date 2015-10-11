@@ -11,7 +11,7 @@
 <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
 
 <script>
-var result;
+//var result;
 $.getJSON("cursos_uff.json", function (data){
   $(function() {
           $('#table_data').dataTable( {
@@ -20,13 +20,9 @@ $.getJSON("cursos_uff.json", function (data){
                          },
                         "aaData": data.UFF.data,
                         "paging": true,
-                        "order": [0,'asc'],
-                      //To guarantee data is loaded before rendering
-                      "initComplete": function(settings, json) {
-                      }
+                        "order": [0,'asc']
                     })
                     });
-  console.log(data);
 });
 
 
