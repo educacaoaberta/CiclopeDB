@@ -6,10 +6,14 @@
   <link rel="stylesheet" href="style/dataTables.css">
   <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
   <link rel="stylesheet" href="style/sidebar-content.css">
+  <link title="timeline-styles" rel="stylesheet" href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+
 
   <script type='text/javascript' src="libraries/datatables/jquery.dataTables.min.js"></script>
   <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
-  <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+
+<!--  <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script> -->
 
   <script>
   $(function() {
@@ -26,18 +30,19 @@
                     })
                     });
   </script>
-  <script type="text/javascript">
-    var timeline_config = {
-     width: "100%",
-     height: '600',
-     source: 'json/linha_ufop.json',
-     lang: 'pt-br',
-     start_at_slide: '1',
-     font: 'PT'
-    }
-  </script>
+
 
 </head>
+
+<script type="text/javascript">
+var options = {
+  lang: 'pt-br',
+  start_at_slide: '1'
+};
+$.getJSON("json/linha_ufop_nova.json", function (data){
+  window.timeline = new TL.Timeline('timeline-embed', data.UFOP,options);
+ });
+</script>
 
 <body>
 
@@ -85,7 +90,8 @@ UAB: Universidade Aberta do Brasil</br>
 
 <!-- BEGIN Timeline Embed -->
 <div class="subtitle">Linha do tempo</div><br>
-<div id="timeline-embed"></div>
+<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+<!-- <div id="timeline-embed"></div> -->
 
 <div class="ref">Fonte: <a href="http://www.cead.ufop.br/index.php/o-cead/historia">http://www.cead.ufop.br/index.php/o-cead/historia</a></div>
 
