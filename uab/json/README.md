@@ -27,30 +27,7 @@ Formato:
       },
 
 
-polos.json => Indica todos polos (coordenada e a qual ipes está associado)
-
-uf*.json => Cada um destes arquivos contém todos os pólos associados à uma ipes.
-O ideal seriam todos estarem juntos em um único arquivo, ou até no mesmo arquivo de ipes/polos
-Formato:
-
-{
-   "type":"FeatureCollection",
-   "features":[
-      {
-         "type":"Feature",
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
-               -37.767894,
-               -4.558259
-            ]
-         },
-         "properties":{
-            "ipes":"UFC",
-            "cidade":"Aracati",
-            "estado":"Ceará"
-         }
-      },
+polos.json => Indica todos polos (coordenada e a qual ipes está associado) -
 
 
 cursos_* => Cada um desses arquivos contém os dados dos cursos oferecidos por uma ipes. Esses dados são utilizados pelo datatables.
