@@ -82,7 +82,7 @@ img {
 /*tamanho da janela que abre, e posiciona ela no máximo para a frente, cobrindo os ícones*/
 .leaflet-sidebar {
 	width: 50%;
-	height: 97%;
+	height: 100%;
 	z-index: 99999;
   border: 1px solid #ccc;
 }
