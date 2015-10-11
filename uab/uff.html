@@ -7,24 +7,27 @@
   <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
   <link rel="stylesheet" href="style/sidebar-content.css">
 
+  <script src="libraries/jquery/jquery-2.1.3.min.js"></script>
   <script type='text/javascript' src="libraries/datatables/jquery.dataTables.min.js"></script>
   <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
   <script type="text/javascript" src="http://cdn.knightlab.com/libs/zline/latest/js/storyjs-embed.js"></script>
 
   <script>
-  $(function() {
-          $('#table_data').dataTable( {
-                   "language": {
-                         "url": "json/datatables_pt-br.json"
-                         },
-                        "ajax": "json/cursos_uff.json",
-                        "paging": true,
-                        "order": [0,'asc'],
-                      //To guarantee data is loaded before rendering
-                      "initComplete": function(settings, json) {
-                      }
-                    })
+    //Já está adaptado para utilizar o novo formato de arquivo json com os cursos todos no mesmo arquivo
+    //substituir cursos_uff.json pelo cursos.json quando for criado 
+    $.getJSON("json/cursos_uff.json", function(data) {
+    $(function() {
+            $('#table_data').dataTable( {
+                     "language": {
+                           "url": "json/datatables_pt-br.json"
+                           },
+                          "aaData" : data.UFF.data,
+                          "paging": true,
+                          "order": [0,'asc'],
+                      })
                     });
+      });
+
   </script>
   <script type="text/javascript">
     var timeline_config = {
