@@ -167,3 +167,8 @@
 .leaflet-sidebar .close:hover {
   color: #0F3153;
 }
+
+
+.close {
+		margin-right: 5px;
+}
