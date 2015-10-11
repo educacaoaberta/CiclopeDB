@@ -9,17 +9,17 @@
 
   <script type='text/javascript' src="libraries/datatables/jquery.dataTables.min.js"></script>
   <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
-  <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+  <script type="text/javascript" src="http://cdn.knightlab.com/libs/zline/latest/js/storyjs-embed.js"></script>
 
   <script>
   $(function() {
           $('#table_data').dataTable( {
                    "language": {
-                       "url": "json/datatables_pt-br.json"
-                       },
-                      "ajax": "json/cursos_uff.json",
-                      "paging": true,
-                      "order": [0,'asc'],
+                         "url": "json/datatables_pt-br.json"
+                         },
+                        "ajax": "json/cursos_uff.json",
+                        "paging": true,
+                        "order": [0,'asc'],
                       //To guarantee data is loaded before rendering
                       "initComplete": function(settings, json) {
                       }
