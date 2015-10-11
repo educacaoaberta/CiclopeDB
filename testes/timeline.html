@@ -18,19 +18,22 @@ Oi tudo bem?
 
 <script src="http://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 
-<div id='timeline-embed' style="width: 100%; height: 600px"></div>
-
-
-//esse é um exemplo em que se puxa só uma parte do json pra construir a timeline
-//porém só funciona para timelinejs versão 3
 <script type="text/javascript">
 var timeline_json;
 $.getJSON("linha_ufop_nova.json", function (data){
   window.timeline = new TL.Timeline('timeline-embed', data.UFOP);
 });
-
-
 </script>
+
+
+<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
+
+//esse é um exemplo em que se puxa só uma parte do json pra construir a timeline
+//porém só funciona para timelinejs versão 3
+
+
+
 
 
 </body>
