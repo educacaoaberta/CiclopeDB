@@ -3,6 +3,21 @@
 var map;
 $(function() {
 
+//functions to menu
+$('.menu').hide();
+
+$('#menu-icon').mouseover(
+  function() {
+    $('.menu').show();
+  }
+);
+
+$('.menu').mouseout(
+  function() {
+    $('.menu').hide();
+  }
+);
+
 //add leaflet map and set maxview and minview;
 var base = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -178,14 +193,17 @@ $('.menuitem').click(function(){
   sidebar.show();
   //gets "name" from the <a> menu tag above to toggle HTML file for content
   var menuselected = $(this).attr("name");
+  console.log(menuselected);
   $("#sidebar").load("content/" + menuselected);
   });
 
+
+
 // for hiding the sidebar and showing the "about" div again
-// map.on("click",function() {
-//   sidebar.hide();
-//   $(".about").show();
-// });
+map.on("click",function() {
+   sidebar.hide();
+   $(".about").show();
+ });
 
 
 }); //main function

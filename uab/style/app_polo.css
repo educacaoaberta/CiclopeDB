@@ -109,10 +109,13 @@ img {
 }
 
 .menu {
-  margin-top: 0px;
-  margin-left: 55px;
   z-index: 9999;
   position: relative;
+  background-color: #fff;
+  line-height: 38px;
+  margin-left: 42px;
+  margin-top: 12px;
+  width: 117px;
   }
 
 .menuitem {

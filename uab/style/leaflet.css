@@ -90,7 +90,7 @@
 	pointer-events: none;
 	}
 .leaflet-top {
-	top: 0;
+	top: 45px;
 	}
 .leaflet-right {
 	right: 0;
@@ -476,3 +476,20 @@
 	background: #fff;
 	border: 1px solid #666;
 	}
+
+/*div icon menu*/
+#menu-icon {
+	background-clip: padding-box;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 4px;
+	background-image: url(images/menu.png);
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	text-align: center;
+	z-index: 1000;
+	cursor: pointer;
+	position: absolute;
+}
