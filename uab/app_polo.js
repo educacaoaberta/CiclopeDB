@@ -6,13 +6,13 @@ $(function() {
 //functions to menu
 $('.menu').hide();
 
-$('#menu-icon').mouseover(
+$('#menu-group').mouseover(
   function() {
     $('.menu').show();
   }
 );
 
-$('.menu').mouseout(
+$('#menu-group').mouseout(
   function() {
     $('.menu').hide();
   }
@@ -189,21 +189,22 @@ function onEachFeature (ipes, layer) {
 //Since "menu" is under the "map" div ("absolute" map position makes this necessary)
 //clicking on map to remove sidebar is now a problem but also is useful
 $(".menuitem").show();
+
 $('.menuitem').click(function(){
   sidebar.show();
   //gets "name" from the <a> menu tag above to toggle HTML file for content
   var menuselected = $(this).attr("name");
-  console.log(menuselected);
+  //console.log(menuselected);
   $("#sidebar").load("content/" + menuselected);
   });
 
 
 
 // for hiding the sidebar and showing the "about" div again
-map.on("click",function() {
+/*map.on("click",function() {
    sidebar.hide();
    $(".about").show();
- });
+ });*/
 
 
 }); //main function

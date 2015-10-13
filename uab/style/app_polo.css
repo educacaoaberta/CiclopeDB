@@ -115,12 +115,14 @@ img {
   line-height: 38px;
   margin-left: 42px;
   margin-top: 12px;
-  width: 117px;
+  width: 90px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
   }
 
 .menuitem {
   display: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
   background-color: white;
   color: #0F3153;
   text-decoration: none;
@@ -128,10 +130,6 @@ img {
   cursor: pointer;
 }
 
-.menuitem:hover {
-  background-color: #0F3153;
-  color: white;
-}
 
 .menucontent {
   font-size: 1.3em;
