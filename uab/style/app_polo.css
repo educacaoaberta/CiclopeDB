@@ -130,6 +130,9 @@ img {
   cursor: pointer;
 }
 
+.menu a:hover {
+  color: #61B9D4;
+}
 
 .menucontent {
   font-size: 1.3em;
