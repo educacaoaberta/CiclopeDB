@@ -9,7 +9,6 @@ $(function() {
 //hide all timelines
 $('.timelines').hide();
 
-
 //loading data for dataTable
 $.getJSON("json/cursos.json", function(data) {
     cursos = data;
@@ -235,6 +234,7 @@ $('.menuitem').click(function(){
 function sidebar_load ()
 {
   //used to know what's tab
+  //TODO: achar um jeito melhor de resolver isso
   var thistab='tab-1';
 
   sidebar.show();
@@ -243,6 +243,18 @@ function sidebar_load ()
   $('#about-data').hide();
 
   //loading data from second tab - begin
+
+  //hide all datatables
+  $('.table_data').hide();
+
+
+  //hide all datatable
+   $('.dataTables_wrapper').hide();
+
+  //show only this
+  $('#table_data_'+thisIpes.toLowerCase()+'_wrapper').show();
+  $('#table_data_'+thisIpes.toLowerCase()).show();
+
 
   //if not existis this class, load data
   if(!$('#table_data_'+thisIpes.toLowerCase()+'_wrapper').length) {
@@ -261,10 +273,6 @@ function sidebar_load ()
       }
     });
   }
-  //hide all datatable
-   $('.dataTables_wrapper').hide();
-   //show only this
-   $('#table_data_'+thisIpes.toLowerCase()+'_wrapper').show();
 
    //loading data from second tab - end
 
