@@ -212,10 +212,15 @@ $(".menuitem").show();
 
 $('.menuitem').click(function(){
   sidebar.show();
+
+  $('#about-data').show();
+  $('#tabs-data').hide();
+
+
   //gets "name" from the <a> menu tag above to toggle HTML file for content
   var menuselected = $(this).attr("name");
   //console.log(menuselected);
-  $("#sidebar").load("content/" + menuselected);
+  $("#about-data").load("content/" + menuselected);
   });
 
 
@@ -230,6 +235,9 @@ $('.menuitem').click(function(){
 function sidebar_load ()
 {
   sidebar.show();
+
+  $('#tabs-data').show();
+  $('#about-data').hide();
 
   //loading data from second tab - begin
 
@@ -265,7 +273,7 @@ function sidebar_load ()
    //hide all timelines
    $('.tl-timeline').hide();
 
-   //show only this outline
+   //show only this timeline
    $('#timeline-'+thisIpes.toLowerCase()).show();
 
    //create timeline
@@ -285,9 +293,9 @@ function sidebar_load ()
 
 
    //if current > 1, there are another tab visible, so hide the tab-3
-   if ($('current').lenght > 1) {
+   if ($('.current').length > 1) {
     $('#tab-3').removeClass('current');
-  }
+   }
 
 
   //loading data from third tab - end
