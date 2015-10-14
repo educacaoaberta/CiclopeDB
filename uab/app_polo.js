@@ -234,6 +234,9 @@ $('.menuitem').click(function(){
 //function to load sidebar data correct
 function sidebar_load ()
 {
+  //used to know what's tab
+  var thistab='tab-1';
+
   sidebar.show();
 
   $('#tabs-data').show();
@@ -267,8 +270,12 @@ function sidebar_load ()
 
    //loading data from third tab - begin
 
-  //it's necessary the div not hide to timeline works
-   $('#tab-3').addClass('current');
+  //it's necessary the div be showed to timeline works
+  if (!$('#tab-3').hasClass('current')) {
+    $('#tab-3').addClass('current');
+  } else {
+    thistab = 'tab-3';
+  }
 
    //hide all timelines
    $('.tl-timeline').hide();
@@ -291,9 +298,7 @@ function sidebar_load ()
      });
    }
 
-
-   //if current > 1, there are another tab visible, so hide the tab-3
-   if ($('.current').length > 1) {
+   if (thistab != 'tab-3') {
     $('#tab-3').removeClass('current');
    }
 
