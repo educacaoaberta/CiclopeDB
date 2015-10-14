@@ -13,7 +13,7 @@ $.getJSON("json/cursos.json", function(data) {
   });
 
 //loading data for timeline
-$.getJSON("json/linha_ufop_nova.json", function (data){
+$.getJSON("json/linhas.json", function (data){
   timelines = data;
 });
 
@@ -127,8 +127,8 @@ function onEachPolo (feature, layer) {
   }
 
 var ipesIcon = L.icon({
-  iconUrl: 'icons/purple.png',
-  iconSize: [30, 30],
+  iconUrl: 'icons/pin56.png',
+  iconSize: [21, 30],
   iconAnchor: [10, 30],
   popupAnchor: [6, -30]
   });
@@ -166,7 +166,7 @@ var sidebar = L.control.sidebar('sidebar', {
 function onEachFeature (ipes, layer) {
   layer.setIcon(ipesIcon);
   layer.on ('mouseover', function (f) {
-    f.target.bindPopup("<img src=" + "images/" + ipes.properties.Sigla + ".png" + "> <br>" + ipes.properties.Sigla).openPopup();
+    f.target.bindPopup(ipes.properties.Sigla).openPopup();
     });
   layer.on("click", function() {
     thisIpes = ipes.properties.Sigla;
@@ -267,6 +267,14 @@ function sidebar_load ()
 
    //loading data from second tab - end
 
+   //loading data from third tab - begin
+   //create timeline
+   var options = {
+     start_at_slide: 1,
+   };
+   window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
+
+
 };
 
  //functions to tabs on side background
@@ -279,15 +287,6 @@ function sidebar_load ()
    $(this).addClass('current');
    $("#"+tab_id).addClass('current');
 
-   if (tab_id === 'tab-3') {
-     //create timeline
-     var options = {
-       start_at_slide: 1,
-       height: 200
-     };
-     window.timeline = new TL.Timeline('timeline-uff', timelines.UFF ,options);
-     $('<div id=\"timeline-uff\">').appendTo('#tab-3');
-   }
  });
 
 
