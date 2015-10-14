@@ -20,19 +20,6 @@ $.getJSON("json/linhas.json", function (data){
   timelines = data;
 });
 
-// //loading json to timeline
-//   var options = {
-// //        lang: pt-br,
-//     start_at_slide: 1,
-//     height: 200
-//   };
-//
-//
-//   $.getJSON("json/linha_ufop_nova.json", function (data){
-//    window.timeline = new TL.Timeline('timeline-uff', data.UFF ,options);
-//   });
-
-
 //functions to menu
 $('.menu').hide();
 
@@ -317,14 +304,6 @@ function sidebar_load ()
 
    $(this).addClass('current');
    $("#"+tab_id).addClass('current');
-
-  //  if (tab_id === 'tab-3'){
-  //    var options = {
-  //      start_at_slide: 1,
-  //    };
-  //    window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
-  //  }
-
  });
 
 
