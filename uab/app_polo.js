@@ -3,14 +3,14 @@
 var map;
 var thisIpes;
 var cursos;
-var timelines;
+// var timelines;
 $(function() {
 
 
 //loading data for dataTable
-$.getJSON("json/cursos.json", function(data) {
-    cursos = data;
-  });
+// $.getJSON("json/cursos.json", function(data) {
+//     cursos = data;
+//   });
 
 //loading data for timeline
 $.getJSON("json/linhas.json", function (data){
@@ -127,7 +127,7 @@ function onEachPolo (feature, layer) {
   }
 
 var ipesIcon = L.icon({
-  iconUrl: 'icons/pin56.png',
+  iconUrl: 'icons/pin.png',
   iconSize: [21, 30],
   iconAnchor: [10, 30],
   popupAnchor: [6, -30]
@@ -269,10 +269,10 @@ function sidebar_load ()
 
    //loading data from third tab - begin
    //create timeline
-   var options = {
-     start_at_slide: 1,
-   };
-   window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
+  //  var options = {
+  //    start_at_slide: 1,
+  //  };
+  //  window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
 
 
 };

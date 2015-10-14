@@ -27,6 +27,7 @@
   <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
 
   <script src="app_polo.js"></script>
+
 </head>
 
 <body>
@@ -77,11 +78,47 @@
       </thead>
     </table>
 
+    <table id="table_data_ufmt" class="responsive table_data" width="100%">
+      <thead>
+        <tr>
+          <th class="dt-left">Nome</th>
+          <th class="dt-left">Tipo</th>
+          <th class="dt-left">Chamada</th>
+          <th class="dt-left">Carga horária</th>
+          <th class="dt-left">Períodos</th>
+        </tr>
+      </thead>
+    </table>
+
+    <table id="table_data_ufpa" class="responsive table_data" width="100%">
+      <thead>
+        <tr>
+          <th class="dt-left">Nome</th>
+          <th class="dt-left">Tipo</th>
+          <th class="dt-left">Chamada</th>
+          <th class="dt-left">Carga horária</th>
+          <th class="dt-left">Períodos</th>
+        </tr>
+      </thead>
+    </table>
+<!-- Inserir as outras tables para os outros ipes-->
 
   </div>
-  <div id="tab-3" class="tab-content">
-    Aba 3
-  </div>
+  <!-- Desabilitando temporariamente enquanto não consigo resolver os timelines -->
+  <!-- <div id="tab-3" class="tab-content">
+    <div id="timeline-uff" class="timelines"></div>
+    <script>
+      var options = {
+        start_at_slide: 1,
+      };
+
+      //loading data for timeline
+      $.getJSON("json/linhas.json", function (data){
+        window.timeline = new TL.Timeline('timeline-uff', data.UFF,options);
+      });
+
+    </script>
+  </div> -->
 </div>
 
 </body>
