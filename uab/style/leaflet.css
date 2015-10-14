@@ -496,7 +496,7 @@
 }
 
 #menu-group {
-	position: fixed;
+	position: absolute;
 }
 
 
