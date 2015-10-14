@@ -3,46 +3,9 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-  <link rel="stylesheet" href="style/dataTables.css">
-  <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
   <link rel="stylesheet" href="style/sidebar-content.css">
-  <link title="timeline-styles" rel="stylesheet" href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-
-
-
-  <script type='text/javascript' src="libraries/datatables/jquery.dataTables.min.js"></script>
-  <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
-
-<!--  <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script> -->
-
-  <script>
-  $(function() {
-          $('#table_data').dataTable( {
-                   "language": {
-                       "url": "json/datatables_pt-br.json"
-                       },
-                      "ajax": "json/cursos_ufmt.json",
-                      "paging": true,
-                      "order": [0,'asc'],
-                      //To guarantee data is loaded before rendering
-                      "initComplete": function(settings, json) {
-                      }
-                    })
-                    });
-  </script>
-
 
 </head>
-
-<script type="text/javascript">
-var options = {
-  lang: 'pt-br',
-  start_at_slide: '1'
-};
-$.getJSON("json/linha_ufop_nova.json", function (data){
-  window.timeline = new TL.Timeline('timeline-embed', data.UFOP,options);
- });
-</script>
 
 <body>
 
@@ -64,20 +27,6 @@ $.getJSON("json/linha_ufop_nova.json", function (data){
 Ao contário de outras instituições o NEAD da UFOP é uma unidade acadêmica em si, ligada diretamente a pró-reitoria de extensão. Sendo assim, tem um nível e autonomia e possibilidades de ação (e.g. bolsas) que não estão ao alcance, com o mesmo nível de facilidade a outras universidades.
 </div>
 
-<div class="subtitle">Cursos ofertados</div>
-<table id="table_data" class="responsive" width="100%">
-
-  <thead>
-    <tr>
-      <th class="dt-left">Nome</th>
-      <th class="dt-left">Tipo</th>
-      <th class="dt-left">Chamada</th>
-      <th class="dt-left">Carga horária</th>
-      <th class="dt-left">Períodos</th>
-    </tr>
-  </thead>
-</table>
-
 <div class="ref">
 PNAP: Programa Nacional de Formação em Administração Pública</br>
 SECAD/MEC: Especializações para professores, em parceria com a Secretaria de Educação Continuada, Alfabetização e Diversidade (SECAD/MEC)</br>
@@ -87,11 +36,6 @@ UAB: Universidade Aberta do Brasil</br>
 
 <div class="subtitle">Alunos</div>
 4053
-
-<!-- BEGIN Timeline Embed -->
-<div class="subtitle">Linha do tempo</div><br>
-<div id='timeline-embed' style="width: 100%; height: 600px"></div>
-<!-- <div id="timeline-embed"></div> -->
 
 <div class="ref">Fonte: <a href="http://www.cead.ufop.br/index.php/o-cead/historia">http://www.cead.ufop.br/index.php/o-cead/historia</a></div>
 

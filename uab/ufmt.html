@@ -3,39 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-  <link rel="stylesheet" href="style/dataTables.css">
-  <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
   <link rel="stylesheet" href="style/sidebar-content.css">
-
-  <script type='text/javascript' src="libraries/datatables/jquery.dataTables.min.js"></script>
-  <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
-  <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
-
-  <script>
-  $(function() {
-          $('#table_data').dataTable( {
-                   "language": {
-                       "url": "json/datatables_pt-br.json"
-                       },
-                      "ajax": "json/cursos_ufmt.json",
-                      "paging": true,
-                      "order": [0,'asc'],
-                      //To guarantee data is loaded before rendering
-                      "initComplete": function(settings, json) {
-                      }
-                    })
-                    });
-  </script>
-  <script type="text/javascript">
-    var timeline_config = {
-     width: "100%",
-     height: '600',
-     source: 'json/linha_ufmt.json',
-     lang: 'pt-br',
-     start_at_slide: '1',
-     font: 'PT'
-    }
-  </script>
 
 </head>
 
@@ -61,19 +29,6 @@
   A UFMT é pioneira no Brasil por ser a primeira universidade a oferecer um curso de graduação (pedagogia) a distânica. No que tange a UAB, tem um sistema descentralizado de organização. Ao invés de um núcleo central (NEAD) cada unidade conta com um núcleo próprio com apoio de um espaço central (Coordenação de Educação Mediada por Tecnologias da Informação e da Comunicação). Com isso, cada unidade pode definir suas prioridades e políticas de ação, em articulação com os outros núcleos.
 </div>
 
-<div class="subtitle">Cursos ofertados</div>
-<table id="table_data" class="responsive" width="100%">
-  <thead>
-    <tr>
-      <th class="dt-left">Nome</th>
-      <th class="dt-left">Tipo</th>
-      <th class="dt-left">Chamada</th>
-      <th class="dt-left">Carga horária</th>
-      <th class="dt-left">Períodos</th>
-    </tr>
-  </thead>
-</table>
-
 <div class="ref">
 PILOTO: em teste, fase piloto do curso.</br>
 PNAP: Programa Nacional de Formação em Administração Pública</br>
@@ -84,10 +39,6 @@ UAB: Universidade Aberta do Brasil</br>
 
 <div class="subtitle">Alunos</div>
 817
-
-<!-- BEGIN Timeline Embed -->
-<div class="subtitle">Linha do tempo</div><br>
-<div id="timeline-embed"></div>
 
 <div class="subtitle">Estrutura</div>
 <p>Não existe documento “institucionalizando” o NEAD. O Núcleo não consta na estrutura da instituição, cargos e funções dos que nele atuam não estão previstos no organograma da UFMT, não há regimento interno próprio regulamentando sua ação.</p>

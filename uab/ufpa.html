@@ -3,39 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-  <link rel="stylesheet" href="style/dataTables.css">
-  <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
   <link rel="stylesheet" href="style/sidebar-content.css">
-
-  <script type='text/javascript' src="libraries/datatables/jquery.dataTables.min.js"></script>
-  <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
-  <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
-
-  <script>
-  $(function() {
-          $('#table_data').dataTable( {
-                   "language": {
-                       "url": "json/datatables_pt-br.json"
-                       },
-                      "ajax": "json/cursos_ufpa.json",
-                      "paging": true,
-                      "order": [0,'asc'],
-                      //To guarantee data is loaded before rendering
-                      "initComplete": function(settings, json) {
-                      }
-                    })
-                    });
-  </script>
-  <script type="text/javascript">
-    var timeline_config = {
-     width: "100%",
-     height: '600',
-     source: 'json/linha_ufpa.json',
-     lang: 'pt-br',
-     start_at_slide: '1',
-     font: 'PT'
-    }
-  </script>
 
 </head>
 
@@ -58,20 +26,6 @@
 A Assessoria de Educação a Distância está ligada diretamente ao gabinete do Reitor. Conta com prédio e infra-estrutura própria para a produção de recursos educacionais (como por exemplo, estúdio de produção de vídeo). As faculdades contam com seus próprios espaços de coordenação mas contam com o AEDI como um núcleo de apoio para suas iniciativas.
 </div>
 
-<div class="subtitle">Cursos ofertados</div>
-<table id="table_data" class="responsive" width="100%">
-
-  <thead>
-    <tr>
-      <th class="dt-left">Nome</th>
-      <th class="dt-left">Tipo</th>
-      <th class="dt-left">Chamada</th>
-      <th class="dt-left">Carga horária</th>
-      <th class="dt-left">Períodos</th>
-    </tr>
-  </thead>
-</table>
-
 <div class="ref">
 PILOTO: em teste, fase piloto do curso<br>
 PNAP: Programa Nacional de Formação em Administração Pública<br>
@@ -82,10 +36,6 @@ SECAD/MEC: Especializações para professores, em parceria com a Secretaria de E
 
 <div class="subtitle">Alunos</div>
 1901
-
-<!-- BEGIN Timeline Embed -->
-<div class="subtitle">Linha do tempo</div><br>
-<div id="timeline-embed"></div>
 
 <div class="ref">Fonte: <a href="http://www.cead.ufop.br/index.php/o-cead/historia">http://www.cead.ufop.br/index.php/o-cead/historia</a></div>
 
