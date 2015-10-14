@@ -1,7 +1,34 @@
 //free icons from http://icon-park.com/icon/simple-location-map-pin-icon4-purple-free-vector-data/
 
 var map;
+var thisIpes;
+var cursos;
+var timelines;
 $(function() {
+
+
+//loading data for dataTable
+$.getJSON("json/cursos.json", function(data) {
+    cursos = data;
+  });
+
+//loading data for timeline
+$.getJSON("json/linha_ufop_nova.json", function (data){
+  timelines = data;
+});
+
+// //loading json to timeline
+//   var options = {
+// //        lang: pt-br,
+//     start_at_slide: 1,
+//     height: 200
+//   };
+//
+//
+//   $.getJSON("json/linha_ufop_nova.json", function (data){
+//    window.timeline = new TL.Timeline('timeline-uff', data.UFF ,options);
+//   });
+
 
 //functions to menu
 $('.menu').hide();
@@ -142,41 +169,44 @@ function onEachFeature (ipes, layer) {
     f.target.bindPopup("<img src=" + "images/" + ipes.properties.Sigla + ".png" + "> <br>" + ipes.properties.Sigla).openPopup();
     });
   layer.on("click", function() {
-    $("#sidebar").load(ipes.properties.Arquivo)
+    thisIpes = ipes.properties.Sigla;
+    $("#tab-1").load(ipes.properties.Arquivo);
+    //$("#sidebar").load(ipes.properties.Arquivo);
+
     //$(".about").hide();
     //o ipes.properties.Sigla retorna uma string. Quando essa é comparada usando o
     //polos.hasLayer(ipes.properties.Sigla) retorna falso, já que a VAR acima não é string.
     //Problema não resolvido.
     if (ipes.properties.Sigla == "UFF") {
-      map.hasLayer(UFF) ? ("", sidebar.toggle() ) : (map.addLayer(UFF), sidebar.show());
+      map.hasLayer(UFF) ? ("", sidebar.toggle() ) : (map.addLayer(UFF), sidebar_load());
       map.hasLayer(UFMT) ? map.removeLayer(UFMT) : "";
       map.hasLayer(UFOP) ? map.removeLayer(UFOP) : "";
       map.hasLayer(UFPA) ? map.removeLayer(UFPA) : "";
       map.hasLayer(UFC) ? map.removeLayer(UFC) : "";
       }
     if (ipes.properties.Sigla == "UFMT") {
-      map.hasLayer(UFMT) ? ("", sidebar.toggle() ) : (map.addLayer(UFMT), sidebar.show());
+      map.hasLayer(UFMT) ? ("", sidebar.toggle() ) : (map.addLayer(UFMT), sidebar_load());
       map.hasLayer(UFF) ? map.removeLayer(UFF) : "";
       map.hasLayer(UFOP) ? map.removeLayer(UFOP) : "";
       map.hasLayer(UFPA) ? map.removeLayer(UFPA) : "";
       map.hasLayer(UFC) ? map.removeLayer(UFC) : "";
       }
     if (ipes.properties.Sigla == "UFOP") {
-      map.hasLayer(UFOP) ? ("", sidebar.toggle() ) : (map.addLayer(UFOP), sidebar.show());
+      map.hasLayer(UFOP) ? ("", sidebar.toggle() ) : (map.addLayer(UFOP), sidebar_load());
       map.hasLayer(UFF) ? map.removeLayer(UFF) : "";
       map.hasLayer(UFMT) ? map.removeLayer(UFMT) : "";
       map.hasLayer(UFPA) ? map.removeLayer(UFPA) : "";
       map.hasLayer(UFC) ? map.removeLayer(UFC) : "";
     }
     if (ipes.properties.Sigla == "UFPA") {
-       map.hasLayer(UFPA) ? ("", sidebar.toggle() ) : (map.addLayer(UFPA), sidebar.show());
+       map.hasLayer(UFPA) ? ("", sidebar.toggle() ) : (map.addLayer(UFPA), sidebar_load());
        map.hasLayer(UFF) ? map.removeLayer(UFF) : "";
        map.hasLayer(UFMT) ? map.removeLayer(UFMT) : "";
        map.hasLayer(UFOP) ? map.removeLayer(UFOP) : "";
        map.hasLayer(UFC) ? map.removeLayer(UFC) : "";
     }
     if (ipes.properties.Sigla == "UFC") {
-       map.hasLayer(UFC) ? ("", sidebar.toggle() ) : (map.addLayer(UFC), sidebar.show());
+       map.hasLayer(UFC) ? ("", sidebar.toggle() ) : (map.addLayer(UFC), sidebar_load());
        map.hasLayer(UFF) ? map.removeLayer(UFF) : "";
        map.hasLayer(UFMT) ? map.removeLayer(UFMT) : "";
        map.hasLayer(UFOP) ? map.removeLayer(UFOP) : "";
@@ -205,6 +235,60 @@ $('.menuitem').click(function(){
    sidebar.hide();
    $(".about").show();
  });*/
+
+//function to load sidebar data correct
+function sidebar_load ()
+{
+  sidebar.show();
+
+  //loading data from second tab - begin
+
+  //if not existis this class, load data
+  if(!$('#table_data_'+thisIpes.toLowerCase()+'_wrapper').length) {
+    //TODO: melhorar a maneira de selecionar a ipes, desse jeito precisa
+    //navergar por todo o json até achar a ipes em questão
+    $.each(cursos, function (index, value) {
+      if (index === thisIpes) {
+        $('#table_data_'+thisIpes.toLowerCase()).dataTable( {
+               "language": {
+                     "url": "json/datatables_pt-br.json"
+                     },
+                    "aaData" : value.data,
+                    "paging": true,
+                    "order": [0,'asc'],
+                });
+      }
+    });
+  }
+  //hide all datatable
+   $('.dataTables_wrapper').hide();
+   //show only this
+   $('#table_data_'+thisIpes.toLowerCase()+'_wrapper').show();
+
+   //loading data from second tab - end
+
+};
+
+ //functions to tabs on side background
+ $('ul.tabs li').click(function(){
+   var tab_id = $(this).attr('data-tab');
+
+   $('ul.tabs li').removeClass('current');
+   $('.tab-content').removeClass('current');
+
+   $(this).addClass('current');
+   $("#"+tab_id).addClass('current');
+
+   if (tab_id === 'tab-3') {
+     //create timeline
+     var options = {
+       start_at_slide: 1,
+       height: 200
+     };
+     window.timeline = new TL.Timeline('timeline-uff', timelines.UFF ,options);
+     $('<div id=\"timeline-uff\">').appendTo('#tab-3');
+   }
+ });
 
 
 }); //main function

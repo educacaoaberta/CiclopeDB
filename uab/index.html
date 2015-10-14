@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="libraries/leaflet-sidebar/leaflet-sidebar.css">
   <link title="timeline-styles" rel="stylesheet" href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <link rel="stylesheet" href="style/app_polo.css">
+  <link rel="stylesheet" href="style/dataTables.css">
+  <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
+
 
   <script src="libraries/jquery/jquery-2.1.3.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
@@ -20,6 +23,8 @@
   <script src="libraries/leaflet-search/leaflet-search.js"></script>
   <script src="libraries/leaflet-sidebar/leaflet-sidebar.js"></script>
   <script src="http://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+  <script type='text/javascript' src="libraries/datatables/jquery.dataTables.min.js"></script>
+  <script src="http://cdn.datatables.net/responsive/1.0.6/js/dataTables.responsive.js"></script>
 
   <script src="app_polo.js"></script>
 </head>
@@ -37,7 +42,47 @@
   </div>
 </div>
 
-<div id="sidebar">Em desenvolvimento.</div>
+<div id="sidebar">
+  <ul class="tabs">
+    <li class="tab-link current" data-tab="tab-1">Dados Gerais</li>
+    <li class="tab-link" data-tab="tab-2">Dados dos Polos</li>
+    <li class="tab-link" data-tab="tab-3">Linha do Tempo</li>
+  </ul>
+
+  <div id="tab-1" class="tab-content current">
+      Aba 1
+  </div>
+  <div id="tab-2" class="tab-content">
+    <table id="table_data_uff" class="responsive table_data" width="100%">
+      <thead>
+        <tr>
+          <th class="dt-left">Nome</th>
+          <th class="dt-left">Tipo</th>
+          <th class="dt-left">Chamada</th>
+          <th class="dt-left">Carga horária</th>
+          <th class="dt-left">Períodos</th>
+        </tr>
+      </thead>
+    </table>
+
+    <table id="table_data_ufop" class="responsive table_data" width="100%">
+      <thead>
+        <tr>
+          <th class="dt-left">Nome</th>
+          <th class="dt-left">Tipo</th>
+          <th class="dt-left">Chamada</th>
+          <th class="dt-left">Carga horária</th>
+          <th class="dt-left">Períodos</th>
+        </tr>
+      </thead>
+    </table>
+
+
+  </div>
+  <div id="tab-3" class="tab-content">
+    Aba 3
+  </div>
+</div>
 
 </body>
 </html>
