@@ -3,14 +3,17 @@
 var map;
 var thisIpes;
 var cursos;
-// var timelines;
+var timelines;
 $(function() {
+
+//hide all timelines
+$('.timelines').hide();
 
 
 //loading data for dataTable
-// $.getJSON("json/cursos.json", function(data) {
-//     cursos = data;
-//   });
+$.getJSON("json/cursos.json", function(data) {
+    cursos = data;
+  });
 
 //loading data for timeline
 $.getJSON("json/linhas.json", function (data){
@@ -268,11 +271,39 @@ function sidebar_load ()
    //loading data from second tab - end
 
    //loading data from third tab - begin
+
+  //it's necessary the div not hide to timeline works
+   $('#tab-3').addClass('current');
+
+   //hide all timelines
+   $('.tl-timeline').hide();
+
+   //show only this outline
+   $('#timeline-'+thisIpes.toLowerCase()).show();
+
    //create timeline
-  //  var options = {
-  //    start_at_slide: 1,
-  //  };
-  //  window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
+   var options = {
+     start_at_slide: 1,
+   };
+   //window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
+
+   //TODO: melhorar o jeito de identificar qual trecho do json pegar
+   if (!$('#timeline-'+thisIpes.toLowerCase()).hasClass('tl-timeline') ) {
+     $.each(timelines, function (index, value) {
+       if (index === thisIpes) {
+         window.timeline = new TL.Timeline('timeline-'+thisIpes.toLowerCase(), value,options);
+       }
+     });
+   }
+
+
+   //if current > 1, there are another tab visible, so hide the tab-3
+   if ($('current').lenght > 1) {
+    $('#tab-3').removeClass('current');
+  }
+
+
+  //loading data from third tab - end
 
 
 };
@@ -286,6 +317,13 @@ function sidebar_load ()
 
    $(this).addClass('current');
    $("#"+tab_id).addClass('current');
+
+  //  if (tab_id === 'tab-3'){
+  //    var options = {
+  //      start_at_slide: 1,
+  //    };
+  //    window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
+  //  }
 
  });
 
