@@ -1,480 +1,1051 @@
 {
-   "UFF":{
-      "data":[
-         [
-            "Administração publica",
-            "Bacharelado",
-            "PNAP I",
-            2775,
-            8
-         ],
-         [
-            "Educação ambiental",
-            "Aperfeiçoamento",
-            "SECAD I",
-            180,
-            1
-         ],
-         [
-            "Educação de jovens e adultos",
-            "Aperfeiçoamento",
-            "SECAD I",
-            180,
-            1
-         ],
-         [
-            "Educação étnico-racial",
-            "Aperfeiçoamento",
-            "SECAD I",
-            180,
-            1
-         ],
-         [
-            "Educação para a diversidade",
-            "Extensão",
-            "SECAD III",
-            180,
-            1
-         ],
-         [
-            "Empreendedorismo e inovação",
-            "Sequencial",
-            "UAB I",
-            270,
-            4
-         ],
-         [
-            "Ensino de sociologia no ensino médio",
-            "Especialização",
-            "PAR",
-            360,
-            3
-         ],
-         [
-            "Estatuto da criança e do adolescente",
-            "Extensão",
-            "SECAD III",
-            90,
-            1
-         ],
-         [
-            "Gestão em saúde",
-            "Especialização",
-            "PNAP I",
-            420,
-            3
-         ],
-         [
-            "Gestão pública",
-            "Especialização",
-            "PNAP I",
-            420,
-            3
-         ],
-         [
-            "Gestão publica municipal",
-            "Especialização",
-            "PNAP I",
-            420,
-            3
-         ],
-         [
-            "Letras português",
-            "Licenciatura",
-            "PAR",
-            2835,
-            8
-         ],
-         [
-            "Matemática",
-            "Licenciatura",
-            "UAB I",
-            2910,
-            8
-         ],
-         [
-            "Planejamento, implementação e gestão da educação a distancia",
-            "Especialização",
-            "UAB II",
-            465,
-            4
-         ],
-         [
-            "Produção de material didático para a diversidade",
-            "Aperfeiçoamento",
-            "SECAD III",
-            180,
-            1
-         ],
-         [
-            "Tecnologia em sistemas de computação",
-            "Tecnólogo",
-            "UAB I",
-            2120,
-            6
-         ],
-         [
-            "Tecnologias no ensino de matemática",
-            "Especialização",
-            "UAB II",
-            420,
-            4
-         ]
+  "UFF":{
+    "data":[
+      [
+        "Administração publica",
+        "Bacharelado",
+        "PNAP I",
+        2775,
+        8
+      ],
+      [
+        "Educação ambiental",
+        "Aperfeiçoamento",
+        "SECAD I",
+        180,
+        1
+      ],
+      [
+        "Educação de jovens e adultos",
+        "Aperfeiçoamento",
+        "SECAD I",
+        180,
+        1
+      ],
+      [
+        "Educação étnico-racial",
+        "Aperfeiçoamento",
+        "SECAD I",
+        180,
+        1
+      ],
+      [
+        "Educação para a diversidade",
+        "Extensão",
+        "SECAD III",
+        180,
+        1
+      ],
+      [
+        "Empreendedorismo e inovação",
+        "Sequencial",
+        "UAB I",
+        270,
+        4
+      ],
+      [
+        "Ensino de sociologia no ensino médio",
+        "Especialização",
+        "PAR",
+        360,
+        3
+      ],
+      [
+        "Estatuto da criança e do adolescente",
+        "Extensão",
+        "SECAD III",
+        90,
+        1
+      ],
+      [
+        "Gestão em saúde",
+        "Especialização",
+        "PNAP I",
+        420,
+        3
+      ],
+      [
+        "Gestão pública",
+        "Especialização",
+        "PNAP I",
+        420,
+        3
+      ],
+      [
+        "Gestão publica municipal",
+        "Especialização",
+        "PNAP I",
+        420,
+        3
+      ],
+      [
+        "Letras português",
+        "Licenciatura",
+        "PAR",
+        2835,
+        8
+      ],
+      [
+        "Matemática",
+        "Licenciatura",
+        "UAB I",
+        2910,
+        8
+      ],
+      [
+        "Planejamento, implementação e gestão da educação a distancia",
+        "Especialização",
+        "UAB II",
+        465,
+        4
+      ],
+      [
+        "Produção de material didático para a diversidade",
+        "Aperfeiçoamento",
+        "SECAD III",
+        180,
+        1
+      ],
+      [
+        "Tecnologia em sistemas de computação",
+        "Tecnólogo",
+        "UAB I",
+        2120,
+        6
+      ],
+      [
+        "Tecnologias no ensino de matemática",
+        "Especialização",
+        "UAB II",
+        420,
+        4
       ]
-   },
-   "UFOP":{
-      "data":[
-         [
-            "Administração Pública",
-            "Bacharelado",
-            "UAB",
-            3240,
-            8
-         ],
-         [
-            "Administração Publica",
-            "Bacharelado",
-            "PNAP",
-            3090,
-            8
-         ],
-         [
-            "Educacao Ambiental",
-            "Aperfeiçoamento",
-            "SECAD/MEC",
-            180,
-            1
-         ],
-         [
-            "Educacao Ambiental - Escolas Sustentaveis e com Vida",
-            "Aperfeiçoamento",
-            "SECAD/MEC",
-            90,
-            2
-         ],
-         [
-            "Educacao em Direitos Humanos",
-            "Aperfeiçoamento",
-            "SECAD/MEC",
-            180,
-            1
-         ],
-         [
-            "Educacao para a Diversidade e Cidadania",
-            "Aperfeiçoamento",
-            "SECAD/MEC",
-            180,
-            1
-         ],
-         [
-            "Genero e Diversidade na Escola",
-            "Aperfeiçoamento",
-            "SECAD/MEC",
-            200,
-            "n/a"
-         ],
-         [
-            "Geografia",
-            "Licenciatura",
-            "UAB",
-            2895,
-            8
-         ],
-         [
-            "Gestao de Politicas Publicas em Genero e Raca",
-            "Especialização",
-            "SECAD/MEC",
-            360,
-            2
-         ],
-         [
-            "Matemática",
-            "Licenciatura",
-            "UAB",
-            3090,
-            9
-         ],
-         [
-            "Mídias na Educacao",
-            "Especialização",
-            "UAB",
-            360,
-            3
-         ],
-         [
-            "Mídias na Educacao",
-            "Extensão",
-            "UAB",
-            180,
-            2
-         ],
-         [
-            "Pedagogia",
-            "Licenciatura",
-            "UAB",
-            3225,
-            8
-         ],
-         [
-            "Práticas Pedagogicas",
-            "Especialização",
-            "UAB",
-            360,
-            4
-         ],
-         [
-            "Produção de Material Didático para a Diversidade",
-            "Aperfeiçoamento",
-            "SECAD/MEC",
-            180,
-            "n/a"
-         ]
+    ]
+  },
+  "UFOP":{
+    "data":[
+      [
+        "Administração Pública",
+        "Bacharelado",
+        "UAB",
+        3240,
+        8
+      ],
+      [
+        "Administração Publica",
+        "Bacharelado",
+        "PNAP",
+        3090,
+        8
+      ],
+      [
+        "Educacao Ambiental",
+        "Aperfeiçoamento",
+        "SECAD/MEC",
+        180,
+        1
+      ],
+      [
+        "Educacao Ambiental - Escolas Sustentaveis e com Vida",
+        "Aperfeiçoamento",
+        "SECAD/MEC",
+        90,
+        2
+      ],
+      [
+        "Educacao em Direitos Humanos",
+        "Aperfeiçoamento",
+        "SECAD/MEC",
+        180,
+        1
+      ],
+      [
+        "Educacao para a Diversidade e Cidadania",
+        "Aperfeiçoamento",
+        "SECAD/MEC",
+        180,
+        1
+      ],
+      [
+        "Genero e Diversidade na Escola",
+        "Aperfeiçoamento",
+        "SECAD/MEC",
+        200,
+        "n/a"
+      ],
+      [
+        "Geografia",
+        "Licenciatura",
+        "UAB",
+        2895,
+        8
+      ],
+      [
+        "Gestao de Politicas Publicas em Genero e Raca",
+        "Especialização",
+        "SECAD/MEC",
+        360,
+        2
+      ],
+      [
+        "Matemática",
+        "Licenciatura",
+        "UAB",
+        3090,
+        9
+      ],
+      [
+        "Mídias na Educacao",
+        "Especialização",
+        "UAB",
+        360,
+        3
+      ],
+      [
+        "Mídias na Educacao",
+        "Extensão",
+        "UAB",
+        180,
+        2
+      ],
+      [
+        "Pedagogia",
+        "Licenciatura",
+        "UAB",
+        3225,
+        8
+      ],
+      [
+        "Práticas Pedagogicas",
+        "Especialização",
+        "UAB",
+        360,
+        4
+      ],
+      [
+        "Produção de Material Didático para a Diversidade",
+        "Aperfeiçoamento",
+        "SECAD/MEC",
+        180,
+        "n/a"
       ]
-   },
-   "UFPA":{
-      "data":[
-         [
-            "Administração - Piloto",
-            "Bacharelado",
-            "PILOTO",
-            3600,
-            9
-         ],
-         [
-            "Administração Pública",
-            "Bacharelado",
-            "PNAP",
-            3000,
-            8
-         ],
-         [
-            "Biologia",
-            "Licenciatura",
-            "UAB",
-            3230,
-            8
-         ],
-         [
-            "Educação Ambiental",
-            "Extensão",
-            "SECAD",
-            180,
-            ""
-         ],
-         [
-            "Ensino de Matematica no Ensino Medio",
-            "Especialização",
-            "UAB",
-            360,
-            3
-         ],
-         [
-            "Física",
-            "Licenciatura",
-            "UAB",
-            3192,
-            8
-         ],
-         [
-            "Gênero e Diversidade na Escola",
-            "Aperfeiçoamento",
-            "SECAD",
-            200,
-            2
-         ],
-         [
-            "Gestão de Políticas Públicas em Genero e Raça",
-            "Extensão",
-            "SECAD",
-            300,
-            1
-         ],
-         [
-            "Gestão em Saúde",
-            "Especialização",
-            "PNAP",
-            450,
-            3
-         ],
-         [
-            "Gestão Pública",
-            "Especialização",
-            "PNAP",
-            450,
-            3
-         ],
-         [
-            "Gestão Pública Municipal",
-            "Especialização",
-            "PNAP",
-            450,
-            3
-         ],
-         [
-            "Letras Português",
-            "Licenciatura",
-            "UAB",
-            2818,
-            8
-         ],
-         [
-            "Matemática",
-            "Licenciatura",
-            "UAB",
-            3050,
-            10
-         ],
-         [
-            "Mídias na Educacao",
-            "Especialização",
-            "UAB",
-            360,
-            3
-         ],
-         [
-            "Mídias na Educacao",
-            "Extensão",
-            "UAB",
-            140,
-            6
-         ],
-         [
-            "Produção de Material Didático para a Diversidade",
-            "Aperfeiçoamento",
-            "SECAD",
-            180,
-            ""
-         ],
-         [
-            "Química",
-            "Licenciatura",
-            "UAB",
-            3141,
-            8
-         ]
+    ]
+  },
+  "UFPA":{
+    "data":[
+      [
+        "Administração - Piloto",
+        "Bacharelado",
+        "PILOTO",
+        3600,
+        9
+      ],
+      [
+        "Administração Pública",
+        "Bacharelado",
+        "PNAP",
+        3000,
+        8
+      ],
+      [
+        "Biologia",
+        "Licenciatura",
+        "UAB",
+        3230,
+        8
+      ],
+      [
+        "Educação Ambiental",
+        "Extensão",
+        "SECAD",
+        180,
+        ""
+      ],
+      [
+        "Ensino de Matematica no Ensino Medio",
+        "Especialização",
+        "UAB",
+        360,
+        3
+      ],
+      [
+        "Física",
+        "Licenciatura",
+        "UAB",
+        3192,
+        8
+      ],
+      [
+        "Gênero e Diversidade na Escola",
+        "Aperfeiçoamento",
+        "SECAD",
+        200,
+        2
+      ],
+      [
+        "Gestão de Políticas Públicas em Genero e Raça",
+        "Extensão",
+        "SECAD",
+        300,
+        1
+      ],
+      [
+        "Gestão em Saúde",
+        "Especialização",
+        "PNAP",
+        450,
+        3
+      ],
+      [
+        "Gestão Pública",
+        "Especialização",
+        "PNAP",
+        450,
+        3
+      ],
+      [
+        "Gestão Pública Municipal",
+        "Especialização",
+        "PNAP",
+        450,
+        3
+      ],
+      [
+        "Letras Português",
+        "Licenciatura",
+        "UAB",
+        2818,
+        8
+      ],
+      [
+        "Matemática",
+        "Licenciatura",
+        "UAB",
+        3050,
+        10
+      ],
+      [
+        "Mídias na Educacao",
+        "Especialização",
+        "UAB",
+        360,
+        3
+      ],
+      [
+        "Mídias na Educacao",
+        "Extensão",
+        "UAB",
+        140,
+        6
+      ],
+      [
+        "Produção de Material Didático para a Diversidade",
+        "Aperfeiçoamento",
+        "SECAD",
+        180,
+        ""
+      ],
+      [
+        "Química",
+        "Licenciatura",
+        "UAB",
+        3141,
+        8
       ]
-   },
-   "UFMT":{
-      "data":[
-         [
-            "Administração",
-            "Bacharelado",
-            "UAB",
-            3000,
-            8
-         ],
-         [
-            "Administração - Piloto",
-            "Bacharelado",
-            "PILOTO",
-            3000,
-            9
-         ],
-         [
-            "Administração Publica",
-            "Bacharelado",
-            "PNAP",
-            3000,
-            9
-         ],
-         [
-            "Ciências Naturais e Matemática",
-            "Licenciatura",
-            "UAB",
-            2880,
-            8
-         ],
-         [
-            "Direito Ambiental",
-            "Especialização",
-            "UAB",
-            360,
-            4
-         ],
-         [
-            "Educação Ambiental",
-            "Aperfeiçoamento",
-            "SECAD",
-            180,
-            5
-         ],
-         [
-            "Educação Ambiental - Escolas Sustentáveis e com Vida",
-            "Aperfeiçoamento",
-            "SECAD",
-            90,
-            1
-         ],
-         [
-            "Educação para as Relaçõees Etnicorraciais",
-            "Aperfeiçoamento",
-            "SECAD",
-            180,
-            10
-         ],
-         [
-            "Gênero e Diversidade na Escola",
-            "Aperfeiçoamento",
-            "SECAD",
-            200,
-            1
-         ],
-         [
-            "Gestão em Saúde",
-            "Especialização",
-            "PNAP",
-            420,
-            3
-         ],
-         [
-            "Gestão Pública",
-            "Especialização",
-            "PNAP",
-            420,
-            3
-         ],
-         [
-            "Gestão Pública Municipal",
-            "Especialização",
-            "PNAP",
-            510,
-            3
-         ],
-         [
-            "Informatica na Educacao",
-            "Especialização",
-            "UAB",
-            420,
-            3
-         ],
-         [
-            "Letras Língua Portuguesa",
-            "Língua Espanhola e Respectivas Literaturas",
-            "UAB",
-            3976,
-            8
-         ],
-         [
-            "Letras Língua Portuguesa",
-            "Língua Inglesa e Respectivas Literaturas",
-            "UAB",
-            3976,
-            8
-         ],
-         [
-            "Pedagogia",
-            "Licenciatura",
-            "UAB",
-            3210,
-            8
-         ],
-         [
-            "Produção de Material Didático Para a Diversidade",
-            "Aperfeiçoamento",
-            "SECAD",
-            180,
-            1
-         ]
+    ]
+  },
+  "UFMT":{
+    "data":[
+      [
+        "Administração",
+        "Bacharelado",
+        "UAB",
+        3000,
+        8
+      ],
+      [
+        "Administração - Piloto",
+        "Bacharelado",
+        "PILOTO",
+        3000,
+        9
+      ],
+      [
+        "Administração Publica",
+        "Bacharelado",
+        "PNAP",
+        3000,
+        9
+      ],
+      [
+        "Ciências Naturais e Matemática",
+        "Licenciatura",
+        "UAB",
+        2880,
+        8
+      ],
+      [
+        "Direito Ambiental",
+        "Especialização",
+        "UAB",
+        360,
+        4
+      ],
+      [
+        "Educação Ambiental",
+        "Aperfeiçoamento",
+        "SECAD",
+        180,
+        5
+      ],
+      [
+        "Educação Ambiental - Escolas Sustentáveis e com Vida",
+        "Aperfeiçoamento",
+        "SECAD",
+        90,
+        1
+      ],
+      [
+        "Educação para as Relaçõees Etnicorraciais",
+        "Aperfeiçoamento",
+        "SECAD",
+        180,
+        10
+      ],
+      [
+        "Gênero e Diversidade na Escola",
+        "Aperfeiçoamento",
+        "SECAD",
+        200,
+        1
+      ],
+      [
+        "Gestão em Saúde",
+        "Especialização",
+        "PNAP",
+        420,
+        3
+      ],
+      [
+        "Gestão Pública",
+        "Especialização",
+        "PNAP",
+        420,
+        3
+      ],
+      [
+        "Gestão Pública Municipal",
+        "Especialização",
+        "PNAP",
+        510,
+        3
+      ],
+      [
+        "Informatica na Educacao",
+        "Especialização",
+        "UAB",
+        420,
+        3
+      ],
+      [
+        "Letras Língua Portuguesa",
+        "Língua Espanhola e Respectivas Literaturas",
+        "UAB",
+        3976,
+        8
+      ],
+      [
+        "Letras Língua Portuguesa",
+        "Língua Inglesa e Respectivas Literaturas",
+        "UAB",
+        3976,
+        8
+      ],
+      [
+        "Pedagogia",
+        "Licenciatura",
+        "UAB",
+        3210,
+        8
+      ],
+      [
+        "Produção de Material Didático Para a Diversidade",
+        "Aperfeiçoamento",
+        "SECAD",
+        180,
+        1
       ]
-   }
+    ]
+  },
+  "UFSC":{
+    "data":[
+      [
+        "Administração",
+        "Bacharelado",
+        "UAB",
+        3130,
+        9
+      ],
+      [
+        "Administração - Piloto",
+        "Bacharelado",
+        "PILOTO",
+        3024,
+        9
+      ],
+      [
+        "Administração Pública",
+        "Bacharelado",
+        "PNAP",
+        3000,
+        8
+      ],
+      [
+        "Ciências Biológicas",
+        "Licenciatura",
+        "UAB",
+        3137,
+        9
+      ],
+      [
+        "Ciências Contábeis",
+        "Bacharelado",
+        "UAB",
+        3000,
+        9
+      ],
+      [
+        "Ciências Econômicas",
+        "Bacharelado",
+        "UAB",
+        3000,
+        9
+      ],
+      [
+        "Controle da Gestão Pública",
+        "Especialização",
+        "UAB",
+        450,
+        6
+      ],
+      [
+        "Controle da Gestão Pública Municipal",
+        "Especialização",
+        "UAB",
+        450,
+        6
+      ],
+      [
+        "Educação de Jovens e Adultos",
+        "Aperfeiçoamento",
+        "SECAD",
+        180,
+        2
+      ],
+      [
+        "Educação Integral e Integrada",
+        "Aperfeiçoamento",
+        "SECAD",
+        260,
+        null
+      ],
+      [
+        "Educação para a Diversidade e Cidadania",
+        "Aperfeiçoamento",
+        "SECAD",
+        240,
+        1
+      ],
+      [
+        "Ensino de Ciências (Ciencia é 10!)",
+        "Especialização",
+        "UAB",
+        440,
+        3
+      ],
+      [
+        "Ensino de Filosofia no Ensino Médio",
+        "Especialização",
+        "UAB",
+        360,
+        3
+      ],
+      [
+        "Filosofia",
+        "Licenciatura",
+        "UAB",
+        3072,
+        8
+      ],
+      [
+        "Física",
+        "Licenciatura",
+        "UAB",
+        3000,
+        10
+      ],
+      [
+        "Formação de Professores em Matemática",
+        "Especialização",
+        "UAB",
+        450,
+        3
+      ],
+      [
+        "Formação de Professores para Tradução Literária",
+        "Especialização",
+        "UAB",
+        480,
+        3
+      ],
+      [
+        "Gênero e Diversidade na Escola",
+        "Aperfeiçoamento",
+        "SECAD",
+        200,
+        null
+      ],
+      [
+        "Gestão de Bibliotecas Escolares",
+        "Especialização",
+        "UAB",
+        465,
+        5
+      ],
+      [
+        "Gestão em Saúde",
+        "Especialização",
+        "PNAP",
+        420,
+        3
+      ],
+      [
+        "Gestão Pública",
+        "Especialização",
+        "PNAP",
+        420,
+        3
+      ],
+      [
+        "Gestão Pública Municipal",
+        "Especialização",
+        "PNAP",
+        420,
+        3
+      ],
+      [
+        "Letras Espanhol",
+        "Licenciatura",
+        "UAB",
+        3644,
+        9
+      ],
+      [
+        "Letras Inglês",
+        "Licenciatura",
+        "UAB",
+        3015,
+        8
+      ],
+      [
+        "Letras Português",
+        "Licenciatura",
+        "UAB",
+        2964,
+        9
+      ],
+      [
+        "Matemática",
+        "Licenciatura",
+        "UAB",
+        3462,
+        9
+      ],
+      [
+        "Mídias na Educação",
+        "Especialização",
+        "UAB",
+        450,
+        3
+      ],
+      [
+        "Química",
+        "Licenciatura",
+        "UAB",
+        3200,
+        8
+      ]
+    ]
+  },
+  "UFC":{
+    "data":[
+      [
+        "Administração",
+        "Bacharelado",
+        "UAB",
+        3200,
+        9
+      ],
+      [
+        "Administração - Piloto",
+        "Bacharelado",
+        "PILOTO",
+        3200,
+        null
+      ],
+      [
+        "Administração Pública",
+        "Bacharelado",
+        "PNAP",
+        3000,
+        9
+      ],
+      [
+        "Educação Ambiental",
+        "Aperfeiçoamento",
+        "SECAD/MEC",
+        180,
+        1
+      ],
+      [
+        "Educação de Jovens e Adultos na Diversidade",
+        "Aperfeiçoamento",
+        "SECAD/MEC",
+        180,
+        null
+      ],
+      [
+        "Educação em Direitos Humanos",
+        "Aperfeiçoamento",
+        "SECAD/MEC",
+        200,
+        null
+      ],
+      [
+        "Ensino de Ciências (Ciencia é 10!)",
+        "Especialização",
+        "UAB",
+        440,
+        3
+      ],
+      [
+        "Ensino de Filosofia no Ensino Medio",
+        "Especialização",
+        "UAB",
+        360,
+        3
+      ],
+      [
+        "Ensino de Matemática No Ensino Medio",
+        "Especialização",
+        "UAB",
+        360,
+        3
+      ],
+      [
+        "Ensino de Sociologia No Ensino Medio",
+        "Especialização",
+        "UAB",
+        360,
+        3
+      ],
+      [
+        "Física",
+        "Licenciatura",
+        "UAB",
+        2944,
+        10
+      ],
+      [
+        "Letras Espanhol",
+        "Licenciatura",
+        "UAB",
+        3128,
+        10
+      ],
+      [
+        "Letras Inglês",
+        "Licenciatura",
+        "UAB",
+        3072,
+        10
+      ],
+      [
+        "Letras Português",
+        "Licenciatura",
+        "UAB",
+        3040,
+        9
+      ],
+      [
+        "Matemática",
+        "Licenciatura",
+        "UAB",
+        2608,
+        8
+      ],
+      [
+        "Midias na Educação",
+        "Especialização",
+        "UAB",
+        360,
+        19
+      ],
+      [
+        "Midias na Educação",
+        "Extensão",
+        "UAB",
+        160,
+        7
+      ],
+      [
+        "Pedagogia",
+        "Licenciatura",
+        "UAB",
+        3056,
+        10
+      ],
+      [
+        "Quimica",
+        "Licenciatura",
+        "UAB",
+        2912,
+        10
+      ]
+    ]
+  },
+  "UEL":{
+    "data":[
+      [
+        [
+          "Administração - Piloto",
+          "Bacharelado",
+          "PILOTO",
+          3000,
+          10
+        ],
+        [
+          "Administração Publica",
+          "Bacharelado",
+          "PNAP",
+          3000,
+          8
+        ],
+        [
+          "Educação Ambiental",
+          "Aperfeiçoamento",
+          "SECAD",
+          180,
+          "-"
+        ],
+        [
+          "Educação de Jovens e Adultos",
+          "Aperfeiçoamento",
+          "SECAD",
+          180,
+          1
+        ],
+        [
+          "Educação do Campo",
+          "Especialização",
+          "SECAD",
+          420,
+          3
+        ],
+        [
+          "Ensino de Génetica",
+          "Especialização",
+          "UAB",
+          420,
+          3
+        ],
+        [
+          "Estatuto da Criança e do Adolescente",
+          "Extensão",
+          "SECAD",
+          90,
+          "-"
+        ],
+        [
+          "Filosofia",
+          "Licenciatura",
+          "UAB",
+          3060,
+          8
+        ],
+        [
+          "Formação Pedagógica",
+          "Formação Pedagógica",
+          "UAB",
+          900,
+          3
+        ],
+        [
+          "Gênero e Diversidade na Escola",
+          "Aperfeiçoamento",
+          "SECAD",
+          200,
+          1
+        ],
+        [
+          "Gestão em Saúde",
+          "Especialização",
+          "PNAP",
+          420,
+          3
+        ],
+        [
+          "Gestão Pública",
+          "Especialização",
+          "PNAP",
+          420,
+          3
+        ],
+        [
+          "Gestão Pública Municipal",
+          "Especialização",
+          "PNAP",
+          420,
+          3
+        ],
+        [
+          "Pedagogia",
+          "Licenciatura",
+          "UAB",
+          3240,
+          8
+        ],
+        [
+          "Pedagogia (Complementação em Pedagogia)",
+          "Licenciatura",
+          "UAB",
+          1140,
+          "-"
+        ],
+        [
+          "Psicologia da Educação",
+          "Especialização",
+          "UAB",
+          450,
+          3
+        ]
+      ]
+    ]
+  },
+  "UEMA":{
+    "data":[
+      [
+        "Administração - Piloto",
+        "Bacharelado",
+        "PILOTO",
+        3000,
+        10
+      ],
+      [
+        "Administração Publica",
+        "Bacharelado",
+        "PNAP",
+        3000,
+        8
+      ],
+      [
+        "Educação Ambiental",
+        "Aperfeiçoamento",
+        "SECAD",
+        180,
+        null
+      ],
+      [
+        "Educação de Jovens e Adultos",
+        "Aperfeiçoamento",
+        "SECAD",
+        180,
+        1
+      ],
+      [
+        "Educação do Campo",
+        "Especialização",
+        "SECAD",
+        420,
+        3
+      ],
+      [
+        "Ensino de Génetica",
+        "Especialização",
+        "UAB",
+        420,
+        3
+      ],
+      [
+        "Estatuto da Criança e do Adolescente",
+        "Extensão",
+        "SECAD",
+        90,
+        null
+      ],
+      [
+        "Filosofia",
+        "Licenciatura",
+        "UAB",
+        3060,
+        8
+      ],
+      [
+        "Formação Pedagógica",
+        "Formação Pedagógica",
+        "UAB",
+        900,
+        3
+      ],
+      [
+        "Gênero e Diversidade na Escola",
+        "Aperfeiçoamento",
+        "SECAD",
+        200,
+        1
+      ],
+      [
+        "Gestão em Saúde",
+        "Especialização",
+        "PNAP",
+        420,
+        3
+      ],
+      [
+        "Gestão Pública",
+        "Especialização",
+        "PNAP",
+        420,
+        3
+      ],
+      [
+        "Gestão Pública Municipal",
+        "Especialização",
+        "PNAP",
+        420,
+        3
+      ],
+      [
+        "Pedagogia",
+        "Licenciatura",
+        "UAB",
+        3240,
+        8
+      ],
+      [
+        "Pedagogia (Complementação em Pedagogia)",
+        "Licenciatura",
+        "UAB",
+        1140,
+        null
+      ],
+      [
+        "Psicologia da Educação",
+        "Especialização",
+        "UAB",
+        450,
+        3
+      ]
+    ]
+  }
 }

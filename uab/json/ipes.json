@@ -81,28 +81,13 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-              -51.218640,
-              -30.033841
-            ]
-         },
-         "properties":{
-            "IES":"Universidade Federal do Rio Grande do Sul",
-            "Sigla" : "UFRGS",
-            "Arquivo" : "ufrgs.html"
-         }
-      },
-      {
-         "type":"Feature",
-         "geometry":{
-            "type":"Point",
-            "coordinates":[
               -47.882661,
               -21.980772
             ]
          },
          "properties":{
             "IES":"Universidade Federal de São Carlos",
-            "Sigla" : "UFScar",
+            "Sigla" : "UFSCAR",
             "Arquivo" : "ufscar.html"
          }
       },

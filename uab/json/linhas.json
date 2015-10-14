@@ -1,63 +1,924 @@
 {
-  "UFF" : {
-    "title" : {
-      "text" : {
-        "headline" : "Universidade Federal Fluminense",
-        "text" : "<p>Linha do tempo da UFF na Universidade Aberta do Brasil</p>"
+  "UFF":{
+    "title":{
+      "text":{
+        "headline":"Universidade Federal Fluminense",
+        "text":"<p>Linha do tempo da UFF na Universidade Aberta do Brasil</p>"
       }
     },
-    "events" : [ {
-      "start_date" : {
-        "year" : "1998"
+    "events":[
+      {
+        "start_date":{
+          "year":"2000"
+        },
+        "text":{
+          "headline":"Cederj",
+          "text":"UFF inicia sua participação no Consórcio Cederj (Centro de Educação Superior a Distância do Estado do Rio de Janeiro), junto a CEFET, IFF, UENF, UERJ, UFRJ, UFRRJ (Rural) e UNIRIO."
+        }
       },
-      "text" : {
-        "headline":"Formação local",
-        "text":"<p>Município de Itabirito estabeleceu parceria com a UFOP objetivando graduar os professores da rede pública municipal na modalidade presencial. O projeto é um sucesso. Municípios circunvizinhos também solicitaram a mesma parceria. UFOP deseja atender, mas vê limitações para o atendimento presencial de tamanha proporção. </p>"
+      {
+        "start_date":{
+          "year":"2001"
+        },
+        "text":{
+          "headline":"Primeiros cursos EaD",
+          "text":"UFF começa a oferecer cursos a distância, visando promover a educação de forma flexível através do uso de novas tecnologias de comunicação e da informação. "
+        }
+      },
+      {
+        "start_date":{
+          "year":"2011"
+        },
+        "text":{
+          "headline":"Centros: CEAD e NEAMI",
+          "text":"Cria-se o Coordenação de Educação a Distância - CEAD - que dá suporte, presta assessoria, desenvolve atividades que viabilizam ações educativas a distância em diversas áreas do conhecimento para a UFF. Foi instituída assumindo as atribuições do extinto Núcleo de Educação Assistida por Meios Interativos (NEAMI)."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2013"
+        },
+        "text":{
+          "headline":"Curso de extensão",
+          "text":"CEAD-UFF oferece o curso Formação Continuada em Conselhos Escolares, em nível de extensão."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2013"
+        },
+        "text":{
+          "headline":"",
+          "text":"UFF abre seleção para Tutores Presenciais dos Cursos de Especialização na Área de Gestão Pública, na modalidade de Educação a Distância, no âmbito do Sistema Universidade Aberta do Brasil – UAB/UFF."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2013"
+        },
+        "text":{
+          "headline":"Apoio à graduação",
+          "text":"UFF seleciona projetos para a criação de ferramentas de aprendizado para apoiar as disciplinas a distância para cursos presenciais de graduação."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2014"
+        },
+        "text":{
+          "headline":"Pós-graduação latu sensu",
+          "text":"UFF abre inscrições para  Curso de Pós-Graduação Lato Sensu - Especialização em Gestão Escolar na modalidade a distância, destinado a diretores e vice-diretores da rede pública de ensino."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2015"
+        },
+        "text":{
+          "headline":"Gestão da EaD",
+          "text":"UFF promove curso  de especialização em Planejamento, Implementação e Gestão da EAD, nível Pós- Graduação Lato Sensu."
+        }
       }
-    },
-    {
-      "start_date" : {
-        "year": "1998"
-      },
-      "end_date":{
-        "year": "2000"
-      },
-      "text" : {
-        "headline":"Apoio EaD",
-        "text":"<p>UFOP toma como referência a modalidade à distância, oferecida pela Universidade Federal do Mato Grosso (UFMT) com reconhecimento do Ministério da Educação e bons resultados. UFOP faz parceria com UFMT para atender à demanda dos municípios, assessorada pela equipe da UFMT. </p>"
-      }
-    }
     ]
   },
-  "UFOP" : {
-    "title" : {
-      "text" : {
-        "headline" : "Universidade Federal de Ouro Preto",
-        "text" : "<p>Linha do tempo da UFOP na Universidade Aberta do Brasil</p>"
+  "UFOP":{
+    "title":{
+      "text":{
+        "headline":"Universidade Federal de Ouro Preto",
+        "text":"<p>Linha do tempo da UFOP na Universidade Aberta do Brasil</p>"
       }
     },
-    "events" : [ {
-      "start_date" : {
-        "year" : "1998"
+    "events":[
+      {
+        "start_date":{
+          "year":"1998"
+        },
+        "text":{
+          "headline":"Formaçcal",
+          "text":"<p>Município de Itabirito estabeleceu parceria com a UFOP objetivando graduar os professores da rede pública municipal na modalidade presencial. O projeto é um sucesso. Municípios circunvizinhos também solicitaram a mesma parceria. UFOP deseja atender, mas vê limitações para o atendimento presencial de tamanha proporção. </p>"
+        }
       },
-      "text" : {
-        "headline":"Formação local",
-        "text":"<p>Município de Itabirito estabeleceu parceria com a UFOP objetivando graduar os professores da rede pública municipal na modalidade presencial. O projeto é um sucesso. Municípios circunvizinhos também solicitaram a mesma parceria. UFOP deseja atender, mas vê limitações para o atendimento presencial de tamanha proporção. </p>"
+      {
+        "start_date":{
+          "year":"1998"
+        },
+        "end_date":{
+          "year":"2000"
+        },
+        "text":{
+          "headline":"ApoioaD",
+          "text":"<p>UFOP toma como referência a modalidade à distância, oferecida pela Universidade Federal do Mato Grosso (UFMT) com reconhecimento do Ministério da Educação e bons resultados. UFOP faz parceria com UFMT para atender à demanda dos municípios, assessorada pela equipe da UFMT. </p>"
+        }
+      }
+    ]
+  },
+  "UFSC":{
+    "title":{
+      "text":{
+        "headline":"Universidade Federal de Santa Catarina",
+        "text":"<p>Linha do tempo da UFSC na Universidade Aberta do Brasil</p>"
       }
     },
-    {
-      "start_date" : {
-        "year": "1998"
+    "events":[
+      {
+        "start_date":{
+          "year":"1995"
+        },
+        "text":{
+          "headline":"EaD",
+          "text":"UFSC inicia seus trabalhos na modalidade de educação a distância (EaD)"
+        }
       },
-      "end_date":{
-        "year": "2000"
+      {
+        "start_date":{
+          "year":"2003"
+        },
+        "text":{
+          "headline":"Credenciamento",
+          "text":"UFSC foi credenciada pelo MEC para ofertar cursos de graduação a distância no Estado de Santa Catarina, e no Estado da Bahia, de acordo com convênio firmado com a Secretaria Estadual de Educação da Bahia."
+        }
       },
-      "text" : {
-        "headline":"Apoio EaD",
-        "text":"<p>UFOP toma como referência a modalidade à distância, oferecida pela Universidade Federal do Mato Grosso (UFMT) com reconhecimento do Ministério da Educação e bons resultados. UFOP faz parceria com UFMT para atender à demanda dos municípios, assessorada pela equipe da UFMT. </p>"
+      {
+        "start_date":{
+          "year":"2004"
+        },
+        "text":{
+          "headline":"",
+          "text":"A UFSC começa a oferecer cursos de Física e Matemática."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2005"
+        },
+        "text":{
+          "headline":"UAB",
+          "text":"UFSC adere ao sistema Universidade Aberta do Brasil (UAB), passando a abrir possibilidade de trabalhos em EaD e também buscando possibilidades para a criação de material didático para EaD."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2007"
+        },
+        "text":{
+          "headline":"Normatização",
+          "text":"A UFSC estabelece normas aplicáveis ao Programa de EAD da UFSC"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2008"
+        },
+        "text":{
+          "headline":"Coordenadoria para EaD",
+          "text":"A UFSC passa a tratar da EAD na Coordenadoria de EaD. A Coordenadoria de Educação a Distância da UFSC – até então vinculada ao Departamento de Ensino de Graduação (DEG), – assumiu as funções do antigo Departamento de Ensino de Graduação a Distância (dEaD) e passou a responder pelas atividades técnicas, acadêmicas e pedagógicas dos cursos de graduação ofertados nessa modalidade pela instituição."
+        }
       }
-    }
+    ]
+  },
+  "UFC":{
+    "title":{
+      "text":{
+        "headline":"Universidade Federal do Ceará",
+        "text":"<p>Linha do tempo da UFC na Universidade Aberta do Brasil</p>"
+      }
+    },
+    "events":[
+      {
+        "start_date":{
+          "year":"1997"
+        },
+        "text":{
+          "headline":"Grupo de Pesquisa em EaD",
+          "text":"Instituto UFC Virtual começa na Universidade Federal do Ceará, com o Grupo de Pesquisa em Educação a Distância, coordenado pelo Prof. Dr. Mauro Cavalcante Pequeno, desenvolvendo o Projeto EDUCADI, financiado pelo CNPq, com o intuito de minimizar os problemas de aprendizagem dos alunos de regiões marginais urbanas do Ensino Básico;"
+        }
+      },
+      {
+        "start_date":{
+          "year":"1998"
+        },
+        "text":{
+          "headline":"IX SBIE",
+          "text":"Instituto UFC Virtual organizou o IX Simpósio Brasileiro de Informática na Educação, um dos maiores eventos do gênero em toda a América do Sul"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2001"
+        },
+        "text":{
+          "headline":"UniRede",
+          "text":"Ano em que o grupo de EaD da Universidade Federal do Ceará ingressou na UNIREDE - Universidade Virtual Pública do Brasil"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2001"
+        },
+        "text":{
+          "headline":"Cursos",
+          "text":"Instituto UFC Vitual começa a ofertar cursos de Construção de Cursos na Internet, Formação de Comunidades Virtuais de Aprendizagem, Desenvolvimento e Manutenção de Web Sites e Formação em EaD e notou-se a necessidade de concretizar a EaD na UFC"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2003"
+        },
+        "text":{
+          "headline":"Instituto UFC Virtual",
+          "text":"Na gestão do Reitor Roberto Cláudio Bezerra foi criado o Instituto UFC Virtual, tendo como corpo diretor o Prof. Dr. Miguel Araújo (Diretor Geral) e o Prof. Dr. Mauro Pequeno (Diretor Técnico)"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2005"
+        },
+        "text":{
+          "headline":"Nova direção",
+          "text":"A direção geral do Instituto UFC Virtual é assumida por Prof. Mauro Pequeno"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2005"
+        },
+        "text":{
+          "headline":"TV Digital",
+          "text":"Instituto UFC Virtual participou do projeto de definição do padrão de TV Digital Brasileiro, Projeto SBTVD, coordenando o consórcio cearense de instituições (CEFET-CE, INSTITUTO ATLÂNTICO e UNIFOR)"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2006"
+        },
+        "text":{
+          "headline":"Mestrado EaD",
+          "text":"Instituto UFC Virtual faz parceria com a Universidade Norte do Paraná – UNOPAR - e inicia o Mestrado Profissional em Tecnologias de Informação e Comunicação na Formação em EaD. O curso formou ao longo de três anos de funcionamento, mais de 30 alunos"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2006"
+        },
+        "text":{
+          "headline":"Bacharelado em Administração",
+          "text":"Instituto UFC Virtual implementou o curso de Bacharelado em Administração a distância, em parceria com o Banco do Brasil. Este piloto foi o precursor do Programa Universidade Aberta do Brasil (UAB)"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2007"
+        },
+        "text":{
+          "headline":"Um Computador por Aluno",
+          "text":"O Instituto UFC Virtual colabora de forma decisiva para a implementação do projeto UCA (Um Computador por Aluno), um programa do Ministério da Educação, através da Secretaria de Educação a Distância."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2008"
+        },
+        "text":{
+          "headline":"Crescimento de vagas",
+          "text":"Instituto UFC Virtual disponibiliza 3.318 vagas na Educação a Distância"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2009"
+        },
+        "text":{
+          "headline":"Novo bacharelado",
+          "text":"Instituto UFC Virtual criou o curso presencial de Bacharelado em Sistemas e Mídias Digitais, voltado para a formação de profissionais na área de mídias digitais"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2010"
+        },
+        "text":{
+          "headline":"Institucionalização",
+          "text":"Aprovada pelo Conselho Universitário (Consuni), a mudança de regime do Instituto UFC Virtual, que se tornou a 16ª unidade acadêmica da Universidade Federal do Ceará"
+        }
+      }
+    ]
+  },
+  "UFOP":{
+    "title":{
+      "text":{
+        "headline":"Universidade Federal de Ouro Preto",
+        "text":"<p>Linha do tempo da UFOP na Universidade Aberta do Brasil</p>"
+      }
+    },
+    "events":[
+      {
+        "start_date":{
+          "year":"1998"
+        },
+        "text":{
+          "headline":"Parcerias locais",
+          "text":"Município de Itabirito estabeleceu parceria com a UFOP objetivando graduar os professores da rede pública municipal na modalidade presencial. O projeto é um sucesso. Municípios circunvizinhos também solicitaram a mesma parceria. UFOP deseja atender, mas vê limitações para o atendimento presencial de tamanha proporção. "
+        }
+      },
+      {
+        "start_date":{
+          "year":"1998"
+        },
+        "text":{
+          "headline":"Parceria UFMT-UFOP",
+          "text":"UFOP toma como referência a modalidade à distância, oferecida pela Universidade Federal do Mato Grosso (UFMT) com reconhecimento do Ministério da Educação e bons resultados. UFOP faz parceria com UFMT para atender à demanda dos municípios, assessorada pela equipe da UFMT. "
+        }
+      },
+      {
+        "start_date":{
+          "year":"2000"
+        },
+        "text":{
+          "headline":"Criação do NEAD",
+          "text":"Com a educação à distância na UFOP, cria-se o NEAD - Núcleo de Educação Aberta e a Distância - da UFOP (NEAD/UFOP) e aprova-se o Curso de Licenciatura Plena."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2000"
+        },
+        "text":{
+          "headline":"Implementação de polos presenciais",
+          "text":"UFOP implementa pólos presenciais em Barão de Cocais, Nova Era, Paraopeba e outros dez pólos, abrangendo 88 municípios e 3.750 alunos em regiões diversas no estado de Minas Gerais."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2003"
+        },
+        "text":{
+          "headline":"Criação do CEAD",
+          "text":"Criação do CEAD/UFOP: o NEAD/UFOP é aprovado pelo Conselho Universitário passa a constituir-se em um Centro de Educação Aberta e a Distância - CEAD - (CEAD/UFOP), que é uma unidade acadêmica da UFOP vinculado à Pró-reitoria de Extensão e órgão responsável pela administração e coordenação didático-pedagógica dos Programas e Projetos de EAD da UFOP."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2003"
+        },
+        "text":{
+          "headline":"Atuação do CEAD",
+          "text":"CEAD/UFOP oferece cursos de graduação e pós-graduação lato sensu, de Educação Básica e de Educação Infantil; informatiza pólos para levar a inclusão digital a municípios e desenvolve atividades de extensão contemplando a educação infantil e a educação ambiental. "
+        }
+      },
+      {
+        "start_date":{
+          "year":"2014"
+        },
+        "text":{
+          "headline":"Formação",
+          "text":"CEAD realiza inscrições para o Curso de Atualização em ferramentas de comunicação e softwares pedagógicos para uso nas licenciaturas de Matemática e Pedagogia."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2014"
+        },
+        "text":{
+          "headline":"Encontro",
+          "text":"CEAD promove o 1° Encontro de Formação do Curso de Especialização em Coordenação Pedagógica e, simultaneamente, o 3° Encontro de Formação em Gestão Escolar."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2014"
+        },
+        "text":{
+          "headline":"Novo curso proposto",
+          "text":"CEAD propõe oferta de curso: “Atualização em Gestão de Polos de Apoio Presencial\" objetivando capacitar os gestores de Polos UAB/UFOP."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2014"
+        },
+        "text":{
+          "headline":"Primeira turma: Gestão Escolar",
+          "text":"Curso de Especialização em Gestão Escolar da CEAD/UFOP, no âmbito do Programa Nacional Escola de Gestores, formou sua primeira turma."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2014"
+        },
+        "text":{
+          "headline":"Seminário",
+          "text":"CEAD realiza 1º Seminário de Educação e Tecnologias: discutindo diretrizes da Educação Básica, buscando novas possibilidades para a EaD."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2015"
+        },
+        "text":{
+          "headline":"Encontros e formação",
+          "text":"CEAD organiza encontros de formação do Curso de Especialização em Gestão Escolar; o 1° Encontro de Formação e o 3° Encontro de Formação. Os cursos de gestores são realizados através da Escola de Gestores CEAD/UFOP."
+        }
+      }
+    ]
+  },
+  "UFPA":{
+    "title":{
+      "text":{
+        "headline":"Universidade Federal Fluminense",
+        "text":"<p>Linha do tempo da UFF na Universidade Aberta do Brasil</p>"
+      }
+    },
+    "events":[
+      {
+        "start_date":{
+          "year":"1992"
+        },
+        "text":{
+          "headline":"Discussões iniciais: EaD",
+          "text":"Primeiros debates sobre a utilização da educação à distância para ampliar o acesso ao ensino superior gratuito e de qualidade."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1992"
+        },
+        "text":{
+          "headline":"Parceria com UNED",
+          "text":"Inicia-se os cursos de citação de professores e técnicos, em parceria com a Uned-Espanha."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1995"
+        },
+        "text":{
+          "headline":"Open University",
+          "text":"Termina-se a negociação para realizar convênio com a Open University e verifica-se que a proposta não atendia à realidade brasileira. As traduções também eram caríssimas e muito demoradas."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1995"
+        },
+        "text":{
+          "headline":"Caminhos para institucionalização",
+          "text":"Professoras da UFPA propõe o projeto “Implantação da Educação Aberta e a Distância na UFPA” disponibilizando à apreciação do CONSEP (Conselho superior de Ensino e Pesquisa) da UFPA."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1998"
+        },
+        "text":{
+          "headline":"Credenciamento",
+          "text":"A UFPA se credencia no MEC para a oferta de educação à distância."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1999"
+        },
+        "text":{
+          "headline":"Aprovação de projeto",
+          "text":"O projeto “Implantação da Educação Aberta e a Distância na UFPA” é aprovado na UFPA,  sob a responsabilidade da Assessoria de Relações Internacionais (ARNI)."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1999"
+        },
+        "text":{
+          "headline":"Criado SEAD",
+          "text":"Cria-se, em caráter experimental, a Secretaria Especial de Educação a Distância (SEAD), com a função de orientar a política de educação a distância prevista no Plano de Desenvolvimento Institucional (PDI) da UFPA, aprovado pelo Conselho Universitário (CONSUN). Durante 5 anos,a SEAD negociou captação de recursos, elaborou e acompanhou projetos, ofereceu orientação permanente aos coordenadores dos cursos."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2003"
+        },
+        "text":{
+          "headline":"UniRede e consolidação",
+          "text":"A UFPA trabalha com a UniRede, consórcio nacional das universidades públicas, cedendo gratuitamente os materiais produzidos, o que facilitou a implantação do curso, com auxilio da SEED/MEC, prefeituras e recursos do FNDE. O curso dá inicio à formação de professores da rede pública. Além da graduação, foram implantados na UFPA, cursos on-line de língua estrangeira em nível de extensão, de especialização; todos são cursos on-line em plataforma do MEC – e-ProInfo. A UFPA, com base no êxito de sua proposta, tornou-se, à partir de 2003, referência nacional, servindo de modelo para outras IFES que criaram secretarias especiais, como a Universidade Federal do Rio Grande do Sul (UFRGS) e a Universidade Federal do Rio Grande do Norte (UFRN). "
+        }
+      },
+      {
+        "start_date":{
+          "year":"2009"
+        },
+        "text":{
+          "headline":"Formação do AEDI",
+          "text":"O Programa de Educação a Distância, tendo sido reconhecido em sua importância estratégica para a UFPA, transformou-se em Assessoria de Educação a Distância - AEDI, ligada diretamente ao Gabinete do reitor. A UFPA inaugura o prédio destinado à execução das atividades da AEDI, com laboratórios para treinamentos, auditório para eventos e espaço para atividades administrativas da educação a distância. A AEDI está disponível para produção de material didático pedagógico."
+        }
+      }
+    ]
+  },
+  "UEMA":{
+    "title":{
+      "text":{
+        "headline":"Universidade Estadual do Maranhão",
+        "text":"<p>Linha do tempo da UEMA na Universidade Aberta do Brasil</p>"
+      }
+    },
+    "events":[
+      {
+        "start_date":{
+          "year":"2000"
+        },
+        "text":{
+          "headline":"Inauguração do NEAD",
+          "text":"Criação do Núcleo de Educação a Distância (NEAD) da UEMA. A UEMA recebera consultoria da Universidade Federal de Mato Grosso (UFMT) para organizar a Educação à Distancia."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2001"
+        },
+        "text":{
+          "headline":"Credenciamento",
+          "text":"Credenciamento do MEC na oferta de cursos na modalidade a distância. Iniciou-se com a autorização para o funcionamento do Curso de Magistério em Nível Médio na modalidade de ensino a distância."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2005"
+        },
+        "text":{
+          "headline":"Curso: Administração",
+          "text":"O curso de bacharelado em Administração na modalidade a distância (projeto piloto da UAB) é ofertado na UEMA."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2005"
+        },
+        "text":{
+          "headline":"UEMANet",
+          "text":"O UEMANet  presta suporte tecnológico à educação presencial e é responsável pela concepção, intermediação, gestão, avaliação e difusão de projetos em educação a distância da Universidade Estadual do Maranhão (UEMA). "
+        }
+      },
+      {
+        "start_date":{
+          "year":"2012"
+        },
+        "text":{
+          "headline":"Expansão",
+          "text":"A UEMANet, inicia a oferta de 13 (treze) cursos técnicos de nível médio à disância, em parceria com o MEC, através da Secretaria de Educação Profissional e Tecnológica, no âmbito da Rede e-Tec Brasil."
+        }
+      }
+    ]
+  },
+  "UEL":{
+    "title":{
+      "text":{
+        "headline":"Universidade Estadual de Londrina",
+        "text":"<p>Linha do tempo da UEL na Universidade Aberta do Brasil</p>"
+      }
+    },
+    "events":[
+      {
+        "start_date":{
+          "year":"1997"
+        },
+        "end_date":{
+          "year":"2001"
+        },
+        "text":{
+          "headline":"Sondagem EaD",
+          "text":"UEL participa de diversos programas de educação nacionais relacionados à Educação Continuada e à Distância."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2002"
+        },
+        "text":{
+          "headline":"Entrave",
+          "text":"Deliberou-se que a UEL não ofereceria cursos de graduação e pós-graduação strictu sensu a distância."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2008"
+        },
+        "text":{
+          "headline":"Abertura",
+          "text":"Revogou-se o bloqueio a oferta de cursos strictu sensu, e a UEL passou a poder oferecer atividades acadêmicas de modo semipresencial."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2009"
+        },
+        "text":{
+          "headline":"Criação do NEAD",
+          "text":"Criação do NEAD-UEL - Núcleo de Estudos da Educação à Distância da UEL. O NEAD nasceu vinculado à reitoria desta universidade e passou a contar formalmente com lócus capaz de organizar e realizar as atividades ligadas à EAD."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2010"
+        },
+        "text":{
+          "headline":"Consolidação",
+          "text":"NEAD é unido ao <a href=”http://www.labted.net”>Laboratório de Tecnologia Educacional</a>."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2009"
+        },
+        "text":{
+          "headline":"Regulamentação",
+          "text":"Regulamentada a oferta de atividades acadêmicas de forma semipresencial na Universidade Estadual de Londrina, a partir da Resolução 003/2009."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2011"
+        },
+        "text":{
+          "headline":"Ingresso na UAB",
+          "text":"UEL ingressa na Universidade Aberta do Brasil (UAB), oferecendo o curso de pedagogia à distância."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2012"
+        },
+        "text":{
+          "headline":"União LABTED-NEAD",
+          "text":"NEAD passa a fazer parte do Labted - Laboratório de Tecnologia Educacional - contanto com infraestrutra que inclui estúdio, sala de informática e videoconferência e estrutura administrativa."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2013"
+        },
+        "text":{
+          "headline":"Gestão Pública em EaD",
+          "text":"UEL passa a oferecer curso de especialização em Gestão Pública para alguns polos UAB."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2013"
+        },
+        "text":{
+          "headline":"Expansão",
+          "text":"A UEL apresenta projetos ao Ministério da Educação (Governo Federal) para aprovação de novos cursos EAD na universidade."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2014"
+        },
+        "text":{
+          "headline":"Regulamentação interna",
+          "text":"UEL estuda a Resoluções Federais e Atos Normativos da Universidade Estadual de Londrina, que regulamentam as normas da Educação a Distância para que a implementação e regularização possa se dar em 2015."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2014"
+        },
+        "text":{
+          "headline":"Graduação: Gestão Pública",
+          "text":"UEL forma a primeira turma da especialização em Gestão Pública, curso que integra a oferta de cursos a distância pela UAB."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2014"
+        },
+        "text":{
+          "headline":"Revista",
+          "text":"UEL lança a Revista Digital Accio, do Núcleo de Educação a Distância (NEAD). O lançamento foi durante o 39o. aniversário do Labted."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2015"
+        },
+        "text":{
+          "headline":"Tutoria EaD",
+          "text":"UEL oferece o primeiro curso à distância de tutoria em EAD, através do Labted."
+        }
+      }
+    ]
+  },
+  "UFSCar":{
+    "title":{
+      "text":{
+        "headline":"Universidade Federal de São Carlos",
+        "text":"<p>Linha do tempo da UFSCar na Universidade Aberta do Brasil</p>"
+      }
+    },
+    "events":[
+      {
+        "start_date":{
+          "year":"2005"
+        },
+        "text":{
+          "headline":"Análise ",
+          "text":"Divulgação do edital para Educação à Distância SEED-MEC e organização de comissão para articular, na UFSCar, as condições para participação no Programa UAB e também propostas de criação de cursos superiores na modalidade de educação a distância."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2006"
+        },
+        "text":{
+          "headline":"Entrada na UAB",
+          "text":"UFSCar é aprovada no Programa UAB."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2007"
+        },
+        "text":{
+          "headline":"Primeiros cursos",
+          "text":"UFSCar passa a oferecer cursos de graduação a distância como parceira da Universidade Aberta do Brasil (UAB). Debates internos à UFSCar sobre a estruturação da EAD."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2008"
+        },
+        "text":{
+          "headline":"SeaD",
+          "text":"O Conselho Universitário da UFSCar aprova resolução sobre a política de educação a distância e sobre o regimento da Secretaria Geral de Educação a Distância (SEaD) na UFSCar."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2009"
+        },
+        "text":{
+          "headline":"Especialização",
+          "text":"A UAB/UFSCar começa a oferecer especializações. A SEaD foi instalada e organizada em coordenações e ligada à reitoria."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2010"
+        },
+        "text":{
+          "headline":"Garantia de vaga",
+          "text":"A UFSCar resolve sobre a garantia de vaga para alunos pertencentes aos cursos EaD, delimitando que cada aluno deve obter nota mínima 8, em dois módulos contínuos, para que permaneça no curso."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2011"
+        },
+        "text":{
+          "headline":"Coordenadorias",
+          "text":"A EAD UFSCar, através do SEaD, se organiza em 5 (cinco) coordenadorias, relativas à Ensino Aprendizagem, Tecnologias na Educação,  Desenvolvimento e Aperfeiçoamento Profissional, Relações Institucionais e Administração e Planejamento Estratégico."
+        }
+      }
+    ]
+  },
+  "UFMT":{
+    "title":{
+      "text":{
+        "headline":"Universidade Federal do Mato Grosso",
+        "text":"<p>Linha do tempo da UFMT na Universidade Aberta do Brasil</p>"
+      }
+    },
+    "events":[
+      {
+        "start_date":{
+          "year":"1993"
+        },
+        "end_date":{
+          "year":"1994"
+        },
+        "text":{
+          "headline":"",
+          "text":"Os membros do NEAD passaram por formação em EaD, elaboraram materiais didáticos para o curso de Pedagogia à distância, organizaram a infra-estrutura do Centro de Apoio no município de Colíder (MT) e deram início à formação dos orientadores acadêmicos."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1994"
+        },
+        "text":{
+          "headline":"Pedagogia a distância",
+          "text":"A UFMT realiza vestibular especial e 350 professores da rede pública foram matriculados no curso de Pedagogia à distância."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1994"
+        },
+        "text":{
+          "headline":"Primeira graduação EaD",
+          "text":"UFMT passa a ser a primeira instituição de ensino superior a oferecer curso de graduação a distância no Brasil."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1994"
+        },
+        "end_date":{
+          "year":"1994"
+        },
+        "text":{
+          "headline":"Expansão",
+          "text":"UFMT segue expandindo o curso de Pedagogia à distância para todo o estado do Mato Grosso."
+        }
+      },
+      {
+        "start_date":{
+          "year":"1999"
+        },
+        "text":{
+          "headline":"Normas",
+          "text":"UFMT estabelece as normas gerais para criação, autorização e funcionamento de cursos de graduação em EaD. UFMT segue atendendo 2.200 professores da rede pública de ensino. "
+        }
+      },
+      {
+        "start_date":{
+          "year":"1994"
+        },
+        "text":{
+          "headline":"Assessoria EaD",
+          "text":"NEAD/UFMT, durante este período, assessorou a implementação da modalidade a distância e do curso de Pedagogia não somente na Universidade do Estado de Mato Grosso, como nas universidades federais do Espírito Santo, de Ouro Preto, bem assim na Universidade Estadual do Maranhão e na Universidade de Caxias do Sul."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2005"
+        },
+        "text":{
+          "headline":"Educação Infantil",
+          "text":"UFMT oferece curso de Pedagogia, voltado para a Educação Infantil, para mais de 2.000 docentes. "
+        }
+      },
+      {
+        "start_date":{
+          "year":"2006"
+        },
+        "text":{
+          "headline":"Adesão à UAB",
+          "text":"UFMT adere ao Sistema Universidade Aberta do Brasil (UAB)."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2006"
+        },
+        "text":{
+          "headline":"Descentralização dos NEADs",
+          "text":"Departamento de Administração da UFMT cria também seu NEAD, para coordenar a oferta do curso-piloto de Administração à distância, com intenção de atender a 500 estudantes. "
+        }
+      },
+      {
+        "start_date":{
+          "year":"2007"
+        },
+        "text":{
+          "headline":"Descentralização dos NEADs",
+          "text":"Instituto de Física da UFMT, por meio de seu NEAD, começa a oferecer o curso de Ciências e Matemática à distância."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2009"
+        },
+        "text":{
+          "headline":"Parcerias internacionais",
+          "text":"UFMT inicia experiência com parceria internacional na EaD, com a oferta do curso de Pedagogia para 300 estudantes brasileiros que atuam em escolas, no Japão, por meio do Acordo Brasil/Japão. "
+        }
+      },
+      {
+        "start_date":{
+          "year":"2008"
+        },
+        "text":{
+          "headline":"Secretaria de Tecnologias",
+          "text":"UFMT cria a Secretaria de Tecnologias da Comunicação e da Informação Aplicadas a Educação, com o objetivo de possibilitar uma discussão contextualizada de tecnologias, não apenas instrumental, mas com o sentido de apoiar as discussões aplicadas aos contextos educacionais da Instituição."
+        }
+      },
+      {
+        "start_date":{
+          "year":"2013"
+        },
+        "text":{
+          "headline":"Coordenação de Tecnologias",
+          "text":"A Secretaria de Tecnologias da Comunicação e da Informação Aplicadas a Educação é alterada para Coordenação de Educação Mediada por Tecnologias da Informação e da Comunicação, tendo como meta fomentar a institucionalização, a regulação, a supervisão e a avaliação da EaD na UFMT, bem como apoiar processos de gestão e projetos mediados por Tecnologias de Informação e Comunicação (TICs)"
+        }
+      },
+      {
+        "start_date":{
+          "year":"2015"
+        },
+        "text":{
+          "headline":"Consolidação",
+          "text":"UFMT possui política de gestão de EaD descentralizada, de modo que esta funciona no interior dos institutos e faculdades, em núcleos e coordenações específicas. Oferece na modalidade a distância, cursos de graduação, de pós-graduação Lato Sensu, de aperfeiçoamento e de extensão, com mais de cinco mil estudantes matriculados em trinta e um polos de apoio. "
+        }
+      }
     ]
   }
-
 }
