@@ -836,7 +836,7 @@
           "Aperfeiçoamento",
           "SECAD",
           180,
-          "-"
+          null
         ],
         [
           "Educação de Jovens e Adultos",
@@ -864,7 +864,7 @@
           "Extensão",
           "SECAD",
           90,
-          "-"
+          null
         ],
         [
           "Filosofia",
@@ -920,7 +920,7 @@
           "Licenciatura",
           "UAB",
           1140,
-          "-"
+          null
         ],
         [
           "Psicologia da Educação",
@@ -1047,5 +1047,14 @@
         3
       ]
     ]
-  }
+  },
+  "UFSCAR":{
+    "data":[
+      [
+        "Nenhum dado disponível no SISUAB",
+        "",
+        "PILOTO",,
+      ]
+    ]
+}
 }
