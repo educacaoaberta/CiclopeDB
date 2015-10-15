@@ -74,7 +74,6 @@ var brasil = L.geoJson(null, {
       brasil.addData(data);
     });
 
-console.log(brasil);
 //precisa ser criada uma função que consiga pegar os dados de ipes.json (Sigla)
 //e cries as vars automaticamente.
 var UFMT = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
@@ -243,12 +242,6 @@ $('.menuitem').click(function(){
   $("#about-data").load("content/" + menuselected);
   });
 
-// for hiding the sidebar and showing the "about" div again
-/*map.on("click",function() {
-   sidebar.hide();
-   $(".about").show();
- });*/
-
 //function to load sidebar data correct
 function sidebar_load ()
 {
@@ -312,7 +305,7 @@ function sidebar_load ()
 
    //create timeline
    var options = {
-     start_at_slide: 1,
+     start_at_slide: 0,
    };
    //window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
 

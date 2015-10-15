@@ -1053,8 +1053,10 @@
       [
         "Nenhum dado disponível no SISUAB",
         "",
-        "PILOTO",,
+        "PILOTO",
+        null,
+        null
       ]
     ]
-}
+  }
 }
