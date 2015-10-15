@@ -305,7 +305,7 @@ function sidebar_load ()
 
    //create timeline
    var options = {
-     start_at_slide: 0,
+     start_at_slide: 0
    };
    //window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
 
