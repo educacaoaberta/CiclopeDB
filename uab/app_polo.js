@@ -234,7 +234,7 @@ function sidebar_load ()
     //navergar por todo o json até achar a ipes em questão
     $.each(cursos, function (index, value) {
       if (index === thisIpes) {
-        $('#table_data_'+thisIpes.toLowerCase()).dataTable( {
+        $('#table_data_'+thisIpes.toLowerCase()).DataTable( {
                "language": {
                      "url": "json/datatables_pt-br.json"
                      },
