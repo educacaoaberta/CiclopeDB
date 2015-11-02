@@ -74,34 +74,30 @@ var brasil = L.geoJson(null, {
       brasil.addData(data);
     });
 
-//precisa ser criada uma função que consiga pegar os dados de ipes.json (Sigla)
-//e cries as vars automaticamente.
-var UFMT = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-var UFF = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-var UFOP = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-var UFPA = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-var UFC = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-var UFSC = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-var UEMA = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-var UFSCAR = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-var UEL = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+//tentativa de mudar a maneira de trabalhar com as layers
+var allLayers = {
+  "UFMT" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
+  "UFF" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
+  "UFOP" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
+  "UFPA" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
+  "UFC" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
+  "UFSC" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
+  "UEMA" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
+  "UFSCAR" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
+  "UEL" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer})
+};
+
+
+//TODO: essa parte do rest não sei pra quê serve, talvez integrar no allLayers
 var rest = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-var polos = L.layerGroup([UFMT,UFF,UFOP,UFPA,UFC,UFSC,UEMA,UFSCAR,UEL]);
+
+var polos = L.layerGroup(allLayers);
+
+
 
 $.getJSON("json/polos.json", function (data) {
   $.each(data.features, function (key, val) {
-    switch (val.properties.ipes) {
-    case "UFMT": UFMT.addData(val); break;
-    case "UFF": UFF.addData(val); break;
-    case "UFOP": UFOP.addData(val); break;
-    case "UFPA": UFPA.addData(val); break;
-    case "UFC": UFC.addData(val); break;
-    case "UFSC": UFSC.addData(val); break;
-    case "UEMA": UEMA.addData(val); break;
-    case "UFSCAR": UFSCAR.addData(val); break;
-    case "UEL": UEL.addData(val); break;
-    default: rest.addData(val);
-    }
+    allLayers[val.properties.ipes].addData(val);
     });
     });
 
@@ -169,58 +165,22 @@ function onEachFeature (ipes, layer) {
   layer.on("click", function() {
     thisIpes = ipes.properties.Sigla;
     $("#tab-1").load(ipes.properties.Arquivo);
-    //The code below is test only (not optimized) and need to be optimized
-    //o ipes.properties.Sigla retorna uma string. Quando essa é comparada usando o
-    //polos.hasLayer(ipes.properties.Sigla) retorna falso, já que a VAR acima não é string.
-    //Problema não resolvido.
-    if (ipes.properties.Sigla == "UFF") {
-      map.hasLayer(UFMT) ? map.removeLayer(UFMT) : "";
-      map.hasLayer(UFOP) ? map.removeLayer(UFOP) : "";
-      map.hasLayer(UFPA) ? map.removeLayer(UFPA) : "";
-      map.hasLayer(UFC) ? map.removeLayer(UFC) : "";
-      map.hasLayer(UFF) ? ("", sidebar.toggle() ) : (map.addLayer(UFF), sidebar_load());
+    //tentativa de resolução
+    for (var thisLayer in allLayers){
+      if (thisLayer != thisIpes){
+        map.removeLayer(allLayers[thisLayer]);
       }
-    if (ipes.properties.Sigla == "UFMT") {
-      map.hasLayer(UFF) ? map.removeLayer(UFF) : "";
-      map.hasLayer(UFOP) ? map.removeLayer(UFOP) : "";
-      map.hasLayer(UFPA) ? map.removeLayer(UFPA) : "";
-      map.hasLayer(UFC) ? map.removeLayer(UFC) : "";
-      map.hasLayer(UFMT) ? ("", sidebar.toggle() ) : (map.addLayer(UFMT), sidebar_load());
+      else{
+        if (map.hasLayer(allLayers[thisLayer])){
+          sidebar.toggle();
+        }
+        else{
+          map.addLayer(allLayers[thisLayer]);
+          sidebar_load();
+        }
+        }
       }
-    if (ipes.properties.Sigla == "UFOP") {
-      map.hasLayer(UFF) ? map.removeLayer(UFF) : "";
-      map.hasLayer(UFMT) ? map.removeLayer(UFMT) : "";
-      map.hasLayer(UFPA) ? map.removeLayer(UFPA) : "";
-      map.hasLayer(UFC) ? map.removeLayer(UFC) : "";
-      map.hasLayer(UFOP) ? ("", sidebar.toggle() ) : (map.addLayer(UFOP), sidebar_load());
-    }
-    if (ipes.properties.Sigla == "UFPA") {
-      map.hasLayer(UFF) ? map.removeLayer(UFF) : "";
-      map.hasLayer(UFMT) ? map.removeLayer(UFMT) : "";
-      map.hasLayer(UFOP) ? map.removeLayer(UFOP) : "";
-      map.hasLayer(UFC) ? map.removeLayer(UFC) : "";
-      map.hasLayer(UFPA) ? ("", sidebar.toggle() ) : (map.addLayer(UFPA), sidebar_load());
-    }
-    if (ipes.properties.Sigla == "UFC") {
-      map.hasLayer(UFF) ? map.removeLayer(UFF) : "";
-      map.hasLayer(UFMT) ? map.removeLayer(UFMT) : "";
-      map.hasLayer(UFOP) ? map.removeLayer(UFOP) : "";
-      map.hasLayer(UFPA) ? map.removeLayer(UFPA) : "";
-      map.hasLayer(UFC) ? ("", sidebar.toggle() ) : (map.addLayer(UFC), sidebar_load());
-    }
-    //Conteúdo abaixo temporário até arrumarmos uma solução mais eficaz
-    if (ipes.properties.Sigla == "UFSC") {
-      map.hasLayer(UFSC) ? ("", sidebar.toggle() ) : (map.addLayer(UFSC), sidebar_load());
-    }
-    if (ipes.properties.Sigla == "UEMA") {
-      map.hasLayer(UEMA) ? ("", sidebar.toggle() ) : (map.addLayer(UEMA), sidebar_load());
-    }
-    if (ipes.properties.Sigla == "UEL") {
-      map.hasLayer(UEL) ? ("", sidebar.toggle() ) : (map.addLayer(UEL), sidebar_load());
-    }
-    if (ipes.properties.Sigla == "UFSCAR") {
-      map.hasLayer(UFSCAR) ? ("", sidebar.toggle() ) : (map.addLayer(UFSCAR), sidebar_load());
-    }
+
     });
   }
 
