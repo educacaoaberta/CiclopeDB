@@ -17,18 +17,18 @@
 
 <script>
 //var result;
-$.getJSON("cursos_uff.json", function (data){
-  $(function() {
-          $('#table_data').dataTable( {
-                   "language": {
-                         "url": "datatables_pt-br.json"
-                         },
-                        "aaData": data.UFF.data,
-                        "paging": true,
-                        "order": [0,'asc']
-                    })
-                    });
-});
+// $.getJSON("convertcsv.json", function (data){
+//   $(function() {
+//           $('#table_data').dataTable( {
+//                    "language": {
+//                          "url": "datatables_pt-br.json"
+//                          },
+//                         "aaData": data.UFF.data,
+//                         "paging": true,
+//                         "order": [0,'asc']
+//                     })
+//                     });
+// });
 
 
 </script>
@@ -50,8 +50,8 @@ $.getJSON("linhas.json", function (data){
 
 
  $.getJSON("linhas.json", function (data){
-  window.timeline = new TL.Timeline('timeline-uff', data.UFF ,options);
-  window.timeline = new TL.Timeline('timeline-ufop', data.UFOP ,options);
+  //window.timeline = new TL.Timeline('timeline-uff', data.UFF ,options);
+  window.timeline = new TL.Timeline('timeline-ufop', data.UFF ,options);
  });
 
 
