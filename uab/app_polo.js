@@ -172,7 +172,18 @@ function onEachFeature (ipes, layer) {
       }
       else{
         if (map.hasLayer(allLayers[thisLayer])){
+          //this resolve the problem that hide sidebar when about-data is loaded
+          if($('#about-data').is(":visible") ){
+            $('#about-data').hide();
+            $('#tabs-data').show();
+            if (!sidebar.showed){
+              sidebar.show();
+            }
+        }
+        else
+        {
           sidebar.toggle();
+        }
         }
         else{
           map.addLayer(allLayers[thisLayer]);
