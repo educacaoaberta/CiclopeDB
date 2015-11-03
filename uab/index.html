@@ -54,130 +54,27 @@
       <li class="tab-link" data-tab="tab-3">Linha do Tempo</li>
     </ul>
 
+
+    <script>
+
+      var theadDefault = "<thead><tr><th class=\"dt-left\">Nome</th><th class=\"dt-left\">Tipo</th><th class=\"dt-left\">Chamada</th><th class=\"dt-left\">Carga horária</th><th class=\"dt-left\">Períodos</th></tr></thead>";
+
+      //loading ipes data for data_table and timeline
+      $.getJSON("json/ipes.json", function (data) {
+        $.each(data.features, function (key, val) {
+            $('<table id="table_data_'+ val.properties.Sigla.toLowerCase() + '" class="responsive table_data" width="100%">'+ theadDefault).appendTo('#tab-2');
+
+            $('<div id="timeline-'+ val.properties.Sigla.toLowerCase() +'" class="timeline"></div>').appendTo('#tab-3');
+          });
+          });
+
+    </script>
     <div id="tab-1" class="tab-content current">
         Aba 1
     </div>
     <div id="tab-2" class="tab-content">
-      <table id="table_data_uff" class="responsive table_data" width="100%">
-        <thead>
-          <tr>
-            <th class="dt-left">Nome</th>
-            <th class="dt-left">Tipo</th>
-            <th class="dt-left">Chamada</th>
-            <th class="dt-left">Carga horária</th>
-            <th class="dt-left">Períodos</th>
-          </tr>
-        </thead>
-      </table>
-
-      <table id="table_data_ufop" class="responsive table_data" width="100%">
-        <thead>
-          <tr>
-            <th class="dt-left">Nome</th>
-            <th class="dt-left">Tipo</th>
-            <th class="dt-left">Chamada</th>
-            <th class="dt-left">Carga horária</th>
-            <th class="dt-left">Períodos</th>
-          </tr>
-        </thead>
-      </table>
-
-      <table id="table_data_ufmt" class="responsive table_data" width="100%">
-        <thead>
-          <tr>
-            <th class="dt-left">Nome</th>
-            <th class="dt-left">Tipo</th>
-            <th class="dt-left">Chamada</th>
-            <th class="dt-left">Carga horária</th>
-            <th class="dt-left">Períodos</th>
-          </tr>
-        </thead>
-      </table>
-
-      <table id="table_data_ufpa" class="responsive table_data" width="100%">
-        <thead>
-          <tr>
-            <th class="dt-left">Nome</th>
-            <th class="dt-left">Tipo</th>
-            <th class="dt-left">Chamada</th>
-            <th class="dt-left">Carga horária</th>
-            <th class="dt-left">Períodos</th>
-          </tr>
-        </thead>
-      </table>
-
-      <table id="table_data_ufsc" class="responsive table_data" width="100%">
-        <thead>
-          <tr>
-            <th class="dt-left">Nome</th>
-            <th class="dt-left">Tipo</th>
-            <th class="dt-left">Chamada</th>
-            <th class="dt-left">Carga horária</th>
-            <th class="dt-left">Períodos</th>
-          </tr>
-        </thead>
-      </table>
-
-      <table id="table_data_ufc" class="responsive table_data" width="100%">
-        <thead>
-          <tr>
-            <th class="dt-left">Nome</th>
-            <th class="dt-left">Tipo</th>
-            <th class="dt-left">Chamada</th>
-            <th class="dt-left">Carga horária</th>
-            <th class="dt-left">Períodos</th>
-          </tr>
-        </thead>
-      </table>
-
-      <table id="table_data_uema" class="responsive table_data" width="100%">
-        <thead>
-          <tr>
-            <th class="dt-left">Nome</th>
-            <th class="dt-left">Tipo</th>
-            <th class="dt-left">Chamada</th>
-            <th class="dt-left">Carga horária</th>
-            <th class="dt-left">Períodos</th>
-          </tr>
-        </thead>
-      </table>
-
-      <table id="table_data_ufscar" class="responsive table_data" width="100%">
-        <thead>
-          <tr>
-            <th class="dt-left">Nome</th>
-            <th class="dt-left">Tipo</th>
-            <th class="dt-left">Chamada</th>
-            <th class="dt-left">Carga horária</th>
-            <th class="dt-left">Períodos</th>
-          </tr>
-        </thead>
-      </table>
-
-      <table id="table_data_uel" class="responsive table_data" width="100%">
-        <thead>
-          <tr>
-            <th class="dt-left">Nome</th>
-            <th class="dt-left">Tipo</th>
-            <th class="dt-left">Chamada</th>
-            <th class="dt-left">Carga horária</th>
-            <th class="dt-left">Períodos</th>
-          </tr>
-        </thead>
-      </table>
-  <!-- Inserir as outras tables para os outros ipes-->
-
     </div>
     <div id="tab-3" class="tab-content">
-      <div id="timeline-uff" class="timeline"></div>
-      <div id="timeline-ufop" class="timelines"></div>
-      <div id="timeline-ufmt" class="timelines"></div>
-      <div id="timeline-ufpa" class="timelines"></div>
-      <div id="timeline-ufsc" class="timelines"></div>
-      <div id="timeline-uema" class="timelines"></div>
-      <div id="timeline-uel" class="timelines"></div>
-      <div id="timeline-ufscar" class="timelines"></div>
-      <div id="timeline-ufc" class="timelines"></div>
     </div>
   </div> <!--End tabs-data -->
 </div>
