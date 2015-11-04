@@ -59,11 +59,12 @@ var allLayers = {};
 var ipes = L.geoJson(null, {
   onEachFeature: onEachFeature
     });
-  $.getJSON("json/ipes.json", function (data) {
-    ipes.addData(data);
-    $.each(data.features, function (key, val) {
-      allLayers[val.properties.Sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-    });
+
+$.getJSON("json/ipes.json", function (data) {
+  ipes.addData(data);
+  $.each(data.features, function (key, val) {
+    allLayers[val.properties.Sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+      });
     });
 
 var brasil = L.geoJson(null, {
@@ -79,12 +80,7 @@ var brasil = L.geoJson(null, {
       brasil.addData(data);
     });
 
-//TODO: essa parte do rest não sei pra quê serve, talvez integrar no allLayers
-var rest = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-
 var polos = L.layerGroup(allLayers);
-
-
 
 $.getJSON("json/polos.json", function (data) {
   $.each(data.features, function (key, val) {
@@ -95,7 +91,7 @@ $.getJSON("json/polos.json", function (data) {
 function pointToLayer (feature, latlng) {
   return L.circleMarker(latlng, {
   radius: 6, weight: 1,
-  fillColor: "#1DA7D2", color: "#0F3153",
+  fillColor: "#267FCA", color: "#000",
   opacity: 1, fillOpacity: 0.6
   });
   }
@@ -148,7 +144,7 @@ var sidebar = L.control.sidebar('sidebar', {
 
 //each pin clicked will call the related .html available in the json file (Arquivo)
 function onEachFeature (ipes, layer) {
-  layer.setIcon(ipesIcon);
+  // layer.setIcon(ipesIcon);
   layer.on ('mouseover', function (f) {
     f.target.bindPopup(ipes.properties.Sigla).openPopup();
     });
