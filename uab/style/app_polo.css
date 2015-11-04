@@ -123,7 +123,7 @@ img {
 
 .menuitem {
   display: none;
-  font-size: 1.1em;
+  font-size: 1.3em;
   background-color: white;
   color: #0F3153;
   text-decoration: none;
@@ -179,8 +179,8 @@ img {
 	margin-top: 10px;
 	border-radius: 4px;
 	background-image: url(images/menu.png);
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 27px;
 	background-color: #fff;
 	text-align: center;
 	z-index: 1000;
@@ -225,6 +225,14 @@ ul.tabs li.current{
 
 .tl-timeline {
 	min-height: 500px
+}
+
+.leaflet-top {
+  top: 40px;
+}
+
+.leaflet-left {
+  left: 2px;
 }
 
 } /* close @media
