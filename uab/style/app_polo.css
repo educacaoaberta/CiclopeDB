@@ -168,4 +168,61 @@ img {
   padding: 4px;
 }
 
+
+/*div icon menu*/
+#menu-icon {
+	background-clip: padding-box;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 4px;
+	background-image: url(images/menu.png);
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	text-align: center;
+	z-index: 1000;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+}
+
+#menu-group {
+	position: absolute;
+}
+
+
+/*CSS for tabs*/
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+.tl-timeline {
+	min-height: 500px
+}
+
 } /* close @media
