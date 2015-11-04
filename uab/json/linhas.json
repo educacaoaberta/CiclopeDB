@@ -8,6 +8,9 @@
     },
     "events":[
       {
+        "media" : {
+          "url": "http://cederj.edu.br/fundacao/wp-content/uploads/2014/03/marca_fundacao_cecierj_consorcio_cederj.png"
+        },
         "start_date":{
           "year":"2000"
         },
