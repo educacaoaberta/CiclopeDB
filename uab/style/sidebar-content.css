@@ -1,39 +1,33 @@
-@font-face {
-  font-family: cabin;
-  src: url(../font/QuattrocentoSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: cabin-bold;
-  src: url(../font/QuattrocentoSans-Bold.ttf);
-}
-
 body {
-  font-family: cabin;
+  font-family: "quattro";
   padding: 5px;
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 150%;
   margin: 0px;
   margin-top: 5px;
 }
 
+.leaflet-container {
+  font-family: "quattro" !important;
+}
+
 .title {
-  font-family: cabin-bold;
+  font-family: "quattro-bold";
   font-size: 2em;
   padding-bottom: 3px;
 }
 
 .subtitle {
-  font-family: "cabin-bold", sans-serif;
-  font-size: 1.2em;
+  font-family: "quattro-bold", sans-serif;
+  font-size: 1.4em;
   margin-top: 20px;
 }
 
 .ref {
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 
 .cit {

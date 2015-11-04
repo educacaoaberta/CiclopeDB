@@ -2,12 +2,12 @@
 /* layer icons from http://findicons.com/icon/437348/layers */
 
 @font-face {
-  font-family: cabin;
+  font-family: quattro;
   src: url(../font/QuattrocentoSans-Regular.ttf);
 }
 
 @font-face {
-  font-family: cabin-bold;
+  font-family: quattro-bold;
   src: url(../font/QuattrocentoSans-Bold.ttf);
 }
 
@@ -27,7 +27,7 @@
 @media screen and (min-width: 480px) {
 
 html, body {
-	font-family: "cabin", sans-serif;
+	font-family: "quattro", sans-serif;
 }
 
 /*custom tooltip, tried using className in bindPopup but it does not override*/
@@ -46,6 +46,7 @@ html, body {
 }
 
 #map {
+  font-family: "quattro";
   float:left;
   position:fixed;
   /*background: #eee;*/
@@ -158,6 +159,7 @@ img {
 	margin-right: 0px;
   margin-top: 5px;
 	padding: 20px;
+  font-size: 1.2em;
 }
 
 .pontoschave a:link, .pontoschave a:visited {
