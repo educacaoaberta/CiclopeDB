@@ -248,6 +248,7 @@ function sidebar_load ()
     });
   }
 
+
    //loading data from second tab - end
 
    //loading data from third tab - begin
@@ -299,6 +300,15 @@ function sidebar_load ()
 
    $(this).addClass('current');
    $("#"+tab_id).addClass('current');
+
+   //this code resolve issue #31
+   //this resolve the problem with first datatable loaded
+   if ($('#tab-2').hasClass('current')) {
+        $('#table_data_'+thisIpes.toLowerCase()).DataTable().responsive.recalc();
+   }
+
+
+
  });
 
 
