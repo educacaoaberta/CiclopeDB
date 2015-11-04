@@ -54,11 +54,16 @@ var base = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 //     cb(json)
 //     };
 
+var allLayers = {};
+
 var ipes = L.geoJson(null, {
   onEachFeature: onEachFeature
     });
   $.getJSON("json/ipes.json", function (data) {
     ipes.addData(data);
+    $.each(data.features, function (key, val) {
+      allLayers[val.properties.Sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+    });
     });
 
 var brasil = L.geoJson(null, {
@@ -73,20 +78,6 @@ var brasil = L.geoJson(null, {
     $.getJSON("br.json", function(data) {
       brasil.addData(data);
     });
-
-//tentativa de mudar a maneira de trabalhar com as layers
-var allLayers = {
-  "UFMT" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
-  "UFF" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
-  "UFOP" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
-  "UFPA" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
-  "UFC" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
-  "UFSC" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
-  "UEMA" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
-  "UFSCAR" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer}),
-  "UEL" : L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer})
-};
-
 
 //TODO: essa parte do rest não sei pra quê serve, talvez integrar no allLayers
 var rest = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
