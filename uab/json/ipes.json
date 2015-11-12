@@ -3,10 +3,28 @@
    "features":[
       {
          "type":"Feature",
-         "properties":{
+         "properties": {
            "Nome" : "Universidade Federal Fluminense",
+           "UAB" : "CEAD – Coordenação de Educação a Distância",
            "Sigla" : "UFF",
-           "Arquivo" : "uff.html"
+           "Arquivo" : "uff.html",
+           "detalhes": {
+             "Coordenador UAB": "Ilka Márcia Ribeiro de Souza Serra",
+             "Coordenador Adjunto": "João Augusto Ramos e Silva",
+             "Endereço": "Cidade Universitária Paulo VI, Prédio: UemaNet -  CAIXA POSTAL 09",
+             "Bairro": "Tirircal",
+             "CEP": "65.055-970",
+             "Cidade": "São Luis",
+             "Estado": "MA",
+             "Telefone 1": "(98) 2106-8970",
+             "Telefone 2": "(98) 3257-1195",
+             "Telefone 3": "(98) 3256-1515",
+             "Email": "contato@UEMAnet.UEMA.br",
+             "Email2": "educampoUEMA@gmail.com",
+             "URL": "http://www.uemanet.uema.br",
+             "URL2" : "https://www.youtube.com/channel/UCSGmY-dtg4hEU-39-usTwAg",
+             "Alunos" : "3903"
+           }
          },
          "geometry":{
             "type":"Point",
