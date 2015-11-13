@@ -10,6 +10,28 @@
 <body>
 
 <!--dados IPES aqui via JSON-->
+<script>
+var ipes;
+
+$.getJSON("json/ipes.json", function (data) {
+  $.each(data.features, function (key, val) {
+    //TODO: achar um jeito melhor de fazer isso
+    //TODO: fazer uma função no app_polo que recebe a sigla
+    if(val.properties.Sigla == "UEL"){
+      $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
+      $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
+      $.each(val.properties.detalhes, function (titulo, valor) {
+        $('<b>' + titulo + '</b> ' + valor + '</br>').appendTo("#dados_ipes p");
+      });
+        }
+      });
+    });
+
+</script>
+
+<div id="nome_ipes" class="title"></div>
+<div id="uab" class="title"></div>
+<div id="dados_ipes"><p></p></div>
 
 <div class="ref">
 PAR: Plano de Ações Articuladas<br>
