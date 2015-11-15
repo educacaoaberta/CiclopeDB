@@ -80,13 +80,19 @@ var brasil = L.geoJson(null, {
       brasil.addData(data);
     });
 
-var polos = L.layerGroup(allLayers);
+var polos = L.layerGroup();
 
 $.getJSON("json/polos.json", function (data) {
   $.each(data.features, function (key, val) {
+    //Isso é uma gambiarra, mas não resolve o problema da issu #34
+    if (typeof allLayers[val.properties.ipes] == 'undefined') {
+        allLayers[val.properties.ipes] =  L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+    }
     allLayers[val.properties.ipes].addData(val);
-    });
-    });
+    //adicionando cada conjunto de polos
+    polos.addLayer(val);
+  });
+});
 
 function pointToLayer (feature, latlng) {
   return L.circleMarker(latlng, {
