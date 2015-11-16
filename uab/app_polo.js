@@ -76,14 +76,14 @@ $.getJSON("json/ipes.json", function (data) {
 
 var brasil = L.geoJson(null, {
   style: {
-    weight: 2,
+    weight: 1,
     color: "#fff",
     opacity: 1,
-    fillColor: "#dddddd",
-    fillOpacity: 0.9
+    fillColor: "#ccc",
+    fillOpacity: 1
     }
     });
-    $.getJSON("br.json", function(data) {
+    $.getJSON("br_estados.json", function(data) {
       brasil.addData(data);
     });
 
