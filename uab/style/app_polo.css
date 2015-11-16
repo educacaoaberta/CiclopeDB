@@ -193,7 +193,6 @@ img {
 	position: absolute;
 }
 
-
 /*CSS for tabs*/
 ul.tabs{
 	margin: 0px;
@@ -233,6 +232,17 @@ ul.tabs li.current{
 
 .leaflet-left {
   left: 2px;
+}
+
+.ipes-logo {
+  max-width: 400px;
+  padding: 5px;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+.ipes-data {
+  line-height: 110%;
 }
 
 } /* close @media

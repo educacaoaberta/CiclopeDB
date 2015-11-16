@@ -2,31 +2,38 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
   <link rel="stylesheet" href="style/sidebar-content.css">
-
 </head>
 
 <body>
 
-<!--Dados JSON-->
+<script>
+  //show general IPES data from JSON
+  var ipes;
+  $.getJSON("json/ipes.json", function (data) {
+    $.each(data.features, function (key, val) {
+      //TODO: achar um jeito melhor de fazer isso
+      if(val.properties.Sigla == thisIpes){
+        $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
+        $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
+        $.each(val.properties.detalhes, function (titulo, valor) {
+          $('<b>' + titulo + ': ' + '</b>' +
+          valor + '</br>').appendTo("#dados_ipes p");
+        });
+      }
+    });
+  });
+  </script>
 
 <div class="pontoschave">
-A Universidade Federal de São Carlos organizou a Secretaria Geral de Educação à Distância, que está diretamente relacionada à reitoria da universidade, e está organizada em cinco diferentes coordenações que, juntas, trabalham para oferecer educação à distância.
+  <div id="nome_ipes" class="title"></div>
+  <div id="uab" class="title"></div>
+  A Universidade Federal de São Carlos organizou a Secretaria Geral de Educação à Distância, que está diretamente relacionada à reitoria da universidade, e está organizada em cinco diferentes coordenações que, juntas, trabalham para oferecer educação à distância. Não há  distinção formal entre a educação a distância e a UAB - todas as iniciativas são coordenadas pelo SEaD.
 </div>
+<div id="dados_ipes"><p></p></div>
 
-<div class="ref">
-PAR: Plano de Ações Articuladas<br>
-PNAP: Programa Nacional de Formação em Administração Pública<br>
-SECAD/MEC: Especializações para professores, em parceria com a Secretaria de Educação Continuada, Alfabetização e Diversidade (SECAD/MEC)<br>
-<i>Dados extraídos do SISUAB (junho/2015)</i>
-</div>
-
-<div class="subtitle">Alunos</div>
-1500
 
 <div class="subtitle">Estrutura</div>
-<p>SEaD
 <p>Todas as iniciativas de EaD da UFSCar são apoiadas pela Secretaria Geral de Educação a Distância (SEaD). Para desempenho de suas finalidades, a SEaD é constituída por uma equipe que apoia as coordenações de curso (de graduação e especialização).</p>
 A SEaD é formada por coordenadorias que contemplam: a Coordenadoria de Processos de Ensino-Aprendizagem (CoPEA), a Coordenadoria de Inovações em Tecnologias na Educação (CITE), a Coordenadoria de Desenvolvimento e Aperfeiçoamento Profissional em EaD (CoDAP), a Coordenadoria de Relações Institucionais (CoRI) e a Coordenadoria de Administração e Planejamento Estratégico (CAPE). (UFSCar, 2015).
 Cada coordenadoria conta com uma equipe que organiza e efetua as ações e atividades, organizando e colocando a EaD UFSCar para funcionar em suas diversas instâncias.As coordenadorias são articuladas e dão apoio aso cursos. O trabalho da SEaD é relacionado diretamente ao âmbito institucional da UFSCar e à reitoria da Universidade. (Mill, 2013).
@@ -35,10 +42,8 @@ A relação formal com os polos de apoio presencial, foi estabelecida por meio d
 </p>
 
 <div class="subtitle">Material didático/recursos educacionais</div>
-<p>A Fundação <a href="http://cederj.edu.br/fundacao/">CECIERJ</a> é responsável pela produção do material didático, pela gestão operacional da metodologia de EAD e pela montagem e operacionalização dos polos regionais (BENCHIMOL et al., 2010, p. 101). O material didático é impresso, em vídeo e no computador. Existe uma equipe de cerca de 100 docentes conteudistas das Universidades consorciadas, 75 técnicos na sede do CEDERJ (webdesigners, redatores, revisores, ilustradores, diagramadores, produtor gráfico, editor de vídeo, etc.)(COSTA, 2005). Todo material utilizado nas aulas obedece ao licenciamento do Creative Commons com restrições, tais como: são livres para cópia desde que citada a fonte e sem fins comerciais, nem alteração de conteúdo. (BENCHIMOL et al., 2010, p. 106). A plataforma é o local onde todo o conteúdo do curso, assim como o material multimídia, é disponibilizado para o aluno. Este ambiente é como se fosse o “Campus da Universidade Virtual” onde o aluno tem acesso às aulas, download de arquivos, quadro de avisos, etc. A nova plataforma CEDERJ utiliza o Sistema Quantum 3.0 (BENCHIMOL et al., 2010, p. 104).</p>
-<p>Todo o material produzido passa por uma revisão de língua portuguesa e por uma revisão de conteúdo. Esta última é feita por pesquisadores conceituados das áreas específicas da Biologia (<i>ad hoc</i>). Finalizado o processo de revisão, o conteúdo das disciplinas, inicialmente disponível na World Wide Web para os alunos matriculados no curso de Biologia do CEDERJ, é publicado em CD-ROM com ISBN. A reprodução deste material para educação sem fins comerciais e sem alterações da obra original é permitida desde que citada a fonte, obedecendo assim os preceitos do Creative Commons. O CD-ROM foi desenvolvido para funcionar em um computador com os requisitos mínimos de sistema recomendados: Microsoft Windows XP, Internet Explorer 6 ou Firefox versão 3, Flash Player 8, processador Pentium com 512 de memória e leitor de CD-ROM (BENCHIMOL et al., 2010, p. 111).</p>
-<p>Na elaboração do material digital são usados os softwares: Flash/Photoshop/Software de ilustração vetorial/ActionScript/Software 3D/Corel. Adobe Flash / Photoshop / Software de ilustração vetorial / ActionScript / Corel/ HTML. Flash / Photoshop / Software de ilustração vetorial/Corel Draw. O perfil desejável é o domínio das linguagens de programação: PHP, ActionScript (Flash) e Java (BENCHIMOL et al., 2010).
-</p>
+<p>A UFSCar conta com um setor específico para a produção de recursos educacionais. Para além,
+conta com o LOAD...</p>
 
 <div class="subtitle">Ambiente Virtual de Aprendizagem</div>
 <p>O CEAD/UFF utiliza o Moodle.</p>

@@ -142,7 +142,6 @@ var overlayMaps = {
 // add locate button
 L.control.locate().addTo(map);
 
-
 //adds controls but also adds al layews to map
 L.control.layers(baseMaps, overlayMaps,{position: 'topleft'}).addTo(map);
 // map.addControl( new L.Control.Search({ callData: searchLayer }) );
@@ -254,8 +253,6 @@ function sidebar_load ()
       }
     });
   }
-
-
    //loading data from second tab - end
 
    //loading data from third tab - begin
@@ -291,11 +288,7 @@ function sidebar_load ()
    if (thistab != 'tab-3') {
     $('#tab-3').removeClass('current');
    }
-
-
-  //loading data from third tab - end
-
-
+   //loading data from third tab - end
 };
 
  //functions to tabs on side background
@@ -313,11 +306,6 @@ function sidebar_load ()
    if ($('#tab-2').hasClass('current')) {
         $('#table_data_'+thisIpes.toLowerCase()).DataTable().responsive.recalc();
    }
-
-
-
  });
-
-
 
 }); //main function
