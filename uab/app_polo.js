@@ -56,6 +56,9 @@ var base = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 var allLayers = {};
 
+var polos = L.layerGroup();
+
+
 var ipes = L.geoJson(null, {
   onEachFeature: onEachFeature
     });
@@ -64,6 +67,10 @@ $.getJSON("json/ipes.json", function (data) {
   ipes.addData(data);
   $.each(data.features, function (key, val) {
     allLayers[val.properties.Sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+
+    //Isso resolve a Issue #34
+    polos.addLayer(allLayers[val.properties.Sigla]);
+
       });
     });
 
@@ -80,19 +87,17 @@ var brasil = L.geoJson(null, {
       brasil.addData(data);
     });
 
-var polos = L.layerGroup();
 
 $.getJSON("json/polos.json", function (data) {
   $.each(data.features, function (key, val) {
-    //Isso é uma gambiarra, mas não resolve o problema da issu #34
+    //Isso é uma gambiarra, mas não resolve o problema da issue #34
     if (typeof allLayers[val.properties.ipes] == 'undefined') {
         allLayers[val.properties.ipes] =  L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
     }
     allLayers[val.properties.ipes].addData(val);
-    //adicionando cada conjunto de polos
-    polos.addLayer(val);
   });
 });
+
 
 function pointToLayer (feature, latlng) {
   return L.circleMarker(latlng, {
