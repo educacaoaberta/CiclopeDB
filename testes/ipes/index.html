@@ -4,9 +4,10 @@
 
 	<title>Mapa dos Pólos UAB</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
 	<script src="ipes-all.json" type="text/javascript"></script>
 
 	<style type="text/css" charset="utf-8">
@@ -49,7 +50,7 @@
 				brasil.addData(data);
 			});
 
-	var ipes = L.geoJson(IPES, {onEachFeature: onEachFeature});
+	var ipes = L.geoJson(null, {onEachFeature: onEachFeature, pointToLayer: pointToLayer});
 	$.getJSON("ipes-all.json", function (data) {
 	  ipes.addData(data);
 	});
@@ -77,13 +78,16 @@
 		 });
 	 };
 
-var map = L.map('map', {layers: [ipes, brasil]}).setView(new L.LatLng(-14.953349393643416,-52.220703125),5);
+var map = L.map('map', {layers: [brasil,ipes]}).setView(new L.LatLng(-14.953349393643416,-52.220703125),5);
 
 var baseMaps = {"Mapa": brasil};
 var overlayMaps = {
 	"IPES" : ipes
 };
 
+//Ordem de camadas de vetores só será resolvida no Leaflet v1.0. Por isso a camada das
+//zIndex() e bringToFront() não funcionam com vetores.
+//Confirmado problema. Verificar também: http://gis.stackexchange.com/questions/166252/geojson-layer-order-in-leaflet-0-7-5
 L.control.layers(baseMaps, overlayMaps,{position: 'topleft'}).addTo(map);
 </script>
 </body>
