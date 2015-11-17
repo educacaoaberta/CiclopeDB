@@ -62,48 +62,43 @@
 </div>
 
 <div id="sidebar">
-  <div id="about-data">
-</div>
+  <div id="about-data"></div>
 
-<div id="tabs-data">
-  <ul class="tabs">
-    <li class="tab-link current" data-tab="tab-1">Dados Gerais</li>
-    <li class="tab-link" data-tab="tab-2">Cursos Ofertados</li>
-    <li class="tab-link" data-tab="tab-3">Linha do Tempo</li>
-  </ul>
+  <div id="tabs-data">
+    <ul class="tabs">
+      <li class="tab-link current" data-tab="tab-1">Dados Gerais</li>
+      <li class="tab-link" data-tab="tab-2">Cursos Ofertados</li>
+      <li class="tab-link" data-tab="tab-3">Linha do Tempo</li>
+    </ul>
 
     <script>
-
       var theadDefault = "<thead><tr><th class=\"dt-left\">Nome</th><th class=\"dt-left\">Tipo</th><th class=\"dt-left\">Chamada</th><th class=\"dt-left\">Carga horária</th><th class=\"dt-left\">Períodos</th></tr></thead>";
 
       //loading ipes data for data_table and timeline
       $.getJSON("json/ipes.json", function (data) {
         $.each(data.features, function (key, val) {
-            $('<table id="table_data_'+ val.properties.Sigla.toLowerCase() + '" class="responsive table_data" width="100%">'+ theadDefault).appendTo('#tab-2');
-
-            $('<div id="timeline-'+ val.properties.Sigla.toLowerCase() +'" class="timeline"></div>').appendTo('#tab-3');
-          });
-          });
-
+          $('<table id="table_data_'+ val.properties.Sigla.toLowerCase() + '" class="responsive table_data" width="100%">'+ theadDefault).appendTo('#tab-2');
+          $('<div id="timeline-'+ val.properties.Sigla.toLowerCase() +'" class="timeline"></div>').appendTo('#tab-3');
+        });
+      });
     </script>
 
-
     <div id="tab-1" class="tab-content current">
-        <p>Sem dados disponíveis</p>
+      <p>Sem dados disponíveis</p>
     </div>
     <div id="tab-2" class="tab-content">
       <div class="ref">
-      PAR: Plano de Ações Articuladas<br>
-      PNAP: Programa Nacional de Formação em Administração Pública<br>
-      SECAD/MEC: Especializações para professores, em parceria com a Secretaria de Educação Continuada, Alfabetização e Diversidade (SECAD/MEC)<br>
-      <i>Dados extraídos do SISUAB (junho/2015)</i>
+        PAR: Plano de Ações Articuladas<br>
+        PNAP: Programa Nacional de Formação em Administração Pública<br>
+        SECAD/MEC: Especializações para professores, em parceria com a Secretaria de Educação Continuada, Alfabetização e Diversidade (SECAD/MEC)<br>
+        <i>Dados extraídos do SISUAB (junho/2015)</i>
       </div>
     </div>
-    <div id="tab-3" class="tab-content">
-    </div>
-    <!-- Referênica, abaixo da tabela -->
+    <div id="tab-3" class="tab-content"></div>
+
   </div>
   <!--End tabs-data -->
+
 </div>
 
 </body>

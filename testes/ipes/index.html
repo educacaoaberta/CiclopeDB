@@ -1,0 +1,91 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<title>Mapa dos Pólos UAB</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<script src="ipes-all.json" type="text/javascript"></script>
+
+	<style type="text/css" charset="utf-8">
+		#map {
+			height: 600px;
+			margin-left:auto;
+			margin-right:auto;
+			width:95%;
+			border-style: solid;
+			border-color: #ffffff;
+			border-width: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Mapa das IPES UAB</h1>
+
+	<div id="map"></div><br>
+
+
+	<script>
+
+	// var base = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+	//   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	//   });
+
+	var brasil = L.geoJson(null, {
+		style: {
+			weight: 1,
+			color: "#fff",
+			opacity: 1,
+			fillColor: "#ccc",
+			fillOpacity: 1
+			}
+			});
+			$.getJSON("br_estados.json", function(data) {
+				brasil.addData(data);
+			});
+
+	var ipes = L.geoJson(IPES, {onEachFeature: onEachFeature});
+	$.getJSON("ipes-all.json", function (data) {
+	  ipes.addData(data);
+	});
+
+  function onEachFeature (feature, marker) {
+		if (feature.properties) {
+			marker.bindPopup(
+				'<b>' + feature.properties.Sigla + '</b>' + '<br>' +
+				feature.properties.Cidade + ', ' + feature.properties.Estado + '</br>' +
+				feature.properties.Logradouro + ' - ' + feature.properties.Bairro + '</br>' +
+				feature.properties.CEP + '</br>' +
+				'Telefone :' + feature.properties.Telefone + '</br>' +
+				'<a href="' + feature.properties.URL + '">' + feature.properties.URL + '</a>'
+			)
+		}
+	};
+
+	function pointToLayer (feature, latlng) {
+		 return L.circleMarker(latlng, {
+			 radius: 6,
+			 fillColor: "#267FCA", color: "#000",
+			 weight: 1,
+			 opacity: 1,
+			 fillOpacity: 0.3
+		 });
+	 };
+
+var map = L.map('map', {layers: [ipes, brasil]}).setView(new L.LatLng(-14.953349393643416,-52.220703125),5);
+
+var baseMaps = {"Mapa": brasil};
+var overlayMaps = {
+	"IPES" : ipes
+};
+
+L.control.layers(baseMaps, overlayMaps,{position: 'topleft'}).addTo(map);
+</script>
+</body>
+
+</html>

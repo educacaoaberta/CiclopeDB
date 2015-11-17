@@ -134,7 +134,7 @@ var baseMaps = {"Mapa": base};
 
 var overlayMaps = {
   "Mapa político": base,
-  "Traço": brasil,
+  "Traçado": brasil,
   "Núcleos": ipes,
   "Polos": polos
   };

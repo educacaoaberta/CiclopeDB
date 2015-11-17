@@ -1,0 +1,2000 @@
+var IPES = {
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.4887684,
+               -1.4302111
+            ]
+         },
+         "properties":{
+            "Sigla":"UEPA",
+            "URL":"http://necad.uepa.br/moodle/",
+            "URL2":"http://necad.uepa.br/moodle/",
+            "Logradouro":"Rua do Una,156",
+            "Bairro":"Telegrafo",
+            "Cidade":"Belem",
+            "Estado":"PA",
+            "CEP":"66113200",
+            "Telefone":"(91) 3299-2265 r2265"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -38.5069259,
+               -13.0026124
+            ]
+         },
+         "properties":{
+            "Sigla":"UFBA",
+            "URL":"http://www.ufba.br/",
+            "URL2":"http://www.ufba.br/",
+            "Logradouro":"Av. Adhemar de Barros,s/n",
+            "Bairro":"Ondina",
+            "Cidade":"Salvador",
+            "Estado":"BA",
+            "CEP":"40110060",
+            "Telefone":"(71) 3283-7073"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -44.361111,
+               -15.4875
+            ]
+         },
+         "properties":{
+            "Sigla":"IFNMG",
+            "URL":"http://ead.ifnmg.edu.br/",
+            "URL2":"http://ead.ifnmg.edu.br/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Januária",
+            "Estado":"MG",
+            "CEP":"39480000",
+            "Telefone":"(38) 3201-3050"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.2576169637655,
+               -18.91844615
+            ]
+         },
+         "properties":{
+            "Sigla":"UFU",
+            "URL":"http://www.cead.ufu.br/",
+            "URL2":"http://www.cead.ufu.br/",
+            "Logradouro":"Av. João Naves de Ávila,2121",
+            "Bairro":"Santa Mônica",
+            "Cidade":"Uberlândia",
+            "Estado":"MG",
+            "CEP":"38400902",
+            "Telefone":"(34) 3239-4812"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.9353281,
+               -19.9475636
+            ]
+         },
+         "properties":{
+            "Sigla":"UEMG",
+            "URL":"http://www.uemg.br/ead/",
+            "URL2":"http://www.uemg.br/ead/",
+            "Logradouro":"Major Lopes,574",
+            "Bairro":"São Pedro",
+            "Cidade":"Belo Horizonte",
+            "Estado":"MG",
+            "CEP":"30330050",
+            "Telefone":"(31) 3916-8694"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -44.2933276,
+               -2.5319224
+            ]
+         },
+         "properties":{
+            "Sigla":"UFMA",
+            "URL":"www.nead.ufma.com.br",
+            "URL2":"http://www.nead.ufma.com.br/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"São Luis",
+            "Estado":"MA",
+            "CEP":"65085580",
+            "Telefone":"(98) 3272-8055"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -40.2971673,
+               -20.2657683
+            ]
+         },
+         "properties":{
+            "Sigla":"UFES",
+            "URL":"http://www.neaad.ufes.br/",
+            "URL2":"http://www.neaad.ufes.br/",
+            "Logradouro":"Avenida Fernando Ferrari ,514",
+            "Bairro":"Goiabeiras",
+            "Cidade":"Vitoria",
+            "Estado":"ES",
+            "CEP":"29075910",
+            "Telefone":"(27) 4009-2093"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -42.8815888,
+               -20.7538586
+            ]
+         },
+         "properties":{
+            "Sigla":"UFV",
+            "URL":"https://www.ufv.br",
+            "URL2":"http://https//www.ufv.br",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Viçosa",
+            "Estado":"MG",
+            "CEP":"36570000",
+            "Telefone":"(31) 3899-2858"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -44.9820824399302,
+               -21.2271461
+            ]
+         },
+         "properties":{
+            "Sigla":"UFLA",
+            "URL":"http://www.ufla.br/",
+            "URL2":"http://www.ufla.br/",
+            "Logradouro":"Campus Universitário",
+            "Bairro":"null",
+            "Cidade":"Lavras",
+            "Estado":"MG",
+            "CEP":"37200000",
+            "Telefone":"(35) 3829-1035"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -41.3018123,
+               -21.7615512
+            ]
+         },
+         "properties":{
+            "Sigla":"UENF",
+            "URL":"http://www.uenf.br/portal/index.php/br/ensino/ensino-a-distancia-cederj.html",
+            "URL2":"http://www.uenf.br/portal/index.php/br/ensino/ensino-a-distancia-cederj.html",
+            "Logradouro":"Av Alberto Lamego ,2000",
+            "Bairro":"Parque Califórnia",
+            "Cidade":"Campos Dos Goytacazes",
+            "Estado":"RJ",
+            "CEP":"28013602",
+            "Telefone":"(22) 2739-7009"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.2305851,
+               -22.8577347
+            ]
+         },
+         "properties":{
+            "Sigla":"UFRJ",
+            "URL":"http://www.cederj.edu.br/fundacao/",
+            "URL2":"http://www.cederj.edu.br/fundacao/",
+            "Logradouro":"Av. Athos da Silveira Ramos,149",
+            "Bairro":"Cidade Universitária",
+            "Cidade":"Rio De Janeiro",
+            "Estado":"RJ",
+            "CEP":"21941901",
+            "Telefone":"(21) 2334-1571"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.2093727,
+               -22.9110137
+            ]
+         },
+         "properties":{
+            "Sigla":"FIOCRUZ",
+            "URL":"www.ead.fiocruz.br",
+            "URL2":"http://www.ead.fiocruz.br/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Rio De Janeiro",
+            "Estado":"RJ",
+            "CEP":"21041210",
+            "Telefone":"(21) 2598-2996"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.2093727,
+               -22.9110137
+            ]
+         },
+         "properties":{
+            "Sigla":"UFRRJ",
+            "URL":"http://www.cederj.edu.br/cederj/",
+            "URL2":"http://www.cederj.edu.br/cederj/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Rio De Janeiro",
+            "Estado":"RJ",
+            "CEP":"23897000",
+            "Telefone":"(21) 2682-1215"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.2357795975238,
+               -22.91117095
+            ]
+         },
+         "properties":{
+            "Sigla":"UERJ",
+            "URL":"http://www.uerj.br/ensino/ensino_distancia.php",
+            "URL2":"http://www.uerj.br/ensino/ensino_distancia.php",
+            "Logradouro":"Rua São Francisco Xavier,524",
+            "Bairro":"Maracanã",
+            "Cidade":"Rio De Janeiro",
+            "Estado":"RJ",
+            "CEP":"20550900",
+            "Telefone":"(21) 2334-0682"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.2243305180693,
+               -22.9119006
+            ]
+         },
+         "properties":{
+            "Sigla":"CEFET-RJ",
+            "URL":"http://uab.cefet-rj.br/",
+            "URL2":"http://uab.cefet-rj.br/",
+            "Logradouro":"Av. Maracanã,229",
+            "Bairro":"Maracanã",
+            "Cidade":"Rio De Janeiro",
+            "Estado":"RJ",
+            "CEP":"20271110",
+            "Telefone":"(21) 2549--666"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.1732776843501,
+               -22.95298685
+            ]
+         },
+         "properties":{
+            "Sigla":"UNIRIO",
+            "URL":"http://www.unirio.br/cead/",
+            "URL2":"http://www.unirio.br/cead/",
+            "Logradouro":"Av. Pasteur,296",
+            "Bairro":"Urca",
+            "Cidade":"Rio De Janeiro",
+            "Estado":"RJ",
+            "CEP":"22290240",
+            "Telefone":"(21) 2542-7885"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -46.545282,
+               -23.6609906
+            ]
+         },
+         "properties":{
+            "Sigla":"UFABC",
+            "URL":"http://uab.ufabc.edu.br/",
+            "URL2":"http://uab.ufabc.edu.br/",
+            "Logradouro":"Rua Catequese,242",
+            "Bairro":"Jardim",
+            "Cidade":"Santo Andre",
+            "Estado":"SP",
+            "CEP":"9090400",
+            "Telefone":"(11) 4437-8453"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -49.272373,
+               -25.4286927
+            ]
+         },
+         "properties":{
+            "Sigla":"UFPR",
+            "URL":"http://www.nead.ufpr.br/v2/",
+            "URL2":"http://www.nead.ufpr.br/v2/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Curitiba",
+            "Estado":"PR",
+            "CEP":"80060000",
+            "Telefone":"(41) 3310-5001"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.558226,
+               -27.5907184
+            ]
+         },
+         "properties":{
+            "Sigla":"IFSC",
+            "URL":"http://www.ifsc.edu.br/ensino/ead-if-sc",
+            "URL2":"http://www.ifsc.edu.br/ensino/ead-if-sc",
+            "Logradouro":"Rua Duarte Schutel,99",
+            "Bairro":"Centro",
+            "Cidade":"Florianopolis",
+            "Estado":"SC",
+            "CEP":"88075010",
+            "Telefone":"(48) 3877-9002"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.5496098,
+               -27.5973002
+            ]
+         },
+         "properties":{
+            "Sigla":"UDESC",
+            "URL":"http://www.cead.udesc.br/",
+            "URL2":"http://www.cead.udesc.br/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Florianopolis",
+            "Estado":"SC",
+            "CEP":"88035001",
+            "Telefone":"(48) 3321-8429"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -60.0250846,
+               -3.1233282
+            ]
+         },
+         "properties":{
+            "Sigla":"IFAM",
+            "URL":"http://ead.ifam.edu.br/ead/",
+            "URL2":"http://ead.ifam.edu.br/ead/",
+            "Logradouro":"Rua Ferreira Pena,1109",
+            "Bairro":"Centro",
+            "Cidade":"Manaus",
+            "Estado":"AM",
+            "CEP":"69025010",
+            "Telefone":"(92) 0000-0000"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -38.5217989,
+               -3.7304512
+            ]
+         },
+         "properties":{
+            "Sigla":"IFCE",
+            "URL":"www.ifce.edu.br",
+            "URL2":"http://www.ifce.edu.br/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Fortaleza",
+            "Estado":"CE",
+            "CEP":"60040531",
+            "Telefone":"(85) 3307-3645"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -38.5217989,
+               -3.7304512
+            ]
+         },
+         "properties":{
+            "Sigla":"UFC",
+            "URL":"http://www2.virtual.ufc.br/portal2/",
+            "URL2":"http://www2.virtual.ufc.br/portal2/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Fortaleza",
+            "Estado":"CE",
+            "CEP":"60020181",
+            "Telefone":"(85) 3366--950"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -51.2199469008632,
+               -30.0332945
+            ]
+         },
+         "properties":{
+            "Sigla":"UFRGS",
+            "URL":"http://www.ufrgs.br/uab/",
+            "URL2":"http://www.ufrgs.br/uab/",
+            "Logradouro":"Avenida Paulo Gama,110",
+            "Bairro":"Farroupilha",
+            "Cidade":"Porto Alegre",
+            "Estado":"RS",
+            "CEP":"90040060",
+            "Telefone":"(51) 3308-6000"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -37.3443872,
+               -5.1904332
+            ]
+         },
+         "properties":{
+            "Sigla":"UFERSA",
+            "URL":"http://nead.ufersa.edu.br/",
+            "URL2":"http://nead.ufersa.edu.br/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Mossoró",
+            "Estado":"RN",
+            "CEP":"59625000",
+            "Telefone":"(84) 3317-8236"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -35.2046235,
+               -5.8114422
+            ]
+         },
+         "properties":{
+            "Sigla":"IFRN",
+            "URL":"http://portal.ead.ifrn.edu.br/",
+            "URL2":"http://portal.ead.ifrn.edu.br/",
+            "Logradouro":"Av. Senador Salgado Filho,1559",
+            "Bairro":"Tirol",
+            "Cidade":"Natal",
+            "Estado":"RN",
+            "CEP":"59015000",
+            "Telefone":"(84) 4005-2643 r643"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -35.8771292,
+               -7.2246743
+            ]
+         },
+         "properties":{
+            "Sigla":"UEPB",
+            "URL":"http://ead.uepb.edu.br/",
+            "URL2":"http://ead.uepb.edu.br/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Campina Grande",
+            "Estado":"PB",
+            "CEP":"58109753",
+            "Telefone":"(83) 3244-2358"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -34.9555887,
+               -8.0566534
+            ]
+         },
+         "properties":{
+            "Sigla":"IFPE",
+            "URL":"http://dead.ifpe.edu.br/dead/",
+            "URL2":"http://dead.ifpe.edu.br/dead/",
+            "Logradouro":"Av. Professor Luiz Freire,500",
+            "Bairro":"Cidade Universitária",
+            "Cidade":"Recife",
+            "Estado":"PE",
+            "CEP":"50740540",
+            "Telefone":"(81) 2125-1793"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -34.8979047,
+               -8.0581077
+            ]
+         },
+         "properties":{
+            "Sigla":"UPE",
+            "URL":"http://www.ead.upe.br/nead2008/",
+            "URL2":"http://www.ead.upe.br/nead2008/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Recife",
+            "Estado":"PE",
+            "CEP":"50100010",
+            "Telefone":"(81) 3183-3789"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -63.8735438,
+               -8.7494525
+            ]
+         },
+         "properties":{
+            "Sigla":"UNIR",
+            "URL":"http://www.processoseletivo.unir.br",
+            "URL2":"http://www.processoseletivo.unir.br/",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Porto Velho",
+            "Estado":"RO",
+            "CEP":"78900500",
+            "Telefone":"(69) 2182--216"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -40.5069248,
+               -9.3899401
+            ]
+         },
+         "properties":{
+            "Sigla":"UNIVASF",
+            "URL":"http://www.sead.univasf.edu.br/index.php?link=home",
+            "URL2":"http://www.sead.univasf.edu.br/index.php?link=home",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Petrolina",
+            "Estado":"PE",
+            "CEP":"56304205",
+            "Telefone":"(87) 2101-6823"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -35.7339264,
+               -9.6476843
+            ]
+         },
+         "properties":{
+            "Sigla":"UFAL",
+            "URL":"http://www.ufal.edu.br/cied",
+            "URL2":"http://www.ufal.edu.br/cied",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Maceió",
+            "Estado":"AL",
+            "CEP":"57072970",
+            "Telefone":"(82) 3214-1135"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -35.7095541,
+               -9.6595526
+            ]
+         },
+         "properties":{
+            "Sigla":"IFAL",
+            "URL":"http://ead.ifal.edu.br/",
+            "URL2":"http://ead.ifal.edu.br/",
+            "Logradouro":"Rua João Gualberto Pereira do Carmo,113",
+            "Bairro":"Ponta Verde",
+            "Cidade":"Maceió",
+            "Estado":"AL",
+            "CEP":"57035660",
+            "Telefone":"(82) 3194-1150 r1306"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -67.8220778,
+               -9.9765362
+            ]
+         },
+         "properties":{
+            "Sigla":"UFAC",
+            "URL":"http://uab.ufac.br",
+            "URL2":"null",
+            "Logradouro":"null",
+            "Bairro":"null",
+            "Cidade":"Rio Branco",
+            "Estado":"AC",
+            "CEP":"69920900",
+            "Telefone":"(68) 3229-6808 "
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -52.0989461,
+               -32.0324689
+            ]
+         },
+         "properties":{
+            "Sigla":"FURG",
+            "URL":"http://www.uab.furg.br/",
+            "URL2":"http://www.uab.furg.br/",
+            "Logradouro":"Avenida Itália",
+            "Bairro":"Campus Carreiros",
+            "Cidade":"Rio Grande",
+            "Estado":"RS",
+            "CEP":"96201460",
+            "Telefone":"(53) 3233-6776"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -47.936666,
+               -19.750833
+            ]
+         },
+         "properties":{
+            "Sigla":"IF - Triangulo",
+            "URL":"http://www.iftm.edu.br/ead/",
+            "URL2":"http://www.iftm.edu.br/ead/",
+            "Logradouro":"Av. Doutor Florestan Fernandes,131",
+            "Bairro":"Univerdecidade",
+            "Cidade":"Uberaba",
+            "Estado":"MG",
+            "CEP":"38064300",
+            "Telefone":"(34) 3326-1410"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -2.6725146,
+               42.8463449
+            ]
+         },
+         "properties":{
+            "Sigla":"IFES",
+            "URL":"http://cead.ifes.edu.br/",
+            "URL2":"http://cead.ifes.edu.br/",
+            "Logradouro":"Av. Manguinhos,Km 6",
+            "Bairro":"Manguinhos",
+            "Cidade":"Vitoria",
+            "Estado":"ES",
+            "CEP":"29056255",
+            "Telefone":"(27) 3227-5564 r2003"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -44.2933276,
+               -2.5319224
+            ]
+         },
+         "properties":{
+            "Sigla":"IFMA",
+            "URL":"http://www.ifma.edu.br/",
+            "URL2":"http://www.ifma.edu.br/",
+            "Logradouro":"Avenida Getúlio Vargas,45",
+            "Bairro":"Monte Castelo",
+            "Cidade":"São Luis",
+            "Estado":"MA",
+            "CEP":"65030005",
+            "Telefone":"(98) 3221-4050"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -56.0991301,
+               -15.5986686
+            ]
+         },
+         "properties":{
+            "Sigla":"IFMT",
+            "URL":"WWW.UAB.IFMT.EDU.BR",
+            "URL2":"http://www.uab.ifmt.edu.br/",
+            "Logradouro":"Avenida Senador Filinto Miller,953",
+            "Bairro":"Duque De Caxias",
+            "Cidade":"Cuiabá",
+            "Estado":"MT",
+            "CEP":"78050560",
+            "Telefone":"(65) 3616-4175 r4175"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.4682453,
+               -1.45056
+            ]
+         },
+         "properties":{
+            "Sigla":"IFPA",
+            "URL":"http://www.ead.ifpa.edu.br/",
+            "URL2":"http://www.ead.ifpa.edu.br/",
+            "Logradouro":"Almirante Barroso,1155",
+            "Bairro":"Marco",
+            "Cidade":"Belem",
+            "Estado":"PA",
+            "CEP":"66610770",
+            "Telefone":"null"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -34.8897979,
+               -7.1147841
+            ]
+         },
+         "properties":{
+            "Sigla":"IFPB",
+            "URL":"http://ead.ifpb.edu.br/site",
+            "URL2":"http://ead.ifpb.edu.br/site",
+            "Logradouro":"Avenida 1 de Maio ,720",
+            "Bairro":"Jaguaribe",
+            "Cidade":"Joao Pessoa",
+            "Estado":"PB",
+            "CEP":"58015430",
+            "Telefone":"(83) 3612-1200"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -60.6724479,
+               2.8208017
+            ]
+         },
+         "properties":{
+            "Sigla":"IFRR",
+            "URL":"http://ead.ifrr.edu.br/dipead/",
+            "URL2":"http://ead.ifrr.edu.br/dipead/",
+            "Logradouro":"Avenida Glaycon de Paiva,2496",
+            "Bairro":"null",
+            "Cidade":"Boa Vista",
+            "Estado":"RR",
+            "CEP":"69306025",
+            "Telefone":"(95) 3624-1224"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -52.3411543,
+               -31.7700104
+            ]
+         },
+         "properties":{
+            "Sigla":"IFSul",
+            "URL":"http://ead.ifsul.edu.br/",
+            "URL2":"http://ead.ifsul.edu.br/",
+            "Logradouro":"Praça Vinte de Setembro,455",
+            "Bairro":"Centro",
+            "Cidade":"Pelotas",
+            "Estado":"RS",
+            "CEP":"96015360",
+            "Telefone":"(53) 2123-1005"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -38.5217989,
+               -3.7304512
+            ]
+         },
+         "properties":{
+            "Sigla":"UECE",
+            "URL":"http://www.sate.uece.br/",
+            "URL2":"http://www.sate.uece.br/",
+            "Logradouro":"Av. Parajana,1700",
+            "Bairro":"Itaperi",
+            "Cidade":"Fortaleza",
+            "Estado":"CE",
+            "CEP":"60740903",
+            "Telefone":"(85) 3101-9962"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -38.9598047,
+               -12.2578934
+            ]
+         },
+         "properties":{
+            "Sigla":"UEFS",
+            "URL":"www.uefs.br",
+            "URL2":"http://www.uefs.br/",
+            "Logradouro":"Av. Transnordestina, s/n",
+            "Bairro":"Novo Horizonte",
+            "Cidade":"Feira De Santana",
+            "Estado":"BA",
+            "CEP":"44036900",
+            "Telefone":"(75) 3161-8613"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.9525756,
+               -16.3332828
+            ]
+         },
+         "properties":{
+            "Sigla":"UEG",
+            "URL":"www.cear.ueg.br",
+            "URL2":"http://www.cear.ueg.br/",
+            "Logradouro":"Avenida Brasil Sul,2800",
+            "Bairro":"Jardim Gonçalves",
+            "Cidade":"Anápolis",
+            "Estado":"GO",
+            "CEP":"75133050",
+            "Telefone":"(62) 3328-1407"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -51.1595023,
+               -23.3112878
+            ]
+         },
+         "properties":{
+            "Sigla":"UEL",
+            "URL":"http://www.uel.br/nead/portal/",
+            "URL2":"http://www.uel.br/nead/portal/",
+            "Logradouro":"Rodovia Celso Garcia Cid, PR 445, KM 380",
+            "Bairro":"Campus Universitario",
+            "Cidade":"Londrina",
+            "Estado":"PR",
+            "CEP":"86057970",
+            "Telefone":"(43) 3371-4311"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -51.9382846,
+               -23.4251041
+            ]
+         },
+         "properties":{
+            "Sigla":"UEM",
+            "URL":"http://www.nead.uem.br/",
+            "URL2":"http://www.nead.uem.br/",
+            "Logradouro":"Av Colombo,5790",
+            "Bairro":"Zona Sete",
+            "Cidade":"Maringá",
+            "Estado":"PR",
+            "CEP":"87020900",
+            "Telefone":"(44) 3011-4098"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -44.2933276,
+               -2.5319224
+            ]
+         },
+         "properties":{
+            "Sigla":"UEMA",
+            "URL":"http://www.uemanet.uema.br/portal/",
+            "URL2":"http://www.uemanet.uema.br/portal/",
+            "Logradouro":"Cidade Universitária Paulo VI, Caixa Postal 09",
+            "Bairro":"Tirirical",
+            "Cidade":"São Luis",
+            "Estado":"MA",
+            "CEP":"65055970",
+            "Telefone":"(98) 3257-1195 r202"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -54.812208,
+               -22.2206145
+            ]
+         },
+         "properties":{
+            "Sigla":"UEMS",
+            "URL":"http://www.ead.uems.br/",
+            "URL2":"http://www.ead.uems.br/",
+            "Logradouro":"Cidade Universitária de Dourados",
+            "Bairro":"Cidade Universitária",
+            "Cidade":"Dourados",
+            "Estado":"MS",
+            "CEP":"79804970",
+            "Telefone":"(67) 3902-2360"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -50.1601812,
+               -25.0891685
+            ]
+         },
+         "properties":{
+            "Sigla":"UEPG",
+            "URL":"http://www.nutead.org/site/",
+            "URL2":"http://www.nutead.org/site/",
+            "Logradouro":"Av. Carlos Cavalcanti,4748",
+            "Bairro":"Uvaranas",
+            "Cidade":"Ponta Grossa",
+            "Estado":"PR",
+            "CEP":"84030900",
+            "Telefone":"(42) 3220-3231"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -37.3443872,
+               -5.1904332
+            ]
+         },
+         "properties":{
+            "Sigla":"UERN",
+            "URL":"http://www.uern.br/nead/",
+            "URL2":"http://www.uern.br/nead/",
+            "Logradouro":"Professor Antônio Campos,s/n",
+            "Bairro":"Presidente Costa E Silva",
+            "Cidade":"Mossoró",
+            "Estado":"RN",
+            "CEP":"59610210",
+            "Telefone":"(84) 3315-2139"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -40.8414804,
+               -14.8567487
+            ]
+         },
+         "properties":{
+            "Sigla":"UESB",
+            "URL":"http://www.uesb.br/",
+            "URL2":"http://www.uesb.br/",
+            "Logradouro":"Universidade do Sudoeste da Bahia,0",
+            "Bairro":"Universidade",
+            "Cidade":"Vitoria Da Conquista",
+            "Estado":"BA",
+            "CEP":"45031900",
+            "Telefone":"(77) 3425-9308"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -39.04602,
+               -14.793045
+            ]
+         },
+         "properties":{
+            "Sigla":"UESC",
+            "URL":"http://nead.uesc.br/",
+            "URL2":"http://nead.uesc.br/",
+            "Logradouro":"Rodovia Ilhéus-Itabuna, Km 16",
+            "Bairro":"Salobrinho",
+            "Cidade":"Ilheus",
+            "Estado":"BA",
+            "CEP":"45662900",
+            "Telefone":"(73) 3680-5458"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -42.809588,
+               -5.0896403
+            ]
+         },
+         "properties":{
+            "Sigla":"UESPI",
+            "URL":"http://siteead.uespi.br/",
+            "URL2":"http://siteead.uespi.br/",
+            "Logradouro":"Rua João Cabral,2231",
+            "Bairro":"Pirajá",
+            "Cidade":"Teresina",
+            "Estado":"PI",
+            "CEP":"64002150",
+            "Telefone":"(86) 3213-1182"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -59.9865291,
+               -3.1328619
+            ]
+         },
+         "properties":{
+            "Sigla":"UFAM",
+            "URL":"www.ced.ufam.edu.br",
+            "URL2":"http://www.ced.ufam.edu.br/",
+            "Logradouro":"Av Rodrigo Octávio Jordão Ramos,3000",
+            "Bairro":"Coroado",
+            "Cidade":"Manaus",
+            "Estado":"AM",
+            "CEP":"69077000",
+            "Telefone":"(92) 3305-4501"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.1154552,
+               -22.8832371
+            ]
+         },
+         "properties":{
+            "Sigla":"UFF",
+            "URL":"http://www.cead.uff.br/",
+            "URL2":"http://www.cead.uff.br/",
+            "Logradouro":"Mário Santos Braga,s/n",
+            "Bairro":"Centro",
+            "Cidade":"Niteroí",
+            "Estado":"RJ",
+            "CEP":"24220008",
+            "Telefone":"(21) 2629-5206"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -49.2532691,
+               -16.680882
+            ]
+         },
+         "properties":{
+            "Sigla":"UFG",
+            "URL":"http://www.ciar.ufg.br/",
+            "URL2":"http://www.ciar.ufg.br/",
+            "Logradouro":"Centro Integrado de Aprendizagem em Rede",
+            "Bairro":"Campus Ii - Samambaia",
+            "Cidade":"Goiânia",
+            "Estado":"GO",
+            "CEP":"74001970",
+            "Telefone":"(62) 3521-1381"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -54.812208,
+               -22.2206145
+            ]
+         },
+         "properties":{
+            "Sigla":"UFGD",
+            "URL":"http://portalead.ufgd.edu.br/",
+            "URL2":"http://portalead.ufgd.edu.br/",
+            "Logradouro":"Rua Benjamin Constant,685",
+            "Bairro":"Jardim América",
+            "Cidade":"Dourados",
+            "Estado":"MS",
+            "CEP":"79825070",
+            "Telefone":"(67) 3410-2656"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.3501129,
+               -21.7609533
+            ]
+         },
+         "properties":{
+            "Sigla":"UFJF",
+            "URL":"WWW.CEAD.UFJF.BR",
+            "URL2":"http://www.cead.ufjf.br/",
+            "Logradouro":"Rua José Lourenço Kelmer,s/n",
+            "Bairro":"São Pedro",
+            "Cidade":"Juiz De Fora",
+            "Estado":"MG",
+            "CEP":"36036900",
+            "Telefone":"(32) 2102-3487"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.9450948,
+               -19.9227318
+            ]
+         },
+         "properties":{
+            "Sigla":"UFMG",
+            "URL":"https://www.ufmg.br/ead/site/",
+            "URL2":"http://https//www.ufmg.br/ead/site/",
+            "Logradouro":"Avenida Antônio Carlos,6627",
+            "Bairro":"Pampulha",
+            "Cidade":"Belo Horizonte",
+            "Estado":"MG",
+            "CEP":"31270010",
+            "Telefone":"(31) 3409-5526"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -54.624352,
+               -20.4705302
+            ]
+         },
+         "properties":{
+            "Sigla":"UFMS",
+            "URL":"http://www.ead.ufms.br/portal/",
+            "URL2":"http://www.ead.ufms.br/portal/",
+            "Logradouro":"Fundação Universidade Federal de Mato Grosso do Sul.",
+            "Bairro":"Universitário",
+            "Cidade":"Campo Grande",
+            "Estado":"MS",
+            "CEP":"79070900",
+            "Telefone":"(67) 3345-7218"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -56.0991301,
+               -15.5986686
+            ]
+         },
+         "properties":{
+            "Sigla":"UFMT",
+            "URL":"http://www.uab.ufmt.br/principal",
+            "URL2":"http://www.uab.ufmt.br/principal",
+            "Logradouro":"Av. Fernando Correa da Costa, s/n",
+            "Bairro":"Coxipó",
+            "Cidade":"Cuiabá",
+            "Estado":"MT",
+            "CEP":"78060900",
+            "Telefone":"(65) 3627-5932"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.5036344,
+               -20.3851692
+            ]
+         },
+         "properties":{
+            "Sigla":"UFOP",
+            "URL":"http://www.cead.ufop.br/",
+            "URL2":"http://www.cead.ufop.br/",
+            "Logradouro":"Campus Morro do Cruzeiro",
+            "Bairro":"Morro Do Cruzeiro",
+            "Cidade":"Ouro Preto",
+            "Estado":"MG",
+            "CEP":"35400000",
+            "Telefone":"(31) 3559-1355"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.4682453,
+               -1.45056
+            ]
+         },
+         "properties":{
+            "Sigla":"UFPA",
+            "URL":"http://www.aedi.ufpa.br/",
+            "URL2":"http://www.aedi.ufpa.br/",
+            "Logradouro":"Augusto Correa,01",
+            "Bairro":"Guama",
+            "Cidade":"Belem",
+            "Estado":"PA",
+            "CEP":"66075110",
+            "Telefone":"(91) 3201-7834"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -34.8897979,
+               -7.1147841
+            ]
+         },
+         "properties":{
+            "Sigla":"UFPB",
+            "URL":"http://portal.virtual.ufpb.br/",
+            "URL2":"http://portal.virtual.ufpb.br/",
+            "Logradouro":"Jardim Universitário",
+            "Bairro":"Castelo Branco",
+            "Cidade":"Joao Pessoa",
+            "Estado":"PB",
+            "CEP":"58051900",
+            "Telefone":"(83) 3216-7200"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -34.8979047,
+               -8.0581077
+            ]
+         },
+         "properties":{
+            "Sigla":"UFPE",
+            "URL":"http://www.ufpe.br/uab",
+            "URL2":"http://www.ufpe.br/uab",
+            "Logradouro":"Avenida dos Reitores,s/n",
+            "Bairro":"Cidade Universitária",
+            "Cidade":"Recife",
+            "Estado":"PE",
+            "CEP":"50670901",
+            "Telefone":"(81) 2126-8001"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -52.3411543,
+               -31.7700104
+            ]
+         },
+         "properties":{
+            "Sigla":"UFPEL",
+            "URL":"http://wp.ufpel.edu.br/ead/",
+            "URL2":"http://wp.ufpel.edu.br/ead/",
+            "Logradouro":"Benjamin Constant,897",
+            "Bairro":"Centro",
+            "Cidade":"Pelotas",
+            "Estado":"RS",
+            "CEP":"96010610",
+            "Telefone":"(53) 3921-1167"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -42.809588,
+               -5.0896403
+            ]
+         },
+         "properties":{
+            "Sigla":"UFPI",
+            "URL":"http://www.uapi.edu.br/",
+            "URL2":"http://www.uapi.edu.br/",
+            "Logradouro":"Rua Olavo Billac,1148",
+            "Bairro":"Centro/sul",
+            "Cidade":"Teresina",
+            "Estado":"PI",
+            "CEP":"64049550",
+            "Telefone":"(86) 3215-4101"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -39.1053665,
+               -12.6722649
+            ]
+         },
+         "properties":{
+            "Sigla":"UFRB",
+            "URL":"www.ufrb.edu.br",
+            "URL2":"http://www.ufrb.edu.br/",
+            "Logradouro":"Rua Rui Barbosa, 700",
+            "Bairro":"Vila Dos Professores",
+            "Cidade":"Cruz Das Almas",
+            "Estado":"BA",
+            "CEP":"44380000",
+            "Telefone":"(75) 3621-6922"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -35.2080905,
+               -5.805398
+            ]
+         },
+         "properties":{
+            "Sigla":"UFRN",
+            "URL":"http://www.sedis.ufrn.br/",
+            "URL2":"http://www.sedis.ufrn.br/",
+            "Logradouro":"AC Universidade Federal do Rio Grande do Norte,3000",
+            "Bairro":"Lagoa Nova",
+            "Cidade":"Natal",
+            "Estado":"RN",
+            "CEP":"59078970",
+            "Telefone":"(84) 3215-3119"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -34.8979047,
+               -8.0581077
+            ]
+         },
+         "properties":{
+            "Sigla":"UFRPE",
+            "URL":"http://www.ead.ufrpe.br/",
+            "URL2":"http://www.ead.ufrpe.br/",
+            "Logradouro":"Avenida Dom Manuel de Medeiros",
+            "Bairro":"Dois Irmãos",
+            "Cidade":"Recife",
+            "Estado":"PE",
+            "CEP":"52171900",
+            "Telefone":"(81) 3320-6000"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -60.6724479,
+               2.8208017
+            ]
+         },
+         "properties":{
+            "Sigla":"UFRR",
+            "URL":"http://www.uab.ufrr.br/",
+            "URL2":"http://www.uab.ufrr.br/",
+            "Logradouro":"Avenida Capitão Ene Gacez,2413",
+            "Bairro":"Aeroporto",
+            "Cidade":"Boa Vista",
+            "Estado":"RR",
+            "CEP":"69304000",
+            "Telefone":"(95) 3621-3163"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -37.20436,
+               -11.008443
+            ]
+         },
+         "properties":{
+            "Sigla":"UFS",
+            "URL":"http://www.cesad.ufs.br/",
+            "URL2":"http://www.cesad.ufs.br/",
+            "Logradouro":"Cidade Universitaria Prof Aloisio de Campo",
+            "Bairro":"Jardim Roza Elze",
+            "Cidade":"São Cristovão",
+            "Estado":"SE",
+            "CEP":"49100000",
+            "Telefone":"(79) 2105-6870"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.5496098,
+               -27.5973002
+            ]
+         },
+         "properties":{
+            "Sigla":"UFSC",
+            "URL":"https://ead.ufsc.br/",
+            "URL2":"http://https//ead.ufsc.br/",
+            "Logradouro":"Campus Prof. João David Ferreira Lima, Centro Sócio-Econômico, Bloco F,s/n",
+            "Bairro":"Trindade",
+            "Cidade":"Florianopolis",
+            "Estado":"SC",
+            "CEP":"88040900",
+            "Telefone":"(48) 3721-9329"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -47.8909707,
+               -22.0175435
+            ]
+         },
+         "properties":{
+            "Sigla":"UFSCAR",
+            "URL":"http://www.sead.ufscar.br/",
+            "URL2":"http://www.sead.ufscar.br/",
+            "Logradouro":"Rodovia Washington Luiz Km 235 (SP-310),s/n",
+            "Bairro":"Monjolinho",
+            "Cidade":"São Carlos",
+            "Estado":"SP",
+            "CEP":"13565905",
+            "Telefone":"(16) 3351-8101"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -44.2588086,
+               -21.1335755
+            ]
+         },
+         "properties":{
+            "Sigla":"UFSJ",
+            "URL":"http://www.nead.ufsj.edu.br/portal/",
+            "URL2":"http://www.nead.ufsj.edu.br/portal/",
+            "Logradouro":"Praça Frei Orlando.",
+            "Bairro":"Centro",
+            "Cidade":"São João Del Rei",
+            "Estado":"MG",
+            "CEP":"36307352",
+            "Telefone":"(32) 3379-2344"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -53.8069214,
+               -29.6860512
+            ]
+         },
+         "properties":{
+            "Sigla":"UFSM",
+            "URL":"http://nte.ufsm.br/moodle2_UAB/",
+            "URL2":"http://nte.ufsm.br/moodle2_UAB/",
+            "Logradouro":"Universidade Federal de Santa Maria,1000",
+            "Bairro":"Camobi",
+            "Cidade":"Santa Maria",
+            "Estado":"RS",
+            "CEP":"97105900",
+            "Telefone":"(55) 3220-8007"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.3337793,
+               -10.1835604
+            ]
+         },
+         "properties":{
+            "Sigla":"UFT",
+            "URL":"http://www.uft.edu.br/dte/",
+            "URL2":"http://www.uft.edu.br/dte/",
+            "Logradouro":"Avenida NS 15",
+            "Bairro":"Saída Para Paraíso",
+            "Cidade":"Palmas",
+            "Estado":"TO",
+            "CEP":"77001090",
+            "Telefone":"(63) 3232-8027"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.6006487,
+               -18.2440862
+            ]
+         },
+         "properties":{
+            "Sigla":"UFVJM",
+            "URL":"http://ead.ufvjm.edu.br/",
+            "URL2":"http://ead.ufvjm.edu.br/",
+            "Logradouro":"Rodovia MGT 367, 5000, Km 583",
+            "Bairro":"Alto Da Jacuba",
+            "Cidade":"Diamantina",
+            "Estado":"MG",
+            "CEP":"39100000",
+            "Telefone":"(38) 3532-6000"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -47.8822933,
+               -15.7934003
+            ]
+         },
+         "properties":{
+            "Sigla":"UnB",
+            "URL":"http://www.ead.unb.br/",
+            "URL2":"http://www.ead.unb.br/",
+            "Logradouro":"Campus Universitário Darcy Ribeiro, s/n",
+            "Bairro":"Asa Norte",
+            "Cidade":"Brasilia",
+            "Estado":"DF",
+            "CEP":"70910900",
+            "Telefone":"(61) 3107-6062"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -38.4820771,
+               -12.9816356
+            ]
+         },
+         "properties":{
+            "Sigla":"UNEB",
+            "URL":"http://www.campusvirtual.uneb.br",
+            "URL2":"http://www.campusvirtual.uneb.br/",
+            "Logradouro":"Rua dos Vereadores,2555",
+            "Bairro":"Joquei Clube",
+            "Cidade":"Salvador",
+            "Estado":"BA",
+            "CEP":"41190000",
+            "Telefone":"(71) 3378-4331 r201"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -57.6847357,
+               -16.0661001
+            ]
+         },
+         "properties":{
+            "Sigla":"UNEMAT",
+            "URL":"http://www.unemat.br/ead/",
+            "URL2":"http://www.unemat.br/ead/",
+            "Logradouro":"Av. Santos Dumont",
+            "Bairro":"Santos Dumont",
+            "Cidade":"Cáceres",
+            "Estado":"MT",
+            "CEP":"78200000",
+            "Telefone":"(65) 3221-0000"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -46.6333824,
+               -23.5506507
+            ]
+         },
+         "properties":{
+            "Sigla":"UNESP",
+            "URL":"http://edutec.unesp.br/index.php?lang=pt_br",
+            "URL2":"http://edutec.unesp.br/index.php?lang=pt_br",
+            "Logradouro":"Rua Dom Luis Lasagna,400",
+            "Bairro":"Ipiranga",
+            "Cidade":"São Paulo",
+            "Estado":"SP",
+            "CEP":"1049010",
+            "Telefone":"(11) 5627-0608"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -51.4622016,
+               -25.3950986
+            ]
+         },
+         "properties":{
+            "Sigla":"UNICENTRO",
+            "URL":"http://sites.unicentro.br/uab/",
+            "URL2":"http://sites.unicentro.br/uab/",
+            "Logradouro":"Rua Padre Salvatore Renna,875",
+            "Bairro":"Santa Cruz",
+            "Cidade":"Guarapuava",
+            "Estado":"PR",
+            "CEP":"85015430",
+            "Telefone":"(42) 3621-1000"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -45.9446866,
+               -21.4439836
+            ]
+         },
+         "properties":{
+            "Sigla":"UNIFAL-MG",
+            "URL":"http://cead.unifal-mg.edu.br/",
+            "URL2":"http://cead.unifal-mg.edu.br/",
+            "Logradouro":"Rua Gabriel Monteiro da Silva,700",
+            "Bairro":"Centro",
+            "Cidade":"Alfenas",
+            "Estado":"MG",
+            "CEP":"37130000",
+            "Telefone":"(35) 3299-1000"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -51.0693238,
+               0.0460699
+            ]
+         },
+         "properties":{
+            "Sigla":"UNIFAP",
+            "URL":"http://www2.unifap.br/ead2/",
+            "URL2":"http://www2.unifap.br/ead2/",
+            "Logradouro":"Rod. Juscelino K. Oliveira, Km 02",
+            "Bairro":"Jardim Marco Zero",
+            "Cidade":"Macapá",
+            "Estado":"AP",
+            "CEP":"68902280",
+            "Telefone":"(96) 3312-1765"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -45.4524317,
+               -22.4237391
+            ]
+         },
+         "properties":{
+            "Sigla":"UNIFEI",
+            "URL":"http://www.ead.unifei.edu.br/",
+            "URL2":"http://www.ead.unifei.edu.br/",
+            "Logradouro":"Avenida BPS,1303",
+            "Bairro":"Pinheirinho",
+            "Cidade":"Itajuba",
+            "Estado":"MG",
+            "CEP":"37500903",
+            "Telefone":"(35) 3629-1416"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -46.6333824,
+               -23.5506507
+            ]
+         },
+         "properties":{
+            "Sigla":"UNIFESP",
+            "URL":"http://www.unifesp.br/reitoria/uab",
+            "URL2":"http://www.unifesp.br/reitoria/uab",
+            "Logradouro":"Rua Sena Madureira,1500",
+            "Bairro":"Vila Clementino",
+            "Cidade":"São Paulo",
+            "Estado":"SP",
+            "CEP":"4021000",
+            "Telefone":"(11) 5576-4000"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -38.7276579,
+               -4.2225459
+            ]
+         },
+         "properties":{
+            "Sigla":"UNILAB",
+            "URL":"www.unilab.edu.br",
+            "URL2":"http://www.unilab.edu.br/",
+            "Logradouro":"Avenida da Abolição,33",
+            "Bairro":"Centro",
+            "Cidade":"Redenção",
+            "Estado":"CE",
+            "CEP":"62790000",
+            "Telefone":"(85) 3332-1410"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -43.8717676,
+               -16.7273538
+            ]
+         },
+         "properties":{
+            "Sigla":"UNIMONTES",
+            "URL":"http://www.cead.unimontes.br/",
+            "URL2":"http://www.cead.unimontes.br/",
+            "Logradouro":"Campus Universitario Professor Darcy Ribeiro",
+            "Bairro":"Vila Mauriceia",
+            "Cidade":"Montes Claros",
+            "Estado":"MG",
+            "CEP":"39401089",
+            "Telefone":"(38) 3229-8336"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -48.3337793,
+               -10.1835604
+            ]
+         },
+         "properties":{
+            "Sigla":"UNITINS",
+            "URL":"http://uab.unitins.br/",
+            "URL2":"http://uab.unitins.br/",
+            "Logradouro":"108 Sul Alameda 11 lote 3,3",
+            "Bairro":"Plano Diretor Sul",
+            "Cidade":"Palmas",
+            "Estado":"TO",
+            "CEP":"77020122",
+            "Telefone":"(63) 3218-4907"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -49.272373,
+               -25.4286927
+            ]
+         },
+         "properties":{
+            "Sigla":"UTFPR",
+            "URL":"http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prograd/cotedu/ead/uab",
+            "URL2":"http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prograd/cotedu/ead/uab",
+            "Logradouro":"Avenida Rio Grande do Sul,4232",
+            "Bairro":"Parque Independência",
+            "Cidade":"Curitiba",
+            "Estado":"PR",
+            "CEP":"80230901",
+            "Telefone":"(41) 3310-4501"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -59.9865291,
+               -3.1328619
+            ]
+         },
+         "properties":{
+            "Sigla":"UEA",
+            "URL":"http://www.uea.edu.br",
+            "URL2":"null",
+            "Logradouro":"Avenida Djalma Batista, 3578 ",
+            "Bairro":"Flores",
+            "Cidade":"Manaus",
+            "Estado":"AM",
+            "CEP":"69050010",
+            "Telefone":"(92) 3878-4455 "
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -35.7339264,
+               -9.6476843
+            ]
+         },
+         "properties":{
+            "Sigla":"UNCISAL",
+            "URL":"http://www.uncisal.edu.br",
+            "URL2":"null",
+            "Logradouro":"Doutor Jorge de Lima, 113 ",
+            "Bairro":"Trapiche da Barra",
+            "Cidade":"Maceió",
+            "Estado":"AL",
+            "CEP":"57010382",
+            "Telefone":"(82) 3315-6735 "
+         }
+      }
+   ]
+}

@@ -3,12 +3,12 @@
 
 @font-face {
   font-family: quattro;
-  src: url(../font/QuattrocentoSans-Regular.ttf);
+  src: url(../font/Cabin-Regular.otf);
 }
 
 @font-face {
   font-family: quattro-bold;
-  src: url(../font/QuattrocentoSans-Bold.ttf);
+  src: url(../font/Cabin-SemiBold.otf);
 }
 
 @media screen and (max-width: 479px) {
