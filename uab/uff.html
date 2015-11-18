@@ -8,20 +8,45 @@
 </head>
 <body>
 
-<!--Dados JSON-->
+  <script>
+    //show general IPES data from JSON
+    var ipes;
+    $.getJSON("json/ipes.json", function (data) {
+      $.each(data.features, function (key, val) {
+        //TODO: achar um jeito melhor de fazer isso
+        if(val.properties.Sigla == thisIpes){
+          $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
+          $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
+          $.each(val.properties.detalhes, function (titulo, valor) {
+            $('<b>' + titulo + ': ' + '</b>' +
+            valor + '</br>').appendTo("#dados_ipes p");
+          });
+        }
+      });
+    });
+    </script>
+
+<div class="pontoschave">
+  <div id="nome_ipes" class="title"></div>
+  <div id="uab" class="title"></div>
+  A Universidade Federal Fluminense participa do consórcio CEDERJ, que reúne 7 (sete) universidades públicas que juntas organizam as diretrizes e os projetos pedagógicos dos cursos de Educação à Distância (EaD) por elas oferecidos. A universidade conta com o Coordenação de Educação a Distância e com o Laboratório de Novas Tecnologias de Ensino para organizar e apoiar as atividades na modalidade EaD.
+</div>
+<div id="dados_ipes"><p></p></div>
 
 <div class="subtitle">Estrutura</div>
-<p>De forma sucinta, a estrutura do CEDERJ é composta de cinco pilares essenciais: a) material didático de apoio impresso e digital, elaborado para Educação a Distância; b) atendimento por tutores, composto por tutoria a distância e tutoria presencial; c) estágios supervisionados; d) processo de avaliação presencial nos polos regionais e e) práticas em laboratórios de disciplinas específicas nas áreas de Informática, Biologia, Física e Química nos polos regionais. Nas universidades consorciadas, o atendimento é feito pelos tutores a distância, com tratamento sempre individual pelo telefone 0800 (em horários preestabelecidos), por fax e pela sala de tutoria da plataforma. No caso dos alunos de Pedagogia e das Licenciaturas, ainda há o regente-tutor, professor que ministra aulas nas escolas parceiras (escolas das redes públicas onde os alunos do consórcio realizam seu estágio supervisionado) (SPINDOLA & MOUSINHO, 2012, p. 38).
-</p>
+<p>O CEAD, na UFF, faz o papel de elo entre o consórcio CEDERJ e a universidade de maneira central, ligado a Pró-Reitoria de Graduação. Os espaços descentraliados são a excessão, como o <a href="http://www.lante.uff.br/">LANTE</a>, laboratório que conta com estrutura própria e gerencia alguns cursos no âmbito da UAB.</p>
+<p>De forma sucinta, a estrutura do CEDERJ é composta de cinco pilares essenciais: a) material didático de apoio impresso e digital, elaborado para Educação a Distância; b) atendimento por tutores, composto por tutoria a distância e tutoria presencial; c) estágios supervisionados; d) processo de avaliação presencial nos polos regionais e e) práticas em laboratórios de disciplinas específicas nas áreas de Informática, Biologia, Física e Química nos polos regionais. Nas universidades consorciadas, o atendimento é feito pelos tutores a distância, com tratamento sempre individual pelo telefone 0800 (em horários preestabelecidos), por fax e pela sala de tutoria da plataforma. No caso dos alunos de Pedagogia e das Licenciaturas, ainda há o regente-tutor, professor que ministra aulas nas escolas parceiras (escolas das redes públicas onde os alunos do consórcio realizam seu estágio supervisionado) (SPINDOLA & MOUSINHO, 2012, p. 38).</p>
 
 <div class="subtitle">Material didático/recursos educacionais</div>
-<p>A Fundação <a href="http://cederj.edu.br/fundacao/">CECIERJ</a> é responsável pela produção do material didático, pela gestão operacional da metodologia de EAD e pela montagem e operacionalização dos polos regionais (BENCHIMOL et al., 2010, p. 101). O material didático é impresso, em vídeo e no computador. Existe uma equipe de cerca de 100 docentes conteudistas das Universidades consorciadas, 75 técnicos na sede do CEDERJ (webdesigners, redatores, revisores, ilustradores, diagramadores, produtor gráfico, editor de vídeo, etc.)(COSTA, 2005). Todo material utilizado nas aulas obedece ao licenciamento do Creative Commons com restrições, tais como: são livres para cópia desde que citada a fonte e sem fins comerciais, nem alteração de conteúdo. (BENCHIMOL et al., 2010, p. 106). A plataforma é o local onde todo o conteúdo do curso, assim como o material multimídia, é disponibilizado para o aluno. Este ambiente é como se fosse o “Campus da Universidade Virtual” onde o aluno tem acesso às aulas, download de arquivos, quadro de avisos, etc. A nova plataforma CEDERJ utiliza o Sistema Quantum 3.0 (BENCHIMOL et al., 2010, p. 104).</p>
-<p>Todo o material produzido passa por uma revisão de língua portuguesa e por uma revisão de conteúdo. Esta última é feita por pesquisadores conceituados das áreas específicas da Biologia (<i>ad hoc</i>). Finalizado o processo de revisão, o conteúdo das disciplinas, inicialmente disponível na World Wide Web para os alunos matriculados no curso de Biologia do CEDERJ, é publicado em CD-ROM com ISBN. A reprodução deste material para educação sem fins comerciais e sem alterações da obra original é permitida desde que citada a fonte, obedecendo assim os preceitos do Creative Commons. O CD-ROM foi desenvolvido para funcionar em um computador com os requisitos mínimos de sistema recomendados: Microsoft Windows XP, Internet Explorer 6 ou Firefox versão 3, Flash Player 8, processador Pentium com 512 de memória e leitor de CD-ROM (BENCHIMOL et al., 2010, p. 111).</p>
-<p>Na elaboração do material digital são usados os softwares: Flash/Photoshop/Software de ilustração vetorial/ActionScript/Software 3D/Corel. Adobe Flash / Photoshop / Software de ilustração vetorial / ActionScript / Corel/ HTML. Flash / Photoshop / Software de ilustração vetorial/Corel Draw. O perfil desejável é o domínio das linguagens de programação: PHP, ActionScript (Flash) e Java (BENCHIMOL et al., 2010).
+<p>A Fundação <a href="http://cederj.edu.br/fundacao/">CECIERJ</a>é responsável pela produção do material didático, pela gestão operacional da metodologia de EAD e pela montagem e operacionalização dos polos regionais. (BENCHIMOL et al., 2010, p. 101).
+O Material didático é impresso, em vídeo e no computador. Existe uma equipe de cerca de 100 docentes conteudistas das Universidades consorciadas, 75 técnicos na sede do CEDERJ (webdesigners, redatores, revisores, ilustradores, diagramadores, produtor gráfico, editor de vídeo, etc.). (COSTA, 2005).
+Todo material utilizado nas aulas obedece ao licenciamento do Creative Commons com restrições, tais como: são livres para cópia desde que citada a fonte e sem fins comerciais, nem alteração de conteúdo. (BENCHIMOL et al., 2010, p. 106).
+A plataforma é o local onde todo o conteúdo do curso, assim como o material multimídia, é disponibilizado para o aluno. Este ambiente é como se fosse o “Campus da Universidade Virtual” onde o aluno tem acesso às aulas, download de arquivos, quadro de avisos, etc. A nova plataforma CEDERJ utiliza o Sistema Quantum 3.0. (BENCHIMOL et al., 2010, p. 104).
+Inicialmente disponível com acesso à todos (com senha), a plataforma do CEDERJ não se encontra, no momento desse relatório, disponível online.</p>
 </p>
 
 <div class="subtitle">Ambiente Virtual de Aprendizagem</div>
-<p>O CEAD/UFF utiliza o Moodle.</p>
+<p>O CEAD e o LANTE utilizam o Moodle.</p>
 
 <div class="subtitle">Referências</div>
 <div class="cit">BENCHIMOL, M.; BERNSTEIN, M. A. F. O.; CARVALHO, R. A.; TEIXEIRA, D. E.
@@ -34,7 +59,6 @@
 <div class="subtitle">Saiba mais</div>
 <div class="cit">Sobre o CEDERJ - <a href="http://cederj.edu.br/fundacao/sobre">http://cederj.edu.br/fundacao/sobre</a></div>
 <div class="cit">Laboratório de Novas Tecnologias de Ensino (LANTE) - <a href="http://www.lante.uff.br/sitenovo/index.php/institucional/tutoria">http://www.lante.uff.br/sitenovo/index.php/institucional/tutoria</a></div>
-<div class="cit">SISUAB - <a href="http://sisuab.capes.gov.br/sisuab">http://sisuab.capes.gov.br/sisuab</a></div>
 <div class="cit">UFF, Educação a Distancia - <a  href="http://www.uff.br/?q=uff/educação-distância">http://www.uff.br/?q=uff/educação-distância</a></div>
 </body>
 </html>

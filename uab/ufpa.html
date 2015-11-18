@@ -7,17 +7,33 @@
 
 <body>
 
-<!--Dados JSON-->
+  <script>
+    //show general IPES data from JSON
+    var ipes;
+    $.getJSON("json/ipes.json", function (data) {
+      $.each(data.features, function (key, val) {
+        //TODO: achar um jeito melhor de fazer isso
+        if(val.properties.Sigla == thisIpes){
+          $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
+          $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
+          $.each(val.properties.detalhes, function (titulo, valor) {
+            $('<b>' + titulo + ': ' + '</b>' +
+            valor + '</br>').appendTo("#dados_ipes p");
+          });
+        }
+      });
+    });
+    </script>
 
-<div class="subtitle">Alunos</div>
-1901
-
-<div class="ref">Fonte: <a href="http://www.cead.ufop.br/index.php/o-cead/historia">http://www.cead.ufop.br/index.php/o-cead/historia</a></div>
+<div class="pontoschave">
+  <div id="nome_ipes" class="title"></div>
+  <div id="uab" class="title"></div>
+  A AEDI é uma assessoria, ligada diretamente à reitoria, contanto com prédio próprio e espaço para produção de recursos.
+</div>
+<div id="dados_ipes"><p></p></div>
 
 <div class="subtitle">Estrutura</div>
 <p>A UFPA é uma universidade federal que adota tradicionalmente o ensino presencial. A educação a distância era vista com desconfiança por ser um ensino de “segunda categoria”. De início, poucos professores acreditaram e procuraram conhecer a proposta. Assim, a implantação do ensino a distância para graduação e pós-graduação, na UFPA, ocorreu premida pela necessidade de se ampliar os processos de inclusão social no ensino superior e de interiorização da própria universidade. O processo foi facilitado porque a universidade já contava com 10.000 alunos, nove campi e 15 núcleos no interior do estado (TEPERINO et al., 2006, p.183).</p>
-
-<div class="subtitle">Organização e Gestão de Pessoal</div>
 
 <div class="subtitle">Material didático/recursos educacionais</div>
 <p>O AEDI faz uso do Moodle, que é fechado aos participantes dos cursos. No entanto duas plataformas com conteúdos de livre acessão estão disponíveis, o <a href=“http://www.aedmoodle.ufpa.br/mod/page/view.php?id=69496”>Projeto Newton</a> que conta com duas disciplinas de Cálculo</a> e o >a o <a href=“http://multimidia.ufpa.br/jspui/“>UFPA Multimídia</a> com diversos recursos para visualização. </p>

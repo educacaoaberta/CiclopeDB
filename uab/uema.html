@@ -7,16 +7,30 @@
 
 <body>
 
+  <script>
+    //show general IPES data from JSON
+    var ipes;
+    $.getJSON("json/ipes.json", function (data) {
+      $.each(data.features, function (key, val) {
+        //TODO: achar um jeito melhor de fazer isso
+        if(val.properties.Sigla == thisIpes){
+          $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
+          $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
+          $.each(val.properties.detalhes, function (titulo, valor) {
+            $('<b>' + titulo + ': ' + '</b>' +
+            valor + '</br>').appendTo("#dados_ipes p");
+          });
+        }
+      });
+    });
+    </script>
+
 <div class="pontoschave">
+  <div id="nome_ipes" class="title"></div>
+  <div id="uab" class="title"></div>
 A Universidade Estadual do Maranhão oferece educação à distância para municípios do interior do Maranhão através da UEMANet - Núcleo de Tecnologias Para Educação -. A universidade é integrada à Universidade Aberta do Brasil e a UEMANet é anterior à integração da Universidade Estadual do Maranhão à Universidade Aberta do Brasil. A UEMANet procura ser um espaço poroso, onde departamentos e centros interajam. Para que a educação à distância se dê há estrutura física e equipe da universidade dedicados a esta atividade.
 </div>
-
-<div class="ref">
-PAR: Plano de Ações Articuladas<br>
-PNAP: Programa Nacional de Formação em Administração Pública<br>
-SECAD/MEC: Especializações para professores, em parceria com a Secretaria de Educação Continuada, Alfabetização e Diversidade (SECAD/MEC)<br>
-<i>Dados extraídos do SISUAB (junho/2015)</i>
-</div>
+<div id="dados_ipes"><p></p></div>
 
 <div class="subtitle">Estrutura</div>
 <p>A UEMA, por meio do UEMANet, vinculada à reitoria da instituição, atua junto à CAPES, vinculando-se ao Sistema UAB, mediante o Programa Nacional de Formação em Administração Pública (PNAP). A estrutura de gestão do UEMANet está organizada de forma descentralizada em coerência com a estrutura multicampi adotada pela UEMA, a partir dos Centros de Estudos Superiores.

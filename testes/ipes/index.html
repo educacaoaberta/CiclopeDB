@@ -12,13 +12,13 @@
 
 	<style type="text/css" charset="utf-8">
 		#map {
-			height: 600px;
+			height: 500px;
 			margin-left:auto;
 			margin-right:auto;
-			width:95%;
+			width:50%;
 			border-style: solid;
-			border-color: #ffffff;
-			border-width: 10px;
+			border-color: #555;
+			border-width: 5px;
 			-moz-border-radius: 10px;
 			border-radius: 10px;
 		}
@@ -26,16 +26,13 @@
 </head>
 <body>
 
-	<h1>Mapa das IPES UAB</h1>
-
 	<div id="map"></div><br>
-
 
 	<script>
 
-	// var base = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-	//   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-	//   });
+	var base = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+	  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	  });
 
 	var brasil = L.geoJson(null, {
 		style: {
@@ -78,10 +75,11 @@
 		 });
 	 };
 
-var map = L.map('map', {layers: [brasil,ipes]}).setView(new L.LatLng(-14.953349393643416,-52.220703125),5);
+var map = L.map('map', {layers: [base,ipes]}).setView(new L.LatLng(-14.953349393643416,-52.220703125),4);
 
 var baseMaps = {"Mapa": brasil};
 var overlayMaps = {
+	"Brasil" :brasil,
 	"IPES" : ipes
 };
 

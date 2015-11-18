@@ -7,33 +7,41 @@
 
 <body>
 
-<!--Dados JSON-->
+  <script>
+  //show general IPES data from JSON
+  var ipes;
+  $.getJSON("json/ipes.json", function (data) {
+    $.each(data.features, function (key, val) {
+      //TODO: achar um jeito melhor de fazer isso
+      if(val.properties.Sigla == thisIpes){
+        $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
+        $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
+        $.each(val.properties.detalhes, function (titulo, valor) {
+          $('<b>' + titulo + ': ' + '</b>' +
+          valor + '</br>').appendTo("#dados_ipes p");
+        });
+      }
+    });
+  });
+  </script>
 
 <div class="pontoschave">
-A UFMT é pioneira no Brasil por ser a primeira universidade a oferecer um curso de graduação (pedagogia) a distânica. No que tange a UAB, tem um sistema descentralizado de organização. Ao invés de um núcleo central (NEAD) cada unidade conta com um núcleo próprio com apoio de um espaço central (Coordenação de Educação Mediada por Tecnologias da Informação e da Comunicação). Com isso, cada unidade pode definir suas prioridades e políticas de ação, em articulação com os outros núcleos.
+  <div id="nome_ipes" class="title"></div>
+  <div id="uab" class="title"></div>
+  A UFMT é pioneira no Brasil por ser a primeira universidade a oferecer um curso de graduação (pedagogia) a distânica. No que tange a UAB, tem um sistema descentralizado de organização. Ao invés de um núcleo central (NEAD) cada unidade conta com um núcleo próprio com apoio de um espaço central (Coordenação de Educação Mediada por Tecnologias da Informação e da Comunicação). Com isso, cada unidade pode definir suas prioridades e políticas de ação, em articulação com os outros núcleos.
 </div>
+<div id="dados_ipes"><p></p></div>
 
 <div class="subtitle">Estrutura</div>
-<p>Não existe documento “institucionalizando” o NEAD. O Núcleo não consta na estrutura da instituição, cargos e funções dos que nele atuam não estão previstos no organograma da UFMT, não há regimento interno próprio regulamentando sua ação.</p>
-<p>As parcerias com outras universidades públicas, tanto no exterior como no território brasileiro deram credibilidade ao NEAD no interior da instituição e ajudam no processo de formação continuada na modalidade. As parcerias também possibilitaram a aquisição de equipamentos e mobiliários; os recursos financeiros se revertiam em bolsas para manter em seu quadro técnicos e professores aposentados ou convidados, sem depender das limitações orçamentárias da instituição.</p>
-<p>Para PRETTI (2009a) a “não institucionalização” do NEAD fez com que se tornasse “invisível” na Instituição: “Existe em certos momentos em que o Núcleo interessa à instituição – porque traz prestígio e recursos – e não existe quando se solicitam recursos materiais e disponibilidade de recursos humanos. Essa invisibilidade permite que preconceitos e resistências em relação à modalidade continuem no interior da UFMT”.</p>
-<p>A UFMT, em 2004, criou o Centro Tecnológico Interdisciplinar (CETID). “Propositadamente, não se utilizou a expressão Educação a Distância para evitar resistências, para não associar a modalidade de EaD ao Instituto de Educação e superar a disciplinarização ou departamentalização do conhecimento” (PRETTI, 2009a, p. 149-150). A proposta era poder oferecer estrutura física, tecnológica e recursos humanos (de apoio tecnológico, comunicacional e pedagógico) a departamentos, que intencionassem oferecer cursos a distância, e a professores desejosos de oferecer sua disciplina na modalidade a distância e de ensinar com o uso de novas tecnologias (PRETTI, 2009, p. 149-150).</p>
+<p>UFMT possui política de gestão de EaD descentralizada, de modo que esta funciona no interior dos institutos e faculdades, em núcleos e coordenações específicas.  Formalmente está ligada a Coordenação de Educação Mediada por Tecnologias da Informação e da Comunicação. A UFMT, em 2004, criou o Centro Tecnológico Interdisciplinar (CETID). “Propositadamente, não se utilizou a expressão Educação a Distância para evitar resistências, para não associar a modalidade de EaD ao Instituto de Educação e superar a disciplinarização ou departamentalização do conhecimento” (PRETTI, 2009a, p. 149-150). A proposta era poder oferecer estrutura física, tecnológica e recursos humanos (de apoio tecnológico, comunicacional e pedagógico) a departamentos, que intencionassem oferecer cursos a distância, e a professores desejosos de oferecer sua disciplina na modalidade a distância e de ensinar com o uso de novas tecnologias (PRETTI, 2009, p. 149-150). Não existe documento “institucionalizando” o NEAD. O Núcleo não consta na estrutura da instituição, cargos e funções dos que nele atuam não estão previstos no organograma da UFMT, não há regimento interno próprio regulamentando sua ação.  Para PRETTI (2009a) a “não institucionalização” do NEAD fez com que se tornasse “invisível” na Instituição: “Existe em certos momentos em que o Núcleo interessa à instituição – porque traz prestígio e recursos – e não existe quando se solicitam recursos materiais e disponibilidade de recursos humanos. Essa invisibilidade permite que preconceitos e resistências em relação à modalidade continuem no interior da UFMT”.</p>
 <p>Na UFMT, foi a Resolução Consepe nº 42, de 03 de maio de 1999, que estabeleceu as normas gerais para criação, autorização e funcionamento de cursos de graduação em EaD.</p>
-
-<div class="subtitle">Organização e Gestão de Pessoal</div></br>
-<img src="images/ufmt_org.jpg" align="center"></br>
-<div class="ref">Fonte: PRETI, Oreste. Educação a distância: fundamentos e políticas. Cuiabá, EdUFMT, 2009a, p.145.</div>
-<p>Professores e técnicos são liberados para trabalhar no Núcleo, com carga horária específica (10, 20 ou 40 horas), são produzidas portarias (da Congregação do Instituto como da reitoria e pró-reitorias) nomeando coordenadores de curso, de polo e os componentes dos colegiados de curso (PRETTI, 2009a, p. 144).</p>
-<p>A composição da equipe do NEAD não foi resultado da “indicação” de pessoas pelos gestores ou pelos departamentos envolvidos, mas foi uma decisão pessoal de cada participante. As pessoas que acabaram compondo o NEAD tinham em comum experiência em Formação de Professores das séries iniciais e atuavam em cursos fora do campus, no Programa de Interiorização (Licenciaturas Parceladas). A base da equipe do NEAD continua sendo a mesma, desde sua criação (PRETTI, 2009a, p. 147).</p>
-<p>Inicialmente, houve compreensão, por parte dos colegiados de departamentos, para liberação de professores em 40 horas (coordenação de curso e de polo) ou 20 horas (para os professores especialistas das áreas) para desenvolver atividades no NEAD. Hoje, a realidade é outra. Os departamentos, com quadro reduzido de professores e maior número de atividades, têm dificuldades para liberar professores para atuar na EaD, com carga horária fazendo parte do Plano Individual de Atividades (PIA). Uma saída encontrada pelo NEAD foi oferecer bolsas a professores e técnicos da UFMT, a professores aposentados ou a profissionais que não pertencem ao quadro da Instituição (PRETTI, 2009a, p. 148).</p>
-<p>A Resolução CONSEPE Nº 158 de 29-11-2010 aprova as normas para distribuição de encargos didáticos, segundo o regime de trabalho dos docentes. No referido documento são considerados os encargos didáticos dos docentes que atuam na modalidade presencial e na modalidade a distância, sem distinção. Tal aspecto revela avanço e pioneirismo da UFMT acerca da modalidade EaD. Além do provimento de vagas de concurso público para docentes, na vaga para a EaD, também houve para técnicos em audiovisual para trabalhar em projetos de educação mediados por Tecnologia da Informação e da Comunicação.</p>
-<p>Em relação à formação de quadros para atuar na modalidade EaD, na IES, a UAB/UFMT tem o Programa de Formação em EaD. Neste programa são oferecidos para professores, técnicos e tutores os seguintes cursos: Formação de Tutores; Formação de Autores; e Formação de Gestores.</p>
 
 <div class="subtitle">Ouvidoria</div>
 <p>Uma das formas de estar permanentemente em contato com os alunos dos cursos na modalidade a distância, para coletar reclamações e sugestões acerca dos aspectos que envolvem a referida modalidade de ensino, é a ouvidoria, implantada em 2010. Este canal de comunicação está na página da UFMT, na parte de Educação a Distância, mas também presta informações acerca dos cursos de EaD na IES, via telefone e e-mail.</p>
 
 <div class="subtitle">Material didático/recursos educacionais</div>
-<p>A UFMT produz os seus próprios recursos, sem parceria formal com a editora da universidade.</p>
+<p>A UFMT produz os seus próprios recursos, sem parceria formal com a editora da universidade. Os
+recursos somente estão disponíveis no Moodle para acesso aos participantes dos cursos.</p>
 
 <div class="subtitle">Relações institucionais e parcerias</div>
 <p>Em 2009, iniciou nova experiência na EaD, com a oferta do curso de Pedagogia para 300 estudantes brasileiros que atuam em escolas no Japão, por meio do Acordo Brasil/Japão. O curso surgiu para que as 72 escolas brasileiras tivessem seu trabalho reconhecido, conforme constatado para Embaixada Brasileira em Tóquio, bem como pelo Ministério da Educação do Brasil.</p>

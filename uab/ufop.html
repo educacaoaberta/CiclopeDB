@@ -7,38 +7,49 @@
 
 <body>
 
-<!--Dados JSON-->
+  <script>
+    //show general IPES data from JSON
+    var ipes;
+    $.getJSON("json/ipes.json", function (data) {
+      $.each(data.features, function (key, val) {
+        //TODO: achar um jeito melhor de fazer isso
+        if(val.properties.Sigla == thisIpes){
+          $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
+          $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
+          $.each(val.properties.detalhes, function (titulo, valor) {
+            $('<b>' + titulo + ': ' + '</b>' +
+            valor + '</br>').appendTo("#dados_ipes p");
+          });
+        }
+      });
+    });
+    </script>
 
 <div class="pontoschave">
-Ao contário de outras instituições o NEAD da UFOP é uma unidade acadêmica em si, ligada diretamente a pró-reitoria de extensão. Sendo assim, tem um nível e autonomia e possibilidades de ação (e.g. bolsas) que não estão ao alcance, com o mesmo nível de facilidade a outras universidades.
+  <div id="nome_ipes" class="title"></div>
+  <div id="uab" class="title"></div>
+  Como alguns outros poucos Núcleos, o CEAD da UFOP é uma unidade acadêmica em si, ligada diretamente a pró-reitoria de extensão. Sendo assim, tem um nível e autonomia e possibilidades de ação (por exemplo, bolsas para alunos) que não estão ao alcance, com o mesmo nível de facilidade, a outras universidades.
 </div>
-
-<div class="subtitle">Alunos</div>
-4053
-
-<div class="ref">Fonte: <a href="http://www.cead.ufop.br/index.php/o-cead/historia">http://www.cead.ufop.br/index.php/o-cead/historia</a></div>
+<div id="dados_ipes"><p></p></div>
 
 <div class="subtitle">Estrutura</div>
 <p>O CEAD da UFOP é uma Unidade Acadêmica e todos os cursos da modalidade à distância são oferecidos nesta unidade. Todo o controle acadêmico dos alunos é processado no CEAD/UFOP, além da organização pedagógica, administrativa e tecnológica. Para a oferta de cursos da modalidade à distância, recursos materiais e humanos precisam estar organizados, e para a gestão de todos os processos a hierarquia da unidade está estruturada em: Diretoria e Vice-diretoria, Coordenação Administrativa, Coordenação Pedagógica e Coordenação de Tecnologia. Cada curso ofertado tem coordenador que pode ser lotado na Unidade ou em outra Unidade da Universidade, os tutores são selecionados a partir das necessidades de cada curso.</p>
-<p>Outra função administrativa acadêmica é o coordenador de tutor e coordenador de polo. Os professores dos cursos da modalidade à distância são docentes da Universidade, podendo ser do CEAD ou de outra unidade e, em casos especiais ser professor convidado.</p>
-<p>Com relação ao perfil dos alunos, a inserção ocorre através de processo seletivo anual. (...) Nota-se que a média de idade gira em torno de 25 anos, com pessoas que tenham cursado outros cursos de graduação, e outros de deixaram de estudar por um período de tempo. Grande parte dos alunos é casada, com filhos e exercendo atividade empregatícia durante o período diurno (GARBIN; DAINSE, 2010, p.6).</p>
+<p>Outra função administrativa acadêmica é o coordenador de tutor e coordenador de polo. Os professores dos cursos da modalidade à distância são docentes da Universidade, podendo ser do CEAD ou de outra unidade e, em casos especiais, pode ser professor convidado.</p>
 
-<div class="subtitle">Organização e Gestão de Pessoal</div>
+<div class="subtitle">Recursos Educacionais</div>
+<p>O CEAD produz material sem relação com a gráfica da universidade. Os recursos não estão
+  disponíveis abertamente; somente no Moodle para utilização dos alunos.</p>
 
-<div class="subtitle">Material didático/recursos educacionais</div>
-<p>O Ambiente Virtual de Aprendizagem Moodle é organizado com antecedência e as possibilidades de mudanças são mais limitadas. Acontece interação professor aluno por meio do AVA Moodle e outras tecnologias quando necessário. São disponibilizadas vídeo e webconferências refletindo sobre conteúdos, desafios para a aprendizagem, dicas e sugestões para as tarefas sugeridas.</p>
-
-<div class="subtitle">Relações institucionais e parcerias</div>
+<div class="subtitle">Ambiente Virtual de Aprendizagem</div>
+<p>O CEAD usa Moodle. Acontece interação professor aluno por meio do Moodle e outras tecnologias quando necessário. São disponibilizadas vídeo e webconferências refletindo sobre conteúdos, desafios para a aprendizagem, dicas e sugestões para as tarefas sugeridas.</p>
 
 <div class="subtitle">Referências</div>
-<div class="cit">PRETI, Oreste. <a href="http://www.uab.ufmt.br/uab/images/artigos_site_uab/material_didatico_impresso_ead.pdf">Material didático impresso na EaD: experiências e açõea apre(e)ndidas</a>. III Encontro Nacional de Coordenadores UAB - I Encontro Internacional do Sistema Universidade Aberta do Brasil - Brasília, 23 a 25 de novembro de 2009b.</div>
-<div class="cit">GARBIN, Tania Rossi; DAINESE, Carlos Alberto. Complexidade da Gestão em EAD. Ouro Preto, MG. 2010. </div>
-<div class="cit">SANTOS, Márcia Nunes dos; GOMES, Maria Izabel Lages Martins; VIANA, Marger da Conceição Ventura. <a href="http://www.gente.eti.br/lematec/CDS/ENEM10/?info_type=searchpapers&lang_user=">A educação a distância na UFOP e o curso de matemática</a>. X Encontro Nacional de Educação Matemática. Salvador – BA, 7 a 9 de Julho de 2010. 11p.</div>
-<div class="cit">SANTOS, Márcia N. <a href="http://www.repositorio.ufop.br/handle/123456789/2983">O Departamento de Matemática da UFOP e sua inserção na formação de professores de Matemática</a>. Monografia (Especialização em Educação Matemática). Instituto de ciências Exatas da UFOP. Ouro Preto. 2009. 218 f. </div>
+<div class="cit">CEAD - <a href="http://www.cead.ufop.br/index.php/o-cead/historia">História</a>. Acesso em: 21 jun. 2015.</div>
+<div class="cit">GARBIN, Tania Rossi; DAINESE, Carlos Alberto. Complexidade da Gestão em EAD. Ouro Preto, MG. 2010.</div>
+<div class="cit">SANTOS, Márcia Nunes dos; GOMES, Maria Izabel Lages Martins; VIANA, Marger da Conceição Ventura. <a href="http://www.gente.eti.br/lematec/CDS/ENEM10/?info_type=searchpapers&lang_user=">A educação a distancia na UFOP e o curso de matemática</a>. X Encontro Nacional de Educação Matemática. Salvador – BA, 7 a 9 de Julho de 2010. 11p. Acesso em: 18 jul. 2015.</div>
+<div class="cit">SANTOS, Márcia N. <a href="http://www.repositorio.ufop.br/handle/123456789/2983">O Departamento de Matemática da UFOP e sua inserção na formação de professores de Matemática</a>. Monografia (Especialização em Educação Matemática). Instituto de ciências Exatas da UFOP. Ouro Preto. 2009. 218 f. Acesso em: 18 jul. 2015.</div>
 
 <div class="subtitle">Saiba mais</div>
-<div class="cit">Centro de Educação Aberta e a Distancia/Universidade Federal de Ouro Preto. <a href="http://www.cead.ufop.br/index.php/o-cead/historia">Site oficial</a>.</div>
-<div class="cit">Universidade Federal de Ouro Preto. <a href="http://www.ufop.br">Site oficial</a>.
-
+<div class="cit">CEAD - <a href="http://www.escoladegestores.cead.ufop.br/">Escola de Gestores</a>. Acesso em: 01 ago. 2015.
 </body>
 </html>
