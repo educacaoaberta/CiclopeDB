@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: cabin-bold;
+  font-family: cabinbold;
   src: url(../font/Cabin-SemiBold.otf);
 }
 
@@ -20,7 +20,7 @@ p {
 }
 
 .title {
-  font-family: cabin-bold;
+  font-family: cabinbold;
   font-size: 2em;
   padding-bottom: 3px;
 }

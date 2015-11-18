@@ -1,5 +1,5 @@
 body {
-  font-family: "quattro";
+  font-family: "cabin";
   padding: 5px;
 }
 
@@ -11,17 +11,17 @@ p {
 }
 
 .leaflet-container {
-  font-family: "quattro" !important;
+  font-family: "cabin" !important;
 }
 
 .title {
-  font-family: "quattro-bold";
+  font-family: "cabinbold";
   font-size: 1.6em;
   padding-bottom: 3px;
 }
 
 .subtitle {
-  font-family: "quattro-bold", sans-serif;
+  font-family: "cabinbold", sans-serif;
   font-size: 1.3em;
   margin-top: 20px;
 }
