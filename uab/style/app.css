@@ -10,6 +10,35 @@
   src: url(../font/Cabin-Medium.otf);
 }
 
+/* Rules to fix issue #9 */
+.leaflet-touch .leaflet-control-layers-toggle {
+  height: 26px;
+  width: 26px;
+}
+
+.leaflet-control-layers-toggle {
+  height: 26px;
+  width: 26px;
+}
+
+.leaflet-touch .leaflet-bar a {
+    height: 26px;
+    line-height: 26px;
+    width: 26px;
+}
+
+.leaflet-touch .leaflet-control-zoom-out {
+  font-size: 18px;
+}
+
+.leaflet-touch .leaflet-control-zoom-in {
+    font-size: 18px;
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar{
+  border: none;
+}
+
 @media screen and (max-width: 479px) {
 
 .leaflet-sidebar {
@@ -173,13 +202,12 @@ img {
 /*div icon menu*/
 #menu-icon {
 	background-clip: padding-box;
-	border: 2px solid rgba(0, 0, 0, 0.2);
 	margin-left: 10px;
 	margin-top: 10px;
 	border-radius: 4px;
 	background-image: url(images/menu.png);
-	width: 27px;
-	height: 27px;
+	width: 26px;
+	height: 26px;
 	background-color: #fff;
 	text-align: center;
 	z-index: 1000;
