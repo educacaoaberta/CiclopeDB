@@ -72,7 +72,20 @@
     </ul>
 
     <script>
-      var theadDefault = "<thead><tr><th class=\"dt-left\">Nome</th><th class=\"dt-left\">Tipo</th><th class=\"dt-left\">Chamada</th><th class=\"dt-left\">Carga horária</th><th class=\"dt-left\">Períodos</th></tr></thead>";
+      // var theadDefault = "<thead><tr><th class=\"dt-left\">Nome</th><th class=\"dt-left\">Tipo</th><th class=\"dt-left\">Chamada</th><th class=\"dt-left\">Carga horária</th><th class=\"dt-left\">Períodos</th></tr></thead>";
+
+
+      //Construindo o header do DataTable
+      var theadDefault = "<thead><tr>";
+      //pega o header que vai ser utilizado pelo dataTable para exibir os cursos
+      $.getJSON("json/cursos.json", function(data) {
+        dataHeader = data.header;
+        for (var index = 0; index < dataHeader.length; index++){
+            theadDefault += "<th class=\"dt-left\">" + dataHeader[index] + "</th>"
+          };
+          theadDefault += "</tr></thead>";
+        });
+
 
       //loading ipes data for data_table and timeline
       $.getJSON("json/ipes.json", function (data) {

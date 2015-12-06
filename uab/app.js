@@ -11,7 +11,7 @@ $('.timelines').hide();
 
 //loading data for dataTable
 $.getJSON("json/cursos.json", function(data) {
-    cursos = data;
+    cursos = data.cursos;
   });
 
 //loading data for timeline
