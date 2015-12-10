@@ -3,6 +3,7 @@
 #arg1 = Nome do arquivo que será convertido
 #arg2 = Headline que será utilizado no json
 #arg3 = Text que será utilizado no título
+#Ele retorna um arquivo result.json que é o resultado da conversão
 #Esse script serve para converter arquivos csv's gerados do modelo do timeline-js do googledocs (https://drive.google.com/previewtemplate?id=1pHBvXN7nmGkiG8uQSUB82eNlnL8xHu6kydzH_-eguHQ&mode=public), para um arquivo json que seja compatível com o timeline-js 3.0
 #Nesta versão só se considera data de início e fim (sem hora, headline e texto, e media)
 
@@ -61,5 +62,6 @@ with open(sys.argv[1], 'rb') as csvfile:
             events["media"] = media
         #adiciona um evento
         dadosJson['events'].append(events)
-    result = json.dumps(dadosJson)
-    print result
+    fileresult = open("result.json","w")
+    result = json.dump(dadosJson,fileresult)
+    fileresult.close()
