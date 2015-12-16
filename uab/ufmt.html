@@ -65,6 +65,10 @@ Colors.random = function() {
   for (var prop in this.names)
       if (Math.random() < 1/++count)
          result = prop;
+
+  delete this.names[result];
+  console.log(result);
+  console.log(this.names);
   return result;
 };
 
