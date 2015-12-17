@@ -2,12 +2,10 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
   <link rel="stylesheet" href="style/sidebar-content.css">
-  <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type='text/javascript' src="
-  ipesfunctions.js"></script>
 
-
+  <script type='text/javascript' src="ipesfunctions.js"></script>
 
 </head>
 
@@ -47,32 +45,7 @@
   var ctx = document.getElementById("myChart").getContext("2d");
   var myPieChart = new Chart(ctx).Pie([]);
 
-  processChart(myPieChart,'UFMT');
-//Code to show graph
-	// var polosEstado = {};
-  //
-	// $.getJSON("json/polos.json", function (data) {
-	// 	$.each(data.features, function (key, val) {
-  //     if (val.properties.ipes === 'UFMT') {
-  // 			//se não existe esse estado na lista cria
-  // 			if (!(val.properties.estado in polosEstado)) {
-  // 				polosEstado[val.properties.estado] = 1;
-  // 			}
-  // 			//se existe, soma ao valor
-  // 			polosEstado[val.properties.estado] ++ ;
-  //     }
-	// 	});
-  //
-	// 	$.each(polosEstado, function (estado, qtde) {
-  //     myPieChart.addData({
-	// 			"label": estado,
-	// 			"value": qtde,
-	// 			"color": Colors.random()
-	// 		});
-	// 	});
-  //   myPieChart.update();
-	// });
-  //
+  processChart(myPieChart,thisIpes);
 
 </script>
 

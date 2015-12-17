@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="style/sidebar-content.css">
+  <script type='text/javascript' src="ipesfunctions.js"></script>
 </head>
 
 <body>
@@ -31,8 +32,21 @@
 </div>
 <div id="dados_ipes"><p></p></div>
 
+<!--To show graph -->
+<canvas id="myChart" width="400" height="400"></canvas>
+
+<script>
+
+  var ctx = document.getElementById("myChart").getContext("2d");
+  var myPieChart = new Chart(ctx).Pie([]);
+
+  processChart(myPieChart,thisIpes);
+
+</script>
+
+
 <div class="subtitle">Estrutura</div>
-<p>A UAB/UFSC é organizada a partir do Núcleo UAB e de Coordenadorias de Educação a Distância.  Atendendo aos requisitos do programa UAB/UFSC, institui-se o Núcleo de Pesquisa e Avaliação na estrutura da Coordenadoria de EaD. Este núcleo tem o objetivo de acompanhar o desenvolvimento dos cursos e identificar as situações de risco que podem levar estudantes à evasão. 
+<p>A UAB/UFSC é organizada a partir do Núcleo UAB e de Coordenadorias de Educação a Distância.  Atendendo aos requisitos do programa UAB/UFSC, institui-se o Núcleo de Pesquisa e Avaliação na estrutura da Coordenadoria de EaD. Este núcleo tem o objetivo de acompanhar o desenvolvimento dos cursos e identificar as situações de risco que podem levar estudantes à evasão.
 </p>
 
 <div class="subtitle">Material didático/recursos educacionais</div>

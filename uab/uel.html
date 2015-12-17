@@ -3,6 +3,8 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="style/sidebar-content.css">
+  <script type='text/javascript' src="ipesfunctions.js"></script>
+
 </head>
 
 <body>
@@ -37,6 +39,18 @@ $.getJSON("json/ipes.json", function (data) {
 </div>
 <div id="dados_ipes"><p></p></div>
 </div>
+
+<!--To show graph -->
+<canvas id="myChart" width="400" height="400"></canvas>
+
+<script>
+
+  var ctx = document.getElementById("myChart").getContext("2d");
+  var myPieChart = new Chart(ctx).Pie([]);
+
+  processChart(myPieChart,thisIpes);
+
+</script>
 
 
 <div class="subtitle">Estrutura</div>

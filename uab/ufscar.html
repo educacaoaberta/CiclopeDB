@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="style/sidebar-content.css">
+  <script type='text/javascript' src="ipesfunctions.js"></script>
 </head>
 
 <body>
@@ -31,6 +32,19 @@
   A Universidade Federal de São Carlos organizou a Secretaria Geral de Educação à Distância, que está diretamente relacionada à reitoria da universidade, e está organizada em cinco diferentes coordenações que, juntas, trabalham para oferecer educação à distância. Não há  distinção formal entre a educação a distância e a UAB - todas as iniciativas são coordenadas pelo SEaD.
 </div>
 <div id="dados_ipes"><p></p></div>
+
+<!--To show graph -->
+<canvas id="myChart" width="400" height="400"></canvas>
+
+<script>
+
+  var ctx = document.getElementById("myChart").getContext("2d");
+  var myPieChart = new Chart(ctx).Pie([]);
+
+  processChart(myPieChart,thisIpes);
+
+</script>
+
 
 <div class="subtitle">Estrutura e Organização</div>
 <p>Todas as iniciativas de EaD da UFSCar são apoiadas pela Secretaria Geral de Educação a Distância (SEaD). Para desempenho de suas finalidades, a SEaD é constituída por uma equipe que apoia as coordenações de curso (de graduação e especialização).

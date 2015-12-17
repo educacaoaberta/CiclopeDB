@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="style/sidebar-content.css">
+  <script type='text/javascript' src="ipesfunctions.js"></script>
 </head>
 
 <body>
@@ -31,6 +32,19 @@
   Como alguns outros poucos Núcleos, o CEAD da UFOP é uma unidade acadêmica em si, ligada diretamente a pró-reitoria de extensão. Sendo assim, tem um nível e autonomia e possibilidades de ação (por exemplo, bolsas para alunos) que não estão ao alcance, com o mesmo nível de facilidade, a outras universidades.
 </div>
 <div id="dados_ipes"><p></p></div>
+
+<!--To show graph -->
+<canvas id="myChart" width="400" height="400"></canvas>
+
+<script>
+
+  var ctx = document.getElementById("myChart").getContext("2d");
+  var myPieChart = new Chart(ctx).Pie([]);
+
+  processChart(myPieChart,thisIpes);
+
+</script>
+
 
 <div class="subtitle">Estrutura</div>
 <p>O CEAD da UFOP é uma Unidade Acadêmica e todos os cursos da modalidade à distância são oferecidos nesta unidade. Todo o controle acadêmico dos alunos é processado no CEAD/UFOP, além da organização pedagógica, administrativa e tecnológica. Para a oferta de cursos da modalidade à distância, recursos materiais e humanos precisam estar organizados, e para a gestão de todos os processos a hierarquia da unidade está estruturada em: Diretoria e Vice-diretoria, Coordenação Administrativa, Coordenação Pedagógica e Coordenação de Tecnologia. Cada curso ofertado tem coordenador que pode ser lotado na Unidade ou em outra Unidade da Universidade, os tutores são selecionados a partir das necessidades de cada curso.</p>

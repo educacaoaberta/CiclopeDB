@@ -5,6 +5,8 @@
 
   <link rel="stylesheet" href="style/sidebar-content.css">
 
+  <script type='text/javascript' src="ipesfunctions.js"></script>
+
 </head>
 
 <body>
@@ -34,6 +36,22 @@
   A Universidade Federal do Ceará (UFC) se destaca por ser um instituto, uma unidade acadêmica, que oferece seus próprios cursos bem como cursos em parceria com outras unidades. A Virtual não difere, legalmente, no âmbito da universidade o que é EaD e o que é presencial. O Instituto UFC Virtual oferece cursos de educação na modalidade à distância à população do interior do estado do Ceará, desenvolve seu próprio material didático e seu próprio ambiente virtual de aprendizagem, ambos criados por uma equipe multidisciplinar.
 </div>
 <div id="dados_ipes"><p></p></div>
+
+<!--To show graph -->
+<canvas id="myChart" width="400" height="400"></canvas>
+
+<!--To show graph -->
+<canvas id="myChart" width="400" height="400"></canvas>
+
+<script>
+
+  var ctx = document.getElementById("myChart").getContext("2d");
+  var myPieChart = new Chart(ctx).Pie([]);
+
+  processChart(myPieChart,thisIpes);
+
+</script>
+
 
 <div class="subtitle">Modelo operacional</div>
 <p>UFC Virtual foi criada depois de conhecer modelos de outros paises. A parte tecnológica tem inspiração em Monterrey no México e o modelo de produção e preparação de cursos é da Memorial University-Canada. A organiação é feita em diferentes setores:</p>
