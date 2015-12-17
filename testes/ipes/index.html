@@ -172,35 +172,27 @@ Colors.random = function() {
 
 
 //Versão polos por estado em pizza
-	// var polosEstado = {};
-	// var dadosChart = [];
-	//
-	// var ipes = L.geoJson(null, {onEachFeature: onEachFeature, pointToLayer: pointToLayer});
-	// $.getJSON("ipes-all.json", function (data) {
-	// 	ipes.addData(data);
-	//
-	// 	//Todo esse código abaixo é necessário para se gerar o gráfico de pizza
-	//
-	// 	$.each(data.features, function (key, val) {
-	// 		//se não existe esse estado na lista cria
-	// 		if (!(val.properties.Estado in polosEstado)) {
-	// 			polosEstado[val.properties.Estado] = 1;
-	// 		}
-	// 		//se existe, soma ao valor
-	// 		polosEstado[val.properties.Estado] ++ ;
-	//
-	// 	});
-	//
-	// 	$.each(polosEstado, function (estado, qtde) {
-	// 		dadosChart.push({
-	// 			"label": estado,
-	// 			"value": qtde,
-	// 			"color": Colors.random()
-	// 		});
-	// 	});
-	//
-	// });
+	function polosPorEstado (myBarChart){
+		var polosEstado = {};
 
+		$.getJSON("ipes-all.json", function (data) {
+			$.each(data.features, function (key, val) {
+				//se não existe esse estado na lista cria
+				if (!(val.properties.Estado in polosEstado)) {
+					polosEstado[val.properties.Estado] = 1;
+				}
+				//se existe, soma ao valor
+				polosEstado[val.properties.Estado] ++ ;
+
+			});
+
+			$.each(polosEstado, function (estado, qtde) {
+				myBarChart.addData([qtde],estado);
+			});
+			myBarChart.update();
+
+		});
+}
 
 
 
@@ -242,15 +234,38 @@ var overlayMaps = {
 L.control.layers(baseMaps, overlayMaps,{position: 'topleft'}).addTo(map);
 </script>
 
-<!--O código à seguir também é necessário para o gráfico de pizza -->
+<div>
+<!-- Gráfico de Barras-->
+<canvas id="chartByState" width="800" height="300"></canvas>
+</div>
 
-<canvas id="myChart" width="400" height="400"></canvas>
+<div>
+<!--O código à seguir também é necessário para o gráfico de pizza -->
+<canvas id="chartByRegion" width="400" height="400"></canvas>
+</div>
+
 
 <script>
 
 window.onload = function(){
-    var ctx = document.getElementById("myChart").getContext("2d");
+		//for bar grpah
+		initialData = {
+			labels : [],
+			datasets :[{
+				fillColor: "blue",
+				data :[]
+			}]
+
+		};
+		var ctxBar = document.getElementById("chartByState").getContext("2d");
+		var myBarChart = new Chart(ctxBar).Bar(initialData, {barShowStroke: false});
+		polosPorEstado(myBarChart);
+
+		//for pie graph
+		var ctx = document.getElementById("chartByRegion").getContext("2d");
     var myPieChart = new Chart(ctx).Pie(dadosChart);
+
+
 }
 
 </script>
