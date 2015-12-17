@@ -32,6 +32,36 @@
 	<div id="map"></div><br>
 
 	<script>
+	regioes = {
+    "AC" : "Norte",
+    "AL" : "Nordeste",
+    "AP" : "Norte",
+    "AM" : "Norte",
+    "BA" : "Nordeste",
+    "CE"  : "Nordeste",
+    "DF"  : "Centro-Oeste",
+    "ES"  : "Sudeste",
+    "GO"  : "Centro-Oeste",
+    "MA"  : "Nordeste",
+    "MS"  : "Centro-Oeste",
+    "MT"  : "Centro-Oeste",
+    "MG"  : "Sudeste",
+    "PA"  : "Norte",
+    "PB"  : "Nordeste",
+    "PR"  : "Sul",
+    "PE"  : "Nordeste",
+    "PI"  : "Nordeste",
+    "RJ"  : "Sudeste",
+    "RN"  : "Nordeste",
+    "RS"  : "Sul",
+    "RO"  : "Norte",
+    "RR"  : "Norte",
+    "SC"  : "Sul",
+    "SP"  : "Sudeste",
+    "SE"  : "Nordeste",
+    "TO"  : "Norte"}
+
+
 	//Cores para serem usadas no chart
 	Colors = {};
 Colors.names = {
@@ -83,9 +113,13 @@ Colors.names = {
 Colors.random = function() {
     var result;
     var count = 0;
+
     for (var prop in this.names)
         if (Math.random() < 1/++count)
            result = prop;
+
+		delete this.names[result];
+
     return result;
 };
 
@@ -107,11 +141,7 @@ Colors.random = function() {
 			});
 
 
-//esse é o formato do polosEstado
-// {
-//	"estado" : quantosPolos
-// },
-	var polosEstado = {};
+	var polosRegiao = {};
 	var dadosChart = [];
 
 	var ipes = L.geoJson(null, {onEachFeature: onEachFeature, pointToLayer: pointToLayer});
@@ -122,23 +152,54 @@ Colors.random = function() {
 
 		$.each(data.features, function (key, val) {
 			//se não existe esse estado na lista cria
-			if (!(val.properties.Estado in polosEstado)) {
-				polosEstado[val.properties.Estado] = 1;
+			if (!(regioes[val.properties.Estado] in polosRegiao)) {
+				polosRegiao[regioes[val.properties.Estado]] = 1;
 			}
 			//se existe, soma ao valor
-			polosEstado[val.properties.Estado] ++ ;
+			polosRegiao[regioes[val.properties.Estado]] ++ ;
 
 		});
 
-		$.each(polosEstado, function (estado, qtde) {
+		$.each(polosRegiao, function (regiao, qtde) {
 			dadosChart.push({
-				"label": estado,
+				"label": regiao,
 				"value": qtde,
 				"color": Colors.random()
 			});
 		});
 
 	});
+
+
+//Versão polos por estado em pizza
+	// var polosEstado = {};
+	// var dadosChart = [];
+	//
+	// var ipes = L.geoJson(null, {onEachFeature: onEachFeature, pointToLayer: pointToLayer});
+	// $.getJSON("ipes-all.json", function (data) {
+	// 	ipes.addData(data);
+	//
+	// 	//Todo esse código abaixo é necessário para se gerar o gráfico de pizza
+	//
+	// 	$.each(data.features, function (key, val) {
+	// 		//se não existe esse estado na lista cria
+	// 		if (!(val.properties.Estado in polosEstado)) {
+	// 			polosEstado[val.properties.Estado] = 1;
+	// 		}
+	// 		//se existe, soma ao valor
+	// 		polosEstado[val.properties.Estado] ++ ;
+	//
+	// 	});
+	//
+	// 	$.each(polosEstado, function (estado, qtde) {
+	// 		dadosChart.push({
+	// 			"label": estado,
+	// 			"value": qtde,
+	// 			"color": Colors.random()
+	// 		});
+	// 	});
+	//
+	// });
 
 
 
