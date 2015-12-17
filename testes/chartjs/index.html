@@ -7,7 +7,7 @@
   <title>Teste Chart</title>
 
   <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src=" https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
 
 </head>
 
@@ -16,9 +16,14 @@
 
 
 var dados;
+var dados_bar;
+
 
 $.getJSON("dados.json", function(data) {
-    dados = data.data;
+    // dados = data.data;
+    dados_bar = data.data;
+
+    console.log(dados_bar);
   });
 
 
@@ -29,14 +34,31 @@ $.getJSON("dados.json", function(data) {
 
 <body>
 
-<canvas id="myChart" width="400" height="400"></canvas>
+<!-- <canvas id="myChart" width="400" height="400"></canvas> -->
+
+<canvas id="myChart2" width="400" height="400"></canvas>
+
 
 <script>
 
 window.onload = function(){
-    var ctx = document.getElementById("myChart").getContext("2d");
-    var myPieChart = new Chart(ctx).Pie(dados);
+    // var ctx = document.getElementById("myChart").getContext("2d");
+    // var myPieChart = new Chart(ctx).Pie(dados);
+    var teste = {
+      labels : [],
+      datasets :[{
+        label: "My First dataset",
+        fillColor: "rgba(220,220,220,0.5)",
+        data :[]
+      }]
+    }
 
+    var ctxBar = document.getElementById("myChart2").getContext("2d");
+    var myBarChart = new Chart(ctxBar).Bar(teste);
+
+    myBarChart.addData([40], "Teste");
+    myBarChart.addData([20], "Outro Teste");
+    myBarChart.addData([60], "Mais um teste");
 }
 
 </script>
