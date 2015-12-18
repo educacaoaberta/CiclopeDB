@@ -272,4 +272,14 @@ ul.tabs li.current{
   line-height: 110%;
 }
 
+#myChart {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  width: 250px;
+  height: 250px;
+  font-family: cabinbold;
+}
+
+
 } /* close @media

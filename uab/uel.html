@@ -41,13 +41,13 @@ $.getJSON("json/ipes.json", function (data) {
 </div>
 
 <!--To show graph -->
-<canvas id="myChart" width="400" height="400"></canvas>
+<p><b>Número de polos por estado</b></p>
+<canvas id="myChart"></canvas>
 
 <script>
 
   var ctx = document.getElementById("myChart").getContext("2d");
   var myPieChart = new Chart(ctx).Pie([]);
-
   processChart(myPieChart,thisIpes);
 
 </script>
