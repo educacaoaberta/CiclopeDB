@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+	<link rel="stylesheet" href="ipes.css" />
 	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 	<script src="ipes-all.json" type="text/javascript"></script>
@@ -157,7 +158,7 @@ Colors.random = function() {
 			} else {
 				//se existe, soma ao valor
 				polosRegiao[regioes[val.properties.Estado]] ++ ;
-			\}	
+			}
 
 		});
 
@@ -236,16 +237,15 @@ var overlayMaps = {
 L.control.layers(baseMaps, overlayMaps,{position: 'topleft'}).addTo(map);
 </script>
 
-<div>
+<div class= "graph">
+<h2>Número de IPES por Estado</h2>
 <!-- Gráfico de Barras-->
 <canvas id="chartByState" width="800" height="300"></canvas>
-</div>
 
-<div>
+<h2>Número de IPES por Região</h2>
 <!--O código à seguir também é necessário para o gráfico de pizza -->
-<canvas id="chartByRegion" width="400" height="400"></canvas>
+<canvas id="chartByRegion"></canvas>
 </div>
-
 
 <script>
 
