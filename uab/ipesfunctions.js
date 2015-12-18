@@ -53,8 +53,6 @@ Colors.random = function() {
          result = prop;
 
   delete this.names[result];
-  console.log(result);
-  console.log(this.names);
   return result;
 };
 
