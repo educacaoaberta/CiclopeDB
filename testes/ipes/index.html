@@ -154,9 +154,10 @@ Colors.random = function() {
 			//se não existe esse estado na lista cria
 			if (!(regioes[val.properties.Estado] in polosRegiao)) {
 				polosRegiao[regioes[val.properties.Estado]] = 1;
-			}
-			//se existe, soma ao valor
-			polosRegiao[regioes[val.properties.Estado]] ++ ;
+			} else {
+				//se existe, soma ao valor
+				polosRegiao[regioes[val.properties.Estado]] ++ ;
+			\}	
 
 		});
 
@@ -180,9 +181,10 @@ Colors.random = function() {
 				//se não existe esse estado na lista cria
 				if (!(val.properties.Estado in polosEstado)) {
 					polosEstado[val.properties.Estado] = 1;
+				}else {
+					//se existe, soma ao valor
+					polosEstado[val.properties.Estado] ++ ;
 				}
-				//se existe, soma ao valor
-				polosEstado[val.properties.Estado] ++ ;
 
 			});
 

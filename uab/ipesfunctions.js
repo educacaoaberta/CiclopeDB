@@ -67,8 +67,10 @@ function processChart(myPieChart,state) {
         if (!(val.properties.estado in polosEstado)) {
           polosEstado[val.properties.estado] = 1;
         }
-        //se existe, soma ao valor
-        polosEstado[val.properties.estado] ++ ;
+        else {
+          //se existe, soma ao valor
+          polosEstado[val.properties.estado] ++ ;
+        }
       }
     });
 
