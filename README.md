@@ -1,7 +1,7 @@
 # Ciclope
 A map + tabs visualization tool that aggregates various existing JS libraries and some CSS customization originally based on https://github.com/tamielbr/datatables-map. Our goal is to make it easy to use JSON source files to show diverse information (charts, timelines, tablets) as a way to communicate research output.
 
-<img src="http://imgur.com/sHQKaV3">
+<img src="http://i.imgur.com/sHQKaV3.png">
 
 * Datatables, http://datatables.net/
 * TimelineJS, http://timeline.knightlab.com/
