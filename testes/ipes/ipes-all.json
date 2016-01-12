@@ -762,20 +762,20 @@
       "geometry":{
         "type":"Point",
         "coordinates":[
-          -2.6725146,
-          42.8463449
+          -40.30126,
+          -20.30536
         ]
       },
       "properties":{
         "Sigla":"IFES",
         "URL":"http://cead.ifes.edu.br/",
         "URL2":"http://cead.ifes.edu.br/",
-        "Logradouro":"Av. Manguinhos,Km 6",
-        "Bairro":"Manguinhos",
+        "Logradouro":"Av. Rio Branco, 50",
+        "Bairro":"Santa Lúcia",
         "Cidade":"Vitoria",
         "Estado":"ES",
-        "CEP":"29056255",
-        "Telefone":"(27) 3227-5564 r2003"
+        "CEP":"29056-255",
+        "Telefone":"(27) 3227-5564 x 2003"
       }
     },
     {
