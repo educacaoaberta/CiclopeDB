@@ -30,13 +30,14 @@ Colors.names = {
 };
 
 Colors.random = function() {
-  var result;
+  var result = 0;
   var count = 0;
   for (var prop in this.names)
-      if (Math.random() < 1/++count)
-         result = prop;
+      if ( (Math.random() < 1/++count) && (result === 0)) {
+         result = this.names[prop];
+         delete this.names[prop];
+       }
 
-  delete this.names[result];
   return result;
 };
 
