@@ -34,12 +34,25 @@ A Universidade Estadual do Maranhão oferece educação à distância para munic
 <div id="dados_ipes"><p></p></div>
 
 <!--To show graph -->
+<p><b>Número de polos por estado</b></p>
 <canvas id="myChart" width="400" height="400"></canvas>
 
 <script>
+  var options =
+  {
+      tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
 
+      onAnimationComplete: function()
+      {
+          this.showTooltip(this.segments, true);
+      },
+
+      tooltipEvents: [],
+
+      showTooltips: true
+  }
   var ctx = document.getElementById("myChart").getContext("2d");
-  var myPieChart = new Chart(ctx).Pie([]);
+  var myPieChart = new Chart(ctx).Pie([],options);
 
   processChart(myPieChart,thisIpes);
 

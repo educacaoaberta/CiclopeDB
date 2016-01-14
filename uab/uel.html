@@ -45,9 +45,23 @@ $.getJSON("json/ipes.json", function (data) {
 <canvas id="myChart"></canvas>
 
 <script>
+  var options =
+  {
+      tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
 
+      onAnimationComplete: function()
+      {
+          this.showTooltip(this.segments, true);
+      },
+
+      tooltipEvents: [],
+
+      showTooltips: true
+  }
   var ctx = document.getElementById("myChart").getContext("2d");
-  var myPieChart = new Chart(ctx).Pie([]);
+  var myPieChart = new Chart(ctx).Pie([],options);
+
+
   processChart(myPieChart,thisIpes);
 
 </script>

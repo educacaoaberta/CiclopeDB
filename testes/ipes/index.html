@@ -65,64 +65,48 @@
 
 	//Cores para serem usadas no chart
 	Colors = {};
-Colors.names = {
-    aqua: "#00ffff",
-    azure: "#f0ffff",
-    beige: "#f5f5dc",
-    black: "#000000",
-    blue: "#0000ff",
-    brown: "#a52a2a",
-    cyan: "#00ffff",
-    darkblue: "#00008b",
-    darkcyan: "#008b8b",
-    darkgrey: "#a9a9a9",
-    darkgreen: "#006400",
-    darkkhaki: "#bdb76b",
-    darkmagenta: "#8b008b",
-    darkolivegreen: "#556b2f",
-    darkorange: "#ff8c00",
-    darkorchid: "#9932cc",
-    darkred: "#8b0000",
-    darksalmon: "#e9967a",
-    darkviolet: "#9400d3",
-    fuchsia: "#ff00ff",
-    gold: "#ffd700",
-    green: "#008000",
-    indigo: "#4b0082",
-    khaki: "#f0e68c",
-    lightblue: "#add8e6",
-    lightcyan: "#e0ffff",
-    lightgreen: "#90ee90",
-    lightgrey: "#d3d3d3",
-    lightpink: "#ffb6c1",
-    lightyellow: "#ffffe0",
-    lime: "#00ff00",
-    magenta: "#ff00ff",
-    maroon: "#800000",
-    navy: "#000080",
-    olive: "#808000",
-    orange: "#ffa500",
-    pink: "#ffc0cb",
-    purple: "#800080",
-    violet: "#800080",
-    red: "#ff0000",
-    silver: "#c0c0c0",
-    white: "#ffffff",
-    yellow: "#ffff00"
-};
+	Colors.names = {
+	  blue: "#AEC6CF",
+	  brown: "#836953",
+	  darkblue: "#779ECB",
+	  darkcyan: "#008b8b",
+	  darkgrey: "#CFCFC4",
+	  darkgreen: "#006400",
+	  darkkhaki: "#bdb76b",
+	  darkolivegreen: "#556b2f",
+	  darkorange: "#C46210",
+	  darkorchid: "#9932cc",
+	  darkred: "#8b0000",
+	  darksalmon: "#e9967a",
+	  gold: "#ffd700",
+	  mantisgreen: "#74C365",
+	  indigo: "#4b0082",
+	  pastelblue: "#73A9C2",
+	  pastelgreen: "#77DD77",
+	  lightgrey: "#696969",
+	  pastelpurple: "#B39EB5",
+	  maroon: "#800000",
+	  navy: "#000080",
+	  olive: "#808000",
+	  pastelorange: "#FFB347",
+	  purple: "#800080",
+	  violet: "#CB99C9",
+	  rubyred: "#9B111E",
+	  yellow: "#ffff00"
+	};
 
-Colors.random = function() {
-    var result;
-    var count = 0;
+	Colors.random = function() {
+	  var result = 0;
+	  var count = 0;
+	  for (var prop in this.names)
+	      if ( (Math.random() < 1/++count) && (result === 0)) {
+	         result = this.names[prop];
+	         delete this.names[prop];
+	       }
 
-    for (var prop in this.names)
-        if (Math.random() < 1/++count)
-           result = prop;
+	  return result;
+	};
 
-		delete this.names[result];
-
-    return result;
-};
 
 	var base = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 	  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -189,9 +173,20 @@ Colors.random = function() {
 
 			});
 
-			$.each(polosEstado, function (estado, qtde) {
-				myBarChart.addData([qtde],estado);
-			});
+			//sorting the polos
+			var polosOrdenados = [];
+			for (var polo in polosEstado)
+			      polosOrdenados.push([polo, polosEstado[polo]])
+			polosOrdenados.sort(function(a, b) {return b[1] - a[1]})
+			//polosOrdenados = [[estado,qtde],...]
+
+			for (i = 0; i < polosOrdenados.length; i++) {
+		    myBarChart.addData([polosOrdenados[i][1]],polosOrdenados[i][0]);
+			}
+
+			// $.each(polosEstado, function (estado, qtde) {
+			// 	myBarChart.addData([qtde],estado);
+			// });
 			myBarChart.update();
 
 		});
@@ -264,8 +259,24 @@ window.onload = function(){
 		polosPorEstado(myBarChart);
 
 		//for pie graph
+		var options =
+	  {
+				//animation: false;
+
+	      tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
+
+	      onAnimationComplete: function()
+	      {
+	          this.showTooltip(this.segments, true);
+	      },
+
+	      tooltipEvents: [],
+
+	      showTooltips: true
+	  }
+
 		var ctx = document.getElementById("chartByRegion").getContext("2d");
-    var myPieChart = new Chart(ctx).Pie(dadosChart);
+    var myPieChart = new Chart(ctx).Pie(dadosChart,options);
 
 
 }
