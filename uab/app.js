@@ -249,6 +249,13 @@ function sidebar_load ()
                     "aaData" : value.data,
                     "paging": true,
                     "order": [0,'asc'],
+                    dom: 'Bfrtip',
+                    buttons: [
+                       {
+                        extend: 'csvHtml5',
+                        title: 'data'
+                      }
+                      ]                    
                 });
       }
     });
