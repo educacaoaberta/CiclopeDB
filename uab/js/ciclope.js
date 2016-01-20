@@ -83,7 +83,7 @@ var brasil = L.geoJson(null, {
     fillOpacity: 1
     }
     });
-    $.getJSON("br_estados.json", function(data) {
+    $.getJSON("geo/br_estados.json", function(data) {
       brasil.addData(data);
     });
 
@@ -161,7 +161,7 @@ function onEachFeature (ipes, layer) {
 
   layer.on("click", function() {
     thisIpes = ipes.properties.Sigla;
-    $("#tab-1").load(ipes.properties.Arquivo);
+    $("#tab-1").load('content/' + ipes.properties.Arquivo);
     //tentativa de resolução
     for (var thisLayer in allLayers){
       if (thisLayer != thisIpes){
@@ -255,7 +255,7 @@ function sidebar_load ()
                         extend: 'csvHtml5',
                         title: 'data'
                       }
-                      ]                    
+                      ]
                 });
       }
     });
