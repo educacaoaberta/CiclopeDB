@@ -10,6 +10,22 @@
   src: url(../font/Cabin-Medium.otf);
 }
 
+.pie-legend li span {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    margin-right: 5px;
+}
+.pie-legend {
+    list-style: none;
+}
+
+#legend {
+  float:right;
+  width: 50%;
+  padding-top: 2em
+}
+
 /* Rules to fix issue #9 */
 .leaflet-touch .leaflet-control-layers-toggle {
   height: 26px;
