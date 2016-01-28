@@ -1,0 +1,9 @@
+Organizaremos assim:
+
+getData.php -> conecta ao BD, e disponibiliza funções para "puxar os dados", retorna eles em json (http://openenergymonitor.org/emon/node/107)
+
+ciclope.js -> precisaremos modificar um pouco para quê o json retornado do getData seja utilizado corretamente
+
+pontos:
+-fazer a modelagem do BD
+-levantar os tipos de "consultas" que teremos
