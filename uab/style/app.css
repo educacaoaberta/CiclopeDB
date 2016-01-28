@@ -1,5 +1,49 @@
 /* layer icons from http://findicons.com/icon/437348/layers */
 
+body {
+  font-family: "cabin";
+  padding: 5px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 150%;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.leaflet-container {
+  font-family: "cabin" !important;
+}
+
+.title {
+  font-family: "cabinbold";
+  font-size: 1.6em;
+  padding-bottom: 3px;
+}
+
+.subtitle {
+  font-family: "cabinbold", sans-serif;
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+
+.ref {
+  font-size: 0.8em;
+}
+
+.cit {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1em;
+  /*padding-left: 22px ;
+  text-indent: -22px ;*/
+}
+
+a:link {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: cabin;
   src: url(../font/Cabin-Regular.otf);
