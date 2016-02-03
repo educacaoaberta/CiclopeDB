@@ -12,7 +12,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-$sql = "SELECT sigla, lat, log FROM ipes";
+$sql = "SELECT `sigla`, `lat`, `long` FROM ipes";
 $result = $conn->query($sql);
 $rows = array();
 
