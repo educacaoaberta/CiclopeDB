@@ -63,7 +63,7 @@ var ipes = L.geoJson(null, {
     });
 
 //Get data from php - begin
-$.getJSON("ipes.php", function (data) {
+$.getJSON("model/ipes.php", function (data) {
   for (var i = 0; i < data.length; i++) {
     var location = new L.LatLng(data[i].lat, data[i].long);
     var sigla = data[i].sigla;
