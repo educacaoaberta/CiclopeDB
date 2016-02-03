@@ -19,3 +19,5 @@ Dentre outros, utilizamos:
 * TimelineJS, http://timeline.knightlab.com
 * LeafletJS, http://leafletjs.com
 * ChartJS, http://www.chartjs.org
+
+Versão DB baseado em https://github.com/bmcbride/leaflet-users-map

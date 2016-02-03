@@ -58,13 +58,29 @@ var allLayers = {};
 
 var polos = L.layerGroup();
 
-
 var ipes = L.geoJson(null, {
   onEachFeature: onEachFeature
     });
 
+//Get data from php - begin
+$.getJSON("ipes.php", function (data) {
+  for (var i = 0; i < data.length; i++) {
+    var location = new L.LatLng(data[i].lat, data[i].long);
+    var sigla = data[i].sigla;
+
+    var marker = new L.Marker(location, {
+      title: sigla
+    });
+    marker.bindPopup(sigla);
+    ipes.addLayer(marker);
+  }
+}
+
+//Get data from php - end
+
+
 $.getJSON("json/ipes.json", function (data) {
-  ipes.addData(data);
+  //ipes.addData(data);
   $.each(data.features, function (key, val) {
     allLayers[val.properties.Sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
 
