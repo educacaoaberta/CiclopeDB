@@ -74,7 +74,7 @@ $.getJSON("ipes.php", function (data) {
     marker.bindPopup(sigla);
     ipes.addLayer(marker);
   }
-}
+});
 
 //Get data from php - end
 
