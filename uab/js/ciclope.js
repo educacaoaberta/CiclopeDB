@@ -58,9 +58,11 @@ var allLayers = {};
 
 var polos = L.layerGroup();
 
-var ipes = L.geoJson(null, {
-  onEachFeature: onEachFeature
-    });
+// var ipes = L.geoJson(null, {
+//   onEachFeature: onEachFeature
+//     });
+
+var ipes = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
 
 //Get data from php - begin
 $.getJSON("model/ipes.php", function (data) {
@@ -75,7 +77,6 @@ $.getJSON("model/ipes.php", function (data) {
     ipes.addLayer(marker);
   }
 });
-
 //Get data from php - end
 
 
