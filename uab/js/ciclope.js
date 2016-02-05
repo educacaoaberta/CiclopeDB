@@ -79,17 +79,17 @@ $.getJSON("model/ipes.php", function (data) {
 });
 //Get data from php - end
 
-
-$.getJSON("json/ipes.json", function (data) {
-  //ipes.addData(data);
-  $.each(data.features, function (key, val) {
-    allLayers[val.properties.Sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-
-    //Isso resolve a Issue #34
-    polos.addLayer(allLayers[val.properties.Sigla]);
-
-      });
-    });
+//Comentei pra resolver com php
+// $.getJSON("json/ipes.json", function (data) {
+//   //ipes.addData(data);
+//   $.each(data.features, function (key, val) {
+//     allLayers[val.properties.Sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+//
+//     //Isso resolve a Issue #34
+//     polos.addLayer(allLayers[val.properties.Sigla]);
+//
+//       });
+//     });
 
 var brasil = L.geoJson(null, {
   style: {
@@ -104,16 +104,35 @@ var brasil = L.geoJson(null, {
       brasil.addData(data);
     });
 
+//pegando dados dos polos - begin
+var estado_anterior ='';
+  $.getJSON("model/polos.php", function (data) {
+      for (var i = 0; i < data.length; i++) {
+        var location = new L.LatLng(data[i].lat, data[i].long);
+        var sigla = data[i].sigla;
+        var cidade = data[i].cidade;
+        var estado = data[i].estado;
 
-$.getJSON("json/polos.json", function (data) {
-  $.each(data.features, function (key, val) {
-    //Isso é uma gambiarra, mas não resolve o problema da issue #34
-    if (typeof allLayers[val.properties.ipes] == 'undefined') {
-        allLayers[val.properties.ipes] =  L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-    }
-    allLayers[val.properties.ipes].addData(val);
-  });
-});
+        var marker = new L.Marker(location, {
+          title: cidade
+        });
+        marker.bindPopup(sigla);
+        ipes.addLayer(marker);
+      }
+    });
+//pegando dados dos polos - end
+
+
+//comentei para resolver com php
+// $.getJSON("json/polos.json", function (data) {
+//   $.each(data.features, function (key, val) {
+//     //Isso é uma gambiarra, mas não resolve o problema da issue #34
+//     if (typeof allLayers[val.properties.ipes] == 'undefined') {
+//         allLayers[val.properties.ipes] =  L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+//     }
+//     allLayers[val.properties.ipes].addData(val);
+//   });
+// });
 
 
 function pointToLayer (feature, latlng) {
