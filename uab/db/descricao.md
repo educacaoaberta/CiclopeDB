@@ -34,10 +34,13 @@ Polos
 
 Cursos
 
-* Nome
+* Nome (no_curso)
 * Tipo
 * Chamada
-* Períodos
-* Carga Horária
-* Id Polo (da Base Original)
-* Quantidade de Alunos Ativos
+
+
+polos_has_cursos (oferta)
+
+* data-oferta
+* numero-vagas
+* 
