@@ -14,7 +14,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-$sql = "select sigla,cidade,estado,polos.lat,polos.lng from ipes, polos, ipes_has_polos where ipes_has_polos.ipes_id=ipes.id and ipes_has_polos.polos_id=polos.id order by sigla;";
+$sql = "select sigla,cidade,estado,polos.lat,polos.lng from ipes, polos, cursos, polos_has_cursos where ipes.id=cursos.id and polos_has_cursos.polos_id=polos.id and polos_has_cursos.cursos_id=cursos.id order by sigla";
 $result = $conn->query($sql);
 $rows = array();
 

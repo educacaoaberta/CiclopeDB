@@ -62,19 +62,61 @@ var polos = L.layerGroup();
 //   onEachFeature: onEachFeature
 //     });
 
-var ipes = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+var ipes = L.geoJson(null, {
+  onEachFeature: onEachFeature
+    });
 
 //Get data from php - begin
 $.getJSON("model/ipes.php", function (data) {
   for (var i = 0; i < data.length; i++) {
-    var location = new L.LatLng(data[i].lat, data[i].long);
-    var sigla = data[i].sigla;
+    // var location = new L.LatLng(data[i].lat, data[i].lng);
+    // var sigla = data[i].sigla;
+    //
+    // var marker = new L.Marker(location, {
+    //   title: sigla
+    // });
+    //
+    // marker.bindPopup(sigla);
 
-    var marker = new L.Marker(location, {
-      title: sigla
-    });
-    marker.bindPopup(sigla);
-    ipes.addLayer(marker);
+    //Buscar um jeito melhor de fazer isso, talvez no php ou no sql mesmo
+    val = {
+         "type":"Feature",
+         "properties": {
+           "Nome" : null,
+           "UAB" : null,
+           "Sigla" : data[i].sigla,
+           "Arquivo" : data[i].sigla.toLowerCase()+".html",
+           "detalhes": {
+             "Coordenadora": null,
+             "Coordenadora adjunta": null,
+             "Coordenador UAB": null,
+             "Endereço": null,
+             "Bairro": null,
+             "Cidade": null,
+             "Estado": null,
+             "Telefone 1": null,
+             "Telefone 2": null,
+             "Telefone 3": null,
+             "Email": null,
+             "URL": null,
+             "Alunos" : null
+           }
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              parseFloat(data[i].lng),
+              parseFloat(data[i].lat)
+            ]
+         }
+      };
+
+    // ipes.addLayer(marker);
+    ipes.addData(val);
+
+    //Preparando os dados dos polos
+    allLayers[sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+    polos.addLayer(allLayers[sigla]);
   }
 });
 //Get data from php - end
@@ -105,19 +147,30 @@ var brasil = L.geoJson(null, {
     });
 
 //pegando dados dos polos - begin
-var estado_anterior ='';
   $.getJSON("model/polos.php", function (data) {
+      console.log(data);
       for (var i = 0; i < data.length; i++) {
-        var location = new L.LatLng(data[i].lat, data[i].long);
         var sigla = data[i].sigla;
         var cidade = data[i].cidade;
         var estado = data[i].estado;
 
-        var marker = new L.Marker(location, {
-          title: cidade
-        });
-        marker.bindPopup(sigla);
-        ipes.addLayer(marker);
+        //Não consegui adicionar os polos de outra maneira, de modo que tivessem o comportamento que tinham antes
+        var val = {
+           "type":"Feature",
+           "geometry":{
+              "type":"Point",
+              "coordinates":[
+                parseFloat(data[i].lng),
+                parseFloat(data[i].lat)
+              ]
+           },
+           "properties":{
+              "ipes":sigla,
+              "cidade":cidade,
+              "estado":estado
+           }
+        };
+        allLayers[sigla].addData(val);
       }
     });
 //pegando dados dos polos - end
