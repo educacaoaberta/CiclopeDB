@@ -115,23 +115,11 @@ $.getJSON("model/ipes.php", function (data) {
     ipes.addData(val);
 
     //Preparando os dados dos polos
-    allLayers[sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-    polos.addLayer(allLayers[sigla]);
+    allLayers[data[i].sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+    polos.addLayer(allLayers[data[i].sigla]);
   }
 });
 //Get data from php - end
-
-//Comentei pra resolver com php
-// $.getJSON("json/ipes.json", function (data) {
-//   //ipes.addData(data);
-//   $.each(data.features, function (key, val) {
-//     allLayers[val.properties.Sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-//
-//     //Isso resolve a Issue #34
-//     polos.addLayer(allLayers[val.properties.Sigla]);
-//
-//       });
-//     });
 
 var brasil = L.geoJson(null, {
   style: {
@@ -147,8 +135,7 @@ var brasil = L.geoJson(null, {
     });
 
 //pegando dados dos polos - begin
-  $.getJSON("model/polos.php", function (data) {
-      console.log(data);
+  $.getJSON("model/polos.php",function (data) {
       for (var i = 0; i < data.length; i++) {
         var sigla = data[i].sigla;
         var cidade = data[i].cidade;
@@ -176,18 +163,7 @@ var brasil = L.geoJson(null, {
 //pegando dados dos polos - end
 
 
-//comentei para resolver com php
-// $.getJSON("json/polos.json", function (data) {
-//   $.each(data.features, function (key, val) {
-//     //Isso é uma gambiarra, mas não resolve o problema da issue #34
-//     if (typeof allLayers[val.properties.ipes] == 'undefined') {
-//         allLayers[val.properties.ipes] =  L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-//     }
-//     allLayers[val.properties.ipes].addData(val);
-//   });
-// });
-
-
+//Função que cria o marker como círculo para os polos
 function pointToLayer (feature, latlng) {
   return L.circleMarker(latlng, {
   radius: 6, weight: 1,
@@ -196,6 +172,7 @@ function pointToLayer (feature, latlng) {
   });
   }
 
+//Função que associa o nome da cidade ao polo, e quando se clica abre o popup
 function onEachPolo (feature, layer) {
   layer.on ('click', function (f) {
     f.target.bindPopup(feature.properties.cidade).openPopup();
@@ -273,7 +250,8 @@ function onEachFeature (ipes, layer) {
         }
         else{
           map.addLayer(allLayers[thisLayer]);
-          sidebar_load();
+          //sidebar_load();
+          sidebar_load(thisLayer);
         }
         }
       }
@@ -299,93 +277,191 @@ $('.menuitem').click(function(){
   $("#about-data").load("content/" + menuselected);
   });
 
-//function to load sidebar data correct
-function sidebar_load ()
-{
-  //used to know what's tab
-  //TODO: achar um jeito melhor de resolver isso
-  var thistab='tab-1';
 
-  sidebar.show();
+  //function to load sidebar data correct --json version
+  function sidebar_load (siglaAtual)
+  {
+    //used to know what's tab
+    //TODO: achar um jeito melhor de resolver isso
+    var thistab='tab-1';
 
-  $('#tabs-data').show();
-  $('#about-data').hide();
+    sidebar.show();
 
-  //loading data from second tab - begin
+    $('#tabs-data').show();
+    $('#about-data').hide();
 
-  //hide all datatables
-  $('.table_data').hide();
+    //loading data from second tab - begin
 
-
-  //hide all datatable
-   $('.dataTables_wrapper').hide();
-
-  //show only this
-  $('#table_data_'+thisIpes.toLowerCase()+'_wrapper').show();
-  $('#table_data_'+thisIpes.toLowerCase()).show();
+    //hide all datatables
+    $('.table_data').hide();
 
 
-  //if not existis this class, load data
-  if(!$('#table_data_'+thisIpes.toLowerCase()+'_wrapper').length) {
-    //TODO: melhorar a maneira de selecionar a ipes, desse jeito precisa
-    //navergar por todo o json até achar a ipes em questão
-    $.each(cursos, function (index, value) {
-      if (index === thisIpes) {
-        $('#table_data_'+thisIpes.toLowerCase()).DataTable( {
-               "language": {
-                     "url": "json/datatables_pt-br.json"
-                     },
-                    "aaData" : value.data,
-                    "paging": true,
-                    "order": [0,'asc'],
-                    dom: 'Bfrtip',
-                    buttons: [
-                       {
-                        extend: 'csvHtml5',
-                        title: 'data'
-                      }
-                      ]
-                });
-      }
-    });
-  }
-   //loading data from second tab - end
+    //hide all datatable
+     $('.dataTables_wrapper').hide();
 
-   //loading data from third tab - begin
+    //show only this
+    $('#table_data_'+thisIpes.toLowerCase()+'_wrapper').show();
+    $('#table_data_'+thisIpes.toLowerCase()).show();
 
-  //it's necessary the div be showed to timeline works
-  if (!$('#tab-3').hasClass('current')) {
-    $('#tab-3').addClass('current');
-  } else {
-    thistab = 'tab-3';
-  }
 
-   //hide all timelines
-   $('.tl-timeline').hide();
+    //if not existis this class, load data
+    if(!$('#table_data_'+thisIpes.toLowerCase()+'_wrapper').length) {
+      $.getJSON("model/cursos.php?sigla=" + siglaAtual ,function (data) {
+        console.log(data);
+        //dados chegando, com excessão do título que tem acento
+      });
 
-   //show only this timeline
-   $('#timeline-'+thisIpes.toLowerCase()).show();
 
-   //create timeline
-   var options = {
-     start_at_slide: 0
-   };
-   //window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
+      //
+      //
+      // $.each(cursos, function (index, value) {
+      //   if (index === thisIpes) {
+      //     $('#table_data_'+thisIpes.toLowerCase()).DataTable( {
+      //            "language": {
+      //                  "url": "json/datatables_pt-br.json"
+      //                  },
+      //                 "aaData" : value.data,
+      //                 "paging": true,
+      //                 "order": [0,'asc'],
+      //                 dom: 'Bfrtip',
+      //                 buttons: [
+      //                    {
+      //                     extend: 'csvHtml5',
+      //                     title: 'data'
+      //                   }
+      //                   ]
+      //             });
+      //   }
+      // });
+    }
+     //loading data from second tab - end
 
-   //TODO: melhorar o jeito de identificar qual trecho do json pegar
-   if (!$('#timeline-'+thisIpes.toLowerCase()).hasClass('tl-timeline') ) {
-     $.each(timelines, function (index, value) {
-       if (index === thisIpes) {
-         window.timeline = new TL.Timeline('timeline-'+thisIpes.toLowerCase(), value,options);
-       }
-     });
-   }
+     //loading data from third tab - begin
 
-   if (thistab != 'tab-3') {
-    $('#tab-3').removeClass('current');
-   }
-   //loading data from third tab - end
-};
+    //it's necessary the div be showed to timeline works
+    if (!$('#tab-3').hasClass('current')) {
+      $('#tab-3').addClass('current');
+    } else {
+      thistab = 'tab-3';
+    }
+
+     //hide all timelines
+     $('.tl-timeline').hide();
+
+     //show only this timeline
+     $('#timeline-'+thisIpes.toLowerCase()).show();
+
+     //create timeline
+     var options = {
+       start_at_slide: 0
+     };
+     //window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
+
+     //TODO: melhorar o jeito de identificar qual trecho do json pegar
+     if (!$('#timeline-'+thisIpes.toLowerCase()).hasClass('tl-timeline') ) {
+       $.each(timelines, function (index, value) {
+         if (index === thisIpes) {
+           window.timeline = new TL.Timeline('timeline-'+thisIpes.toLowerCase(), value,options);
+         }
+       });
+     }
+
+     if (thistab != 'tab-3') {
+      $('#tab-3').removeClass('current');
+     }
+     //loading data from third tab - end
+  };
+  //end of sidebar_load
+
+
+// //function to load sidebar data correct --json version
+// function sidebar_load ()
+// {
+//   //used to know what's tab
+//   //TODO: achar um jeito melhor de resolver isso
+//   var thistab='tab-1';
+//
+//   sidebar.show();
+//
+//   $('#tabs-data').show();
+//   $('#about-data').hide();
+//
+//   //loading data from second tab - begin
+//
+//   //hide all datatables
+//   $('.table_data').hide();
+//
+//
+//   //hide all datatable
+//    $('.dataTables_wrapper').hide();
+//
+//   //show only this
+//   $('#table_data_'+thisIpes.toLowerCase()+'_wrapper').show();
+//   $('#table_data_'+thisIpes.toLowerCase()).show();
+//
+//
+//   //if not existis this class, load data
+//   if(!$('#table_data_'+thisIpes.toLowerCase()+'_wrapper').length) {
+//     //TODO: melhorar a maneira de selecionar a ipes, desse jeito precisa
+//     //navegar por todo o json até achar a ipes em questão
+//     $.each(cursos, function (index, value) {
+//       if (index === thisIpes) {
+//         $('#table_data_'+thisIpes.toLowerCase()).DataTable( {
+//                "language": {
+//                      "url": "json/datatables_pt-br.json"
+//                      },
+//                     "aaData" : value.data,
+//                     "paging": true,
+//                     "order": [0,'asc'],
+//                     dom: 'Bfrtip',
+//                     buttons: [
+//                        {
+//                         extend: 'csvHtml5',
+//                         title: 'data'
+//                       }
+//                       ]
+//                 });
+//       }
+//     });
+//   }
+//    //loading data from second tab - end
+//
+//    //loading data from third tab - begin
+//
+//   //it's necessary the div be showed to timeline works
+//   if (!$('#tab-3').hasClass('current')) {
+//     $('#tab-3').addClass('current');
+//   } else {
+//     thistab = 'tab-3';
+//   }
+//
+//    //hide all timelines
+//    $('.tl-timeline').hide();
+//
+//    //show only this timeline
+//    $('#timeline-'+thisIpes.toLowerCase()).show();
+//
+//    //create timeline
+//    var options = {
+//      start_at_slide: 0
+//    };
+//    //window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
+//
+//    //TODO: melhorar o jeito de identificar qual trecho do json pegar
+//    if (!$('#timeline-'+thisIpes.toLowerCase()).hasClass('tl-timeline') ) {
+//      $.each(timelines, function (index, value) {
+//        if (index === thisIpes) {
+//          window.timeline = new TL.Timeline('timeline-'+thisIpes.toLowerCase(), value,options);
+//        }
+//      });
+//    }
+//
+//    if (thistab != 'tab-3') {
+//     $('#tab-3').removeClass('current');
+//    }
+//    //loading data from third tab - end
+// };
+// //end of sidebar_load
 
  //functions to tabs on side background
  $('ul.tabs li').click(function(){
