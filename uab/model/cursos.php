@@ -17,6 +17,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
+$conn->query("set names 'utf8'");
 
 $sql = "select nome, tipo, chamada from cursos, ipes where ipes.sigla='". $sigla ."' and cursos.ipes_id=ipes.id";
 $result = $conn->query($sql);
@@ -24,7 +25,8 @@ $rows = array();
 
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc())
-    $rows[]=$row;
+  //esse é o formato para o datatable
+    $rows[]=[$row['nome'],$row['tipo'],$row['chamada'],null,null];
 }
 
 print json_encode($rows);

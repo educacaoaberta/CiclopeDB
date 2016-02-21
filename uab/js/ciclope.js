@@ -307,9 +307,24 @@ $('.menuitem').click(function(){
     //if not existis this class, load data
     if(!$('#table_data_'+thisIpes.toLowerCase()+'_wrapper').length) {
       $.getJSON("model/cursos.php?sigla=" + siglaAtual ,function (data) {
-        console.log(data);
+            $('#table_data_'+thisIpes.toLowerCase()).DataTable( {
+                   "language": {
+                         "url": "json/datatables_pt-br.json"
+                         },
+                        "aaData" : data,
+                        "paging": true,
+                        "order": [0,'asc'],
+                        dom: 'Bfrtip',
+                        buttons: [
+                           {
+                            extend: 'csvHtml5',
+                            title: 'data'
+                          }
+                          ]
+                    });
         //dados chegando, com excessão do título que tem acento
       });
+
 
 
       //

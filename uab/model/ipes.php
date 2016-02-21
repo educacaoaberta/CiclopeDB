@@ -12,6 +12,8 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
+$conn->query("set names 'utf8'");
+
 $sql = "SELECT `sigla`, `lat`, `lng` FROM ipes";
 $result = $conn->query($sql);
 $rows = array();
