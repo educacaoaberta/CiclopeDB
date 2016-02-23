@@ -135,7 +135,7 @@ var brasil = L.geoJson(null, {
     });
 
 //pegando dados dos polos - begin
-  $.getJSON("model/polos.php",function (data) {
+  $.getJSON("model/polos.php?operation=allpolos",function (data) {
       for (var i = 0; i < data.length; i++) {
         var sigla = data[i].sigla;
         var cidade = data[i].cidade;
@@ -325,29 +325,6 @@ $('.menuitem').click(function(){
         //dados chegando, com excessão do título que tem acento
       });
 
-
-
-      //
-      //
-      // $.each(cursos, function (index, value) {
-      //   if (index === thisIpes) {
-      //     $('#table_data_'+thisIpes.toLowerCase()).DataTable( {
-      //            "language": {
-      //                  "url": "json/datatables_pt-br.json"
-      //                  },
-      //                 "aaData" : value.data,
-      //                 "paging": true,
-      //                 "order": [0,'asc'],
-      //                 dom: 'Bfrtip',
-      //                 buttons: [
-      //                    {
-      //                     extend: 'csvHtml5',
-      //                     title: 'data'
-      //                   }
-      //                   ]
-      //             });
-      //   }
-      // });
     }
      //loading data from second tab - end
 
@@ -389,94 +366,6 @@ $('.menuitem').click(function(){
   //end of sidebar_load
 
 
-// //function to load sidebar data correct --json version
-// function sidebar_load ()
-// {
-//   //used to know what's tab
-//   //TODO: achar um jeito melhor de resolver isso
-//   var thistab='tab-1';
-//
-//   sidebar.show();
-//
-//   $('#tabs-data').show();
-//   $('#about-data').hide();
-//
-//   //loading data from second tab - begin
-//
-//   //hide all datatables
-//   $('.table_data').hide();
-//
-//
-//   //hide all datatable
-//    $('.dataTables_wrapper').hide();
-//
-//   //show only this
-//   $('#table_data_'+thisIpes.toLowerCase()+'_wrapper').show();
-//   $('#table_data_'+thisIpes.toLowerCase()).show();
-//
-//
-//   //if not existis this class, load data
-//   if(!$('#table_data_'+thisIpes.toLowerCase()+'_wrapper').length) {
-//     //TODO: melhorar a maneira de selecionar a ipes, desse jeito precisa
-//     //navegar por todo o json até achar a ipes em questão
-//     $.each(cursos, function (index, value) {
-//       if (index === thisIpes) {
-//         $('#table_data_'+thisIpes.toLowerCase()).DataTable( {
-//                "language": {
-//                      "url": "json/datatables_pt-br.json"
-//                      },
-//                     "aaData" : value.data,
-//                     "paging": true,
-//                     "order": [0,'asc'],
-//                     dom: 'Bfrtip',
-//                     buttons: [
-//                        {
-//                         extend: 'csvHtml5',
-//                         title: 'data'
-//                       }
-//                       ]
-//                 });
-//       }
-//     });
-//   }
-//    //loading data from second tab - end
-//
-//    //loading data from third tab - begin
-//
-//   //it's necessary the div be showed to timeline works
-//   if (!$('#tab-3').hasClass('current')) {
-//     $('#tab-3').addClass('current');
-//   } else {
-//     thistab = 'tab-3';
-//   }
-//
-//    //hide all timelines
-//    $('.tl-timeline').hide();
-//
-//    //show only this timeline
-//    $('#timeline-'+thisIpes.toLowerCase()).show();
-//
-//    //create timeline
-//    var options = {
-//      start_at_slide: 0
-//    };
-//    //window.timeline = new TL.Timeline('timeline-uff', timelines.UFF,options);
-//
-//    //TODO: melhorar o jeito de identificar qual trecho do json pegar
-//    if (!$('#timeline-'+thisIpes.toLowerCase()).hasClass('tl-timeline') ) {
-//      $.each(timelines, function (index, value) {
-//        if (index === thisIpes) {
-//          window.timeline = new TL.Timeline('timeline-'+thisIpes.toLowerCase(), value,options);
-//        }
-//      });
-//    }
-//
-//    if (thistab != 'tab-3') {
-//     $('#tab-3').removeClass('current');
-//    }
-//    //loading data from third tab - end
-// };
-// //end of sidebar_load
 
  //functions to tabs on side background
  $('ul.tabs li').click(function(){

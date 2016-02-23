@@ -42,34 +42,24 @@ Colors.random = function() {
 };
 
 
-function processChart(myPieChart,state) {
+function processChart(myPieChart,siglaIpes) {
   var polosEstado = {};
 
-  $.getJSON("json/polos.json", function (data) {
-    $.each(data.features, function (key, val) {
-      if (val.properties.ipes === state) {
-        //se não existe esse estado na lista cria
-        if (!(val.properties.estado in polosEstado)) {
-          polosEstado[val.properties.estado] = 1;
-        }
-        else {
-          //se existe, soma ao valor
-          polosEstado[val.properties.estado] ++ ;
-        }
-      }
-    });
-
-    $.each(polosEstado, function (estado, qtde) {
+  $.getJSON("model/polos.php?operation=polosbystate&sigla=" + siglaIpes ,function (data) {
+    for (var i = 0; i < data.length; i++) {
+      //data[i][0] -> state / data[i][1] -> number of polos in this state
       myPieChart.addData({
-        "label": estado,
-        "value": qtde,
+        "label": data[i][0],
+        "value": data[i][1],
         "color": Colors.random()
       });
-    });
+    }
+  } );
+
     myPieChart.update();
 
     var legend = myPieChart.generateLegend();
     $("#legend").html(legend);
 
-  });
+  // });
 }

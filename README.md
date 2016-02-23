@@ -21,7 +21,3 @@ Dentre outros, utilizamos:
 * ChartJS, http://www.chartjs.org
 
 Versão DB baseado em https://github.com/bmcbride/leaflet-users-map
-
-Partes que ainda não foram convertidas para a versão DB:
-* Gráfico -> polos por estado
-* Informações de Cursos

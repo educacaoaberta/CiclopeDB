@@ -1,5 +1,7 @@
 <?php
-//Primeira versão, o resultado da consulta são todos os polos, ordenados pelo respectivo IPES
+//Segunda versão, retorna todos os polos, ou número de polos por estado de uma determinada ipes
+
+$operation = $_GET['operation'];
 
 $servername = "localhost";
 $username = "ciclope";
@@ -17,13 +19,31 @@ if (!$conn) {
 
 $conn->query("set names 'utf8'");
 
-$sql = "select sigla,cidade,estado,polos.lat,polos.lng from ipes, polos, cursos, polos_has_cursos where ipes.id=cursos.id and polos_has_cursos.polos_id=polos.id and polos_has_cursos.cursos_id=cursos.id order by sigla";
-$result = $conn->query($sql);
-$rows = array();
+if ($operation == "allpolos") {
 
-if ($result->num_rows > 0) {
-  while($row = $result->fetch_assoc())
-    $rows[]=$row;
+  $sql = "select sigla,cidade,estado,polos.lat,polos.lng from ipes, polos, cursos, polos_has_cursos where ipes.id=cursos.id and polos_has_cursos.polos_id=polos.id and polos_has_cursos.cursos_id=cursos.id order by sigla";
+  $result = $conn->query($sql);
+  $rows = array();
+
+  if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc())
+      $rows[]=$row;
+  }
+}
+elseif ($operation == "polosbystate") {
+  //polos por estado
+  $sigla = $_GET['sigla'];
+
+  $sql = "select estado,count(estado) as quant from ipes, polos, cursos, polos_has_cursos where ipes.sigla='". $sigla ."' and ipes.id=cursos.id and polos_has_cursos.polos_id=polos.id and polos_has_cursos.cursos_id=cursos.id group by estado";
+
+  $result = $conn->query($sql);
+  $rows = array();
+
+  if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc())
+      $rows[]=[$row['estado'],$row['quant']];
+  }
+
 }
 
 print json_encode($rows);
