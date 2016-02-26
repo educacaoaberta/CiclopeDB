@@ -69,15 +69,6 @@ var ipes = L.geoJson(null, {
 //Get data from php - begin
 $.getJSON("model/ipes.php", function (data) {
   for (var i = 0; i < data.length; i++) {
-    // var location = new L.LatLng(data[i].lat, data[i].lng);
-    // var sigla = data[i].sigla;
-    //
-    // var marker = new L.Marker(location, {
-    //   title: sigla
-    // });
-    //
-    // marker.bindPopup(sigla);
-
     //Buscar um jeito melhor de fazer isso, talvez no php ou no sql mesmo
     val = {
          "type":"Feature",
@@ -113,10 +104,6 @@ $.getJSON("model/ipes.php", function (data) {
 
     // ipes.addLayer(marker);
     ipes.addData(val);
-
-    //Preparando os dados dos polos
-    allLayers[data[i].sigla] = L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
-    polos.addLayer(allLayers[data[i].sigla]);
   }
 });
 //Get data from php - end
@@ -157,6 +144,12 @@ var brasil = L.geoJson(null, {
               "estado":estado
            }
         };
+
+        //verificando se já não existe essa ipes definida no allLayers
+        if (typeof allLayers[sigla] == 'undefined') {
+          allLayers[sigla] =  L.geoJson(null, {onEachFeature: onEachPolo, pointToLayer: pointToLayer});
+          polos.addLayer(allLayers[sigla]);
+        }
         allLayers[sigla].addData(val);
       }
     });
@@ -273,7 +266,6 @@ $('.menuitem').click(function(){
 
   //gets "name" from the <a> menu tag above to toggle HTML file for content
   var menuselected = $(this).attr("name");
-  //console.log(menuselected);
   $("#about-data").load("content/" + menuselected);
   });
 
@@ -306,6 +298,7 @@ $('.menuitem').click(function(){
 
     //if not existis this class, load data
     if(!$('#table_data_'+thisIpes.toLowerCase()+'_wrapper').length) {
+      //load cursos data
       $.getJSON("model/cursos.php?sigla=" + siglaAtual ,function (data) {
             $('#table_data_'+thisIpes.toLowerCase()).DataTable( {
                    "language": {
