@@ -21,3 +21,9 @@ Dentre outros, utilizamos:
 * ChartJS, http://www.chartjs.org
 
 Versão DB baseado em https://github.com/bmcbride/leaflet-users-map
+
+
+
+Tabelas:
+
+-polos: inserir todos os campos da tabela da lai + conceito (aba cursos) + id
