@@ -20,8 +20,8 @@ if (!$conn) {
 $conn->query("set names 'utf8'");
 
 if ($operation == "allpolos") {
-
-  $sql = "select sigla,cidade,estado,polos.lat,polos.lng from ipes, polos, cursos, polos_has_cursos where ipes.id=cursos.id and polos_has_cursos.polos_id=polos.id and polos_has_cursos.cursos_id=cursos.id order by sigla";
+  #modificar para retornar o polo uma única vez (ao invés de uma vez pra cada relação com ipes)
+  $sql = "select distinct(nome_polo), sigla,polos.cidade,polos.uf,polos.lat,polos.lng from ipes, polos, cursos, oferta where ipes.sigla=cursos.ipes_sigla and oferta.polos_id=polos.id and oferta.cursos_id=cursos.id order by sigla";
   $result = $conn->query($sql);
   $rows = array();
 
@@ -34,14 +34,15 @@ elseif ($operation == "polosbystate") {
   //polos por estado
   $sigla = $_GET['sigla'];
 
-  $sql = "select estado,count(estado) as quant from ipes, polos, cursos, polos_has_cursos where ipes.sigla='". $sigla ."' and ipes.id=cursos.id and polos_has_cursos.polos_id=polos.id and polos_has_cursos.cursos_id=cursos.id group by estado";
+  #estou considerando qualquer polo que já teve curso de uma ipes
+  $sql = "select uf, count(uf) as quant from (select distinct(polos.id), polos.uf from polos,cursos, oferta where cursos.ipes_sigla='". $sigla ."' and oferta.cursos_id=cursos.id and oferta.polos_id=polos.id order by uf) as bla group by uf";
 
   $result = $conn->query($sql);
   $rows = array();
 
   if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc())
-      $rows[]=[$row['estado'],$row['quant']];
+      $rows[]=[$row['uf'],$row['quant']];
   }
 
 }

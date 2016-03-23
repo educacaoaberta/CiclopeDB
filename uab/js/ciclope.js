@@ -126,7 +126,7 @@ var brasil = L.geoJson(null, {
       for (var i = 0; i < data.length; i++) {
         var sigla = data[i].sigla;
         var cidade = data[i].cidade;
-        var estado = data[i].estado;
+        var estado = data[i].uf;
 
         //Não consegui adicionar os polos de outra maneira, de modo que tivessem o comportamento que tinham antes
         var val = {
