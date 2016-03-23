@@ -5,9 +5,9 @@ import csv
 from urllib2 import Request, urlopen, URLError
 
 
-def consultLatLng(cep,apikey):
+def consultLatLng(address,apikey):
     latlng =[]
-    request = Request('https://maps.googleapis.com/maps/api/geocode/json?address='+cep+'&key='+apikey)
+    request = Request('https://maps.googleapis.com/maps/api/geocode/json?address='+address+'&key='+apikey)
     try:
         response = urlopen(request)
     #recebe o json como uma string
@@ -36,15 +36,23 @@ header = listorig.pop(0)
 #inserindo lat e long
 for polo in listorig:
     cep = polo[8]
-    #faz consulta
+    #faz consulta, na primeira tentativa com cep
     latlng=consultLatLng(cep,apikey)
     if latlng != [] :
         polo.append(latlng[0])
         polo.append(latlng[1])
     else :
-        #se não encontrou a coordenada, preenche com vazio
-        polo.append('')
-        polo.append('')
+        #se não encontrou, usa rua e cidade
+        address=polo[5]+'+'+polo[7]+'+'+polo[2]
+        address=address.replace(' ','+')
+        latlng=consultLatLng(address,apikey)
+        if latlng != [] :
+            polo.append(latlng[0])
+            polo.append(latlng[1])
+        else :
+            #se não encontrou a coordenada, preenche com vazio
+            polo.append('')
+            polo.append('')
 
 
 fileresult.writerows(listorig)
