@@ -42,17 +42,25 @@ for polo in listorig:
         polo.append(latlng[0])
         polo.append(latlng[1])
     else :
-        #se não encontrou, usa rua e cidade
+        #se não encontrou, usa rua, número e cidade
         address=polo[5]+'+'+polo[7]+'+'+polo[2]
         address=address.replace(' ','+')
         latlng=consultLatLng(address,apikey)
         if latlng != [] :
             polo.append(latlng[0])
             polo.append(latlng[1])
-        else :
-            #se não encontrou a coordenada, preenche com vazio
-            polo.append('')
-            polo.append('')
+        else:
+            #e não encontrou vai somente por cidade
+            address=polo[2]
+            address=address.replace(' ','+')
+            latlng=consultLatLng(address,apikey)
+            if latlng != [] :
+                polo.append(latlng[0])
+                polo.append(latlng[1])
+            else :
+                #se não encontrou a coordenada, preenche com vazio
+                polo.append('')
+                polo.append('')
 
 
 fileresult.writerows(listorig)
