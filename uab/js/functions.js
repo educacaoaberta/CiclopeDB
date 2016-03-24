@@ -42,8 +42,7 @@ Colors.random = function() {
 };
 
 
-function processChart(myPieChart,siglaIpes) {
-  var polosEstado = {};
+function processChartIpes(myPieChart,siglaIpes) {
 
   $.getJSON("model/polos.php?operation=polosbystate&sigla=" + siglaIpes ,function (data) {
     for (var i = 0; i < data.length; i++) {
@@ -61,5 +60,25 @@ function processChart(myPieChart,siglaIpes) {
     var legend = myPieChart.generateLegend();
     $("#legend").html(legend);
 
-  // });
+}
+
+
+function processChartPolo(myPieChart,idPolo) {
+
+  $.getJSON("model/cursos.php?operation=cursosbyipes&idpolo=" + idPolo ,function (data) {
+    for (var i = 0; i < data.length; i++) {
+      //data[i][0] -> ipes / data[i][1] -> number of cursos from this ipes
+      myPieChart.addData({
+        "label": data[i][0],
+        "value": data[i][1],
+        "color": Colors.random()
+      });
+    }
+  } );
+
+    myPieChart.update();
+
+    var legend = myPieChart.generateLegend();
+    $("#legend").html(legend);
+
 }

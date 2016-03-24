@@ -1,5 +1,5 @@
 <?php
-//operation could be: 'cursosipes' or 'cursospolos'
+//operation could be: 'cursosipes' or 'cursospolos' or 'cursosbyipes'
 
 
 
@@ -51,7 +51,24 @@ if ($operation == "cursosipes") {
   }
 
 
+} //nesse caso retorna a quantidade de cursos de um determinado polo agrupados por ipes
+elseif($operation == "cursosbyipes"){
+  $idpolo = $_GET['idpolo'];
+
+  $sql = "select ipes_sigla, count(ipes_sigla) as quant from oferta, cursos where oferta.polos_id=".$idpolo." and cursos.id=oferta.cursos_id group by ipes_sigla";
+  $result = $conn->query($sql);
+  $rows = array();
+
+  if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc())
+    //esse é o formato para o datatable
+      $rows[]=[$row['ipes_sigla'], $row['quant']];
+  }
+
+
 }
+
+
 print json_encode($rows);
 
 mysqli_close($conn);

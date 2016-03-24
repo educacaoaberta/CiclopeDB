@@ -209,6 +209,14 @@ function showPoloData (poloData) {
   $result += '<p><b>Nome Fantasia: </b>'+poloData['nome_fantasia']+'</p>';
   $result += '<p><b>Conceito: </b>'+poloData['conceito']+'</p>';
 
+
+  $result += '<p><b>Número de cursos por IPES</b></p>';
+  $result += '<div id="graphContainer">';
+  $result += '<canvas id="myChart" width="400" height="400"></canvas>';
+  $result += '<div id="legend"></div>';
+  $result += '</div>';
+
+
   $result += '</div>';
   return $result;
 
@@ -223,6 +231,12 @@ function showPoloData (poloData) {
 
       $.getJSON("model/polos.php?operation=polodata&id="+feature.properties.idpolo,function (data) {
         $(showPoloData(data[0])).appendTo('#tab-1');
+
+        //Gerando o gráfico
+        var ctx = document.getElementById("myChart").getContext("2d");
+        var myPieChart = new Chart(ctx).Pie([]);
+
+        processChartPolo(myPieChart,feature.properties.idpolo);
       });
 
       if($('#about-data').is(":visible") ){
@@ -333,7 +347,7 @@ function onEachFeature (ipes, layer) {
           var ctx = document.getElementById("myChart").getContext("2d");
           var myPieChart = new Chart(ctx).Pie([]);
 
-          processChart(myPieChart,thisIpes);
+          processChartIpes(myPieChart,thisIpes);
         });
       }
     }
