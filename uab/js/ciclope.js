@@ -240,6 +240,46 @@ function showPoloData (poloData) {
         sidebar.show();
       }
 
+      //carrega os dados do datatable
+
+      //exclui o datatable antigo
+      $('#table_data_wrapper').remove();
+
+      //insere a estrutura limpa para o novo --> talvez transformar em função
+      var theadDefault = "<thead><tr>";
+
+      $.getJSON("json/cursos.json", function(data) {
+        dataHeader = data.header;
+        for (var index = 0; index < dataHeader.length; index++){
+            theadDefault += "<th class=\"dt-left\">" + dataHeader[index] + "</th>"
+          };
+          theadDefault += "</tr></thead>";
+          $('<table id="table_data" class="responsive table_data" width="100%">'+ theadDefault).appendTo('#tab-2');
+        });
+
+
+
+      //load cursos data
+      $.getJSON("model/cursos.php?operation=cursospolos&idpolo=" + feature.properties.idpolo ,function (data) {
+            $('#table_data').DataTable( {
+                   "language": {
+                         "url": "json/datatables_pt-br.json"
+                         },
+                        "aaData" : data,
+                        "paging": true,
+                        "order": [0,'asc'],
+                        dom: 'Bfrtip',
+                        buttons: [
+                           {
+                            extend: 'csvHtml5',
+                            title: 'data'
+                          }
+                          ]
+                    });
+        //dados chegando, com excessão do título que tem acento
+      });
+
+
 
       });
     //Does not work well with circles, but does with markers. Bug?
@@ -334,7 +374,7 @@ function onEachFeature (ipes, layer) {
           map.addLayer(allLayers[thisLayer]);
           //sidebar_load();
           sidebar_load(thisLayer);
-        }
+        }sidebar_load
         }
       }
 
@@ -389,10 +429,9 @@ $('.menuitem').click(function(){
       });
 
 
-    //$('#table_data').empty();
 
     //load cursos data
-    $.getJSON("model/cursos.php?sigla=" + siglaAtual ,function (data) {
+    $.getJSON("model/cursos.php?operation=cursosipes&sigla=" + siglaAtual ,function (data) {
           $('#table_data').DataTable( {
                  "language": {
                        "url": "json/datatables_pt-br.json"
