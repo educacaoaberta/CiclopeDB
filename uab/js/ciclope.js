@@ -212,7 +212,6 @@ var sidebar = L.control.sidebar('sidebar', {
   map.addControl(sidebar);
 
 function showIpesData (ipesData){
-  console.log(ipesData);
   $result = '<div class="pontoschave">';
   $result += '<div id="nome_ipes"class="title">'+ipesData[0]['sigla']+'</div>';
   $result += '</div><div id="dados_ipes">';
