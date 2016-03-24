@@ -231,8 +231,16 @@ function showPoloData (poloData) {
         $(showPoloData(data[0])).appendTo('#tab-1');
       });
 
+      if($('#about-data').is(":visible") ){
+        $('#about-data').hide();
+        $('#tabs-data').show();
+      }
 
-      sidebar.toggle();
+      if (!sidebar.showed){
+        sidebar.show();
+      }
+
+
       });
     //Does not work well with circles, but does with markers. Bug?
     // layer.on ('mouseout', function (a) {
