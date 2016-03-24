@@ -124,6 +124,7 @@ var brasil = L.geoJson(null, {
 //pegando dados dos polos - begin
   $.getJSON("model/polos.php?operation=allpolos",function (data) {
       for (var i = 0; i < data.length; i++) {
+        var nomepolo = data[i].nome_polo;
         var sigla = data[i].sigla;
         var cidade = data[i].cidade;
         var estado = data[i].uf;
@@ -141,7 +142,8 @@ var brasil = L.geoJson(null, {
            "properties":{
               "ipes":sigla,
               "cidade":cidade,
-              "estado":estado
+              "estado":estado,
+              "nomepolo":nomepolo
            }
         };
 
@@ -168,7 +170,7 @@ function pointToLayer (feature, latlng) {
 //Função que associa o nome da cidade ao polo, e quando se clica abre o popup
 function onEachPolo (feature, layer) {
   layer.on ('click', function (f) {
-    f.target.bindPopup(feature.properties.cidade).openPopup();
+    f.target.bindPopup(feature.properties.nomepolo).openPopup();
     });
   //Does not work well with circles, but does with markers. Bug?
   // layer.on ('mouseout', function (a) {
