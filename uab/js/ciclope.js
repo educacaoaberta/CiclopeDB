@@ -67,7 +67,7 @@ var ipes = L.geoJson(null, {
     });
 
 //Get data from php - begin
-$.getJSON("model/ipes.php", function (data) {
+$.getJSON("model/ipes.php?operation=allipes", function (data) {
   for (var i = 0; i < data.length; i++) {
     //Buscar um jeito melhor de fazer isso, talvez no php ou no sql mesmo
     val = {
@@ -211,6 +211,25 @@ var sidebar = L.control.sidebar('sidebar', {
   });
   map.addControl(sidebar);
 
+function showIpesData (ipesData){
+  console.log(ipesData);
+  $result = '<div class="pontoschave">';
+  $result += '<div id="nome_ipes"class="title">'+ipesData[0]['sigla']+'</div>';
+  $result += '</div><div id="dados_ipes">';
+  $result += '<p><b>Endereço: </b>'+ipesData[0]['logradouro']+'</p>';
+  $result += '<p><b>Bairro: </b>'+ipesData[0]['bairro']+'</p>';
+  $result += '<p><b>Cidade: </b>'+ipesData[0]['cidade']+'</p>';
+  $result += '<p><b>Estado: </b>'+ipesData[0]['estado']+'</p>';
+  $result += '<p><b>CEP: </b>'+ipesData[0]['cep']+'</p>';
+  $result += '<p><b>Telefone: </b>'+ipesData[0]['telefone']+'</p>';
+  $result += '<p><b>URL: </b>'+ipesData[0]['url']+'</p>';
+  $result += '<p><b>URL2: </b>'+ipesData[0]['url2']+'</p>';
+
+  $result += '</div>';
+  return $result;
+}
+
+
 //each pin clicked will call the related .html available in the json file (Arquivo)
 function onEachFeature (ipes, layer) {
   // layer.setIcon(ipesIcon);
@@ -220,7 +239,23 @@ function onEachFeature (ipes, layer) {
 
   layer.on("click", function() {
     thisIpes = ipes.properties.Sigla;
-    $("#tab-1").load('content/' + ipes.properties.Arquivo);
+    //se o arquivo com dados existir, exibe ele
+    $("#tab-1").load('content/' + ipes.properties.Arquivo, function (response, status, xhr) {
+      if (status == "error") {
+        //se não existir, utiliza os dados da base para exibir
+
+        //pegando dados da ipes atual
+        $.getJSON("model/ipes.php?operation=ipesdata&sigla="+thisIpes,function (data) {
+          $("#tab-1").empty();
+          $(showIpesData(data)).appendTo("#tab-1");
+        });
+      }
+    }
+
+
+    );
+
+
     //tentativa de resolução
     for (var thisLayer in allLayers){
       if (thisLayer != thisIpes){

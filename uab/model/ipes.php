@@ -4,6 +4,7 @@ $username = "ciclope";
 $password = "ciclope";
 $dbname = "ciclope";
 
+$operation = $_GET['operation'];
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -14,13 +15,28 @@ if (!$conn) {
 }
 $conn->query("set names 'utf8'");
 
-$sql = "SELECT `sigla`, `lat`, `lng` FROM ipes";
-$result = $conn->query($sql);
-$rows = array();
+if ($operation == "allipes") {
+  $sql = "SELECT `sigla`, `lat`, `lng` FROM ipes";
+  $result = $conn->query($sql);
+  $rows = array();
 
-if ($result->num_rows > 0) {
-  while($row = $result->fetch_assoc())
-    $rows[]=$row;
+  if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc())
+      $rows[]=$row;
+  }
+}
+elseif ($operation == "ipesdata") {
+    $sigla = $_GET['sigla'];
+    $sql = "SELECT sigla, logradouro, bairro, cidade, estado, cep, telefone, url, url2 FROM ipes WHERE sigla='". $sigla ."'";
+
+    $result = $conn->query($sql);
+    $rows = array();
+
+    if ($result->num_rows > 0) {
+      while($row = $result->fetch_assoc())
+        $rows[]=$row;
+    }
+
 }
 
 print json_encode($rows);
