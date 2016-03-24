@@ -224,6 +224,15 @@ function showIpesData (ipesData){
   $result += '<p><b>URL: </b>'+ipesData[0]['url']+'</p>';
   $result += '<p><b>URL2: </b>'+ipesData[0]['url2']+'</p>';
 
+  //Gráfico Polos por Estado
+
+  $result += '<p><b>Número de polos por estado</b></p>';
+  $result += '<div id="graphContainer">';
+  $result += '<canvas id="myChart" width="400" height="400"></canvas>';
+  $result += '<div id="legend"></div>';
+  $result += '</div>';
+
+
   $result += '</div>';
   return $result;
 }
@@ -247,12 +256,20 @@ function onEachFeature (ipes, layer) {
         $.getJSON("model/ipes.php?operation=ipesdata&sigla="+thisIpes,function (data) {
           $("#tab-1").empty();
           $(showIpesData(data)).appendTo("#tab-1");
+
+          //Gerando o gráfico
+          var ctx = document.getElementById("myChart").getContext("2d");
+          var myPieChart = new Chart(ctx).Pie([]);
+
+          processChart(myPieChart,thisIpes);
         });
       }
     }
 
 
     );
+
+
 
 
     //tentativa de resolução
