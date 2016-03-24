@@ -242,7 +242,7 @@ function showPoloData (poloData) {
       //insere a estrutura limpa para o novo --> talvez transformar em função
       var theadDefault = "<thead><tr>";
 
-      $.getJSON("json/cursos.json", function(data) {
+      $.getJSON("json/header_datatables.json", function(data) {
         dataHeader = data.header;
         for (var index = 0; index < dataHeader.length; index++){
             theadDefault += "<th class=\"dt-left\">" + dataHeader[index] + "</th>"
@@ -413,7 +413,7 @@ $('.menuitem').click(function(){
     //insere a estrutura limpa para o novo --> talvez transformar em função
     var theadDefault = "<thead><tr>";
 
-    $.getJSON("json/cursos.json", function(data) {
+    $.getJSON("json/header_datatables.json", function(data) {
       dataHeader = data.header;
       for (var index = 0; index < dataHeader.length; index++){
           theadDefault += "<th class=\"dt-left\">" + dataHeader[index] + "</th>"

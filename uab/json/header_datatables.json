@@ -1,0 +1,10 @@
+{
+  "header" :[
+    "Curso",
+    "Tipo",
+    "Ofertante",
+    "Data da Oferta",
+    "Vagas Oferecidas",
+    "Alunos Formados",
+    "Alunos Não Concluintes"
+  ]}
