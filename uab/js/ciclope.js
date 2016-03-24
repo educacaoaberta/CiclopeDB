@@ -126,8 +126,7 @@ var brasil = L.geoJson(null, {
       for (var i = 0; i < data.length; i++) {
         var nomepolo = data[i].nome_polo;
         var sigla = data[i].sigla;
-        var cidade = data[i].cidade;
-        var estado = data[i].uf;
+        var idpolo = data[i].id;
 
         //Não consegui adicionar os polos de outra maneira, de modo que tivessem o comportamento que tinham antes
         var val = {
@@ -141,9 +140,8 @@ var brasil = L.geoJson(null, {
            },
            "properties":{
               "ipes":sigla,
-              "cidade":cidade,
-              "estado":estado,
-              "nomepolo":nomepolo
+              "nomepolo":nomepolo,
+              "idpolo": idpolo
            }
         };
 
@@ -167,16 +165,7 @@ function pointToLayer (feature, latlng) {
   });
   }
 
-//Função que associa o nome da cidade ao polo, e quando se clica abre o popup
-function onEachPolo (feature, layer) {
-  layer.on ('click', function (f) {
-    f.target.bindPopup(feature.properties.nomepolo).openPopup();
-    });
-  //Does not work well with circles, but does with markers. Bug?
-  // layer.on ('mouseout', function (a) {
-  //   a.target.closePopup();
-  // });
-  }
+
 
 var ipesIcon = L.icon({
   iconUrl: 'icons/pin.png',
@@ -212,6 +201,45 @@ var sidebar = L.control.sidebar('sidebar', {
   position: 'right'
   });
   map.addControl(sidebar);
+
+function showPoloData (poloData) {
+  $result = '<div class="pontoschave">';
+  $result += '<div id="nome_ipes"class="title">'+poloData['nome_polo']+'</div>';
+  $result += '</div><div id="dados_ipes">';
+  $result += '<p><b>Endereço: </b>'+poloData['logradouro']+' '+poloData['numero']+'</p>';
+  $result += '<p><b>Bairro: </b>'+poloData['bairro']+'</p>';
+  $result += '<p><b>Cidade: </b>'+poloData['cidade']+'</p>';
+  $result += '<p><b>Estado: </b>'+poloData['uf']+'</p>';
+  $result += '<p><b>CEP: </b>'+poloData['cep']+'</p>';
+  $result += '<p><b>Complemento: </b>'+poloData['complemento']+'</p>';
+  $result += '<p><b>Nome Fantasia: </b>'+poloData['nome_fantasia']+'</p>';
+  $result += '<p><b>Conceito: </b>'+poloData['conceito']+'</p>';
+
+  $result += '</div>';
+  return $result;
+
+}
+  //Função que associa o nome da cidade ao polo, e quando se clica abre o popup
+  function onEachPolo (feature, layer) {
+    layer.on ('click', function (f) {
+      f.target.bindPopup(feature.properties.nomepolo).openPopup();
+
+      //carregar o sidebar para mostrar dados do polo
+      $("#tab-1").empty();
+
+      $.getJSON("model/polos.php?operation=polodata&id="+feature.properties.idpolo,function (data) {
+        $(showPoloData(data[0])).appendTo('#tab-1');
+      });
+
+
+      sidebar.toggle();
+      });
+    //Does not work well with circles, but does with markers. Bug?
+    // layer.on ('mouseout', function (a) {
+    //   a.target.closePopup();
+    // });
+    }
+
 
 function showIpesData (ipesData){
   $result = '<div class="pontoschave">';

@@ -21,7 +21,7 @@ $conn->query("set names 'utf8'");
 
 if ($operation == "allpolos") {
   #modificar para retornar o polo uma única vez (ao invés de uma vez pra cada relação com ipes)
-  $sql = "select distinct(nome_polo), sigla,polos.cidade,polos.uf,polos.lat,polos.lng from ipes, polos, cursos, oferta where ipes.sigla=cursos.ipes_sigla and oferta.polos_id=polos.id and oferta.cursos_id=cursos.id order by sigla";
+  $sql = "select distinct(nome_polo), polos.id, sigla,polos.lat,polos.lng from ipes, polos, cursos, oferta where ipes.sigla=cursos.ipes_sigla and oferta.polos_id=polos.id and oferta.cursos_id=cursos.id order by sigla";
   $result = $conn->query($sql);
   $rows = array();
 
@@ -43,6 +43,21 @@ elseif ($operation == "polosbystate") {
   if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc())
       $rows[]=[$row['uf'],$row['quant']];
+  }
+
+}
+elseif ($operation == "polodata") {
+  $idpolo = $_GET['id'];
+
+  $sql = "select * from polos where id = " . $idpolo;
+
+
+  $result = $conn->query($sql);
+  $rows = array();
+
+  if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc())
+      $rows[]=$row;
   }
 
 }
