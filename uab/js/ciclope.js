@@ -318,41 +318,45 @@ $('.menuitem').click(function(){
 
     //loading data from second tab - begin
 
-    //hide all datatables
-    $('.table_data').hide();
+    //exclui o datatable antigo
+    $('#table_data_wrapper').remove();
 
+    //insere a estrutura limpa para o novo --> talvez transformar em função
+    var theadDefault = "<thead><tr>";
 
-    //hide all datatable
-     $('.dataTables_wrapper').hide();
-
-    //show only this
-    $('#table_data_'+thisIpes.toLowerCase()+'_wrapper').show();
-    $('#table_data_'+thisIpes.toLowerCase()).show();
-
-
-    //if not existis this class, load data
-    if(!$('#table_data_'+thisIpes.toLowerCase()+'_wrapper').length) {
-      //load cursos data
-      $.getJSON("model/cursos.php?sigla=" + siglaAtual ,function (data) {
-            $('#table_data_'+thisIpes.toLowerCase()).DataTable( {
-                   "language": {
-                         "url": "json/datatables_pt-br.json"
-                         },
-                        "aaData" : data,
-                        "paging": true,
-                        "order": [0,'asc'],
-                        dom: 'Bfrtip',
-                        buttons: [
-                           {
-                            extend: 'csvHtml5',
-                            title: 'data'
-                          }
-                          ]
-                    });
-        //dados chegando, com excessão do título que tem acento
+    $.getJSON("json/cursos.json", function(data) {
+      dataHeader = data.header;
+      for (var index = 0; index < dataHeader.length; index++){
+          theadDefault += "<th class=\"dt-left\">" + dataHeader[index] + "</th>"
+        };
+        theadDefault += "</tr></thead>";
+        $('<table id="table_data" class="responsive table_data" width="100%">'+ theadDefault).appendTo('#tab-2');
       });
 
-    }
+
+    //$('#table_data').empty();
+
+    //load cursos data
+    $.getJSON("model/cursos.php?sigla=" + siglaAtual ,function (data) {
+          $('#table_data').DataTable( {
+                 "language": {
+                       "url": "json/datatables_pt-br.json"
+                       },
+                      "aaData" : data,
+                      "paging": true,
+                      "order": [0,'asc'],
+                      dom: 'Bfrtip',
+                      buttons: [
+                         {
+                          extend: 'csvHtml5',
+                          title: 'data'
+                        }
+                        ]
+                  });
+      //dados chegando, com excessão do título que tem acento
+    });
+
+
      //loading data from second tab - end
 
      //loading data from third tab - begin
@@ -407,7 +411,7 @@ $('.menuitem').click(function(){
    //this code resolve issue #31
    //this resolve the problem with first datatable loaded
    if ($('#tab-2').hasClass('current')) {
-        $('#table_data_'+thisIpes.toLowerCase()).DataTable().responsive.recalc();
+        $('#table_data').DataTable().responsive.recalc();
    }
  });
 
