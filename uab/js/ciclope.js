@@ -2,17 +2,11 @@
 
 var map;
 var thisIpes;
-var cursos;
 var timelines;
 $(function() {
 
 //hide all timelines
 $('.timelines').hide();
-
-//loading data for dataTable
-$.getJSON("json/cursos.json", function(data) {
-    cursos = data.cursos;
-  });
 
 //loading data for timeline
 $.getJSON("json/linhas.json", function (data){
