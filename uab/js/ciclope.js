@@ -337,6 +337,23 @@ function onEachFeature (ipes, layer) {
     });
 
   layer.on("click", function() {
+
+    //verificando se a atual ipes tem timeline
+    if ( $("#timeline-"+(ipes.properties.Sigla).toLowerCase()).length ) {
+      $('#tab-title-timeline').show();
+    } else{
+      //Quando não tem dados, não tem timeline também, então esconde a timeline
+
+      //Caso a tab selecionada atualmente seja a de timeline, muda para a primeira
+      if ($('#tab-3').hasClass('current')) {
+          $('#tab-3').removeClass('current');
+          $('#tab-title-data').addClass('current');
+          $('#tab-1').addClass('current');
+      }
+      $('#tab-title-timeline').removeClass('current');
+      $('#tab-title-timeline').hide();
+    }
+
     //Se for o mesmo ipes que o anteriormente clicado, não precisa recarregar os dados
     if (thisIpes != ipes.properties.Sigla) {
 
@@ -357,11 +374,14 @@ function onEachFeature (ipes, layer) {
 
             processChartIpes(myPieChart,thisIpes);
           });
+
+
         }
       }
 
 
     );
+    //Para resolver casos que não se tem dados no datatables
     $('#table_data_wrapper').remove();
   }
 
@@ -415,7 +435,6 @@ $('.menuitem').click(function(){
   //function to load sidebar data correct --json version
   function sidebar_load (siglaAtual)
   {
-    console.log(siglaAtual);
     //used to know what's tab
     //TODO: achar um jeito melhor de resolver isso
     var thistab='tab-1';
