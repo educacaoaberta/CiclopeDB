@@ -2,6 +2,7 @@
 
 var map;
 var thisIpes;
+var thisPolo;
 var timelines;
 $(function() {
 
@@ -226,19 +227,23 @@ function showPoloData (poloData) {
     layer.on ('click', function (f) {
       f.target.bindPopup(feature.properties.nomepolo).openPopup();
 
-      //carregar o sidebar para mostrar dados do polo
-      $("#tab-1").empty();
 
-      $.getJSON("model/polos.php?operation=polodata&id="+feature.properties.idpolo,function (data) {
-        $(showPoloData(data[0])).appendTo('#tab-1');
+      //Só carrega novos dados se não for o mesmo polo
+      if (thisPolo != feature.properties.nomepolo) {
+        thisPolo = feature.properties.nomepolo;
+        //carregar o sidebar para mostrar dados do polo
+        $("#tab-1").empty();
 
-        //Gerando o gráfico
-        var ctx = document.getElementById("myChart").getContext("2d");
-        var myPieChart = new Chart(ctx).Pie([]);
+        $.getJSON("model/polos.php?operation=polodata&id="+feature.properties.idpolo,function (data) {
+          $(showPoloData(data[0])).appendTo('#tab-1');
 
-        processChartPolo(myPieChart,feature.properties.idpolo);
-      });
+          //Gerando o gráfico
+          var ctx = document.getElementById("myChart").getContext("2d");
+          var myPieChart = new Chart(ctx).Pie([],{animation: false});
 
+          processChartPolo(myPieChart,feature.properties.idpolo);
+        });
+      }
       if($('#about-data').is(":visible") ){
         $('#about-data').hide();
         $('#tabs-data').show();
@@ -324,7 +329,7 @@ function showIpesData (ipesData){
 }
 
 
-//each pin clicked will call the related .html available in the json file (Arquivo)
+//each IPES pin clicked will call the related .html available in the json file (Arquivo)
 function onEachFeature (ipes, layer) {
   // layer.setIcon(ipesIcon);
   layer.on ('mouseover', function (f) {
@@ -332,33 +337,33 @@ function onEachFeature (ipes, layer) {
     });
 
   layer.on("click", function() {
-    thisIpes = ipes.properties.Sigla;
-    //se o arquivo com dados existir, exibe ele
-    $("#tab-1").load('content/' + ipes.properties.Arquivo, function (response, status, xhr) {
-      if (status == "error") {
-        //se não existir, utiliza os dados da base para exibir
+    //Se for o mesmo ipes que o anteriormente clicado, não precisa recarregar os dados
+    if (thisIpes != ipes.properties.Sigla) {
 
-        //pegando dados da ipes atual
-        $.getJSON("model/ipes.php?operation=ipesdata&sigla="+thisIpes,function (data) {
-          $("#tab-1").empty();
-          $(showIpesData(data)).appendTo("#tab-1");
+      thisIpes = ipes.properties.Sigla;
+      //se o arquivo com dados existir, exibe ele
+      $("#tab-1").load('content/' + ipes.properties.Arquivo, function (response, status, xhr) {
+        if (status == "error") {
+          //se não existir, utiliza os dados da base para exibir
 
-          //Gerando o gráfico
-          var ctx = document.getElementById("myChart").getContext("2d");
-          var myPieChart = new Chart(ctx).Pie([]);
+          //pegando dados da ipes atual
+          $.getJSON("model/ipes.php?operation=ipesdata&sigla="+thisIpes,function (data) {
+            $("#tab-1").empty();
+            $(showIpesData(data)).appendTo("#tab-1");
 
-          processChartIpes(myPieChart,thisIpes);
-        });
+            //Gerando o gráfico
+            var ctx = document.getElementById("myChart").getContext("2d");
+            var myPieChart = new Chart(ctx).Pie([],{animation: false});
+
+            processChartIpes(myPieChart,thisIpes);
+          });
+        }
       }
-    }
 
 
     );
+  }
 
-
-
-
-    //tentativa de resolução
     for (var thisLayer in allLayers){
       if (thisLayer != thisIpes){
         map.removeLayer(allLayers[thisLayer]);
