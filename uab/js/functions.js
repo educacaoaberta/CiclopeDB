@@ -53,13 +53,16 @@ function processChartIpes(myPieChart,siglaIpes) {
         "color": Colors.random()
       });
     }
-  } );
 
     myPieChart.update();
 
     var legend = myPieChart.generateLegend();
     $("#legend").html(legend);
 
+  }
+
+
+  );
 }
 
 
@@ -74,11 +77,12 @@ function processChartPolo(myPieChart,idPolo) {
         "color": Colors.random()
       });
     }
-  } );
-
     myPieChart.update();
 
     var legend = myPieChart.generateLegend();
     $("#legend").html(legend);
+  
+  } );
+
 
 }
