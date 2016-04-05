@@ -362,6 +362,7 @@ function onEachFeature (ipes, layer) {
 
 
     );
+    $('#table_data_wrapper').remove();
   }
 
     for (var thisLayer in allLayers){
@@ -377,19 +378,18 @@ function onEachFeature (ipes, layer) {
             if (!sidebar.showed){
               sidebar.show();
             }
-        }
-        else
-        {
-          sidebar.toggle();
-        }
+          }
+          else
+          {
+            sidebar.toggle();
+          }
         }
         else{
           map.addLayer(allLayers[thisLayer]);
-          //sidebar_load();
           sidebar_load(thisLayer);
-        }sidebar_load
         }
       }
+    }
 
     });
   }
@@ -415,6 +415,7 @@ $('.menuitem').click(function(){
   //function to load sidebar data correct --json version
   function sidebar_load (siglaAtual)
   {
+    console.log(siglaAtual);
     //used to know what's tab
     //TODO: achar um jeito melhor de resolver isso
     var thistab='tab-1';
