@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-	<link rel="stylesheet" href="ipes.css" />
+	<link rel="stylesheet" href="app.css" />
 	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 	<script src="ipes-all.json" type="text/javascript"></script>
@@ -14,23 +14,11 @@
 <script src=" https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
 
 
-	<style type="text/css" charset="utf-8">
-		#map {
-			height: 500px;
-			margin-left:auto;
-			margin-right:auto;
-			width:50%;
-			border-style: solid;
-			border-color: #555;
-			border-width: 5px;
-			-moz-border-radius: 10px;
-			border-radius: 10px;
-		}
-	</style>
+
 </head>
 <body>
 
-	<div id="map"></div><br>
+	<!-- <div id="map"></div><br> -->
 
 	<script>
 	regioes = {
@@ -218,19 +206,31 @@
 		 });
 	 };
 
-var map = L.map('map', {layers: [base,ipes]}).setView(new L.LatLng(-14.953349393643416,-52.220703125),4);
-
-var baseMaps = {"Mapa": brasil};
-var overlayMaps = {
-	"Brasil" :brasil,
-	"IPES" : ipes
-};
+// var map = L.map('map', {layers: [base,ipes]}).setView(new L.LatLng(-14.953349393643416,-52.220703125),4);
+//
+// var baseMaps = {"Mapa": brasil};
+// var overlayMaps = {
+// 	"Brasil" :brasil,
+// 	"IPES" : ipes
+// };
 
 //Ordem de camadas de vetores só será resolvida no Leaflet v1.0. Por isso a camada das
 //zIndex() e bringToFront() não funcionam com vetores.
 //Confirmado problema. Verificar também: http://gis.stackexchange.com/questions/166252/geojson-layer-order-in-leaflet-0-7-5
-L.control.layers(baseMaps, overlayMaps,{position: 'topleft'}).addTo(map);
+// L.control.layers(baseMaps, overlayMaps,{position: 'topleft'}).addTo(map);
 </script>
+
+<h1>Sobre o projeto</h1>
+
+<div class="pontoschave">Este site apresenta dados atualizados sobre a Universidade Aberta do Brasil
+  com base nas informações disponíveis no <a href="http://sisuab.uab.capes.gov">SisUAB</a> em março de 2016.
+  Para além, apresenta informações detalhadas de 8 universidades que participaram de uma pesquisa realizada
+  pelo nosso grupo focada na gestão de recursos educacionais no âmbito da UAB. Esses espaços são responsáveis
+   pela articulação, dentro da universidade, para a efetivação dos cursos oferecidos pela UAB.
+   Como cada universidade tem autonomia para definir seu modelo de ação, cada um desses núcleos se
+   estrutura de maneira diferente. O objetivo desses estudo é descrever e avaliar questões relativas ao
+   funcionamento e estrutura desses centros, com particular atenção aos processos de produção e disseminação de
+   recursos educacionais.</div>
 
 <div class= "graph">
 <h2>Número de IPES por Estado</h2>
@@ -241,6 +241,14 @@ L.control.layers(baseMaps, overlayMaps,{position: 'topleft'}).addTo(map);
 <!--O código à seguir também é necessário para o gráfico de pizza -->
 <canvas id="chartByRegion"></canvas>
 </div>
+
+<div class="subtitle">Para saber mais sobre a UAB</div>
+<p>Sobre núcleos e produção de recursos educacionais:</p>
+<div class="cit">Duran, M. R. C., Amiel, T., Martins, E., & Costa, C. J. da. (2014). Modelos estruturais de gestão EaD nas instituições públicas de ensino superior do Brasil (pp. 1–12). Presented at the Congresso Iberoamericano de Ciencia, Tecnología, Innovacíon y Educacíon, Buenos Aires: OEI. Disponível em: <a href="http://www.oei.es/congreso2014">http://www.oei.es/congreso2014</a></div>
+<br>Enfoque nos polos:<br>
+<div class="cit">Duran, M. R. da C., Costa, C. J. da, Massaro, T., & Amiel, T. (2012). Os polos do sistema UAB e seus coordenadores nas regiões nordeste, norte e sul do Brasil (pp. 1–15). Presented at the Simpósio Internacional de Educação a Distância, UFScar. Disponível em: <a href="http://sistemas3.sead.ufscar.br/ojs/Trabalhos/277-937-3-ED.pdf">http://sistemas3.sead.ufscar.br/ojs/Trabalhos/277-937-3-ED.pdf</a></div>
+<Br>Sobre a UAB:<br>
+<div class="cit">Costa, C. J. da, & Duran, M. R. C. (2011). A Política Nacional de Formação de Professores entre 2005 e 2010: a nova Capes e o Sistema Universidade Aberta do Brasil. Revista Brasileira de Pós-Graduação, 9(16), 263–313. Disponível em: <a href="http://ojs.rbpg.capes.gov.br/index.php/rbpg/article/view/289/0">http://ojs.rbpg.capes.gov.br/index.php/rbpg/article/view/289/0</a></div>
 
 <script>
 
