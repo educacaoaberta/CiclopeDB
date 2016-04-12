@@ -1,7 +1,7 @@
 /* layer icons from http://findicons.com/icon/437348/layers */
 
 body {
-  font-family: "cabin";
+  font-family: "quattro";
   padding: 5px;
 }
 
@@ -13,17 +13,17 @@ p {
 }
 
 .leaflet-container {
-  font-family: "cabin" !important;
+  font-family: "quattro" !important;
 }
 
 .title {
-  font-family: "cabinbold";
+  font-family: "quattrobold";
   font-size: 1.6em;
   padding-bottom: 3px;
 }
 
 .subtitle {
-  font-family: "cabinbold", sans-serif;
+  font-family: "quattrobold", sans-serif;
   font-size: 1.3em;
   margin-top: 20px;
 }
@@ -45,13 +45,13 @@ a:link {
 }
 
 @font-face {
-  font-family: cabin;
-  src: url(../font/Cabin-Regular.otf);
+  font-family: quattro;
+  src: url(../font/QuattrocentoSans-Regular.otf);
 }
 
 @font-face {
-  font-family: cabinbold;
-  src: url(../font/Cabin-Medium.otf);
+  font-family: quattrobold;
+  src: url(../font/QuattrocentoSans-Bold.otf);
 }
 
 .pie-legend li span {
@@ -115,7 +115,7 @@ a:link {
 @media screen and (min-width: 480px) {
 
 html, body {
-	font-family: "cabin", sans-serif;
+	font-family: "quattro", sans-serif;
 }
 
 /*custom tooltip, tried using className in bindPopup but it does not override*/
@@ -134,7 +134,7 @@ html, body {
 }
 
 #map {
-  font-family: "cabin";
+  font-family: "quattro";
   float:left;
   position:fixed;
   /*background: #eee;*/
@@ -176,6 +176,9 @@ img {
   border: 1px solid #ccc;
 }
 
+.leaflet-sidebar > .leaflet-control {
+  font-size: 1em;
+}
 
 /*garante que os popups aparecem com o tamanho das imagens contidas*/
 .leaflet-popup-content {
@@ -338,7 +341,7 @@ ul.tabs li.current{
   margin-left: 50px;
   width: 200px;
   height: 200px;
-  font-family: cabinbold;
+  font-family: quattrobold;
 }
 
 
