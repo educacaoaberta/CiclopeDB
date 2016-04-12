@@ -238,11 +238,10 @@ function onEachPolo (feature, layer) {
           $(showPoloData(data[0])).appendTo('#tab-1');
 
           //This resolve issue #34, but always back to first tab
+          //Gambiarra!
           if (!$('#tab-1').hasClass('current')){
             $('#tab-2').removeClass('current');
             $('#tab-title-datatables').removeClass('current');
-            $('#tab-3').removeClass('current');
-            $('#tab-title-timeline').removeClass('current');
             $('#tab-1').addClass('current');
             $('#tab-title-data').addClass('current');
           }
@@ -376,6 +375,18 @@ function onEachFeature (ipes, layer) {
           //pegando dados da ipes atual
           $.getJSON("model/ipes.php?operation=ipesdata&sigla="+thisIpes,function (data) {
             $("#tab-1").empty();
+
+            //This resolve issue #34, but always back to first tab
+            //Gambiarra!
+            if (!$('#tab-1').hasClass('current')){
+              $('#tab-2').removeClass('current');
+              $('#tab-title-datatables').removeClass('current');
+              $('#tab-3').removeClass('current');
+              $('#tab-title-timeline').removeClass('current');
+              $('#tab-1').addClass('current');
+              $('#tab-title-data').addClass('current');
+            }
+
             $(showIpesData(data)).appendTo("#tab-1");
 
             //Gerando o gráfico
