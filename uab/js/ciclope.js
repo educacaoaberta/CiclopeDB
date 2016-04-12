@@ -6,6 +6,21 @@ var thisPolo;
 var timelines;
 $(function() {
 
+  var brasil = L.geoJson(null, {
+    style: {
+      weight: 1,
+      color: "#fff",
+      opacity: 1,
+      fillColor: "#ccc",
+      fillOpacity: 1
+      }
+      });
+
+      $.getJSON("geo/br_estados.json", function(data) {
+        brasil.addData(data);
+      }).then(function(data){
+
+
 //hide all timelines
 $('.timelines').hide();
 
@@ -62,18 +77,12 @@ var ipes = L.geoJson(null, {
     });
 
 
-var brasil = L.geoJson(null, {
-  style: {
-    weight: 1,
-    color: "#fff",
-    opacity: 1,
-    fillColor: "#ccc",
-    fillOpacity: 1
-    }
-    });
-    $.getJSON("geo/br_estados.json", function(data) {
-      brasil.addData(data);
-    });
+//estava aqui
+
+
+
+
+
 
 
 //Get data from php - begin
@@ -565,5 +574,8 @@ $('.menuitem').click(function(){
         $('#table_data').DataTable().responsive.recalc();
    }
  });
+
+ }); //Finish load the map
+
 
 }); //main function
