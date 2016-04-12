@@ -34,6 +34,21 @@
 </div>
 <div id="dados_ipes"><p></p></div>
 
+<script>
+
+//This resolve issue #34, but always back to first tab
+//Gambiarra!
+if (!$('#tab-1').hasClass('current')){
+  $('#tab-2').removeClass('current');
+  $('#tab-title-datatables').removeClass('current');
+  $('#tab-3').removeClass('current');
+  $('#tab-title-timeline').removeClass('current');
+  $('#tab-1').addClass('current');
+  $('#tab-title-data').addClass('current');
+}
+
+</script>
+
 <!--To show graph -->
 <p><b>Número de polos por estado</b></p>
 <div id="graphContainer">
