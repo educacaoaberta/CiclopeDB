@@ -19,7 +19,6 @@ $(function() {
       $.getJSON("geo/br_estados.json", function(data) {
         brasil.addData(data);
       }).then(function(data){
-        alert('carregou');
 
 
 //hide all timelines
