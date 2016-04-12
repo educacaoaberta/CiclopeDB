@@ -61,6 +61,21 @@ var ipes = L.geoJson(null, {
   onEachFeature: onEachFeature
     });
 
+
+var brasil = L.geoJson(null, {
+  style: {
+    weight: 1,
+    color: "#fff",
+    opacity: 1,
+    fillColor: "#ccc",
+    fillOpacity: 1
+    }
+    });
+    $.getJSON("geo/br_estados.json", function(data) {
+      brasil.addData(data);
+    });
+
+
 //Get data from php - begin
 $.getJSON("model/ipes.php?operation=allipes", function (data) {
   for (var i = 0; i < data.length; i++) {
@@ -103,18 +118,6 @@ $.getJSON("model/ipes.php?operation=allipes", function (data) {
 });
 //Get data from php - end
 
-var brasil = L.geoJson(null, {
-  style: {
-    weight: 1,
-    color: "#fff",
-    opacity: 1,
-    fillColor: "#ccc",
-    fillOpacity: 1
-    }
-    });
-    $.getJSON("geo/br_estados.json", function(data) {
-      brasil.addData(data);
-    });
 
 //pegando dados dos polos - begin
   $.getJSON("model/polos.php?operation=allpolos",function (data) {
