@@ -4,13 +4,8 @@
 
 	<title>Mapa dos Pólos UAB</title>
 	<meta charset="utf-8">
-	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-	<link rel="stylesheet" href="../style/app.css" />
 
 	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-	<script src="../json/ipes-all.json" type="text/javascript"></script>
 
   <script src=" https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
 
@@ -93,112 +88,71 @@
 	};
 
 
-	var base = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-	  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-	  });
 
-	var brasil = L.geoJson(null, {
-		style: {
-			weight: 1,
-			color: "#fff",
-			opacity: 1,
-			fillColor: "#ccc",
-			fillOpacity: 1
-			}
-			});
-			$.getJSON("br_estados.json", function(data) {
-				brasil.addData(data);
-			});
-
-
-	var polosRegiao = {};
-	var dadosChart = [];
-
-	var ipes = L.geoJson(null, {onEachFeature: onEachFeature, pointToLayer: pointToLayer});
-	$.getJSON("ipes-all.json", function (data) {
-	  ipes.addData(data);
-
-		//Todo esse código abaixo é necessário para se gerar o gráfico de pizza
-
-		$.each(data.features, function (key, val) {
-			//se não existe esse estado na lista cria
-			if (!(regioes[val.properties.Estado] in polosRegiao)) {
-				polosRegiao[regioes[val.properties.Estado]] = 1;
-			} else {
-				//se existe, soma ao valor
-				polosRegiao[regioes[val.properties.Estado]] ++ ;
-			}
-
-		});
-
-		$.each(polosRegiao, function (regiao, qtde) {
-			dadosChart.push({
-				"label": regiao,
-				"value": qtde,
-				"color": Colors.random()
-			});
-		});
-
-	});
-
-
-//Versão polos por estado em pizza
-	function polosPorEstado (myBarChart){
-		var polosEstado = {};
-
-		$.getJSON("ipes-all.json", function (data) {
-			$.each(data.features, function (key, val) {
-				//se não existe esse estado na lista cria
-				if (!(val.properties.Estado in polosEstado)) {
-					polosEstado[val.properties.Estado] = 1;
-				}else {
-					//se existe, soma ao valor
-					polosEstado[val.properties.Estado] ++ ;
-				}
-
-			});
-
-			//sorting the polos
-			var polosOrdenados = [];
-			for (var polo in polosEstado)
-			      polosOrdenados.push([polo, polosEstado[polo]])
-			polosOrdenados.sort(function(a, b) {return b[1] - a[1]})
-			//polosOrdenados = [[estado,qtde],...]
-
-			for (i = 0; i < polosOrdenados.length; i++) {
-		    myBarChart.addData([polosOrdenados[i][1]],polosOrdenados[i][0]);
-			}
-
-			// $.each(polosEstado, function (estado, qtde) {
-			// 	myBarChart.addData([qtde],estado);
-			// });
-			myBarChart.update();
-
-		});
-}
-
-  function onEachFeature (feature, marker) {
-		if (feature.properties) {
-			marker.bindPopup(
-				'<b>' + feature.properties.Sigla + '</b>' + '<br>' +
-				feature.properties.Cidade + ', ' + feature.properties.Estado + '</br>' +
-				feature.properties.Logradouro + ' - ' + feature.properties.Bairro + '</br>' +
-				feature.properties.CEP + '</br>' +
-				'Telefone :' + feature.properties.Telefone + '</br>' +
-				'<a href="' + feature.properties.URL + '">' + feature.properties.URL + '</a>'
-			)
-		}
-	};
-
-	function pointToLayer (feature, latlng) {
-		 return L.circleMarker(latlng, {
-			 radius: 6,
-			 fillColor: "#267FCA", color: "#000",
-			 weight: 1,
-			 opacity: 1,
-			 fillOpacity: 0.3
-		 });
-	 };
+// 	var polosRegiao = {};
+// 	var dadosChart = [];
+//
+// 	$.getJSON("ipes-all.json", function (data) {
+// 	  ipes.addData(data);
+//
+// 		//Todo esse código abaixo é necessário para se gerar o gráfico de pizza
+//
+// 		$.each(data.features, function (key, val) {
+// 			//se não existe esse estado na lista cria
+// 			if (!(regioes[val.properties.Estado] in polosRegiao)) {
+// 				polosRegiao[regioes[val.properties.Estado]] = 1;
+// 			} else {
+// 				//se existe, soma ao valor
+// 				polosRegiao[regioes[val.properties.Estado]] ++ ;
+// 			}
+//
+// 		});
+//
+// 		$.each(polosRegiao, function (regiao, qtde) {
+// 			dadosChart.push({
+// 				"label": regiao,
+// 				"value": qtde,
+// 				"color": Colors.random()
+// 			});
+// 		});
+//
+// 	});
+//
+//
+// //Versão polos por estado em pizza
+// 	function polosPorEstado (myBarChart){
+// 		var polosEstado = {};
+//
+// 		$.getJSON("ipes-all.json", function (data) {
+// 			$.each(data.features, function (key, val) {
+// 				//se não existe esse estado na lista cria
+// 				if (!(val.properties.Estado in polosEstado)) {
+// 					polosEstado[val.properties.Estado] = 1;
+// 				}else {
+// 					//se existe, soma ao valor
+// 					polosEstado[val.properties.Estado] ++ ;
+// 				}
+//
+// 			});
+//
+// 			//sorting the polos
+// 			var polosOrdenados = [];
+// 			for (var polo in polosEstado)
+// 			      polosOrdenados.push([polo, polosEstado[polo]])
+// 			polosOrdenados.sort(function(a, b) {return b[1] - a[1]})
+// 			//polosOrdenados = [[estado,qtde],...]
+//
+// 			for (i = 0; i < polosOrdenados.length; i++) {
+// 		    myBarChart.addData([polosOrdenados[i][1]],polosOrdenados[i][0]);
+// 			}
+//
+// 			// $.each(polosEstado, function (estado, qtde) {
+// 			// 	myBarChart.addData([qtde],estado);
+// 			// });
+// 			myBarChart.update();
+//
+// 		});
+// }
 
 </script>
 
@@ -233,7 +187,24 @@ bem como maior transparência sobre a sua abrangência, capilaridade e ações.<
 <div class= "graph">
 <h2>Dados gerais da UAB: número de IPES por estado</h2>
 <!-- Gráfico de Barras-->
-<canvas id="chartByState" width="800" height="300"></canvas>
+<canvas id="chartByState" width="600" height="300"></canvas>
+
+<script>
+
+	//for bar grpah
+	initialData = {
+		labels : [],
+		datasets :[{
+			fillColor: "blue",
+			data :[]
+		}]
+
+	};
+	var ctxBar = document.getElementById("chartByState").getContext("2d");
+	var myBarChart = new Chart(ctxBar).Bar(initialData, {barShowStroke: false});
+	processBarIpes(myBarChart);
+
+</script>
 
 <h2>Dados gerais da UAB: Número de IPES por região</h2>
 <!--O código à seguir também é necessário para o gráfico de pizza -->
@@ -262,7 +233,8 @@ window.onload = function(){
 		};
 		var ctxBar = document.getElementById("chartByState").getContext("2d");
 		var myBarChart = new Chart(ctxBar).Bar(initialData, {barShowStroke: false});
-		polosPorEstado(myBarChart);
+		processBarIpes(myBarChart);
+		console.log('passou');
 
 		//for pie graph
 		var options =

@@ -81,8 +81,20 @@ function processChartPolo(myPieChart,idPolo) {
 
     var legend = myPieChart.generateLegend();
     $("#legend").html(legend);
-  
+
   } );
 
 
+}
+
+
+function processBarIpes(barChart) {
+  $.getJSON("model/ipes.php?operation=ipesbystate",function (data) {
+    for (var i = 0; i < data.length; i++) {
+      barChart.addData([data[i]["quant"]],data[i]["estado"]);
+    }
+
+    barChart.update();
+
+  });
 }

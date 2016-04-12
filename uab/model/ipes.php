@@ -38,6 +38,18 @@ elseif ($operation == "ipesdata") {
     }
 
 }
+elseif ($operation == "ipesbystate") {
+    $sql = "SELECT count(sigla) as quant, estado FROM ipes GROUP BY estado ORDER BY quant";
+
+    $result = $conn->query($sql);
+    $rows = array();
+
+    if ($result->num_rows > 0) {
+      while($row = $result->fetch_assoc())
+        $rows[]=$row;
+    }
+
+}
 
 print json_encode($rows);
 
