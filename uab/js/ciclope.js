@@ -223,7 +223,7 @@ function showPoloData (poloData) {
 
 }
   //Função que associa o nome da cidade ao polo, e quando se clica abre o popup
-  function onEachPolo (feature, layer) {
+function onEachPolo (feature, layer) {
     layer.on ('click', function (f) {
       f.target.bindPopup(feature.properties.nomepolo).openPopup();
 
@@ -237,10 +237,20 @@ function showPoloData (poloData) {
         $.getJSON("model/polos.php?operation=polodata&id="+feature.properties.idpolo,function (data) {
           $(showPoloData(data[0])).appendTo('#tab-1');
 
+          //This resolve issue #34, but always back to first tab
+          if (!$('#tab-1').hasClass('current')){
+            $('#tab-2').removeClass('current');
+            $('#tab-title-datatables').removeClass('current');
+            $('#tab-3').removeClass('current');
+            $('#tab-title-timeline').removeClass('current');
+            $('#tab-1').addClass('current');
+            $('#tab-title-data').addClass('current');
+          }
+
+
           //Gerando o gráfico
           var ctx = document.getElementById("myChart").getContext("2d");
           var myPieChart = new Chart(ctx).Pie([],{animation: false});
-
           processChartPolo(myPieChart,feature.properties.idpolo);
         });
       }
