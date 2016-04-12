@@ -49,7 +49,7 @@ $.getJSON("json/ipes.json", function (data) {
 <script>
 
   var ctx = document.getElementById("myChart").getContext("2d");
-  var myPieChart = new Chart(ctx).Pie([]);
+  var myPieChart = new Chart(ctx).Pie([],{animation: false});
 
   processChartIpes(myPieChart,thisIpes);
 
