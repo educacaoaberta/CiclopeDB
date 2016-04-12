@@ -98,3 +98,64 @@ function processBarIpes(barChart) {
 
   });
 }
+
+function processChartIpesRegion(myPieChart) {
+  regioes = {
+    "AC" : "Norte",
+    "AL" : "Nordeste",
+    "AP" : "Norte",
+    "AM" : "Norte",
+    "BA" : "Nordeste",
+    "CE"  : "Nordeste",
+    "DF"  : "Centro-Oeste",
+    "ES"  : "Sudeste",
+    "GO"  : "Centro-Oeste",
+    "MA"  : "Nordeste",
+    "MS"  : "Centro-Oeste",
+    "MT"  : "Centro-Oeste",
+    "MG"  : "Sudeste",
+    "PA"  : "Norte",
+    "PB"  : "Nordeste",
+    "PR"  : "Sul",
+    "PE"  : "Nordeste",
+    "PI"  : "Nordeste",
+    "RJ"  : "Sudeste",
+    "RN"  : "Nordeste",
+    "RS"  : "Sul",
+    "RO"  : "Norte",
+    "RR"  : "Norte",
+    "SC"  : "Sul",
+    "SP"  : "Sudeste",
+    "SE"  : "Nordeste",
+    "TO"  : "Norte"}
+
+    ipesRegiao = {};
+  $.getJSON("model/ipes.php?operation=ipesbystate",function (data) {
+    //Processing ipes by region
+    for (var i = 0; i < data.length; i++) {
+      estado = data[i]["estado"];
+      quant = Number(data[i]["quant"]);
+      if (!(regioes[estado] in ipesRegiao)){
+        ipesRegiao[regioes[estado]] = quant;
+      }
+      else {
+        ipesRegiao[regioes[estado]] = ipesRegiao[regioes[estado]] + quant;
+      }
+    }
+    //inserting data on chart
+    $.each(ipesRegiao, function (regiao, qtde) {
+      myPieChart.addData({
+        "label": regiao,
+        "value": qtde,
+        "color": Colors.random()
+      });
+    });
+    myPieChart.update();
+
+    var legend = myPieChart.generateLegend();
+    $("#legend").html(legend);
+
+  } );
+
+
+}

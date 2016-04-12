@@ -12,149 +12,6 @@
 </head>
 <body>
 
-	<script>
-	regioes = {
-    "AC" : "Norte",
-    "AL" : "Nordeste",
-    "AP" : "Norte",
-    "AM" : "Norte",
-    "BA" : "Nordeste",
-    "CE"  : "Nordeste",
-    "DF"  : "Centro-Oeste",
-    "ES"  : "Sudeste",
-    "GO"  : "Centro-Oeste",
-    "MA"  : "Nordeste",
-    "MS"  : "Centro-Oeste",
-    "MT"  : "Centro-Oeste",
-    "MG"  : "Sudeste",
-    "PA"  : "Norte",
-    "PB"  : "Nordeste",
-    "PR"  : "Sul",
-    "PE"  : "Nordeste",
-    "PI"  : "Nordeste",
-    "RJ"  : "Sudeste",
-    "RN"  : "Nordeste",
-    "RS"  : "Sul",
-    "RO"  : "Norte",
-    "RR"  : "Norte",
-    "SC"  : "Sul",
-    "SP"  : "Sudeste",
-    "SE"  : "Nordeste",
-    "TO"  : "Norte"}
-
-
-	//Cores para serem usadas no chart
-	Colors = {};
-	Colors.names = {
-	  blue: "#AEC6CF",
-	  brown: "#836953",
-	  darkblue: "#779ECB",
-	  darkcyan: "#008b8b",
-	  darkgrey: "#CFCFC4",
-	  darkgreen: "#006400",
-	  darkkhaki: "#bdb76b",
-	  darkolivegreen: "#556b2f",
-	  darkorange: "#C46210",
-	  darkorchid: "#9932cc",
-	  darkred: "#8b0000",
-	  darksalmon: "#e9967a",
-	  gold: "#ffd700",
-	  mantisgreen: "#74C365",
-	  indigo: "#4b0082",
-	  pastelblue: "#73A9C2",
-	  pastelgreen: "#77DD77",
-	  lightgrey: "#696969",
-	  pastelpurple: "#B39EB5",
-	  maroon: "#800000",
-	  navy: "#000080",
-	  olive: "#808000",
-	  pastelorange: "#FFB347",
-	  purple: "#800080",
-	  violet: "#CB99C9",
-	  rubyred: "#9B111E",
-	  yellow: "#ffff00"
-	};
-
-	Colors.random = function() {
-	  var result = 0;
-	  var count = 0;
-	  for (var prop in this.names)
-	      if ( (Math.random() < 1/++count) && (result === 0)) {
-	         result = this.names[prop];
-	         delete this.names[prop];
-	       }
-
-	  return result;
-	};
-
-
-
-// 	var polosRegiao = {};
-// 	var dadosChart = [];
-//
-// 	$.getJSON("ipes-all.json", function (data) {
-// 	  ipes.addData(data);
-//
-// 		//Todo esse código abaixo é necessário para se gerar o gráfico de pizza
-//
-// 		$.each(data.features, function (key, val) {
-// 			//se não existe esse estado na lista cria
-// 			if (!(regioes[val.properties.Estado] in polosRegiao)) {
-// 				polosRegiao[regioes[val.properties.Estado]] = 1;
-// 			} else {
-// 				//se existe, soma ao valor
-// 				polosRegiao[regioes[val.properties.Estado]] ++ ;
-// 			}
-//
-// 		});
-//
-// 		$.each(polosRegiao, function (regiao, qtde) {
-// 			dadosChart.push({
-// 				"label": regiao,
-// 				"value": qtde,
-// 				"color": Colors.random()
-// 			});
-// 		});
-//
-// 	});
-//
-//
-// //Versão polos por estado em pizza
-// 	function polosPorEstado (myBarChart){
-// 		var polosEstado = {};
-//
-// 		$.getJSON("ipes-all.json", function (data) {
-// 			$.each(data.features, function (key, val) {
-// 				//se não existe esse estado na lista cria
-// 				if (!(val.properties.Estado in polosEstado)) {
-// 					polosEstado[val.properties.Estado] = 1;
-// 				}else {
-// 					//se existe, soma ao valor
-// 					polosEstado[val.properties.Estado] ++ ;
-// 				}
-//
-// 			});
-//
-// 			//sorting the polos
-// 			var polosOrdenados = [];
-// 			for (var polo in polosEstado)
-// 			      polosOrdenados.push([polo, polosEstado[polo]])
-// 			polosOrdenados.sort(function(a, b) {return b[1] - a[1]})
-// 			//polosOrdenados = [[estado,qtde],...]
-//
-// 			for (i = 0; i < polosOrdenados.length; i++) {
-// 		    myBarChart.addData([polosOrdenados[i][1]],polosOrdenados[i][0]);
-// 			}
-//
-// 			// $.each(polosEstado, function (estado, qtde) {
-// 			// 	myBarChart.addData([qtde],estado);
-// 			// });
-// 			myBarChart.update();
-//
-// 		});
-// }
-
-</script>
 
 <h1>Sobre o projeto</h1>
 
@@ -201,7 +58,7 @@ bem como maior transparência sobre a sua abrangência, capilaridade e ações.<
 
 	};
 	var ctxBar = document.getElementById("chartByState").getContext("2d");
-	var myBarChart = new Chart(ctxBar).Bar(initialData, {barShowStroke: false});
+	var myBarChart = new Chart(ctxBar).Bar(initialData, {barShowStroke: false, animation: false});
 	processBarIpes(myBarChart);
 
 </script>
@@ -209,6 +66,31 @@ bem como maior transparência sobre a sua abrangência, capilaridade e ações.<
 <h2>Dados gerais da UAB: Número de IPES por região</h2>
 <!--O código à seguir também é necessário para o gráfico de pizza -->
 <canvas id="chartByRegion"></canvas>
+<div id="legend"></div>
+<script>
+//for pie graph
+// var options =
+// {
+// 			//animation: false;
+//
+// 			tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
+//
+// 			onAnimationComplete: function()
+// 			{
+// 					this.showTooltip(this.segments, true);
+// 			},
+//
+// 			tooltipEvents: [],
+//
+// 			showTooltips: true
+// 	}
+
+	var ctx = document.getElementById("chartByRegion").getContext("2d");
+	var myPieChart = new Chart(ctx).Pie([],{animation: false});
+
+
+	processChartIpesRegion(myPieChart);
+</script>
 </div>
 <br><br>
 <div class="subtitle">Para saber mais sobre a UAB</div>
@@ -219,46 +101,5 @@ bem como maior transparência sobre a sua abrangência, capilaridade e ações.<
 <Br>Sobre a UAB:<br>
 <div class="cit">Costa, C. J. da, & Duran, M. R. C. (2011). A Política Nacional de Formação de Professores entre 2005 e 2010: a nova Capes e o Sistema Universidade Aberta do Brasil. Revista Brasileira de Pós-Graduação, 9(16), 263–313. Disponível em: <a href="http://ojs.rbpg.capes.gov.br/index.php/rbpg/article/view/289/0">http://ojs.rbpg.capes.gov.br/index.php/rbpg/article/view/289/0</a></div>
 
-<script>
-
-window.onload = function(){
-		//for bar grpah
-		initialData = {
-			labels : [],
-			datasets :[{
-				fillColor: "blue",
-				data :[]
-			}]
-
-		};
-		var ctxBar = document.getElementById("chartByState").getContext("2d");
-		var myBarChart = new Chart(ctxBar).Bar(initialData, {barShowStroke: false});
-		processBarIpes(myBarChart);
-		console.log('passou');
-
-		//for pie graph
-		var options =
-	  {
-				//animation: false;
-
-	      tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
-
-	      onAnimationComplete: function()
-	      {
-	          this.showTooltip(this.segments, true);
-	      },
-
-	      tooltipEvents: [],
-
-	      showTooltips: true
-	  }
-
-		var ctx = document.getElementById("chartByRegion").getContext("2d");
-    var myPieChart = new Chart(ctx).Pie(dadosChart,options);
-
-
-}
-
-</script>
 </body>
 </html>
