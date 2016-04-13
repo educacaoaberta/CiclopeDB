@@ -153,7 +153,7 @@ function processChartIpesRegion(myPieChart) {
     myPieChart.update();
 
     var legend = myPieChart.generateLegend();
-    $("#legend").html(legend);
+    $("#legendByRegion").html(legend);
 
   } );
 

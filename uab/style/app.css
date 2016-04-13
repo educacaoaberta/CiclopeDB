@@ -64,7 +64,7 @@ a:link {
     list-style: none;
 }
 
-#legend {
+#legend, #legendByRegion {
   float:right;
   width: 50%;
   padding-top: 2em
