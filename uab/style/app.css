@@ -24,7 +24,7 @@ p {
 
 .subtitle {
   font-family: "quattrobold", sans-serif;
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin-top: 20px;
 }
 
@@ -206,10 +206,10 @@ img {
   background-color: #fff;
   line-height: 38px;
   margin-left: 38px;
-  margin-top: 10px;
-  width: 90px;
+  margin-top: 8px;
+  /*width: 95px;*/
   border: 2px solid rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   }
 
 .menuitem {
@@ -254,7 +254,8 @@ img {
 }
 
 .pontoschave a:link, .pontoschave a:visited {
-  color: white;
+  color: #fff;
+  text-decoration: underline dotted;
 }
 
 img {
