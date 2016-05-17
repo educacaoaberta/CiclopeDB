@@ -3,4 +3,4 @@ uab/libraries/leaflet-sidebar/..gitignore.~7f76ece
 *.bak
 .~*
 .Trash-*
-uab/model/config.php
+model/config.php
