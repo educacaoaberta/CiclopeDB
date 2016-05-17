@@ -1,0 +1,8 @@
+<?php
+
+$servername = "localhost";
+$username = "ciclope";
+$password = "ciclope";
+$dbname = "ciclope";
+
+ ?>

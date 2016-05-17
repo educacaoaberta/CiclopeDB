@@ -1,12 +1,8 @@
 <?php
+require 'config.php';
 //Segunda versão, retorna todos os polos, ou número de polos por estado de uma determinada ipes
 
 $operation = $_GET['operation'];
-
-$servername = "localhost";
-$username = "ciclope";
-$password = "ciclope";
-$dbname = "ciclope";
 
 
 // Create connection

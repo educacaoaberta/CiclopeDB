@@ -1,8 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "ciclope";
-$password = "ciclope";
-$dbname = "ciclope";
+require 'config.php';
 
 $operation = $_GET['operation'];
 

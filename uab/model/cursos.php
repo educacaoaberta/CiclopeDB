@@ -1,16 +1,11 @@
 <?php
+require 'config.php';
 //operation could be: 'cursosipes' or 'cursospolos' or 'cursosbyipes'
 //
 
 
 
 $operation = $_GET['operation'];
-
-
-$servername = "localhost";
-$username = "ciclope";
-$password = "ciclope";
-$dbname = "ciclope";
 
 
 // Create connection
