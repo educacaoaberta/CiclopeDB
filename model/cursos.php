@@ -36,7 +36,7 @@ if ($operation == "cursosipes") {
 } elseif($operation == "cursospolos"){
   $idpolo = $_GET['idpolo'];
 
-  $sql = "select nome, tipo, ipes_sigla, data_oferta, numero_vagas, qt_alunos_cadastrado, qt_alunos_formados, qt_alunos_desvinculado as nao_concluinte from cursos, oferta where oferta.polos_id=".$idpolo." and cursos.id=oferta.cursos_id";
+  $sql = "select nome, tipo, ipes_sigla, data_oferta, numero_vagas, qt_alunos_cadastrado, qt_alunos_formados, qt_alunos_nao_concluinte + qt_alunos_desvinculado as nao_concluinte from cursos, oferta where oferta.polos_id=".$idpolo." and cursos.id=oferta.cursos_id";
   $result = $conn->query($sql);
   $rows = array();
 
