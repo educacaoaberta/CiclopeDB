@@ -5,6 +5,27 @@ body {
   padding: 5px;
 }
 
+/*banner BETA, from https://codepen.io/davidlazar/pen/dcxou */
+body:after{
+  content: "beta";
+  position: fixed;
+  width: 120px;
+  height: 25px;
+  background: #EE8E4A;
+  bottom: 10px;
+  right: -26px;
+  text-align: center;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  line-height: 27px;
+  -ms-transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}
+
 p {
   font-size: 1.2em;
   line-height: 150%;
