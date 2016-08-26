@@ -14,7 +14,7 @@ Current implementation shows data regrading the [Open University of Brazil](http
 
 This software was developed based on [Ciclope](https://github.com/tamielbr/Ciclope/), which only uses JSON files (no database).
 
-**[PT]** Um sistema de mapa + abas que agrega várias bibliotecas JS com customização em CSS. Baseado em  [datatables-map](https://github.com/tamielbr/) que usou por sua vez o [Afyamap](https://github.com/Jumagreens/AfyaMap). O objetivo é facilitar o uso de dados em JSON para mostrar informações diversas (tabelas, linhas do tempo, gráficos) para comunicar o resultado de pesquisas e permitir o fácil acesso à dados.
+**[PT]** Um sistema de mapa + abas que agrega várias bibliotecas JS com customização em CSS. O objetivo é facilitar a visulização de dados (tabelas, linhas do tempo, gráficos) para comunicar o resultado de pesquisas e permitir o fácil acesso à dados abertos geo-referenciados.
 
 Dentre outros, utilizamos:
 * Datatables, http://datatables.net
