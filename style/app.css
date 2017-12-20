@@ -40,7 +40,7 @@ p {
 .title {
   font-family: "quattrobold";
   font-size: 1.6em;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
 }
 
 .subtitle {
@@ -67,12 +67,12 @@ a:link {
 
 @font-face {
   font-family: quattro;
-  src: url(../font/QuattrocentoSans-Regular.otf);
+  src: url(../font/Gidole-Regular.ttf);
 }
 
 @font-face {
   font-family: quattrobold;
-  src: url(../font/QuattrocentoSans-Bold.otf);
+  src: url(../font/Gidole-Regular.ttf);
 }
 
 .pie-legend li span {
@@ -266,17 +266,17 @@ img {
 }
 
 .pontoschave {
-	background-color: #0F3153;
-	color: white;
+	/*background-color: #0F3153;*/
+	color: black;
 	margin-right: 0px;
   margin-top: 5px;
-	padding: 20px;
+	padding-bottom: 25p x;
   font-size: 1.2em;
 }
 
 .pontoschave a:link, .pontoschave a:visited {
-  color: #fff;
-  text-decoration: underline dotted;
+  color: #0078A8;
+  /*text-decoration: underline dotted;*/
 }
 
 img {
@@ -320,13 +320,12 @@ ul.tabs li{
 }
 
 ul.tabs li.current{
-	background: #ededed;
-	color: #222;
+  border-bottom: 3px solid #31719C;
 }
 
 .tab-content{
 	display: none;
-	background: #ededed;
+	background: #fff;
 	padding: 15px;
 }
 
