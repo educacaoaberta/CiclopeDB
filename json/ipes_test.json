@@ -1,0 +1,33 @@
+{
+    "UEPA": {
+        "properties": {
+            "URL":"http://necad.uepa.br/moodle/",
+            "URL2":"http://necad.uepa.br/moodle/",
+            "Logradouro":"Rua do Una,156",
+            "Bairro":"Telegrafo",
+            "Cidade":"Belem",
+            "Estado":"PA",
+            "CEP":"66113200",
+            "Telefone":"(91) 3299-2265 r2265"
+        },
+        "geometry":[
+            -48.4887684,
+          -1.4302111
+        ],
+        "polos" :[
+            {
+            "id" : 1,
+            "nome_polo": "ACRELANDIA - CENTRO",
+            "geometry":[
+                -9.9140854, 
+                -66.9511459
+            ],
+            "UF": "AC"
+            }
+        ],
+        "polos_by_state" : {
+            "AC": 1
+        }
+    }
+
+}

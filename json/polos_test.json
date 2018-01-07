@@ -1,0 +1,33 @@
+{
+    "ACRELANDIA - CENTRO": {
+        "properties": {
+            "id": 1, 
+            "cidade": "Acrelândia", 
+            "uf":  "AC", 
+            "nome_fantasia": "CEDUP (CENTRO ESTADUAL DE EDUCACAO PERMANENTE)", 
+            "logradouro": "RUA ADNILSON ROGÉRIO DE OLIVEIRA", 
+            "numero": "951", 
+            "bairro" : "CENTRO", 
+            "cep": "69945000", 
+            "complemento": "CENTRO DE EDUCAÇÂO A DISTANCIA", 
+            "conceito":"AA" 
+        },
+        "geometry":[
+            -9.9140854, 
+            -66.9511459
+        ],
+        "ipes" :[
+            {
+            "sigla" : "UEPA",
+            "geometry":[
+                -48.4887684,
+                -1.4302111
+            ],
+            "UF": "PA"
+            }
+        ],
+        "ipes_by_state" : {
+            "PA": 1
+        }
+    }
+}
