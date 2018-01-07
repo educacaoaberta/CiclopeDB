@@ -30,9 +30,7 @@ elseif ($operation == "polosbystate") {
   $sigla = $_GET['sigla'];
 
   #estou considerando qualquer polo que já teve curso de uma ipes
-  $sql = "select uf, count(uf) as quant from (select polos.id, 
-    polos.uf from polos, ipes_has_polos where ipes_has_polos.ipes_sigla='". $sigla ."' 
-    order by uf) as bla group by uf";
+  $sql = "select uf, count(uf) as quant from (select polos.id, polos.uf from polos, ipes, ipes_has_polos where  ipes.sigla='". $sigla ."' and ipes_has_polos.ipes_id=ipes.id and polos.id=ipes_has_polos.polos_id order by uf) as bla group by uf";
 
   $result = $conn->query($sql);
   $rows = array();
