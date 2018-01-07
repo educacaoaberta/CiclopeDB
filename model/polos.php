@@ -16,8 +16,7 @@ if (!$conn) {
 $conn->query("set names 'utf8'");
 
 if ($operation == "allpolos") {
-  #modificar para retornar o polo uma única vez (ao invés de uma vez pra cada relação com ipes)
-  $sql = "select distinct(nome_polo), polos.id, sigla,polos.lat,polos.lng from ipes, polos, cursos, oferta where ipes.sigla=cursos.ipes_sigla and oferta.polos_id=polos.id and oferta.cursos_id=cursos.id order by sigla";
+    $sql = "select nome_polo, polos.id, sigla, polos.lat, polos.lng from ipes, polos, ipes_has_polos where ipes_has_polos.ipes_sigla=ipes.sigla and ipes_has_polos.polos_id=polos.id";
   $result = $conn->query($sql);
   $rows = array();
 
@@ -31,7 +30,9 @@ elseif ($operation == "polosbystate") {
   $sigla = $_GET['sigla'];
 
   #estou considerando qualquer polo que já teve curso de uma ipes
-  $sql = "select uf, count(uf) as quant from (select distinct(polos.id), polos.uf from polos,cursos, oferta where cursos.ipes_sigla='". $sigla ."' and oferta.cursos_id=cursos.id and oferta.polos_id=polos.id order by uf) as bla group by uf";
+  $sql = "select uf, count(uf) as quant from (select polos.id, 
+    polos.uf from polos, ipes_has_polos where ipes_has_polos.ipes_sigla='". $sigla ."' 
+    order by uf) as bla group by uf";
 
   $result = $conn->query($sql);
   $rows = array();
