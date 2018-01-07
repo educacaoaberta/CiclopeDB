@@ -16,7 +16,7 @@ if (!$conn) {
 $conn->query("set names 'utf8'");
 
 if ($operation == "allpolos") {
-    $sql = "select nome_polo, polos.id, sigla, polos.lat, polos.lng from ipes, polos, ipes_has_polos where ipes_has_polos.ipes_sigla=ipes.sigla and ipes_has_polos.polos_id=polos.id";
+    $sql = "select nome_polo, polos.id, sigla, polos.lat, polos.lng from ipes, polos, ipes_has_polos where ipes_has_polos.ipes_id=ipes.id and ipes_has_polos.polos_id=polos.id";
   $result = $conn->query($sql);
   $rows = array();
 
