@@ -20,15 +20,15 @@ GRANT ALL PRIVILEGES ON ciclope.* TO 'ciclope'@'localhost';
 
 `cd db`
 
-`mysql ciclo < createtables.sql -u ciclo -p`
+`mysql ciclope < createtables.sql -u ciclope -p`
 
-`mysql ciclo < inserts-ipes.sql -u ciclo -p `
+`mysql ciclope < inserts-ipes.sql -u ciclope -p `
 
-`mysql ciclo < inserts-polos.sql -u ciclo -p`
+`mysql ciclope < inserts-polos.sql -u ciclope -p`
 
-`mysql ciclo < inserts-cursos.sql -u ciclo -p`
+`mysql ciclope < inserts-cursos.sql -u ciclope -p`
 
-`mysql ciclo < inserts-oferta.sql -u ciclo -p`
+`mysql ciclope < inserts-oferta.sql -u ciclope -p`
 
 
 # Gerar arquivo de configuração
