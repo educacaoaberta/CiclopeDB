@@ -24,7 +24,7 @@ if ($operation == "allipes") {
 }
 elseif ($operation == "ipesdata") {
     $sigla = $_GET['sigla'];
-    $sql = "SELECT sigla, logradouro, bairro, cidade, estado, cep, telefone, url, url2 FROM ipes WHERE sigla='". $sigla ."'";
+    $sql = "SELECT sigla, logradouro, bairro, cidade, estado, cep, telefone, url FROM ipes WHERE sigla='". $sigla ."'";
 
     $result = $conn->query($sql);
     $rows = array();
