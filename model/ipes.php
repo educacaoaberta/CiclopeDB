@@ -13,7 +13,7 @@ if (!$conn) {
 $conn->query("set names 'utf8'");
 
 if ($operation == "allipes") {
-  $sql = "SELECT `sigla`, `lat`, `lng` FROM ipes";
+  $sql = "SELECT `sigla`, `lat`, `lng` FROM ipes where `lat` != 'NULL'";
   $result = $conn->query($sql);
   $rows = array();
 
