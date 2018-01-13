@@ -225,7 +225,6 @@ $(function() {
           $result += '<p><b>CEP: </b>'+poloData['cep']+'</p>';
           $result += '<p><b>Complemento: </b>'+poloData['complemento']+'</p>';
           $result += '<p><b>Nome Fantasia: </b>'+poloData['nome_fantasia']+'</p>';
-          $result += '<p><b>Conceito: </b>'+poloData['conceito']+'</p>';
 
 
           $result += '<p><b>Número de cursos por IPES</b></p>';
