@@ -223,7 +223,9 @@ $(function() {
           $result += '<p><b>Cidade: </b>'+poloData['cidade']+'</p>';
           $result += '<p><b>Estado: </b>'+poloData['uf']+'</p>';
           $result += '<p><b>CEP: </b>'+poloData['cep']+'</p>';
-          $result += '<p><b>Complemento: </b>'+poloData['complemento']+'</p>';
+          if (poloData['complemento'] != null){
+              $result += '<p><b>Complemento: </b>'+poloData['complemento']+'</p>';
+          }
           $result += '<p><b>Nome Fantasia: </b>'+poloData['nome_fantasia']+'</p>';
 
           $result += '</div>';
@@ -302,8 +304,9 @@ $(function() {
           $result += '<p><b>Estado: </b>'+ipesData[0]['estado']+'</p>';
           $result += '<p><b>CEP: </b>'+ipesData[0]['cep']+'</p>';
           $result += '<p><b>Telefone: </b>'+ipesData[0]['telefone']+'</p>';
-          $result += '<p><b>URL: </b>'+ipesData[0]['url']+'</p>';
-
+          if (ipesData[0]['url'] != null){
+              $result += '<p><b>URL: </b>'+ipesData[0]['url']+'</p>';
+           }  
           //Gráfico Polos por Estado
 
           $result += '<p><b>Número de polos por estado</b></p>';
