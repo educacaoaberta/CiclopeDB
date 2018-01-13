@@ -226,14 +226,6 @@ $(function() {
           $result += '<p><b>Complemento: </b>'+poloData['complemento']+'</p>';
           $result += '<p><b>Nome Fantasia: </b>'+poloData['nome_fantasia']+'</p>';
 
-
-          $result += '<p><b>Número de cursos por IPES</b></p>';
-          $result += '<div id="graphContainer">';
-          $result += '<canvas id="myChart" width="400" height="400"></canvas>';
-          $result += '<div id="legend"></div>';
-          $result += '</div>';
-
-
           $result += '</div>';
           return $result;
 
@@ -263,10 +255,6 @@ $(function() {
                   }
 
 
-                  //Gerando o gráfico
-                  var ctx = document.getElementById("myChart").getContext("2d");
-                  var myPieChart = new Chart(ctx).Pie([],{animation: false});
-                  processChartPolo(myPieChart,feature.properties.idpolo);
                 });
               }
               if($('#about-data').is(":visible") ){
@@ -294,29 +282,6 @@ $(function() {
                   theadDefault += "</tr></thead>";
                   $('<table id="table_data" class="responsive table_data" width="100%">'+ theadDefault).appendTo('#tab-2');
                 });
-
-
-
-              //load cursos data
-              $.getJSON("model/cursos.php?operation=cursospolos&idpolo=" + feature.properties.idpolo ,function (data) {
-                    $('#table_data').DataTable( {
-                           "language": {
-                                 "url": "json/datatables_pt-br.json"
-                                 },
-                                "aaData" : data,
-                                "paging": true,
-                                "order": [0,'asc'],
-                                dom: 'Bfrtip',
-                                buttons: [
-                                   {
-                                    extend: 'csvHtml5',
-                                    title: 'data'
-                                  }
-                                  ]
-                            });
-                //dados chegando, com excessão do título que tem acento
-              });
-
 
 
               });
