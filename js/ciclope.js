@@ -338,7 +338,6 @@ $(function() {
           $result += '<p><b>CEP: </b>'+ipesData[0]['cep']+'</p>';
           $result += '<p><b>Telefone: </b>'+ipesData[0]['telefone']+'</p>';
           $result += '<p><b>URL: </b>'+ipesData[0]['url']+'</p>';
-          $result += '<p><b>URL2: </b>'+ipesData[0]['url2']+'</p>';
 
           //Gráfico Polos por Estado
 
