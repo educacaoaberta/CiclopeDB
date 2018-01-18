@@ -223,17 +223,10 @@ $(function() {
           $result += '<p><b>Cidade: </b>'+poloData['cidade']+'</p>';
           $result += '<p><b>Estado: </b>'+poloData['uf']+'</p>';
           $result += '<p><b>CEP: </b>'+poloData['cep']+'</p>';
-          $result += '<p><b>Complemento: </b>'+poloData['complemento']+'</p>';
+          if (poloData['complemento'] != null){
+              $result += '<p><b>Complemento: </b>'+poloData['complemento']+'</p>';
+          }
           $result += '<p><b>Nome Fantasia: </b>'+poloData['nome_fantasia']+'</p>';
-          $result += '<p><b>Conceito: </b>'+poloData['conceito']+'</p>';
-
-
-          $result += '<p><b>Número de cursos por IPES</b></p>';
-          $result += '<div id="graphContainer">';
-          $result += '<canvas id="myChart" width="400" height="400"></canvas>';
-          $result += '<div id="legend"></div>';
-          $result += '</div>';
-
 
           $result += '</div>';
           return $result;
@@ -264,10 +257,6 @@ $(function() {
                   }
 
 
-                  //Gerando o gráfico
-                  var ctx = document.getElementById("myChart").getContext("2d");
-                  var myPieChart = new Chart(ctx).Pie([],{animation: false});
-                  processChartPolo(myPieChart,feature.properties.idpolo);
                 });
               }
               if($('#about-data').is(":visible") ){
@@ -297,29 +286,6 @@ $(function() {
                 });
 
 
-
-              //load cursos data
-              $.getJSON("model/cursos.php?operation=cursospolos&idpolo=" + feature.properties.idpolo ,function (data) {
-                    $('#table_data').DataTable( {
-                           "language": {
-                                 "url": "json/datatables_pt-br.json"
-                                 },
-                                "aaData" : data,
-                                "paging": true,
-                                "order": [0,'asc'],
-                                dom: 'Bfrtip',
-                                buttons: [
-                                   {
-                                    extend: 'csvHtml5',
-                                    title: 'data'
-                                  }
-                                  ]
-                            });
-                //dados chegando, com excessão do título que tem acento
-              });
-
-
-
               });
             //Does not work well with circles, but does with markers. Bug?
             // layer.on ('mouseout', function (a) {
@@ -338,9 +304,9 @@ $(function() {
           $result += '<p><b>Estado: </b>'+ipesData[0]['estado']+'</p>';
           $result += '<p><b>CEP: </b>'+ipesData[0]['cep']+'</p>';
           $result += '<p><b>Telefone: </b>'+ipesData[0]['telefone']+'</p>';
-          $result += '<p><b>URL: </b>'+ipesData[0]['url']+'</p>';
-          $result += '<p><b>URL2: </b>'+ipesData[0]['url2']+'</p>';
-
+          if (ipesData[0]['url'] != null){
+              $result += '<p><b>URL: </b>'+ipesData[0]['url']+'</p>';
+           }  
           //Gráfico Polos por Estado
 
           $result += '<p><b>Número de polos por estado</b></p>';
