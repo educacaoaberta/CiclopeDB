@@ -29,133 +29,173 @@ Colors.names = {
   yellow: "#ffff00"
 };
 
-Colors.random = function() {
+Colors.random = function () {
   var result = 0;
   var count = 0;
   for (var prop in this.names)
-      if ( (Math.random() < 1/++count) && (result === 0)) {
-         result = this.names[prop];
-         delete this.names[prop];
-       }
+    if ((Math.random() < 1 / ++count) && (result === 0)) {
+      result = this.names[prop];
+      delete this.names[prop];
+    }
 
   return result;
 };
 
+// Estados e Regiões
+var regioes = {
+  "AC": "Norte",
+  "AL": "Nordeste",
+  "AP": "Norte",
+  "AM": "Norte",
+  "BA": "Nordeste",
+  "CE": "Nordeste",
+  "DF": "Centro-Oeste",
+  "ES": "Sudeste",
+  "GO": "Centro-Oeste",
+  "MA": "Nordeste",
+  "MS": "Centro-Oeste",
+  "MT": "Centro-Oeste",
+  "MG": "Sudeste",
+  "PA": "Norte",
+  "PB": "Nordeste",
+  "PR": "Sul",
+  "PE": "Nordeste",
+  "PI": "Nordeste",
+  "RJ": "Sudeste",
+  "RN": "Nordeste",
+  "RS": "Sul",
+  "RO": "Norte",
+  "RR": "Norte",
+  "SC": "Sul",
+  "SP": "Sudeste",
+  "SE": "Nordeste",
+  "TO": "Norte"
+};
 
-function processChartIpes(myPieChart,siglaIpes) {
+var ipesRegiao = {};
+var polosRegiao = {};
 
-  $.getJSON("model/polos.php?operation=polosbystate&sigla=" + siglaIpes ,function (data) {
-    for (var i = 0; i < data.length; i++) {
-      //data[i][0] -> state / data[i][1] -> number of polos in this state
-      myPieChart.addData({
-        "label": data[i][0],
-        "value": data[i][1],
-        "color": Colors.random()
-      });
+var currentYear = (new Date()).getFullYear();
+var polosByStateWithFederativeUnitJson = "model/polos.php?operation=polosbystatewithfederativeunit&sigla=";
+var ipesByStateJson = "model/ipes.php?operation=ipesbystate";
+var polosByStateJson= "model/polos.php?operation=polosbystate";
+
+// Número de polos por estado dentro dos arquivos do content
+function processChartIpes(myPieChart, siglaIpes) {
+
+  $.getJSON(polosByStateWithFederativeUnitJson + siglaIpes, function (data) {
+      for (var i = 0; i < data.length; i++) {
+        //data[i][0] -> state / data[i][1] -> number of polos in this state
+        myPieChart.addData({
+          "label": data[i][0],
+          "value": data[i][1],
+          "color": Colors.random()
+        });
+      }
+
+      myPieChart.update();
+
+      var legend = myPieChart.generateLegend();
+      $("#legend").html(legend);
+
     }
-
-    myPieChart.update();
-
-    var legend = myPieChart.generateLegend();
-    $("#legend").html(legend);
-
-  }
-
-
   );
 }
 
-
-function processChartPolo(myPieChart,idPolo) {
-
-  $.getJSON("model/cursos.php?operation=cursosbyipes&idpolo=" + idPolo ,function (data) {
+// Dados gerais da UAB: número de IPES por estado
+function processBarChartIpes(barChart) {
+  $.getJSON(ipesByStateJson, function (data) {
+    var soma = 0
     for (var i = 0; i < data.length; i++) {
-      //data[i][0] -> ipes / data[i][1] -> number of cursos from this ipes
-      myPieChart.addData({
-        "label": data[i][0],
-        "value": data[i][1],
-        "color": Colors.random()
+      barChart.data.labels.push(data[i]["estado"]);
+      barChart.data.datasets.forEach((dataset) => {
+        dataset.data.push(data[i]["quant"])
+        // dataset.backgroundColor.push(getRandomColor());
       });
+      soma += Number(data[i]["quant"])
     }
-    myPieChart.update();
 
-    var legend = myPieChart.generateLegend();
-    $("#legend").html(legend);
-
-  } );
-
-
-}
-
-
-function processBarIpes(barChart) {
-  $.getJSON("model/ipes.php?operation=ipesbystate",function (data) {
-    for (var i = 0; i < data.length; i++) {
-      barChart.addData([data[i]["quant"]],data[i]["estado"]);
-    }
+    var total = 'Total de IPES em ' + currentYear + ': ' + soma
+    $("#legendByState").html(total);
 
     barChart.update();
 
   });
 }
 
-function processChartIpesRegion(myPieChart) {
-  regioes = {
-    "AC" : "Norte",
-    "AL" : "Nordeste",
-    "AP" : "Norte",
-    "AM" : "Norte",
-    "BA" : "Nordeste",
-    "CE"  : "Nordeste",
-    "DF"  : "Centro-Oeste",
-    "ES"  : "Sudeste",
-    "GO"  : "Centro-Oeste",
-    "MA"  : "Nordeste",
-    "MS"  : "Centro-Oeste",
-    "MT"  : "Centro-Oeste",
-    "MG"  : "Sudeste",
-    "PA"  : "Norte",
-    "PB"  : "Nordeste",
-    "PR"  : "Sul",
-    "PE"  : "Nordeste",
-    "PI"  : "Nordeste",
-    "RJ"  : "Sudeste",
-    "RN"  : "Nordeste",
-    "RS"  : "Sul",
-    "RO"  : "Norte",
-    "RR"  : "Norte",
-    "SC"  : "Sul",
-    "SP"  : "Sudeste",
-    "SE"  : "Nordeste",
-    "TO"  : "Norte"}
+// Dados gerais da UAB: Número de IPES por região
+function processBarChartIpesRegion(myBarChart) {
 
-    ipesRegiao = {};
-  $.getJSON("model/ipes.php?operation=ipesbystate",function (data) {
-    //Processing ipes by region
+  $.getJSON(ipesByStateJson, function (data) {
     for (var i = 0; i < data.length; i++) {
       estado = data[i]["estado"];
       quant = Number(data[i]["quant"]);
-      if (!(regioes[estado] in ipesRegiao)){
+      if (!(regioes[estado] in ipesRegiao)) {
         ipesRegiao[regioes[estado]] = quant;
       }
       else {
         ipesRegiao[regioes[estado]] = ipesRegiao[regioes[estado]] + quant;
       }
     }
-    //inserting data on chart
+
+
     $.each(ipesRegiao, function (regiao, qtde) {
-      myPieChart.addData({
-        "label": regiao,
-        "value": qtde,
-        "color": Colors.random()
+      myBarChart.data.labels.push(regiao);
+      myBarChart.data.datasets.forEach((dataset) => {
+        // dataset.backgroundColor.push(getRandomColor());
+        dataset.data.push(qtde)
       });
     });
-    myPieChart.update();
 
-    var legend = myPieChart.generateLegend();
-    $("#legendByRegion").html(legend);
+    myBarChart.update();
 
-  } );
+  });
+}
 
+// Dados gerais da UAB: número de polos por estado
+function processBarChartPolos(barChart) {
+  $.getJSON(polosByStateJson, function (data) {
+    var soma = 0
+    for (var i = 0; i < data.length; i++) {
+      barChart.data.labels.push(data[i]["uf"]);
+      barChart.data.datasets.forEach((dataset) => {
+        dataset.data.push(data[i]["quant"])
+        // dataset.backgroundColor.push(getRandomColor());
+      });
+      soma += Number(data[i]["quant"])
+    }
 
+    var total = 'Total de polos em ' + currentYear + ': ' + soma
+    $("#legendPolosByState").html(total);
+
+    barChart.update();
+  });
+}
+
+// Dados gerais da UAB: Número de polos por região
+function processBarChartPolosRegion(myBarChart) {
+
+  $.getJSON(polosByStateJson, function (data) {
+    for (var i = 0; i < data.length; i++) {
+      uf = data[i]["uf"];
+      quant = Number(data[i]["quant"]);
+      if (!(regioes[uf] in polosRegiao)) {
+        polosRegiao[regioes[uf]] = quant;
+      }
+      else {
+        polosRegiao[regioes[uf]] = polosRegiao[regioes[uf]] + quant;
+      }
+    }
+
+    $.each(polosRegiao, function (regiao, qtde) {
+      myBarChart.data.labels.push(regiao);
+      myBarChart.data.datasets.forEach((dataset) => {
+        // dataset.backgroundColor.push(getRandomColor());
+        dataset.data.push(qtde)
+      });
+    });
+
+    myBarChart.update();
+
+  });
 }
