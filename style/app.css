@@ -331,6 +331,10 @@ a:link {
         border-bottom: 3px solid #31719C;
     }
 
+    td.sorting_1 {
+        text-transform:capitalize;
+    }
+
     .tab-content {
         display: none;
         background: #fff;

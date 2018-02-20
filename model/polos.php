@@ -69,6 +69,17 @@ elseif ($operation == "polodata") {
 
 }
 
+elseif ($operation == "allunits") {
+    $sql = "select * from lista_unidades";
+    $result = $conn->query($sql);
+    $rows = array();
+
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc())
+            $rows[]=$row;
+    }
+}
+
 print json_encode($rows);
 
 mysqli_close($conn);

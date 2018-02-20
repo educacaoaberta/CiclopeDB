@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dados</title>
+</head>
+
+<body>
+<h1>Dados</h1>
+
+<table id="allunits" class="display" cellspacing="0" width="100%">
+    <thead>
+    <tr>
+        <th>Tipo</th>
+        <th>Nome</th>
+        <th>Cidade</th>
+        <th>UF</th>
+    </tr>
+    </thead>
+</table>
+
+<script>
+  $.getJSON("model/polos.php?operation=allunits", function (data) {
+    $('#allunits').DataTable({
+      "language": {
+        "url": "json/datatables_pt-br.json"
+      },
+      "aaData": data,
+      "columns": [
+        {"data": "tipo" },
+        {"data": "nome"},
+        {"data": "cidade"},
+        {"data": "estado"}
+      ],
+      "paging": true,
+      "order": [0, 'asc'],
+      responsive: true,
+      buttons: [
+        {
+          extend: 'csvHtml5',
+          title: 'data'
+        }
+      ]
+    });
+  });
+</script>
+</body>
+
+</html>
