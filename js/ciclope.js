@@ -212,7 +212,7 @@ $(function() {
         sidebar.show();
         $('#about-data').show();
         $('#tabs-data').hide();
-        $("#about-data").load("content/sobre.html");
+        $("#about-data").load("content/principal.html");
 
         function showPoloData (poloData) {
           $result = '<div class="pontoschave">';
