@@ -5,108 +5,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Grupo de pesquisa: UAB</title>
-  <meta name="description" content="Dados do estudo de Núcleos UAB">
-  <meta name="viewport" content="width=device-width, user-scalable=false" initial-scale="1">
+    <title>Grupo de pesquisa: UAB</title>
+    <meta name="description" content="Dados do estudo de Núcleos UAB">
+    <meta name="viewport" content="width=device-width, user-scalable=false" initial-scale="1">
 
-  <!--jQuery-->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!--jQuery-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <!--Main mapping library-->
-  <script type='text/javascript' src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-  <script src="libraries/leaflet-search/leaflet-search.js"></script>
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <!--Main mapping library-->
+    <script type='text/javascript' src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <script src="libraries/leaflet-search/leaflet-search.js"></script>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
 
-  <!--Identify your location-->
-  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
-  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css'>
-  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+    <!--Identify your location-->
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css'>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css'
+          rel='stylesheet'/>
 
-  <!--Timeline scripts-->
-  <script src="http://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-  <link title="timeline-styles" rel="stylesheet" href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <!--Timeline scripts-->
+    <script src="http://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    <link title="timeline-styles" rel="stylesheet"
+          href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 
-  <!--Scripts and css for dynamic tables-->
-  <script type='text/javascript' src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
-  <script type='text/javascript' src="https://cdn.datatables.net/responsive/1.0.7/js/dataTables.responsive.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
-  <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
+    <!--Scripts and css for dynamic tables-->
+    <script type='text/javascript' src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script type='text/javascript'
+            src="https://cdn.datatables.net/responsive/1.0.7/js/dataTables.responsive.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
 
-  <link rel="stylesheet" href="libraries/leaflet-sidebar/leaflet-sidebar.css">
+    <link rel="stylesheet" href="libraries/leaflet-sidebar/leaflet-sidebar.css">
 
-  <!--<link rel="stylesheet" href="libraries/leaflet-search/leaflet-search.css">-->
+    <!--<link rel="stylesheet" href="libraries/leaflet-search/leaflet-search.css">-->
 
-  <!--Script for Chart -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <!--Script for Chart -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
 
-  <!--Local scripts-->
-  <script src="libraries/leaflet-search/leaflet-search.js"></script>
-  <script src="libraries/leaflet-sidebar/leaflet-sidebar.js"></script>
+    <!--Local scripts-->
+    <script src="libraries/leaflet-search/leaflet-search.js"></script>
+    <script src="libraries/leaflet-sidebar/leaflet-sidebar.js"></script>
 
-  <!--Application stylesheet and application-->
-  <link rel="stylesheet" href="style/app.css">
+    <!--Application stylesheet and application-->
+    <link rel="stylesheet" href="style/app.css">
 
-  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.0.3/css/buttons.dataTables.min.css">
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
-  <script type='text/javascript' src='https://cdn.datatables.net/buttons/1.1.0/js/buttons.html5.min.js'></script>
-  <script type='text/javascript' src='https://cdn.datatables.net/buttons/1.1.0/js/dataTables.buttons.min.js'></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.0.3/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
+    <script type='text/javascript' src='https://cdn.datatables.net/buttons/1.1.0/js/buttons.html5.min.js'></script>
+    <script type='text/javascript' src='https://cdn.datatables.net/buttons/1.1.0/js/dataTables.buttons.min.js'></script>
 
 
- <script type='text/javascript' src="js/functions.js"></script>
-  <script src="js/ciclope.js"></script>
+    <script type='text/javascript' src="js/functions.js"></script>
+    <script src="js/ciclope.js"></script>
 
 </head>
 
 <body>
 <!--Loads map-->
 <div id="map">
-  <div id="menu-group">
-    <div id="menu-icon" class="leaflet-left">
-      <a href="#" id="menu-link"></a>
+    <div id="menu-group">
+        <div id="menu-icon" class="leaflet-left">
+            <a href="#" id="menu-link"></a>
+        </div>
+        <div class="menu">
+            <a href="#" class="menuitem" name="principal.html">Principal</a><br>
+            <a href="#" class="menuitem" name="sobre.html">Sobre</a>
+        </div>
     </div>
-    <div class="menu">
-      <a href="#" class="menuitem" name="principal.html">Principal</a><br>
-      <a href="#" class="menuitem" name="sobre.html">Sobre</a>
-    </div>
-  </div>
 </div>
 
 <div id="sidebar">
-  <div id="about-data"></div>
+    <!-- carrega a página inicial -->
+    <div id="about-data">
+        <ul class="tabs">
+            <li class="current">
+                <a href="#tab-principal">Principal</a>
+            </li>
+            <li>
+                <a href="#tab-sobre">Sobre o projeto</a>
+            </li>
+            <li>
+                <a href="#tab-dados">Dados</a>
+            </li>
+        </ul>
 
-  <div id="tabs-data">
-    <ul class="tabs">
-      <li id="tab-title-data" class="tab-link current" data-tab="tab-1">Dados Gerais</li>
-      <!-- <li id="tab-title-datatables" class="tab-link" data-tab="tab-2">Cursos Ofertados</li> -->
-      <li id="tab-title-timeline" class="tab-link" data-tab="tab-3">Linha do Tempo</li>
-    </ul>
-
-    <script>
-      //loading ipes data for  timeline
-      $.getJSON("json/ipes.json", function (data) {
-        $.each(data.features, function (key, val) {
-          $('<div id="timeline-'+ val.properties.Sigla.toLowerCase() +'" class="timeline"></div>').appendTo('#tab-3');
-        });
-      });
-    </script>
-
-    <div id="tab-1" class="tab-content current">
-      <p>Sem dados disponíveis</p>
+        <div id="tab-principal"></div>
+        <div id="tab-sobre"></div>
+        <div id="tab-dados"></div>
     </div>
-    <div id="tab-2" class="tab-content">
-      <div class="ref">
-        Dados extraídos do SisUAB em março de 2016<br />
-        <i>Não concluintes</i> se refere a <i>desvinculados</i> + <i>não concluintes</i>. Cursos não finalizados não tem concluintes.</i>
-      </div>
-    </div>
-    <div id="tab-3" class="tab-content"></div>
-  </div>
-  <!--End tabs-data -->
 
+    <!-- carrega as informações dos polos -->
+    <div id="tabs-data"></div>
+    <!--End tabs-data -->
 </div>
+
+<script>
+  $(function () {
+    $("#about-data").tabs({show: 'fade', hide: 'fade'});
+    $("#tab-principal").load("content/principal.html");
+    $("#tab-sobre").load("content/sobre.html");
+    $("#tab-dados").load("content/dados.html");
+    $("#tabs-data").load("content/polos.html");
+  });
+</script>
 
 </body>
 </html>
