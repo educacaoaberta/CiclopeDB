@@ -1,45 +1,10 @@
-Colors = {};
-Colors.names = {
-  blue: "#AEC6CF",
-  brown: "#836953",
-  darkblue: "#779ECB",
-  darkcyan: "#008b8b",
-  darkgrey: "#CFCFC4",
-  darkgreen: "#006400",
-  darkkhaki: "#bdb76b",
-  darkolivegreen: "#556b2f",
-  darkorange: "#C46210",
-  darkorchid: "#9932cc",
-  darkred: "#8b0000",
-  darksalmon: "#e9967a",
-  gold: "#ffd700",
-  mantisgreen: "#74C365",
-  indigo: "#4b0082",
-  pastelblue: "#73A9C2",
-  pastelgreen: "#77DD77",
-  lightgrey: "#696969",
-  pastelpurple: "#B39EB5",
-  maroon: "#800000",
-  navy: "#000080",
-  olive: "#808000",
-  pastelorange: "#FFB347",
-  purple: "#800080",
-  violet: "#CB99C9",
-  rubyred: "#9B111E",
-  yellow: "#ffff00"
-};
-
-Colors.random = function () {
-  var result = 0;
-  var count = 0;
-  for (var prop in this.names)
-    if ((Math.random() < 1 / ++count) && (result === 0)) {
-      result = this.names[prop];
-      delete this.names[prop];
-    }
-
-  return result;
-};
+var regionsColors = {
+  "Norte": "#8bbaea",
+  "Nordeste": "#4893de",
+  "Centro-Oeste": "#3889db",
+  "Sudeste": "#2476c7",
+  "Sul": "#1e62a6"
+}
 
 // Estados e Regiões
 var regioes = {
@@ -107,12 +72,14 @@ function processBarChartIpes(barChart) {
   $.getJSON(ipesByStateJson, function (data) {
     var soma = 0
     for (var i = 0; i < data.length; i++) {
-      barChart.data.labels.push(data[i]["estado"]);
+      estado = data[i]["estado"];
+      quant = Number(data[i]["quant"]);
+      barChart.data.labels.push(estado);
       barChart.data.datasets.forEach((dataset) => {
-        dataset.data.push(data[i]["quant"])
-        // dataset.backgroundColor.push(getRandomColor());
+        dataset.data.push(quant)
+        dataset.backgroundColor.push(regionsColors[regioes[estado]]);
       });
-      soma += Number(data[i]["quant"])
+      soma += quant
     }
 
     var total = 'Total de IPES em ' + currentYear + ': ' + soma
@@ -142,7 +109,7 @@ function processBarChartIpesRegion(myBarChart) {
     $.each(ipesRegiao, function (regiao, qtde) {
       myBarChart.data.labels.push(regiao);
       myBarChart.data.datasets.forEach((dataset) => {
-        // dataset.backgroundColor.push(getRandomColor());
+        dataset.backgroundColor.push(regionsColors[regiao]);
         dataset.data.push(qtde)
       });
     });
@@ -157,12 +124,14 @@ function processBarChartPolos(barChart) {
   $.getJSON(polosByStateJson, function (data) {
     var soma = 0
     for (var i = 0; i < data.length; i++) {
-      barChart.data.labels.push(data[i]["uf"]);
+      uf = data[i]["uf"];
+      quant = Number(data[i]["quant"]);
+      barChart.data.labels.push(uf);
       barChart.data.datasets.forEach((dataset) => {
-        dataset.data.push(data[i]["quant"])
-        // dataset.backgroundColor.push(getRandomColor());
+        dataset.data.push(quant)
+        dataset.backgroundColor.push(regionsColors[regioes[uf]]);
       });
-      soma += Number(data[i]["quant"])
+      soma += quant
     }
 
     var total = 'Total de polos em ' + currentYear + ': ' + soma
@@ -190,7 +159,7 @@ function processBarChartPolosRegion(myBarChart) {
     $.each(polosRegiao, function (regiao, qtde) {
       myBarChart.data.labels.push(regiao);
       myBarChart.data.datasets.forEach((dataset) => {
-        // dataset.backgroundColor.push(getRandomColor());
+        dataset.backgroundColor.push(regionsColors[regiao]);
         dataset.data.push(qtde)
       });
     });
