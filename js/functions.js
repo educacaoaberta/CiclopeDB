@@ -67,6 +67,22 @@ function processChartIpes(myPieChart, siglaIpes) {
   );
 }
 
+function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
+  $.getJSON(polosByStateWithFederativeUnitJson + siglaIpes, function (data) {
+    console.log(data)
+    for (var i = 0; i < data.length; i++) {
+      estado = data[i][0];
+      quant = Number(data[i][1]);
+      myBarChart.data.labels.push(estado);
+      myBarChart.data.datasets.forEach((dataset) => {
+        dataset.data.push(quant)
+        dataset.backgroundColor.push(regionsColors[regioes[estado]]);
+      });
+    }
+    myBarChart.update();
+  });
+}
+
 // Dados gerais da UAB: número de IPES por estado
 function processBarChartIpes(barChart) {
   $.getJSON(ipesByStateJson, function (data) {

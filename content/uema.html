@@ -1,100 +1,170 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <script type='text/javascript' src="js/functions.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type='text/javascript' src="js/functions.js"></script>
 </head>
 
 <body>
 
-  <script>
-    //show general IPES data from JSON
-    var ipes;
-    $.getJSON("json/ipes.json", function (data) {
-      $.each(data.features, function (key, val) {
-        //TODO: achar um jeito melhor de fazer isso
-        if(val.properties.Sigla == thisIpes){
-          $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
-          $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
-          $.each(val.properties.detalhes, function (titulo, valor) {
-            $('<b>' + titulo + ': ' + '</b>' +
+<script>
+  //show general IPES data from JSON
+  var ipes;
+  $.getJSON("json/ipes.json", function (data) {
+    $.each(data.features, function (key, val) {
+      //TODO: achar um jeito melhor de fazer isso
+      if (val.properties.Sigla == thisIpes) {
+        $('<span>' + val.properties.Nome + '</span>').appendTo("#nome_ipes");
+        $('<span>' + val.properties.UAB + '</span>').appendTo("#uab");
+        $.each(val.properties.detalhes, function (titulo, valor) {
+          $('<b>' + titulo + ': ' + '</b>' +
             valor + '</br>').appendTo("#dados_ipes p");
-          });
-        }
-      });
+        });
+      }
     });
-    </script>
+  });
+</script>
 
 <div class="pontoschave">
-  <div id="nome_ipes" class="title"></div>
-  <div id="uab" class="title"></div>
-A Universidade Estadual do Maranhão oferece educação à distância para municípios do interior do Maranhão através da UEMANet - Núcleo de Tecnologias Para Educação -. A universidade é integrada à Universidade Aberta do Brasil e a UEMANet é anterior à integração da Universidade Estadual do Maranhão à Universidade Aberta do Brasil. A UEMANet procura ser um espaço poroso, onde departamentos e centros interajam. Para que a educação à distância se dê há estrutura física e equipe da universidade dedicados a esta atividade.
+    <div id="nome_ipes" class="title"></div>
+    <div id="uab" class="title"></div>
+    A Universidade Estadual do Maranhão oferece educação à distância para municípios do interior do Maranhão através da
+    UEMANet - Núcleo de Tecnologias Para Educação -. A universidade é integrada à Universidade Aberta do Brasil e a
+    UEMANet é anterior à integração da Universidade Estadual do Maranhão à Universidade Aberta do Brasil. A UEMANet
+    procura ser um espaço poroso, onde departamentos e centros interajam. Para que a educação à distância se dê há
+    estrutura física e equipe da universidade dedicados a esta atividade.
 </div>
 <div id="dados_ipes"><p></p></div>
 
 <script>
 
-//This resolve issue #34, but always back to first tab
-//Gambiarra!
-if (!$('#tab-1').hasClass('current')){
-  $('#tab-2').removeClass('current');
-  $('#tab-title-datatables').removeClass('current');
-  $('#tab-3').removeClass('current');
-  $('#tab-title-timeline').removeClass('current');
-  $('#tab-1').addClass('current');
-  $('#tab-title-data').addClass('current');
-}
+  //This resolve issue #34, but always back to first tab
+  //Gambiarra!
+  if (!$('#tab-1').hasClass('current')) {
+    $('#tab-2').removeClass('current');
+    $('#tab-title-datatables').removeClass('current');
+    $('#tab-3').removeClass('current');
+    $('#tab-title-timeline').removeClass('current');
+    $('#tab-1').addClass('current');
+    $('#tab-title-data').addClass('current');
+  }
 
 </script>
 
 <!--To show graph -->
 <p><b>Número de polos por estado</b></p>
 <div id="graphContainer">
-  <canvas id="myChart" width="400" height="400"></canvas>
-  <div id="legend"></div>
+    <canvas id="poloBarChart"></canvas>
 </div>
 
 <script>
+  var ctx = document.getElementById("poloBarChart").getContext("2d");
 
-  var ctx = document.getElementById("myChart").getContext("2d");
-  var myPieChart = new Chart(ctx).Pie([],{animation: false});
+  var myBarChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: [],
+      datasets: [{
+        label: "",
+        backgroundColor: [],
+        data: []
+      }]
+    },
+    options: {
+      legend: {
+        display: false
+      },
+      animation: false,
+      tooltips: {
+        displayColors: false
+      }
+    }
+  });
 
-  processChartIpes(myPieChart,thisIpes);
+  processBarChartIpesWithSiglaIpes(myBarChart, thisIpes);
 
 </script>
 
 
 <div class="subtitle">Estrutura</div>
-<p>A UEMA, por meio do UEMANet, vinculada à reitoria da instituição, atua junto à CAPES, vinculando-se ao Sistema UAB, mediante o Programa Nacional de Formação em Administração Pública (PNAP). A estrutura de gestão do UEMANet está organizada de forma descentralizada em coerência com a estrutura multicampi adotada pela UEMA, a partir dos Centros de Estudos Superiores.
-A UEMANet tem uma Assessoria de Comunicação, responsável por a comunicação no <a href="https://www.youtube.com/channel/UCSGmY-dtg4hEU-39-usTwAg">Youtube</a>, no Twitter (<a href="https://twitter.com/UemaNet">@UemaNet</a>) e no <a href="https://pt.foursquare.com/v/universidade-estadual-do-maranh%C3%A3o-uema/4cd191dc2fd9b60cd2ae87eb">Foursquare</a>.</p>
+<p>A UEMA, por meio do UEMANet, vinculada à reitoria da instituição, atua junto à CAPES, vinculando-se ao Sistema UAB,
+    mediante o Programa Nacional de Formação em Administração Pública (PNAP). A estrutura de gestão do UEMANet está
+    organizada de forma descentralizada em coerência com a estrutura multicampi adotada pela UEMA, a partir dos Centros
+    de Estudos Superiores.
+    A UEMANet tem uma Assessoria de Comunicação, responsável por a comunicação no <a
+            href="https://www.youtube.com/channel/UCSGmY-dtg4hEU-39-usTwAg">Youtube</a>, no Twitter (<a
+            href="https://twitter.com/UemaNet">@UemaNet</a>) e no <a
+            href="https://pt.foursquare.com/v/universidade-estadual-do-maranh%C3%A3o-uema/4cd191dc2fd9b60cd2ae87eb">Foursquare</a>.
+</p>
 
 <div class="subtitle">Histórico</div>
-<p>A implantação da EaD na UEMA contou com a consultoria da Universidade Federal de Mato Grosso (UFMT). Iniciou-se com a autorização para o funcionamento do Curso de Magistério em Nível Médio (Magistério 2001) na modalidade de ensino a distância, através de uma concessão extraordinária do CEE, pois tratava-se de uma atuação no nível da educação básica. O curso contava com fascículos impressos adquirido da UFMT e era acompanhado de tutoria presencial, com tutores formados pela própria UFMT. Em 2000, esta experiência proporcionou a criação do Núcleo de Educação a Distância (NEAD) da UEMA seguido em 2001, pelo credenciamento do MEC na oferta de cursos na modalidade a distância (SILVA, 2009). Em 2005 foi criado o curso de bacharelado em Administração na modalidade a distância (projeto piloto da UAB).
-O UemaNet  presta suporte tecnológico à educação presencial e é responsável pela concepção, intermediação, gestão, avaliação e difusão de projetos em educação a distância da Universidade Estadual do Maranhão (UEMA). Seu objetivo é atender às demandas da sociedade maranhense no que concerne à formação de profissionais nas diversas áreas de conhecimento, em nível médio, ensino profissional, ensino superior (graduação e pós-graduação) e formação continuada.</p>
+<p>A implantação da EaD na UEMA contou com a consultoria da Universidade Federal de Mato Grosso (UFMT). Iniciou-se com a
+    autorização para o funcionamento do Curso de Magistério em Nível Médio (Magistério 2001) na modalidade de ensino a
+    distância, através de uma concessão extraordinária do CEE, pois tratava-se de uma atuação no nível da educação
+    básica. O curso contava com fascículos impressos adquirido da UFMT e era acompanhado de tutoria presencial, com
+    tutores formados pela própria UFMT. Em 2000, esta experiência proporcionou a criação do Núcleo de Educação a
+    Distância (NEAD) da UEMA seguido em 2001, pelo credenciamento do MEC na oferta de cursos na modalidade a distância
+    (SILVA, 2009). Em 2005 foi criado o curso de bacharelado em Administração na modalidade a distância (projeto piloto
+    da UAB).
+    O UemaNet presta suporte tecnológico à educação presencial e é responsável pela concepção, intermediação, gestão,
+    avaliação e difusão de projetos em educação a distância da Universidade Estadual do Maranhão (UEMA). Seu objetivo é
+    atender às demandas da sociedade maranhense no que concerne à formação de profissionais nas diversas áreas de
+    conhecimento, em nível médio, ensino profissional, ensino superior (graduação e pós-graduação) e formação
+    continuada.</p>
 
 <div class="subtitle">Cursos</div>
-<p>A Uemanet oferece cursos para atividades gerenciais e do Magistério Superior; atende ao (PARFOR, ofertando cursos de primeira licenciatura e formação pedagógica e atua também junto à Secretaria de Educação Profissional e Tecnológica (SETEC), vinculando-se ao Programa Escola Técnica Aberta do Brasil (Rede e-Tec Brasil) com a oferta de cursos técnicos de nível médio a distância.
-Até o momento atende um total de 36 (trinta e seis) polos organizados para suporte às  atividades acadêmicas e encontros presenciais. As áreas de formação atendidas são: graduação, técnico, especialização, aperfeiçoamento, mestrado, doutorado.</p>
-<p>A UemaNet, iniciou em 2012 a oferta de 13 (treze) cursos técnicos de nível médio, resultantes de uma nova parceria com o MEC, através da Secretaria de Educação Profissional e Tecnológica. Esses cursos encontram-se inseridos no âmbito da Rede e-Tec Brasil e são ofertados na modalidade a distância, na forma subsequente, ou seja, para aquelas pessoas que já concluíram o Ensino Médio.
-Os 13 (treze) cursos estão divididos em 7 eixos tecnológicos: Informação e Comunicação; Infraestrutura; Produção Alimentícia; Gestão e Negócios; Hospitalidade e Lazer; Ambiente, Saúde e Segurança; Controle de Processos Industriais. </p>
+<p>A Uemanet oferece cursos para atividades gerenciais e do Magistério Superior; atende ao (PARFOR, ofertando cursos de
+    primeira licenciatura e formação pedagógica e atua também junto à Secretaria de Educação Profissional e Tecnológica
+    (SETEC), vinculando-se ao Programa Escola Técnica Aberta do Brasil (Rede e-Tec Brasil) com a oferta de cursos
+    técnicos de nível médio a distância.
+    Até o momento atende um total de 36 (trinta e seis) polos organizados para suporte às atividades acadêmicas e
+    encontros presenciais. As áreas de formação atendidas são: graduação, técnico, especialização, aperfeiçoamento,
+    mestrado, doutorado.</p>
+<p>A UemaNet, iniciou em 2012 a oferta de 13 (treze) cursos técnicos de nível médio, resultantes de uma nova parceria
+    com o MEC, através da Secretaria de Educação Profissional e Tecnológica. Esses cursos encontram-se inseridos no
+    âmbito da Rede e-Tec Brasil e são ofertados na modalidade a distância, na forma subsequente, ou seja, para aquelas
+    pessoas que já concluíram o Ensino Médio.
+    Os 13 (treze) cursos estão divididos em 7 eixos tecnológicos: Informação e Comunicação; Infraestrutura; Produção
+    Alimentícia; Gestão e Negócios; Hospitalidade e Lazer; Ambiente, Saúde e Segurança; Controle de Processos
+    Industriais. </p>
 
 <div class="subtitle">Material didático/recursos educacionais</div>
-<p>A UEMANet utiliza o MOODLE como plataforma para o AVA e utiliza também o sistema adotado pelo UAB, administrado pela Rede Nacional de Ensino e Pesquisa (RNP). As vídeoaulas são utilizadas na UEMANet e são resultado da gravação das aulas dos professores em um estúdio profissional. O tutor é o responsável pela exibição da vídeoaula em formato de DVD e pela condução das discussões e atividades decorrentes do assunto apresentado. Há sempre Encontros Presenciais obrigatórios aos finais de semana nos Polos Presenciais onde a UEMA se faz presente. Há avaliações feitas através do AVA e também há avaliações presenciais para os alunos da UEMA.</p>
+<p>A UEMANet utiliza o MOODLE como plataforma para o AVA e utiliza também o sistema adotado pelo UAB, administrado pela
+    Rede Nacional de Ensino e Pesquisa (RNP). As vídeoaulas são utilizadas na UEMANet e são resultado da gravação das
+    aulas dos professores em um estúdio profissional. O tutor é o responsável pela exibição da vídeoaula em formato de
+    DVD e pela condução das discussões e atividades decorrentes do assunto apresentado. Há sempre Encontros Presenciais
+    obrigatórios aos finais de semana nos Polos Presenciais onde a UEMA se faz presente. Há avaliações feitas através do
+    AVA e também há avaliações presenciais para os alunos da UEMA.</p>
 
 <div class="subtitle">Ambiente Virtual de Aprendizagem</div>
 <p>Ambiente Virtual de Aprendizagem: utiliza o MOODLE como plataforma.</p>
 
 <div class="subtitle">Parcerias</div>
-<p>A UEMANet mantêm relações institucionais com a Universidade do Arizona, cujo enfoque é é a articulação de projetos e pesquisas de interesses comuns, e a Seduc - parceria entre as instituições para ampliação do oferecimento de cursos de formação técnica à distância aos egressos do Ensino Médio pelo sistema e-Tec. Em 2013 houve um <a href="A UEMANet mantêm relações institucionais com a Universidade do Arizona, cujo enfoque é é a articulação de projetos e pesquisas de interesses comuns, e a Seduc - parceria entre as instituições para ampliação do oferecimento de cursos de formação técnica à distância aos egressos do Ensino Médio pelo sistema e-Tec. Em 2013 houve um Workshop realizado através desta parceria: http://www.uema.br/2013/08/uema-realiza-workshop-internacional-em-parceria-com-universidade-do-arizona/
+<p>A UEMANet mantêm relações institucionais com a Universidade do Arizona, cujo enfoque é é a articulação de projetos e
+    pesquisas de interesses comuns, e a Seduc - parceria entre as instituições para ampliação do oferecimento de cursos
+    de formação técnica à distância aos egressos do Ensino Médio pelo sistema e-Tec. Em 2013 houve um <a href="A UEMANet mantêm relações institucionais com a Universidade do Arizona, cujo enfoque é é a articulação de projetos e pesquisas de interesses comuns, e a Seduc - parceria entre as instituições para ampliação do oferecimento de cursos de formação técnica à distância aos egressos do Ensino Médio pelo sistema e-Tec. Em 2013 houve um Workshop realizado através desta parceria: http://www.uema.br/2013/08/uema-realiza-workshop-internacional-em-parceria-com-universidade-do-arizona/
 ">workshop</a> realizado através desta parceria.</p>
 
 <div class="subtitle">Referências</div>
-<div class="cit">SILVA, João Augusto Ramos e. PERFORMANCE DA INOVAÇÃO EM EAD: O CASO UEMANET. Congresso ABED 2009. Fortaleza-CE, 2009. 10p. Disponível em: <http://www.abed.org.br/congresso2009/trabalhos1.asp>. Acesso em: 19 jul. 2015.</div>
-<div class="cit">SILVA, João Augusto Ramos e. A PERMANÊNCIA DE ALUNOS NOS CURSOS PRESENCIAIS E A DIST NCIA DE ADMINISTRAÇÃO: CONTRIBUIÇÕES PARA A GESTÃO ACADÊMICA (Tese de Doutorado). FUNDAÇÃO GETULIO VARGAS. Rio de Janeiro, 2012. 275p. Disponível em: <http://sistema.bibliotecas.fgv.br/>. Acesso em: 19 jul. 2015.</div>
+<div class="cit">SILVA, João Augusto Ramos e. PERFORMANCE DA INOVAÇÃO EM EAD: O CASO UEMANET. Congresso ABED 2009.
+    Fortaleza-CE, 2009. 10p. Disponível em:
+    <a href="http://www.abed.org.br/congresso2009/trabalhos1.asp"></a>. Acesso em: 19 jul. 2015.
+</div>
+<div class="cit">SILVA, João Augusto Ramos e. A PERMANÊNCIA DE ALUNOS NOS CURSOS PRESENCIAIS E A DIST NCIA DE
+    ADMINISTRAÇÃO: CONTRIBUIÇÕES PARA A GESTÃO ACADÊMICA (Tese de Doutorado). FUNDAÇÃO GETULIO VARGAS. Rio de Janeiro,
+    2012. 275p. Disponível em:
+    <a href="http://sistema.bibliotecas.fgv.br/"></a>. Acesso em: 19 jul. 2015.
+</div>
 
 <div class="subtitle">Saiba mais</div>
-<div class="cit">Universidade Estadual do Maranhão. Portal UEMA Net. Disponível em: < http://www.nead.UEMA.br>. Acesso em: 19 jul. 2015.</div>
-<div class="cit">Universidade Estadual do Maranhão. Portal UEMA Net. Uema realiza Workshop Internacional em parceria com Universidade do Arizona. Disponível em: <http://www.uema.br/2013/08/uema-realiza-workshop-internacional-em-parceria-com-universidade-do-arizona/>. Acesso em: 20 jul. 2015.</div>
+<div class="cit">Universidade Estadual do Maranhão. Portal UEMA Net. Disponível em: < http://www.nead.UEMA.br>. Acesso
+    em: 19 jul. 2015.
+</div>
+<div class="cit">Universidade Estadual do Maranhão. Portal UEMA Net. Uema realiza Workshop Internacional em parceria com
+    Universidade do Arizona. Disponível em:
+    <a href="http://www.uema.br/2013/08/uema-realiza-workshop-internacional-em-parceria-com-universidade-do-arizona/"></a>. Acesso em: 20
+    jul. 2015.
+</div>
 
 </body>
 </html>
