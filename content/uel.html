@@ -61,31 +61,9 @@
 </div>
 
 <script>
-  var ctx = document.getElementById("poloBarChart").getContext("2d");
-
-  var myBarChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: [],
-      datasets: [{
-        label: "",
-        backgroundColor: [],
-        data: []
-      }]
-    },
-    options: {
-      legend: {
-        display: false
-      },
-      animation: false,
-      tooltips: {
-        displayColors: false
-      }
-    }
-  });
+  var myBarChart = loadChart("poloBarChart", "bar", "Polos");
 
   processBarChartIpesWithSiglaIpes(myBarChart, thisIpes);
-
 </script>
 
 

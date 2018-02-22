@@ -66,6 +66,14 @@ function loadChart(id, type, label) {
       animation: false,
       tooltips: {
         displayColors: false
+      },
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero: true,
+            min: 0,
+          }
+        }]
       }
     }
   });

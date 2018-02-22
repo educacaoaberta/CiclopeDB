@@ -367,16 +367,6 @@ a:link {
     .ipes-data {
         line-height: 110%;
     }
-
-    #myChart {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-left: 50px;
-        width: 200px;
-        height: 200px;
-        font-family: quattrobold;
-    }
-
 }
 
 /* close @media
