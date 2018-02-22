@@ -1,9 +1,9 @@
 var regionsColors = {
-  "Norte": "#8bbaea",
-  "Nordeste": "#4893de",
-  "Centro-Oeste": "#3889db",
-  "Sudeste": "#2476c7",
-  "Sul": "#1e62a6"
+  "Norte": "#77AAAD",
+  "Nordeste": "#6E7783",
+  "Centro-Oeste": "#84B1ED",
+  "Sudeste": "#9DC3C1",
+  "Sul": "#4FB0C6"
 }
 
 // Estados e Regiões
@@ -45,28 +45,33 @@ var polosByStateWithFederativeUnitJson = "model/polos.php?operation=polosbystate
 var ipesByStateJson = "model/ipes.php?operation=ipesbystate";
 var polosByStateJson= "model/polos.php?operation=polosbystate";
 
-// Número de polos por estado dentro dos arquivos do content
-function processChartIpes(myPieChart, siglaIpes) {
+// carrega o gráfico com as informações passadas nos parametros
+function loadChart(id, type, label) {
+  var ctx = document.getElementById(id).getContext("2d");
 
-  $.getJSON(polosByStateWithFederativeUnitJson + siglaIpes, function (data) {
-      for (var i = 0; i < data.length; i++) {
-        //data[i][0] -> state / data[i][1] -> number of polos in this state
-        myPieChart.addData({
-          "label": data[i][0],
-          "value": data[i][1],
-          "color": Colors.random()
-        });
+  return new Chart(ctx, {
+    type: type,
+    data: {
+      labels: [],
+      datasets: [{
+        label: label,
+        backgroundColor: [],
+        data: []
+      }]
+    },
+    options: {
+      legend: {
+        display: false
+      },
+      animation: false,
+      tooltips: {
+        displayColors: false
       }
-
-      myPieChart.update();
-
-      var legend = myPieChart.generateLegend();
-      $("#legend").html(legend);
-
     }
-  );
+  });
 }
 
+// Número de polos por estado dentro dos arquivos do content
 function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
   $.getJSON(polosByStateWithFederativeUnitJson + siglaIpes, function (data) {
     console.log(data)

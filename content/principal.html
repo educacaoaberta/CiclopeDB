@@ -66,59 +66,15 @@
     <canvas id="chartByState"></canvas>
 
     <script>
-      var ctxIpesBar = document.getElementById("chartByState").getContext("2d");
-      var myIpesBarChart = new Chart(ctxIpesBar, {
-        type: 'bar',
-        data: {
-          labels: [],
-          datasets: [{
-            label: "IPES",
-            backgroundColor: [],
-            data: []
-          }]
-        },
-        options: {
-          legend: {
-            display: false
-          },
-          animation: false,
-          tooltips: {
-            displayColors: false
-          }
-        }
-      });
-
-      processBarChartIpes(myIpesBarChart);
-
+      var myIpesStateBarChart = loadChart("chartByState", "bar", "IPES")
+      processBarChartIpes(myIpesStateBarChart);
     </script>
 
     <h2>Dados gerais da UAB: Número de IPES por região</h2>
     <canvas id="chartByRegion"></canvas>
     <script>
-      var ctx = document.getElementById("chartByRegion").getContext("2d");
-
-      var myIpesBarChartRegion = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: [],
-          datasets: [{
-            label: "IPES",
-            backgroundColor: [],
-            data: []
-          }]
-        },
-        options: {
-          legend: {
-            display: false
-          },
-          tooltips: {
-            displayColors: false
-          },
-          animation: false
-        }
-      });
-
-      processBarChartIpesRegion(myIpesBarChartRegion);
+      var myIpesRegionBarChart = loadChart("chartByRegion", "bar", "IPES")
+      processBarChartIpesRegion(myIpesRegionBarChart);
     </script>
 
     <h2>Dados gerais da UAB: número de polos por estado</h2>
@@ -127,61 +83,16 @@
     <canvas id="chartPolosByState" width="600" height="300"></canvas>
 
     <script>
-
-      var ctxPoloBar = document.getElementById("chartPolosByState").getContext("2d");
-
-      var myPoloBarChart = new Chart(ctxPoloBar, {
-        type: 'bar',
-        data: {
-          labels: [],
-          datasets: [{
-            label: "Polos",
-            backgroundColor: [],
-            data: []
-          }]
-        },
-        options: {
-          legend: {
-            display: false
-          },
-          tooltips: {
-            displayColors: false
-          },
-          animation: false
-        }
-      });
-
-      processBarChartPolos(myPoloBarChart);
+      var myPoloStateBarChart = loadChart("chartPolosByState", "bar", "Polos")
+      processBarChartPolos(myPoloStateBarChart);
     </script>
 
     <h2>Dados gerais da UAB: Número de polos por região</h2>
     <canvas id="chartPolosByRegion"></canvas>
 
     <script>
-      var ctx = document.getElementById("chartPolosByRegion").getContext("2d");
-
-      var myPoloBarChartRegion = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: [],
-          datasets: [{
-            label: "Polo",
-            backgroundColor: [],
-            data: []
-          }]
-        },
-        options: {
-          legend: {
-            display: false
-          },
-          tooltips: {
-            displayColors: false
-          },
-          animation: false
-        }
-      });
-
-      processBarChartPolosRegion(myPoloBarChartRegion);
+      var myPoloRegionBarChart = loadChart("chartPolosByRegion", "bar", "Polos")
+      processBarChartPolosRegion(myPoloRegionBarChart);
     </script>
 </div>
 <br><br><br><br>
