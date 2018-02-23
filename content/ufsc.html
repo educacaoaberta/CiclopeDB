@@ -46,20 +46,17 @@ if (!$('#tab-1').hasClass('current')){
 
 </script>
 
-<!--To show graph -->
-<p><b>Número de polos por estado</b></p>
-<div id="graphContainer">
-  <canvas id="myChart" width="400" height="400"></canvas>
-  <div id="legend"></div>
-</div>
+  <!--To show graph -->
+  <p><b>Número de polos por estado</b></p>
+  <div id="graphContainer">
+    <canvas id="poloBarChart"></canvas>
+  </div>
 
-<script>
-  var ctx = document.getElementById("myChart").getContext("2d");
-  var myPieChart = new Chart(ctx).Pie([],{animation: false});
+  <script>
+    var myBarChart = loadChart("poloBarChart", "bar", "Polos");
+    processBarChartIpesWithSiglaIpes(myBarChart, thisIpes);
+  </script>
 
-  processChartIpes(myPieChart,thisIpes);
-
-</script>
 
 
 <div class="subtitle">Estrutura</div>

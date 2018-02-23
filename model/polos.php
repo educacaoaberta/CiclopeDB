@@ -25,7 +25,7 @@ if ($operation == "allpolos") {
       $rows[]=$row;
   }
 }
-elseif ($operation == "polosbystate") {
+elseif ($operation == "polosbystatewithfederativeunit") {
   //polos por estado
   $sigla = $_GET['sigla'];
 
@@ -39,6 +39,18 @@ elseif ($operation == "polosbystate") {
     while($row = $result->fetch_assoc())
       $rows[]=[$row['uf'],$row['quant']];
   }
+
+}
+elseif ($operation == "polosbystate") {
+    $sql = "SELECT count(uf) as quant, uf FROM polos GROUP BY uf ORDER BY quant";
+
+    $result = $conn->query($sql);
+    $rows = array();
+
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc())
+            $rows[]=$row;
+    }
 
 }
 elseif ($operation == "polodata") {
@@ -55,6 +67,17 @@ elseif ($operation == "polodata") {
       $rows[]=$row;
   }
 
+}
+
+elseif ($operation == "allunits") {
+    $sql = "select * from lista_unidades";
+    $result = $conn->query($sql);
+    $rows = array();
+
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc())
+            $rows[]=$row;
+    }
 }
 
 print json_encode($rows);

@@ -1,79 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <script type='text/javascript' src="js/functions.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type='text/javascript' src="js/functions.js"></script>
 </head>
 
 <body>
 
-  <script>
-    //show general IPES data from JSON
-    var ipes;
-    $.getJSON("json/ipes.json", function (data) {
-      $.each(data.features, function (key, val) {
-        //TODO: achar um jeito melhor de fazer isso
-        if(val.properties.Sigla == thisIpes){
-          $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
-          $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
-          $.each(val.properties.detalhes, function (titulo, valor) {
-            $('<b>' + titulo + ': ' + '</b>' +
+<script>
+  //show general IPES data from JSON
+  var ipes;
+  $.getJSON("json/ipes.json", function (data) {
+    $.each(data.features, function (key, val) {
+      //TODO: achar um jeito melhor de fazer isso
+      if (val.properties.Sigla == thisIpes) {
+        $('<span>' + val.properties.Nome + '</span>').appendTo("#nome_ipes");
+        $('<span>' + val.properties.UAB + '</span>').appendTo("#uab");
+        $.each(val.properties.detalhes, function (titulo, valor) {
+          $('<b>' + titulo + ': ' + '</b>' +
             valor + '</br>').appendTo("#dados_ipes p");
-          });
-        }
-      });
+        });
+      }
     });
-    </script>
+  });
+</script>
 
 <div class="pontoschave">
-  <div id="nome_ipes" class="title"></div>
-  <div id="uab" class="title"></div>
-  A AEDI é uma assessoria, ligada diretamente à reitoria, contanto com prédio próprio e espaço para produção de recursos.
+    <div id="nome_ipes" class="title"></div>
+    <div id="uab" class="title"></div>
+    A AEDI é uma assessoria, ligada diretamente à reitoria, contanto com prédio próprio e espaço para produção de
+    recursos.
 </div>
 <div id="dados_ipes"><p></p></div>
 
 <script>
 
-//This resolve issue #34, but always back to first tab
-//Gambiarra!
-if (!$('#tab-1').hasClass('current')){
-  $('#tab-2').removeClass('current');
-  $('#tab-title-datatables').removeClass('current');
-  $('#tab-3').removeClass('current');
-  $('#tab-title-timeline').removeClass('current');
-  $('#tab-1').addClass('current');
-  $('#tab-title-data').addClass('current');
-}
+  //This resolve issue #34, but always back to first tab
+  //Gambiarra!
+  if (!$('#tab-1').hasClass('current')) {
+    $('#tab-2').removeClass('current');
+    $('#tab-title-datatables').removeClass('current');
+    $('#tab-3').removeClass('current');
+    $('#tab-title-timeline').removeClass('current');
+    $('#tab-1').addClass('current');
+    $('#tab-title-data').addClass('current');
+  }
 
 </script>
 
 <!--To show graph -->
 <p><b>Número de polos por estado</b></p>
 <div id="graphContainer">
-  <canvas id="myChart" width="400" height="400"></canvas>
-  <div id="legend"></div>
+    <canvas id="poloBarChart"></canvas>
 </div>
 
 <script>
-  var ctx = document.getElementById("myChart").getContext("2d");
-  var myPieChart = new Chart(ctx).Pie([],{animation: false});
-
-  processChartIpes(myPieChart,thisIpes);
-
+  var myBarChart = loadChart("poloBarChart", "bar", "Polos");
+  processBarChartIpesWithSiglaIpes(myBarChart, thisIpes);
 </script>
 
 
 <div class="subtitle">Estrutura</div>
-<p>A UFPA é uma universidade federal que adota tradicionalmente o ensino presencial. A educação a distância era vista com desconfiança por ser um ensino de “segunda categoria”. De início, poucos professores acreditaram e procuraram conhecer a proposta. Assim, a implantação do ensino a distância para graduação e pós-graduação, na UFPA, ocorreu premida pela necessidade de se ampliar os processos de inclusão social no ensino superior e de interiorização da própria universidade. O processo foi facilitado porque a universidade já contava com 10.000 alunos, nove campi e 15 núcleos no interior do estado (TEPERINO et al., 2006, p.183).</p>
+<p>A UFPA é uma universidade federal que adota tradicionalmente o ensino presencial. A educação a distância era vista
+    com desconfiança por ser um ensino de “segunda categoria”. De início, poucos professores acreditaram e procuraram
+    conhecer a proposta. Assim, a implantação do ensino a distância para graduação e pós-graduação, na UFPA, ocorreu
+    premida pela necessidade de se ampliar os processos de inclusão social no ensino superior e de interiorização da
+    própria universidade. O processo foi facilitado porque a universidade já contava com 10.000 alunos, nove campi e 15
+    núcleos no interior do estado (TEPERINO et al., 2006, p.183).</p>
 
 <div class="subtitle">Material didático/recursos educacionais</div>
-<p>O AEDI faz uso do Moodle, que é fechado aos participantes dos cursos. No entanto duas plataformas com conteúdos de livre acessão estão disponíveis, o <a href=“http://www.aedmoodle.ufpa.br/mod/page/view.php?id=69496”>Projeto Newton</a> que conta com duas disciplinas de Cálculo</a> e o >a o <a href=“http://multimidia.ufpa.br/jspui/“>UFPA Multimídia</a> com diversos recursos para visualização. </p>
+<p>O AEDI faz uso do Moodle, que é fechado aos participantes dos cursos. No entanto duas plataformas com conteúdos de
+    livre acessão estão disponíveis, o <a href=“http://www.aedmoodle.ufpa.br/mod/page/view.php?id=69496”>Projeto
+        Newton</a> que conta com duas disciplinas de Cálculo</a> e o >a o <a href=“http://multimidia.ufpa.br/jspui/“>UFPA
+        Multimídia</a> com diversos recursos para visualização. </p>
 
 <div class="subtitle">Relações institucionais e parcerias</div>
-<p>A UFPA mantêm um convênio com entre UFPA e Instituições da Guiana Francesa. O convênio acontece com o apoio da Região Guiana autoridade de gestão do Programa Operacional Amazônia, no âmbito do financiamento do projeto Cooperação na Área da Educação e Formação Profissional (<a href="http://aedi.ufpa.br/index.php?option=com_content&view=article&id=103:proponents-say-everyday-math-adds-up-though-some-don-t-understand-how&catid=79:news-and-events&Itemid=655">FORPRAM</a>).</p>
+<p>A UFPA mantêm um convênio com entre UFPA e Instituições da Guiana Francesa. O convênio acontece com o apoio da Região
+    Guiana autoridade de gestão do Programa Operacional Amazônia, no âmbito do financiamento do projeto Cooperação na
+    Área da Educação e Formação Profissional (<a
+            href="http://aedi.ufpa.br/index.php?option=com_content&view=article&id=103:proponents-say-everyday-math-adds-up-though-some-don-t-understand-how&catid=79:news-and-events&Itemid=655">FORPRAM</a>).
+</p>
 
 <div class="subtitle">Referências</div>
-<div class="cit">TEPERINO et al. <a href="http://repositorio.enap.gov.br/handle/1/376">Educação a distância em organizações públicas; mesa-redonda de pesquisa-ação</a>. Brasília: ENAP, 2006. 200p.</div>
+<div class="cit">TEPERINO et al. <a href="http://repositorio.enap.gov.br/handle/1/376">Educação a distância em
+    organizações públicas; mesa-redonda de pesquisa-ação</a>. Brasília: ENAP, 2006. 200p.
+</div>
 
 </body>
 </html>

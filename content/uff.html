@@ -1,77 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <script type='text/javascript' src="js/functions.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type='text/javascript' src="js/functions.js"></script>
 </head>
 <body>
 
-  <script>
-    //show general IPES data from JSON
-    var ipes;
-    $.getJSON("json/ipes.json", function (data) {
-      $.each(data.features, function (key, val) {
-        //TODO: achar um jeito melhor de fazer isso
-        if(val.properties.Sigla == thisIpes){
-          $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
-          $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
-          $.each(val.properties.detalhes, function (titulo, valor) {
-            $('<b>' + titulo + ': ' + '</b>' +
+<script>
+  //show general IPES data from JSON
+  var ipes;
+  $.getJSON("json/ipes.json", function (data) {
+    $.each(data.features, function (key, val) {
+      //TODO: achar um jeito melhor de fazer isso
+      if (val.properties.Sigla == thisIpes) {
+        $('<span>' + val.properties.Nome + '</span>').appendTo("#nome_ipes");
+        $('<span>' + val.properties.UAB + '</span>').appendTo("#uab");
+        $.each(val.properties.detalhes, function (titulo, valor) {
+          $('<b>' + titulo + ': ' + '</b>' +
             valor + '</br>').appendTo("#dados_ipes p");
-          });
-        }
-      });
+        });
+      }
     });
-    </script>
+  });
+</script>
 
 <div class="pontoschave">
-  <div id="nome_ipes" class="title"></div>
-  <div id="uab" class="title"></div>
-  A Universidade Federal Fluminense participa do consórcio CEDERJ, que reúne 7 (sete) universidades públicas que juntas organizam as diretrizes e os projetos pedagógicos dos cursos de Educação à Distância (EaD) por elas oferecidos. A universidade conta com o Coordenação de Educação a Distância e com o Laboratório de Novas Tecnologias de Ensino para organizar e apoiar as atividades na modalidade EaD.
+    <div id="nome_ipes" class="title"></div>
+    <div id="uab" class="title"></div>
+    A Universidade Federal Fluminense participa do consórcio CEDERJ, que reúne 7 (sete) universidades públicas que
+    juntas organizam as diretrizes e os projetos pedagógicos dos cursos de Educação à Distância (EaD) por elas
+    oferecidos. A universidade conta com o Coordenação de Educação a Distância e com o Laboratório de Novas Tecnologias
+    de Ensino para organizar e apoiar as atividades na modalidade EaD.
 </div>
 <div id="dados_ipes"><p></p></div>
 
 <script>
 
-//This resolve issue #34, but always back to first tab
-//Gambiarra!
-if (!$('#tab-1').hasClass('current')){
-  $('#tab-2').removeClass('current');
-  $('#tab-title-datatables').removeClass('current');
-  $('#tab-3').removeClass('current');
-  $('#tab-title-timeline').removeClass('current');
-  $('#tab-1').addClass('current');
-  $('#tab-title-data').addClass('current');
-}
+  //This resolve issue #34, but always back to first tab
+  //Gambiarra!
+  if (!$('#tab-1').hasClass('current')) {
+    $('#tab-2').removeClass('current');
+    $('#tab-title-datatables').removeClass('current');
+    $('#tab-3').removeClass('current');
+    $('#tab-title-timeline').removeClass('current');
+    $('#tab-1').addClass('current');
+    $('#tab-title-data').addClass('current');
+  }
 
 </script>
 
 <!--To show graph -->
 <p><b>Número de polos por estado</b></p>
 <div id="graphContainer">
-  <canvas id="myChart" width="400" height="400"></canvas>
-  <div id="legend"></div>
+    <canvas id="poloBarChart"></canvas>
 </div>
 
 <script>
-  var ctx = document.getElementById("myChart").getContext("2d");
-  var myPieChart = new Chart(ctx).Pie([],{animation: false});
-
-  processChartIpes(myPieChart,thisIpes);
-
+  var myBarChart = loadChart("poloBarChart", "bar", "Polos");
+  processBarChartIpesWithSiglaIpes(myBarChart, thisIpes);
 </script>
 
 
 <div class="subtitle">Estrutura</div>
-<p>O CEAD, na UFF, faz o papel de elo entre o consórcio CEDERJ e a universidade de maneira central, ligado a Pró-Reitoria de Graduação. Os espaços descentraliados são a excessão, como o <a href="http://www.lante.uff.br/">LANTE</a>, laboratório que conta com estrutura própria e gerencia alguns cursos no âmbito da UAB.</p>
-<p>De forma sucinta, a estrutura do CEDERJ é composta de cinco pilares essenciais: a) material didático de apoio impresso e digital, elaborado para Educação a Distância; b) atendimento por tutores, composto por tutoria a distância e tutoria presencial; c) estágios supervisionados; d) processo de avaliação presencial nos polos regionais e e) práticas em laboratórios de disciplinas específicas nas áreas de Informática, Biologia, Física e Química nos polos regionais. Nas universidades consorciadas, o atendimento é feito pelos tutores a distância, com tratamento sempre individual pelo telefone 0800 (em horários preestabelecidos), por fax e pela sala de tutoria da plataforma. No caso dos alunos de Pedagogia e das Licenciaturas, ainda há o regente-tutor, professor que ministra aulas nas escolas parceiras (escolas das redes públicas onde os alunos do consórcio realizam seu estágio supervisionado) (SPINDOLA & MOUSINHO, 2012, p. 38).</p>
+<p>O CEAD, na UFF, faz o papel de elo entre o consórcio CEDERJ e a universidade de maneira central, ligado a
+    Pró-Reitoria de Graduação. Os espaços descentraliados são a excessão, como o <a href="http://www.lante.uff.br/">LANTE</a>,
+    laboratório que conta com estrutura própria e gerencia alguns cursos no âmbito da UAB.</p>
+<p>De forma sucinta, a estrutura do CEDERJ é composta de cinco pilares essenciais: a) material didático de apoio
+    impresso e digital, elaborado para Educação a Distância; b) atendimento por tutores, composto por tutoria a
+    distância e tutoria presencial; c) estágios supervisionados; d) processo de avaliação presencial nos polos regionais
+    e e) práticas em laboratórios de disciplinas específicas nas áreas de Informática, Biologia, Física e Química nos
+    polos regionais. Nas universidades consorciadas, o atendimento é feito pelos tutores a distância, com tratamento
+    sempre individual pelo telefone 0800 (em horários preestabelecidos), por fax e pela sala de tutoria da plataforma.
+    No caso dos alunos de Pedagogia e das Licenciaturas, ainda há o regente-tutor, professor que ministra aulas nas
+    escolas parceiras (escolas das redes públicas onde os alunos do consórcio realizam seu estágio supervisionado)
+    (SPINDOLA & MOUSINHO, 2012, p. 38).</p>
 
 <div class="subtitle">Material didático/recursos educacionais</div>
-<p>A Fundação <a href="http://cederj.edu.br/fundacao/">CECIERJ</a> é responsável pela produção do material didático, pela gestão operacional da metodologia de EAD e pela montagem e operacionalização dos polos regionais. (BENCHIMOL et al., 2010, p. 101).
-O Material didático é impresso, em vídeo e no computador. Existe uma equipe de cerca de 100 docentes conteudistas das Universidades consorciadas, 75 técnicos na sede do CEDERJ (webdesigners, redatores, revisores, ilustradores, diagramadores, produtor gráfico, editor de vídeo, etc.). (COSTA, 2005).
-Todo material utilizado nas aulas obedece ao licenciamento do Creative Commons com restrições, tais como: são livres para cópia desde que citada a fonte e sem fins comerciais, nem alteração de conteúdo. (BENCHIMOL et al., 2010, p. 106).
-A plataforma é o local onde todo o conteúdo do curso, assim como o material multimídia, é disponibilizado para o aluno. Este ambiente é como se fosse o “Campus da Universidade Virtual” onde o aluno tem acesso às aulas, download de arquivos, quadro de avisos, etc. A nova plataforma CEDERJ utiliza o Sistema Quantum 3.0. (BENCHIMOL et al., 2010, p. 104).
-Inicialmente disponível com acesso à todos (com senha), a plataforma do CEDERJ não se encontra, no momento desse relatório, disponível online.</p>
+<p>A Fundação <a href="http://cederj.edu.br/fundacao/">CECIERJ</a> é responsável pela produção do material didático,
+    pela gestão operacional da metodologia de EAD e pela montagem e operacionalização dos polos regionais. (BENCHIMOL et
+    al., 2010, p. 101).
+    O Material didático é impresso, em vídeo e no computador. Existe uma equipe de cerca de 100 docentes conteudistas
+    das Universidades consorciadas, 75 técnicos na sede do CEDERJ (webdesigners, redatores, revisores, ilustradores,
+    diagramadores, produtor gráfico, editor de vídeo, etc.). (COSTA, 2005).
+    Todo material utilizado nas aulas obedece ao licenciamento do Creative Commons com restrições, tais como: são livres
+    para cópia desde que citada a fonte e sem fins comerciais, nem alteração de conteúdo. (BENCHIMOL et al., 2010, p.
+    106).
+    A plataforma é o local onde todo o conteúdo do curso, assim como o material multimídia, é disponibilizado para o
+    aluno. Este ambiente é como se fosse o “Campus da Universidade Virtual” onde o aluno tem acesso às aulas, download
+    de arquivos, quadro de avisos, etc. A nova plataforma CEDERJ utiliza o Sistema Quantum 3.0. (BENCHIMOL et al., 2010,
+    p. 104).
+    Inicialmente disponível com acesso à todos (com senha), a plataforma do CEDERJ não se encontra, no momento desse
+    relatório, disponível online.</p>
 </p>
 
 <div class="subtitle">Ambiente Virtual de Aprendizagem</div>
@@ -79,15 +98,29 @@ Inicialmente disponível com acesso à todos (com senha), a plataforma do CEDERJ
 
 <div class="subtitle">Referências</div>
 <div class="cit">BENCHIMOL, M.; BERNSTEIN, M. A. F. O.; CARVALHO, R. A.; TEIXEIRA, D. E.
-<a href="http://eademfoco.cecierj.edu.br/index.php/Revista/article/viewFile/5/20">Desenvolvimento de material multimídia no ensino de Biologia</a>. Revista EAD em Foco - nº 1 - vol.1 - Rio de Janeiro - abril/outubro 2010, p. 99-112.</div>
+    <a href="http://eademfoco.cecierj.edu.br/index.php/Revista/article/viewFile/5/20">Desenvolvimento de material
+        multimídia no ensino de Biologia</a>. Revista EAD em Foco - nº 1 - vol.1 - Rio de Janeiro - abril/outubro 2010,
+    p. 99-112.
+</div>
 <div class="cit">COSTA, C. LICENCIATURAS A DISTÂNCIA – A EXPERIÊNCIA DO CEDERJ. Apresentação, 2005.</div>
-<div class="cit">GAMA, Z. Educação Semi-presencial (a Distância) e Presencial: Mobilidade Acadêmica e Integração da Educação Superior no Estado do Rio de Janeiro Desenvolvimento de material multimídia no ensino de Biologia. Revista EAD em Foco - nº 1 - vol.1 - Rio de Janeiro - abril/outubro 2010, p. 33-42.</div>
-<div class="cit">SPÍNDOLA, M.; MOUSINHO, S. H. CEDERJ: um caminho na direção da educação inclusiva. Revista EAD em Foco - nº 2 - vol.1 - Rio de Janeiro - novembro 2012, p. 36-46.</div>
-<div class="cit">VIEL, S. R. Um olhar sobre a formação de professores de matemática a distância: o caso do CEDERJ/UAB. Tese (doutorado) - Universidade Estadual Paulista, Instituto de Geociências e Ciências Exatas, 2011.</div>
+<div class="cit">GAMA, Z. Educação Semi-presencial (a Distância) e Presencial: Mobilidade Acadêmica e Integração da
+    Educação Superior no Estado do Rio de Janeiro Desenvolvimento de material multimídia no ensino de Biologia. Revista
+    EAD em Foco - nº 1 - vol.1 - Rio de Janeiro - abril/outubro 2010, p. 33-42.
+</div>
+<div class="cit">SPÍNDOLA, M.; MOUSINHO, S. H. CEDERJ: um caminho na direção da educação inclusiva. Revista EAD em Foco
+    - nº 2 - vol.1 - Rio de Janeiro - novembro 2012, p. 36-46.
+</div>
+<div class="cit">VIEL, S. R. Um olhar sobre a formação de professores de matemática a distância: o caso do CEDERJ/UAB.
+    Tese (doutorado) - Universidade Estadual Paulista, Instituto de Geociências e Ciências Exatas, 2011.
+</div>
 
 <div class="subtitle">Saiba mais</div>
-<div class="cit">Sobre o CEDERJ - <a href="http://cederj.edu.br/fundacao/sobre">http://cederj.edu.br/fundacao/sobre</a></div>
-<div class="cit">Laboratório de Novas Tecnologias de Ensino (LANTE) - <a href="http://www.lante.uff.br/sitenovo/index.php/institucional/tutoria">http://www.lante.uff.br/sitenovo/index.php/institucional/tutoria</a></div>
-<div class="cit">UFF, Educação a Distancia - <a  href="http://www.uff.br/?q=uff/educação-distância">http://www.uff.br/?q=uff/educação-distância</a></div>
+<div class="cit">Sobre o CEDERJ - <a href="http://cederj.edu.br/fundacao/sobre">http://cederj.edu.br/fundacao/sobre</a>
+</div>
+<div class="cit">Laboratório de Novas Tecnologias de Ensino (LANTE) - <a
+        href="http://www.lante.uff.br/sitenovo/index.php/institucional/tutoria">http://www.lante.uff.br/sitenovo/index.php/institucional/tutoria</a>
+</div>
+<div class="cit">UFF, Educação a Distancia - <a href="http://www.uff.br/?q=uff/educação-distância">http://www.uff.br/?q=uff/educação-distância</a>
+</div>
 </body>
 </html>

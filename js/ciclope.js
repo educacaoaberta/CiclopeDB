@@ -212,7 +212,6 @@ $(function() {
         sidebar.show();
         $('#about-data').show();
         $('#tabs-data').hide();
-        $("#about-data").load("content/sobre.html");
 
         function showPoloData (poloData) {
           $result = '<div class="pontoschave">';
@@ -311,7 +310,7 @@ $(function() {
 
           $result += '<p><b>Número de polos por estado</b></p>';
           $result += '<div id="graphContainer">';
-          $result += '<canvas id="myChart" width="400" height="400"></canvas>';
+          $result += '<canvas id="myChart"></canvas>';
           $result += '<div id="legend"></div>';
           $result += '</div>';
 
@@ -373,10 +372,8 @@ $(function() {
                     $(showIpesData(data)).appendTo("#tab-1");
 
                     //Gerando o gráfico
-                    var ctx = document.getElementById("myChart").getContext("2d");
-                    var myPieChart = new Chart(ctx).Pie([],{animation: false});
-
-                    processChartIpes(myPieChart,thisIpes);
+                    var myBarChart = loadChart("myChart", "bar", "Polos");
+                    processBarChartIpesWithSiglaIpes(myBarChart, thisIpes);
                   });
 
 

@@ -1,93 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <script type='text/javascript' src="js/functions.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type='text/javascript' src="js/functions.js"></script>
 
 </head>
 
 <body>
 
 <script>
-//show general IPES data from JSON
-var ipes;
-$.getJSON("json/ipes.json", function (data) {
-  $.each(data.features, function (key, val) {
-    //TODO: achar um jeito melhor de fazer isso
-    if(val.properties.Sigla == thisIpes){
-      $('<span>'+val.properties.Nome+'</span>').appendTo("#nome_ipes");
-      $('<span>'+val.properties.UAB+'</span>').appendTo("#uab");
-      $.each(val.properties.detalhes, function (titulo, valor) {
-        $('<b>' + titulo + ': ' + '</b>' +
-        valor + '</br>').appendTo("#dados_ipes p");
-      });
-    }
+  //show general IPES data from JSON
+  var ipes;
+  $.getJSON("json/ipes.json", function (data) {
+    $.each(data.features, function (key, val) {
+      //TODO: achar um jeito melhor de fazer isso
+      if (val.properties.Sigla == thisIpes) {
+        $('<span>' + val.properties.Nome + '</span>').appendTo("#nome_ipes");
+        $('<span>' + val.properties.UAB + '</span>').appendTo("#uab");
+        $.each(val.properties.detalhes, function (titulo, valor) {
+          $('<b>' + titulo + ': ' + '</b>' +
+            valor + '</br>').appendTo("#dados_ipes p");
+        });
+      }
+    });
   });
-});
 </script>
 
 <div class="pontoschave">
-  <div id="nome_ipes" class="title"></div>
-  <div id="uab" class="title"></div>
-  A Universidade Estadual de Londrina (UEL) conta com a oferta de educação à distância (EaD) desde 2009,
-  possibilitando acesso aos cursos da universidade à população residente no interior do Paraná.
-  Começa a fazer parte da UAB somente em 2011. O núcleo que auxilia a organização e realização
-  desta modalidade de educação na universidade é o Núcleo de Educação à Distância da UEL,
-  está ligado à reitoria da universidade e conta com a estrutura e a funcionalidade do Labted
-  (Laboratório de Tecnologia Educacional), laboratório também situado na UEL.
+    <div id="nome_ipes" class="title"></div>
+    <div id="uab" class="title"></div>
+    A Universidade Estadual de Londrina (UEL) conta com a oferta de educação à distância (EaD) desde 2009,
+    possibilitando acesso aos cursos da universidade à população residente no interior do Paraná.
+    Começa a fazer parte da UAB somente em 2011. O núcleo que auxilia a organização e realização
+    desta modalidade de educação na universidade é o Núcleo de Educação à Distância da UEL,
+    está ligado à reitoria da universidade e conta com a estrutura e a funcionalidade do Labted
+    (Laboratório de Tecnologia Educacional), laboratório também situado na UEL.
 </div>
 <div id="dados_ipes"><p></p></div>
 </div>
 
 <script>
 
-//This resolve issue #34, but always back to first tab
-//Gambiarra!
-if (!$('#tab-1').hasClass('current')){
-  $('#tab-2').removeClass('current');
-  $('#tab-title-datatables').removeClass('current');
-  $('#tab-3').removeClass('current');
-  $('#tab-title-timeline').removeClass('current');
-  $('#tab-1').addClass('current');
-  $('#tab-title-data').addClass('current');
-}
+  //This resolve issue #34, but always back to first tab
+  //Gambiarra!
+  if (!$('#tab-1').hasClass('current')) {
+    $('#tab-2').removeClass('current');
+    $('#tab-title-datatables').removeClass('current');
+    $('#tab-3').removeClass('current');
+    $('#tab-title-timeline').removeClass('current');
+    $('#tab-1').addClass('current');
+    $('#tab-title-data').addClass('current');
+  }
 
 </script>
 
 <!--To show graph -->
 <p><b>Número de polos por estado</b></p>
 <div id="graphContainer">
-  <canvas id="myChart" width="400" height="400"></canvas>
-  <div id="legend"></div>
+    <canvas id="poloBarChart"></canvas>
 </div>
 
 <script>
+  var myBarChart = loadChart("poloBarChart", "bar", "Polos");
 
-  var ctx = document.getElementById("myChart").getContext("2d");
-  var myPieChart = new Chart(ctx).Pie([],{animation: false});
-
-  processChartIpes(myPieChart,thisIpes);
-
+  processBarChartIpesWithSiglaIpes(myBarChart, thisIpes);
 </script>
 
 
 <div class="subtitle">Estrutura</div>
 <p>
-O Labted - Laboratório de Tecnologia Educacional - tem quase 40 anos. É somente em 2010 que o NEAD é incorporado ao Labted, e esse incorpora as atribuições formais de Educação a Distância à suas atividades. As atividades existentes agora são extendidas para o universo da EaD. O laboratório proporciona aprimoramento aos professores e alunos em estratégias de ensino, criação e uso de materiais didáticos. Os setores educacional, produção, arte, midiateca, secretaria e operação se unem na oferta de cursos, palestras, orientação individual ou em grupo, suporte técnico, fornecimento de material de apoio ou recursos pedagógicos, tanto para alunos como para docentes e pesquisadores.
+    O Labted - Laboratório de Tecnologia Educacional - tem quase 40 anos. É somente em 2010 que o NEAD é incorporado ao
+    Labted, e esse incorpora as atribuições formais de Educação a Distância à suas atividades. As atividades existentes
+    agora são extendidas para o universo da EaD. O laboratório proporciona aprimoramento aos professores e alunos em
+    estratégias de ensino, criação e uso de materiais didáticos. Os setores educacional, produção, arte, midiateca,
+    secretaria e operação se unem na oferta de cursos, palestras, orientação individual ou em grupo, suporte técnico,
+    fornecimento de material de apoio ou recursos pedagógicos, tanto para alunos como para docentes e pesquisadores.
 </p>
 
 <div class="subtitle">Material didático/recursos educacionais</div>
 <p>A entrada recente na UAB significa que grande parte dos materiais utilizados
-pelo NEAD são originários de outras universidades que participam da UAB, e são impressos localmente.
-A utilização desses materiais facilitou a rápida impressão dos recursos e distribução aos alunos,
-bem como reduziu custos de produção. A união com o Labted proporciona acesso à recursos produzidos
-pelo laboratório antes da sua incorporação.</p>
+    pelo NEAD são originários de outras universidades que participam da UAB, e são impressos localmente.
+    A utilização desses materiais facilitou a rápida impressão dos recursos e distribução aos alunos,
+    bem como reduziu custos de produção. A união com o Labted proporciona acesso à recursos produzidos
+    pelo laboratório antes da sua incorporação.</p>
 
 <div class="subtitle">Ambiente Virtual de Aprendizagem</div>
-<p>O NEaD/UEL utiliza o <a href="http://www.Labted.net/#!moodle/c138v">Moodle</a>. O Labted dá suporte ao Moodle dentro da UEL. Através do Moodle os alunos tem acesso aos materiais didáticos online. A UEL conta com três Moodles, um para a graduação, um para a pós-graduação e um para a extensão;  todos são mantidos pelas respectivas pró-reitorias. Todos os alunos ingressantes e professores da UEL tem acesso ao Moodle e cada aluno faz uma auto-inscrição no sistema.</p>
+<p>O NEaD/UEL utiliza o <a href="http://www.Labted.net/#!moodle/c138v">Moodle</a>. O Labted dá suporte ao Moodle dentro
+    da UEL. Através do Moodle os alunos tem acesso aos materiais didáticos online. A UEL conta com três Moodles, um para
+    a graduação, um para a pós-graduação e um para a extensão; todos são mantidos pelas respectivas pró-reitorias. Todos
+    os alunos ingressantes e professores da UEL tem acesso ao Moodle e cada aluno faz uma auto-inscrição no sistema.</p>
 
 <div class="subtitle">Saiba mais</div>
-<div class="cit">  Universidade Estadual de Londrina. NEAD/UEL. Disponível em: <http://www.Labted.net/#!nead/ckj1>. Acesso em: 18 jul. 2015.</div>
-<div class="cit">Universidade Estadual de Londrina. Labted. Disponível em: <http://www.Labted.net/#!blog/cwmm>. Acesso em: 01 ago. 2015.</div>
+<div class="cit"> Universidade Estadual de Londrina. NEAD/UEL. Disponível em:
+    <a href="http://www.Labted.net/#!nead/ckj1"></a>. Acesso em: 18 jul. 2015.
+</div>
+<div class="cit">Universidade Estadual de Londrina. Labted. Disponível em:
+    <a href="http://www.Labted.net/#!blog/cwmm"></a>. Acesso em: 01 ago. 2015.
+</div>
 </body>
 </html>

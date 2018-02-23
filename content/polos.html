@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Informações do Polo</title>
+</head>
+
+<body>
+<p>Informações do Polo</p>
+<ul class="tabs">
+    <li id="tab-title-data" class="tab-link current" data-tab="tab-1">Dados Gerais</li>
+    <!-- <li id="tab-title-datatables" class="tab-link" data-tab="tab-2">Cursos Ofertados</li> -->
+    <li id="tab-title-timeline" class="tab-link" data-tab="tab-3">Linha do Tempo</li>
+</ul>
+
+<script>
+  //loading ipes data for  timeline
+  $.getJSON("json/ipes.json", function (data) {
+    $.each(data.features, function (key, val) {
+      $('<div id="timeline-' + val.properties.Sigla.toLowerCase() + '" class="timeline"></div>').appendTo('#tab-3');
+    });
+  });
+</script>
+
+<div id="tab-1" class="tab-content current">
+    <p>Sem dados disponíveis</p>
+</div>
+<div id="tab-2" class="tab-content">
+    <div class="ref">
+        Dados extraídos do SisUAB em março de 2016<br/>
+        <i>Não concluintes</i> se refere a <i>desvinculados</i> + <i>não concluintes</i>. Cursos não finalizados
+        não tem concluintes.</i>
+    </div>
+</div>
+<div id="tab-3" class="tab-content"></div>
+</body>
+
+</html>
