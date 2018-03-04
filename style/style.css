@@ -64,6 +64,13 @@ body {
     display: block;
 }
 
-.teste {
-    margin: 10px !important;
+li.ui-tabs-active.ui-state-active {
+    color: #fff !important;
+    border-bottom: 5px solid #fff !important;
+}
+
+@media screen and (min-width: 800px) {
+    #about-data>.h-auto-ml {
+        height: 90vh !important;
+    }
 }
