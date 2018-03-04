@@ -4,110 +4,67 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
 
     <title>Grupo de pesquisa: UAB</title>
     <meta name="description" content="Dados do estudo de Núcleos UAB">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!--jQuery-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <!--Main mapping library-->
-    <script type='text/javascript' src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-    <script src="libraries/leaflet-search/leaflet-search.js"></script>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
+    <!--Mapbox-->
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js"></script>
 
-    <!--Identify your location-->
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css'>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css'
-          rel='stylesheet'/>
+    <!-- Assembly.css -->
+    <link href="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.min.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.js"></script>
 
     <!--Timeline scripts-->
     <script src="http://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-    <link title="timeline-styles" rel="stylesheet"
-          href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <link title="timeline-styles" rel="stylesheet" href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 
     <!--Scripts and css for dynamic tables-->
-    <script type='text/javascript' src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-    <script type='text/javascript' src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
-    <script type='text/javascript' src='https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js'></script>
-    <script type='text/javascript' src='https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js'></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
 
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="http://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css">
 
-
-    <link rel="stylesheet" href="libraries/leaflet-sidebar/leaflet-sidebar.css">
-
-    <!--<link rel="stylesheet" href="libraries/leaflet-search/leaflet-search.css">-->
-
     <!--Script for Chart -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
 
-    <!--Local scripts-->
-    <script src="libraries/leaflet-search/leaflet-search.js"></script>
-    <script src="libraries/leaflet-sidebar/leaflet-sidebar.js"></script>
+    <!--Vue.js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!--Axios-->
+    <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <!--Application stylesheet and application-->
-    <link rel="stylesheet" href="style/app.css">
+    <link rel="stylesheet" href="style/style.css">
 
-    <script type='text/javascript' src="js/functions.js"></script>
+    <!--Load graphs-->
+    <script type="text/javascript" src="js/functions.js"></script>
     <script src="js/ciclope.js"></script>
+    <!-- <script src="js/newciclope.js"></script> -->
 
 </head>
 
 <body>
-<!--Loads map-->
-<div id="map">
-    <div id="menu-group">
-        <div id="menu-icon" class="leaflet-left">
-            <a href="#" id="menu-link"></a>
-        </div>
-        <div class="menu">
-            <a href="#" class="menuitem" name="principal.html">Principal</a><br>
-            <a href="#" class="menuitem" name="sobre.html">Sobre</a>
-        </div>
-    </div>
-</div>
+    <!--Loads map-->
+    <div id="map"></div>
 
-<div id="sidebar">
-    <!-- carrega a página inicial -->
-    <div id="about-data">
-        <ul class="tabs">
-            <li class="current">
-                <a href="#tab-principal">Principal</a>
-            </li>
-            <li>
-                <a href="#tab-sobre">Sobre o projeto</a>
-            </li>
-            <li>
-                <a href="#tab-dados">Dados</a>
-            </li>
-        </ul>
-
-        <div id="tab-principal"></div>
-        <div id="tab-sobre"></div>
-        <div id="tab-dados"></div>
-    </div>
-
-    <!-- carrega as informações dos polos -->
-    <div id="tabs-data"></div>
-</div>
-
-<script>
-  $(function () {
-    $("#about-data").tabs({show: 'fade', hide: 'fade'});
-    $("#tab-principal").load("content/principal.html");
-    $("#tab-sobre").load("content/sobre.html");
-    $("#tab-dados").load("content/dados.html");
-    $("#tabs-data").load("content/polos.html");
-  });
-</script>
+    <script>
+        // carregar mapa e sidebar
+        loadMap('map');
+    </script>
 
 </body>
+
 </html>
