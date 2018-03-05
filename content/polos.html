@@ -2,36 +2,68 @@
 <html>
 <head>
     <title>Informações do Polo</title>
+    <script type='text/javascript' src="js/app.js"></script>
 </head>
 
 <body>
-<p>Informações do Polo</p>
-<ul class="tabs">
-    <li id="tab-title-data" class="tab-link current" data-tab="tab-1">Dados Gerais</li>
-    <!-- <li id="tab-title-datatables" class="tab-link" data-tab="tab-2">Cursos Ofertados</li> -->
-    <li id="tab-title-timeline" class="tab-link" data-tab="tab-3">Linha do Tempo</li>
-</ul>
+<div id="app">
+    <div id="tabs-polos">
+        <!--tabs-->
+        <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
+            style="justify-content:space-around;">
+            <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+                <a href="#tab-dados-gerais">Dados Gerais</a>
+            </li>
+            <li v-show="sigla" class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+                <a href="#tab-linha-tempo">Linha do Tempo</a>
+            </li>
+        </ul>
 
-<script>
-  //loading ipes data for  timeline
-  $.getJSON("json/ipes.json", function (data) {
-    $.each(data.features, function (key, val) {
-      $('<div id="timeline-' + val.properties.Sigla.toLowerCase() + '" class="timeline"></div>').appendTo('#tab-3');
-    });
-  });
-</script>
+        <!--content-->
+        <div class='flex-parent flex-parent--column viewport-half h-auto-ml hmax-full bg-white shadow-darken10'>
+            <div class='px12 py12 scroll-auto'>
+                <div id="tab-dados-gerais">
+                    <div id="info-ipes" v-show="sigla">
+                        <h1>{{ nome }}</h1>
+                        <p><b>Endereço:</b> {{ endereco.logradouro }}</p>
+                        <p><b>Bairro:</b> {{ bairro }}</p>
+                        <p><b>Cidade:</b> {{ cidade }}</p>
+                        <p><b>Estado:</b> {{ estado }}</p>
+                        <p v-if="cep != '0'"><b>CEP:</b> {{ cep | formataCep }}</p>
+                        <p v-if="telefone != '()'"><b>Telefone:</b> {{ telefone }}</p>
+                        <p v-show="url"><b>URL:</b><a :href="url" target="_blank"> {{ url }}</a></p>
 
-<div id="tab-1" class="tab-content current">
-    <p>Sem dados disponíveis</p>
-</div>
-<div id="tab-2" class="tab-content">
-    <div class="ref">
-        Dados extraídos do SisUAB em março de 2016<br/>
-        <i>Não concluintes</i> se refere a <i>desvinculados</i> + <i>não concluintes</i>. Cursos não finalizados
-        não tem concluintes.</i>
+                        <!--carrega os gráficos-->
+                        <div id="graphContainer">
+                            <p>Número de polos por estado</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="info-polo" v-show="id">
+                    <h1>{{ nome }}</h1>
+                    <p><b>Endereço:</b> {{ endereco.logradouro | formataEndereco(endereco.numero) }}</p>
+                    <p><b>Bairro:</b> {{ bairro }}</p>
+                    <p><b>Cidade:</b> {{ cidade }}</p>
+                    <p><b>Estado:</b> {{ estado }}</p>
+                    <p v-if="cep != '0'"><b>CEP:</b> {{ cep | formataCep }}</p>
+                    <p v-show="endereco.complemento"><b>Complemento: </b> {{ endereco.complemento }}</p>
+                    <p><b>Nome Fantasia:</b> {{ nome_fantasia }}</p>
+                </div>
+
+                <div id="tab-linha-tempo" v-show="sigla">
+                    <p>Linha do Tempo</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<div id="tab-3" class="tab-content"></div>
+
+<script>
+  $(function () {
+    $("#tabs-polos").tabs({ show: 'fade', hide: 'fade' });
+  });
+</script>
 </body>
 
 </html>

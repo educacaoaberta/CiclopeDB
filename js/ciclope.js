@@ -10,11 +10,12 @@ function loadMap(mapId) {
   map.on('load', function () {
     // add navigation control
     var nav = new mapboxgl.NavigationControl();
-
-    var layers = new LayersControl();
-
     map.addControl(nav, 'top-left');
-    map.addControl(layers, 'top-left')
+
+    // add layers button
+    var layers = new LayersControl();
+    map.addControl(layers, 'top-left');
+
     // carrega os polos
     map.addSource("polos", {
       type: 'vector',
@@ -98,6 +99,17 @@ function loadMap(mapId) {
       popup.remove();
     });
 
+    map.on('click', 'polos', function(e) {
+      EventBus.$emit('idPolo', e.features[0].id);
+
+      // $('#polosBarChart').remove();
+      // $('#graphContainer').append('<canvas id="polosBarChart"><canvas>');
+      //
+      // var myBarChart = loadChart("polosBarChart", "bar", "Polos");
+      // var sigla = e.features[0].properties.sigla;
+      // processBarChartIpesWithSiglaIpes(myBarChart, sigla);
+    });
+
     // muda o cursor quando entrar em um ipes
     // adiciona o popup com a sigla do ipes
     map.on('mouseenter', 'ipes', function (e) {
@@ -110,6 +122,17 @@ function loadMap(mapId) {
         .setText(sigla.toUpperCase())
         .addTo(map);
 
+    });
+
+    map.on('click', 'ipes', function(e) {
+      EventBus.$emit('siglaIpes', e.features[0].properties);
+
+      $('#polosBarChart').remove();
+      $('#graphContainer').append('<canvas id="polosBarChart"><canvas>');
+
+      var myBarChart = loadChart("polosBarChart", "bar", "Polos");
+      var sigla = e.features[0].properties.sigla;
+      processBarChartIpesWithSiglaIpes(myBarChart, sigla);
     });
 
     // o cursor volta ao padrão ao sair

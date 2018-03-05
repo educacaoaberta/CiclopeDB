@@ -54,7 +54,8 @@
     <!--Load graphs-->
     <script type="text/javascript" src="js/functions.js"></script>
     <script src="js/ciclope.js"></script>
-    <!-- <script src="js/newciclope.js"></script> -->
+    <script type="text/javascript" src="js/eventBus.js"></script>
+    <script src="js/app.js"></script>
 
 </head>
 
@@ -64,6 +65,7 @@
 <div class='viewport-full relative scroll-hidden' id="sidebar">
     <div class='bg-darken10 viewport-twothirds viewport-full-ml absolute top right bottom'></div>
     <div class='absolute top-ml right bottom z1 w-full w600-ml px12 py12-ml'>
+        <!--carrega sidebar inicial-->
         <div id="about-data">
             <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
                 style="justify-content:space-around;">
@@ -86,6 +88,9 @@
                 </div>
             </div>
         </div>
+        <!--carrega sidebar com os dados dos polos/ipes-->
+        <div id="tabs-data"></div>
+        </div>
     </div>
 </div>
 
@@ -93,9 +98,10 @@
 <div id="map"></div>
 
 <script>
-  // carregar mapa
+  // carrega mapa
   loadMap('map');
 
+  // carrega os arquivos para cada abas
   $(function () {
     $("#about-data").tabs({
       show: "fade",
@@ -104,6 +110,8 @@
     $("#tab-principal").load("content/principal.html");
     $("#tab-sobre").load("content/sobre.html");
     $("#tab-dados").load("content/dados.html");
+    $("#about-data").hide()
+    $("#tabs-data").load("content/polos.html");
   });
 </script>
 
