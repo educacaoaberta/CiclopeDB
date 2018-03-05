@@ -1,102 +1,82 @@
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-	<title>Mapeamento do Sistema Universidade Aberta do Brasil</title>
-	<meta charset="utf-8">
-
+    <title>Sobre o projeto</title>
 </head>
+
 <body>
-
-
-<h1>Sistema Universidade Aberta do Brasil(<i>beta</i>)</h1>
-
-<div class="pontoschave">
-	Este site, em <i>beta</i>, apresenta dados sobre as Instituições de Ensino Superior e os Polos Presenciais que fazem parte do Sistema Universidade Abertao do Brasil (UAB).</br><br>
-
-	A nossa meta com esse projeto é dar maior visibilidade a uma iniciativa de educação pública ainda pouco estudada
-	e divulgada. Buscamos com isso, trazer maior "abertura" para o funcionamento do Sistema UAB,
-	bem como maior transparência sobre a sua abrangência, capilaridade e ações.<br><br />
-
-	Abaixo, nessa página, você encontra algumas informações básicas sobre a UAB, incluindo uma linha do tempo da EaD com enfoque na UAB.<br><Br />
-	Para navegar utilize o mapa a esquerda, clicando em qualquer ponto de interesse. Utilize o menu (topo, esquerda) para saber mais sobre o grupo de pesquisa e como esse projeto foi feito. Caso tenha alguma dúvida ou comentário sobre o projeto, utilize <a href="http://educacaoaberta.org/sobre/">esse formulário</a>. Caso identifique algum problema, dado incongruente, ou queira ajudar a melhorar o sistema, entre em contato colocando um <i>problema/comentário</i> na nossa página no <a href="https://github.com/gabrielfedel/ciclopedb/issues">Github</a>.<br><br>
-
-	<i>Nosso grupo de pesquisa é independente e não representa a posição ou opiniões da CAPES ou do Sistema Universidade Aberta do Brasil</i>.<br>
+<h1>Sobre o projeto</h1>
+<div class="pontoschave">Este é um projeto do grupo de pesquisa Formação docente e tecnologias de informação e
+    comunicação
+    (<a href="http://dgp.cnpq.br/dgp/espelhogrupo/8749855854098226">veja lista completa de participantes no CNPq</a>)
+    que desde 2011 estuda
+    a Universidade Aberta do Brasil (<a href="http://www.uab.capes.gov.br/">UAB</a>). O grupo é coordenado pela UFF
+    com parceria da UEL, UNICAMP.
+    Este mapeamento foi conduzido pela <a href="http://educacaoaberta.org/">Cátedra UNESCO em Educação Aberta</a> na
+    UNICAMP.<br>
 </div>
-<br>
-<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1pkIQBlBj9jfhici2CRiyj1ZStpB5pmE37uJ0dAC-QUo&font=Bevan-PontanoSans&lang=pt-br&initial_zoom=2&height=650' width='100%' height='650' frameborder='0'></iframe>
-<br>
-
-<div class="subtitle">Sobre a UAB</div>
-<p>A Universidade Aberta do Brasil (UAB) foi criada em 2006, inspirada por várias experiências no Brasil e no exterior. De particular importância para a estruturação do modelo UAB foi o consórcio <a href="http://cederj.edu.br/">CEDERJ</a> do estado do Rio de Janeiro. Outras experiências pioneiras incluíram aquelas desenvolvidas pela UFMT para formação de professor no estado de Mato Grosso, e o projeto Veredas, em Minas Gerais. O objetivo inicial da UAB foi o de proporcionar o acesso a educação superior em locais onde esse acesso era limitado, uma tarefa não trivial em um país com dimensões continentais como o Brasil e com grande concentração populacional.</p>
-<p>A UAB oferece cursos primariamente para professores em serviço, com enfoque no ensino básico, buscando atingir as demandas de sua profissão e os termos estabelecidos pela Lei de Diretrizes e Bases da Educação brasileira, (<a href="http://portal.mec.gov.br/arquivos/pdf/ldb.pdf">Lei 9.394/1996</a>). A existência de professores que atuam sem diploma superior e/ou em áreas para as quais não receberam formação ainda é um problema na educação brasileira. A mesma LDB/1996 reconheceu a importância da educação à distância no Brasil e estabeleceu parâmetros inicias para sua regulamentação.</p>
-<p>No sistema UAB, os Institutos de Educação Superior (IES) são responsáveis por planejar e implementar os cursos oferecidos, garantindo sua execução e qualidade. Nas universidades esta gestão é estabelecida de várias maneiras: distribuída entre os departamentos atuantes (como por exemplo, Pedagogia), ou de maneira centralizada, através de Núcleos ou Secretarias. As agências locais, ou seja, estados e municípios, devem oferecer o espaço físico, sua manutenção e o quadro de funcionários.</p>
-<p>	O governo federal, particularmente a Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES/Ministério da Educação), é responsável pelo financiamento para as universidades (desenvolvimento de material, custo de pessoal, entre outros) e pelo estabelecimento das regras de funcionamento da universidade.</p>
-<p>Ao contrário de outras universidades abertas ao redor do mundo (como a Open University, Inglaterra) a UAB não constitui uma instituição em si. As instâncias (IES, municípios, etc.) agem em forma de consórcio, articulando os institutos de ensino superior, como as universidades federais públicas do país.</p>
-
-
-
-
-<div class= "graph">
-<h2>Dados gerais da UAB: número de IPES por estado</h2>
-<!-- Gráfico de Barras-->
-<canvas id="chartByState" width="600" height="300"></canvas>
-
-<script>
-
-	//for bar grpah
-	initialData = {
-		labels : [],
-		datasets :[{
-			fillColor: "blue",
-			data :[]
-		}]
-
-	};
-	var ctxBar = document.getElementById("chartByState").getContext("2d");
-	var myBarChart = new Chart(ctxBar).Bar(initialData, {barShowStroke: false, animation: false});
-	processBarIpes(myBarChart);
-
-</script>
-
-<h2>Dados gerais da UAB: Número de IPES por região</h2>
-<!--O código à seguir também é necessário para o gráfico de pizza -->
-<canvas id="chartByRegion"></canvas>
-<div id="legendByRegion"></div>
-<script>
-//for pie graph
-// var options =
-// {
-// 			//animation: false;
-//
-// 			tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
-//
-// 			onAnimationComplete: function()
-// 			{
-// 					this.showTooltip(this.segments, true);
-// 			},
-//
-// 			tooltipEvents: [],
-//
-// 			showTooltips: true
-// 	}
-
-	var ctx = document.getElementById("chartByRegion").getContext("2d");
-	var myPieChartRegion = new Chart(ctx).Pie([],{animation: false});
-
-
-	processChartIpesRegion(myPieChartRegion);
-</script>
-</div>
-<br><br><br><br>
-<div>
+<div class="subtitle">O projeto</div>
+<p>O mapa apresenta duas bases de dados:<br><br>
+    Primeiro, uma <b>base de informações</b> com dados coletados através de pedidos via <a
+            href="http://www.acessoainformacao.gov.br/">Lei de Acesso a Informação</a> e outros
+    extraídos do sistema <a href="http://sisuab.uab.capes.gov">SisUAB</a> em março de 2016.
+    Trazemos a tona um mapa com todas as IPES (Instutições Públicas de Ensino Superior)
+    e todos os polos <i>ativos</i>, que juntos, compõe o Sistema UAB.
+    <!-- Para cada um desses, apontamos um histórico
+    detalhado sobre cursos e alunos participantes.
+    Vale ressaltar que não incluímos os cursos que não tiveram oferta real de início,
+    ou seja, cursos que podem ter sido planejados mas não chegaram a ser efetivados.-->
+    Os dados de geolocalização são aproximados. Buscamos apontar com a maior especificidade possível, a localização das
+    IPES (feitas manualmente).
+    Os polos forma geolocalizados automaticamente e referem a cidade, sem precisão no nível de logradouro. <br><br>
+    Segundo <b>informações detalhadas sobre os Núcleos de Educação a Distância</b> de 8 universidades que participaram
+    de uma pesquisa realizada
+    pelo nosso grupo focada na gestão de recursos educacionais no âmbito da UAB. Para essas instituições
+    incluímos um texto introdutório e uma detalhada linha do tempo de sua participação na UAB.
+    Esses espaços são responsáveis pela articulação, dentro da universidade, para a efetivação dos cursos oferecidos
+    pela UAB.
+    Como cada universidade tem autonomia para definir seu modelo de ação, cada um desses núcleos se
+    estrutura de maneira diferente. O objetivo desses estudo é descrever e avaliar questões relativas ao
+    funcionamento e estrutura desses centros, com particular atenção aos processos de produção e disseminação de
+    recursos educacionais.</p>
 <p>
-	O site e seu conteúdo estão licenciados com licença Creative Commons Atribuição (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>) - Educação Aberta.
-</p>
-<p>
-Dados atualizados em 15/01/2018.
-</p>
+    <!-- Fizemos o possível para garantir que os dados estão corretos. <b>É importante ressaltar que os dados do SisUAB e os que coseguimos via LAI podem apresentar inconsistências</b>.
+    Não se trata de um problema no sistema, mas sim na consistência original dos dados. No entanto, são os melhores dados que temos! Buscaremos trabalhar junto à CAPES para aperfeiçoar os dados disponíveis e anotar inconsistências.  -->
+    Caso identifique algum problema, dado incongruente, ou queira ajudar a melhorar o sistema, entre em contato
+    colocando um <i>problema/comentário</i> na nossa página no <a
+        href="https://github.com/gabrielfedel/ciclopedb/issues">Github</a>.</p>
+<div class="subtitle">O software</div>
+<p>O sistema que desenvolvemos, apelidado de <b>Ciclope</b>, é um software livre, que agrega a funcionalidade de
+    diversas ferramentas
+    Existem duas versões do sistema. A primeira não depende de banco de dados e faz uso inteiramente de dados
+    disponíveis no formato JSON usando arquivos-texto para armazenamento dos dados. O sistema faz uso de HTML +
+    Javascript (<a href="https://github.com/tamielbr/Ciclope/">Ciclope</a>).
+    Com base nesse primeiro, desenvolvemos o <b>CiclopeDB</b>, que utilizamos nesse site. O software faz uso de um
+    banco de dados SQL + Javascript + HTML + PHP. É possível verificar e adicionar problemas, questões e sugestões sobre
+    o software no site do <a href="https://github.com/gabrielfedel/ciclopedb">CiclopeDB no Github</a>.
+    Ambos estão licenciadas com a licença <a href="https://opensource.org/licenses/GPL-3.0">GPL v3.0</a>.
+<div class="subtitle">Pesquisadores envolvidos no Ciclope</div>
+<p>Tel Amiel (NIED/UNICAMP) - Coordenador e desenvolvedor | <a href="http://twitter.com/edaberta">@edaberta</a><br>
+    Gabriel Fedel - Desenvolvedor principal | <a href="https://github.com/gabrielfedel">@gabrielfedel</a></p>
 
+<div class="subtitle">Saiba mais sobre a Universidade Aberta do Brasil</div>
+<p>Sobre a UAB e sua implementação</p>
+<div class="cit">Costa, C. J. da, & Duran, M. R. C. (2011). A Política Nacional de Formação de Professores entre 2005 e
+    2010: a nova Capes e o Sistema Universidade Aberta do Brasil. Revista Brasileira de Pós-Graduação, 9(16), 263–313.
+    Disponível em: <a href="http://ojs.rbpg.capes.gov.br/index.php/rbpg/article/view/289/0">http://ojs.rbpg.capes.gov.br/index.php/rbpg/article/view/289/0</a>
 </div>
+<p>Sobre Núcleos UAB e produção de recursos educacionais</p>
+<div class="cit">Soares, T. & Amiel .T (2017). Recursos educacionais na Universidade Aberta do Brasil: Perspectivas e
+    práticas. Disponível em: <a href="http://educacaoaberta.org/perspectivas-rea-uab/">http://educacaoaberta.org/perspectivas-rea-uab/</a>
+</div>
+<p>Sobre os polos UAB</p>
+<div class="cit">Duran, M. R. da C., Costa, C. J. da, Massaro, T., & Amiel, T. (2012). Os polos do sistema UAB e seus
+    coordenadores nas regiões nordeste, norte e sul do Brasil (pp. 1–15). Presented at the Simpósio Internacional de
+    Educação a Distância, UFScar. Disponível em: <a
+            href="http://sistemas3.sead.ufscar.br/ojs/Trabalhos/277-937-3-ED.pdf">http://sistemas3.sead.ufscar.br/ojs/Trabalhos/277-937-3-ED.pdf</a>
+</div>
+<br><br>
+
 </body>
+
 </html>

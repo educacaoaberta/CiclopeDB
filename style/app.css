@@ -1,8 +1,8 @@
 /* layer icons from http://findicons.com/icon/437348/layers */
 
 body {
-  font-family: "quattro";
-  padding: 5px;
+    font-family: "quattro";
+    padding: 5px;
 }
 
 /*banner BETA, from https://codepen.io/davidlazar/pen/dcxou */
@@ -27,52 +27,52 @@ body {
 /*}*/
 
 p {
-  font-size: 1.2em;
-  line-height: 150%;
-  margin: 0px;
-  margin-top: 5px;
+    font-size: 1.2em;
+    line-height: 150%;
+    margin: 0px;
+    margin-top: 5px;
 }
 
 .leaflet-container {
-  font-family: "quattro" !important;
+    font-family: "quattro" !important;
 }
 
 .title {
-  font-family: "quattrobold";
-  font-size: 1.6em;
-  padding-bottom: 5px;
+    font-family: "quattrobold";
+    font-size: 1.6em;
+    padding-bottom: 5px;
 }
 
 .subtitle {
-  font-family: "quattrobold", sans-serif;
-  font-size: 1.4em;
-  margin-top: 20px;
+    font-family: "quattrobold", sans-serif;
+    font-size: 1.4em;
+    margin-top: 20px;
 }
 
 .ref {
-  font-size: 0.8em;
+    font-size: 0.8em;
 }
 
 .cit {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 1em;
-  /*padding-left: 22px ;
-  text-indent: -22px ;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    /*padding-left: 22px ;
+    text-indent: -22px ;*/
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 @font-face {
-  font-family: quattro;
-  src: url(../font/Gidole-Regular.ttf);
+    font-family: quattro;
+    src: url(../font/Gidole-Regular.ttf);
 }
 
 @font-face {
-  font-family: quattrobold;
-  src: url(../font/Gidole-Regular.ttf);
+    font-family: quattrobold;
+    src: url(../font/Gidole-Regular.ttf);
 }
 
 .pie-legend li span {
@@ -81,25 +81,26 @@ a:link {
     display: inline-block;
     margin-right: 5px;
 }
+
 .pie-legend {
     list-style: none;
 }
 
 #legend, #legendByRegion {
-  float:right;
-  width: 50%;
-  padding-top: 2em
+    float: right;
+    width: 50%;
+    padding-top: 2em
 }
 
 /* Rules to fix issue #9 */
 .leaflet-touch .leaflet-control-layers-toggle {
-  height: 26px;
-  width: 26px;
+    height: 26px;
+    width: 26px;
 }
 
 .leaflet-control-layers-toggle {
-  height: 26px;
-  width: 26px;
+    height: 26px;
+    width: 26px;
 }
 
 .leaflet-touch .leaflet-bar a {
@@ -109,261 +110,263 @@ a:link {
 }
 
 .leaflet-touch .leaflet-control-zoom-out {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .leaflet-touch .leaflet-control-zoom-in {
     font-size: 18px;
 }
 
-.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar{
-  border: none;
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: none;
 }
 
 @media screen and (max-width: 479px) {
 
-.leaflet-sidebar {
-  	width: 60%;
+    .leaflet-sidebar {
+        width: 60%;
+    }
+
+    .menuitem, .menucontent {
+        font-size: 0.9em;
+    }
+
 }
 
-.menuitem, .menucontent {
-  font-size: 0.9em;
-}
-
-} /* closing bracket, for smaller screens*/
-
+/* closing bracket, for smaller screens*/
 
 @media screen and (min-width: 480px) {
 
-html, body {
-	font-family: "quattro", sans-serif;
+    html, body {
+        font-family: "quattro", sans-serif;
+    }
+
+    /*custom tooltip, tried using className in bindPopup but it does not override*/
+    .leaflet-popup-content-wrapper {
+        background-color: #FFFFFF;
+        background-color: rgba(255, 255, 255, .9);
+        background: transparent \9; /* clear current background for ie */
+        zoom: 1; /* required for the filters */
+        /* For IE 5.5 - 7*/
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF, endColorstr=#7FFFFFFF);
+        /* For IE 8*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF, endColorstr=#7FFFFFFF)";
+        border-radius: 0;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #map {
+        font-family: "quattro";
+        float: left;
+        position: fixed;
+        /*background: #eee;*/
+        background-color: #1DA7D2;
+        background-image: radial-gradient(
+                circle closest-corner,
+                #1DA7D2,
+                #0F3153
+        );
+        top: 0px;
+        z-index: 0;
+        left: 0px;
+        right: 0;
+        bottom: 0px;
+        border-top: 1px solid #ccc;
+    }
+
+    #inputcontainer {
+        position: absolute;
+        left: 45px;
+        top: 60px;
+        width: 40px;
+    }
+
+    td, th {
+        vertical-align: top;
+    }
+
+    img {
+        padding: 2px;
+    }
+
+    /*tamanho da janela que abre, e posiciona ela no máximo para a frente, cobrindo os ícones*/
+    .leaflet-sidebar {
+        width: 50%;
+        height: 100%;
+        z-index: 99999;
+        border: 1px solid #ccc;
+    }
+
+    .leaflet-sidebar > .leaflet-control {
+        font-size: 1em;
+    }
+
+    /*garante que os popups aparecem com o tamanho das imagens contidas*/
+    .leaflet-popup-content {
+        width: auto !important;
+    }
+
+    .dataTables_wrapper {
+        border: 1px solid #aaa;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .vco-storyjs, .storyjs-embed, .vco-slider, .timenav-interval-background {
+        background-color: rgba(255, 255, 255, 0) !important;
+    }
+
+    .vco-storyjs, .vco-feature, .slider, .vco-storyjs, .vco-feature, .vco-slider {
+        box-shadow: 0px !important;
+    }
+
+    .menu {
+        z-index: 9999;
+        position: relative;
+        background-color: #fff;
+        line-height: 38px;
+        margin-left: 38px;
+        margin-top: 8px;
+        /*width: 95px;*/
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        /*border-radius: 4px;*/
+    }
+
+    .menuitem {
+        display: none;
+        font-size: 1.3em;
+        background-color: white;
+        color: #0F3153;
+        text-decoration: none;
+        padding: 8px;
+        cursor: pointer;
+    }
+
+    .menu a:hover {
+        color: #61B9D4;
+    }
+
+    .menucontent {
+        font-size: 1.3em;
+        padding: 8px;
+        border: 3px white solid;
+        margin-top: 5px;
+        color: #0F3153;
+        background-color: white;
+        position: relative;
+        border: 0px;
+        width: 500px;
+        z-index: 9999;
+    }
+
+    .menucontent a:link, .menucontent a:visited {
+        color: #888;
+        text-decoration: none;
+    }
+
+    .pontoschave {
+        /*background-color: #0F3153;*/
+        color: black;
+        margin-right: 0px;
+        margin-top: 5px;
+        padding-bottom: 25 p x;
+        font-size: 1.2em;
+    }
+
+    .pontoschave a:link, .pontoschave a:visited {
+        color: #0078A8;
+        /*text-decoration: underline dotted;*/
+    }
+
+    img {
+        padding: 4px;
+    }
+
+    /*div icon menu*/
+    #menu-icon {
+        background-clip: padding-box;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 4px;
+        background-image: url(images/menu.png);
+        width: 26px;
+        height: 26px;
+        background-color: #fff;
+        text-align: center;
+        z-index: 1000;
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+    }
+
+    #menu-group {
+        position: absolute;
+    }
+
+    /*CSS for tabs*/
+    ul.tabs {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+
+    ul.tabs li {
+        background: none;
+        color: #222;
+        display: inline-block;
+        padding: 10px 15px;
+        cursor: pointer;
+        outline: 0;
+    }
+
+    ul.tabs a {
+        color: #222;
+        cursor: pointer;
+        outline: 0;
+    }
+
+    ul.tabs li.current {
+        border-bottom: 3px solid #31719C;
+    }
+
+    td.sorting_1 {
+        text-transform:capitalize;
+    }
+
+    .tab-content {
+        display: none;
+        background: #fff;
+        padding: 15px;
+    }
+
+    .tab-content.current {
+        display: inherit;
+    }
+
+    .tl-timeline {
+        min-height: 500px
+    }
+
+    .leaflet-top {
+        top: 40px;
+    }
+
+    .leaflet-left {
+        left: 2px;
+    }
+
+    .ipes-logo {
+        max-width: 400px;
+        padding: 5px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    .ipes-data {
+        line-height: 110%;
+    }
 }
 
-/*custom tooltip, tried using className in bindPopup but it does not override*/
-.leaflet-popup-content-wrapper {
-	background-color:#FFFFFF;
-	background-color: rgba(255,255,255,.9);
-	background: transparent\9; /* clear current background for ie */
-	zoom:1; /* required for the filters */
-	/* For IE 5.5 - 7*/
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF, endColorstr=#7FFFFFFF);
-  /* For IE 8*/
-  -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#7FFFFFFF, endColorstr=#7FFFFFFF)";
-	border-radius: 0;
-	text-align: center;
-	font-weight: bold;
-}
-
-#map {
-  font-family: "quattro";
-  float:left;
-  position:fixed;
-  /*background: #eee;*/
-	background-color: #1DA7D2;
-	background-image:
-    radial-gradient(
-			circle closest-corner,
-      #1DA7D2,
-			#0F3153
-    );
-  top: 0px;
-  z-index: 0;
-  left:0px;
-  right:0;
-  bottom:0px;
-  border-top:1px solid #ccc;
-}
-
-#inputcontainer{
-	position: absolute;
-	left:45px;
-	top:60px;
-	width:40px;
-}
-
-td, th {
-	vertical-align: top;
-}
-
-img {
-	padding: 2px;
-}
-
-/*tamanho da janela que abre, e posiciona ela no máximo para a frente, cobrindo os ícones*/
-.leaflet-sidebar {
-	width: 50%;
-	height: 100%;
-	z-index: 99999;
-  border: 1px solid #ccc;
-}
-
-.leaflet-sidebar > .leaflet-control {
-  font-size: 1em;
-}
-
-/*garante que os popups aparecem com o tamanho das imagens contidas*/
-.leaflet-popup-content {
-    width:auto !important;
-}
-
-.dataTables_wrapper {
-	border: 1px solid #aaa;
-	padding: 10px;
-	margin-bottom: 10px;
-	margin-top: 5px;
-}
-
-.vco-storyjs, .storyjs-embed, .vco-slider, .timenav-interval-background {
-	background-color: rgba(255,255,255,0) !important;
-}
-
-.vco-storyjs, .vco-feature, .slider, .vco-storyjs, .vco-feature, .vco-slider {
-	box-shadow: 0px !important;
-}
-
-.menu {
-  z-index: 9999;
-  position: relative;
-  background-color: #fff;
-  line-height: 38px;
-  margin-left: 38px;
-  margin-top: 8px;
-  /*width: 95px;*/
-  border: 2px solid rgba(0, 0, 0, 0.2);
-  /*border-radius: 4px;*/
-  }
-
-.menuitem {
-  display: none;
-  font-size: 1.3em;
-  background-color: white;
-  color: #0F3153;
-  text-decoration: none;
-  padding: 8px;
-  cursor: pointer;
-}
-
-.menu a:hover {
-  color: #61B9D4;
-}
-
-.menucontent {
-  font-size: 1.3em;
-  padding: 8px;
-  border: 3px white solid;
-  margin-top: 5px;
-  color: #0F3153;
-  background-color: white;
-  position: relative;
-  border: 0px;
-  width: 500px;
-  z-index: 9999;
-}
-
-.menucontent a:link, .menucontent a:visited {
-  color: #888;
-  text-decoration: none;
-}
-
-.pontoschave {
-	/*background-color: #0F3153;*/
-	color: black;
-	margin-right: 0px;
-  margin-top: 5px;
-	padding-bottom: 25p x;
-  font-size: 1.2em;
-}
-
-.pontoschave a:link, .pontoschave a:visited {
-  color: #0078A8;
-  /*text-decoration: underline dotted;*/
-}
-
-img {
-  padding: 4px;
-}
-
-
-/*div icon menu*/
-#menu-icon {
-	background-clip: padding-box;
-	margin-left: 10px;
-	margin-top: 10px;
-	border-radius: 4px;
-	background-image: url(images/menu.png);
-	width: 26px;
-	height: 26px;
-	background-color: #fff;
-	text-align: center;
-	z-index: 1000;
-	cursor: pointer;
-	position: absolute;
-	top: 0px;
-}
-
-#menu-group {
-	position: absolute;
-}
-
-/*CSS for tabs*/
-ul.tabs{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-ul.tabs li{
-	background: none;
-	color: #222;
-	display: inline-block;
-	padding: 10px 15px;
-	cursor: pointer;
-}
-
-ul.tabs li.current{
-  border-bottom: 3px solid #31719C;
-}
-
-.tab-content{
-	display: none;
-	background: #fff;
-	padding: 15px;
-}
-
-.tab-content.current{
-	display: inherit;
-}
-
-.tl-timeline {
-	min-height: 500px
-}
-
-.leaflet-top {
-  top: 40px;
-}
-
-.leaflet-left {
-  left: 2px;
-}
-
-.ipes-logo {
-  max-width: 400px;
-  padding: 5px;
-  margin-left: 3px;
-  margin-top: 3px;
-}
-
-.ipes-data {
-  line-height: 110%;
-}
-
-#myChart {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 50px;
-  width: 200px;
-  height: 200px;
-  font-family: quattrobold;
-}
-
-
-} /* close @media
+/* close @media
