@@ -73,6 +73,9 @@ function loadChart(id, type, label) {
             beginAtZero: true,
             min: 0,
           }
+        }],
+        xAxes: [{
+          barPercentage: 0.5
         }]
       }
     }
@@ -83,7 +86,6 @@ function loadChart(id, type, label) {
 function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
   $.getJSON(polosByStateWithFederativeUnitJson + siglaIpes, function (data) {
     if(data.length !== 0) {
-
       $('#graphContainer').show()
       for (var i = 0; i < data.length; i++) {
         estado = data[i][0];
