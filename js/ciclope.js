@@ -100,7 +100,7 @@ function loadMap(mapId) {
     });
 
     map.on('click', 'polos', function(e) {
-      EventBus.$emit('idPolo', e.features[0].id);
+      EventBus.$emit('idPolo', e.features[0].properties.id);
 
       // $('#polosBarChart').remove();
       // $('#graphContainer').append('<canvas id="polosBarChart"><canvas>');
@@ -127,6 +127,7 @@ function loadMap(mapId) {
     map.on('click', 'ipes', function(e) {
       EventBus.$emit('siglaIpes', e.features[0].properties);
 
+      // remove a div e adiciona para que não se repita o gráfico
       $('#polosBarChart').remove();
       $('#graphContainer').append('<canvas id="polosBarChart"><canvas>');
 
