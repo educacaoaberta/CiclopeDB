@@ -61,6 +61,10 @@
 
 <body>
 
+<div id="loading-panel" class="flex-parent flex-parent--center-cross flex-parent--center-main absolute top right bottom left bg-darken25 z5">
+    <div class="flex-child loading"></div>
+</div>
+
 <!--Loads right sidebar-->
 <div class='scroll-hidden' id="sidebar">
     <div class='bg-darken10 viewport-twothirds viewport-full-ml absolute top right bottom'></div>
@@ -111,6 +115,14 @@
     $("#tab-sobre").load("content/sobre.html");
     $("#tab-dados").load("content/dados.html");
     $("#tabs-data").load("content/polos.html");
+  });
+
+  $(window).on('load', function () {
+    setTimeout(function () {
+      $(".loading").fadeOut("slow");
+      $("#loading-panel").addClass('hide-visually');
+    }, 5000);
+
   });
 </script>
 
