@@ -69,8 +69,12 @@ li.ui-tabs-active.ui-state-active {
     border-bottom: 5px solid #fff !important;
 }
 
+#tabs-polos > div > div.px12.py12.scroll-auto.set-height {
+    max-height: calc(100vh - 150px) !important;
+}
+
 @media screen and (min-width: 800px) {
-    #about-data>.h-auto-ml {
-        height: 90vh !important;
+    #about-data>.h-auto-ml, #tabs-polos>.set-height {
+        height: calc(100vh - 80px) !important;
     }
 }

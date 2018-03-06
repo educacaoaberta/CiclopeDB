@@ -50,8 +50,8 @@ var app = new Vue({
                 });
         },
         sigla: function () {
-            // $('#info-ipes').load('content/' + this.arquivo);
-            $("#about-data").hide()
+            $("#about-data").addClass('hide-visually')
+            $("#tabs-data").removeClass('hide-visually')
             axios.get('/model/ipes.php?operation=ipesdata&sigla=' + this.sigla)
                 .then(response => {
                     this.nome = response.data[0].sigla

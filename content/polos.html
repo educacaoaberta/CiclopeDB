@@ -21,27 +21,67 @@
 
         <!--content-->
         <div class='flex-parent flex-parent--column viewport-half h-auto-ml hmax-full bg-white shadow-darken10'>
-            <div class='px12 py12 scroll-auto'>
+            <div class='px12 py12 bg-blue-faint round-b-ml txt-s'>
+                <div class="txt-xl txt-bold">{{ nome }}</div>
+            </div>
+            <div class='px12 py12 scroll-auto set-height'>
                 <div id="tab-dados-gerais">
                     <div id="info-ipes" v-show="sigla">
-                        <h1>{{ nome }}</h1>
-                        <p><b>Endereço:</b> {{ endereco.logradouro }}</p>
-                        <p><b>Bairro:</b> {{ bairro }}</p>
-                        <p><b>Cidade:</b> {{ cidade }}</p>
-                        <p><b>Estado:</b> {{ estado }}</p>
-                        <p v-if="cep != '0'"><b>CEP:</b> {{ cep | formataCep }}</p>
-                        <p v-if="telefone != '()'"><b>Telefone:</b> {{ telefone }}</p>
-                        <p v-show="url"><b>URL:</b><a :href="url" target="_blank"> {{ url }}</a></p>
+                        <div>
+                            <div class="txt-s txt-bold">Endereço</div>
+                            <div class="txt-m">
+                                {{ endereco.logradouro }}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="txt-s txt-bold">Bairro</div>
+                            <div class="txt-m">
+                                {{ bairro }}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="txt-s txt-bold">Cidade</div>
+                            <div class="txt-m">
+                                {{ cidade }}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="txt-s txt-bold">Estado</div>
+                            <div class="txt-m">
+                                {{ estado }}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="txt-s txt-bold">CEP</div>
+                            <div class="txt-m">
+                                {{ cep | formataCep }}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="txt-s txt-bold">Telefone</div>
+                            <div class="txt-m">
+                                {{ telefone }}
+                            </div>
+                        </div>
+                        <div>
+                            <div class="txt-s txt-bold">URL</div>
+                            <div class="unprose txt-m">
+                                <a :href="url" target="_blank"> {{ url }}</a>
+                            </div>
+                        </div>
+
+                        <hr class='txt-hr'>
 
                         <!--carrega os gráficos-->
                         <div id="graphContainer">
-                            <p>Número de polos por estado</p>
+                            <div class='txt-bold'>
+                                Número de polos por estado
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div id="info-polo" v-show="id">
-                    <h1>{{ nome }}</h1>
                     <p><b>Endereço:</b> {{ endereco.logradouro | formataEndereco(endereco.numero) }}</p>
                     <p><b>Bairro:</b> {{ bairro }}</p>
                     <p><b>Cidade:</b> {{ cidade }}</p>
@@ -51,7 +91,7 @@
                     <p><b>Nome Fantasia:</b> {{ nome_fantasia }}</p>
                 </div>
 
-                <div id="tab-linha-tempo" v-show="sigla">
+                <div id="tab-linha-tempo">
                     <p>Linha do Tempo</p>
                 </div>
             </div>
