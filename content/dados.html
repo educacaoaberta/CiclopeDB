@@ -19,26 +19,17 @@
 </table>
 
 <script>
-  $.getJSON("model/polos.php?operation=allunits", function (data) {
+  $(document).ready(function () {
     $('#allunits').DataTable({
-      "language": {
-        "url": "json/datatables_pt-br.json"
+      "ajax": {
+        "url": "../json/lista-unidades.geojson",
+        "dataSrc": "features"
       },
-      "aaData": data,
       "columns": [
-        {"data": "tipo" },
-        {"data": "nome"},
-        {"data": "cidade"},
-        {"data": "estado"}
-      ],
-      "paging": true,
-      "order": [0, 'asc'],
-      responsive: true,
-      buttons: [
-        {
-          extend: 'csvHtml5',
-          title: 'data'
-        }
+        { "data": "properties.tipo" },
+        { "data": "properties.nome" },
+        { "data": "properties.cidade" },
+        { "data": "properties.estado" }
       ]
     });
   });
