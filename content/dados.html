@@ -21,6 +21,9 @@
 <script>
   $(document).ready(function () {
     $('#allunits').DataTable({
+      "language": {
+        "url": "json/datatables_pt-br.json"
+      },
       "ajax": {
         "url": "../json/lista-unidades.geojson",
         "dataSrc": "features"
