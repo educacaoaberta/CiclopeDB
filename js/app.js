@@ -52,6 +52,7 @@ var app = new Vue({
         sigla: function () {
             $("#about-data").addClass('hide-visually')
             $("#tabs-data").removeClass('hide-visually')
+            $("#tabs-polos").tabs("option", "active", 0);
             axios.get('/model/ipes.php?operation=ipesdata&sigla=' + this.sigla)
                 .then(response => {
                     this.nome = response.data[0].sigla
