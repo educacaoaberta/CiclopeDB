@@ -76,6 +76,13 @@ var app = new Vue({
             var cepcompleto = primeiraparte + "-" + segundaparte
             return cepcompleto;
         },
+        formataTelefone: function (telefone) {
+          if (!telefone) return ''
+            var primeiraparte = telefone.substr(0, 9);
+            var segundaparte = telefone.substr(9, 4)
+            var telefonecompleto = primeiraparte + "-" + segundaparte
+          return telefonecompleto;
+        },
         formataEndereco: function(logradouro, numero) {
             if (!logradouro || !numero) return ''
             return logradouro + ', ' + numero
