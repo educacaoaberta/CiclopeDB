@@ -58,8 +58,9 @@ body {
 }
 
 .mapboxgl-ctrl-icon.mapboxgl-ctrl-layers {
-    background-image: url('./images/layers.png') !important;
+    background-image: url('./images/layers.svg') !important;
     background-position: 50% 50%;
+    background-size: 20px 20px;
     background-repeat: no-repeat;
     display: block;
 }
