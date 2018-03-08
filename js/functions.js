@@ -42,8 +42,8 @@ var polosRegiao = {};
 
 var currentYear = (new Date()).getFullYear();
 var polosByStateWithFederativeUnitJson = "model/polos.php?operation=polosbystatewithfederativeunit&sigla=";
-var ipesByStateJson = "model/ipes.php?operation=ipesbystate";
-var polosByStateJson= "model/polos.php?operation=polosbystate";
+var ipesByStateJson = "json/ipesbystate.json";
+var polosByStateJson = "json/polosbystate.json";
 
 // carrega o gráfico com as informações passadas nos parametros
 function loadChart(id, type, label) {
@@ -105,11 +105,11 @@ function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
 
 // Dados gerais da UAB: número de IPES por estado
 function processBarChartIpes(barChart) {
-  $.getJSON(ipesByStateJson, function (data) {
+  $.getJSON(ipesByStateJson, function (ipes) {
     var soma = 0
-    for (var i = 0; i < data.length; i++) {
-      estado = data[i]["estado"];
-      quant = Number(data[i]["quant"]);
+    for (var i = 0; i < ipes.data.length; i++) {
+      estado = ipes.data[i]["estado"];
+      quant = Number(ipes.data[i]["quant"]);
       barChart.data.labels.push(estado);
       barChart.data.datasets.forEach((dataset) => {
         dataset.data.push(quant)
@@ -129,10 +129,10 @@ function processBarChartIpes(barChart) {
 // Dados gerais da UAB: Número de IPES por região
 function processBarChartIpesRegion(myBarChart) {
 
-  $.getJSON(ipesByStateJson, function (data) {
-    for (var i = 0; i < data.length; i++) {
-      estado = data[i]["estado"];
-      quant = Number(data[i]["quant"]);
+  $.getJSON(ipesByStateJson, function (ipes) {
+    for (var i = 0; i < ipes.data.length; i++) {
+      estado = ipes.data[i]["estado"];
+      quant = Number(ipes.data[i]["quant"]);
       if (!(regioes[estado] in ipesRegiao)) {
         ipesRegiao[regioes[estado]] = quant;
       }
@@ -157,11 +157,11 @@ function processBarChartIpesRegion(myBarChart) {
 
 // Dados gerais da UAB: número de polos por estado
 function processBarChartPolos(barChart) {
-  $.getJSON(polosByStateJson, function (data) {
+  $.getJSON(polosByStateJson, function (polos) {
     var soma = 0
-    for (var i = 0; i < data.length; i++) {
-      uf = data[i]["uf"];
-      quant = Number(data[i]["quant"]);
+    for (var i = 0; i < polos.data.length; i++) {
+      uf = polos.data[i]["uf"];
+      quant = Number(polos.data[i]["quant"]);
       barChart.data.labels.push(uf);
       barChart.data.datasets.forEach((dataset) => {
         dataset.data.push(quant)
@@ -180,10 +180,10 @@ function processBarChartPolos(barChart) {
 // Dados gerais da UAB: Número de polos por região
 function processBarChartPolosRegion(myBarChart) {
 
-  $.getJSON(polosByStateJson, function (data) {
-    for (var i = 0; i < data.length; i++) {
-      uf = data[i]["uf"];
-      quant = Number(data[i]["quant"]);
+  $.getJSON(polosByStateJson, function (polos) {
+    for (var i = 0; i < polos.data.length; i++) {
+      uf = polos.data[i]["uf"];
+      quant = Number(polos.data[i]["quant"]);
       if (!(regioes[uf] in polosRegiao)) {
         polosRegiao[regioes[uf]] = quant;
       }
