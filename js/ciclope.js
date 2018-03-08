@@ -1,8 +1,17 @@
 function loadMap(mapId) {
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JlZXZpbiIsImEiOiJjamU3b3ZwbGowNG5oMnlxdjVoYXoxbGdjIn0.qX2DwLHD_0QwRGUhAeh0Cg';
+
+  var accessToken = 'pk.eyJ1IjoibWFwYXVhYiIsImEiOiJjamVpbDZsazgzNWJyMnFxZTN0Z2diczc5In0.x09vnBwbadLIJ-HMq-E8sg';
+  var brasilStyle = 'mapbox://styles/mapauab/cjeil7fjv0rxm2ro2jll0x412';
+  var ipesLayer = 'mapbox://mapauab.cjeim2fzs0tfi2qmo3w4mqixu-1qo7e';
+  var ipesSourceLayer = 'ipes-data';
+  var polosLayer = 'mapbox://mapauab.cjeim1kte2inx39o7p1owd9ei-97832';
+  var polosSourceLayer = 'polos-data';
+  var pinImage = './style/images/pin.png';
+
+  mapboxgl.accessToken = accessToken;
   var map = new mapboxgl.Map({
     container: mapId,
-    style: 'mapbox://styles/greevin/cjea7kekd2d0s2sna9n60xb31',
+    style: brasilStyle,
     zoom: 3.5,
     center: [-51.540733, -14.720560],
   });
@@ -19,7 +28,7 @@ function loadMap(mapId) {
     // carrega os polos
     map.addSource("polos", {
       type: 'vector',
-      url: 'mapbox://greevin.cje8m702v00di2wr40hykvgtq-66bqr'
+      url: polosLayer
     });
 
     // adiciona os círculos nos polos
@@ -27,7 +36,7 @@ function loadMap(mapId) {
       'id': 'polos',
       'type': 'circle',
       'source': 'polos',
-      'source-layer': 'polos-insert',
+      'source-layer': polosSourceLayer,
       'layout': {
         'visibility': 'visible'
       },
@@ -50,18 +59,18 @@ function loadMap(mapId) {
     // carrega os ipes
     map.addSource("ipes", {
       type: "vector",
-      url: "mapbox://greevin.cje8mbo920q6b2wmrjxsi17jc-840cb"
+      url: ipesLayer
     });
 
     // carrega o pin e adiciona no layer dos ipes
-    map.loadImage('./style/images/pin.png', function (error, image) {
+    map.loadImage(pinImage, function (error, image) {
       if (error) throw error;
       map.addImage('pin', image);
       map.addLayer({
         'id': 'ipes',
         'type': 'symbol',
         'source': 'ipes',
-        'source-layer': 'ipes-insert',
+        'source-layer': ipesSourceLayer,
         layout: {
           "icon-image": "pin",
           'visibility': 'visible'
@@ -76,9 +85,6 @@ function loadMap(mapId) {
       closeButton: false,
       closeOnClick: false
     });
-
-    var title = document.getElementById('location-title');
-    var description = document.getElementById('location-description');
 
     // muda o cursor para pointer quando entrar em um polo
     // adiciona o popup com o nome fantasia do polo
