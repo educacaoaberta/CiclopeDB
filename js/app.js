@@ -20,54 +20,41 @@ var app = new Vue({
         url: ''
     },
     mounted() {
-        EventBus.$on('idPolo', idPolo => {
-            this.id = idPolo
+        EventBus.$on('infoPolo', infoPolo => {
+            $("#about-data").addClass('hide-visually');
+            $("#tabs-data").removeClass('hide-visually');
+            $("#tabs-polos").tabs("option", "active", 0);
+
             this.sigla = null
+            this.id = infoPolo
+            this.nome = infoPolo.nome_polo
+            this.endereco.logradouro = infoPolo.logradouro
+            this.endereco.numero = infoPolo.numero
+            this.bairro = infoPolo.bairro
+            this.cidade = infoPolo.cidade
+            this.estado = infoPolo.uf
+            this.cep = infoPolo.cep
+            this.endereco.complemento = infoPolo.complemento
+            this.nome_fantasia = infoPolo.nome_fantasia
         });
 
-        EventBus.$on('siglaIpes', siglaIpes => {
-            this.sigla = siglaIpes.sigla
-            this.id = null
-            this.arquivo = siglaIpes.arquivo
-        });
-    },
-    watch: {
-        id: function () {
-            axios.get('/model/polos.php?operation=polodata&id=' + this.id)
-                .then(response => {
-                    this.nome = response.data[0].nome_polo
-                    this.endereco.logradouro = response.data[0].logradouro
-                    this.endereco.numero = response.data[0].numero
-                    this.bairro = response.data[0].bairro
-                    this.cidade = response.data[0].cidade
-                    this.estado = response.data[0].uf
-                    this.cep = response.data[0].cep
-                    this.endereco.complemento = response.data[0].complemento
-                    this.nome_fantasia = response.data[0].nome_fantasia
-                })
-                .catch(error => {
-                    console.log(error);
-                });
-        },
-        sigla: function () {
-            $("#about-data").addClass('hide-visually')
-            $("#tabs-data").removeClass('hide-visually')
+        EventBus.$on('infoIpes', infoIpes => {
+            $("#about-data").addClass('hide-visually');
+            $("#tabs-data").removeClass('hide-visually');
             $("#tabs-polos").tabs("option", "active", 0);
-            axios.get('/model/ipes.php?operation=ipesdata&sigla=' + this.sigla)
-                .then(response => {
-                    this.nome = response.data[0].sigla
-                    this.endereco.logradouro = response.data[0].logradouro
-                    this.bairro = response.data[0].bairro
-                    this.cidade = response.data[0].cidade
-                    this.estado = response.data[0].estado
-                    this.cep = response.data[0].cep
-                    this.telefone = response.data[0].telefone
-                    this.url = response.data[0].url
-                })
-                .catch(error => {
-                    console.log(error);
-                });
-        }
+
+            this.id = null
+            this.sigla = infoIpes.sigla
+            this.arquivo = infoIpes.arquivo
+            this.nome = infoIpes.sigla
+            this.endereco.logradouro = infoIpes.logradouro
+            this.bairro = infoIpes.bairro
+            this.cidade = infoIpes.cidade
+            this.estado = infoIpes.estado
+            this.cep = infoIpes.cep
+            this.telefone = infoIpes.telefone
+            this.url = infoIpes.url
+        });
     },
     filters: {
         formataCep: function (cep) {
