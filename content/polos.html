@@ -45,12 +45,12 @@
                             </div>
                             <!--Fim do Logradouro-->
                             <!--Bairro-->
-                            <div class='col col--1 block' style="margin: auto;" v-if="bairro != null">
+                            <div class='col col--1 block' style="margin: auto;" v-if="bairro != ''">
                                 <svg class="icon h24 w24 mx-auto">
                                     <use xlink:href="#icon-home"></use>
                                 </svg>
                             </div>
-                            <div class='col col--11 my6' v-if="bairro != null">
+                            <div class='col col--11 my6' v-if="bairro != ''">
                                 <div class="txt-s txt-bold mb-neg3">
                                     <p>Bairro</p>
                                 </div>
@@ -99,12 +99,12 @@
                             </div>
                             <!--Fim do CEP-->
                             <!--Telefone-->
-                            <div class='col col--1 block' style="margin: auto;" v-if="telefone.length > 2">
+                            <div class='col col--1 block' style="margin: auto;" v-if="telefone.length > 3">
                                 <svg class="icon h24 w24 mx-auto">
                                     <use xlink:href="#icon-mobile"></use>
                                 </svg>
                             </div>
-                            <div class='col col--11 my6' v-if="telefone.length > 2">
+                            <div class='col col--11 my6' v-if="telefone.length > 3">
                                 <div class="txt-s txt-bold mb-neg3"><p>Telefone</p></div>
                                 <div class="txt-m">
                                     <p>{{ telefone | formataTelefone }}</p>
@@ -112,12 +112,12 @@
                             </div>
                             <!--Fim do Telefone-->
                             <!--URL-->
-                            <div class='col col--1 block' style="margin: auto;" v-if="url != null">
+                            <div class='col col--1 block' style="margin: auto;" v-if="url != ''">
                                 <svg class="icon h24 w24 mx-auto">
                                     <use xlink:href="#icon-info"></use>
                                 </svg>
                             </div>
-                            <div class='col col--11 my6' v-if="url != null">
+                            <div class='col col--11 my6' v-if="url != ''">
                                 <div class="txt-s txt-bold mb-neg3"><p>URL</p></div>
                                 <div class="txt-m">
                                     <p>{{ url }}</p>
