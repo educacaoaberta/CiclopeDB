@@ -94,12 +94,30 @@
         </div>
         <!--carrega sidebar com os dados dos polos/ipes-->
         <div id="tabs-data" class='hide-visually'></div>
-        </div>
+        <div id="arquivos" class="hide-visually"></div>
     </div>
+</div>
 </div>
 
 <!--Loads map-->
 <div id="map"></div>
+
+<div></div>
+<form class="hide-visually" id="menu">
+    <div class="leaflet-control-layers-overlays">
+        <label>
+            <div><input type="checkbox" class="leaflet-control-layers-selector" id="ipes" checked>
+                <span> Núcleos</span>
+            </div>
+        </label>
+        <label>
+            <div>
+                <input type="checkbox" id="polos" class="leaflet-control-layers-selector">
+                <span> Polos</span>
+            </div>
+        </label>
+    </div>
+</form>
 
 <script>
   // carrega mapa

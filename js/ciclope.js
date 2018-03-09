@@ -24,6 +24,8 @@ function loadMap(mapId) {
     // add layers button
     var layers = new LayersControl();
     map.addControl(layers, 'top-left');
+    var layersControl = new LayersControl();
+    map.addControl(layersControl, 'top-left');
 
     // carrega os polos
     map.addSource("polos", {
@@ -39,6 +41,7 @@ function loadMap(mapId) {
       'source-layer': polosSourceLayer,
       'layout': {
         'visibility': 'visible'
+        'visibility': 'none'
       },
       "paint": {
         "circle-color": '#4FB0C6',
@@ -151,17 +154,47 @@ function loadMap(mapId) {
 }
 
 class LayersControl {
+
   onAdd(map) {
     this._map = map;
     this._button = document.createElement('button');
     this._button.className = 'mapboxgl-ctrl-icon mapboxgl-ctrl-layers';
-    this._button.addEventListener('click', function() { 
-      // this.className = 'mapboxgl-ctrl-icon teste';
-      // this.appendChild(document.getElementById("menu"))
-     }, false);
+
+    this._layermenu = document.getElementById("menu");
+
+    // adiciona o botão em um container
     this._container = document.createElement('div');
     this._container.className = 'mapboxgl-ctrl mapboxgl-ctrl-group';
+    this._container.appendChild(this._layermenu)
     this._container.appendChild(this._button)
+
+    // ao entrar no container
+    this._container.addEventListener('mouseenter', function() {
+      let menu = this.firstChild
+      console.log(this)
+      menu.className = ''
+
+      menu.addEventListener('click', function() {
+        let input = $( "#menu input" );
+        for (let i = 0; i < input.length; i++) {
+          let visibility = map.getLayoutProperty(input[i].id, 'visibility');
+
+          console.log(input[i].id + ": " + visibility)
+          if(input[i].checked === true) {
+            map.setLayoutProperty(input[i].id, 'visibility', 'visible');
+          } else {
+            map.setLayoutProperty(input[i].id, 'visibility', 'none');
+          }
+        }
+      });
+    }, false);
+
+    // ao deixar o container
+    this._container.addEventListener('mouseleave', function() {
+      this.firstChild.className = 'hide-visually'
+    }, false);
+
+
     return this._container;
   }
 
