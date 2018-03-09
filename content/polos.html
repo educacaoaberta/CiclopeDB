@@ -209,12 +209,12 @@
                         </div>
                         <!--Fim do CEP-->
                         <!--Complemento-->
-                        <div class='col col--1 block' style="margin: auto;" v-if="endereco.complemento">
+                        <div class='col col--1 block' style="margin: auto;" v-if="!endereco.complemento === null">
                             <svg class="icon h24 w24 mx-auto">
                                 <use xlink:href="#icon-clipboard"></use>
                             </svg>
                         </div>
-                        <div class='col col--11 my6' v-if="endereco.complemento">
+                        <div class='col col--11 my6' v-if="!endereco.complemento === null">
                             <div class="txt-s txt-bold mb-neg3"><p>Complemento</p></div>
                             <div class="txt-m">
                                 <p>{{ endereco.complemento }}</p>
