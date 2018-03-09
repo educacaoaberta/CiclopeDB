@@ -22,8 +22,6 @@ function loadMap(mapId) {
     map.addControl(nav, 'top-left');
 
     // add layers button
-    var layers = new LayersControl();
-    map.addControl(layers, 'top-left');
     var layersControl = new LayersControl();
     map.addControl(layersControl, 'top-left');
 
@@ -40,7 +38,6 @@ function loadMap(mapId) {
       'source': 'polos',
       'source-layer': polosSourceLayer,
       'layout': {
-        'visibility': 'visible'
         'visibility': 'none'
       },
       "paint": {
@@ -97,6 +94,7 @@ function loadMap(mapId) {
       var coordinates = e.lngLat;
       var nome_fantasia = e.features[0].properties.nome_fantasia;
 
+      // configura o popup para mostrar o nome do polo
       popup.setLngLat(coordinates)
         .setText(nome_fantasia.toUpperCase())
         .addTo(map);
@@ -108,15 +106,9 @@ function loadMap(mapId) {
       popup.remove();
     });
 
+    // ao clicar em um polo...
     map.on('click', 'polos', function(e) {
-      EventBus.$emit('idPolo', e.features[0].properties.id);
-
-      // $('#polosBarChart').remove();
-      // $('#graphContainer').append('<canvas id="polosBarChart"><canvas>');
-      //
-      // var myBarChart = loadChart("polosBarChart", "bar", "Polos");
-      // var sigla = e.features[0].properties.sigla;
-      // processBarChartIpesWithSiglaIpes(myBarChart, sigla);
+      EventBus.$emit('infoPolo', e.features[0].properties);
     });
 
     // muda o cursor quando entrar em um ipes
@@ -133,8 +125,9 @@ function loadMap(mapId) {
 
     });
 
+    // ao clicar em um ipes...
     map.on('click', 'ipes', function(e) {
-      EventBus.$emit('siglaIpes', e.features[0].properties);
+      EventBus.$emit('infoIpes', e.features[0].properties);
 
       // remove a div e adiciona para que não se repita o gráfico
       $('#polosBarChart').remove();

@@ -21,40 +21,49 @@ var app = new Vue({
     },
     mounted() {
         EventBus.$on('infoPolo', infoPolo => {
-            $("#about-data").addClass('hide-visually');
-            $("#tabs-data").removeClass('hide-visually');
-            $("#tabs-polos").tabs("option", "active", 0);
-
-            this.sigla = null
-            this.id = infoPolo
-            this.nome = infoPolo.nome_polo
-            this.endereco.logradouro = infoPolo.logradouro
-            this.endereco.numero = infoPolo.numero
-            this.bairro = infoPolo.bairro
-            this.cidade = infoPolo.cidade
-            this.estado = infoPolo.uf
-            this.cep = infoPolo.cep
-            this.endereco.complemento = infoPolo.complemento
-            this.nome_fantasia = infoPolo.nome_fantasia
+          this.setInfoPolo(infoPolo);
         });
 
         EventBus.$on('infoIpes', infoIpes => {
-            $("#about-data").addClass('hide-visually');
-            $("#tabs-data").removeClass('hide-visually');
-            $("#tabs-polos").tabs("option", "active", 0);
+            this.setInfoIpes(infoIpes);
 
-            this.id = null
-            this.sigla = infoIpes.sigla
-            this.arquivo = infoIpes.arquivo
-            this.nome = infoIpes.sigla
-            this.endereco.logradouro = infoIpes.logradouro
-            this.bairro = infoIpes.bairro
-            this.cidade = infoIpes.cidade
-            this.estado = infoIpes.estado
-            this.cep = infoIpes.cep
-            this.telefone = infoIpes.telefone
-            this.url = infoIpes.url
         });
+    },
+    methods: {
+        setInfoIpes: function (infoIpes) {
+          $("#about-data").addClass('hide-visually');
+          $("#tabs-data").removeClass('hide-visually');
+          $("#tabs-polos").tabs("option", "active", 0);
+
+          this.id = null
+          this.sigla = infoIpes.sigla
+          this.arquivo = infoIpes.arquivo
+          this.nome = infoIpes.sigla
+          this.endereco.logradouro = infoIpes.logradouro
+          this.bairro = infoIpes.bairro
+          this.cidade = infoIpes.cidade
+          this.estado = infoIpes.estado
+          this.cep = infoIpes.cep
+          this.telefone = infoIpes.telefone
+          this.url = infoIpes.url
+        },
+        setInfoPolo: function (infoPolo) {
+          $("#about-data").addClass('hide-visually');
+          $("#tabs-data").removeClass('hide-visually');
+          $("#tabs-polos").tabs("option", "active", 0);
+
+          this.sigla = null
+          this.id = infoPolo
+          this.nome = infoPolo.nome_polo
+          this.endereco.logradouro = infoPolo.logradouro
+          this.endereco.numero = infoPolo.numero
+          this.bairro = infoPolo.bairro
+          this.cidade = infoPolo.cidade
+          this.estado = infoPolo.uf
+          this.cep = infoPolo.cep
+          this.endereco.complemento = infoPolo.complemento
+          this.nome_fantasia = infoPolo.nome_fantasia
+        }
     },
     filters: {
         formataCep: function (cep) {
