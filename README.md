@@ -27,3 +27,23 @@ A implementação atual é focada em dados da [Universidade Aberta do Brasil](ht
 Este software foi baseado no [Ciclope](https://github.com/tamielbr/Ciclope/), uma implementação que não faz uso de banco de dados, somente arquivos JSON.
 
 Versão DB baseado em https://github.com/bmcbride/leaflet-users-map
+
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

@@ -1,149 +1,51 @@
-<!--Ciclope project - https://github.com/tamielbr/Ciclope/-->
-<!-- Began as a remix from AfyaMap, https://github.com/Jumagreens/AfyaMap -->
-<!--GPL v3.0 by Tel Amiel and Gabriel Fedel-->
-
 <!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>ciclopedb-vue</title>
 
-    <title>Grupo de pesquisa: UAB</title>
-    <meta name="description" content="Dados do estudo de Núcleos UAB">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- Mapbox GL CSS -->
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
 
-    <!--jQuery-->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- Assembly.css -->
+  <link href="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.min.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.js"></script>
 
-    <!--Mapbox-->
-    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css" rel="stylesheet"/>
-    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js"></script>
+  <!-- jQuery   -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <!-- Assembly.css -->
-    <link href="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.min.css" rel="stylesheet">
-    <script src="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.js"></script>
+  <!--Script for Chart -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
 
-    <!--Timeline scripts-->
-    <script src="http://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-    <link title="timeline-styles" rel="stylesheet"
-          href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-
-    <!--Scripts and css for dynamic tables-->
-    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript"
-            src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="http://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css">
-
-    <!--Script for Chart -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
-
-    <!--Vue.js-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <!--Axios-->
-    <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
-    <!--Application stylesheet and application-->
-    <link rel="stylesheet" href="style/style.css">
-
-    <!--Load graphs-->
-    <script type="text/javascript" src="js/functions.js"></script>
-    <script src="js/ciclope.js"></script>
-    <script type="text/javascript" src="js/eventBus.js"></script>
-    <script src="js/app.js"></script>
+<link rel="stylesheet" href="/static/style.css">
 
 </head>
 
 <body>
-
-<div id="loading-panel" class="flex-parent flex-parent--center-cross flex-parent--center-main absolute top right bottom left bg-darken25 z5">
-    <div class="flex-child loading"></div>
-</div>
-
-<!--Loads right sidebar-->
-<div class='scroll-hidden' id="sidebar">
-    <div class='bg-darken10 viewport-twothirds viewport-full-ml absolute top right bottom'></div>
-    <div class='absolute top-ml right bottom z1 w-full w600-ml px12 py12-ml'>
-        <!--carrega sidebar inicial-->
-        <div id="about-data">
-            <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
-                style="justify-content:space-around;">
-                <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
-                    <a href="#tab-principal">Principal</a>
-                </li>
-                <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
-                    <a href="#tab-sobre">Sobre o projeto</a>
-                </li>
-                <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
-                    <a href="#tab-dados">Dados</a>
-                </li>
-            </ul>
-
-            <div class='flex-parent flex-parent--column viewport-half h-auto-ml hmax-full bg-white shadow-darken10'>
-                <div class='px12 py12 scroll-auto'>
-                    <div id="tab-principal"></div>
-                    <div id="tab-sobre"></div>
-                    <div id="tab-dados"></div>
-                </div>
-            </div>
-        </div>
-        <!--carrega sidebar com os dados dos polos/ipes-->
-        <div id="tabs-data" class='hide-visually'></div>
-        <div id="arquivos" class="hide-visually"></div>
-    </div>
-</div>
-</div>
-
-<!--Loads map-->
-<div id="map"></div>
-
-<div></div>
-<form class="hide-visually" id="menu">
+  <div id="app">
+    <initial-sidebar></initial-sidebar>
+    <info-ipes class="hide-visually"></info-ipes>
+    <info-polos class="hide-visually"></info-polos>
+  </div>
+  <div id="map"></div>
+  <form class="hide-visually" id="menu">
     <div class="leaflet-control-layers-overlays">
-        <label>
-            <div><input type="checkbox" class="leaflet-control-layers-selector" id="ipes" checked>
-                <span> Núcleos</span>
-            </div>
-        </label>
-        <label>
-            <div>
-                <input type="checkbox" id="polos" class="leaflet-control-layers-selector">
-                <span> Polos</span>
-            </div>
-        </label>
+      <label>
+        <div><input type="checkbox" class="leaflet-control-layers-selector" id="ipes" checked>
+          <span> Núcleos</span>
+        </div>
+      </label>
+      <label>
+        <div>
+          <input type="checkbox" id="polos" class="leaflet-control-layers-selector">
+          <span> Polos</span>
+        </div>
+      </label>
     </div>
-</form>
-
-<script>
-  // carrega mapa
-  loadMap('map');
-
-  // carrega os arquivos para cada abas
-  $(function () {
-    $("#about-data").tabs({
-      show: "fade",
-      hide: "fade"
-    });
-    $("#tab-principal").load("content/principal.html");
-    $("#tab-sobre").load("content/sobre.html");
-    $("#tab-dados").load("content/dados.html");
-    $("#tabs-data").load("content/polos.html");
-  });
-
-  $(window).on('load', function () {
-    setTimeout(function () {
-      $(".loading").fadeOut("slow");
-      $("#loading-panel").addClass('hide-visually');
-    }, 5000);
-
-  });
-</script>
-
+  </form>
 </body>
 
 </html>

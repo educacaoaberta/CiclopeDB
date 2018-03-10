@@ -1,0 +1,217 @@
+<template>
+<right-sidebar id="info-polos-right-sidebar">
+  <template slot="tabs">
+    <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
+            style="justify-content:space-around;">
+            <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+                <a href="#info-polos-tab-dados-gerais">Dados Gerais</a>
+            </li>
+        </ul>
+  </template>
+  <template slot="content">
+    <div class='px12 py12 bg-blue-faint round-b-ml txt-s'>
+      <div class="txt-l txt-bold mb-neg3">{{ nome }}</div>
+    </div>
+
+    <div class='px12 py12 scroll-auto set-height'>
+      <div id="info-polos-tab-dados-gerais" v-show="id">
+        <div class='grid'>
+            <!--Endereço-->
+            <div class='col col--1 block' style="margin: auto;" v-if="endereco.logradouro.length > 2">
+                <svg class="icon h24 w24 mx-auto mx-auto">
+                    <use xlink:href="#icon-street"></use>
+                </svg>
+            </div>
+            <div class='col col--11 my6' v-if="endereco.logradouro.length > 2">
+                <div class="txt-s txt-bold mb-neg3">
+                    <p>Endereço</p>
+                </div>
+                <div class="txt-m">
+                    <p>{{ endereco.logradouro | formataEndereco(endereco.numero) }}</p>
+                </div>
+            </div>
+            <!--Fim do Logradouro-->
+            <!--Bairro-->
+            <div class='col col--1 block' style="margin: auto;">
+                <svg class="icon h24 w24 mx-auto">
+                    <use xlink:href="#icon-home"></use>
+                </svg>
+            </div>
+            <div class='col col--11 my6'>
+                <div class="txt-s txt-bold mb-neg3">
+                    <p>Bairro</p>
+                </div>
+                <div class="txt-m">
+                    <p>{{ bairro }}</p>
+                </div>
+            </div>
+            <!--Fim do Bairro-->
+            <!--Cidade-->
+            <div class='col col--1 block' style="margin: auto;">
+                <svg class="icon h24 w24 mx-auto">
+                    <use xlink:href="#icon-map"></use>
+                </svg>
+            </div>
+            <div class='col col--11 my6'>
+                <div class="txt-s txt-bold mb-neg3"><p>Cidade</p></div>
+                <div class="txt-m">
+                    <p>{{ cidade }}</p>
+                </div>
+            </div>
+            <!--Fim do Cidade-->
+            <!--Estado-->
+            <div class='col col--1 block' style="margin: auto;">
+                <svg class="icon h24 w24 mx-auto">
+                    <use xlink:href="#icon-globe"></use>
+                </svg>
+            </div>
+            <div class='col col--11 my6'>
+                <div class="txt-s txt-bold mb-neg3"><p>Estado</p></div>
+                <div class="txt-m">
+                    <p>{{ estado }}</p>
+                </div>
+            </div>
+            <!--Fim do Estado-->
+            <!--CEP-->
+            <div class='col col--1 block' style="margin: auto;" v-if="cep.length > 2">
+                <svg class="icon h24 w24 mx-auto">
+                    <use xlink:href="#icon-marker"></use>
+                </svg>
+            </div>
+            <div class='col col--11 my6' v-if="cep.length > 2">
+                <div class="txt-s txt-bold mb-neg3"><p>CEP</p></div>
+                <div class="txt-m">
+                    <p>{{ cep | formataCep }}</p>
+                </div>
+            </div>
+            <!--Fim do CEP-->
+            <!--Complemento-->
+            <div class='col col--1 block' style="margin: auto;" v-if="!endereco.complemento === null">
+                <svg class="icon h24 w24 mx-auto">
+                    <use xlink:href="#icon-clipboard"></use>
+                </svg>
+            </div>
+            <div class='col col--11 my6' v-if="!endereco.complemento === null">
+                <div class="txt-s txt-bold mb-neg3"><p>Complemento</p></div>
+                <div class="txt-m">
+                    <p>{{ endereco.complemento }}</p>
+                </div>
+            </div>
+            <!--Fim do Complemento-->
+            <!--Nome Fantasia-->
+            <div class='col col--1 block' style="margin: auto;">
+                <svg class="icon h24 w24 mx-auto">
+                    <use xlink:href="#icon-quotes"></use>
+                </svg>
+            </div>
+            <div class='col col--11 my6'>
+                <div class="txt-s txt-bold mb-neg3"><p>Nome Fantasia</p></div>
+                <div class="txt-m">
+                    <p>{{ nome_fantasia }}</p>
+                </div>
+            </div>
+            <!--Fim do Nome Fantasia-->
+        </div>
+    </div>
+    </div>
+
+  </template>
+</right-sidebar>
+</template>
+
+<script>
+import { EventBus } from "../eventBus";
+
+// $(function() {
+//   $("#info-polos-right-sidebar").tabs({ show: "fade", hide: "fade", active: 0 });
+// });
+
+export default {
+  data() {
+    return {
+      id: "",
+      sigla: "",
+      arquivo: "",
+      nome_polo: "",
+      nome: "",
+      endereco: {
+        logradouro: "",
+        numero: "",
+        complemento: ""
+      },
+      bairro: "",
+      cidade: "",
+      estado: "",
+      cep: "",
+      nome_fantasia: "",
+      telefone: "",
+      url: "",
+      isVisible: false
+    };
+  },
+  mounted() {
+    $("#info-polos-right-sidebar").tabs({ show: "fade", hide: "fade", active: 0 });
+
+    EventBus.$on("infoPolo", infoPolo => {
+      this.setInfoPolo(infoPolo);
+    });
+    EventBus.$on("switchInfoPolos", isVisible => {
+      this.isVisible = isVisible
+    });
+  },
+  watch: {
+    isVisible() {
+      if(this.isVisible) {
+        $("#info-polos-right-sidebar").removeClass("hide-visually");
+      } else {
+        $("#info-polos-right-sidebar").addClass("hide-visually");
+      }
+    }
+  },
+  methods: {
+    setInfoPolo: function(infoPolo) {
+      // $("#about-data").addClass("hide-visually");
+      // $("#tabs-data").removeClass("hide-visually");
+      $("#info-polos-right-sidebar").tabs("option", "active", 0);
+
+      this.sigla = null;
+      this.id = infoPolo;
+      this.nome = infoPolo.nome_polo;
+      this.endereco.logradouro = infoPolo.logradouro;
+      this.endereco.numero = infoPolo.numero;
+      this.bairro = infoPolo.bairro;
+      this.cidade = infoPolo.cidade;
+      this.estado = infoPolo.uf;
+      this.cep = infoPolo.cep;
+      this.endereco.complemento = infoPolo.complemento;
+      this.nome_fantasia = infoPolo.nome_fantasia;
+    }
+  },
+  filters: {
+    formataCep: function(cep) {
+      if (!cep) return "";
+      var primeiraparte = cep.substr(0, 5);
+      var segundaparte = cep.substr(5, 3);
+      var cepcompleto = primeiraparte + "-" + segundaparte;
+      return cepcompleto;
+    },
+    formataTelefone: function(telefone) {
+      if (!telefone) return "";
+      var primeiraparte = telefone.substr(0, 9);
+      var segundaparte = telefone.substr(9, 4);
+      var telefonecompleto = primeiraparte + "-" + segundaparte;
+      return telefonecompleto;
+    },
+    formataEndereco: function(logradouro, numero) {
+      if (!logradouro || !numero) return "";
+      return logradouro + ", " + numero;
+    }
+  }
+};
+</script>
+
+<style>
+
+</style>
+
+
