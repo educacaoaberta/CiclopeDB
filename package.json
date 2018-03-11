@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "datatables.net": "^1.10.16",
     "datatables.net-dt": "^1.10.16",
     "mapbox-gl": "^0.44.1",
