@@ -82,7 +82,7 @@ li.ui-tabs-active.ui-state-active {
 
 @media screen and (min-width: 800px) {
     .flex-parent.flex-parent--column.viewport-half.h-auto-ml.hmax-full.bg-white.shadow-darken10 {
-        height: calc(100vh - 80px) !important;
+        height: calc(100vh - 125px) !important;
     }
     #tabs-polos > div > div.px12.py12.scroll-auto.set-height {
         height: calc(100vh - 144px) !important;
