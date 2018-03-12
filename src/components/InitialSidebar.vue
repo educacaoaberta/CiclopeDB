@@ -1,6 +1,9 @@
 <template>
 <right-sidebar id="initial-sidebar">
   <template slot="tabs">
+      <div class='px12 py12 bg-blue-faint txt-s'>
+          <div class="txt-l txt-bold mb-neg3">Sistema Universidade Aberta do Brasil</div>
+      </div>
     <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
             style="justify-content:space-around;">
             <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
