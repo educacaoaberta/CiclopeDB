@@ -113,7 +113,7 @@
             <div class='col col--11 my6' v-if="url != ''">
                 <div class="txt-s txt-bold mb-neg3"><p>URL</p></div>
                 <div class="txt-m">
-                    <p>{{ url }}</p>
+                    <a :href="url" class="link">{{ url }}</a>
                 </div>
             </div>
             <!--Fim da URL-->

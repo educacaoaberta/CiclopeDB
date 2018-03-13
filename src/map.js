@@ -24,6 +24,8 @@ let map = new mapboxgl.Map({
   center: [-41.540733, -14.720560],
   // maxZoom: 5,
   // minZoom: 1,
+  minZoom: 3.5,
+  maxZoom: 10,
 });
 
 // cria um novo popup
