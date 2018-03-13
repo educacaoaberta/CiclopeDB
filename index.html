@@ -20,7 +20,6 @@
   <!--Script for Chart -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
 
-  <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="./static/style.css">
 
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
@@ -28,15 +27,22 @@
 
   <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
 </head>
 
 <body>
+    <!--loading panel-->
+    <div id="loading-panel" class="flex-parent flex-parent--center-cross flex-parent--center-main absolute top right bottom left bg-darken25 z5">
+        <div class="flex-child loading"></div>
+    </div>
+
   <div id="app">
     <initial-sidebar></initial-sidebar>
     <info-ipes class="hide-visually"></info-ipes>
     <info-polos class="hide-visually"></info-polos>
   </div>
   <div id="map"></div>
+
     <!--layers menu-->
   <form class="hide-visually" id="menu">
     <div class="leaflet-control-layers-overlays">
@@ -53,6 +59,16 @@
       </label>
     </div>
   </form>
+
+<script>
+  $(window).on('load', function () {
+    setTimeout(function () {
+      $(".loading").fadeOut("slow");
+      $("#loading-panel").addClass('hide-visually');
+    }, 5000);
+  });
+
+</script>
 </body>
 
 </html>
