@@ -7,13 +7,16 @@
     <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
             style="justify-content:space-around;">
             <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
-                <a href="#info-polos-tab-dados-gerais">Dados Gerais</a>
+                <a href="#info-polos-tab-info-gerais">Informações Gerais</a>
+            </li>
+            <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+                <a href="#info-polos-tab-dados">Dados</a>
             </li>
         </ul>
   </template>
   <template slot="content">
     <div class='px12 py12 scroll-auto set-height'>
-      <div id="info-polos-tab-dados-gerais" v-show="id">
+      <div id="info-polos-tab-info-gerais" v-show="id">
         <div class='grid'>
             <!--Endereço-->
             <div class='col col--1 block' style="margin: auto;" v-if="endereco.logradouro.length > 2">
@@ -112,8 +115,26 @@
             <!--Fim do Nome Fantasia-->
         </div>
     </div>
-    </div>
+        <div id="info-polos-tab-dados">
+            <table id="polos-info-table" class="display" cellspacing="0" width="100%">
+                <thead>
+                <tr>
+                    <th>IPES</th>
+                    <th>Estado</th>
+                </tr>
+                </thead>
+            </table>
 
+            <hr class='txt-hr'>
+
+            <!--carrega os gráficos-->
+            <div id="graphContainer">
+                <div class="txt-m txt-bold mb6">
+                    <p>Número de IPES por estado</p>
+                </div>
+            </div>
+        </div>
+    </div>
   </template>
 </right-sidebar>
 </template>
@@ -150,6 +171,11 @@ export default {
   },
   mounted() {
     $("#info-polos-right-sidebar").tabs({ show: "fade", hide: "fade", active: 0 });
+    $('#polos-info-table').DataTable({
+      "language": {
+        "url": "./static/json/datatables_pt-br.json"
+      },
+    });
 
     EventBus.$on("infoPolo", infoPolo => {
       this.setInfoPolo(infoPolo);

@@ -7,7 +7,10 @@
     <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
             style="justify-content:space-around;">
             <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
-                <a href="#info-ipes-tab-dados-gerais">Dados Gerais</a>
+                <a href="#info-ipes-tab-info-gerais">Informações Gerais</a>
+            </li>
+            <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+                <a href="#info-ipes-tab-dados">Dados</a>
             </li>
             <li v-show="sigla"
                 class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
@@ -17,7 +20,7 @@
   </template>
   <template slot="content">
     <div class='px12 py12 scroll-auto set-height'>
-      <div id="info-ipes-tab-dados-gerais" v-show="sigla">
+      <div id="info-ipes-tab-info-gerais" v-show="sigla">
         <div class='grid'>
             <!--Logradouro-->
             <div class='col col--1 block' style="margin: auto;" v-if="endereco.logradouro.length > 2">
@@ -115,17 +118,29 @@
             </div>
             <!--Fim da URL-->
         </div>
+    </div>
+        <div id="info-ipes-tab-dados">
+            <table id="ipes-info-table" class="display" cellspacing="0" width="100%">
+                <thead>
+                <tr>
+                    <th>Polo</th>
+                    <th>Estado</th>
+                </tr>
+                </thead>
+            </table>
 
-        <hr class='txt-hr'>
+            <hr class='txt-hr'>
 
-        <!--carrega os gráficos-->
-        <div id="graphContainer">
-            <div class="txt-m txt-bold mb6">
-                <p>Número de polos por estado</p>
+            <!--carrega os gráficos-->
+            <div id="graphContainer">
+                <div class="txt-m txt-bold mb6">
+                    <p>Número de polos por estado</p>
+                </div>
             </div>
         </div>
-    </div>
-      <div id="info-ipes-tab-linha-tempo">linha do tempo</div>
+      <div id="info-ipes-tab-linha-tempo">
+          <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+      </div>
     </div>
 
   </template>
@@ -162,6 +177,11 @@ export default {
   },
   mounted() {
     $("#info-ipes-right-sidebar").tabs({show: 'fade', hide: 'fade', active: 0});
+    $('#ipes-info-table').DataTable({
+      "language": {
+        "url": "./static/json/datatables_pt-br.json"
+      },
+    });
 
     EventBus.$on("infoIpes", infoIpes => {
       this.setInfoIpes(infoIpes);
