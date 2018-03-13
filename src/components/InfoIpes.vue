@@ -33,7 +33,7 @@
                     <p>Endereço</p>
                 </div>
                 <div class="txt-m">
-                    <p>{{ endereco.logradouro }}</p>
+                    <p class="txt-capitalize">{{ endereco.logradouro | allLowercase }}</p>
                 </div>
             </div>
             <!--Fim do Logradouro-->
@@ -48,7 +48,7 @@
                     <p>Bairro</p>
                 </div>
                 <div class="txt-m">
-                    <p>{{ bairro }}</p>
+                    <p class="txt-capitalize">{{ bairro | allLowercase }}</p>
                 </div>
             </div>
             <!--Fim do Bairro-->
@@ -240,6 +240,10 @@ export default {
     formataEndereco: function(logradouro, numero) {
       if (!logradouro || !numero) return "";
       return logradouro + ", " + numero;
+    },
+    allLowercase: function(txt) {
+      if (!txt ) return "";
+      return txt.toLowerCase()
     }
   }
 };
