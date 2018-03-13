@@ -6,12 +6,12 @@ body {
 
 @font-face {
   font-family: quattro;
-  src: url(/static/font/Gidole-Regular.ttf);
+  src: url(./font/Gidole-Regular.ttf);
 }
 
 @font-face {
   font-family: quattrobold;
-  src: url(/static/font/Gidole-Regular.ttf);
+  src: url(./font/Gidole-Regular.ttf);
 }
 
 

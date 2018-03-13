@@ -19,11 +19,11 @@
     mounted () {
       $('#allunits').DataTable({
         "ajax": {
-          "url": "/static/json/lista-unidades.geojson",
+          "url": "./static/json/lista-unidades.geojson",
           "dataSrc": "features"
         },
         "language": {
-          "url": "/static/json/datatables_pt-br.json"
+          "url": "./static/json/datatables_pt-br.json"
         },
           "columns": [
           { "data": "properties.tipo" },

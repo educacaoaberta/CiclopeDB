@@ -46,9 +46,9 @@ var ipesRegiao = {};
 var polosRegiao = {};
 
 var currentYear = (new Date()).getFullYear();
-var polosByStateWithFederativeUnitJson = "/static/model/polos.php?operation=polosbystatewithfederativeunit&sigla=";
-var ipesByStateJson = "/static/json/ipesbystate.json";
-var polosByStateJson = "/static/json/polosbystate.json";
+var polosByStateWithFederativeUnitJson = "./static/json/allpolos.json";
+var ipesByStateJson = "./static/json/ipesbystate.json";
+var polosByStateJson = "./static/json/polosbystate.json";
 
 // carrega o gráfico com as informações passadas nos parametros
 function loadChart(id, type, label) {
@@ -89,22 +89,33 @@ function loadChart(id, type, label) {
 
 // Número de polos por estado dentro dos arquivos do content
 function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
-  $.getJSON(polosByStateWithFederativeUnitJson + siglaIpes, function (data) {
-    if(data.length !== 0) {
-      $('#graphContainer').show()
-      for (let i = 0; i < data.length; i++) {
-        let estado = data[i][0];
-        let quant = Number(data[i][1]);
-        myBarChart.data.labels.push(estado);
-        myBarChart.data.datasets.forEach((dataset) => {
-          dataset.data.push(quant)
-          dataset.backgroundColor.push(regionsColors[regioes[estado]]);
-        });
+  $.getJSON(polosByStateWithFederativeUnitJson, function (data) {
+    // console.log(data.data.length)
+    $.each( data.data, function( key, val ) {
+      if(val.sigla === siglaIpes) {
+        $('#graphContainer').show()
+        // console.log(val)
+
+        // console.log('você clicou em' + val.sigla)
       }
-    } else {
-      $('#graphContainer').hide()
-    }
-    myBarChart.update();
+      // console.log(key)
+      // console.log(val.sigla)
+    });
+    // if(data.length !== 0) {
+    //   $('#graphContainer').show()
+    //   for (let i = 0; i < data.length; i++) {
+    //     let estado = data[i][0];
+    //     let quant = Number(data[i][1]);
+    //     myBarChart.data.labels.push(estado);
+    //     myBarChart.data.datasets.forEach((dataset) => {
+    //       dataset.data.push(quant)
+    //       dataset.backgroundColor.push(regionsColors[regioes[estado]]);
+    //     });
+    //   }
+    // } else {
+    //   $('#graphContainer').hide()
+    // }
+    // myBarChart.update();
   });
 }
 
