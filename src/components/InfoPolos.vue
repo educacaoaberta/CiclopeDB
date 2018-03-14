@@ -120,6 +120,7 @@
                 <thead>
                 <tr>
                     <th>IPES</th>
+                    <th>Polos</th>
                     <th>Estado</th>
                 </tr>
                 </thead>
@@ -141,10 +142,6 @@
 
 <script>
 import { EventBus } from "../eventBus";
-
-// $(function() {
-//   $("#info-polos-right-sidebar").tabs({ show: "fade", hide: "fade", active: 0 });
-// });
 
 export default {
   data() {
@@ -171,14 +168,10 @@ export default {
   },
   mounted() {
     $("#info-polos-right-sidebar").tabs({ show: "fade", hide: "fade", active: 0 });
-    $('#polos-info-table').DataTable({
-      "language": {
-        "url": "./static/json/datatables_pt-br.json"
-      },
-    });
 
     EventBus.$on("infoPolo", infoPolo => {
       this.setInfoPolo(infoPolo);
+      this.loadPolosDataTable(infoPolo);
     });
     EventBus.$on("switchInfoPolos", isVisible => {
       this.isVisible = isVisible
@@ -194,6 +187,31 @@ export default {
     }
   },
   methods: {
+    loadPolosDataTable: function(infoPolo) {
+      let polosTable = $('#polos-info-table').DataTable({
+        "retrieve": true,
+        "ajax": {
+          "url": "./static/json/ipesdatatable.json",
+          "dataSrc": "data"
+        },
+        "language": {
+          "url": "./static/json/datatables_pt-br.json",
+        },
+        "columns": [
+          { "data": "sigla" },
+          { "data": "nome_polo" },
+          { "data": "estado" }
+        ],
+        "columnDefs": [
+          {
+            "targets": [ 1 ],
+            "visible": false,
+          }
+        ]
+      }).columns(1)
+        .search("^" + infoPolo.nome_polo + "$", true, false, true)
+        .draw();
+    },
     setInfoPolo: function(infoPolo) {
       // $("#about-data").addClass("hide-visually");
       // $("#tabs-data").removeClass("hide-visually");

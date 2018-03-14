@@ -123,6 +123,7 @@
             <table id="ipes-info-table" class="display" cellspacing="0" width="100%">
                 <thead>
                 <tr>
+                    <th>Sigla</th>
                     <th>Polo</th>
                     <th>Estado</th>
                 </tr>
@@ -149,8 +150,7 @@
 
 <script>
 import { EventBus } from "../eventBus";
-import { loadChart, processBarChartIpesWithSiglaIpes, processBarChartIpes, processBarChartIpesRegion,
-  processBarChartPolos, processBarChartPolosRegion } from '../functions';
+import { loadChart, processBarChartIpesWithSiglaIpes } from '../functions';
 
 export default {
   data() {
@@ -177,18 +177,18 @@ export default {
   },
   mounted() {
     $("#info-ipes-right-sidebar").tabs({show: 'fade', hide: 'fade', active: 0});
-    $('#ipes-info-table').DataTable({
-      "language": {
-        "url": "./static/json/datatables_pt-br.json"
-      },
-    });
 
     EventBus.$on("infoIpes", infoIpes => {
       this.setInfoIpes(infoIpes);
+      this.loadIpesDataTable(infoIpes);
     });
     EventBus.$on("switchInfoIpes", isVisible => {
       this.isVisible = isVisible
     });
+
+    $('#polosBarChart').remove();
+    $('#graphContainer').append('<canvas id="polosBarChart"><canvas>');
+
   },
   watch: {
     isVisible() {
@@ -200,11 +200,51 @@ export default {
     }
   },
   methods: {
+    loadIpesDataTable: function(infoIpes) {
+      let ipesTable = $('#ipes-info-table').DataTable({
+        "retrieve": true,
+        "ajax": {
+          "url": "./static/json/ipesdatatable.json",
+          "dataSrc": "data"
+        },
+        "language": {
+          "url": "./static/json/datatables_pt-br.json",
+        },
+        "columns": [
+          { "data": "sigla" },
+          { "data": "nome_polo" },
+          { "data": "estado" }
+        ],
+        "columnDefs": [
+          {
+            "targets": [ 0 ],
+            "visible": false,
+          }
+        ]
+      }).columns(0)
+        .search("^" + infoIpes.sigla + "$", true, false, true)
+        .draw();
+    },
     setInfoIpes: function(infoIpes) {
       $("#info-ipes-right-sidebar").tabs("option", "active", 0);
 
       $('#polosBarChart').remove();
       $('#graphContainer').append('<canvas id="polosBarChart"><canvas>');
+
+      var myBarChart = loadChart("polosBarChart", "bar", "Polos");
+      processBarChartIpesWithSiglaIpes(myBarChart, infoIpes.sigla);
+
+      var options = {
+        start_at_slide: 0
+      };
+
+      $.getJSON("/static/json/linhas.json", function (data){
+        $.each( data, function( key, val ) {
+          if(key === infoIpes.sigla) {
+            window.timeline = new TL.Timeline('timeline-embed', val, options);
+          }
+        })
+      });
 
       this.id = null;
       this.sigla = infoIpes.sigla;
@@ -218,8 +258,6 @@ export default {
       this.telefone = infoIpes.telefone;
       this.url = infoIpes.url;
 
-      var myBarChart = loadChart("polosBarChart", "bar", "Polos");
-      processBarChartIpesWithSiglaIpes(myBarChart, this.sigla);
     }
   },
   filters: {

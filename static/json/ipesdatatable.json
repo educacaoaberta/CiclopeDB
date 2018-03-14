@@ -1,0 +1,8774 @@
+{
+  "data": [
+    {
+      "sigla": "UFSJ",
+      "nome_polo": "SAO PAULO - PARAISOPOLIS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "FURG",
+      "nome_polo": "ESTEIO - PARQUE AMADOR",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "ARAGUARI - FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "BICAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "BURITIS - VEREDAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "COROMANDEL - SAO DOMINGOS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "LAGAMAR - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "UBERABA - MERCES",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "IGARAPAVA - VILA GOMES",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "ARAXA - SANTA RITA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "CAMPINAS - JARDIM PAINEIRAS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "CARNEIRINHO - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "PATOS DE MINAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "UBERLANDIA - BRASIL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFU",
+      "nome_polo": "VOTUPORANGA - VILA MUNIZ",
+      "estado": "SP"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "MACEIO - TABULEIRO DO MARTINS",
+      "estado": "AL"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "ARACATI - AEROPORTO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "BARBALHA - BURITI",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "CAMOCIM - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "CAUCAIA - ARATURI",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "CAUCAIA - NOVO PABUSSU",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "CAUCAIA - ITAMBE I",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "LIMOEIRO DO NORTE - SANTA LUZIA - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "MERUOCA - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "QUIXADA - CEDRO VELHO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "QUIXERAMOBIM - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "SAO GONCALO DO AMARANTE - LIBERDADE",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "BEBERIBE - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "CAMPOS SALES - ALTO ALEGRE",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "ITAPIPOCA - COQUEIRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "JAGUARIBE - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "OROS - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "TAUA - COLIBRIS",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFCE",
+      "nome_polo": "ACARAU - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "SANTANA - NOVA BRASÍLIA",
+      "estado": "AP"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "VITORIA DO JARI - CIDADE LIVRE",
+      "estado": "AP"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "PARAUAPEBAS - CIDADE NOVA",
+      "estado": "PA"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "REDENCAO - VILA PAULISTA",
+      "estado": "PA"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "TAILANDIA - NOVO",
+      "estado": "PA"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "TUCUMA - BAIRRO DAS FLORES",
+      "estado": "PA"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "ALTO ALEGRE - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "AMAJARI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "BOA VISTA - PRICUMA",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "BONFIM - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "CARACARAI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "IRACEMA - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "PACARAIMA - SUAPI",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "RORAINOPOLIS - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "SAO JOAO DA BALIZA - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "BREVES - AEROPORTO",
+      "estado": "PA"
+    },
+    {
+      "sigla": "IFPA",
+      "nome_polo": "PARAGOMINAS - JK",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "ACRELANDIA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "BRASILEIA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "CRUZEIRO DO SUL - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "RIO BRANCO - VILA IVONETE",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "SENA MADUREIRA - CSU",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "TARAUACA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "XAPURI - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "SANTANA DO IPANEMA - NOVO CENTRO COMERCIAL",
+      "estado": "AL"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "CARINHANHA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "PIRITIBA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "CAUCAIA - ITAMBE I",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "CASTELO - VILA ISABEL",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "AGUAS LINDAS DE GOIAS - MANSOES OLINDA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "ALTO PARAISO DE GOIAS - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "CEZARINA - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "GOIANESIA - SANTA LUZIA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "BURITIS - VEREDAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "COROMANDEL - SAO DOMINGOS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "IPATINGA - BOM RETIRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "PRIMAVERA DO LESTE - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "CUITE DE MAMANGUAPE - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "DUAS ESTRADAS - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "BOA VISTA - PRICUMA",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "SANTO ANTONIO DA PATRULHA - CIDADE ALTA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "BARRETOS - DERBYCLUB",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "ITAPETININGA - TABOAOZINHO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "ANANAS - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "PALMAS - PLANO DIRETOR NORTE",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "ANAPOLIS - JUNDIAI",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "BARRA DO BUGRES - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "DIAMANTINO - MT 240",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "GOIAS - ALTO DO SANTANA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "PORTO NACIONAL - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "SANTOS - VILA NOVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "SAO MIGUEL DO OESTE - SAO GOTARDO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "SERRANA - JARDIM CRISTINA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "SARANDI - SANTA GEMA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "CAVALCANTE - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UNB",
+      "nome_polo": "CANELINHA - AREIAO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "ITAMARAJU - JAQUEIRA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "AMARGOSA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "BRUMADO - TANQUE",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "IBICUI - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "ILHEUS - MALHADO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "IRECE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "ITABUNA - LOMANTO JUNIOR",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "ITAPETINGA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "VITORIA DA CONQUISTA - RECREIO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESC",
+      "nome_polo": "TEIXEIRA DE FREITAS - SAO JOSE",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "ARACOIABA - CONJUNTO SOLON LIMAVERDE",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "BARBALHA - BURITI",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "CAMOCIM - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "CAUCAIA - ARATURI",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "CAUCAIA - NOVO PABUSSU",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "CAUCAIA - ITAMBE I",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "LIMOEIRO DO NORTE - SANTA LUZIA - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "MERUOCA - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "QUIXERAMOBIM - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "RUSSAS - YPIRANGA",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "BEBERIBE - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "BREJO SANTO - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "CAMPOS SALES - ALTO ALEGRE",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "ITAPIPOCA - COQUEIRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "JAGUARIBE - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "MARANGUAPE - GUABIRABA",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "MAURITI - SERRINHA",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "MISSAO VELHA - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "OROS - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "PIQUET CARNEIRO - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UECE",
+      "nome_polo": "TAUA - COLIBRIS",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "ARACUAI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "BURITIS - VEREDAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "CORINTO - CLARINDO DE PAIVA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "JANUARIA - VILA FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "TEOFILO OTONI - VILA SANTA CLARA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "UBERABA - MERCES",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "ALMENARA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "BARROSO - SANTA MARIA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "CARLOS CHAGAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "CONCEICAO DO MATO DENTRO - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "CRISTALIA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "FRANCISCO SA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "ITAMARANDIBA - FLORESTAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "JANAUBA - VEREDAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "LAGOA SANTA - SANTOS DUMONT",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "MANTENA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "PEDRA AZUL - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "POMPEU - PARAÍSO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "SAO JOAO DA PONTE - INDUSTRIAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "URUCUIA -  CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "BURITIZEIRO - JARDIM DOS BURITIS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "UBA - TRIANGULO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "BOM DESPACHO - ANA ROSA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "PASSOS - BELO HORIZONTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "PADRE PARAISO - CORONEL OLINTO VIEIRA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "FRUTAL - UNIVERSITARIO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "TAIOBEIRAS - NOSSA SENHORA DE FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "MONTES CLAROS - JK",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "BOCAIUVA - ALTEROSA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "JAIBA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "RIO PARDO DE MINAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "VARZEA DA PALMA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "PARACATU - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIMONTES",
+      "nome_polo": "BRASILIA DE MINAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "ANANAS - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "NOVA OLINDA - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "PALMAS - PLANO DIRETOR NORTE",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "ARAGUACEMA - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "ARAGUATINS - NOVA ARAGUATINS",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "ARRAIAS - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "CRISTALANDIA - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "DIANOPOLIS - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "GURUPI - ZONA RURAL",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "MATEIROS - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "PORTO NACIONAL - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "PEDRO AFONSO - SETOR BELA VISTA 1",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "GUARAI - SETOR VANDERLITO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "ALVORADA - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "ARAGUAINA - CIMBA",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFT",
+      "nome_polo": "TAGUATINGA - SETOR NORTE",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "ACRELANDIA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "BRASILEIA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "CRUZEIRO DO SUL - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "TARAUACA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "LABREA - CENTRO",
+      "estado": "AM"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "BOA VISTA - PRICUMA",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "BONFIM - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "CARACARAI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "IRACEMA - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "PACARAIMA - SUAPI",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFAM",
+      "nome_polo": "SANTA ISABEL DO RIO NEGRO - SAO JUDAS TADEU",
+      "estado": "AM"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "CAMACARI - BAIRRO DO NATAL",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "CARINHANHA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "DIAS D'AVILA - NOVA DIAS D'AVILA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "ESPLANADA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "IPUPIARA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "ITAMARAJU - JAQUEIRA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "JACARACI - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "LAURO DE FREITAS - JOQUEI CLUB - PITANGA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "MATA DE SAO JOAO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "MUNDO NOVO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "PIRITIBA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "AMARGOSA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "BRUMADO - TANQUE",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "CONCEICAO DO COITE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "EUCLIDES DA CUNHA - JEREMIAS",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "ILHEUS - MALHADO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "IRECE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "ITABERABA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "PAULO AFONSO - PANORAMA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "SANTO ESTEVAO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "VITORIA DA CONQUISTA - RECREIO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "CAMPO ALEGRE DE LOURDES - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNEB",
+      "nome_polo": "PINTADAS - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "AMARGOSA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "CONCEICAO DO COITE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "ILHEUS - MALHADO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "ITABUNA - LOMANTO JUNIOR",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "VITORIA DA CONQUISTA - RECREIO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "MACAUBAS - ALTO ALEXANDRINO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "JAGUARARI - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "CAMPO FORMOSO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "CAPIM GROSSO - JARDIM ARAUJO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "RIO REAL - ESTADUAL",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "IPIRA - SETE DE JULHO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "TEODORO SAMPAIO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRB",
+      "nome_polo": "SAPEACU - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "AGUAS LINDAS DE GOIAS - MANSOES OLINDA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "ALTO PARAISO DE GOIAS - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "APARECIDA DE GOIANIA - VILA BRASILIA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "CATALAO - JARDIM PRIMAVERA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "CEZARINA - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "GOIANESIA - SANTA LUZIA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "SAO SIMAO - POPULAR",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "URUANA - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "ANAPOLIS - JUNDIAI",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "GOIAS - ALTO DO SANTANA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "INHUMAS - VILA HEITOR",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "MINEIROS - IORES",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "URUACU - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "JUSSARA - SAO FRANCISCO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UEG",
+      "nome_polo": "NIQUELÂNDIA - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "GUARULHOS - MACEDO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "ITAPEVI - COHAB/SETOR B",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "JALES - COHAB JACB II",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "JANDIRA - JARDIM EUROPA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "BRAGANCA PAULISTA - UBERABA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "CAMPINAS - JARDIM PAINEIRAS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "CUBATAO - VILA COUTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "DIADEMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SANTOS - VILA NOVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO JOAO DA BOA VISTA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO PAULO - BALNEARIO SAO FRANCISCO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO PAULO - JARDIM SAO ROBERTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO PAULO - VILA ARICANDUVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO PAULO - JARDIM SAO CARLOS (ZONA LESTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO PAULO - CHACARA DONA OLIVIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO PAULO - JARDIM MORENO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO PAULO - PIRAJUSSARA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO JOSE DOS CAMPOS - SANTANA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO PAULO - VILA FORMOSA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFABC",
+      "nome_polo": "SAO PAULO - PARQUE BOA ESPERANCA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "AGUA BRANCA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "BURITI DOS LOPES - COHAB",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "CANTO DO BURITI - AEROPORTO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "CASTELO DO PIAUI - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "ELESBAO VELOSO - CAPITAO MUNDOCO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "ESPERANTINA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "GILBUES - SANTO ANTONIO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "INHUMA - LIBERDADE",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "PIRACURUCA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "SAO JOAO DO PIAUI - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "SIMOES - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "SIMPLICIO MENDES - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "URUCUI - MALVINAS",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "BOM JESUS - JOSUE PARENTE",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "CAMPO MAIOR - SAO LUIS",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "CORRENTE - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "LUZILANDIA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "MARCOS PARENTE - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "MONSENHOR GIL - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "OEIRAS - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "PICOS - JUNCO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "PIRIPIRI - PETECAS",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "UNIAO - SAO SEBASTIAO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "VALENCA DO PIAUI - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "JAICOS - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "PIO IX - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "CAMPO ALEGRE DE LOURDES - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "JUAZEIRO - SAO GERALDO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "ANISIO DE ABREU - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "BARRAS - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "LUIS CORREIA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "PAES LANDIM - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "REGENERACAO - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFPI",
+      "nome_polo": "TERESINA - MATINHA",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UNIPAMPA",
+      "nome_polo": "CACHOEIRA DO SUL - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UNIPAMPA",
+      "nome_polo": "HULHA NEGRA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UNIPAMPA",
+      "nome_polo": "QUARAI - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UNIPAMPA",
+      "nome_polo": "SANT' ANA DO LIVRAMENTO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UNIPAMPA",
+      "nome_polo": "CACEQUI - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UNIPAMPA",
+      "nome_polo": "SAO SEPE - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "ANGRA DOS REIS - JACUECANGA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "NATIVIDADE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "NOVA FRIBURGO - OLARIA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "PARACAMBI - FABRICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "PETRÓPOLIS - CASCATINHA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "RESENDE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "RIO DE JANEIRO - CAMPO GRANDE",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "SAO PEDRO DA ALDEIA - NOVA SAO PEDRO DA ALDEIA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "TRES RIOS - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "ITAGUAI - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "MAGE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "NOVA IGUACU - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "RIO DAS FLORES - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "NITEROI - FONSECA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "BARRA DO PIRAI - QUIMICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "BELFORD ROXO - PARQUE COLONIAL (JARDIM DO IPE- LOTE XV)",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UERJ",
+      "nome_polo": "RIO DE JANEIRO - SÃO CONRADO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "IMPERATRIZ - PRACA UNIAO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "PORTO FRANCO - VILA SAO FRANCISCO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "CAROLINA - SETOR UNIVERSITARIO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "CAXIAS - CENTRO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "CODO - SAO BENEDITO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "FORTALEZA DOS NOGUEIRAS - NOVA FORTALEZA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "GRAJAU - TREZIDELA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "HUMBERTO DE CAMPOS -  BACABEIRA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "SANTA INES - SABBAK",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "SAO JOAO DOS PATOS - SAO RAIMUNDO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFMA",
+      "nome_polo": "SAO LUIS - JARDIM RENASCENCA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFAC",
+      "nome_polo": "ACRELANDIA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFAC",
+      "nome_polo": "SENA MADUREIRA - CSU",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFAC",
+      "nome_polo": "XAPURI - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UEPB",
+      "nome_polo": "CUITE DE MAMANGUAPE - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UEPB",
+      "nome_polo": "ITAPORANGA - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UEPB",
+      "nome_polo": "POMBAL - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UEPB",
+      "nome_polo": "SAO BENTO - CICERO DIAS",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UEPB",
+      "nome_polo": "TAPEROA - ALTO DA CONCEICAO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "IMPERATRIZ - PRACA UNIAO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "PORTO FRANCO - VILA SAO FRANCISCO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "CAROLINA - SETOR UNIVERSITARIO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "CAXIAS - CENTRO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "CODO - SAO BENEDITO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "FORTALEZA DOS NOGUEIRAS - NOVA FORTALEZA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "GRAJAU - TREZIDELA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "HUMBERTO DE CAMPOS -  BACABEIRA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "SANTA INES - SABBAK",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "SAO JOAO DOS PATOS - SAO RAIMUNDO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "SAO LUIS - JARDIM RENASCENCA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UEMA",
+      "nome_polo": "CARUTAPERA - APARECIDA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "SANTANA - NOVA BRASÍLIA",
+      "estado": "AP"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "DOM ELISEU - PDS",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "PARAUAPEBAS - CIDADE NOVA",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "REDENCAO - VILA PAULISTA",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "TAILANDIA - NOVO",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "TUCUMA - BAIRRO DAS FLORES",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "BREVES - AEROPORTO",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "CAMETA - CENTRAL",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "IGARAPE-MIRI - CIDADE NOVA",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFPA",
+      "nome_polo": "PARAGOMINAS - JK",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "ASTORGA - VILA SAMUEL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "CIDADE GAUCHA - RODOVIA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "FOZ DO IGUACU - PARQUE TECNOLOGICO ITAIPU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "IBAITI - S.JUDAS TADEU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "NOVA LONDRINA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "NOVA TEBAS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "PARANAVAI - JARDIM SANTOS DUMOND",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "SIQUEIRA CAMPOS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "ASSAI - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "BELA VISTA DO PARAISO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "ENGENHEIRO BELTRAO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "FAXINAL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "FLOR DA SERRA DO SUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "GOIOERE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "ITAMBE - PARQUE INDUSTRIAL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "JACAREZINHO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "NOVA SANTA ROSA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "PALMITAL - VILA PARQUE JUNIOR",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "SARANDI - JARDIM INDEPENDENCIA III PARTE",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "UMUARAMA - JARDIM SAO FERNANDES",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "DIAMANTE DO NORTE - CRN UEM",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "CEU AZUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "UBIRATA - JARDIM SAO PAULO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "CIANORTE - ZONA 06",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEM",
+      "nome_polo": "SAO JOAO DO IVAI - CONJUNTO NEY BRAGA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFRN",
+      "nome_polo": "GUAMARE - CENTRO",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFRN",
+      "nome_polo": "CARAUBAS - DR. SEBASTIAO MALTEZ",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFRN",
+      "nome_polo": "GROSSOS - BOA ESPERANCA",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFRN",
+      "nome_polo": "MARCELINO VIEIRA - CENTRO",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFRN",
+      "nome_polo": "NATAL - NOSSA SENHORA DE NAZARE",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFRN",
+      "nome_polo": "PARNAMIRIM - COHABINAL",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFRN",
+      "nome_polo": "SAO GONCALO DO AMARANTE - CONJUNTO AMARANTE",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "CIDADE GAUCHA - RODOVIA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "FOZ DO IGUACU - PARQUE TECNOLOGICO ITAIPU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "IBAITI - S.JUDAS TADEU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "NOVA LONDRINA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "NOVA TEBAS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "PARANAGUÁ - JARDIM GUARAITUBA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "PARANAVAI - JARDIM SANTOS DUMOND",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "PATO BRANCO - SAIDA PARA BOM SUCESSO DO SUL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "SIQUEIRA CAMPOS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "BARRETOS - DERBYCLUB",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "APUCARANA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "ASSAI - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "BELA VISTA DO PARAISO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "BITURUNA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "CERRO AZUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "COLOMBO - JD. NOSSA SENHORA DE FATIMA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "ENGENHEIRO BELTRAO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "GOIOERE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "IPIRANGA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "ITAMBE - PARQUE INDUSTRIAL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "JACAREZINHO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "JAGUARIAIVA - CIANE",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "LAPA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "LARANJEIRAS DO SUL - ESTRADA PARA PORTO BARREIRA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "NOVO HAMBURGO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "PALMEIRA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "PALMITAL - VILA PARQUE JUNIOR",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "PERUIBE - BALNEARIO STELLA MARIS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "PINHAO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "RIO NEGRO - SEMINARIO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "TELEMACO BORBA - NOSSA SENHORA DO PERPETUO SOCORRO-BNH",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "VOTORANTIM - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "IVAIPORA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "DIAMANTE DO NORTE - CRN UEM",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "PRUDENTOPOLIS - BARRO PRETO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "SAO PAULO - JARDIM ESMERALDA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "SAO PAULO - JARDIM SAO CARLOS (ZONA LESTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "SAO PAULO - JARDIM MIRANGAIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "SAO PAULO - CHACARA DONA OLIVIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "SAO PAULO - JARDIM MORENO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "SAO PAULO - PIRAJUSSARA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFPR",
+      "nome_polo": "CURITIBA - ALTO DA GLÓRIA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ACRELANDIA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "BRASILEIA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "CRUZEIRO DO SUL - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "RIO BRANCO - VILA IVONETE",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SENA MADUREIRA - CSU",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "TARAUACA - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "XAPURI - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "AFONSO CLAUDIO - CUSTODIO LEITE RIBEIRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ARACRUZ - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "DOMINGOS MARTINS - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SANTA LEOPOLDINA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ARAGUARI - FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "CONSELHEIRO LAFAIETE - SAO DIMAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ITABIRA - AMAZONAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "JOAO MONLEVADE - VILA TANQUE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "DOM ELISEU - PDS",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "PARAUAPEBAS - CIDADE NOVA",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "TAILANDIA - NOVO",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ANGRA DOS REIS - JACUECANGA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "BOM JESUS DO ITABAPOANA - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "CANTAGALO - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ITAOCARA - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ITAPERUNA - PRESIDENTE COSTA E SILVA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "MACAE - IMBOACICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "NATIVIDADE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "NOVA FRIBURGO - OLARIA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "PARACAMBI - FABRICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "PETRÓPOLIS - CASCATINHA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "PIRAI - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "RESENDE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "RIO BONITO - PRACA DO CRUZEIRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "RIO DE JANEIRO - CAMPO GRANDE",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO FIDELIS - DIRLEY PERLINGEIRO DE ABREU",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO FRANCISCO DE ITABAPOANA - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO GONCALO - GRADIM",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PEDRO DA ALDEIA - NOVA SAO PEDRO DA ALDEIA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAQUAREMA - RIO DE AREIA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "TRES RIOS - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "VOLTA REDONDA - JARDIM PARAIBA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "BARRETOS - DERBYCLUB",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ITAPETININGA - TABOAOZINHO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "JANDIRA - JARDIM EUROPA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "TARUMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ARAXA - SANTA RITA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "BREVES - AEROPORTO",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "CAMETA - CENTRAL",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "CAMPINAS - JARDIM PAINEIRAS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "CAMPO BELO - CIDADE MONTESA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "CONFINS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "CUBATAO - VILA COUTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "DIADEMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "DUQUE DE CAXIAS - JARDIM 25 DE AGOSTO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "FRANCA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "IGARAPE-MIRI - CIDADE NOVA",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "ITAGUAI - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "LAGOA SANTA - SANTOS DUMONT",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "LINHARES - NOVO HORIZONTE",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "MAGE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "NOVA IGUACU - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "PERUIBE - BALNEARIO STELLA MARIS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "RIO DAS FLORES - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SANTA TERESA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SANTOS - VILA NOVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO JOAO DA BOA VISTA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO JOSE DO RIO PRETO - VILA IMPERIAL",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "VOTORANTIM - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "VOTUPORANGA - VILA MUNIZ",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "NITEROI - FONSECA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "BARRA DO PIRAI - QUIMICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "BELFORD ROXO - PARQUE COLONIAL (JARDIM DO IPE- LOTE XV)",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - JARDIM ESMERALDA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - SAO JOAO CLIMACO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - JARAGUA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - JARDIM SANTA LUCRECIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - JARDIM GUAPIRA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - BALNEARIO SAO FRANCISCO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - JARDIM SAO ROBERTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - JARDIM PAULISTANO (ZONA NORTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - CANGAIBA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - VILA ARICANDUVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - INTERLAGOS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - JARDIM SAO CARLOS (ZONA LESTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - JARDIM MIRANGAIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - CHACARA DONA OLIVIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - JARDIM MORENO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - VILA DAS BELEZAS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "SAO PAULO - PIRAJUSSARA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFF",
+      "nome_polo": "RIO DE JANEIRO - SÃO CONRADO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "AFONSO CLAUDIO - CUSTODIO LEITE RIBEIRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "ARACRUZ - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "BAIXO GUANDU - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "CASTELO - VILA ISABEL",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "DOMINGOS MARTINS - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "ECOPORANGA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "ITAPEMIRIM - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "IUNA - NITEROI",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "MANTENOPOLIS - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "MIMOSO DO SUL - CHACARA DO CHAFARIZ",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "PINHEIROS - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "PIUMA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "SANTA LEOPOLDINA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "VARGEM ALTA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "CACHOEIRO DE ITAPEMIRIM - DR. LUIZ TINOCO DA FONSECA - MORRO GRANDE",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "COLATINA - ESPLANADA",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "LINHARES - NOVO HORIZONTE",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "NOVA VENECIA - RUBIA",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "SANTA TERESA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "VENDA NOVA DO IMIGRANTE - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFES",
+      "nome_polo": "MONTANHA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "ANGRA DOS REIS - JACUECANGA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "CANTAGALO - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "ITAPERUNA - PRESIDENTE COSTA E SILVA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "MACAE - IMBOACICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "MIGUEL PEREIRA - GOVERNADOR PORTELA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "PETRÓPOLIS - CASCATINHA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "PIRAI - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "RESENDE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "RIO DE JANEIRO - CAMPO GRANDE",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "SAO FIDELIS - DIRLEY PERLINGEIRO DE ABREU",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "SAO GONCALO - GRADIM",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "SAQUAREMA - RIO DE AREIA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "TRES RIOS - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "MAGE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "RIO DAS FLORES - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "BARRA DO PIRAI - QUIMICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRRJ",
+      "nome_polo": "RIO DE JANEIRO - SÃO CONRADO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "ARACUAI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "BURITIS - VEREDAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "CAMPOS GERAIS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "CONSELHEIRO LAFAIETE - SAO DIMAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "CORINTO - CLARINDO DE PAIVA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "FORMIGA - ROSARIO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "GOVERNADOR VALADARES - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "IPATINGA - BOM RETIRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "ITABIRA - AMAZONAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "JANUARIA - VILA FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "JOAO MONLEVADE - VILA TANQUE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "LAGAMAR - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "TEOFILO OTONI - VILA SANTA CLARA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "UBERABA - MERCES",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "ARAXA - SANTA RITA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "BAMBUI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "CAMPO BELO - CIDADE MONTESA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "CONCEICAO DO MATO DENTRO - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "CONFINS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "FRANCISCO SA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "IPANEMA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "JABOTICATUBAS - SAO VICENTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "JUIZ DE FORA - LADEIRA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "LAGOA SANTA - SANTOS DUMONT",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "PEDRA AZUL - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "POMPEU - PARAÍSO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "SETE LAGOAS - DISTRITO INDUSTRIAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "TIRADENTES - PARQUE DAS ABELHAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "UBERLANDIA - BRASIL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "UBA - TRIANGULO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "BOM DESPACHO - ANA ROSA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "CARATINGA - DARIO GROSSI",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "DIAMANTINA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "FRUTAL - UNIVERSITARIO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "MONTES CLAROS - JK",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "SAO PAULO - JARDIM ESMERALDA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "SAO PAULO - SAO JOAO CLIMACO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "SAO PAULO - JARAGUA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "SAO PAULO - JARDIM SANTA LUCRECIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "SAO PAULO - BALNEARIO SAO FRANCISCO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFMG",
+      "nome_polo": "SAO PAULO - VILA ARICANDUVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "BICAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "BOA ESPERANCA - OZANAN",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "BURITIS - VEREDAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "CAMBUI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "CONSELHEIRO LAFAIETE - SAO DIMAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "COROMANDEL - SAO DOMINGOS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "GOVERNADOR VALADARES - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "ILICINEA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "IPATINGA - BOM RETIRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SALINAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SANTA RITA DE CALDAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "ARAXA - SANTA RITA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "BARROSO - SANTA MARIA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "CUBATAO - VILA COUTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "CUIABA - CENTRO-SUL",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "DURANDE - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "IPANEMA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "JUIZ DE FORA - LADEIRA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "LAGOA SANTA - SANTOS DUMONT",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "LAVRAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "MANTENA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "POMPEU - PARAÍSO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SANTOS - VILA NOVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO JOAO DA PONTE - INDUSTRIAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SERRANA - JARDIM CRISTINA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SETE LAGOAS - DISTRITO INDUSTRIAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "TIMOTEO - CENTRO NORTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "TIRADENTES - PARQUE DAS ABELHAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "UBERLANDIA - BRASIL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "BURITIZEIRO - JARDIM DOS BURITIS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "UBA - TRIANGULO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "CATAGUASES - SANTA CLARA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - JARDIM ESMERALDA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - SAO JOAO CLIMACO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - JARAGUA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - JARDIM SANTA LUCRECIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - JARDIM GUAPIRA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - BALNEARIO SAO FRANCISCO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - JARDIM SAO ROBERTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - JARDIM PAULISTANO (ZONA NORTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - CANGAIBA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - VILA ARICANDUVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - INTERLAGOS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - JARDIM SAO CARLOS (ZONA LESTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - JARDIM MIRANGAIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - CHACARA DONA OLIVIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - JARDIM MORENO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - VILA DAS BELEZAS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFJF",
+      "nome_polo": "SAO PAULO - PIRAJUSSARA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFAL",
+      "nome_polo": "MACEIO - TABULEIRO DO MARTINS",
+      "estado": "AL"
+    },
+    {
+      "sigla": "UFAL",
+      "nome_polo": "MARAGOGI - CENTRO",
+      "estado": "AL"
+    },
+    {
+      "sigla": "UFAL",
+      "nome_polo": "OLHO D'AGUA DAS FLORES - CENTRO",
+      "estado": "AL"
+    },
+    {
+      "sigla": "UFAL",
+      "nome_polo": "SANTANA DO IPANEMA - NOVO CENTRO COMERCIAL",
+      "estado": "AL"
+    },
+    {
+      "sigla": "UFAL",
+      "nome_polo": "SAO JOSE DA LAJE - NOVO CENTRO COMERCIAL",
+      "estado": "AL"
+    },
+    {
+      "sigla": "UFAL",
+      "nome_polo": "MATRIZ DE CAMARAGIBE - CENTRO",
+      "estado": "AL"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "CAMACARI - BAIRRO DO NATAL",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "DIAS D'AVILA - NOVA DIAS D'AVILA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "ESPLANADA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "IPUPIARA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "ITAMARAJU - JAQUEIRA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "JACARACI - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "LAURO DE FREITAS - JOQUEI CLUB - PITANGA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "MATA DE SAO JOAO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "MUNDO NOVO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "PARATINGA - SAO JOAO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "AMARGOSA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "BRUMADO - TANQUE",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "CONCEICAO DO COITE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "EUCLIDES DA CUNHA - JEREMIAS",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "IBICUI - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "ILHEUS - MALHADO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "IRECE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "ITABUNA - LOMANTO JUNIOR",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "ITAPETINGA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "PAULO AFONSO - PANORAMA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "SANTO ESTEVAO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "VITORIA DA CONQUISTA - RECREIO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "CAMPO ALEGRE DE LOURDES - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "JUAZEIRO - SAO GERALDO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "PINTADAS - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "CAMPO FORMOSO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "IPIRA - SETE DE JULHO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFBA",
+      "nome_polo": "SAPEACU - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "CAMACARI - BAIRRO DO NATAL",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "ESPLANADA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "JACARACI - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "MUNDO NOVO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "PARATINGA - SAO JOAO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "ALAGOA GRANDE - CONJUNTO CEHAP I",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "ARARUNA - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "CAMPINA GRANDE - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "CONDE - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "CUITE DE MAMANGUAPE - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "DUAS ESTRADAS - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "ITAPORANGA - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "JOAO PESSOA - EXPEDICIONARIOS",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "LIVRAMENTO - SANTO ANTONIO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "LUCENA - FAGUNDES",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "MARI - JOSE AMERICO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "POMBAL - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "IPOJUCA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "LIMOEIRO - JUA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "CABACEIRAS - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "COREMAS - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "IRECE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "PARNAMIRIM - COHABINAL",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "SAO BENTO - CICERO DIAS",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPB",
+      "nome_polo": "TAPEROA - ALTO DA CONCEICAO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "MARAGOGI - CENTRO",
+      "estado": "AL"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "IPOJUCA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "LIMOEIRO - JUA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "PESQUEIRA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "TRINDADE - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "CABACEIRAS - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "RECIFE - MADALENA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "SURUBIM - SAO JOSE",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "TABIRA - JUREMINHA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "AFRANIO - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "CARPINA - SAO JOSE",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "PETROLINA - VILA EDUARDO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "PALMARES - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "SANTA CRUZ DO CAPIBARIBE - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "SALGUEIRO - NOSSA SENHORA DAS GRACAS",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "AGUAS BELAS - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFPE",
+      "nome_polo": "OURICURI - ZONA URBANA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "AGUDO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "ARROIO DOS RATOS - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "BALNEARIO PINHAL - DISTRITO DE MAGISTERIO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "CACHOEIRA DO SUL - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "CAMARGO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "CONSTANTINA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "CRUZ ALTA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "FAXINAL DO SOTURNO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "HULHA NEGRA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "JACUIZINHO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "MOSTARDAS - VILA NORTE",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "PICADA CAFE - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "QUARAI - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "RESTINGA SECA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SANTA VITORIA DO PALMAR - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SANTANA DA BOA VISTA - NOSSA SENHORA DO ROSARIO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SANT' ANA DO LIVRAMENTO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SANTO ANTONIO DA PATRULHA - CIDADE ALTA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SAO FRANCISCO DE PAULA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SAO LOURENCO DO SUL - AVENIDA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SOBRADINHO - VERA CRUZ",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "TAPEJARA - ZONA RURAL",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "TIO HUGO - DO LORO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "TRES DE MAIO - GLORIA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "TRES PASSOS - ERICO VERISSIMO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "CACEQUI - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "ENCANTADO - LAMBARI",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "NOVO HAMBURGO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SAO SEPE - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SAPIRANGA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SAPUCAIA DO SUL - PARAISO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "SERAFINA CORREA - GRAMADINHO/ SANTA LUCIA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "VILA FLORES - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFRGS",
+      "nome_polo": "ESTEIO - PARQUE AMADOR",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "FOZ DO IGUACU - PARQUE TECNOLOGICO ITAIPU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "AGUDO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "BALNEARIO PINHAL - DISTRITO DE MAGISTERIO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "CACHOEIRA DO SUL - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "CAMARGO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "CONSTANTINA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "CRUZ ALTA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "FAXINAL DO SOTURNO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "JACUIZINHO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "PICADA CAFE - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "QUARAI - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "RESTINGA SECA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SANTA VITORIA DO PALMAR - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SANTANA DA BOA VISTA - NOSSA SENHORA DO ROSARIO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SANT' ANA DO LIVRAMENTO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SANTO ANTONIO DA PATRULHA - CIDADE ALTA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SAO FRANCISCO DE PAULA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SAO LOURENCO DO SUL - AVENIDA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SOBRADINHO - VERA CRUZ",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "TAPEJARA - ZONA RURAL",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "TIO HUGO - DO LORO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "TRES DE MAIO - GLORIA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "TRES PASSOS - ERICO VERISSIMO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "JALES - COHAB JACB II",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "PALMAS - PLANO DIRETOR NORTE",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "CACEQUI - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "ENCANTADO - LAMBARI",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "NOVO HAMBURGO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SAO SEPE - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SAPIRANGA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SAPUCAIA DO SUL - PARAISO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SERAFINA CORREA - GRAMADINHO/ SANTA LUCIA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "VILA FLORES - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSM",
+      "nome_polo": "SARANDI - SANTA GEMA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "ARACATI - AEROPORTO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "ARACOIABA - CONJUNTO SOLON LIMAVERDE",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "BARBALHA - BURITI",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "CAMOCIM - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "CAUCAIA - ARATURI",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "CAUCAIA - NOVO PABUSSU",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "CAUCAIA - ITAMBE I",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "MERUOCA - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "QUIXADA - CEDRO VELHO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "QUIXERAMOBIM - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "RUSSAS - YPIRANGA",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "SAO GONCALO DO AMARANTE - LIBERDADE",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "BEBERIBE - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "BREJO SANTO - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "CAMPOS SALES - ALTO ALEGRE",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "ITAPIPOCA - COQUEIRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "JAGUARIBE - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "MARANGUAPE - GUABIRABA",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "MISSAO VELHA - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "OROS - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "PIQUET CARNEIRO - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "QUITERIANOPOLIS - SANTA CLARA",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFC",
+      "nome_polo": "TAUA - COLIBRIS",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "AGUAS LINDAS DE GOIAS - MANSOES OLINDA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "ALTO PARAISO DE GOIAS - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "APARECIDA DE GOIANIA - VILA BRASILIA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "CATALAO - JARDIM PRIMAVERA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "CEZARINA - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "GOIANESIA - SANTA LUZIA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "SAO SIMAO - POPULAR",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "URUANA - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "ANAPOLIS - JUNDIAI",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "GOIAS - ALTO DO SANTANA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "INHUMAS - VILA HEITOR",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "MINEIROS - IORES",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "URUACU - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "VOTUPORANGA - VILA MUNIZ",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "JUSSARA - SAO FRANCISCO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFG",
+      "nome_polo": "CAVALCANTE - CENTRO",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "MATA DE SAO JOAO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "DIVINOLANDIA DE MINAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "SAO GABRIEL DO OESTE - ZONA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "ESPERANTINA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CIDADE GAUCHA - RODOVIA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "FOZ DO IGUACU - PARQUE TECNOLOGICO ITAIPU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "IBAITI - S.JUDAS TADEU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "PARANAGUÁ - JARDIM GUARAITUBA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "PARANAVAI - JARDIM SANTOS DUMOND",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "PATO BRANCO - SAIDA PARA BOM SUCESSO DO SUL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "AMAJARI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "BOA VISTA - PRICUMA",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "BONFIM - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CARACARAI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "IRACEMA - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "PACARAIMA - SUAPI",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "RORAINOPOLIS - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CRUZ ALTA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "HULHA NEGRA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "JACUIZINHO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "SAO FRANCISCO DE PAULA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "TAPEJARA - ZONA RURAL",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "TIO HUGO - DO LORO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "TREZE TILIAS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "APUCARANA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "ARARANGUA - NOVA DIVINEIA",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "BLUMENAU - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CONCORDIA - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CHAPECO - SAO CRISTOVAO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "FLORIANOPOLIS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "INDAIAL - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "ITAPEMA - MORRETES",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "PALMITOS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "POUSO REDONDO - PROGRESSO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "SAO JOSE - FORQUILHINHAS",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "SAO MIGUEL DO OESTE - SAO GOTARDO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "SAPUCAIA DO SUL - PARAISO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "VILA FLORES - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "BRACO DO NORTE - VILA NOVA",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "PRAIA GRANDE - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CRICIUMA - COMERCIARIO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "JOINVILLE - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "TUBARAO - HUMAITA DE CIMA",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CEU AZUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "LAGUNA - PORTINHO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CAMPOS NOVOS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "LAGES - GETHAL",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "CANELINHA - AREIAO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFSC",
+      "nome_polo": "JARAGUÁ DO SUL - NOVA BRASÍLIA",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "ANGRA DOS REIS - JACUECANGA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "ITAPERUNA - PRESIDENTE COSTA E SILVA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "MACAE - IMBOACICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "PARACAMBI - FABRICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "PIRAI - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "RIO DE JANEIRO - CAMPO GRANDE",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "SAO GONCALO - GRADIM",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "TRES RIOS - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "VOLTA REDONDA - JARDIM PARAIBA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "DUQUE DE CAXIAS - JARDIM 25 DE AGOSTO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRJ",
+      "nome_polo": "NOVA IGUACU - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "CAMACARI - BAIRRO DO NATAL",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "PIRITIBA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "CAUCAIA - ARATURI",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "CAUCAIA - NOVO PABUSSU",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "IPOJUCA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "LIMOEIRO - JUA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "PESQUEIRA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "TRINDADE - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "SAO JOAO DO PIAUI - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "ANANAS - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "EUCLIDES DA CUNHA - JEREMIAS",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "ILHEUS - MALHADO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "ITABERABA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "RECIFE - MADALENA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "SURUBIM - SAO JOSE",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "TABIRA - JUREMINHA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "VITORIA DA CONQUISTA - RECREIO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "AFRANIO - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "CAMPO ALEGRE DE LOURDES - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "MACAUBAS - ALTO ALEXANDRINO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "CARPINA - SAO JOSE",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "PETROLINA - VILA EDUARDO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "PALMARES - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "FLORESTA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UFRPE",
+      "nome_polo": "CABROBO - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "MATA DE SAO JOAO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "FOZ DO IGUACU - PARQUE TECNOLOGICO ITAIPU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "IBAITI - S.JUDAS TADEU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "NOVA LONDRINA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "PARANAVAI - JARDIM SANTOS DUMOND",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "CACHOEIRA DO SUL - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "TIO HUGO - DO LORO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "TREZE TILIAS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "APIAÍ - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "ITAPETININGA - TABOAOZINHO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "ITAPEVI - COHAB/SETOR B",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "JALES - COHAB JACB II",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "JANDIRA - JARDIM EUROPA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "TARUMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "APUCARANA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "BLUMENAU - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "CONCORDIA - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "COLOMBO - JD. NOSSA SENHORA DE FATIMA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "DIADEMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "FLORIANOPOLIS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "FRANCA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "GOIOERE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "INDAIAL - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "ITAPEMA - MORRETES",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "JAU - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "NOVA SANTA ROSA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "PALMITOS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "PERUIBE - BALNEARIO STELLA MARIS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "RIO NEGRO - SEMINARIO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "TELEMACO BORBA - NOSSA SENHORA DO PERPETUO SOCORRO-BNH",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "UMUARAMA - JARDIM SAO FERNANDES",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "VOTUPORANGA - VILA MUNIZ",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "DIAMANTE DO NORTE - CRN UEM",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "CACADOR - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "SAO PAULO - JARDIM ESMERALDA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "SAO PAULO - JARAGUA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "SAO PAULO - JARDIM SANTA LUCRECIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "SAO PAULO - JARDIM MIRANGAIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UTFPR",
+      "nome_polo": "SAO JOSE DOS CAMPOS - SANTANA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFERSA",
+      "nome_polo": "GUAMARE - CENTRO",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFERSA",
+      "nome_polo": "CARAUBAS - DR. SEBASTIAO MALTEZ",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFERSA",
+      "nome_polo": "GROSSOS - BOA ESPERANCA",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFERSA",
+      "nome_polo": "MARCELINO VIEIRA - CENTRO",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFERSA",
+      "nome_polo": "NATAL - NOSSA SENHORA DE NAZARE",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFERSA",
+      "nome_polo": "SAO GONCALO DO AMARANTE - CONJUNTO AMARANTE",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "LABREA - CENTRO",
+      "estado": "AM"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "ARACRUZ - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "ALTEROSA - CRUZEIRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "JUARA - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "PARAUAPEBAS - CIDADE NOVA",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "JOAO PESSOA - EXPEDICIONARIOS",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "RIO DE JANEIRO - CAMPO GRANDE",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SOBRADINHO - VERA CRUZ",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "BARRETOS - DERBYCLUB",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "GUARULHOS - MACEDO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "ITAPETININGA - TABOAOZINHO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "ITAPEVI - COHAB/SETOR B",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "JALES - COHAB JACB II",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "JANDIRA - JARDIM EUROPA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO CARLOS - VILA NERY",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "PALMAS - PLANO DIRETOR NORTE",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "BREVES - AEROPORTO",
+      "estado": "PA"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "CAMPINAS - JARDIM PAINEIRAS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "CUBATAO - VILA COUTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "CUIABA - CENTRO-SUL",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "DIADEMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "FLORIANOPOLIS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "FORTALEZA DOS NOGUEIRAS - NOVA FORTALEZA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "JAU - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "LUCAS DO RIO VERDE - JARDIM PRIMAVERA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "NATAL - NOSSA SENHORA DE NAZARE",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "RECIFE - MADALENA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SANTA ISABEL - JARDIM NOVO ÉDEN",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SANTOS - VILA NOVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SERRANA - JARDIM CRISTINA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "VOTUPORANGA - VILA MUNIZ",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "PASSOS - BELO HORIZONTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - JARDIM ESMERALDA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - SAO JOAO CLIMACO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - JARAGUA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - JARDIM SANTA LUCRECIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - JARDIM GUAPIRA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - BALNEARIO SAO FRANCISCO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - JARDIM SAO ROBERTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - JARDIM PAULISTANO (ZONA NORTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - VILA ARICANDUVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - INTERLAGOS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - JARDIM SAO CARLOS (ZONA LESTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - JARDIM MORENO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - VILA DAS BELEZAS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO PAULO - PIRAJUSSARA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFESP",
+      "nome_polo": "SAO JOSE DOS CAMPOS - SANTANA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "ARACUAI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "BOA ESPERANCA - OZANAN",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "CAMBUI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "CAMPOS GERAIS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "FORMIGA - ROSARIO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "GOVERNADOR VALADARES - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "ILICINEA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "ITAMONTE - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "SANTA RITA DE CALDAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "BAMBUI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "CAMPO BELO - CIDADE MONTESA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "CONFINS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "JABOTICATUBAS - SAO VICENTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "LAGOA SANTA - SANTOS DUMONT",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "LAVRAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "SETE LAGOAS - DISTRITO INDUSTRIAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "TIRADENTES - PARQUE DAS ABELHAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "BOM DESPACHO - ANA ROSA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFLA",
+      "nome_polo": "PASSOS - BELO HORIZONTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "ALTEROSA - CRUZEIRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "BOA ESPERANCA - OZANAN",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "CAMBUI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "CAMPOS GERAIS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "FORMIGA - ROSARIO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "ILICINEA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "SANTA RITA DE CALDAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "JALES - COHAB JACB II",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "BAMBUI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "BRAGANCA PAULISTA - UBERABA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "CAMPINAS - JARDIM PAINEIRAS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "CAMPO BELO - CIDADE MONTESA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "CONCEICAO DO MATO DENTRO - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "FRANCA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "LAVRAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "SANTA ISABEL - JARDIM NOVO ÉDEN",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "SAO JOAO DA BOA VISTA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "SERRANA - JARDIM CRISTINA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "PASSOS - BELO HORIZONTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFAL",
+      "nome_polo": "VARGINHA - VILA BUENO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "DIVINOLANDIA DE MINAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "JANUARIA - VILA FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "TEOFILO OTONI - VILA SANTA CLARA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "ALMENARA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "AGUAS FORMOSAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "NANUQUE - ROMILDA RUAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "PADRE PARAISO - CORONEL OLINTO VIEIRA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "MINAS NOVAS - SANTA RITA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "DIAMANTINA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "TAIOBEIRAS - NOSSA SENHORA DE FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFVJM",
+      "nome_polo": "TURMALINA - VILA NOVA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFBA",
+      "nome_polo": "LAURO DE FREITAS - JOQUEI CLUB - PITANGA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "IFBA",
+      "nome_polo": "BRUMADO - TANQUE",
+      "estado": "BA"
+    },
+    {
+      "sigla": "IFBA",
+      "nome_polo": "ILHEUS - MALHADO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "IFBA",
+      "nome_polo": "IRECE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "CRUZEIRO DO SUL - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "RIO BRANCO - VILA IVONETE",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "XAPURI - CENTRO",
+      "estado": "AC"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "SANTANA - NOVA BRASÍLIA",
+      "estado": "AP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "CAMACARI - BAIRRO DO NATAL",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "DIAS D'AVILA - NOVA DIAS D'AVILA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "ESPLANADA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "MATA DE SAO JOAO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "ALTEROSA - CRUZEIRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "ARACUAI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "ARAGUARI - FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "CONSELHEIRO LAFAIETE - SAO DIMAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "COROMANDEL - SAO DOMINGOS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "DIVINOLANDIA DE MINAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "GOVERNADOR VALADARES - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "IPATINGA - BOM RETIRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "ITABIRA - AMAZONAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "JANUARIA - VILA FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "JOAO MONLEVADE - VILA TANQUE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "LAGAMAR - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "SALINAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "PETRÓPOLIS - CASCATINHA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "RIO DE JANEIRO - CAMPO GRANDE",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "APIAÍ - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "BALSAMO - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "ITAPEVI - COHAB/SETOR B",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "JALES - COHAB JACB II",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "JANDIRA - JARDIM EUROPA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "BARROSO - SANTA MARIA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "CARLOS CHAGAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "CONFINS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "DUQUE DE CAXIAS - JARDIM 25 DE AGOSTO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "EUCLIDES DA CUNHA - JEREMIAS",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "ITAMARANDIBA - FLORESTAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "JABOTICATUBAS - SAO VICENTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "LAGOA SANTA - SANTOS DUMONT",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "MACAPA - CENTRO",
+      "estado": "AP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "SAO JOAO DA BOA VISTA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "SETE LAGOAS - DISTRITO INDUSTRIAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "TIMOTEO - CENTRO NORTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "TIRADENTES - PARQUE DAS ABELHAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "BOM DESPACHO - ANA ROSA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "PASSOS - BELO HORIZONTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "AGUAS FORMOSAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "CARATINGA - DARIO GROSSI",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "BARAO DE COCAIS - CIDADE NOVA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "SAO PAULO - JARDIM GUAPIRA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "SAO PAULO - CANGAIBA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "SAO PAULO - INTERLAGOS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "SAO PAULO - VILA DAS BELEZAS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "SAO JOSE DOS CAMPOS - SANTANA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "CONTAGEM - INCONFIDENTES",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFOP",
+      "nome_polo": "TRÊS MARIAS - JOAQUIM DE LIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFMA",
+      "nome_polo": "PORTO FRANCO - VILA SAO FRANCISCO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "IFMA",
+      "nome_polo": "CAROLINA - SETOR UNIVERSITARIO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "IFMA",
+      "nome_polo": "CAXIAS - CENTRO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "IFMA",
+      "nome_polo": "CODO - SAO BENEDITO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "IFMA",
+      "nome_polo": "GRAJAU - TREZIDELA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "IFMA",
+      "nome_polo": "HUMBERTO DE CAMPOS -  BACABEIRA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "IFMA",
+      "nome_polo": "SANTA INES - SABBAK",
+      "estado": "MA"
+    },
+    {
+      "sigla": "IFMA",
+      "nome_polo": "SAO JOAO DOS PATOS - SAO RAIMUNDO",
+      "estado": "MA"
+    },
+    {
+      "sigla": "IFMA",
+      "nome_polo": "SAO LUIS - JARDIM RENASCENCA",
+      "estado": "MA"
+    },
+    {
+      "sigla": "UNIOESTE",
+      "nome_polo": "FOZ DO IGUACU - PARQUE TECNOLOGICO ITAIPU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNIOESTE",
+      "nome_polo": "PATO BRANCO - SAIDA PARA BOM SUCESSO DO SUL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNIOESTE",
+      "nome_polo": "FLOR DA SERRA DO SUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNIOESTE",
+      "nome_polo": "LARANJEIRAS DO SUL - ESTRADA PARA PORTO BARREIRA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNIOESTE",
+      "nome_polo": "NOVA SANTA ROSA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNIOESTE",
+      "nome_polo": "CEU AZUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNIOESTE",
+      "nome_polo": "UBIRATA - JARDIM SAO PAULO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNIOESTE",
+      "nome_polo": "SANTO ANTONIO DO SUDOESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "IBAITI - S.JUDAS TADEU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "PARANAGUÁ - JARDIM GUARAITUBA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "AGUDO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "ARROIO DOS RATOS - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "BALNEARIO PINHAL - DISTRITO DE MAGISTERIO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "CACHOEIRA DO SUL - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "CAMARGO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "CONSTANTINA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "CRUZ ALTA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "HULHA NEGRA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "JACUIZINHO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "MOSTARDAS - VILA NORTE",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "PICADA CAFE - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "QUARAI - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "RESTINGA SECA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SANTA VITORIA DO PALMAR - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SANTANA DA BOA VISTA - NOSSA SENHORA DO ROSARIO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SANT' ANA DO LIVRAMENTO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SANTO ANTONIO DA PATRULHA - CIDADE ALTA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SAO FRANCISCO DE PAULA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SAO JOSE DO NORTE - GUARIDA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SAO LOURENCO DO SUL - AVENIDA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SOBRADINHO - VERA CRUZ",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "TRES DE MAIO - GLORIA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "TRES PASSOS - ERICO VERISSIMO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "CACEQUI - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "ENCANTADO - LAMBARI",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "NOVO HAMBURGO - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SAO SEPE - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SAPIRANGA - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SAPUCAIA DO SUL - PARAISO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "SERAFINA CORREA - GRAMADINHO/ SANTA LUCIA",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "VILA FLORES - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFPEL",
+      "nome_polo": "ESTEIO - PARQUE AMADOR",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UEFS",
+      "nome_polo": "PINTADAS - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "CAMACARI - BAIRRO DO NATAL",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "CARINHANHA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "IPUPIARA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "ITAMARAJU - JAQUEIRA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "JACARACI - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "LAURO DE FREITAS - JOQUEI CLUB - PITANGA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "MATA DE SAO JOAO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "MUNDO NOVO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "PIRITIBA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "AMARGOSA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "BRUMADO - TANQUE",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "CONCEICAO DO COITE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "IBICUI - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "ILHEUS - MALHADO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "IRECE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "ITABERABA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "ITABUNA - LOMANTO JUNIOR",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "ITAPETINGA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "PAULO AFONSO - PANORAMA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "VITORIA DA CONQUISTA - RECREIO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "CAMPO ALEGRE DE LOURDES - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "MACAUBAS - ALTO ALEXANDRINO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "TEIXEIRA DE FREITAS - SAO JOSE",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "JUAZEIRO - SAO GERALDO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "PINTADAS - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UESB",
+      "nome_polo": "SALVADOR - PERIPERI",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "UBERABA - MERCES",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "ANGRA DOS REIS - JACUECANGA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "BOM JESUS DO ITABAPOANA - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "CANTAGALO - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "ITAOCARA - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "ITAPERUNA - PRESIDENTE COSTA E SILVA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "MACAE - IMBOACICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "MIGUEL PEREIRA - GOVERNADOR PORTELA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "NATIVIDADE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "PARACAMBI - FABRICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "PETRÓPOLIS - CASCATINHA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "PIRAI - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "RESENDE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "RIO BONITO - PRACA DO CRUZEIRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "RIO DE JANEIRO - CAMPO GRANDE",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "SAO FIDELIS - DIRLEY PERLINGEIRO DE ABREU",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "SAO FRANCISCO DE ITABAPOANA - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "SAO GONCALO - GRADIM",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "SAO PEDRO DA ALDEIA - NOVA SAO PEDRO DA ALDEIA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "SAQUAREMA - RIO DE AREIA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "TRES RIOS - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "VOLTA REDONDA - JARDIM PARAIBA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "TARUMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "CUBATAO - VILA COUTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "DIADEMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "DUQUE DE CAXIAS - JARDIM 25 DE AGOSTO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "FRANCA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "MAGE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "NOVA IGUACU - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "RIO DAS FLORES - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "SAO JOAO DA BOA VISTA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "VOTORANTIM - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "NITEROI - FONSECA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "BARRA DO PIRAI - QUIMICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIRIO",
+      "nome_polo": "BELFORD ROXO - PARQUE COLONIAL (JARDIM DO IPE- LOTE XV)",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "LAURO DE FREITAS - JOQUEI CLUB - PITANGA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "PIRITIBA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "CATALAO - JARDIM PRIMAVERA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "PATO BRANCO - SAIDA PARA BOM SUCESSO DO SUL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "ARROIO DOS RATOS - CENTRO",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "APIAÍ - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "BALSAMO - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "BARRETOS - DERBYCLUB",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "GUARULHOS - MACEDO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "IGARAPAVA - VILA GOMES",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "ITAPETININGA - TABOAOZINHO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "ITAPEVI - COHAB/SETOR B",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "JALES - COHAB JACB II",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "JANDIRA - JARDIM EUROPA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "SAO CARLOS - VILA NERY",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "TARUMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "BARRA DO BUGRES - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "CUBATAO - VILA COUTO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "FRANCA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "JAU - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "SANTOS - VILA NOVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "SERRANA - JARDIM CRISTINA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "SAO PAULO - JARAGUA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "SAO PAULO - JARDIM SANTA LUCRECIA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "SAO PAULO - VILA ARICANDUVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFSCAR",
+      "nome_polo": "SAO JOSE DOS CAMPOS - SANTANA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UERN",
+      "nome_polo": "GUAMARE - CENTRO",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UERN",
+      "nome_polo": "CARAUBAS - DR. SEBASTIAO MALTEZ",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UERN",
+      "nome_polo": "GROSSOS - BOA ESPERANCA",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UERN",
+      "nome_polo": "PARNAMIRIM - COHABINAL",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UERN",
+      "nome_polo": "SAO GONCALO DO AMARANTE - CONJUNTO AMARANTE",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "JUARA - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "PONTES E LACERDA - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "PRIMAVERA DO LESTE - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "SOBRADINHO - VERA CRUZ",
+      "estado": "RS"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "ALTO ARAGUAIA - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "BARRA DO BUGRES - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "CUIABA - CENTRO-SUL",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "DIAMANTINO - MT 240",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "GUARANTA DO NORTE - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "JAURU - CRUZEIRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "JUINA - SETOR DE SERVICOS",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "NOVA XAVANTINA - JARDIM ALVORADA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "SORRISO - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "COLIDER - SANTA CLARA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "CACERES - MARACANAZINHO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "AGUA BOA - TROPICAL",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "SAPEZAL - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "ARENAPOLIS - VILA NOVA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "COMODORO - NOVA VACARIA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "CAMPO VERDE - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "ARIPUANA - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UNEMAT",
+      "nome_polo": "VILA RICA - BELA VISTA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "ASTORGA - VILA SAMUEL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "IBAITI - S.JUDAS TADEU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "NOVA TEBAS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "PARANAGUÁ - JARDIM GUARAITUBA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "PARANAVAI - JARDIM SANTOS DUMOND",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "PATO BRANCO - SAIDA PARA BOM SUCESSO DO SUL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "SIQUEIRA CAMPOS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "TARUMA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "APUCARANA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "ASSAI - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "BELA VISTA DO PARAISO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "BITURUNA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "CERRO AZUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "COLOMBO - JD. NOSSA SENHORA DE FATIMA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "CONGONHINHAS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "ENGENHEIRO BELTRAO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "FAXINAL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "FLOR DA SERRA DO SUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "FLORIANOPOLIS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "GOIOERE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "IPIRANGA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "ITAMBE - PARQUE INDUSTRIAL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "JACAREZINHO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "JAGUARIAIVA - CIANE",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "JAU - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "LAPA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "LARANJEIRAS DO SUL - ESTRADA PARA PORTO BARREIRA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "NOVA SANTA ROSA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "PALMEIRA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "PALMITAL - VILA PARQUE JUNIOR",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "PINHAO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "PONTA GROSSA - UVARANAS",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "RIO NEGRO - SEMINARIO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "SAO JOAO DA BOA VISTA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "SARANDI - JARDIM INDEPENDENCIA III PARTE",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "TELEMACO BORBA - NOSSA SENHORA DO PERPETUO SOCORRO-BNH",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "UMUARAMA - JARDIM SAO FERNANDES",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "IVAIPORA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "DIAMANTE DO NORTE - CRN UEM",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "SAO MATEUS DO SUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "PRUDENTOPOLIS - BARRO PRETO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "RESERVA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "UBIRATA - JARDIM SAO PAULO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "CURITIBA - ALTO DA GLÓRIA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "PONTAL DO PARANA - BALNEARIO ATAMI",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "CANDIDO DE ABREU - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEPG",
+      "nome_polo": "ARAPONGAS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "AGUA BRANCA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "BURITI DOS LOPES - COHAB",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "CANTO DO BURITI - AEROPORTO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "CASTELO DO PIAUI - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "ELESBAO VELOSO - CAPITAO MUNDOCO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "ESPERANTINA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "GILBUES - SANTO ANTONIO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "INHUMA - LIBERDADE",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "PIRACURUCA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "SAO JOAO DO PIAUI - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "SIMOES - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "SIMPLICIO MENDES - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "URUCUI - MALVINAS",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "BOM JESUS - JOSUE PARENTE",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "CAMPO MAIOR - SAO LUIS",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "CORRENTE - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "LUZILANDIA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "MARCOS PARENTE - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "MONSENHOR GIL - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "OEIRAS - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "PICOS - JUNCO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "PIRIPIRI - PETECAS",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "UNIAO - SAO SEBASTIAO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "VALENCA DO PIAUI - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "JAICOS - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "PIO IX - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "ANISIO DE ABREU - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "BARRAS - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "LUIS CORREIA - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "PAES LANDIM - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "REGENERACAO - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UESPI",
+      "nome_polo": "TERESINA - MATINHA",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UNIFAP",
+      "nome_polo": "SANTANA - NOVA BRASÍLIA",
+      "estado": "AP"
+    },
+    {
+      "sigla": "UNIFAP",
+      "nome_polo": "VITORIA DO JARI - CIDADE LIVRE",
+      "estado": "AP"
+    },
+    {
+      "sigla": "UNIFAP",
+      "nome_polo": "MACAPA - CENTRO",
+      "estado": "AP"
+    },
+    {
+      "sigla": "UNIFAP",
+      "nome_polo": "OIAPOQUE - CENTRO",
+      "estado": "AP"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "ASTORGA - VILA SAMUEL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "CIDADE GAUCHA - RODOVIA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "IBAITI - S.JUDAS TADEU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "NOVA LONDRINA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "PARANAGUÁ - JARDIM GUARAITUBA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "PARANAVAI - JARDIM SANTOS DUMOND",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "PATO BRANCO - SAIDA PARA BOM SUCESSO DO SUL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "SIQUEIRA CAMPOS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "APUCARANA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "ASSAI - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "BELA VISTA DO PARAISO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "BITURUNA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "CERRO AZUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "COLOMBO - JD. NOSSA SENHORA DE FATIMA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "CONGONHINHAS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "ENGENHEIRO BELTRAO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "FAXINAL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "FLOR DA SERRA DO SUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "GOIOERE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "IPIRANGA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "JACAREZINHO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "LARANJEIRAS DO SUL - ESTRADA PARA PORTO BARREIRA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "PALMEIRA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "PALMITAL - VILA PARQUE JUNIOR",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "PINHAO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "PONTA GROSSA - UVARANAS",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "RIO NEGRO - SEMINARIO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "SARANDI - JARDIM INDEPENDENCIA III PARTE",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "TELEMACO BORBA - NOSSA SENHORA DO PERPETUO SOCORRO-BNH",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "UMUARAMA - JARDIM SAO FERNANDES",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "IVAIPORA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "DIAMANTE DO NORTE - CRN UEM",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "CEU AZUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "PRUDENTOPOLIS - BARRO PRETO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "RESERVA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "UBIRATA - JARDIM SAO PAULO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "SANTO ANTONIO DO SUDOESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "CANDIDO DE ABREU - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "IRETAMA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UEL",
+      "nome_polo": "ARAPONGAS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "ANGRA DOS REIS - JACUECANGA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "MACAE - IMBOACICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "MIGUEL PEREIRA - GOVERNADOR PORTELA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "NOVA FRIBURGO - OLARIA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "PARACAMBI - FABRICA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "PETRÓPOLIS - CASCATINHA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "PIRAI - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "RESENDE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "RIO BONITO - PRACA DO CRUZEIRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "RIO DE JANEIRO - CAMPO GRANDE",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "SAO GONCALO - GRADIM",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "TRES RIOS - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "VOLTA REDONDA - JARDIM PARAIBA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "NOVA IGUACU - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "NITEROI - FONSECA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "SAO PAULO - VILA FORMOSA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "CEFET/RJ",
+      "nome_polo": "SAO PAULO - PARAISOPOLIS",
+      "estado": "SP"
+    },
+    {
+      "sigla": "IFAL",
+      "nome_polo": "MARAGOGI - CENTRO",
+      "estado": "AL"
+    },
+    {
+      "sigla": "IFAL",
+      "nome_polo": "SANTANA DO IPANEMA - NOVO CENTRO COMERCIAL",
+      "estado": "AL"
+    },
+    {
+      "sigla": "IFAL",
+      "nome_polo": "MATA DE SAO JOAO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "IFAL",
+      "nome_polo": "ILHEUS - MALHADO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "IFAL",
+      "nome_polo": "SAO JOSE DA LAJE - NOVO CENTRO COMERCIAL",
+      "estado": "AL"
+    },
+    {
+      "sigla": "IFAL",
+      "nome_polo": "VITORIA DA CONQUISTA - RECREIO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "IFAL",
+      "nome_polo": "CAJUEIRO - CENTRO",
+      "estado": "AL"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "SANTANA DO IPANEMA - NOVO CENTRO COMERCIAL",
+      "estado": "AL"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "DIAS D'AVILA - NOVA DIAS D'AVILA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "IPOJUCA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "LIMOEIRO - JUA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "PESQUEIRA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "SURUBIM - SAO JOSE",
+      "estado": "PE"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "CARPINA - SAO JOSE",
+      "estado": "PE"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "PALMARES - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "SANTA CRUZ DO CAPIBARIBE - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "IFPE",
+      "nome_polo": "AGUAS BELAS - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "ARAGUARI - FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "COROMANDEL - SAO DOMINGOS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "JANUARIA - VILA FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "LAGAMAR - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "UBERABA - MERCES",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "ARAXA - SANTA RITA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "JANAUBA - VEREDAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "UBERLANDIA - BRASIL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "ITUIUTABA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "SAO PAULO - SAO JOAO CLIMACO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "SAO PAULO - JARDIM PAULISTANO (ZONA NORTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "SAO PAULO - JARDIM SAO CARLOS (ZONA LESTE)",
+      "estado": "SP"
+    },
+    {
+      "sigla": "IFTM",
+      "nome_polo": "SAO PAULO - JARDIM MORENO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "SURUBIM - SAO JOSE",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "TABIRA - JUREMINHA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "AFRANIO - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "CARPINA - SAO JOSE",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "PALMARES - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "FLORESTA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "SANTA CRUZ DO CAPIBARIBE - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "AGUAS BELAS - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "CABROBO - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UPE",
+      "nome_polo": "OURICURI - ZONA URBANA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "ANANAS - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "NOVA OLINDA - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "PALMAS - PLANO DIRETOR NORTE",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "ARAGUACEMA - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "ARAGUATINS - NOVA ARAGUATINS",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "CRISTALANDIA - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "DIANOPOLIS - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "MATEIROS - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "PORTO NACIONAL - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "GUARAI - SETOR VANDERLITO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "ALVORADA - CENTRO",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UNITINS",
+      "nome_polo": "TAGUATINGA - SETOR NORTE",
+      "estado": "TO"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "MACEIO - TABULEIRO DO MARTINS",
+      "estado": "AL"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "AGUA CLARA - JARDIM DAS PALMEIRAS",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "RIO BRILHANTE - ZONA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "SAO GABRIEL DO OESTE - ZONA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "CIDADE GAUCHA - RODOVIA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "NOVA LONDRINA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "PARANAVAI - JARDIM SANTOS DUMOND",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "SIQUEIRA CAMPOS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "APIAÍ - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "IGARAPAVA - VILA GOMES",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "BATAGUASSU - JARDIM SANTA MARIA",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "BELA VISTA - CENTRO",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "CAMAPUA - VILA DIAMANTINA",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "COSTA RICA - AREA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "MIRANDA - COAHB",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "NATAL - NOSSA SENHORA DE NAZARE",
+      "estado": "RN"
+    },
+    {
+      "sigla": "UFMS",
+      "nome_polo": "PORTO MURTINHO - CENTRO",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFRR",
+      "nome_polo": "ALTO ALEGRE - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFRR",
+      "nome_polo": "AMAJARI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFRR",
+      "nome_polo": "BOA VISTA - PRICUMA",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFRR",
+      "nome_polo": "BONFIM - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFRR",
+      "nome_polo": "CARACARAI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFRR",
+      "nome_polo": "PACARAIMA - SUAPI",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFRR",
+      "nome_polo": "RORAINOPOLIS - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "UFRR",
+      "nome_polo": "SAO JOAO DA BALIZA - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "FUFSE",
+      "nome_polo": "ARAUA - CENTRO",
+      "estado": "SE"
+    },
+    {
+      "sigla": "FUFSE",
+      "nome_polo": "BREJO GRANDE - CENTRO",
+      "estado": "SE"
+    },
+    {
+      "sigla": "FUFSE",
+      "nome_polo": "JAPARATUBA - CENTRO",
+      "estado": "SE"
+    },
+    {
+      "sigla": "FUFSE",
+      "nome_polo": "POCO VERDE - CENTRO",
+      "estado": "SE"
+    },
+    {
+      "sigla": "FUFSE",
+      "nome_polo": "PORTO DA FOLHA - CENTRO",
+      "estado": "SE"
+    },
+    {
+      "sigla": "FUFSE",
+      "nome_polo": "SAO DOMINGOS - CENTRO",
+      "estado": "SE"
+    },
+    {
+      "sigla": "FUFSE",
+      "nome_polo": "LAGARTO - COLONIA TREZE",
+      "estado": "SE"
+    },
+    {
+      "sigla": "FUFSE",
+      "nome_polo": "SAO CRISTOVAO - ROZA ELZE",
+      "estado": "SE"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "ARACUAI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "CORINTO - CLARINDO DE PAIVA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "JANUARIA - VILA FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "SALINAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "TEOFILO OTONI - VILA SANTA CLARA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "ALMENARA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "CARLOS CHAGAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "CONFINS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "CRISTALIA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "FRANCISCO SA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "ITAMARANDIBA - FLORESTAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "MANTENA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "PEDRA AZUL - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "POMPEU - PARAÍSO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "SAO JOAO DA PONTE - INDUSTRIAL",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "URUCUIA -  CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "BURITIZEIRO - JARDIM DOS BURITIS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "PADRE PARAISO - CORONEL OLINTO VIEIRA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "TAIOBEIRAS - NOSSA SENHORA DE FATIMA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "TURMALINA - VILA NOVA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "MONTES CLAROS - JK",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "BOCAIUVA - ALTEROSA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFNMG",
+      "nome_polo": "JAIBA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "COROMANDEL - SAO DOMINGOS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "JUARA - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "PONTES E LACERDA - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "PRIMAVERA DO LESTE - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "RIBEIRAO CASCALHEIRA - SETOR INDUSTRIAL",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "ALTO ARAGUAIA - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "BARRA DO BUGRES - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "CUIABA - CENTRO-SUL",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "DIAMANTINO - MT 240",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "GUARANTA DO NORTE - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "JAURU - CRUZEIRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "JUINA - SETOR DE SERVICOS",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "LUCAS DO RIO VERDE - JARDIM PRIMAVERA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "NOVA XAVANTINA - JARDIM ALVORADA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "SORRISO - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "COLIDER - SANTA CLARA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "CACERES - MARACANAZINHO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "AGUA BOA - TROPICAL",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "SAPEZAL - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "ARENAPOLIS - VILA NOVA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "COMODORO - NOVA VACARIA",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFMT",
+      "nome_polo": "ARIPUANA - CENTRO",
+      "estado": "MT"
+    },
+    {
+      "sigla": "IFRR",
+      "nome_polo": "ALTO ALEGRE - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFRR",
+      "nome_polo": "AMAJARI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFRR",
+      "nome_polo": "BOA VISTA - PRICUMA",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFRR",
+      "nome_polo": "BONFIM - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFRR",
+      "nome_polo": "CARACARAI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFRR",
+      "nome_polo": "IRACEMA - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFRR",
+      "nome_polo": "PACARAIMA - SUAPI",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFRR",
+      "nome_polo": "RORAINOPOLIS - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFRR",
+      "nome_polo": "SAO JOAO DA BALIZA - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "AFONSO CLAUDIO - CUSTODIO LEITE RIBEIRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "ARACRUZ - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "BAIXO GUANDU - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "CASTELO - VILA ISABEL",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "DOMINGOS MARTINS - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "ECOPORANGA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "ITAPEMIRIM - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "IUNA - NITEROI",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "MANTENOPOLIS - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "MIMOSO DO SUL - CHACARA DO CHAFARIZ",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "PINHEIROS - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "PIUMA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "SANTA LEOPOLDINA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "VARGEM ALTA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "CACHOEIRO DE ITAPEMIRIM - DR. LUIZ TINOCO DA FONSECA - MORRO GRANDE",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "COLATINA - ESPLANADA",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "LINHARES - NOVO HORIZONTE",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "NOVA VENECIA - RUBIA",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "SANTA TERESA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "VENDA NOVA DO IMIGRANTE - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFES",
+      "nome_polo": "MONTANHA - CENTRO",
+      "estado": "ES"
+    },
+    {
+      "sigla": "IFAM",
+      "nome_polo": "LABREA - CENTRO",
+      "estado": "AM"
+    },
+    {
+      "sigla": "IFAM",
+      "nome_polo": "BOA VISTA - PRICUMA",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFAM",
+      "nome_polo": "CARACARAI - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFAM",
+      "nome_polo": "IRACEMA - CENTRO",
+      "estado": "RR"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "APARECIDA DE GOIANIA - VILA BRASILIA",
+      "estado": "GO"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "ALAGOA GRANDE - CONJUNTO CEHAP I",
+      "estado": "PB"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "ARARUNA - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "CAMPINA GRANDE - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "DUAS ESTRADAS - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "ITAPORANGA - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "JOAO PESSOA - EXPEDICIONARIOS",
+      "estado": "PB"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "LUCENA - FAGUNDES",
+      "estado": "PB"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "MARI - JOSE AMERICO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "POMBAL - CENTRO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "IFPB",
+      "nome_polo": "TAPEROA - ALTO DA CONCEICAO",
+      "estado": "PB"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "TREZE TILIAS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "ARARANGUA - NOVA DIVINEIA",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "BLUMENAU - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "CONCORDIA - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "CHAPECO - SAO CRISTOVAO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "FLORIANOPOLIS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "INDAIAL - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "ITAPEMA - MORRETES",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "PALMITOS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "POUSO REDONDO - PROGRESSO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "SAO JOSE - FORQUILHINHAS",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "SAO MIGUEL DO OESTE - SAO GOTARDO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "BRACO DO NORTE - VILA NOVA",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "PRAIA GRANDE - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "CRICIUMA - COMERCIARIO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "JOINVILLE - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "TUBARAO - HUMAITA DE CIMA",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "LAGUNA - PORTINHO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "CAMPOS NOVOS - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "CACADOR - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "PONTE SERRADA - BERTE",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "LAGES - GETHAL",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "JOACABA - CENTRO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UDESC",
+      "nome_polo": "CANELINHA - AREIAO",
+      "estado": "SC"
+    },
+    {
+      "sigla": "UEMS",
+      "nome_polo": "AGUA CLARA - JARDIM DAS PALMEIRAS",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UEMS",
+      "nome_polo": "RIO BRILHANTE - ZONA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UEMS",
+      "nome_polo": "SAO GABRIEL DO OESTE - ZONA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UEMS",
+      "nome_polo": "BATAGUASSU - JARDIM SANTA MARIA",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UEMS",
+      "nome_polo": "BELA VISTA - CENTRO",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UEMS",
+      "nome_polo": "CAMAPUA - VILA DIAMANTINA",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UEMS",
+      "nome_polo": "COSTA RICA - AREA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UEMS",
+      "nome_polo": "MIRANDA - COAHB",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UEMS",
+      "nome_polo": "PORTO MURTINHO - CENTRO",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "ASTORGA - VILA SAMUEL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "CRUZEIRO DO OESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "FOZ DO IGUACU - PARQUE TECNOLOGICO ITAIPU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "IBAITI - S.JUDAS TADEU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "NOVA TEBAS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "PARANAGUÁ - JARDIM GUARAITUBA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "PATO BRANCO - SAIDA PARA BOM SUCESSO DO SUL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "APUCARANA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "ASSAI - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "BITURUNA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "CERRO AZUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "COLOMBO - JD. NOSSA SENHORA DE FATIMA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "CONGONHINHAS - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "ENGENHEIRO BELTRAO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "FAXINAL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "FLOR DA SERRA DO SUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "GOIOERE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "IPIRANGA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "ITAMBE - PARQUE INDUSTRIAL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "JACAREZINHO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "LAPA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "LARANJEIRAS DO SUL - ESTRADA PARA PORTO BARREIRA",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "PALMITAL - VILA PARQUE JUNIOR",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "PINHAO - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "PONTA GROSSA - UVARANAS",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "SAO JOAO DA BOA VISTA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "TELEMACO BORBA - NOSSA SENHORA DO PERPETUO SOCORRO-BNH",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "IVAIPORA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "DIAMANTE DO NORTE - CRN UEM",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "CEU AZUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "SAO MATEUS DO SUL - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "PRUDENTOPOLIS - BARRO PRETO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "RESERVA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "UBIRATA - JARDIM SAO PAULO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "SANTO ANTONIO DO SUDOESTE - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "CANDIDO DE ABREU - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "IRETAMA - CENTRO",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNICENTRO",
+      "nome_polo": "GUARAPUAVA - INDUSTRIAL",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "AGUA CLARA - JARDIM DAS PALMEIRAS",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "RIO BRILHANTE - ZONA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "SAO GABRIEL DO OESTE - ZONA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "BATAGUASSU - JARDIM SANTA MARIA",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "BELA VISTA - CENTRO",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "CAMAPUA - VILA DIAMANTINA",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "COSTA RICA - AREA RURAL",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "MIRANDA - COAHB",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "PORTO MURTINHO - CENTRO",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UFGD",
+      "nome_polo": "JAPORA - CENTRO",
+      "estado": "MS"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "ALTEROSA - CRUZEIRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "BICAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "BOA ESPERANCA - OZANAN",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "CAMBUI - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "ITABIRA - AMAZONAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "ITAMONTE - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "SANTA RITA DE CALDAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "FOZ DO IGUACU - PARQUE TECNOLOGICO ITAIPU",
+      "estado": "PR"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "ANGRA DOS REIS - JACUECANGA",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "RESENDE - CENTRO",
+      "estado": "RJ"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "GUARULHOS - MACEDO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "ARARAS - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "ARAXA - SANTA RITA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "BRAGANCA PAULISTA - UBERABA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "SANTOS - VILA NOVA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "SAO JOAO DA BOA VISTA - CENTRO",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "SERRANA - JARDIM CRISTINA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "TIRADENTES - PARQUE DAS ABELHAS",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIFEI",
+      "nome_polo": "SAO JOSE DOS CAMPOS - SANTANA",
+      "estado": "SP"
+    },
+    {
+      "sigla": "UNIR",
+      "nome_polo": "ARIQUEMES - SETOR INSTITUCIONAL",
+      "estado": "RO"
+    },
+    {
+      "sigla": "UNIR",
+      "nome_polo": "CHUPINGUAIA - CENTRO",
+      "estado": "RO"
+    },
+    {
+      "sigla": "UNIR",
+      "nome_polo": "JI-PARANA - JARDIM DOS IMIGRANTES",
+      "estado": "RO"
+    },
+    {
+      "sigla": "UNIR",
+      "nome_polo": "ROLIM DE MOURA - CIDADE ALTA",
+      "estado": "RO"
+    },
+    {
+      "sigla": "UNIR",
+      "nome_polo": "BURITIS - SETOR 1",
+      "estado": "RO"
+    },
+    {
+      "sigla": "UNIR",
+      "nome_polo": "NOVA MAMORE - CIDADE NOVA",
+      "estado": "RO"
+    },
+    {
+      "sigla": "UNIR",
+      "nome_polo": "PORTO VELHO - CENTRO",
+      "estado": "RO"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "BICAS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "IPATINGA - BOM RETIRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "BARROSO - SANTA MARIA",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "CONFINS - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "DURANDE - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "IPANEMA - CENTRO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "JABOTICATUBAS - SAO VICENTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "LAGOA SANTA - SANTOS DUMONT",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "TIMOTEO - CENTRO NORTE",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UFV",
+      "nome_polo": "UBA - TRIANGULO",
+      "estado": "MG"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "MUNDO NOVO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "PIRITIBA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "TRINDADE - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "SAO JOAO DO PIAUI - CENTRO",
+      "estado": "PI"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "CONCEICAO DO COITE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "EUCLIDES DA CUNHA - JEREMIAS",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "ILHEUS - MALHADO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "IRECE - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "ITABERABA - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "PAULO AFONSO - PANORAMA",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "AFRANIO - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "CAMPO ALEGRE DE LOURDES - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "MACAUBAS - ALTO ALEXANDRINO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "JUAZEIRO - SAO GERALDO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "PINTADAS - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "PETROLINA - VILA EDUARDO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "FLORESTA - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "SALGUEIRO - NOSSA SENHORA DAS GRACAS",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "AGUAS BELAS - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "CABROBO - CENTRO",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "OURICURI - ZONA URBANA",
+      "estado": "PE"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "JAGUARARI - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "CAMPO FORMOSO - CENTRO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "CAPIM GROSSO - JARDIM ARAUJO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNIVASF",
+      "nome_polo": "IPIRA - SETE DE JULHO",
+      "estado": "BA"
+    },
+    {
+      "sigla": "UNILAB",
+      "nome_polo": "ARACATI - AEROPORTO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UNILAB",
+      "nome_polo": "ARACOIABA - CONJUNTO SOLON LIMAVERDE",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UNILAB",
+      "nome_polo": "LIMOEIRO DO NORTE - SANTA LUZIA - CENTRO",
+      "estado": "CE"
+    },
+    {
+      "sigla": "UNILAB",
+      "nome_polo": "PIQUET CARNEIRO - CENTRO",
+      "estado": "CE"
+    }
+  ]
+}
