@@ -9,9 +9,9 @@
             <p>Abaixo, nessa página, você encontra algumas informações básicas sobre a UAB, incluindo uma linha do tempo da
                 EaD com enfoque na UAB.</p>
             <p>Para navegar utilize o mapa a esquerda, clicando em qualquer ponto de interesse. Caso tenha alguma dúvida ou
-                comentário sobre o projeto, utilize <a href="http://educacaoaberta.org/contato/">esse formulário</a>. Caso identifique
+                comentário sobre o projeto, utilize <a class="unprose link" href="http://educacaoaberta.org/contato/">esse formulário</a>. Caso identifique
                 algum problema, dado incongruente, ou queira ajudar a melhorar o sistema, entre em contato colocando um <i>problema/comentário</i>
-                na nossa página no <a href="https://github.com/educacaoaberta/CiclopeDB/issues">Github</a>.</p>
+                na nossa página no <a class="unprose link" href="https://github.com/educacaoaberta/CiclopeDB/issues">Github</a>.</p>
 
             <i>Nosso grupo de pesquisa é independente e não representa a posição ou opiniões da CAPES ou do Sistema Universidade Aberta do Brasil</i>.<br>
         </div>
@@ -24,13 +24,13 @@
         <div class="prose">
             <p>A Universidade Aberta do Brasil (UAB) foi criada em 2006, inspirada por várias experiências no Brasil e no
                 exterior.
-                De particular importância para a estruturação do modelo UAB foi o consórcio <a href="http://cederj.edu.br/">CEDERJ</a> do estado do Rio de Janeiro. Outras experiências pioneiras
+                De particular importância para a estruturação do modelo UAB foi o consórcio <a class="unprose link" href="http://cederj.edu.br/">CEDERJ</a> do estado do Rio de Janeiro. Outras experiências pioneiras
                 incluíram aquelas desenvolvidas pela UFMT para formação de professor no estado de Mato Grosso, e o projeto Veredas, em
                 Minas Gerais. O objetivo inicial da UAB foi o de proporcionar o acesso a educação superior em locais onde esse
                 acesso era limitado, uma tarefa não trivial em um país com dimensões continentais como o Brasil e com grande
                 concentração populacional.</p>
             <p>A UAB oferece cursos primariamente para professores em serviço, com enfoque no ensino básico, buscando
-                atingir as demandas de sua profissão e os termos estabelecidos pela Lei de Diretrizes e Bases da Educação brasileira, (<a href="http://portal.mec.gov.br/arquivos/pdf/ldb.pdf">Lei 9.394/1996</a>). A existência de
+                atingir as demandas de sua profissão e os termos estabelecidos pela Lei de Diretrizes e Bases da Educação brasileira, (<a class="unprose link" href="http://portal.mec.gov.br/arquivos/pdf/ldb.pdf">Lei 9.394/1996</a>). A existência de
                 professores que atuam sem diploma superior e/ou em áreas para as quais não receberam formação ainda é um problema na
                 educação brasileira. A mesma LDB/1996 reconheceu a importância da educação à distância no Brasil e estabeleceu
                 parâmetros inicias para sua regulamentação.</p>
@@ -78,7 +78,7 @@
 
         <footer class="bg-blue-faint px12 py12 round-b-ml txt-s">
             <p>
-                O site e seu conteúdo estão licenciados com licença Creative Commons Atribuição (<a
+                O site e seu conteúdo estão licenciados com licença Creative Commons Atribuição (<a class="unprose link"
                     href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>) - Educação Aberta.
             </p>
             <p>
