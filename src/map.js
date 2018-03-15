@@ -5,8 +5,8 @@ const accessToken = 'pk.eyJ1IjoibWFwYXVhYiIsImEiOiJjamVpbDZsazgzNWJyMnFxZTN0Z2di
 
 const brasilStyle = 'mapbox://styles/mapauab/cjeil7fjv0rxm2ro2jll0x412';
 
-const ipesHasPolosLayer = 'mapbox://mapauab.cjeoi79nn02l438qy7t1y0p66-6fffu';
-const ipesHasPolosSourceLayer = 'ipes-has-polos';
+const ipesHasPolosLayer = 'mapbox://mapauab.cjesqh5s609p232pgznx605lb-4sy16';
+const ipesHasPolosSourceLayer = 'polos-ipes';
 
 const ipesLayer = 'mapbox://mapauab.cjeim2fzs0tfi2qmo3w4mqixu-1qo7e';
 const ipesSourceLayer = 'ipes-data';
@@ -97,13 +97,9 @@ function addIpesLayer() {
     if (!e.features.length) return
     const feature = e.features[0];
 
-    console.log(feature)
     const sigla = feature.properties.sigla
     map.setLayoutProperty('centros', 'visibility', 'visible');
-    map.setFilter('centros', [
-      'all',
-      ['==', 'sigla', sigla]
-    ]);
+    map.setFilter('centros', ['all', ['==', 'ipes_sigla', sigla]]);
 
     EventBus.$emit('switchInfoPolos', false);
     EventBus.$emit('switchInfoIpes', true);
@@ -173,32 +169,19 @@ function addPolosLayer() {
 
 function addIpesHasPolos() {
   // carrega os all ipes (ipes_has_polos)
-  map.addSource("ipes-has-polos", {
+  map.addSource("polos-ipes", {
     type: "vector",
     url: ipesHasPolosLayer
   });
 
   map.addLayer({
     "id": "centros",
-    "source": "ipes-has-polos",
+    "source": "polos-ipes",
     'source-layer': ipesHasPolosSourceLayer,
-    "type": "circle",
-    "paint": {
-      "circle-color": '#4FB0C6',
-      "circle-stroke-width": 2,
-      "circle-stroke-color": '#000',
-      "circle-radius": {
-        "base": 1,
-        "stops": [
-          // zoom is 0 -> radius will be 5px
-          [0, 2],
-          // zoom is 5 -> radius will be 15px
-          [22, 17]
-        ]
-      }
-    },
+    "type": "symbol",
     layout: {
-      'visibility': 'none'
+      'visibility': 'none',
+      "icon-image": "college-15"
     }
   });
 
