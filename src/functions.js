@@ -46,7 +46,7 @@ var ipesRegiao = {};
 var polosRegiao = {};
 
 var currentYear = (new Date()).getFullYear();
-var polosByStateWithFederativeUnitJson = "./static/json/allpolos.json";
+var polosByStateWithFederativeUnitJson = "./static/json/ipesdata.json";
 var ipesByStateJson = "./static/json/ipesbystate.json";
 var polosByStateJson = "./static/json/polosbystate.json";
 
@@ -90,32 +90,21 @@ function loadChart(id, type, label) {
 // Número de polos por estado dentro dos arquivos do content
 function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
   $.getJSON(polosByStateWithFederativeUnitJson, function (data) {
-    // console.log(data.data.length)
-    $.each( data.data, function( key, val ) {
-      if(val.sigla === siglaIpes) {
-        $('#graphContainer').show()
-        // console.log(val)
-
-        // console.log('você clicou em' + val.sigla)
+    if(data.data.length !== 0) {
+      $('#graphContainer').show()
+      for (let i = 0; i < data.data.length; i++) {
+        if(data.data[i].ipes_sigla === siglaIpes) {
+          let estado = data.data[i]['uf'];
+          let quant = Number(data.data[i]['quant']);
+          myBarChart.data.labels.push(estado);
+          myBarChart.data.datasets.forEach((dataset) => {
+            dataset.data.push(quant);
+            dataset.backgroundColor.push(regionsColors[regioes[estado]]);
+          });
+        }
       }
-      // console.log(key)
-      // console.log(val.sigla)
-    });
-    // if(data.length !== 0) {
-    //   $('#graphContainer').show()
-    //   for (let i = 0; i < data.length; i++) {
-    //     let estado = data[i][0];
-    //     let quant = Number(data[i][1]);
-    //     myBarChart.data.labels.push(estado);
-    //     myBarChart.data.datasets.forEach((dataset) => {
-    //       dataset.data.push(quant)
-    //       dataset.backgroundColor.push(regionsColors[regioes[estado]]);
-    //     });
-    //   }
-    // } else {
-    //   $('#graphContainer').hide()
-    // }
-    // myBarChart.update();
+    }
+    myBarChart.update();
   });
 }
 
