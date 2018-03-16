@@ -10,10 +10,12 @@
                 <a href="#info-ipes-tab-info-gerais">Informações Gerais</a>
             </li>
             <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+            <li id="tab-dados" class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-ipes-tab-dados">Dados</a>
             </li>
             <li v-show="sigla"
                 class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+            <li id="tab-linha-tempo" class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-ipes-tab-linha-tempo">Linha do Tempo</a>
             </li>
         </ul>
@@ -141,6 +143,7 @@
         </div>
       <div id="info-ipes-tab-linha-tempo">
           <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+          <div id='timeline-embed' style="height: 450px;"></div>
       </div>
     </div>
 
@@ -181,6 +184,7 @@ export default {
     EventBus.$on("infoIpes", infoIpes => {
       this.setInfoIpes(infoIpes);
       this.loadIpesDataTable(infoIpes);
+      this.loadTimeline(infoIpes);
     });
     EventBus.$on("switchInfoIpes", isVisible => {
       this.isVisible = isVisible
@@ -225,6 +229,22 @@ export default {
         .search("^" + infoIpes.sigla + "$", true, false, true)
         .draw();
     },
+    loadTimeline: function(infoIpes) {
+
+      var options = {
+        start_at_slide: 0
+      };
+
+      $.getJSON("/static/json/linhas.json", function (data){
+        $('#tab-linha-tempo').addClass("hide-visually")
+        $.each( data, function( key, val ) {
+          if(key === infoIpes.sigla) {
+            window.timeline = new TL.Timeline('timeline-embed', val, options);
+            $('#tab-linha-tempo').removeClass("hide-visually")
+          }
+        })
+      });
+    },
     setInfoIpes: function(infoIpes) {
       $("#info-ipes-right-sidebar").tabs("option", "active", 0);
 
@@ -233,18 +253,6 @@ export default {
 
       var myBarChart = loadChart("polosBarChart", "bar", "Polos");
       processBarChartIpesWithSiglaIpes(myBarChart, infoIpes.sigla);
-
-      var options = {
-        start_at_slide: 0
-      };
-
-      $.getJSON("/static/json/linhas.json", function (data){
-        $.each( data, function( key, val ) {
-          if(key === infoIpes.sigla) {
-            window.timeline = new TL.Timeline('timeline-embed', val, options);
-          }
-        })
-      });
 
       this.id = null;
       this.sigla = infoIpes.sigla;
