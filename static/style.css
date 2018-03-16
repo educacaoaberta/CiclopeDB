@@ -75,6 +75,10 @@ body {
     display: block;
 }
 
+.mapboxgl-popup-content {
+    border-radius: 7px !important;
+}
+
 li.ui-tabs-active.ui-state-active {
     color: #fff !important;
     border-bottom: 5px solid #fff !important;
