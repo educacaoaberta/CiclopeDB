@@ -180,8 +180,10 @@ export default {
   watch: {
     isVisible() {
       if(this.isVisible) {
+        $('#initial-sidebar').addClass("hide-visually");
         $("#info-polos-right-sidebar").removeClass("hide-visually");
       } else {
+        $('#initial-sidebar').removeClass("hide-visually");
         $("#info-polos-right-sidebar").addClass("hide-visually");
       }
     }
