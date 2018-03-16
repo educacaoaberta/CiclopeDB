@@ -155,7 +155,6 @@
             </div>
         </div>
       <div id="info-ipes-tab-linha-tempo">
-          <div id='timeline-embed' style="width: 100%; height: 600px"></div>
           <div id='timeline-embed' style="height: 450px;"></div>
       </div>
     </div>
@@ -192,7 +191,16 @@ export default {
     };
   },
   mounted() {
-    $("#info-ipes-right-sidebar").tabs({show: 'fade', hide: 'fade', active: 0});
+    $("#info-ipes-right-sidebar").tabs({show: 'fade', hide: 'fade', active: 0,
+      activate: function( event, ui ) {
+      // ajusta o tamanho da janela para mostrar a timeline corretamente
+        let resize = new Event('resize')
+        window.dispatchEvent(resize);
+        if (ui.newTab[0].id === "tab-linha-tempo") {
+          window.dispatchEvent(resize);
+        }
+      }
+    });
 
     EventBus.$on("infoIpes", infoIpes => {
       this.setInfoIpes(infoIpes);
@@ -258,7 +266,8 @@ export default {
         start_at_slide: 0
       };
 
-      $.getJSON("/static/json/linhas.json", function (data){
+      $('#timeline-embed').show();
+
       $.getJSON("./static/json/linhas.json", function (data){
         $('#tab-linha-tempo').addClass("hide-visually")
         $.each( data, function( key, val ) {
