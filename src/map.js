@@ -22,10 +22,9 @@ let map = new mapboxgl.Map({
   style: brasilStyle,
   zoom: 3.5,
   center: [-41.540733, -14.720560],
-  // maxZoom: 5,
-  // minZoom: 1,
   minZoom: 3.5,
-  maxZoom: 10,
+  maxZoom: 15,
+  trackResize: true
 });
 
 // cria um novo popup
@@ -113,29 +112,15 @@ function addPolosLayer() {
     url: polosLayer,
   });
 
-  // adiciona os círculos nos polos
   map.addLayer({
     'id': 'polos',
-    'type': 'circle',
+    'type': 'symbol',
     'source': 'polos',
     'source-layer': polosSourceLayer,
     'layout': {
-      'visibility': 'none'
-    },
-    "paint": {
-      "circle-color": '#4FB0C6',
-      "circle-stroke-width": 2,
-      "circle-stroke-color": '#000',
-      "circle-radius": {
-        "base": 1,
-        "stops": [
-          // zoom is 0 -> radius will be 5px
-          [0, 2],
-          // zoom is 5 -> radius will be 15px
-          [22, 17]
-        ]
-      }
-    },
+      'visibility': 'none',
+      "icon-image": "college-15",
+    }
   });
 
   // o cursor volta ao padrão ao sair
