@@ -2,7 +2,22 @@
 <right-sidebar id="info-polos-right-sidebar">
   <template slot="tabs">
       <div class='px12 py12 bg-blue-faint txt-s'>
-          <div class="txt-l txt-bold mb-neg3">{{ nome }}</div>
+          <div class='grid'>
+              <div class='col col--1 block cursor-pointer' style="margin: auto;" v-on:click="backToInitialSidebar()">
+                  <svg class="icon h24 w24 mx-auto mx-auto">
+                      <use xlink:href="#icon-arrow-left"></use>
+                  </svg>
+              </div>
+              <div class='col col--10'>
+                  <div class="txt-l txt-bold mb-neg3">{{ nome }}</div>
+              </div>
+              <div class='col col--1 block cursor-pointer' style="margin: auto;" v-on:click="closeSidebar()">
+                  <svg class="icon h24 w24 mx-auto mx-auto">
+                      <use xlink:href="#icon-close"></use>
+                  </svg>
+              </div>
+          </div>
+
       </div>
     <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
             style="justify-content:space-around;">
@@ -189,6 +204,14 @@ export default {
     }
   },
   methods: {
+    backToInitialSidebar: function() {
+      $('#initial-sidebar').removeClass("hide-visually");
+      $("#info-polos-right-sidebar").addClass("hide-visually");
+    },
+    closeSidebar: function() {
+      $('#initial-sidebar').addClass("hide-visually");
+      $("#info-polos-right-sidebar").addClass("hide-visually");
+    },
     loadPolosDataTable: function(infoPolo) {
       let polosTable = $('#polos-info-table').DataTable({
         "retrieve": true,
@@ -215,9 +238,8 @@ export default {
         .draw();
     },
     setInfoPolo: function(infoPolo) {
-      // $("#about-data").addClass("hide-visually");
-      // $("#tabs-data").removeClass("hide-visually");
       $("#info-polos-right-sidebar").tabs("option", "active", 0);
+      $("#info-polos-right-sidebar").removeClass("hide-visually");
 
       this.sigla = null;
       this.id = infoPolo;

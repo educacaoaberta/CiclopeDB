@@ -2,19 +2,32 @@
 <right-sidebar id="info-ipes-right-sidebar">
   <template slot="tabs">
       <div class='px12 py12 bg-blue-faint txt-s'>
-          <div class="txt-l txt-bold mb-neg3">{{ nome }}</div>
+          <div class="txt-l txt-bold mb-neg3">
+              <div class='grid'>
+                  <div class='col col--1 block cursor-pointer' style="margin: auto;" v-on:click="backToInitialSidebar()">
+                      <svg class="icon h24 w24 mx-auto mx-auto">
+                          <use xlink:href="#icon-arrow-left"></use>
+                      </svg>
+                  </div>
+                  <div class='col col--10'>
+                      <div class="txt-l txt-bold mb-neg3">{{ nome }}</div>
+                  </div>
+                  <div class='col col--1 block cursor-pointer' style="margin: auto;" v-on:click="closeSidebar()">
+                      <svg class="icon h24 w24 mx-auto mx-auto">
+                          <use xlink:href="#icon-close"></use>
+                      </svg>
+                  </div>
+              </div>
+          </div>
       </div>
     <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
             style="justify-content:space-around;">
             <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-ipes-tab-info-gerais">Informações Gerais</a>
             </li>
-            <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
             <li id="tab-dados" class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-ipes-tab-dados">Dados</a>
             </li>
-            <li v-show="sigla"
-                class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
             <li id="tab-linha-tempo" class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-ipes-tab-linha-tempo">Linha do Tempo</a>
             </li>
@@ -206,6 +219,14 @@ export default {
     }
   },
   methods: {
+    backToInitialSidebar: function() {
+      $('#initial-sidebar').removeClass("hide-visually");
+      $("#info-ipes-right-sidebar").addClass("hide-visually");
+    },
+    closeSidebar: function() {
+      $('#initial-sidebar').addClass("hide-visually");
+      $("#info-ipes-right-sidebar").addClass("hide-visually");
+    },
     loadIpesDataTable: function(infoIpes) {
       let ipesTable = $('#ipes-info-table').DataTable({
         "retrieve": true,
@@ -256,6 +277,9 @@ export default {
 
       var myBarChart = loadChart("polosBarChart", "bar", "Polos");
       processBarChartIpesWithSiglaIpes(myBarChart, infoIpes.sigla);
+    setInfoIpes: function(infoIpes) {
+      $("#info-ipes-right-sidebar").tabs("option", "active", 0);
+      $("#info-ipes-right-sidebar").removeClass("hide-visually");
 
       this.id = null;
       this.sigla = infoIpes.sigla;
