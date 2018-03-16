@@ -251,8 +251,10 @@ export default {
           { "data": "estado" }
         ],
         "columnDefs": [
+          { "width": "40%", "targets": 1 },
+          { "width": "10%", "targets": 2 },
           {
-            "targets": [ 0 ],
+            "targets": [0],
             "visible": false,
           }
         ]

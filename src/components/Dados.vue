@@ -30,6 +30,11 @@
           { "data": "properties.nome" },
           { "data": "properties.cidade" },
           { "data": "properties.estado" }
+        ],
+        "columnDefs": [
+          { "width": "20%", "targets": 0 },
+          { "width": "40%", "targets": 1 },
+          { "width": "10%", "targets": 3 }
         ]
       });
     }
