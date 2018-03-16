@@ -89,13 +89,12 @@ function loadChart(id, type, label) {
 
 // Número de polos por estado dentro dos arquivos do content
 function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
-  $.getJSON(polosByStateWithFederativeUnitJson, function (data) {
-    if(data.data.length !== 0) {
+  $.getJSON(polosByStateWithFederativeUnitJson, function (ipes) {
       $('#graphContainer').show()
-      for (let i = 0; i < data.data.length; i++) {
-        if(data.data[i].ipes_sigla === siglaIpes) {
-          let estado = data.data[i]['uf'];
-          let quant = Number(data.data[i]['quant']);
+      for (let i = 0; i < ipes.data.length; i++) {
+        if(ipes.data[i].ipes_sigla === siglaIpes) {
+          let estado = ipes.data[i]['uf'];
+          let quant = Number(ipes.data[i]['quant']);
           myBarChart.data.labels.push(estado);
           myBarChart.data.datasets.forEach((dataset) => {
             dataset.data.push(quant);
@@ -103,7 +102,6 @@ function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
           });
         }
       }
-    }
     myBarChart.update();
   });
 }
