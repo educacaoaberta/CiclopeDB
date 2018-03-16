@@ -238,6 +238,7 @@ export default {
       };
 
       $.getJSON("/static/json/linhas.json", function (data){
+      $.getJSON("./static/json/linhas.json", function (data){
         $('#tab-linha-tempo').addClass("hide-visually")
         $.each( data, function( key, val ) {
           if(key === infoIpes.sigla) {
