@@ -92,3 +92,9 @@ li.ui-tabs-active.ui-state-active {
         height: calc(100vh - 144px) !important;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .flex-parent.flex-parent--column.viewport-half.h-auto-ml.hmax-full.bg-white.shadow-darken10 {
+        height: calc(100vh - 450px) !important;
+    }
+}
