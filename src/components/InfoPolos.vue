@@ -134,8 +134,9 @@
             <table id="polos-info-table" class="display" cellspacing="0" width="100%">
                 <thead>
                 <tr>
-                    <th>IPES</th>
-                    <th>Polos</th>
+                    <th>Sigla</th>
+                    <th>Estado</th>
+                    <th>Polo</th>
                     <th>Estado</th>
                 </tr>
                 </thead>
@@ -232,17 +233,20 @@ export default {
           "url": "./static/json/datatables_pt-br.json",
         },
         "columns": [
-          { "data": "sigla" },
+          { "data": "sigla_ipes" },
+          { "data": "estado_ipes" },
           { "data": "nome_polo" },
-          { "data": "estado" }
+          { "data": "estado_polo" }
         ],
         "columnDefs": [
+          { "width": "40%", "targets": 0 },
+          { "width": "10%", "targets": 1 },
           {
-            "targets": [ 1 ],
+            "targets": [2, 3],
             "visible": false,
           }
         ]
-      }).columns(1)
+      }).columns(2)
         .search("^" + infoPolo.nome_polo + "$", true, false, true)
         .draw();
     },

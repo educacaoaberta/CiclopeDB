@@ -139,6 +139,7 @@
                 <thead>
                 <tr>
                     <th>Sigla</th>
+                    <th>Estado</th>
                     <th>Polo</th>
                     <th>Estado</th>
                 </tr>
@@ -206,6 +207,7 @@ export default {
       this.setInfoIpes(infoIpes);
       this.loadIpesDataTable(infoIpes);
       this.loadTimeline(infoIpes);
+      this.loadGraph(infoIpes);
     });
     EventBus.$on("switchInfoIpes", isVisible => {
       this.isVisible = isVisible
@@ -246,15 +248,16 @@ export default {
           "url": "./static/json/datatables_pt-br.json",
         },
         "columns": [
-          { "data": "sigla" },
+          { "data": "sigla_ipes" },
+          { "data": "estado_ipes" },
           { "data": "nome_polo" },
-          { "data": "estado" }
+          { "data": "estado_polo" }
         ],
         "columnDefs": [
-          { "width": "40%", "targets": 1 },
-          { "width": "10%", "targets": 2 },
+          { "width": "40%", "targets": 2 },
+          { "width": "10%", "targets": 3 },
           {
-            "targets": [0],
+            "targets": [0, 1],
             "visible": false,
           }
         ]
