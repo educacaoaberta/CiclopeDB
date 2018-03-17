@@ -144,7 +144,7 @@
             <hr class='txt-hr'>
 
             <!--carrega os gráficos-->
-            <div id="graphContainer">
+            <div id="ipesGraphContainer">
                 <div class="txt-m txt-bold mb6">
                     <p>Número de IPES por estado</p>
                 </div>
@@ -157,6 +157,7 @@
 
 <script>
 import { EventBus } from "../eventBus";
+import { loadChart, processBarChartIpesByState } from '../functions';
 
 export default {
   data() {
@@ -187,6 +188,7 @@ export default {
     EventBus.$on("infoPolo", infoPolo => {
       this.setInfoPolo(infoPolo);
       this.loadPolosDataTable(infoPolo);
+      this.loadGraph(infoPolo)
     });
     EventBus.$on("switchInfoPolos", isVisible => {
       this.isVisible = isVisible
@@ -211,6 +213,13 @@ export default {
     closeSidebar: function() {
       $('#initial-sidebar').addClass("hide-visually");
       $("#info-polos-right-sidebar").addClass("hide-visually");
+    },
+    loadGraph(infoPolo) {
+      $('#ipesBarChart').remove();
+      $('#ipesGraphContainer').append('<canvas id="ipesBarChart"><canvas>');
+
+      var myBarChart = loadChart("ipesBarChart", "bar", "IPES");
+      processBarChartIpesByState(myBarChart, infoPolo.polos_id);
     },
     loadPolosDataTable: function(infoPolo) {
       let polosTable = $('#polos-info-table').DataTable({
@@ -242,7 +251,7 @@ export default {
       $("#info-polos-right-sidebar").removeClass("hide-visually");
 
       this.sigla = null;
-      this.id = infoPolo;
+      this.id = infoPolo.polos_id;
       this.nome = infoPolo.nome_polo;
       this.endereco.logradouro = infoPolo.logradouro;
       this.endereco.numero = infoPolo.numero;

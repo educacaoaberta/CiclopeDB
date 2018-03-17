@@ -280,14 +280,13 @@ export default {
         })
       });
     },
-    setInfoIpes: function(infoIpes) {
-      $("#info-ipes-right-sidebar").tabs("option", "active", 0);
-
+    loadGraph(infoIpes) {
       $('#polosBarChart').remove();
       $('#graphContainer').append('<canvas id="polosBarChart"><canvas>');
 
       var myBarChart = loadChart("polosBarChart", "bar", "Polos");
       processBarChartIpesWithSiglaIpes(myBarChart, infoIpes.sigla);
+    },
     setInfoIpes: function(infoIpes) {
       $("#info-ipes-right-sidebar").tabs("option", "active", 0);
       $("#info-ipes-right-sidebar").removeClass("hide-visually");

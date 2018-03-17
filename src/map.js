@@ -11,7 +11,7 @@ const ipesHasPolosSourceLayer = 'polos-ipes';
 const ipesLayer = 'mapbox://mapauab.cjeim2fzs0tfi2qmo3w4mqixu-1qo7e';
 const ipesSourceLayer = 'ipes-data';
 
-const polosLayer = 'mapbox://mapauab.cjeim1kte2inx39o7p1owd9ei-97832';
+const polosLayer = 'mapbox://mapauab.cjever2si0g1h2wmmn5q5s33b-0xclz';
 const polosSourceLayer = 'polos-data';
 
 const pinImage = require('./images/pin.png');

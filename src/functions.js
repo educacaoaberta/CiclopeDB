@@ -1,6 +1,6 @@
 export {
   loadChart, processBarChartIpesWithSiglaIpes, processBarChartIpes, processBarChartIpesRegion,
-  processBarChartPolos, processBarChartPolosRegion
+  processBarChartPolos, processBarChartPolosRegion, processBarChartIpesByState
 }
 
 var regionsColors = {
@@ -47,6 +47,7 @@ var polosRegiao = {};
 
 var currentYear = (new Date()).getFullYear();
 var polosByStateWithFederativeUnitJson = "./static/json/ipesdata.json";
+var ipesByStateWithPoloId = "./static/json/poloId_ipesData.json";
 var ipesByStateJson = "./static/json/ipesbystate.json";
 var polosByStateJson = "./static/json/polosbystate.json";
 
@@ -102,6 +103,26 @@ function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
           });
         }
       }
+    myBarChart.update();
+  });
+}
+
+// Número de IPES por estado
+function processBarChartIpesByState(myBarChart, idPolo) {
+  $.getJSON(ipesByStateWithPoloId, function (polos) {
+    $('#ipesGraphContainer').show()
+    for (var key in polos) {
+      if(key === idPolo) {
+        for(var estado in polos[key]) {
+          myBarChart.data.labels.push(estado);
+          myBarChart.data.datasets.forEach((dataset) => {
+            dataset.data.push(polos[key][estado]);
+            dataset.backgroundColor.push(regionsColors[regioes[estado]]);
+          });
+        }
+      }
+    }
+
     myBarChart.update();
   });
 }
