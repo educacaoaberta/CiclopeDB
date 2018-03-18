@@ -75,7 +75,7 @@ function addIpesLayer() {
   map.on('mouseenter', 'ipes', function(e) {
     map.getCanvas().style.cursor = 'pointer';
 
-    let coordinates = e.lngLat;
+    let coordinates = e.features[0].geometry.coordinates.slice();
     let sigla = e.features[0].properties.sigla;
 
     popup.setLngLat(coordinates)
@@ -134,7 +134,7 @@ function addPolosLayer() {
   map.on('mouseenter', 'polos', function(e) {
     map.getCanvas().style.cursor = 'pointer';
 
-    let coordinates = e.lngLat;
+    let coordinates = e.features[0].geometry.coordinates.slice();
     let nome_fantasia = e.features[0].properties.nome_fantasia;
 
     // configura o popup para mostrar o nome do polo
@@ -173,7 +173,7 @@ function addIpesHasPolos() {
   map.on('mouseenter', 'centros', function(e) {
     map.getCanvas().style.cursor = 'pointer';
 
-    let coordinates = e.lngLat;
+    let coordinates = e.features[0].geometry.coordinates.slice();
     let nome_polo = e.features[0].properties.nome_polo;
 
     // configura o popup para mostrar o nome do polo
