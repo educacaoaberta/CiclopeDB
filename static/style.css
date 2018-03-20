@@ -88,6 +88,10 @@ li.ui-tabs-active.ui-state-active {
     text-transform: uppercase;
 }
 
+a {
+    word-break: break-word;
+}
+
 @media screen and (min-width: 800px) {
     .flex-parent.flex-parent--column.viewport-half.h-auto-ml.hmax-full.bg-white.shadow-darken10 {
         height: calc(100vh - 125px) !important;

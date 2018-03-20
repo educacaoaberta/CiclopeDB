@@ -132,6 +132,7 @@
                 </div>
             </div>
             <!--Fim da URL-->
+            <div v-html="infoIpesText"></div>
         </div>
     </div>
         <div id="info-ipes-tab-dados">
@@ -167,6 +168,7 @@
 <script>
 import { EventBus } from "../eventBus";
 import { loadChart, processBarChartIpesWithSiglaIpes } from '../functions';
+import axios from 'axios';
 
 export default {
   data() {
@@ -188,8 +190,12 @@ export default {
       nome_fantasia: "",
       telefone: "",
       url: "",
-      isVisible: false
+      isVisible: false,
+      infoIpesText: ''
     };
+  },
+  created() {
+
   },
   mounted() {
     $("#info-ipes-right-sidebar").tabs({show: 'fade', hide: 'fade', active: 0,
@@ -306,6 +312,22 @@ export default {
       this.telefone = infoIpes.telefone;
       this.url = infoIpes.url;
 
+      let ipesFiles = ['uel', 'uema', 'ufc', 'uff', 'ufmt', 'ufop', 'ufpa', 'ufsc', 'ufscar'];
+
+      for (let i = 0; i < ipesFiles.length; i++) {
+        if(ipesFiles[i] === infoIpes.sigla.toLowerCase()) {
+          axios.get('static/ipes/' + infoIpes.sigla.toLowerCase() + '.html')
+            .then(response => {
+              // JSON responses are automatically parsed.
+              this.infoIpesText = response.data
+            })
+            .catch(e => {
+              this.errors.push(e)
+            })
+        } else {
+          this.infoIpesText = ''
+        }
+      }
     }
   },
   filters: {
