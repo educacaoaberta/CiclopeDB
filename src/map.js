@@ -16,6 +16,8 @@ const polosSourceLayer = 'polos-data';
 
 const pinImage = require('./images/pin.png');
 
+var layerIDs = [];
+
 mapboxgl.accessToken = accessToken;
 let map = new mapboxgl.Map({
   container: 'map',
@@ -34,6 +36,10 @@ let popup = new mapboxgl.Popup({
 });
 
 map.on('load', function() {
+  // add search button
+  const searchControl = new SearchControl(true);
+  map.addControl(searchControl, 'top-left');
+
   // add navigation control
   let navControl = new mapboxgl.NavigationControl();
   map.addControl(navControl, 'top-left');
@@ -48,60 +54,103 @@ map.on('load', function() {
 });
 
 function addIpesLayer() {
-  // carrega os ipes
+  // // carrega os ipes
+  // map.addSource("ipes", {
+  //   type: "vector",
+  //   url: ipesLayer
+  // });
+  //
+  // // carrega o pin e adiciona no layer dos ipes
+  // map.loadImage(pinImage, function(error, image) {
+  //   if (error) throw error;
+  //   map.addImage('pin', image);
+  //   map.addLayer({
+  //     'id': 'ipes',
+  //     'type': 'symbol',
+  //     'source': 'ipes',
+  //     'source-layer': ipesSourceLayer,
+  //     layout: {
+  //       "icon-image": "pin",
+  //       'visibility': 'visible'
+  //     }
+  //   });
+  // });
+
   map.addSource("ipes", {
-    type: "vector",
-    url: ipesLayer
+    type: "geojson",
+    data: "./static/json/ipes-data.geojson",
   });
 
-  // carrega o pin e adiciona no layer dos ipes
-  map.loadImage(pinImage, function(error, image) {
-    if (error) throw error;
-    map.addImage('pin', image);
-    map.addLayer({
-      'id': 'ipes',
-      'type': 'symbol',
-      'source': 'ipes',
-      'source-layer': ipesSourceLayer,
-      layout: {
-        "icon-image": "pin",
-        'visibility': 'visible'
+  var filterInput = document.getElementById('filter-input');
+
+  $.getJSON( "./static/json/ipes-data.geojson", function(data) {
+    data.features.forEach(function (feature) {
+      var sigla = feature.properties['sigla'];
+
+      if (!map.getLayer(sigla)) {
+        map.loadImage(pinImage, function(error, image) {
+          if (error) throw error;
+          map.addImage('pin-' + sigla, image);
+          map.addLayer({
+            'id': sigla,
+            'type': 'symbol',
+            'source': 'ipes',
+            'layout': {
+              'visibility': 'visible',
+              "icon-image": "pin-" + sigla
+            },
+            "filter": ["==", "sigla", sigla]
+          });
+        });
+
+        layerIDs.push(sigla);
       }
+
+      map.on('mouseenter', sigla, function(e) {
+        map.getCanvas().style.cursor = 'pointer';
+
+        let coordinates = e.features[0].geometry.coordinates.slice();
+        let sigla = e.features[0].properties.sigla;
+
+        popup.setLngLat(coordinates)
+          .setText(sigla.toUpperCase())
+          .addTo(map);
+      });
+
+      // o cursor volta ao padrão ao sair
+      map.on('mouseleave', sigla, function() {
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+      });
+
+      // ao clicar em um ipes...
+      map.on('click', sigla, function(e) {
+        EventBus.$emit('infoIpes', e.features[0].properties);
+
+        if (!e.features.length) return
+        const feature = e.features[0];
+
+        const sigla = feature.properties.sigla
+        map.setLayoutProperty('centros', 'visibility', 'visible');
+        map.setFilter('centros', ['all', ['==', 'ipes_sigla', sigla]]);
+
+        EventBus.$emit('switchInfoPolos', false);
+        EventBus.$emit('switchInfoIpes', true);
+      });
+
     });
-  });
 
-  // muda o cursor quando entrar em um ipes
-  // adiciona o popup com a sigla do ipes
-  map.on('mouseenter', 'ipes', function(e) {
-    map.getCanvas().style.cursor = 'pointer';
+    filterInput.addEventListener('keyup', function(e) {
+      // If the input value matches a layerID set
+      // it's visibility to 'visible' or else hide it.
+      var value = e.target.value.trim().toUpperCase();
+      console.log(value.length)
+      layerIDs.forEach(function(layerID) {
+        map.setLayoutProperty(layerID, 'visibility', layerID.indexOf(value) > -1 ? 'visible' : 'none');
+      });
+    });
 
-    let coordinates = e.features[0].geometry.coordinates.slice();
-    let sigla = e.features[0].properties.sigla;
-
-    popup.setLngLat(coordinates)
-      .setText(sigla.toUpperCase())
-      .addTo(map);
-  });
-
-  // o cursor volta ao padrão ao sair
-  map.on('mouseleave', 'ipes', function() {
-    map.getCanvas().style.cursor = '';
-    popup.remove();
-  });
-
-  // ao clicar em um ipes...
-  map.on('click', 'ipes', function(e) {
-    EventBus.$emit('infoIpes', e.features[0].properties);
-
-    if (!e.features.length) return
-    const feature = e.features[0];
-
-    const sigla = feature.properties.sigla
-    map.setLayoutProperty('centros', 'visibility', 'visible');
-    map.setFilter('centros', ['all', ['==', 'ipes_sigla', sigla]]);
-
-    EventBus.$emit('switchInfoPolos', false);
-    EventBus.$emit('switchInfoIpes', true);
+    console.log(filterInput)
   });
 }
 
@@ -233,6 +282,55 @@ class LayersControl {
     // ao deixar o container
     this._container.addEventListener('mouseleave', function() {
       this.firstChild.className = 'hide-visually'
+    }, false);
+
+    return this._container;
+  }
+
+  onRemove() {
+    this._container.parentNode.removeChild(this._container);
+    this._map = undefined;
+  }
+}
+
+class SearchControl {
+  constructor(hidden) {
+    this._hidden = hidden;
+    console.log('constructor: ' + this._hidden)
+  }
+
+  onAdd(map) {
+    this._map = map;
+    this._button = document.createElement('button');
+    this._button.className = 'mapboxgl-ctrl-search-icon mapboxgl-ctrl-layers';
+
+    this._search = document.getElementById("search");
+
+    // adiciona o botão em um container
+    this._container = document.createElement('div');
+    this._container.className = 'mapboxgl-ctrl mapboxgl-ctrl-group';
+    this._container.appendChild(this._search);
+    this._container.appendChild(this._button);
+
+    this._button.addEventListener('click', () => {
+      let search = this._container.firstChild;
+
+      if(this._hidden) {
+        search.classList.remove("hide-visually");
+        this._container.childNodes[1].classList.remove("mapboxgl-ctrl-search-icon");
+        this._container.childNodes[1].className = "mapboxgl-ctrl-close-icon mapboxgl-ctrl-layers";
+      } else {
+        search.className = "filter-ctrl hide-visually";
+        this._container.childNodes[0].childNodes[1].value = '';
+        for (var i = 0; i < layerIDs.length; i++) {
+          map.setLayoutProperty(layerIDs[i], 'visibility', 'visible');
+        }
+        this._container.childNodes[1].classList.remove("mapboxgl-ctrl-close-icon");
+        this._container.childNodes[1].className = "mapboxgl-ctrl-search-icon mapboxgl-ctrl-layers";
+      }
+
+      this._hidden = !this._hidden;
+
     }, false);
 
     return this._container;

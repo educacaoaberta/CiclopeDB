@@ -75,6 +75,42 @@ body {
     display: block;
 }
 
+.mapboxgl-ctrl-search-icon.mapboxgl-ctrl-layers {
+    background-image: url('./images/search.svg') !important;
+    background-position: 50% 50%;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.mapboxgl-ctrl-close-icon.mapboxgl-ctrl-layers {
+    background-image: url('./images/close.svg') !important;
+    background-position: 50% 50%;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.filter-ctrl {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1;
+    width: 250px;
+}
+
+.filter-ctrl input[type=text] {
+    width: 100%;
+    border: 0;
+    background-color: #fff;
+    height: 30px;
+    margin: 0;
+    color: rgba(0,0,0,.5);
+    padding: 10px;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
 .mapboxgl-popup-content {
     border-radius: 7px !important;
 }
