@@ -8,11 +8,11 @@ const brasilStyle = 'mapbox://styles/mapauab/cjeil7fjv0rxm2ro2jll0x412';
 const ipesHasPolosLayer = 'mapbox://mapauab.cjesqh5s609p232pgznx605lb-4sy16';
 const ipesHasPolosSourceLayer = 'polos-ipes';
 
-const ipesLayer = 'mapbox://mapauab.cjeim2fzs0tfi2qmo3w4mqixu-1qo7e';
-const ipesSourceLayer = 'ipes-data';
+const ipesDatasets = 'cjeim2fzs0tfi2qmo3w4mqixu';
+const ipesUrl = 'https://api.mapbox.com/datasets/v1/mapauab/'+ ipesDatasets + '/features?access_token=' + accessToken;
 
-const polosLayer = 'mapbox://mapauab.cjever2si0g1h2wmmn5q5s33b-0xclz';
-const polosSourceLayer = 'polos-data';
+const polosDatasets = 'cjever2si0g1h2wmmn5q5s33b';
+const polosUrl = 'https://api.mapbox.com/datasets/v1/mapauab/'+ polosDatasets + '/features?access_token=' + accessToken;
 
 const pinImage = require('./images/pin.png');
 
@@ -56,12 +56,12 @@ map.on('load', function () {
 function addIpesLayer() {
   map.addSource("ipes", {
     type: "geojson",
-    data: "./static/json/ipes-data.geojson",
+    data: ipesUrl,
   });
 
   var filterInput = document.getElementById('filter-input');
 
-  $.getJSON("./static/json/ipes-data.geojson", function (data) {
+  $.getJSON(ipesUrl, function (data) {
     data.features.forEach(function (feature) {
       var sigla = feature.properties['sigla'];
 
@@ -130,17 +130,15 @@ function addIpesLayer() {
 }
 
 function addPolosLayer() {
-  // carrega os polos
   map.addSource("polos", {
-    type: 'vector',
-    url: polosLayer,
+    type: 'geojson',
+    data: polosUrl,
   });
 
   map.addLayer({
     'id': 'polos',
     'type': 'symbol',
     'source': 'polos',
-    'source-layer': polosSourceLayer,
     'layout': {
       'visibility': 'none',
       "icon-image": "college-15",
