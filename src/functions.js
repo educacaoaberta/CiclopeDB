@@ -91,17 +91,21 @@ function loadChart(id, type, label) {
 // Número de polos por estado dentro dos arquivos do content
 function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
   $.getJSON(polosByStateWithFederativeUnitJson, function (ipes) {
-    $('#graphContainer').show()
     for (let key in ipes) {
-      if(key === siglaIpes) {
-        for(let estado in ipes[key]) {
-          myBarChart.data.labels.push(estado);
-          myBarChart.data.datasets.forEach((dataset) => {
-            dataset.data.push(ipes[key][estado]);
-            dataset.backgroundColor.push(regionsColors[regioes[estado]]);
-          });
+        if(key === siglaIpes) {
+          if(Object.keys(ipes[key]).length !== 0) {
+            for(let estado in ipes[key]) {
+              myBarChart.data.labels.push(estado);
+              myBarChart.data.datasets.forEach((dataset) => {
+                dataset.data.push(ipes[key][estado]);
+                dataset.backgroundColor.push(regionsColors[regioes[estado]]);
+              });
+              $("#ipes-tab-dados").removeClass("hide-visually");
+            }
+          } else {
+            $("#ipes-tab-dados").addClass("hide-visually");
+          }
         }
-      }
     }
     myBarChart.update();
   });
@@ -113,12 +117,17 @@ function processBarChartIpesByState(myBarChart, idPolo) {
     $('#ipesGraphContainer').show()
     for (var key in polos) {
       if(key === idPolo) {
-        for(var estado in polos[key]) {
-          myBarChart.data.labels.push(estado);
-          myBarChart.data.datasets.forEach((dataset) => {
-            dataset.data.push(polos[key][estado]);
-            dataset.backgroundColor.push(regionsColors[regioes[estado]]);
-          });
+        if(Object.keys(polos[key]).length !== 0) {
+          for(var estado in polos[key]) {
+            myBarChart.data.labels.push(estado);
+            myBarChart.data.datasets.forEach((dataset) => {
+              dataset.data.push(polos[key][estado]);
+              dataset.backgroundColor.push(regionsColors[regioes[estado]]);
+            });
+            $("#polos-tab-dados").removeClass("hide-visually");
+          }
+        } else {
+          $('#polos-tab-dados').addClass("hide-visually");
         }
       }
     }

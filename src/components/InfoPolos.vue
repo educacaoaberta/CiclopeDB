@@ -20,11 +20,11 @@
 
       </div>
     <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
-            style="justify-content:space-around;">
+            style="justify-content:space-around;height: 35px;">
             <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-polos-tab-info-gerais">Informações Gerais</a>
             </li>
-            <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+            <li id="polos-tab-dados" class="hide-visually mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-polos-tab-dados">Dados</a>
             </li>
         </ul>

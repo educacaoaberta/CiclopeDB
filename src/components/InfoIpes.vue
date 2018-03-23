@@ -21,14 +21,14 @@
           </div>
       </div>
     <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
-            style="justify-content:space-around;">
+            style="justify-content:space-around;height: 35px;">
             <li class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-ipes-tab-info-gerais">Informações Gerais</a>
             </li>
-            <li id="tab-dados" class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+            <li id="ipes-tab-dados" class="hide-visually mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-ipes-tab-dados">Dados</a>
             </li>
-            <li id="tab-linha-tempo" class="mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
+            <li id="ipes-tab-linha-tempo" class="hide-visually mb-neg1 px12 py6 border-b border--white border--white-on-active color-lighten50 color-white-on-active color-lighten75-on-hover">
                 <a href="#info-ipes-tab-linha-tempo">Linha do Tempo</a>
             </li>
         </ul>
@@ -203,7 +203,7 @@ export default {
       // ajusta o tamanho da janela para mostrar a timeline corretamente
         let resize = new Event('resize')
         window.dispatchEvent(resize);
-        if (ui.newTab[0].id === "tab-linha-tempo") {
+        if (ui.newTab[0].id === "ipes-tab-linha-tempo") {
           window.dispatchEvent(resize);
         }
       }
@@ -280,11 +280,11 @@ export default {
       $('#timeline-embed').show();
 
       $.getJSON("./static/json/linhas.json", function (data){
-        $('#tab-linha-tempo').addClass("hide-visually")
+        $('#ipes-tab-linha-tempo').addClass("hide-visually")
         $.each( data, function( key, val ) {
           if(key === infoIpes.sigla) {
             window.timeline = new TL.Timeline('timeline-embed', val, options);
-            $('#tab-linha-tempo').removeClass("hide-visually")
+            $('#ipes-tab-linha-tempo').removeClass("hide-visually")
           }
         })
       });
@@ -299,6 +299,7 @@ export default {
     setInfoIpes: function(infoIpes) {
       $("#info-ipes-right-sidebar").tabs("option", "active", 0);
       $("#info-ipes-right-sidebar").removeClass("hide-visually");
+      $('#initial-sidebar').addClass("hide-visually");
 
       this.id = null;
       this.sigla = infoIpes.sigla;

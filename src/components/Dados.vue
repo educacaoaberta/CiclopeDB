@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1>Dados</h1>
         <table id="allunits" class="display" cellspacing="0" width="100%">
             <thead>
             <tr>
