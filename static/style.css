@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "quattro";
+    font-family: "quattro" !important;
 }
 
 @font-face {
@@ -14,12 +14,13 @@ body {
   src: url(./font/Gidole-Regular.ttf);
 }
 
+li.ui-tabs-active.ui-state-active {
+    color: #fff !important;
+    border-bottom: 5px solid #fff !important;
+}
 
-#map {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
+.link {
+    color: #1c68c0 !important;
 }
 
 .mapboxgl-popup {

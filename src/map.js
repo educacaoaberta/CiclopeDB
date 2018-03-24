@@ -224,6 +224,7 @@ class LayersControl {
     this._map = map;
     this._button = document.createElement('button');
     this._button.className = 'mapboxgl-ctrl-icon mapboxgl-ctrl-layers';
+    this._button.setAttribute("aria-label", "Camadas");
 
     this._layermenu = document.getElementById("menu");
 
@@ -281,6 +282,7 @@ class SearchControl {
     this._map = map;
     this._button = document.createElement('button');
     this._button.className = 'mapboxgl-ctrl-search-icon mapboxgl-ctrl-layers';
+    this._button.setAttribute("aria-label", "Pesquisa");
 
     this._search = document.getElementById("search");
 

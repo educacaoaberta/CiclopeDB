@@ -17,7 +17,7 @@
         </div>
 
         <div>
-            <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/?source=1pkIQBlBj9jfhici2CRiyj1ZStpB5pmE37uJ0dAC-QUo&font=Bevan-PontanoSans&lang=pt-br&initial_zoom=2&height=650" width='100%' height='650' frameborder='0'></iframe>
+            <iframe title="Linha do Tempo UAB" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/?source=1pkIQBlBj9jfhici2CRiyj1ZStpB5pmE37uJ0dAC-QUo&font=Bevan-PontanoSans&lang=pt-br&initial_zoom=2&height=650" width='100%' height='650' frameborder='0'></iframe>
         </div>
 
         <div class="txt-l txt-bold">Sobre a UAB</div>

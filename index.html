@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br" dir="ltr">
 
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="Dados do estudo de Núcleos UAB">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="theme-color" content="#4285f4">
   <title>Grupo de pesquisa: UAB</title>
+
+  <link rel="stylesheet" href="static/style.css">
 
   <!-- Mapbox GL CSS -->
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
 
   <!-- Assembly.css -->
   <link href="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.min.css" rel="stylesheet">
-  <script src="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.js"></script>
+  <script async defer src="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.js"></script>
 
   <!-- jQuery   -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
   <!--Script for Chart -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
-
-  <link rel="stylesheet" href="./static/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
 
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
   <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
@@ -41,26 +43,26 @@
     <info-ipes class="hide-visually"></info-ipes>
     <info-polos class="hide-visually"></info-polos>
   </div>
-  <div id="map"></div>
+  <div id="map" style='position: absolute;top: 0;bottom: 0;width: 100%;'></div>
 
-    <div class="filter-ctrl hide-visually" id="search">
-      <input id='filter-input' type='text' name='filter' placeholder='Pesquisar' />
-    </div>
+    <form class="filter-ctrl hide-visually" id="search">
+      <div>
+        <label for="filter-input" class="hide-visually">Pesquisar</label>
+        <input id='filter-input' type='text' name='filter-input' placeholder='Pesquisar' />
+      </div>
+    </form>
     
     <!--layers menu-->
   <form class="hide-visually" id="menu">
     <div class="leaflet-control-layers-overlays">
-      <label>
-        <div><input type="checkbox" class="leaflet-control-layers-selector" id="ipes" checked>
-          <span> Núcleos</span>
-        </div>
-      </label>
-      <label>
-        <div>
-          <input type="checkbox" id="polos" class="leaflet-control-layers-selector">
-          <span> Polos</span>
-        </div>
-      </label>
+      <div>
+        <input type="checkbox" class="leaflet-control-layers-selector" id="ipes" checked>
+        <label for="ipes"> Núcleos</label>
+      </div>
+      <div>
+        <input type="checkbox" id="polos" class="leaflet-control-layers-selector">
+        <label for="polos"> Polos</label>
+      </div>
     </div>
   </form>
 
