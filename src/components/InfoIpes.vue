@@ -176,7 +176,6 @@ export default {
       id: "",
       sigla: "",
       arquivo: "",
-      nome_polo: "",
       nome: "",
       endereco: {
         logradouro: "",
@@ -187,15 +186,11 @@ export default {
       cidade: "",
       estado: "",
       cep: "",
-      nome_fantasia: "",
       telefone: "",
       url: "",
       isVisible: false,
       infoIpesText: ''
     };
-  },
-  created() {
-
   },
   mounted() {
     $("#info-ipes-right-sidebar").tabs({show: 'fade', hide: 'fade', active: 0,
