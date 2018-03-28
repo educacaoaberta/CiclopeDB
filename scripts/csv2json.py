@@ -16,14 +16,18 @@ ipes_json = {"type" : "FeatureCollection",
              "features": []}
 
 ipes = pd.read_csv(IPESCSV)
+#ipes.columns.insert(0, "tipo")
 
 for i in ipes.values:
+
         features = OrderedDict(zip(ipes.columns, i))
         features['geometry'] = {'lat' : features['lat'],
                                 'lng' : features['lng']}
         del features['lat']
         del features['lng']
-        ipes_json["features"].append(features)
+        features['tipo'] = 'ipes'
+        ipes_json["features"].append({"type" : "Feature",
+                                      "properties": features})
 
 
 with open(IPESJSON, 'w') as outfile:
@@ -41,8 +45,9 @@ for p in polos.values:
                                 'lng' : features['lng']}
         del features['lat']
         del features['lng']
-        polos_json["features"].append(features)
-
+        features['tipo'] = 'polos'
+        polos_json["features"].append({"type" : "Feature",
+                                      "properties": features})
 
 with open(POLOSJSON, 'w') as outfile:
     outfile.write(json.dumps(polos_json, indent=4))
