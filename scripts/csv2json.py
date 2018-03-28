@@ -50,7 +50,7 @@ for p in polos.values:
                                       "properties": features})
 
 with open(POLOSJSON, 'w') as outfile:
-    outfile.write(json.dumps(polos_json, indent=4))
+    outfile.write(json.dumps(polos_json, indent=4).replace('NaN','""'))
 
 #convert ipes polos
 ipespolos = pd.read_csv(IPESPOLOSCSV)
