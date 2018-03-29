@@ -120,12 +120,12 @@
             </div>
             <!--Fim do Telefone-->
             <!--URL-->
-            <div class='col col--1 block' style="margin: auto;" v-if="url != ''">
+            <div class='col col--1 block' style="margin: auto;" v-if="url !== ''">
                 <svg class="icon h24 w24 mx-auto">
                     <use xlink:href="#icon-info"></use>
                 </svg>
             </div>
-            <div class='col col--11 my6' v-if="url != ''">
+            <div class='col col--11 my6' v-if="url !== ''">
                 <div class="txt-s txt-bold mb-neg3"><p>URL</p></div>
                 <div class="txt-m">
                     <a :href="url" class="link">{{ url }}</a>
@@ -175,7 +175,6 @@ export default {
     return {
       id: "",
       sigla: "",
-      arquivo: "",
       nome: "",
       endereco: {
         logradouro: "",
@@ -269,7 +268,9 @@ export default {
     loadTimeline: function(infoIpes) {
 
       var options = {
-        start_at_slide: 0
+        start_at_slide: 0,
+        scale_factor: 0,
+        initial_zoom: 0
       };
 
       $('#timeline-embed').show();

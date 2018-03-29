@@ -5,16 +5,11 @@ const accessToken = 'pk.eyJ1IjoibWFwYXVhYiIsImEiOiJjamVpbDZsazgzNWJyMnFxZTN0Z2di
 
 const brasilStyle = 'mapbox://styles/mapauab/cjeil7fjv0rxm2ro2jll0x412';
 
-const ipesHasPolosLayer = 'mapbox://mapauab.cjesqh5s609p232pgznx605lb-4sy16';
-const ipesHasPolosSourceLayer = 'polos-ipes';
-
-const ipesDatasets = 'cjeim2fzs0tfi2qmo3w4mqixu';
-const ipesUrl = 'https://api.mapbox.com/datasets/v1/mapauab/'+ ipesDatasets + '/features?access_token=' + accessToken;
-
-const polosDatasets = 'cjever2si0g1h2wmmn5q5s33b';
-const polosUrl = 'https://api.mapbox.com/datasets/v1/mapauab/'+ polosDatasets + '/features?access_token=' + accessToken;
-
 const pinImage = require('./images/pin.png');
+
+const ipesLocal = './static/json/ipes.geojson';
+const polosLocal = './static/json/polos.geojson';
+const ipesPolosLocal = './static/json/ipespolos.json';
 
 var layerIDs = [];
 
@@ -50,18 +45,18 @@ map.on('load', function () {
 
   addIpesLayer();
   addPolosLayer();
-  addIpesHasPolos();
+  addIpesPolos();
 });
 
 function addIpesLayer() {
   map.addSource("ipes", {
     type: "geojson",
-    data: ipesUrl,
+    data: ipesLocal,
   });
 
   var filterInput = document.getElementById('filter-input');
 
-  $.getJSON(ipesUrl, function (data) {
+  $.getJSON(ipesLocal, function (data) {
     data.features.forEach(function (feature) {
       var sigla = feature.properties['sigla'];
 
@@ -108,9 +103,22 @@ function addIpesLayer() {
         if (!e.features.length) return
         const feature = e.features[0];
 
-        const sigla = feature.properties.sigla
-        map.setLayoutProperty('centros', 'visibility', 'visible');
-        map.setFilter('centros', ['all', ['==', 'ipes_sigla', sigla]]);
+        const ipes_id = feature.properties.id;
+        let polosId = [];
+        $.getJSON(ipesPolosLocal, function (data) {
+          data.forEach(function(row) {
+            if(row.ipes_id === Number(ipes_id)) {
+              polosId.push(row.polos_id);
+            }
+          });
+
+          map.setLayoutProperty('ipes-polos', 'visibility', 'visible');
+          let filter_expression = ['any'];
+          polosId.forEach((polo_id) => {
+            filter_expression.push(['==' , 'id', String(polo_id)])
+          });
+          map.setFilter('ipes-polos', filter_expression);
+        });
 
         EventBus.$emit('switchInfoPolos', false);
         EventBus.$emit('switchInfoIpes', true);
@@ -132,7 +140,7 @@ function addIpesLayer() {
 function addPolosLayer() {
   map.addSource("polos", {
     type: 'geojson',
-    data: polosUrl,
+    data: polosLocal,
   });
 
   map.addLayer({
@@ -174,25 +182,23 @@ function addPolosLayer() {
   });
 }
 
-function addIpesHasPolos() {
-  // carrega os all ipes (ipes_has_polos)
-  map.addSource("polos-ipes", {
-    type: "vector",
-    url: ipesHasPolosLayer
+function addIpesPolos() {
+  map.addSource("ipes-polos", {
+    type: 'geojson',
+    data: polosLocal,
   });
 
   map.addLayer({
-    "id": "centros",
-    "source": "polos-ipes",
-    'source-layer': ipesHasPolosSourceLayer,
-    "type": "symbol",
-    layout: {
+    'id': 'ipes-polos',
+    'type': 'symbol',
+    'source': 'ipes-polos',
+    'layout': {
       'visibility': 'none',
-      "icon-image": "college-15"
+      "icon-image": "college-15",
     }
   });
 
-  map.on('mouseenter', 'centros', function (e) {
+  map.on('mouseenter', 'ipes-polos', function (e) {
     map.getCanvas().style.cursor = 'pointer';
 
     let coordinates = e.features[0].geometry.coordinates.slice();
@@ -205,12 +211,12 @@ function addIpesHasPolos() {
   });
 
   // o cursor volta ao padrão ao sair
-  map.on('mouseleave', 'centros', function () {
+  map.on('mouseleave', 'ipes-polos', function () {
     map.getCanvas().style.cursor = '';
     popup.remove();
   });
 
-  map.on('click', 'centros', function (e) {
+  map.on('click', 'ipes-polos', function (e) {
     EventBus.$emit('infoPolo', e.features[0].properties);
 
     EventBus.$emit('switchInfoIpes', false);
@@ -254,7 +260,7 @@ class LayersControl {
           map.setLayoutProperty('polos', 'visibility', 'visible');
         } else {
           map.setLayoutProperty('polos', 'visibility', 'none');
-          map.setLayoutProperty('centros', 'visibility', 'none');
+          map.setLayoutProperty('ipes-polos', 'visibility', 'none');
         }
       });
     }, false);

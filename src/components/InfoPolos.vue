@@ -9,7 +9,7 @@
                   </svg>
               </div>
               <div class='col col--10'>
-                  <div class="txt-l txt-bold mb-neg3">{{ nome }}</div>
+                  <div class="txt-l txt-bold mb-neg3">{{ nome_polo }}</div>
               </div>
               <div class='col col--1 block cursor-pointer' style="margin: auto;" v-on:click="closeSidebar()">
                   <svg class="icon h24 w24 mx-auto mx-auto">
@@ -49,12 +49,12 @@
             </div>
             <!--Fim do Logradouro-->
             <!--Bairro-->
-            <div class='col col--1 block' style="margin: auto;">
+            <div class='col col--1 block' style="margin: auto;" v-if="bairro !== 'NULL'">
                 <svg class="icon h24 w24 mx-auto">
                     <use xlink:href="#icon-home"></use>
                 </svg>
             </div>
-            <div class='col col--11 my6'>
+            <div class='col col--11 my6' v-if="bairro !== 'NULL'">
                 <div class="txt-s txt-bold mb-neg3">
                     <p>Bairro</p>
                 </div>
@@ -103,12 +103,12 @@
             </div>
             <!--Fim do CEP-->
             <!--Complemento-->
-            <div class='col col--1 block' style="margin: auto;" v-if="!endereco.complemento === null">
+            <div class='col col--1 block' style="margin: auto;" v-if="endereco.complemento !== 'NULL'">
                 <svg class="icon h24 w24 mx-auto">
                     <use xlink:href="#icon-clipboard"></use>
                 </svg>
             </div>
-            <div class='col col--11 my6' v-if="!endereco.complemento === null">
+            <div class='col col--11 my6' v-if="endereco.complemento !== 'NULL'">
                 <div class="txt-s txt-bold mb-neg3"><p>Complemento</p></div>
                 <div class="txt-m">
                     <p>{{ endereco.complemento }}</p>
@@ -128,6 +128,50 @@
                 </div>
             </div>
             <!--Fim do Nome Fantasia-->
+            <!--Telefone 1-->
+            <div class='col col--1 block' style="margin: auto;" v-if="telefone_1 !== '()'">
+                <svg class="icon h24 w24 mx-auto">
+                    <use xlink:href="#icon-mobile"></use>
+                </svg>
+            </div>
+            <div class='col col--11 my6' v-if="telefone_1 !== '()'">
+                <div class="txt-s txt-bold mb-neg3"><p>Telefone</p></div>
+                <div class="txt-m">
+                    <p>{{ telefone_1 | formataTelefone }}</p>
+                </div>
+            </div>
+            <!--Fim do Telefone 1-->
+            <!--Telefone 2-->
+            <div class='col col--1 block' style="margin: auto;" v-if="telefone_2 !== '()'"></div>
+            <div class='col col--11 my6' v-if="telefone_2 !== '()'">
+                <div class="txt-s txt-bold mb-neg3"><p>Telefone 2</p></div>
+                <div class="txt-m">
+                    <p>{{ telefone_2 | formataTelefone }}</p>
+                </div>
+            </div>
+            <!--Fim do Telefone 2-->
+            <!--Email 1-->
+            <div class='col col--1 block' style="margin: auto;" v-if="email_1 !== 'NULL'">
+                <svg class="icon h24 w24 mx-auto">
+                    <use xlink:href="#icon-mail"></use>
+                </svg>
+            </div>
+            <div class='col col--11 my6' v-if="email_1 !== 'NULL'">
+                <div class="txt-s txt-bold mb-neg3"><p>E-mail</p></div>
+                <div class="txt-m">
+                    <a :href="`mailto:${email_1}`" class="link">{{ email_1 | allLowercase }}</a>
+                </div>
+            </div>
+            <!--Fim do Email 1-->
+            <!--Email 2-->
+            <div class='col col--1 block' style="margin: auto;" v-if="email_2 !== 'NULL'"></div>
+            <div class='col col--11 my6' v-if="email_2 !== 'NULL'">
+                <div class="txt-s txt-bold mb-neg3"><p>E-mail 2</p></div>
+                <div class="txt-m">
+                    <a :href="`mailto:${email_2}`" class="link">{{ email_2 | allLowercase }}</a>
+                </div>
+            </div>
+            <!--Fim do Email 2-->
         </div>
     </div>
         <div id="info-polos-tab-dados">
@@ -165,9 +209,7 @@ export default {
     return {
       id: "",
       sigla: "",
-      arquivo: "",
       nome_polo: "",
-      nome: "",
       endereco: {
         logradouro: "",
         numero: "",
@@ -178,7 +220,10 @@ export default {
       estado: "",
       cep: "",
       nome_fantasia: "",
-      telefone: "",
+      telefone_1: "",
+      telefone_2: "",
+      email_1: "",
+      email_2: "",
       url: "",
       isVisible: false
     };
@@ -220,7 +265,7 @@ export default {
       $('#ipesGraphContainer').append('<canvas id="ipesBarChart"><canvas>');
 
       var myBarChart = loadChart("ipesBarChart", "bar", "IPES");
-      processBarChartIpesByState(myBarChart, infoPolo.polos_id);
+      processBarChartIpesByState(myBarChart, infoPolo.id);
     },
     loadPolosDataTable: function(infoPolo) {
       let polosTable = $('#polos-info-table').DataTable({
@@ -255,8 +300,8 @@ export default {
       $("#info-polos-right-sidebar").removeClass("hide-visually");
 
       this.sigla = null;
-      this.id = infoPolo.polos_id;
-      this.nome = infoPolo.nome_polo;
+      this.id = infoPolo.id;
+      this.nome_polo = infoPolo.nome_polo;
       this.endereco.logradouro = infoPolo.logradouro;
       this.endereco.numero = infoPolo.numero;
       this.bairro = infoPolo.bairro;
@@ -265,6 +310,10 @@ export default {
       this.cep = infoPolo.cep;
       this.endereco.complemento = infoPolo.complemento;
       this.nome_fantasia = infoPolo.nome_fantasia;
+      this.telefone_1 = infoPolo.telefone1;
+      this.telefone_2 = infoPolo.telefone2;
+      this.email_1 = infoPolo.email1;
+      this.email_2 = infoPolo.email2;
     }
   },
   filters: {
@@ -284,7 +333,11 @@ export default {
     },
     formataEndereco: function(logradouro, numero) {
       if (!logradouro || !numero) return "";
-      return logradouro + ", " + numero;
+      if(numero === "0") {
+        return logradouro;
+      } else {
+        return logradouro + ", " + numero;
+      }
     },
     allLowercase: function(txt) {
       if (!txt ) return "";
