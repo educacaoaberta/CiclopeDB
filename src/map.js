@@ -52,9 +52,49 @@ function addIpesLayer() {
   map.addSource("ipes", {
     type: "geojson",
     data: ipesLocal,
+    cluster: true,
+    clusterMaxZoom: 14, // Max zoom to cluster points on
+    clusterRadius: 30 // Radius of each cluster when clustering points (defaults to 50)
   });
 
-  var filterInput = document.getElementById('filter-input');
+  map.addLayer({
+    id: "clusters",
+    type: "circle",
+    source: "ipes",
+    filter: ["has", "point_count"],
+    paint: {
+      "circle-color": [
+        "step",
+        ["get", "point_count"],
+        "#b0cfcd",
+        4,
+        "#f8ca00",
+        7,
+        "#a5dff9"
+      ],
+      "circle-radius": [
+        "step",
+        ["get", "point_count"],
+        13,
+        4,
+        17,
+        7,
+        20
+      ]
+    }
+  });
+
+  map.addLayer({
+    id: "cluster-count",
+    type: "symbol",
+    source: "ipes",
+    filter: ["has", "point_count"],
+    layout: {
+      "text-field": "{point_count_abbreviated}",
+      "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+      "text-size": 14
+    }
+  });
 
   $.getJSON(ipesLocal, function (data) {
     data.features.forEach(function (feature) {
@@ -72,12 +112,14 @@ function addIpesLayer() {
               'visibility': 'visible',
               "icon-image": "pin-" + sigla
             },
-            "filter": ["==", "sigla", sigla]
+            "filter": ["==", "sigla", sigla],
           });
         });
 
         layerIDs.push(sigla);
       }
+
+      search()
 
       map.on('mouseenter', sigla, function (e) {
         map.getCanvas().style.cursor = 'pointer';
@@ -126,13 +168,18 @@ function addIpesLayer() {
 
     });
 
-    filterInput.addEventListener('keyup', function (e) {
-      // If the input value matches a layerID set
-      // it's visibility to 'visible' or else hide it.
-      var value = e.target.value.trim().toUpperCase();
-      layerIDs.forEach(function (layerID) {
-        map.setLayoutProperty(layerID, 'visibility', layerID.indexOf(value) > -1 ? 'visible' : 'none');
-      });
+  });
+}
+
+function search() {
+  var filterInput = document.getElementById('filter-input');
+
+  filterInput.addEventListener('keyup', function (e) {
+    // If the input value matches a layerID set
+    // it's visibility to 'visible' or else hide it.
+    var value = e.target.value.trim().toUpperCase();
+    layerIDs.forEach(function (layerID) {
+      map.setLayoutProperty(layerID, 'visibility', layerID.indexOf(value) > -1 ? 'visible' : 'none');
     });
   });
 }
