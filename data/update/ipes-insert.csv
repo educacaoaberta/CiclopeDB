@@ -1,4 +1,4 @@
-id,lat,lng,sigla,nome,logradouro,bairro,complemento,cidade,estado,cep,telefone,url
+id,lat,lng,sigla,nome,logradouro,bairro,complemento,cidade,uf,cep,telefone,url
 3785,-1.43021110,-48.48876840,UEPA,UNIVERSIDADE DO ESTADO DO PARÁ,"RUA DO UNA, 156",TELÉGRAFO,,Belém,PA,66.050-540,(91) 32992200,http://www.uepa.br/portal/index.php
 2831,-1.43790000,-48.46133000,IFPA,"INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PARÁ","AV.JOÃO PAULO II, S/N - PRÉDIO DA REITORIA",CASTANHEIRA,,Belém,PA,66645240,(91) 33420599,http://www.castanhal.ifpa.edu.br
 4342,-1.45056000,-48.46824530,UFPA,UNIVERSIDADE FEDERAL DO PARÁ,"Av.Augusto Corrêa, s/n-Prédio Reitoria-3º andar",GUAMA,,Belém,PA,66075900,(91) 32017000,http://www.portal.ufpa.br
