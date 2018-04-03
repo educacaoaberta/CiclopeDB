@@ -5,22 +5,26 @@ const accessToken = 'pk.eyJ1IjoibWFwYXVhYiIsImEiOiJjamVpbDZsazgzNWJyMnFxZTN0Z2di
 
 const brasilStyle = 'mapbox://styles/mapauab/cjeil7fjv0rxm2ro2jll0x412';
 
-const pinImage = require('./images/pin.png');
+const pinIpesImage = require('./images/pin.png');
 
-const ipesLocal = './static/json/ipes.geojson';
-const polosLocal = './static/json/polos.geojson';
-const ipesPolosLocal = './static/json/ipespolos.json';
+const ipesInfo = './static/json/ipes.geojson';
+const polosInfo = './static/json/polos.geojson';
+const ipesPolosInfo = './static/json/ipespolos.json';
 
-var layerIDs = [];
+let layerIDs = [];
 
+// chave de acesso do Mapbox
 mapboxgl.accessToken = accessToken;
+
+// configura um novo mapa
 let map = new mapboxgl.Map({
   container: 'map',
   style: brasilStyle,
   zoom: 3.5,
   center: [-41.540733, -14.720560],
   minZoom: 3.5,
-  maxZoom: 15,
+  maxZoom: 12,
+  tolerance: 3.5,
   trackResize: true
 });
 
@@ -30,16 +34,17 @@ let popup = new mapboxgl.Popup({
   closeOnClick: false
 });
 
+// ao carregar o mapa
 map.on('load', function () {
-  // add search button
+  // adiciona o botão de busca
   const searchControl = new SearchControl(true);
   map.addControl(searchControl, 'top-left');
 
-  // add navigation control
+  // adiciona os controles do mapa
   let navControl = new mapboxgl.NavigationControl();
   map.addControl(navControl, 'top-left');
 
-  // add layers button
+  // adiciona o menu das camadas
   const layersControl = new LayersControl();
   map.addControl(layersControl, 'top-left');
 
@@ -48,13 +53,14 @@ map.on('load', function () {
   addIpesPolos();
 });
 
+// cria a camada dos Ipes
 function addIpesLayer() {
   map.addSource("ipes", {
     type: "geojson",
-    data: ipesLocal,
+    data: ipesInfo,
     cluster: true,
-    clusterMaxZoom: 14, // Max zoom to cluster points on
-    clusterRadius: 30 // Radius of each cluster when clustering points (defaults to 50)
+    clusterMaxZoom: 10,
+    clusterRadius: 35
   });
 
   map.addLayer({
@@ -96,12 +102,12 @@ function addIpesLayer() {
     }
   });
 
-  $.getJSON(ipesLocal, function (data) {
+  $.getJSON(ipesInfo, function (data) {
     data.features.forEach(function (feature) {
-      var sigla = feature.properties['sigla'];
+      let sigla = feature.properties['sigla'];
 
       if (!map.getLayer(sigla)) {
-        map.loadImage(pinImage, function (error, image) {
+        map.loadImage(pinIpesImage, function (error, image) {
           if (error) throw error;
           map.addImage('pin-' + sigla, image);
           map.addLayer({
@@ -110,7 +116,8 @@ function addIpesLayer() {
             'source': 'ipes',
             'layout': {
               'visibility': 'visible',
-              "icon-image": "pin-" + sigla
+              "icon-image": "pin-" + sigla,
+              "icon-allow-overlap": true,
             },
             "filter": ["==", "sigla", sigla],
           });
@@ -119,8 +126,9 @@ function addIpesLayer() {
         layerIDs.push(sigla);
       }
 
-      search()
+      search();
 
+      // quando o cursor entra em um IPES
       map.on('mouseenter', sigla, function (e) {
         map.getCanvas().style.cursor = 'pointer';
 
@@ -138,16 +146,17 @@ function addIpesLayer() {
         popup.remove();
       });
 
-      // ao clicar em um ipes...
+      // ao clicar em um IPES
       map.on('click', sigla, function (e) {
         EventBus.$emit('infoIpes', e.features[0].properties);
 
-        if (!e.features.length) return
+        if (!e.features.length) return;
+
         const feature = e.features[0];
 
         const ipes_id = feature.properties.id;
         let polosId = [];
-        $.getJSON(ipesPolosLocal, function (data) {
+        $.getJSON(ipesPolosInfo, function (data) {
           data.forEach(function(row) {
             if(row.ipes_id === Number(ipes_id)) {
               polosId.push(row.polos_id);
@@ -172,22 +181,23 @@ function addIpesLayer() {
 }
 
 function search() {
-  var filterInput = document.getElementById('filter-input');
+  let filterInput = document.getElementById('filter-input');
 
   filterInput.addEventListener('keyup', function (e) {
     // If the input value matches a layerID set
     // it's visibility to 'visible' or else hide it.
-    var value = e.target.value.trim().toUpperCase();
+    let value = e.target.value.trim().toUpperCase();
     layerIDs.forEach(function (layerID) {
       map.setLayoutProperty(layerID, 'visibility', layerID.indexOf(value) > -1 ? 'visible' : 'none');
     });
   });
 }
 
+// cria a camada dos Polos
 function addPolosLayer() {
   map.addSource("polos", {
     type: 'geojson',
-    data: polosLocal,
+    data: polosInfo,
   });
 
   map.addLayer({
@@ -197,6 +207,7 @@ function addPolosLayer() {
     'layout': {
       'visibility': 'none',
       "icon-image": "college-15",
+      "icon-allow-overlap": true,
     }
   });
 
@@ -229,10 +240,11 @@ function addPolosLayer() {
   });
 }
 
+// cria a camada dos Polos quando clicado em um IPES
 function addIpesPolos() {
   map.addSource("ipes-polos", {
     type: 'geojson',
-    data: polosLocal,
+    data: polosInfo,
   });
 
   map.addLayer({
@@ -242,6 +254,7 @@ function addIpesPolos() {
     'layout': {
       'visibility': 'none',
       "icon-image": "college-15",
+      "icon-allow-overlap": true,
     }
   });
 
@@ -295,7 +308,7 @@ class LayersControl {
       menu.addEventListener('click', function () {
         let input = $("#menu").find("input");
 
-        for (var i = 0; i < layerIDs.length; i++) {
+        for (let i = 0; i < layerIDs.length; i++) {
           if (input[0].checked === true) {
             map.setLayoutProperty(layerIDs[i], 'visibility', 'visible');
           } else {
@@ -355,7 +368,7 @@ class SearchControl {
       } else {
         search.className = "filter-ctrl hide-visually";
         this._container.childNodes[0].childNodes[0].value = '';
-        for (var i = 0; i < layerIDs.length; i++) {
+        for (let i = 0; i < layerIDs.length; i++) {
           map.setLayoutProperty(layerIDs[i], 'visibility', 'visible');
         }
         this._container.childNodes[1].classList.remove("mapboxgl-ctrl-close-icon");
