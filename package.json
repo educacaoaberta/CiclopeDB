@@ -16,6 +16,7 @@
     "datatables.net-dt": "^1.10.16",
     "jquery-ui": "^1.12.1",
     "mapbox-gl": "^0.44.1",
+    "npm": "^5.8.0",
     "vue": "^2.5.2"
   },
   "devDependencies": {
