@@ -7,7 +7,7 @@
         <!-- abas -->
         <slot name="tabs"></slot>
         <!-- conteudo -->
-        <div class='flex-parent flex-parent--column viewport-half h-auto-ml hmax-full bg-white shadow-darken10'>
+        <div id="content" class=' initial-size flex-parent flex-parent--column viewport-half h-auto-ml hmax-full bg-white shadow-darken10'>
           <slot name="content"></slot>
         </div>
     </div>

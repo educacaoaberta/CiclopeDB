@@ -120,7 +120,7 @@ a {
 }
 
 @media screen and (min-width: 800px) {
-    .flex-parent.flex-parent--column.viewport-half.h-auto-ml.hmax-full.bg-white.shadow-darken10 {
+    #content {
         height: calc(100vh - 125px) !important;
     }
     #tabs-polos > div > div.px12.py12.scroll-auto.set-height {
@@ -129,7 +129,7 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    .flex-parent.flex-parent--column.viewport-half.h-auto-ml.hmax-full.bg-white.shadow-darken10 {
+    #content {
         height: calc(100vh - 450px) !important;
     }
 
@@ -138,6 +138,32 @@ a {
         width: 100%;
         z-index: 1;
         bottom: 0;
-        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #content {
+        min-height: calc(100vh - 300px) !important;
+    }
+
+    .txt-l.txt-bold.mb-neg3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .col.col--11.my6 {
+        padding-left: 10px;
+    }
+
+    #app > #initial-sidebar .scroll-hidden > .absolute > .px12.py12.bg-blue-faint.txt-s {
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+
+    .app-sidebar {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        bottom: 0;
     }
 }
