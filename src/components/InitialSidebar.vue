@@ -2,7 +2,16 @@
 <right-sidebar id="initial-sidebar">
   <template slot="tabs">
       <div class='px12 py12 bg-blue-faint txt-s'>
-          <div class="txt-l txt-bold mb-neg3">Sistema Universidade Aberta do Brasil</div>
+          <div class='grid'>
+              <div class='col col--11'>
+                  <div class="txt-l txt-bold mb-neg3">Sistema Universidade Aberta do Brasil</div>
+              </div>
+              <div class='col col--1 block cursor-pointer' style="margin: auto;" v-on:click="closeSidebar()">
+                  <svg class="icon h24 w24 mx-auto mx-auto">
+                      <use xlink:href="#icon-close"></use>
+                  </svg>
+              </div>
+          </div>
       </div>
     <ul class="tabs bg-blue border-b border--white flex-parent h40 txt-bold txt-s"
             style="justify-content:space-around;">
@@ -50,6 +59,11 @@ export default {
     'principal': Principal,
     'sobre': Sobre,
     'dados': Dados
+  },
+  methods: {
+    closeSidebar: function() {
+      $('#initial-sidebar').addClass("hide-visually");
+    },
   }
 };
 </script>
