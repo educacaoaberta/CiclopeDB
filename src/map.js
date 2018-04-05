@@ -131,10 +131,13 @@ function search(value) {
 
   if (value !== undefined && value.length) {
     map.setFilter('ipes', ['==', 'sigla', value]);
+    map.setLayoutProperty('polos', 'visibility', 'visible');
+    map.setFilter('polos', ['==', 'nome_polo', value]);
   } else {
-    map.setFilter('ipes', ['!=', 'sigla', ''])
+    map.setFilter('ipes', ['!=', 'sigla', '']);
+    map.setFilter('polos', ['!=', 'nome_polo', '']);
+    map.setLayoutProperty('polos', 'visibility', 'none');
   }
-
 }
 
 // cria a camada dos Polos
@@ -305,7 +308,7 @@ class SearchControl {
         this._container.childNodes[1].className = "mapboxgl-ctrl-close-icon mapboxgl-ctrl-layers";
       } else {
         search.className = "filter-ctrl hide-visually";
-        this._container.childNodes[0].childNodes[0].value = '';
+        this._container.childNodes[0].childNodes[0].parentNode[0].value = '';
         map.setFilter('ipes', ['!=', 'sigla', ''])
         this._container.childNodes[1].classList.remove("mapboxgl-ctrl-close-icon");
         this._container.childNodes[1].className = "mapboxgl-ctrl-search-icon mapboxgl-ctrl-layers";
