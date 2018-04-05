@@ -10,7 +10,7 @@ import 'datatables.net-dt/css/jquery.dataTables.css'
 // jQuery UI
 var tabs = require( "jquery-ui/ui/widgets/tabs" );
 // Mapbox
-import map from './map'
+import {map, search} from './map'
 import 'mapbox-gl/dist/mapbox-gl.css'
 // Chart
 import Chart from 'chart.js'
@@ -36,3 +36,16 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app'
 })
+
+let filterInput = document.getElementById('filter-input');
+
+filterInput.addEventListener('keyup', function (e) {
+  let value = e.target.value.trim();
+  if(value === undefined || value === '') {
+    search('')
+  }
+});
+
+$('#filter-input').on('awesomplete-selectcomplete', function(obj) {
+  search(obj.target.value)
+});

@@ -18,6 +18,10 @@
   <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 
+  <!--Awesomplete-->
+  <link rel="stylesheet" href="static/awesomplete.css" />
+  <script src="static/awesomplete.min.js" async></script>
+
 </head>
 
 <body>
@@ -36,7 +40,7 @@
     <form class="filter-ctrl hide-visually" id="search">
       <div>
         <label for="filter-input" class="hide-visually">Pesquisar</label>
-        <input id='filter-input' type='text' name='filter-input' placeholder='Pesquisar' />
+        <input id='filter-input' class="awesomplete" type='text' name='filter-input' placeholder='Pesquisar' />
       </div>
     </form>
     
@@ -60,6 +64,14 @@
       $(".loading").fadeOut("slow");
       $("#loading-panel").addClass('hide-visually');
     }, 5000);
+
+    let filterInput = document.getElementById('filter-input');
+    let awesomplete = new Awesomplete(filterInput);
+    const namesList = './static/json/nomes.json';
+
+    $.getJSON(namesList, function (data) {
+      awesomplete.list = data.nomes;
+    });
   });
 
 </script>

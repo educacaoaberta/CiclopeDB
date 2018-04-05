@@ -13,6 +13,8 @@ const ipesPolosInfo = './static/json/ipespolos.json';
 
 let layerIDs = [];
 
+export {search, map}
+
 // chave de acesso do Mapbox
 mapboxgl.accessToken = accessToken;
 
@@ -57,140 +59,82 @@ map.on('load', function () {
 function addIpesLayer() {
   map.addSource("ipes", {
     type: "geojson",
-    data: ipesInfo,
-    cluster: true,
-    clusterMaxZoom: 10,
-    clusterRadius: 35
-  });
-
-  map.addLayer({
-    id: "clusters",
-    type: "circle",
-    source: "ipes",
-    filter: ["has", "point_count"],
-    paint: {
-      "circle-color": [
-        "step",
-        ["get", "point_count"],
-        "#b0cfcd",
-        4,
-        "#f8ca00",
-        7,
-        "#a5dff9"
-      ],
-      "circle-radius": [
-        "step",
-        ["get", "point_count"],
-        13,
-        4,
-        17,
-        7,
-        20
-      ]
-    }
-  });
-
-  map.addLayer({
-    id: "cluster-count",
-    type: "symbol",
-    source: "ipes",
-    filter: ["has", "point_count"],
-    layout: {
-      "text-field": "{point_count_abbreviated}",
-      "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
-      "text-size": 14
-    }
+    data: ipesInfo
   });
 
   $.getJSON(ipesInfo, function (data) {
-    data.features.forEach(function (feature) {
-      let sigla = feature.properties['sigla'];
-
-      if (!map.getLayer(sigla)) {
-        map.loadImage(pinIpesImage, function (error, image) {
-          if (error) throw error;
-          map.addImage('pin-' + sigla, image);
-          map.addLayer({
-            'id': sigla,
-            'type': 'symbol',
-            'source': 'ipes',
-            'layout': {
-              'visibility': 'visible',
-              "icon-image": "pin-" + sigla,
-              "icon-allow-overlap": true,
-            },
-            "filter": ["==", "sigla", sigla],
-          });
-        });
-
-        layerIDs.push(sigla);
-      }
-
-      search();
-
-      // quando o cursor entra em um IPES
-      map.on('mouseenter', sigla, function (e) {
-        map.getCanvas().style.cursor = 'pointer';
-
-        let coordinates = e.features[0].geometry.coordinates.slice();
-        let sigla = e.features[0].properties.sigla;
-
-        popup.setLngLat(coordinates)
-          .setText(sigla.toUpperCase())
-          .addTo(map);
+    map.loadImage(pinIpesImage, function (error, image) {
+      map.addImage('pin-ipes', image);
+      map.addLayer({
+        'id': 'ipes',
+        'type': 'symbol',
+        'source': 'ipes',
+        'layout': {
+          'visibility': 'visible',
+          "icon-image": "pin-ipes",
+          "icon-allow-overlap": true
+        }
       });
-
-      // o cursor volta ao padrão ao sair
-      map.on('mouseleave', sigla, function () {
-        map.getCanvas().style.cursor = '';
-        popup.remove();
-      });
-
-      // ao clicar em um IPES
-      map.on('click', sigla, function (e) {
-        EventBus.$emit('infoIpes', e.features[0].properties);
-
-        if (!e.features.length) return;
-
-        const feature = e.features[0];
-
-        const ipes_id = feature.properties.id;
-        let polosId = [];
-        $.getJSON(ipesPolosInfo, function (data) {
-          data.forEach(function(row) {
-            if(row.ipes_id === Number(ipes_id)) {
-              polosId.push(row.polos_id);
-            }
-          });
-
-          map.setLayoutProperty('ipes-polos', 'visibility', 'visible');
-          let filter_expression = ['any'];
-          polosId.forEach((polo_id) => {
-            filter_expression.push(['==' , 'id', String(polo_id)])
-          });
-          map.setFilter('ipes-polos', filter_expression);
-        });
-
-        EventBus.$emit('switchInfoPolos', false);
-        EventBus.$emit('switchInfoIpes', true);
-      });
-
+      // search();
     });
 
+  });
+  // quando o cursor entra em um IPES
+  map.on('mouseenter', 'ipes', function (e) {
+    map.getCanvas().style.cursor = 'pointer';
+
+    let coordinates = e.features[0].geometry.coordinates.slice();
+    let sigla = e.features[0].properties.sigla;
+
+    popup.setLngLat(coordinates)
+      .setText(sigla.toUpperCase())
+      .addTo(map);
+  });
+
+  // o cursor volta ao padrão ao sair
+  map.on('mouseleave', 'ipes', function () {
+    map.getCanvas().style.cursor = '';
+    popup.remove();
+  });
+
+  // ao clicar em um IPES
+  map.on('click', 'ipes', function (e) {
+    EventBus.$emit('infoIpes', e.features[0].properties);
+
+    if (!e.features.length) return;
+
+    const feature = e.features[0];
+
+    const ipes_id = feature.properties.id;
+    let polosId = [];
+    $.getJSON(ipesPolosInfo, function (data) {
+      data.forEach(function(row) {
+        if(row.ipes_id === Number(ipes_id)) {
+          polosId.push(row.polos_id);
+        }
+      });
+
+      map.setLayoutProperty('ipes-polos', 'visibility', 'visible');
+      let filter_expression = ['any'];
+      polosId.forEach((polo_id) => {
+        filter_expression.push(['==' , 'id', String(polo_id)])
+      });
+      map.setFilter('ipes-polos', filter_expression);
+    });
+
+    EventBus.$emit('switchInfoPolos', false);
+    EventBus.$emit('switchInfoIpes', true);
   });
 }
 
-function search() {
-  let filterInput = document.getElementById('filter-input');
+function search(value) {
 
-  filterInput.addEventListener('keyup', function (e) {
-    // If the input value matches a layerID set
-    // it's visibility to 'visible' or else hide it.
-    let value = e.target.value.trim().toUpperCase();
-    layerIDs.forEach(function (layerID) {
-      map.setLayoutProperty(layerID, 'visibility', layerID.indexOf(value) > -1 ? 'visible' : 'none');
-    });
-  });
+  if (value !== undefined && value.length) {
+    map.setFilter('ipes', ['==', 'sigla', value]);
+  } else {
+    map.setFilter('ipes', ['!=', 'sigla', ''])
+  }
+
 }
 
 // cria a camada dos Polos
@@ -301,26 +245,20 @@ class LayersControl {
     this._container.appendChild(this._button);
 
     // ao entrar no container
-    this._container.addEventListener('mouseenter', function () {
+    this._container.addEventListener('mouseenter', function() {
       let menu = this.firstChild;
       menu.className = '';
 
-      menu.addEventListener('click', function () {
-        let input = $("#menu").find("input");
+      menu.addEventListener('click', function() {
+        let input = $("#menu").find("input" );
+        for (let i = 0; i < input.length; i++) {
+          let visibility = map.getLayoutProperty(input[i].id, 'visibility');
 
-        for (let i = 0; i < layerIDs.length; i++) {
-          if (input[0].checked === true) {
-            map.setLayoutProperty(layerIDs[i], 'visibility', 'visible');
+          if(input[i].checked === true) {
+            map.setLayoutProperty(input[i].id, 'visibility', 'visible');
           } else {
-            map.setLayoutProperty(layerIDs[i], 'visibility', 'none');
+            map.setLayoutProperty(input[i].id, 'visibility', 'none');
           }
-        }
-
-        if(input[1].checked === true) {
-          map.setLayoutProperty('polos', 'visibility', 'visible');
-        } else {
-          map.setLayoutProperty('polos', 'visibility', 'none');
-          map.setLayoutProperty('ipes-polos', 'visibility', 'none');
         }
       });
     }, false);
@@ -368,9 +306,7 @@ class SearchControl {
       } else {
         search.className = "filter-ctrl hide-visually";
         this._container.childNodes[0].childNodes[0].value = '';
-        for (let i = 0; i < layerIDs.length; i++) {
-          map.setLayoutProperty(layerIDs[i], 'visibility', 'visible');
-        }
+        map.setFilter('ipes', ['!=', 'sigla', ''])
         this._container.childNodes[1].classList.remove("mapboxgl-ctrl-close-icon");
         this._container.childNodes[1].className = "mapboxgl-ctrl-search-icon mapboxgl-ctrl-layers";
       }
