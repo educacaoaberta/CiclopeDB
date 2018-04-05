@@ -21,7 +21,7 @@
         </div>
 
         <div class="txt-l txt-bold">Sobre a UAB</div>
-        <div class="prose">
+        <div class="prose py12">
             <p>A Universidade Aberta do Brasil (UAB) foi criada em 2006, inspirada por várias experiências no Brasil e no
                 exterior.
                 De particular importância para a estruturação do modelo UAB foi o consórcio <a class="unprose link" href="http://cederj.edu.br/">CEDERJ</a> do estado do Rio de Janeiro. Outras experiências pioneiras
@@ -47,71 +47,12 @@
                 articulando os institutos de ensino superior, como as universidades federais públicas do país.</p>
         </div>
 
-
-        <div class="graph">
-
-            <div class="py12">
-                <div class="txt-l txt-bold">Dados gerais da UAB: número de IPES por estado</div>
-                <!--Total de IPES no ano corrente-->
-                <p id="legendByState"></p>
-                <!-- Gráfico de Barras-->
-                <canvas id="chartByState"></canvas>
-            </div>
-
-            <div class="py12">
-                <div class="txt-l txt-bold">Dados gerais da UAB: Número de IPES por região</div>
-                <canvas id="chartByRegion"></canvas>
-            </div>
-
-            <div class="py12">
-                <div class="txt-l txt-bold">Dados gerais da UAB: número de polos por estado</div>
-                <p id="legendPolosByState"></p>
-                <!-- Gráfico de Barras-->
-                <canvas id="chartPolosByState" width="600" height="300"></canvas>
-            </div>
-
-            <div class="py12">
-                <div class="txt-l txt-bold">Dados gerais da UAB: Número de polos por região</div>
-                <canvas id="chartPolosByRegion"></canvas>
-            </div>
-        </div>
-
         <footer class="bg-blue-faint px12 py12 round-b-ml txt-s">
             <p>
                 O site e seu conteúdo estão licenciados com licença Creative Commons Atribuição (<a class="unprose link"
                     href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>) - Educação Aberta.
             </p>
-            <p>
-                Dados atualizados em 15/01/2018.
-            </p>
-
+            <p>Dados atualizados em 15/01/2018.</p>
         </footer>
     </div>
 </template>
-
-<script>
-  import {
-    loadChart, processBarChartIpes, processBarChartIpesRegion, processBarChartPolos,
-    processBarChartPolosRegion
-  } from '../functions';
-
-  export default {
-    mounted() {
-      // carrega o gráfico dos números de IPES por estado
-      var myIpesStateBarChart = loadChart("chartByState", "bar", "IPES")
-      processBarChartIpes(myIpesStateBarChart);
-
-      // carrega o gráfico dos números de IPES por região
-      var myIpesRegionBarChart = loadChart("chartByRegion", "bar", "IPES")
-      processBarChartIpesRegion(myIpesRegionBarChart);
-
-      // carrega o gráfico dos número de polos por estado
-      var myPoloStateBarChart = loadChart("chartPolosByState", "bar", "Polos")
-      processBarChartPolos(myPoloStateBarChart);
-
-      // carrega o gráfico dos número de polos por região
-      var myPoloRegionBarChart = loadChart("chartPolosByRegion", "bar", "Polos")
-      processBarChartPolosRegion(myPoloRegionBarChart);
-    }
-  };
-</script>
