@@ -259,8 +259,11 @@ class LayersControl {
 
           if(input[i].checked === true) {
             map.setLayoutProperty(input[i].id, 'visibility', 'visible');
+            map.setFilter('ipes-polos', ['!=', 'id', '']);
+            map.setLayoutProperty('ipes-polos', 'visibility', 'visible');
           } else {
             map.setLayoutProperty(input[i].id, 'visibility', 'none');
+            map.setLayoutProperty('ipes-polos', 'visibility', 'none');
           }
         }
       });
@@ -309,7 +312,8 @@ class SearchControl {
       } else {
         search.className = "filter-ctrl hide-visually";
         this._container.childNodes[0].childNodes[0].parentNode[0].value = '';
-        map.setFilter('ipes', ['!=', 'sigla', ''])
+        map.setFilter('ipes', ['!=', 'sigla', '']);
+        map.setLayoutProperty('ipes-polos', 'visibility', 'none');
         this._container.childNodes[1].classList.remove("mapboxgl-ctrl-close-icon");
         this._container.childNodes[1].className = "mapboxgl-ctrl-search-icon mapboxgl-ctrl-layers";
       }
