@@ -62,23 +62,24 @@ function addIpesLayer() {
     data: ipesInfo
   });
 
-  $.getJSON(ipesInfo, function (data) {
-    map.loadImage(pinIpesImage, function (error, image) {
-      map.addImage('pin-ipes', image);
-      map.addLayer({
-        'id': 'ipes',
-        'type': 'symbol',
-        'source': 'ipes',
-        'layout': {
-          'visibility': 'visible',
-          "icon-image": "pin-ipes",
-          "icon-allow-overlap": true
-        }
-      });
-      // search();
-    });
-
+  map.addLayer({
+    'id': 'ipes',
+    'type': 'circle',
+    'source': 'ipes',
+    'paint': {
+      'circle-radius': {
+        'base': 7,
+        'stops': [[4,7],[12,18]]
+      },
+      'circle-color': '#e55e5e',
+      'circle-stroke-color': 'white',
+      'circle-stroke-width': {
+        'base': 0,
+        'stops': [[4,1], [6,2]]
+      }
+    }
   });
+
   // quando o cursor entra em um IPES
   map.on('mouseenter', 'ipes', function (e) {
     map.getCanvas().style.cursor = 'pointer';
@@ -149,12 +150,22 @@ function addPolosLayer() {
 
   map.addLayer({
     'id': 'polos',
-    'type': 'symbol',
+    'type': 'circle',
     'source': 'polos',
+    'paint': {
+      'circle-radius': {
+        'base': 5,
+        'stops': [[5,5],[12,12]]
+      },
+      'circle-color': 'green',
+      'circle-stroke-color': 'white',
+      'circle-stroke-width': {
+        'base': 0,
+        'stops': [[4,1], [6,2]]
+      }
+    },
     'layout': {
-      'visibility': 'none',
-      "icon-image": "college-15",
-      "icon-allow-overlap": true,
+      'visibility': 'none'
     }
   });
 
@@ -193,15 +204,25 @@ function addIpesPolos() {
     type: 'geojson',
     data: polosInfo,
   });
-
+  
   map.addLayer({
     'id': 'ipes-polos',
-    'type': 'symbol',
+    'type': 'circle',
     'source': 'ipes-polos',
+    'paint': {
+      'circle-radius': {
+        'base': 5,
+        'stops': [[6,5],[12,12]]
+      },
+      'circle-color': '#2c7fb8',
+      'circle-stroke-color': 'white',
+      'circle-stroke-width': {
+        'base': 0,
+        'stops': [[4,1], [6,2]]
+      }
+    },
     'layout': {
-      'visibility': 'none',
-      "icon-image": "college-15",
-      "icon-allow-overlap": true,
+      'visibility': 'none'
     }
   });
 
