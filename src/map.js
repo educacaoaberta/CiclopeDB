@@ -18,6 +18,11 @@ export {search, map}
 // chave de acesso do Mapbox
 mapboxgl.accessToken = accessToken;
 
+let bounds = new mapboxgl.LngLatBounds(
+  new mapboxgl.LngLat(-78.57421875, -41.640078384678915),
+  new mapboxgl.LngLat(7.0137, 17.476432197195518)
+)
+
 // configura um novo mapa
 let map = new mapboxgl.Map({
   container: 'map',
@@ -27,7 +32,8 @@ let map = new mapboxgl.Map({
   minZoom: 3.5,
   maxZoom: 12,
   tolerance: 3.5,
-  trackResize: true
+  trackResize: true,
+  maxBounds: bounds
 });
 
 // cria um novo popup
