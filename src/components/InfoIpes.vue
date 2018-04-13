@@ -156,8 +156,9 @@
                 </div>
             </div>
         </div>
+
       <div id="info-ipes-tab-linha-tempo">
-          <div id='timeline-embed' style="height: 450px;"></div>
+          <div id="timeline"></div>
       </div>
     </div>
 
@@ -195,7 +196,7 @@ export default {
     $("#info-ipes-right-sidebar").tabs({show: 'fade', hide: 'fade', active: 0,
       activate: function( event, ui ) {
       // ajusta o tamanho da janela para mostrar a timeline corretamente
-        let resize = new Event('resize')
+        let resize = new Event('resize');
         window.dispatchEvent(resize);
         if (ui.newTab[0].id === "ipes-tab-linha-tempo") {
           window.dispatchEvent(resize);
@@ -266,21 +267,25 @@ export default {
         .draw();
     },
     loadTimeline: function(infoIpes) {
-
-      var options = {
-        start_at_slide: 0,
-        scale_factor: 0,
-        initial_zoom: 0
-      };
-
-      $('#timeline-embed').show();
-
       $.getJSON("./static/json/linhas.json", function (data){
-        $('#ipes-tab-linha-tempo').addClass("hide-visually")
+        $('#ipes-tab-linha-tempo').addClass("hide-visually");
+        $('#ipes-timeline-embed').css( "display", "none" );
         $.each( data, function( key, val ) {
           if(key === infoIpes.sigla) {
-            window.timeline = new TL.Timeline('timeline-embed', val, options);
-            $('#ipes-tab-linha-tempo').removeClass("hide-visually")
+            var options = {
+              initial_zoom: 1,
+              width: 150,
+              height: 450,
+              is_embed: true
+            };
+            $('#ipes-tab-linha-tempo').removeClass("hide-visually");
+            // remove alguma timeline anterior
+            $('#ipes-timeline-embed').remove();
+            // adiciona uma div e cria a timeline na primeira aba
+            $('#info-ipes-tab-info-gerais').append('<div id="ipes-timeline-embed" style="width: 100%;height: 450px;display:block;"></div>');
+            window.timeline = new TL.Timeline('ipes-timeline-embed', val, options);
+            // adiciona a div da primeira aba na terceira aba
+            $('#ipes-timeline-embed').appendTo('#timeline');
           }
         })
       });
@@ -293,8 +298,7 @@ export default {
       processBarChartIpesWithSiglaIpes(myBarChart, infoIpes.sigla);
     },
     setInfoIpes: function(infoIpes) {
-      $("#info-ipes-right-sidebar").tabs("option", "active", 0);
-      $("#info-ipes-right-sidebar").removeClass("hide-visually");
+      $("#info-ipes-right-sidebar").tabs("option", "active", 0).removeClass("hide-visually");
       $('#initial-sidebar').addClass("hide-visually");
 
       this.id = null;
