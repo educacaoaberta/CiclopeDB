@@ -4,1008 +4,24 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "3785",
-        "sigla": "UEPA",
-        "nome": "UNIVERSIDADE DO ESTADO DO PARÁ",
-        "logradouro": "RUA DO UNA, 156",
-        "bairro": "TELÉGRAFO",
-        "complemento": "",
-        "cidade": "Belém",
-        "estado": "PA",
-        "cep": "66.050-540",
-        "telefone": "(91) 32992200",
-        "url": "http://www.uepa.br/portal/index.php",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.4887684,
-          -1.4302111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "2831",
-        "sigla": "IFPA",
-        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PARÁ",
-        "logradouro": "AV.JOÃO PAULO II, S/N - PRÉDIO DA REITORIA",
-        "bairro": "CASTANHEIRA",
-        "complemento": "",
-        "cidade": "Belém",
-        "estado": "PA",
-        "cep": "66645240",
-        "telefone": "(91) 33420599",
-        "url": "http://www.castanhal.ifpa.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.46133,
-          -1.4379
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4342",
-        "sigla": "UFPA",
-        "nome": "UNIVERSIDADE FEDERAL DO PARÁ",
-        "logradouro": "Av.Augusto Corrêa, s/n-Prédio Reitoria-3º andar",
-        "bairro": "GUAMA",
-        "complemento": "",
-        "cidade": "Belém",
-        "estado": "PA",
-        "cep": "66075900",
-        "telefone": "(91) 32017000",
-        "url": "http://www.portal.ufpa.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.4682453,
-          -1.45056
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "3803",
-        "sigla": "UFT",
-        "nome": "UNIVERSIDADE FEDERAL DO TOCANTINS",
-        "logradouro": "Av. NS 15, ALCNO 14, Bloco IV, 109 Norte",
-        "bairro": "Centro",
-        "complemento": "",
-        "cidade": "Palmas",
-        "estado": "TO",
-        "cep": "77016524",
-        "telefone": "(63) 32188037",
-        "url": "http://ww1.uft.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.34986,
-          -10.15671
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5134",
-        "sigla": "UNITINS",
-        "nome": "FUNDAÇÃO UNIVERSIDADE DO TOCANTINS",
-        "logradouro": "QUADRA 108 SUL - CONJ. L - LT. 03 - AL. 11",
-        "bairro": "CENTRO",
-        "complemento": "",
-        "cidade": "Palmas",
-        "estado": "TO",
-        "cep": "77123360",
-        "telefone": "(63) 2182941",
-        "url": "",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.31658,
-          -10.1907
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4422",
-        "sigla": "UEFS",
-        "nome": "UNIVERSIDADE ESTADUAL DE FEIRA DE SANTANA",
-        "logradouro": "Avenida Transordestina, S/N",
-        "bairro": "NOVO HORIZONTE",
-        "complemento": "",
-        "cidade": "Feira de Santana",
-        "estado": "BA",
-        "cep": "44036900",
-        "telefone": "(75) 31613161",
-        "url": "http://www.uefs.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -38.9598047,
-          -12.2578934
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4044",
-        "sigla": "UFRB",
-        "nome": "UNIVERSIDADE FEDERAL DO RECÔNCAVO DA BAHIA",
-        "logradouro": "Rua Rui Barbosa, 710",
-        "bairro": "Centro",
-        "complemento": "",
-        "cidade": "Cruz das Almas",
-        "estado": "BA",
-        "cep": "44380000",
-        "telefone": "() ",
-        "url": "https://www.ufrb.edu.br/portal/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -39.1053665,
-          -12.6722649
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "3870",
-        "sigla": "UNEB",
-        "nome": "UNIVERSIDADE DO ESTADO DA BAHIA",
-        "logradouro": "Avenida Silveira Martins, 2555",
-        "bairro": "Cabula",
-        "complemento": "",
-        "cidade": "Salvador",
-        "estado": "BA",
-        "cep": "41150000",
-        "telefone": "(71) 31172200",
-        "url": "http://www.uneb.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -38.4820771,
-          -12.9816356
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4354",
-        "sigla": "UFBA",
-        "nome": "UNIVERSIDADE FEDERAL DA BAHIA",
-        "logradouro": "Avenida Reitor Miguel Calmon s/n",
-        "bairro": "Vale do Canela",
-        "complemento": "Escola de ADM da UFBA",
-        "cidade": "Salvador",
-        "estado": "BA",
-        "cep": "40110903",
-        "telefone": "(71) 32837000",
-        "url": "http://www.ufba.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -38.5069259,
-          -13.0026124
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "3206",
-        "sigla": "UESC",
-        "nome": "UNIVERSIDADE ESTADUAL DE SANTA CRUZ",
-        "logradouro": "RODOVIA JORGE AMADO KM 16, S/N",
-        "bairro": "SALOBRINHO",
-        "complemento": "",
-        "cidade": "Ilhéus",
-        "estado": "BA",
-        "cep": "45660000",
-        "telefone": "(73) 36805200",
-        "url": "http://www.uesc.br/cursos/pos_graduacao/mestrado/profisica/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -39.04602,
-          -14.793045
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4440",
-        "sigla": "UESB",
-        "nome": "UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA",
-        "logradouro": "ESTRADA DO BEM QUERER, KM 04",
-        "bairro": "C.UNIVERSITÁRIO",
-        "complemento": "",
-        "cidade": "Vitória da Conquista",
-        "estado": "BA",
-        "cep": "45083900",
-        "telefone": "(77) 34248640",
-        "url": "http://www.uesb.br/ppgcel/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -40.8414804,
-          -14.8567487
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5153",
-        "sigla": "IFNMG",
-        "nome": "INST. FED. EDUC., CIÊNC. E  TECNOL. DO NORTE DE MINAS GERAIS",
-        "logradouro": "Fazenda São Geraldo Km 06",
-        "bairro": "Bom Jardim",
-        "complemento": "",
-        "cidade": "Januária",
-        "estado": "MG",
-        "cep": "39480000",
-        "telefone": "() ",
-        "url": "",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -44.361111,
-          -15.4875
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5197",
-        "sigla": "IFMT",
-        "nome": "INSTITUTO FED. DE EDUC., CIÊNC. E TECNOLOGIA DE MATO GROSSO",
-        "logradouro": "RUA COMANDANTE COSTA, 1144 - ED. TARCOM",
-        "bairro": "CENTRO SUL",
-        "complemento": "",
-        "cidade": "Cuiabá",
-        "estado": "MT",
-        "cep": "78020400",
-        "telefone": "(65) 36164100",
-        "url": "http://www.ifmt.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.09827,
-          -15.59211
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "1990",
-        "sigla": "UFMT",
-        "nome": "UNIVERSIDADE FEDERAL DE MATO GROSSO",
-        "logradouro": "AV. FERNANDO CORREA DA COSTA, S/Nº",
-        "bairro": "COXIPÓ",
-        "complemento": "",
-        "cidade": "Cuiabá",
-        "estado": "MT",
-        "cep": "78060900",
-        "telefone": "(65) 36158000",
-        "url": "http://www.ufmt.br/&#8206",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -56.0991301,
-          -15.5986686
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "2990",
-        "sigla": "UNB",
-        "nome": "UNIVERSIDADE DE BRASÍLIA",
-        "logradouro": "Campus Universitário Darcy Ribeiro",
-        "bairro": "Asa Norte",
-        "complemento": "",
-        "cidade": "Brasília",
-        "estado": "DF",
-        "cep": "70910900",
-        "telefone": "(61) 33073300",
-        "url": "http://www.propaga.unb.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -47.8822933,
-          -15.7934003
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4464",
-        "sigla": "UNEMAT",
-        "nome": "UNIVERSIDADE DO ESTADO DE MATO GROSSO",
-        "logradouro": "Rua Tancredo Neves, 1095",
-        "bairro": "Cavalhada 2",
-        "complemento": "",
-        "cidade": "Cáceres",
-        "estado": "MT",
-        "cep": "78200000",
-        "telefone": "(65) 32210025",
-        "url": "http://secexec@bionorte.org.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.6847357,
-          -16.0661001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4106",
-        "sigla": "UEG",
-        "nome": "UNIVERSIDADE ESTADUAL DE GOIÁS",
-        "logradouro": "BR 153 QUADRA ÁREA KM 99",
-        "bairro": "",
-        "complemento": "",
-        "cidade": "Anápolis",
-        "estado": "GO",
-        "cep": "75132903",
-        "telefone": "(62) 33281178",
-        "url": "http://www.prp.ueg.br/renac",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.9525756,
-          -16.3332828
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4361",
-        "sigla": "UFG",
-        "nome": "UNIVERSIDADE FEDERAL DE GOIÁS",
-        "logradouro": "Prédio da Reitoria, 1º. Andar",
-        "bairro": "Camp.Samambaia",
-        "complemento": "",
-        "cidade": "Goiânia",
-        "estado": "GO",
-        "cep": "74001970",
-        "telefone": "(62) 35211000",
-        "url": "http://www.ufg.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -49.2532691,
-          -16.680882
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "3727",
-        "sigla": "UNIMONTES",
-        "nome": "UNIVERSIDADE ESTADUAL DE MONTES CLAROS",
-        "logradouro": "AV. DR. RUY BRAGA, S/N-CAMP.UNIVERSITÁRIO",
-        "bairro": "VILA MAURICÉIA",
-        "complemento": "",
-        "cidade": "Montes Claros",
-        "estado": "MG",
-        "cep": "39401089",
-        "telefone": "(38) 32298000",
-        "url": "http://www.cch.unimontes.br/ppgh",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.8717676,
-          -16.7273538
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4374",
-        "sigla": "UFVJM",
-        "nome": "UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI",
-        "logradouro": "RODOVIA MGT 367 KM 583",
-        "bairro": "CENTRO",
-        "complemento": "",
-        "cidade": "Diamantina",
-        "estado": "MG",
-        "cep": "39100000",
-        "telefone": "(38) 35321283",
-        "url": "http://www.ufvjm.edu.br/site/mesp/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.6006487,
-          -18.2440862
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "2737",
-        "sigla": "UFU",
-        "nome": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
-        "logradouro": "Av.João Naves de Ávila, 2121-Campus Sta Mônica",
-        "bairro": "Sta Mônica",
-        "complemento": "",
-        "cidade": "Uberlândia",
-        "estado": "MG",
-        "cep": "38408144",
-        "telefone": "(34) 32394811",
-        "url": "http://www.feciv.ufu.br/posgrad",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.25761696,
-          -18.91844615
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4985",
-        "sigla": "IFTM",
-        "nome": "INSTITUTO FED. DE EDUC., CIÊNC. E TECN. DO TRIÂNGULO MINEIRO",
-        "logradouro": "Doutor Randolfo Borges Júnior",
-        "bairro": "Univerdecidade",
-        "complemento": "- de 1701/1702 ao fim",
-        "cidade": "Uberaba",
-        "estado": "MG",
-        "cep": "38064300",
-        "telefone": "(34) 33261166",
-        "url": "http://www.iftm.edu.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -47.936666,
-          -19.750833
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4351",
-        "sigla": "UFMG",
-        "nome": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
-        "logradouro": "Av. Antonio Carlos, 6627",
-        "bairro": "Pampulha",
-        "complemento": "",
-        "cidade": "Belo Horizonte",
-        "estado": "MG",
-        "cep": "30000",
-        "telefone": "(31) 34094047",
-        "url": "http://www.ufmg.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.9450948,
-          -19.9227318
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "2008",
-        "sigla": "UEMG",
-        "nome": "UNIVERSIDADE DO ESTADO DE MINAS GERAIS",
-        "logradouro": "Rod. Prefeito Américo Giannetti, 4143",
-        "bairro": "Serra Verde",
-        "complemento": "Ed. Minas – 8º andar",
-        "cidade": "Belo Horizonte",
-        "estado": "MG",
-        "cep": "31630901",
-        "telefone": "(31) 39161500",
-        "url": "http://www.ppgd.uemg.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.9353281,
-          -19.9475636
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4309",
-        "sigla": "UFMA",
-        "nome": "UNIVERSIDADE FEDERAL DO MARANHÃO",
-        "logradouro": "dos Portugueses",
-        "bairro": "Vila Bacanga",
-        "complemento": "",
-        "cidade": "São Luís",
-        "estado": "MA",
-        "cep": "65080805",
-        "telefone": "(98) 32728700",
-        "url": "http://www.ppgca.ufma.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -44.2933276,
-          -2.5319224
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4380",
-        "sigla": "IFMA",
-        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO",
-        "logradouro": "Castelo Branco",
-        "bairro": "São Francisco",
-        "complemento": "789",
-        "cidade": "São Luís",
-        "estado": "MA",
-        "cep": "65076091",
-        "telefone": "(98) 32189003",
-        "url": "www.ifma.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -44.28783,
-          -2.53377
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4341",
-        "sigla": "UEMA",
-        "nome": "UNIVERSIDADE ESTADUAL DO MARANHÃO",
-        "logradouro": "CIDADE UNIVERSITÁRIA PAULO VI, S/N",
-        "bairro": "TIRIRICAL",
-        "complemento": "",
-        "cidade": "São Luís",
-        "estado": "MA",
-        "cep": "65055970",
-        "telefone": "(98) 32455461",
-        "url": "http://www.ppghen.uema.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -44.20801,
-          -2.5783
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4349",
-        "sigla": "UFES",
-        "nome": "UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO",
-        "logradouro": "AV. FERNANDO FERRARI, 514",
-        "bairro": "GOIABEIRAS",
-        "complemento": "",
-        "cidade": "Vitória",
-        "estado": "ES",
-        "cep": "29075910",
-        "telefone": "(27) 33352244",
-        "url": "http://www.ufes.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -40.2971673,
-          -20.2657683
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5202",
-        "sigla": "IFES",
-        "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo",
-        "logradouro": "Avenida Rio Branco",
-        "bairro": "Santa Lucia",
-        "complemento": "",
-        "cidade": "Vitória",
-        "estado": "ES",
-        "cep": "29056255",
-        "telefone": "() ",
-        "url": "",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -40.30126,
-          -20.30536
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4378",
-        "sigla": "UFOP",
-        "nome": "UNIVERSIDADE FEDERAL DE OURO PRETO",
-        "logradouro": "RUA DIOGO DE VASCONCELOS, 122",
-        "bairro": "PILAR",
-        "complemento": "",
-        "cidade": "Ouro Preto",
-        "estado": "MG",
-        "cep": "35400000",
-        "telefone": "(31) 35591100",
-        "url": "http://www.ufop.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.5036344,
-          -20.3851692
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5136",
-        "sigla": "UFMS",
-        "nome": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
-        "logradouro": "CIDADE UNIVERSITÁRIA, S/Nº",
-        "bairro": "UNIVERSITÁRIO",
-        "complemento": "",
-        "cidade": "Campo Grande",
-        "estado": "MS",
-        "cep": "79070900",
-        "telefone": "(67) 33457001",
-        "url": "http://www-nt.ufms.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.624352,
-          -20.4705302
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5286",
-        "sigla": "UFV",
-        "nome": "UNIVERSIDADE FEDERAL DE VIÇOSA",
-        "logradouro": "Avenida Peter Henry Rolfs",
-        "bairro": "Campus Universitário",
-        "complemento": "",
-        "cidade": "Viçosa",
-        "estado": "MG",
-        "cep": "36570900",
-        "telefone": "(31) 38992100",
-        "url": "http://www.ufv.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.8815888,
-          -20.7538586
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "2035",
-        "sigla": "UFSJ",
-        "nome": "Universidade Federal de São João del-Rei",
-        "logradouro": "PRAÇA FREI ORLANDO, 170",
-        "bairro": "CENTRO",
-        "complemento": "",
-        "cidade": "São João del Rei",
-        "estado": "MG",
-        "cep": "36307352",
-        "telefone": "(32) 33792340",
-        "url": "http://www.ufsj.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -44.2588086,
-          -21.1335755
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4370",
-        "sigla": "UFLA",
-        "nome": "UNIVERSIDADE FEDERAL DE LAVRAS",
-        "logradouro": "Campus Universitário, s/n - Caixa Postal 3037",
-        "bairro": "",
-        "complemento": "",
-        "cidade": "Lavras",
-        "estado": "MG",
-        "cep": "37200000",
-        "telefone": "(35) 38291126",
-        "url": "http://www.ufla.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -44.98208244,
-          -21.2271461
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4373",
-        "sigla": "UNIFAL",
-        "nome": "UNIVERSIDADE FEDERAL DE ALFENAS",
-        "logradouro": "RUA GABRIEL MONTEIRO DA SILVA, 700",
-        "bairro": "CENTRO",
-        "complemento": "",
-        "cidade": "Alfenas",
-        "estado": "MG",
-        "cep": "37130000",
-        "telefone": "(35) 32991062",
-        "url": "http://www.unifal-mg.edu.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -45.9446866,
-          -21.4439836
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4352",
-        "sigla": "UFJF",
-        "nome": "UNIVERSIDADE FEDERAL DE JUIZ DE FORA",
-        "logradouro": "José Lourenço Kelmer",
-        "bairro": "São Pedro",
-        "complemento": "",
-        "cidade": "Juiz de Fora",
-        "estado": "MG",
-        "cep": "36036330",
-        "telefone": "(32) 21023785",
-        "url": "http://www.ufjf.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.3501129,
-          -21.7609533
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "2001",
-        "sigla": "UENF",
-        "nome": "UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO",
-        "logradouro": "AV. ALBERTO LAMEGO, 2000",
-        "bairro": "HORTO",
-        "complemento": "",
-        "cidade": "Campos dos Goytacazes",
-        "estado": "RJ",
-        "cep": "28013602",
-        "telefone": "(22) 27261500",
-        "url": "http://www.uenf.br/pos-graduacao/biociencias-biotecnologia/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -41.3018123,
-          -21.7615512
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4445",
-        "sigla": "UFSCAR",
-        "nome": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
-        "logradouro": "Rodovia Washington Luís KM 235 SP310",
-        "bairro": "São Carlos",
-        "complemento": "",
-        "cidade": "São Carlos",
-        "estado": "SP",
-        "cep": "13565905",
-        "telefone": "(16) 33518111",
-        "url": "http://www.ufscar.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -47.8909707,
-          -22.0175435
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5274",
-        "sigla": "UEMS",
-        "nome": "UNIVERSIDADE ESTADUAL DE MATO GROSSO DO SUL",
-        "logradouro": "ROD. DOURADOS - ITAHUM, KM 12",
-        "bairro": "C.UNIVERSITÁRIA",
-        "complemento": "",
-        "cidade": "Dourados",
-        "estado": "MS",
-        "cep": "79804970",
-        "telefone": "(67) 34119000",
-        "url": "http://www.uems.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.93047,
-          -22.19699
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5280",
-        "sigla": "UFGD",
-        "nome": "UNIVERSIDADE FEDERAL DA GRANDE DOURADOS",
-        "logradouro": "Rua João Rosa Góes, 1761",
-        "bairro": "Vila Progresso",
-        "complemento": "",
-        "cidade": "Dourados",
-        "estado": "MS",
-        "cep": "79825070",
-        "telefone": "(67) 34102850",
-        "url": "http://portal.ufgd.edu.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -54.812208,
-          -22.2206145
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5284",
-        "sigla": "UNIFEI",
-        "nome": "UNIVERSIDADE FEDERAL DE ITAJUBÁ",
-        "logradouro": "AV.BPS,1303-C.UNIVER.PROF.JOSÉ R.SEABRA",
-        "bairro": "PINHEIRINHO",
-        "complemento": "",
-        "cidade": "Itajubá",
-        "estado": "MG",
-        "cep": "37500903",
-        "telefone": "(35) 36291118",
-        "url": "http://unifei.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -45.4524317,
-          -22.4237391
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4363",
-        "sigla": "UFRJ",
-        "nome": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
-        "logradouro": "Av. Brigadeiro Trompowsky, s/n - Préd.da Reitoria",
-        "bairro": "Ilha do Fundão",
+        "id": "4663",
+        "sigla": "CEFET/RJ",
+        "nome": "CENTRO FEDERAL DE EDUCAÇÃO TECN. CELSO SUCKOW DA FONSECA",
+        "logradouro": "AV. MARACANÃ, 229",
+        "bairro": "MARACANÃ",
         "complemento": "",
         "cidade": "Rio de Janeiro",
         "estado": "RJ",
-        "cep": "21941901",
-        "telefone": "(21) 25989600",
-        "url": "http://ufrj.br/",
+        "cep": "20271110",
+        "telefone": "(21)25688890",
+        "url": "http://dippg.cefet-rj.br/",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2305851,
-          -22.8577347
+          -43.22491,
+          -22.9116
         ]
       }
     },
@@ -1021,1239 +37,15 @@
         "cidade": "Rio de Janeiro",
         "estado": "RJ",
         "cep": "21040900",
-        "telefone": "(21) 38851715",
+        "telefone": "(21)38851715",
         "url": "http://www.ensp.fiocruz.br",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2446,
-          -22.8767
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4348",
-        "sigla": "UFF",
-        "nome": "UNIVERSIDADE FEDERAL FLUMINENSE",
-        "logradouro": "RUA MIGUEL DE FRIAS 9",
-        "bairro": "Icaraí",
-        "complemento": "",
-        "cidade": "Niterói",
-        "estado": "RJ",
-        "cep": "24220900",
-        "telefone": "(21) 26295000",
-        "url": "http://www.profiap.uff.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.1154552,
-          -22.8832371
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4350",
-        "sigla": "UFRRJ",
-        "nome": "UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO",
-        "logradouro": "RODOVIA BR 465, KM 7",
-        "bairro": "C.UNIVERSITÁRIO",
-        "complemento": "",
-        "cidade": "Seropédica",
-        "estado": "RJ",
-        "cep": "23835000",
-        "telefone": "(21) 26821210",
-        "url": "http://www.ufrrj.br/portal/modulo/home/index.php",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.2093727,
-          -22.9110137
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4307",
-        "sigla": "UERJ",
-        "nome": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO",
-        "logradouro": "RUA SÃO FRANCISCO XAVIER, 524-SALA T-029",
-        "bairro": "MARACANÃ",
-        "complemento": "",
-        "cidade": "Rio de Janeiro",
-        "estado": "RJ",
-        "cep": "20550900",
-        "telefone": "(21) 23342182",
-        "url": "WWW.UERJ.BR",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.2357796,
-          -22.91117095
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4663",
-        "sigla": "CEFET/RJ",
-        "nome": "CENTRO FEDERAL DE EDUCAÇÃO TECN. CELSO SUCKOW DA FONSECA",
-        "logradouro": "AV. MARACANÃ, 229",
-        "bairro": "MARACANÃ",
-        "complemento": "",
-        "cidade": "Rio de Janeiro",
-        "estado": "RJ",
-        "cep": "20271110",
-        "telefone": "(21) 25688890",
-        "url": "http://dippg.cefet-rj.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.22433052,
-          -22.9119006
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4442",
-        "sigla": "UNIRIO",
-        "nome": "UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO",
-        "logradouro": "AVENIDA PASTEUR, 296",
-        "bairro": "URCA",
-        "complemento": "",
-        "cidade": "Rio de Janeiro",
-        "estado": "RJ",
-        "cep": "22290240",
-        "telefone": "(21) 25427373",
-        "url": "http://www.unirio.br/ppghivhv",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -43.17327768,
-          -22.95298685
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4584",
-        "sigla": "UEL",
-        "nome": "UNIVERSIDADE ESTADUAL DE LONDRINA",
-        "logradouro": "RODOVIA CELSO GARCIA - CID PR 445 - KM 380",
-        "bairro": "JARDIM PEROBAL",
-        "complemento": "",
-        "cidade": "Londrina",
-        "estado": "PR",
-        "cep": "86057970",
-        "telefone": "(43) 33714000",
-        "url": "http://www.seti.pr.gov.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.1595023,
-          -23.3112878
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4343",
-        "sigla": "UEM",
-        "nome": "UNIVERSIDADE ESTADUAL DE MARINGÁ",
-        "logradouro": "AVENIDA COLOMBO, 5.790",
-        "bairro": "ZONA SETE",
-        "complemento": "",
-        "cidade": "Maringá",
-        "estado": "PR",
-        "cep": "87020900",
-        "telefone": "(44) 30114200",
-        "url": "http://www.pfi.uem.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.9382846,
-          -23.4251041
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4331",
-        "sigla": "UNESP-REITORIA",
-        "nome": "UNIVERSIDADE ESTADUAL PAULISTA JÚLIO DE MESQUITA FILHO (SEDE)",
-        "logradouro": "Rua Quirino de Andrade,  215 - 9°. Andar",
-        "bairro": "CENTRO",
-        "complemento": "",
-        "cidade": "São Paulo",
-        "estado": "SP",
-        "cep": "1049010",
-        "telefone": "(11) 56270233",
-        "url": "http://www.unesp.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -46.61015,
-          -23.59104
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4369",
-        "sigla": "UNIFESP",
-        "nome": "UNIVERSIDADE FEDERAL DE SÃO PAULO",
-        "logradouro": "Rua Sena Madureira, 1500",
-        "bairro": "VILA CLEMENTINO",
-        "complemento": "2º andar",
-        "cidade": "São Paulo",
-        "estado": "SP",
-        "cep": "4021001",
-        "telefone": "(11) 55764522",
-        "url": "http://www.unifesp.br/&#8206",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -46.64877,
-          -23.59184
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4183",
-        "sigla": "UFABC",
-        "nome": "UNIVERSIDADE FEDERAL DO ABC",
-        "logradouro": "Avenida dos Estados, 5001",
-        "bairro": "BANGU",
-        "complemento": "",
-        "cidade": "Santo André",
-        "estado": "SP",
-        "cep": "9210580",
-        "telefone": "(11) 44378400",
-        "url": "http://propg.ufabc.edu.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -46.545282,
-          -23.6609906
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4475",
-        "sigla": "UEPG",
-        "nome": "UNIVERSIDADE ESTADUAL DE PONTA GROSSA",
-        "logradouro": "Avenida General Carlos Cavalcanti",
-        "bairro": "Uvaranas",
-        "complemento": "Bloco M - Sala 64",
-        "cidade": "Ponta Grossa",
-        "estado": "PR",
-        "cep": "84030900",
-        "telefone": "(42) 32203000",
-        "url": "http://sites.uepg.br/ppgcsa/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -50.1601812,
-          -25.0891685
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5279",
-        "sigla": "UNICENTRO",
-        "nome": "UNIVERSIDADE ESTADUAL DO CENTRO-OESTE",
-        "logradouro": "RUA PE. SALVATORE RENNA, 875",
-        "bairro": "SANTA CRUZ",
-        "complemento": "",
-        "cidade": "Guarapuava",
-        "estado": "PR",
-        "cep": "85015430",
-        "telefone": "(42) 36211008",
-        "url": "http://www2.unicentro.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.4622016,
-          -25.3950986
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4347",
-        "sigla": "UFPR",
-        "nome": "UNIVERSIDADE FEDERAL DO PARANÁ",
-        "logradouro": "RUA XV DE NOVEMBRO, 1299",
-        "bairro": "Centro",
-        "complemento": "",
-        "cidade": "Curitiba",
-        "estado": "PR",
-        "cep": "80060000",
-        "telefone": "(41) 33605090",
-        "url": "",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -49.272373,
-          -25.4286927
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4365",
-        "sigla": "UTFPR",
-        "nome": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
-        "logradouro": "AV. SETE DE SETEMBRO, 3165",
-        "bairro": "REBOUÇAS",
-        "complemento": "",
-        "cidade": "Curitiba",
-        "estado": "PR",
-        "cep": "80230901",
-        "telefone": "(41) 33104423",
-        "url": "http://www.utfpr.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -49.26862,
-          -25.43958
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5258",
-        "sigla": "UDESC",
-        "nome": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA",
-        "logradouro": "AV. MADRE BENVENUTA, 2.007",
-        "bairro": "ITACORUBI",
-        "complemento": "",
-        "cidade": "Florianópolis",
-        "estado": "SC",
-        "cep": "88035001",
-        "telefone": "(48) 33218000",
-        "url": "http://www.udesc.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.50266,
-          -27.58481
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5195",
-        "sigla": "IFSC",
-        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA",
-        "logradouro": "Rua 14 de julho,nº 150 Enseada dos Marinheiros",
-        "bairro": "Coqueiros",
-        "complemento": "",
-        "cidade": "Florianópolis",
-        "estado": "SC",
-        "cep": "88075010",
-        "telefone": "(48) 38779000",
-        "url": "http://www.ifsc.edu.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.558226,
-          -27.5907184
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4362",
-        "sigla": "UFSC",
-        "nome": "UNIVERSIDADE FEDERAL DE SANTA CATARINA",
-        "logradouro": "LOC  CONJUNTO UNIVERSITARIO",
-        "bairro": "Trindade",
-        "complemento": "",
-        "cidade": "Florianópolis",
-        "estado": "SC",
-        "cep": "88045108",
-        "telefone": "(48) 37219000",
-        "url": "http://www.ufsc.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.5496098,
-          -27.5973002
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4359",
-        "sigla": "UFSM",
-        "nome": "UNIVERSIDADE FEDERAL DE SANTA MARIA",
-        "logradouro": "Av. Roraima, n. 1000",
-        "bairro": "CAMOBI",
-        "complemento": "Prédio da Administração Central, 5º andar",
-        "cidade": "Santa Maria",
-        "estado": "RS",
-        "cep": "97105900",
-        "telefone": "(55) 32208000",
-        "url": "http://www.ufsm.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -53.8069214,
-          -29.6860512
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "3869",
-        "sigla": "UFAM",
-        "nome": "Universidade Federal do Amazonas",
-        "logradouro": "Av.General Rodrigo Otávio Jordão Ramos, 3000",
-        "bairro": "COROADO II",
-        "complemento": "",
-        "cidade": "Manaus",
-        "estado": "AM",
-        "cep": "69077000",
-        "telefone": "(92) 33054332",
-        "url": "www.ufam.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.97483,
-          -3.09932
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5206",
-        "sigla": "IFAM",
-        "nome": "INSTITUTO FEDERAL DE EDUC., CIÊNCIA E TECNOLOGIA DO AMAZONAS",
-        "logradouro": "AVENIDA SETE DE SETEMBRO. Nº: 1975",
-        "bairro": "",
-        "complemento": "",
-        "cidade": "Manaus",
-        "estado": "AM",
-        "cep": "69020120",
-        "telefone": "(92) 36216728",
-        "url": "http://www.ifam.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.0250846,
-          -3.1233282
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "3519",
-        "sigla": "UEA",
-        "nome": "UNIVERSIDADE DO ESTADO DO AMAZONAS",
-        "logradouro": "AV. DJALMA BATISTA, 3578",
-        "bairro": "FLORES",
-        "complemento": "",
-        "cidade": "Manaus",
-        "estado": "AM",
-        "cep": "69050030",
-        "telefone": "(92) 36467297",
-        "url": "http://www.pos.uea.edu.br/letraseartes/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.9865291,
-          -3.1328619
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "2825",
-        "sigla": "IFCE",
-        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO CEARÁ",
-        "logradouro": "Avenida Rui Barbosa, 2847",
-        "bairro": "Dionísio Torres",
-        "complemento": "",
-        "cidade": "Fortaleza",
-        "estado": "CE",
-        "cep": "60040531",
-        "telefone": "(85) 34012300",
-        "url": "www.ifce.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -38.5217989,
-          -3.7304512
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4360",
-        "sigla": "UFC",
-        "nome": "UNIVERSIDADE FEDERAL DO CEARÁ",
-        "logradouro": "AV. DA UNIVERSIDADE, 2853",
-        "bairro": "BENFICA",
-        "complemento": "",
-        "cidade": "Fortaleza",
-        "estado": "CE",
-        "cep": "60020181",
-        "telefone": "(85) 33667300",
-        "url": "http://www.ufc.br/&#8206",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -38.57574,
-          -3.74549
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "3444",
-        "sigla": "UECE",
-        "nome": "UNIVERSIDADE ESTADUAL DO CEARÁ",
-        "logradouro": "Av. Silas Munguba",
-        "bairro": "ITAPERI",
-        "complemento": "",
-        "cidade": "Fortaleza",
-        "estado": "CE",
-        "cep": "60714903",
-        "telefone": "(85) 31019601",
-        "url": "http://www.politicasuece.com",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -38.55619,
-          -3.79437
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4358",
-        "sigla": "UFRGS",
-        "nome": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
-        "logradouro": "Av. Paulo Gama, 110 - 7º andar",
-        "bairro": "Bom Fim",
-        "complemento": "",
-        "cidade": "Porto Alegre",
-        "estado": "RS",
-        "cep": "90040900",
-        "telefone": "(51) 33167000",
-        "url": "http://www.ufrgs.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.2199469,
-          -30.0332945
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5209",
-        "sigla": "IFSul",
-        "nome": "INSTITUTO FEDERAL DE EDUC., CIÊNC. E TECN. SUL-RIO-GRANDENSE",
-        "logradouro": "GONÇALVES CHAVES, 3798",
-        "bairro": "CENTRO",
-        "complemento": "",
-        "cidade": "Pelotas",
-        "estado": "RS",
-        "cep": "96015560",
-        "telefone": "(53) 33091750",
-        "url": "http://www.sapucaia.ifsul.edu.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.35226,
-          -31.76658
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4399",
-        "sigla": "UFPEL",
-        "nome": "UNIVERSIDADE FEDERAL DE PELOTAS",
-        "logradouro": "Rua Gomes Carneiro, 01",
-        "bairro": "Centro",
-        "complemento": "",
-        "cidade": "Pelotas",
-        "estado": "RS",
-        "cep": "96010610",
-        "telefone": "(53) 32757107",
-        "url": "http://portal.ufpel.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.3411543,
-          -31.7700104
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "2139",
-        "sigla": "FURG",
-        "nome": "UNIVERSIDADE FEDERAL DO RIO GRANDE",
-        "logradouro": "AVENIDA ITÁLIA KM 8 - CAMPUS CARREIROS",
-        "bairro": "CARREIROS",
-        "complemento": "",
-        "cidade": "Rio Grande",
-        "estado": "RS",
-        "cep": "96201900",
-        "telefone": "(53) 32336730",
-        "url": "http://www.furg.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -52.0989461,
-          -32.0324689
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5293",
-        "sigla": "UNILAB",
-        "nome": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
-        "logradouro": "AVENIDA  DA ABOLIÇÃO, 03",
-        "bairro": "CENTRO",
-        "complemento": "",
-        "cidade": "Redenção",
-        "estado": "CE",
-        "cep": "62790000",
-        "telefone": "(85) 33321410",
-        "url": "http://www.unilab.edu.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -38.7276579,
-          -4.2225459
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4203",
-        "sigla": "UFPI",
-        "nome": "UNIVERSIDADE FEDERAL DO PIAUÍ",
-        "logradouro": "CAMP UNIVERSITARIO",
-        "bairro": "ININGA",
-        "complemento": "",
-        "cidade": "Teresina",
-        "estado": "PI",
-        "cep": "0",
-        "telefone": "(86) 32155512",
-        "url": "http://www.ufpi.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.79635,
-          -5.05794
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4496",
-        "sigla": "UESPI",
-        "nome": "FUNDACAO UNIVERSIDADE ESTADUAL DO PIAUI FUESPI",
-        "logradouro": "RUA JOÃO CABRAL, 2231",
-        "bairro": "PIRAJÁ",
-        "complemento": "",
-        "cidade": "Teresina",
-        "estado": "PI",
-        "cep": "64002150",
-        "telefone": "(86) 32137524",
-        "url": "http://www.uespi.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -42.809588,
-          -5.0896403
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4456",
-        "sigla": "UERN",
-        "nome": "UNIVERSIDADE DO ESTADO DO RIO GRANDE DO NORTE",
-        "logradouro": "Campus Universitário-Br-110, KM-46 Costa e Silva",
-        "bairro": "",
-        "complemento": "",
-        "cidade": "Mossoró",
-        "estado": "RN",
-        "cep": "59600970",
-        "telefone": "(84) 33152145",
-        "url": "http://www.uern.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -37.33991,
-          -5.18942
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4366",
-        "sigla": "UFERSA",
-        "nome": "UNIVERSIDADE FEDERAL RURAL DO SEMI-ÁRIDO",
-        "logradouro": "Av. Francisco Mota, 572",
-        "bairro": "Costa e Silva",
-        "complemento": "",
-        "cidade": "Mossoró",
-        "estado": "RN",
-        "cep": "59625900",
-        "telefone": "(84) 33178296",
-        "url": "http://www.ufersa.edu.br/ppid",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -37.3443872,
-          -5.1904332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4344",
-        "sigla": "UFRN",
-        "nome": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
-        "logradouro": "AVENIDA SENADOR SALGADO FILHO",
-        "bairro": "Lagoa Nova",
-        "complemento": "",
-        "cidade": "Natal",
-        "estado": "RN",
-        "cep": "0",
-        "telefone": "(84) 32153125",
-        "url": "www.sociairis.org",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.2080905,
-          -5.805398
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5192",
-        "sigla": "IFRN",
-        "nome": "INSTITUTO FED. DE EDUC, CIÊN. E TECN. DO RIO GRANDE DO NORTE",
-        "logradouro": "Rua Nilo Bezerra Ramalho, 1692",
-        "bairro": "Tirol",
-        "complemento": "",
-        "cidade": "Natal",
-        "estado": "RN",
-        "cep": "59015300",
-        "telefone": "(84) 40050750",
-        "url": "http://portal.ifrn.edu.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.2046235,
-          -5.8114422
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5208",
-        "sigla": "IFPB",
-        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECN. DA PARAÍBA",
-        "logradouro": "AV. 1º DE MAIO, 720",
-        "bairro": "JAGUARIBE",
-        "complemento": "",
-        "cidade": "João Pessoa",
-        "estado": "PB",
-        "cep": "58015430",
-        "telefone": "(83) 32083000",
-        "url": "",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.83417,
-          -7.00422
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4355",
-        "sigla": "UFPB",
-        "nome": "UNIVERSIDADE FEDERAL DA PARAIBA",
-        "logradouro": "º",
-        "bairro": "",
-        "complemento": "",
-        "cidade": "Areia",
-        "estado": "PB",
-        "cep": "0",
-        "telefone": "(83) 32167173",
-        "url": "http://www.ufpb.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.8897979,
-          -7.1147841
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4312",
-        "sigla": "UEPB",
-        "nome": "UNIVERSIDADE ESTADUAL DA PARAIBA",
-        "logradouro": "AV. DAS BARAÚNAS, 351-CAMP.UNIVERSITÁRIO",
-        "bairro": "UNIVERSITÁRIO",
-        "complemento": "",
-        "cidade": "Campina Grande",
-        "estado": "PB",
-        "cep": "58429500",
-        "telefone": "(83) 33153300",
-        "url": "http://pos-graduacao.uepb.edu.br/ppgec/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.8771292,
-          -7.2246743
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5133",
-        "sigla": "UPE",
-        "nome": "UNIVERSIDADE DE PERNAMBUCO",
-        "logradouro": "Rua",
-        "bairro": "",
-        "complemento": "",
-        "cidade": "Camaragibe",
-        "estado": "PE",
-        "cep": "0",
-        "telefone": "(81) 31833700",
-        "url": "http://www.upe.br/fensg/mestrado",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.88605,
-          -8.04408
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4667",
-        "sigla": "IFPE",
-        "nome": "INSTITUTO FED. DE EDUC., CIÊNCIA E TECNOLOGIA DE PERNAMBUCO",
-        "logradouro": "AVENIDA PROFESSOR  LUÍZ FREIRE, 500",
-        "bairro": "C.UNIVERSITÁRIA",
-        "complemento": "",
-        "cidade": "Recife",
-        "estado": "PE",
-        "cep": "50740540",
-        "telefone": "(81) 21251691",
-        "url": "http://www.recife.ifpe.edu.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.9555887,
-          -8.0566534
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4357",
-        "sigla": "UFPE",
-        "nome": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
-        "logradouro": "AVENIDA PROF. MORAES REGO, 1235",
-        "bairro": "Cidade Universitária",
-        "complemento": "",
-        "cidade": "Recife",
-        "estado": "PE",
-        "cep": "50670901",
-        "telefone": "(81) 21268002",
-        "url": "http://www.ufpb.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.8979047,
-          -8.0581077
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4364",
-        "sigla": "UFRPE",
-        "nome": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO",
-        "logradouro": "Rua Dom Manoel de Medeiros, s/n",
-        "bairro": "Dois Irmãos",
-        "complemento": "",
-        "cidade": "Recife",
-        "estado": "PE",
-        "cep": "52171900",
-        "telefone": "(81) 33206000",
-        "url": "http://www.pgbiom.ufrpe.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -34.8979047,
-          -8.0581077
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5285",
-        "sigla": "UNIR",
-        "nome": "UNIVERSIDADE FEDERAL DE RONDÔNIA",
-        "logradouro": "º",
-        "bairro": "",
-        "complemento": "",
-        "cidade": "Porto Velho",
-        "estado": "RO",
-        "cep": "0",
-        "telefone": "(69) 21822000",
-        "url": "http://www.mestradoeducacao.unir.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.8735438,
-          -8.7494525
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5287",
-        "sigla": "UNIVASF",
-        "nome": "UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO",
-        "logradouro": "AV. JOSÉ DE SÁ MANIÇOBA, S/N",
-        "bairro": "CENTRO",
-        "complemento": "",
-        "cidade": "Petrolina",
-        "estado": "PE",
-        "cep": "56304917",
-        "telefone": "(87) 21016795",
-        "url": "http://www.producaovegetal.univasf.edu.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -40.5069248,
-          -9.3899401
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4664",
-        "sigla": "IFAL",
-        "nome": "INSTITUTO FED. DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE ALAGOAS",
-        "logradouro": "Rua Lourival Alfredo",
-        "bairro": "Poeira",
-        "complemento": "",
-        "cidade": "Marechal Deodoro",
-        "estado": "AL",
-        "cep": "57160000",
-        "telefone": "() ",
-        "url": "",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.7733,
-          -9.5532
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4353",
-        "sigla": "UFAL",
-        "nome": "UNIVERSIDADE FEDERAL DE ALAGOAS",
-        "logradouro": "AV MANOEL SEVERINO BARBOSA",
-        "bairro": "BOM SUCESSO",
-        "complemento": "",
-        "cidade": "Arapiraca",
-        "estado": "AL",
-        "cep": "57309005",
-        "telefone": "(82) 32141172",
-        "url": "http://www.ufal.edu",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.7339264,
-          -9.6476843
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5278",
-        "sigla": "UNCISAL",
-        "nome": "UNIVERSIDADE ESTADUAL DE CIENCIAS DA SAUDE DE ALAGOAS",
-        "logradouro": "Rua Jorge de Lima",
-        "bairro": "Trapiche da Barra",
-        "complemento": "",
-        "cidade": "Maceió",
-        "estado": "AL",
-        "cep": "57010300",
-        "telefone": "() ",
-        "url": "",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.7585,
-          -9.67384
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4310",
-        "sigla": "UFAC",
-        "nome": "UNIVERSIDADE FEDERAL DO ACRE",
-        "logradouro": "CAMPUS UNIVERSITÁRIO - BR 364 KM 4",
-        "bairro": "",
-        "complemento": "",
-        "cidade": "Rio Branco",
-        "estado": "AC",
-        "cep": "69915900",
-        "telefone": "(68) 39012500",
-        "url": "http://www.ufac.br",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.8220778,
-          -9.9765362
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "4548",
-        "sigla": "UNIFAP",
-        "nome": "UNIVERSIDADE FEDERAL DO AMAPÁ",
-        "logradouro": "RODOVIA JUSCELINO K. DE OLIVEIRA, KM 02",
-        "bairro": "MARCO ZERO",
-        "complemento": "",
-        "cidade": "Macapá",
-        "estado": "AP",
-        "cep": "68903419",
-        "telefone": "(96) 33121703",
-        "url": "http://www.unifap.br/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -51.0693238,
-          0.0460699
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5200",
-        "sigla": "IFRR",
-        "nome": "INSTITUTO FED. DE EDUCACAO, CIÊNCIA E TECNOLOGICA DE RORAIMA",
-        "logradouro": "Avenida Glaycon de Paiva",
-        "bairro": "Pricumã",
-        "complemento": "",
-        "cidade": "Boa Vista",
-        "estado": "RR",
-        "cep": "69303340",
-        "telefone": "() ",
-        "url": "",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.69447,
-          2.81362
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "5137",
-        "sigla": "UFRR",
-        "nome": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE RORAIMA",
-        "logradouro": "Av. Dr. Zany",
-        "bairro": "Centro",
-        "complemento": "",
-        "cidade": "Caracaraí",
-        "estado": "RR",
-        "cep": "69360000",
-        "telefone": "(95) 36213100",
-        "url": "http://ufrr.br/ppgdra/",
-        "tipo": "ipes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.6724479,
-          2.8208017
+          -43.24374,
+          -22.87753
         ]
       }
     },
@@ -2269,15 +61,159 @@
         "cidade": "São Cristóvão",
         "estado": "SE",
         "cep": "49100000",
-        "telefone": "(79) 21056408",
+        "telefone": "(79)21056408",
         "url": "http://www.posgraduacao.ufs.br/npged",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -37.103468,
-          -10.923163
+          -37.24115,
+          -10.94452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2139",
+        "sigla": "FURG",
+        "nome": "UNIVERSIDADE FEDERAL DO RIO GRANDE",
+        "logradouro": "AVENIDA ITÁLIA KM 8 - CAMPUS CARREIROS",
+        "bairro": "CARREIROS",
+        "complemento": "",
+        "cidade": "Rio Grande",
+        "estado": "RS",
+        "cep": "96201900",
+        "telefone": "(53)32336730",
+        "url": "http://www.furg.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.15833,
+          -32.07154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2572",
+        "sigla": "IFAC",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO ACRE",
+        "logradouro": "Rua Coronel José Galdino",
+        "bairro": "Bosque",
+        "complemento": "",
+        "cidade": "Rio Branco",
+        "estado": "AC",
+        "cep": "69900640",
+        "telefone": "",
+        "url": "http://www.ifac.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.81,
+          -9.975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4664",
+        "sigla": "IFAL",
+        "nome": "INSTITUTO FEDERAL ALAGOAS",
+        "logradouro": "Rua Lourival Alfredo",
+        "bairro": "Poeira",
+        "complemento": "",
+        "cidade": "Marechal Deodoro",
+        "estado": "AL",
+        "cep": "57160000",
+        "telefone": "",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.73074,
+          -9.66429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5206",
+        "sigla": "IFAM",
+        "nome": "INSTITUTO FEDERAL DE EDUC., CIÊNCIA E TECNOLOGIA DO AMAZONAS",
+        "logradouro": "AVENIDA SETE DE SETEMBRO. Nº: 1975",
+        "bairro": "",
+        "complemento": "",
+        "cidade": "Manaus",
+        "estado": "AM",
+        "cep": "69020120",
+        "telefone": "(92)36216728",
+        "url": "http://www.ifam.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.02535,
+          -3.11996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2575",
+        "sigla": "IFAP",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAPÁ",
+        "logradouro": "RODOVIA BR 210, KM 03",
+        "bairro": "BRASIL NOVO",
+        "complemento": "EDIF",
+        "cidade": "Macapá",
+        "estado": "AP",
+        "cep": "68909398",
+        "telefone": "",
+        "url": "www.ifap.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.066,
+          0.039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2459",
+        "sigla": "IFB",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE BRASÍLIA",
+        "logradouro": "SGAN 610 MÓDULOS D, E, F e G",
+        "bairro": "ASA NORTE",
+        "complemento": "",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "cep": "70860100",
+        "telefone": "",
+        "url": "http://www.ifb.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.93,
+          -15.78
         ]
       }
     },
@@ -2293,15 +229,351 @@
         "cidade": "Salvador",
         "estado": "BA",
         "cep": "40110150",
-        "telefone": "(71) 32210333",
+        "telefone": "(71)32210333",
         "url": "http://portal.ifba.edu.br/inicio/inicio.html",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -38.522358,
-          -12.993594
+          -38.52239,
+          -12.99349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2825",
+        "sigla": "IFCE",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO CEARÁ",
+        "logradouro": "Avenida Rui Barbosa, 2847",
+        "bairro": "Dionísio Torres",
+        "complemento": "",
+        "cidade": "Fortaleza",
+        "estado": "CE",
+        "cep": "60040531",
+        "telefone": "(85)34012300",
+        "url": "www.ifce.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.53577,
+          -3.74416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5202",
+        "sigla": "IFES",
+        "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo",
+        "logradouro": "Avenida Rio Branco",
+        "bairro": "Santa Lucia",
+        "complemento": "",
+        "cidade": "Vitória",
+        "estado": "ES",
+        "cep": "29056255",
+        "telefone": "",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.30239,
+          -20.30752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4665",
+        "sigla": "IFF",
+        "nome": "INSTITUTO FED. DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA FLUMINENSE",
+        "logradouro": "RUA DR. SIQUEIRA",
+        "bairro": "PARQ.D.BOSCO",
+        "complemento": "Com aulas no Campus Campos Centro e no Polo de Inovação Campos dos Goytacazes",
+        "cidade": "Campos dos Goytacazes",
+        "estado": "RJ",
+        "cep": "28030130",
+        "telefone": "",
+        "url": "http://www.iff.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.3235,
+          -21.737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5193",
+        "sigla": "IFFarroup",
+        "nome": "INSTITUTO FED. DE EDUC, CIÊNC E TECNOLOGIA FARROUPILHA",
+        "logradouro": "RUA ESMERALDA",
+        "bairro": "Camobi",
+        "complemento": "EDIF",
+        "cidade": "Santa Maria",
+        "estado": "RS",
+        "cep": "97110000",
+        "telefone": "",
+        "url": "www.iffarroupilha.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.807,
+          -29.684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5204",
+        "sigla": "IFG",
+        "nome": "INSTIT FEDERAL DE EDUCACÃO, CIÊNCIA E TECNOLOGIA DE GOIÁS",
+        "logradouro": "Rua Assis Chateaubriand, nº 1658",
+        "bairro": "Setor Oeste",
+        "complemento": "",
+        "cidade": "Goiânia",
+        "estado": "GO",
+        "cep": "74130012",
+        "telefone": "",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.25993,
+          -16.64019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5203",
+        "sigla": "IFGoiano",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA GOIANO",
+        "logradouro": "Rua 88, n°310",
+        "bairro": "Setor Sul",
+        "complemento": "",
+        "cidade": "Goiânia",
+        "estado": "GO",
+        "cep": "74085010",
+        "telefone": "",
+        "url": "www.ifgoiano.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.254,
+          -16.679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4380",
+        "sigla": "IFMA",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO",
+        "logradouro": "Castelo Branco",
+        "bairro": "São Francisco",
+        "complemento": "789",
+        "cidade": "São Luís",
+        "estado": "MA",
+        "cep": "65076091",
+        "telefone": "(98)32189003",
+        "url": "www.ifma.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2777,
+          -2.53572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5198",
+        "sigla": "IFMG",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS",
+        "logradouro": "AV. PROFESSOR MARIO WERNECK",
+        "bairro": "BURITIS",
+        "complemento": "",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30575180",
+        "telefone": "",
+        "url": "www.ifmg.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.97057,
+          -19.97593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5194",
+        "sigla": "IFMS",
+        "nome": "INSTITUTO FED. DE EDUC. CIÊNC. E TECN. DE MATO GROSSO DO SUL",
+        "logradouro": "Rua Ceará",
+        "bairro": "Santa Fé",
+        "complemento": "972",
+        "cidade": "Campo Grande",
+        "estado": "MS",
+        "cep": "79021000",
+        "telefone": "",
+        "url": "www.ifms.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.5923,
+          -20.45819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5197",
+        "sigla": "IFMT",
+        "nome": "INSTITUTO FED. DE EDUC., CIÊNC. E TECNOLOGIA DE MATO GROSSO",
+        "logradouro": "RUA COMANDANTE COSTA, 1144 - ED. TARCOM",
+        "bairro": "CENTRO SUL",
+        "complemento": "",
+        "cidade": "Cuiabá",
+        "estado": "MT",
+        "cep": "78020400",
+        "telefone": "(65)36164100",
+        "url": "http://www.ifmt.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.10588,
+          -15.58852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5153",
+        "sigla": "IFNMG",
+        "nome": "INST. FED. EDUC., CIÊNC. E  TECNOL. DO NORTE DE MINAS GERAIS",
+        "logradouro": "Fazenda São Geraldo Km 06",
+        "bairro": "Bom Jardim",
+        "complemento": "",
+        "cidade": "Januária",
+        "estado": "MG",
+        "cep": "39480000",
+        "telefone": "",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.87119,
+          -16.72383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2831",
+        "sigla": "IFPA",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PARÁ",
+        "logradouro": "AV.JOÃO PAULO II, S/N - PRÉDIO DA REITORIA",
+        "bairro": "CASTANHEIRA",
+        "complemento": "",
+        "cidade": "Belém",
+        "estado": "PA",
+        "cep": "66645240",
+        "telefone": "(91)33420599",
+        "url": "http://www.castanhal.ifpa.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.43345,
+          -1.41071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5208",
+        "sigla": "IFPB",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECN. DA PARAÍBA",
+        "logradouro": "AV. 1º DE MAIO, 720",
+        "bairro": "JAGUARIBE",
+        "complemento": "",
+        "cidade": "João Pessoa",
+        "estado": "PB",
+        "cep": "58015430",
+        "telefone": "(83)32083000",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.87367,
+          -7.13488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4667",
+        "sigla": "IFPE",
+        "nome": "INSTITUTO FED. DE EDUC., CIÊNCIA E TECNOLOGIA DE PERNAMBUCO",
+        "logradouro": "AVENIDA PROFESSOR  LUÍZ FREIRE, 500",
+        "bairro": "C.UNIVERSITÁRIA",
+        "complemento": "",
+        "cidade": "Recife",
+        "estado": "PE",
+        "cep": "50740540",
+        "telefone": "(81)21251691",
+        "url": "http://www.recife.ifpe.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.95046,
+          -8.0592
         ]
       }
     },
@@ -2317,15 +589,279 @@
         "cidade": "Teresina",
         "estado": "PI",
         "cep": "64000040",
-        "telefone": "(86) 31311442",
+        "telefone": "(86)31311442",
         "url": "http://www.ifpi.edu.br",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -42.810413,
-          -5.088553
+          -42.802,
+          -5.089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5199",
+        "sigla": "IFRJ",
+        "nome": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO RIO DE JANEIRO",
+        "logradouro": "Rua Senador Furtado",
+        "bairro": "Maracanã",
+        "complemento": "",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "20270021",
+        "telefone": "",
+        "url": "http://www.ifrj.edu.br.",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.21274,
+          -22.91249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5192",
+        "sigla": "IFRN",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO RIO GRANDE DO NORTE",
+        "logradouro": "Rua Nilo Bezerra Ramalho, 1692",
+        "bairro": "Tirol",
+        "complemento": "",
+        "cidade": "Natal",
+        "estado": "RN",
+        "cep": "59015300",
+        "telefone": "(84)40050750",
+        "url": "http://portal.ifrn.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2,
+          -5.81147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4137",
+        "sigla": "IFRO",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE RONDÔNIA",
+        "logradouro": "Avenida Calama",
+        "bairro": "Flodoaldo Pontes Pinto",
+        "complemento": "",
+        "cidade": "Porto Velho",
+        "estado": "RO",
+        "cep": "76804124",
+        "telefone": "",
+        "url": "http://www.ifro.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.904,
+          -8.762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5200",
+        "sigla": "IFRR",
+        "nome": "INSTITUTO FED. DE EDUCACAO, CIÊNCIA E TECNOLOGICA DE RORAIMA",
+        "logradouro": "Avenida Glaycon de Paiva",
+        "bairro": "Pricumã",
+        "complemento": "",
+        "cidade": "Boa Vista",
+        "estado": "RR",
+        "cep": "69303340",
+        "telefone": "",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69399,
+          2.81308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5196",
+        "sigla": "IFRS",
+        "nome": "INSTIT.FEDERAL DE EDUC., CIÊNC.E TECNOL.DO RIO GRANDE DO SUL",
+        "logradouro": "RUA GENERAL OSORIO",
+        "bairro": "CENTRO",
+        "complemento": "",
+        "cidade": "Bento Gonçalves",
+        "estado": "RS",
+        "cep": "95700000",
+        "telefone": "",
+        "url": "www.ifrs.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.519,
+          -29.171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5195",
+        "sigla": "IFSC",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA",
+        "logradouro": "Rua 14 de julho,nº 150 Enseada dos Marinheiros",
+        "bairro": "Coqueiros",
+        "complemento": "",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "cep": "88075010",
+        "telefone": "(48)38779000",
+        "url": "http://www.ifsc.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.50116,
+          -27.61455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5210",
+        "sigla": "IFSP",
+        "nome": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECN. DE SÃO PAULO",
+        "logradouro": "RUA PEDRO VICENTE",
+        "bairro": "CANINDÉ",
+        "complemento": "",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01109010",
+        "telefone": "(11)37754569",
+        "url": "www.ifsp.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6219,
+          -23.52418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5201",
+        "sigla": "IFSUDESTEMG",
+        "nome": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO SUDESTE DE MINAS GERAIS",
+        "logradouro": "Rua Luz Interior, 360",
+        "bairro": "Santa Luzia",
+        "complemento": "",
+        "cidade": "Juiz de Fora",
+        "estado": "MG",
+        "cep": "36030776",
+        "telefone": "",
+        "url": "http://www.ifsudestemg.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.35,
+          -21.764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5209",
+        "sigla": "IFSul",
+        "nome": "INSTITUTO FEDERAL DE EDUC., CIÊNC. E TECN. SUL-RIO-GRANDENSE",
+        "logradouro": "GONÇALVES CHAVES, 3798",
+        "bairro": "CENTRO",
+        "complemento": "",
+        "cidade": "Pelotas",
+        "estado": "RS",
+        "cep": "96015560",
+        "telefone": "(53)33091750",
+        "url": "http://www.sapucaia.ifsul.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.35229,
+          -31.76627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5301",
+        "sigla": "IFSULDEMINAS",
+        "nome": "INSTITUTO FED. DE EDUC. CIÊNC. E TEC. DO SUL DE MINAS GERAIS",
+        "logradouro": "Avenida Vicente Simões",
+        "bairro": "Nova Pouso Alegre",
+        "complemento": "",
+        "cidade": "Pouso Alegre",
+        "estado": "MG",
+        "cep": "37550000",
+        "telefone": "",
+        "url": "http://www.ifsuldeminas.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.90757,
+          -22.25265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4985",
+        "sigla": "IFTM",
+        "nome": "INSTITUTO FED. DE EDUC., CIÊNC. E TECN. DO TRIÂNGULO MINEIRO",
+        "logradouro": "Doutor Randolfo Borges Júnior",
+        "bairro": "Univerdecidade",
+        "complemento": "- de 1701/1702 ao fim",
+        "cidade": "Uberaba",
+        "estado": "MG",
+        "cep": "38064300",
+        "telefone": "(34)33261166",
+        "url": "http://www.iftm.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.932,
+          -19.748
         ]
       }
     },
@@ -2341,15 +877,15 @@
         "cidade": "Palmas",
         "estado": "TO",
         "cep": "77102030",
-        "telefone": "(63) 32292200",
+        "telefone": "(63)32292200",
         "url": "http://www.ifto.edu.br",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.334291,
-          -10.197069
+          -48.33108,
+          -10.19247
         ]
       }
     },
@@ -2365,15 +901,279 @@
         "cidade": "Rio de Janeiro",
         "estado": "RJ",
         "cep": "22240001",
-        "telefone": "() ",
+        "telefone": "",
         "url": "",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.187515,
-          -22.934498
+          -43.208,
+          -22.903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5258",
+        "sigla": "UDESC",
+        "nome": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA",
+        "logradouro": "AV. MADRE BENVENUTA, 2.007",
+        "bairro": "ITACORUBI",
+        "complemento": "",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "cep": "88035001",
+        "telefone": "(48)33218000",
+        "url": "http://www.udesc.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.50116,
+          -27.61455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3519",
+        "sigla": "UEA",
+        "nome": "UNIVERSIDADE DO ESTADO DO AMAZONAS",
+        "logradouro": "AV. DJALMA BATISTA, 3578",
+        "bairro": "FLORES",
+        "complemento": "",
+        "cidade": "Manaus",
+        "estado": "AM",
+        "cep": "69050030",
+        "telefone": "(92)36467297",
+        "url": "http://www.pos.uea.edu.br/letraseartes/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.01282,
+          -3.04361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3444",
+        "sigla": "UECE",
+        "nome": "UNIVERSIDADE ESTADUAL DO CEARÁ",
+        "logradouro": "Av. Silas Munguba",
+        "bairro": "ITAPERI",
+        "complemento": "",
+        "cidade": "Fortaleza",
+        "estado": "CE",
+        "cep": "60714903",
+        "telefone": "(85)31019601",
+        "url": "http://www.politicasuece.com",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.55246,
+          -3.78631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4422",
+        "sigla": "UEFS",
+        "nome": "UNIVERSIDADE ESTADUAL DE FEIRA DE SANTANA",
+        "logradouro": "Avenida Transordestina, S/N",
+        "bairro": "NOVO HORIZONTE",
+        "complemento": "",
+        "cidade": "Feira de Santana",
+        "estado": "BA",
+        "cep": "44036900",
+        "telefone": "(75)31613161",
+        "url": "http://www.uefs.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.06563,
+          -12.23366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4106",
+        "sigla": "UEG",
+        "nome": "UNIVERSIDADE ESTADUAL DE GOIÁS",
+        "logradouro": "BR 153 QUADRA ÁREA KM 99",
+        "bairro": "",
+        "complemento": "",
+        "cidade": "Anápolis",
+        "estado": "GO",
+        "cep": "75132903",
+        "telefone": "(62)33281178",
+        "url": "http://www.prp.ueg.br/renac",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.01638,
+          -16.28859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4584",
+        "sigla": "UEL",
+        "nome": "UNIVERSIDADE ESTADUAL DE LONDRINA",
+        "logradouro": "RODOVIA CELSO GARCIA - CID PR 445 - KM 380",
+        "bairro": "JARDIM PEROBAL",
+        "complemento": "",
+        "cidade": "Londrina",
+        "estado": "PR",
+        "cep": "86057970",
+        "telefone": "(43)33714000",
+        "url": "http://www.seti.pr.gov.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.19523,
+          -23.32753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4343",
+        "sigla": "UEM",
+        "nome": "UNIVERSIDADE ESTADUAL DE MARINGÁ",
+        "logradouro": "AVENIDA COLOMBO, 5.790",
+        "bairro": "ZONA SETE",
+        "complemento": "",
+        "cidade": "Maringá",
+        "estado": "PR",
+        "cep": "87020900",
+        "telefone": "(44)30114200",
+        "url": "http://www.pfi.uem.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.9383,
+          -23.40507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4341",
+        "sigla": "UEMA",
+        "nome": "UNIVERSIDADE ESTADUAL DO MARANHÃO",
+        "logradouro": "CIDADE UNIVERSITÁRIA PAULO VI, S/N",
+        "bairro": "TIRIRICAL",
+        "complemento": "",
+        "cidade": "São Luís",
+        "estado": "MA",
+        "cep": "65055970",
+        "telefone": "(98)32455461",
+        "url": "http://www.ppghen.uema.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.30441,
+          -2.64949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2008",
+        "sigla": "UEMG",
+        "nome": "UNIVERSIDADE DO ESTADO DE MINAS GERAIS",
+        "logradouro": "Rod. Prefeito Américo Giannetti, 4143",
+        "bairro": "Serra Verde",
+        "complemento": "Ed. Minas – 8º andar",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "31630901",
+        "telefone": "(31)39161500",
+        "url": "http://www.ppgd.uemg.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.93982,
+          -19.92623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5274",
+        "sigla": "UEMS",
+        "nome": "UNIVERSIDADE ESTADUAL DE MATO GROSSO DO SUL",
+        "logradouro": "ROD. DOURADOS - ITAHUM, KM 12",
+        "bairro": "C.UNIVERSITÁRIA",
+        "complemento": "",
+        "cidade": "Dourados",
+        "estado": "MS",
+        "cep": "79804970",
+        "telefone": "(67)34119000",
+        "url": "http://www.uems.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.93008,
+          -22.19677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2001",
+        "sigla": "UENF",
+        "nome": "UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO",
+        "logradouro": "AV. ALBERTO LAMEGO, 2000",
+        "bairro": "HORTO",
+        "complemento": "",
+        "cidade": "Campos dos Goytacazes",
+        "estado": "RJ",
+        "cep": "28013602",
+        "telefone": "(22)27261500",
+        "url": "http://www.uenf.br/pos-graduacao/biociencias-biotecnologia/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.29118,
+          -21.76186
         ]
       }
     },
@@ -2389,15 +1189,87 @@
         "cidade": "Jacarezinho",
         "estado": "PR",
         "cep": "86400000",
-        "telefone": "(43) 35253589",
+        "telefone": "(43)35253589",
         "url": "http://www.uem.br",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -49.974065,
-          -23.160455
+          -49.9541,
+          -23.19072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3785",
+        "sigla": "UEPA",
+        "nome": "UNIVERSIDADE DO ESTADO DO PARÁ",
+        "logradouro": "RUA DO UNA, 156",
+        "bairro": "TELÉGRAFO",
+        "complemento": "",
+        "cidade": "Belém",
+        "estado": "PA",
+        "cep": "66.050-540",
+        "telefone": "(91)32992200",
+        "url": "http://www.uepa.br/portal/index.php",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.48887,
+          -1.43084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4312",
+        "sigla": "UEPB",
+        "nome": "UNIVERSIDADE ESTADUAL DA PARAIBA",
+        "logradouro": "AV. DAS BARAÚNAS, 351-CAMP.UNIVERSITÁRIO",
+        "bairro": "UNIVERSITÁRIO",
+        "complemento": "",
+        "cidade": "Campina Grande",
+        "estado": "PB",
+        "cep": "58429500",
+        "telefone": "(83)33153300",
+        "url": "http://pos-graduacao.uepb.edu.br/ppgec/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.64877,
+          -23.59184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4475",
+        "sigla": "UEPG",
+        "nome": "UNIVERSIDADE ESTADUAL DE PONTA GROSSA",
+        "logradouro": "Avenida General Carlos Cavalcanti",
+        "bairro": "Uvaranas",
+        "complemento": "Bloco M - Sala 64",
+        "cidade": "Ponta Grossa",
+        "estado": "PR",
+        "cep": "84030900",
+        "telefone": "(42)32203000",
+        "url": "http://sites.uepg.br/ppgcsa/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.07381,
+          -25.14407
         ]
       }
     },
@@ -2413,15 +1285,1047 @@
         "cidade": "Porto Alegre",
         "estado": "RS",
         "cep": "90010191",
-        "telefone": "(51) 32889000",
+        "telefone": "(51)32889000",
         "url": "http://www.uergs.edu.br/",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -51.229186,
-          -30.028596
+          -51.16393,
+          -30.11462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4307",
+        "sigla": "UERJ",
+        "nome": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO",
+        "logradouro": "RUA SÃO FRANCISCO XAVIER, 524-SALA T-029",
+        "bairro": "MARACANÃ",
+        "complemento": "",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "20550900",
+        "telefone": "(21)23342182",
+        "url": "WWW.UERJ.BR",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.23594,
+          -22.91075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4456",
+        "sigla": "UERN",
+        "nome": "UNIVERSIDADE DO ESTADO DO RIO GRANDE DO NORTE",
+        "logradouro": "Campus Universitário-Br-110, KM-46 Costa e Silva",
+        "bairro": "",
+        "complemento": "",
+        "cidade": "Mossoró",
+        "estado": "RN",
+        "cep": "59600970",
+        "telefone": "(84)33152145",
+        "url": "http://www.uern.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.27848,
+          -5.13814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4234",
+        "sigla": "UERR",
+        "nome": "UNIVERSIDADE ESTADUAL DE RORAIMA",
+        "logradouro": "RUA SETE DE SETEMBRO",
+        "bairro": "CANARINHO",
+        "complemento": "",
+        "cidade": "Boa Vista",
+        "estado": "RR",
+        "cep": "69306530",
+        "telefone": "",
+        "url": "http://www.uerr.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.61212,
+          3.18861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4440",
+        "sigla": "UESB",
+        "nome": "UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA",
+        "logradouro": "ESTRADA DO BEM QUERER, KM 04",
+        "bairro": "C.UNIVERSITÁRIO",
+        "complemento": "",
+        "cidade": "Vitória da Conquista",
+        "estado": "BA",
+        "cep": "45083900",
+        "telefone": "(77)34248640",
+        "url": "http://www.uesb.br/ppgcel/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.96575,
+          -15.27953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3206",
+        "sigla": "UESC",
+        "nome": "UNIVERSIDADE ESTADUAL DE SANTA CRUZ",
+        "logradouro": "RODOVIA JORGE AMADO KM 16, S/N",
+        "bairro": "SALOBRINHO",
+        "complemento": "",
+        "cidade": "Ilhéus",
+        "estado": "BA",
+        "cep": "45660000",
+        "telefone": "(73)36805200",
+        "url": "http://www.uesc.br/cursos/pos_graduacao/mestrado/profisica/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.21795,
+          -14.75939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4496",
+        "sigla": "UESPI",
+        "nome": "FUNDACAO UNIVERSIDADE ESTADUAL DO PIAUI FUESPI",
+        "logradouro": "RUA JOÃO CABRAL, 2231",
+        "bairro": "PIRAJÁ",
+        "complemento": "",
+        "cidade": "Teresina",
+        "estado": "PI",
+        "cep": "64002150",
+        "telefone": "(86)32137524",
+        "url": "http://www.uespi.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.84849,
+          -5.30175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4183",
+        "sigla": "UFABC",
+        "nome": "UNIVERSIDADE FEDERAL DO ABC",
+        "logradouro": "Avenida dos Estados, 5001",
+        "bairro": "BANGU",
+        "complemento": "",
+        "cidade": "Santo André",
+        "estado": "SP",
+        "cep": "09210580",
+        "telefone": "(11)44378400",
+        "url": "http://propg.ufabc.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.52819,
+          -23.64445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4310",
+        "sigla": "UFAC",
+        "nome": "UNIVERSIDADE FEDERAL DO ACRE",
+        "logradouro": "CAMPUS UNIVERSITÁRIO - BR 364 KM 4",
+        "bairro": "",
+        "complemento": "",
+        "cidade": "Rio Branco",
+        "estado": "AC",
+        "cep": "69915900",
+        "telefone": "(68)39012500",
+        "url": "http://www.ufac.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.86339,
+          -9.95331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4353",
+        "sigla": "UFAL",
+        "nome": "UNIVERSIDADE FEDERAL DE ALAGOAS",
+        "logradouro": "AV MANOEL SEVERINO BARBOSA",
+        "bairro": "BOM SUCESSO",
+        "complemento": "",
+        "cidade": "Arapiraca",
+        "estado": "AL",
+        "cep": "57309005",
+        "telefone": "(82)32141172",
+        "url": "http://www.ufal.edu",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.77844,
+          -9.55666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3869",
+        "sigla": "UFAM",
+        "nome": "Universidade Federal do Amazonas",
+        "logradouro": "Av.General Rodrigo Otávio Jordão Ramos, 3000",
+        "bairro": "COROADO II",
+        "complemento": "",
+        "cidade": "Manaus",
+        "estado": "AM",
+        "cep": "69077000",
+        "telefone": "(92)33054332",
+        "url": "www.ufam.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.96622,
+          -3.09071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4354",
+        "sigla": "UFBA",
+        "nome": "UNIVERSIDADE FEDERAL DA BAHIA",
+        "logradouro": "Avenida Reitor Miguel Calmon s/n",
+        "bairro": "Vale do Canela",
+        "complemento": "Escola de ADM da UFBA",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "40110903",
+        "telefone": "(71)32837000",
+        "url": "http://www.ufba.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.51965,
+          -12.99526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4360",
+        "sigla": "UFC",
+        "nome": "UNIVERSIDADE FEDERAL DO CEARÁ",
+        "logradouro": "AV. DA UNIVERSIDADE, 2853",
+        "bairro": "BENFICA",
+        "complemento": "",
+        "cidade": "Fortaleza",
+        "estado": "CE",
+        "cep": "60020181",
+        "telefone": "(85)33667300",
+        "url": "http://www.ufc.br/&#8206;",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.53925,
+          -3.74126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4366",
+        "sigla": "UFERSA",
+        "nome": "UNIVERSIDADE FEDERAL RURAL DO SEMI-ÁRIDO",
+        "logradouro": "Av. Francisco Mota, 572",
+        "bairro": "Costa e Silva",
+        "complemento": "",
+        "cidade": "Mossoró",
+        "estado": "RN",
+        "cep": "59625900",
+        "telefone": "(84)33178296",
+        "url": "http://www.ufersa.edu.br/ppid",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.32511,
+          -5.2037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4349",
+        "sigla": "UFES",
+        "nome": "UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO",
+        "logradouro": "AV. FERNANDO FERRARI, 514",
+        "bairro": "GOIABEIRAS",
+        "complemento": "",
+        "cidade": "Vitória",
+        "estado": "ES",
+        "cep": "29075910",
+        "telefone": "(27)33352244",
+        "url": "http://www.ufes.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.30331,
+          -20.27843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4348",
+        "sigla": "UFF",
+        "nome": "UNIVERSIDADE FEDERAL FLUMINENSE",
+        "logradouro": "RUA MIGUEL DE FRIAS 9",
+        "bairro": "Icaraí",
+        "complemento": "",
+        "cidade": "Niterói",
+        "estado": "RJ",
+        "cep": "24220900",
+        "telefone": "(21)26295000",
+        "url": "http://www.profiap.uff.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.11672,
+          -22.90322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4361",
+        "sigla": "UFG",
+        "nome": "UNIVERSIDADE FEDERAL DE GOIÁS",
+        "logradouro": "Prédio da Reitoria, 1º. Andar",
+        "bairro": "Camp.Samambaia",
+        "complemento": "",
+        "cidade": "Goiânia",
+        "estado": "GO",
+        "cep": "74001970",
+        "telefone": "(62)35211000",
+        "url": "http://www.ufg.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.26219,
+          -16.60326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5280",
+        "sigla": "UFGD",
+        "nome": "UNIVERSIDADE FEDERAL DA GRANDE DOURADOS",
+        "logradouro": "Rua João Rosa Góes, 1761",
+        "bairro": "Vila Progresso",
+        "complemento": "",
+        "cidade": "Dourados",
+        "estado": "MS",
+        "cep": "79825070",
+        "telefone": "(67)34102850",
+        "url": "http://portal.ufgd.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.81507,
+          -22.21686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4352",
+        "sigla": "UFJF",
+        "nome": "UNIVERSIDADE FEDERAL DE JUIZ DE FORA",
+        "logradouro": "José Lourenço Kelmer",
+        "bairro": "São Pedro",
+        "complemento": "",
+        "cidade": "Juiz de Fora",
+        "estado": "MG",
+        "cep": "36036330",
+        "telefone": "(32)21023785",
+        "url": "http://www.ufjf.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.36909,
+          -21.77349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4370",
+        "sigla": "UFLA",
+        "nome": "UNIVERSIDADE FEDERAL DE LAVRAS",
+        "logradouro": "Campus Universitário, s/n - Caixa Postal 3037",
+        "bairro": "",
+        "complemento": "",
+        "cidade": "Lavras",
+        "estado": "MG",
+        "cep": "37200000",
+        "telefone": "(35)38291126",
+        "url": "http://www.ufla.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.97773,
+          -21.22922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4309",
+        "sigla": "UFMA",
+        "nome": "UNIVERSIDADE FEDERAL DO MARANHÃO",
+        "logradouro": "dos Portugueses",
+        "bairro": "Vila Bacanga",
+        "complemento": "",
+        "cidade": "São Luís",
+        "estado": "MA",
+        "cep": "65080805",
+        "telefone": "(98)32728700",
+        "url": "http://www.ppgca.ufma.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.30937,
+          -2.55516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4351",
+        "sigla": "UFMG",
+        "nome": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+        "logradouro": "Av. Antonio Carlos, 6627",
+        "bairro": "Pampulha",
+        "complemento": "",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30000",
+        "telefone": "(31)34094047",
+        "url": "http://www.ufmg.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.96435,
+          -19.86613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5136",
+        "sigla": "UFMS",
+        "nome": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+        "logradouro": "CIDADE UNIVERSITÁRIA, S/Nº",
+        "bairro": "UNIVERSITÁRIO",
+        "complemento": "",
+        "cidade": "Campo Grande",
+        "estado": "MS",
+        "cep": "79070900",
+        "telefone": "(67)33457001",
+        "url": "http://www-nt.ufms.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.615,
+          -20.49706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1990",
+        "sigla": "UFMT",
+        "nome": "UNIVERSIDADE FEDERAL DE MATO GROSSO",
+        "logradouro": "AV. FERNANDO CORREA DA COSTA, S/Nº",
+        "bairro": "COXIPÓ",
+        "complemento": "",
+        "cidade": "Cuiabá",
+        "estado": "MT",
+        "cep": "78060900",
+        "telefone": "(65)36158000",
+        "url": "http://www.ufmt.br/&#8206;",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.06895,
+          -15.61227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4378",
+        "sigla": "UFOP",
+        "nome": "UNIVERSIDADE FEDERAL DE OURO PRETO",
+        "logradouro": "RUA DIOGO DE VASCONCELOS, 122",
+        "bairro": "PILAR",
+        "complemento": "",
+        "cidade": "Ouro Preto",
+        "estado": "MG",
+        "cep": "35400000",
+        "telefone": "(31)35591100",
+        "url": "http://www.ufop.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.50707,
+          -20.38791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4342",
+        "sigla": "UFPA",
+        "nome": "UNIVERSIDADE FEDERAL DO PARÁ",
+        "logradouro": "Av.Augusto Corrêa, s/n-Prédio Reitoria-3º andar",
+        "bairro": "GUAMA",
+        "complemento": "",
+        "cidade": "Belém",
+        "estado": "PA",
+        "cep": "66075900",
+        "telefone": "(91)32017000",
+        "url": "http://www.portal.ufpa.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.45519,
+          -1.47572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4355",
+        "sigla": "UFPB",
+        "nome": "UNIVERSIDADE FEDERAL DA PARAIBA",
+        "logradouro": "º",
+        "bairro": "",
+        "complemento": "",
+        "cidade": "Areia",
+        "estado": "PB",
+        "cep": "00000000",
+        "telefone": "(83)32167173",
+        "url": "http://www.ufpb.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.84566,
+          -7.13655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4357",
+        "sigla": "UFPE",
+        "nome": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+        "logradouro": "AVENIDA PROF. MORAES REGO, 1235",
+        "bairro": "Cidade Universitária",
+        "complemento": "",
+        "cidade": "Recife",
+        "estado": "PE",
+        "cep": "50670901",
+        "telefone": "(81)21268002",
+        "url": "http://www.ufpb.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.94522,
+          -8.05232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4399",
+        "sigla": "UFPEL",
+        "nome": "UNIVERSIDADE FEDERAL DE PELOTAS",
+        "logradouro": "Rua Gomes Carneiro, 01",
+        "bairro": "Centro",
+        "complemento": "",
+        "cidade": "Pelotas",
+        "estado": "RS",
+        "cep": "96010610",
+        "telefone": "(53)32757107",
+        "url": "http://portal.ufpel.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.32361,
+          -31.78135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4203",
+        "sigla": "UFPI",
+        "nome": "UNIVERSIDADE FEDERAL DO PIAUÍ",
+        "logradouro": "CAMP UNIVERSITARIO",
+        "bairro": "ININGA",
+        "complemento": "",
+        "cidade": "Teresina",
+        "estado": "PI",
+        "cep": "00000000",
+        "telefone": "(86)32155512",
+        "url": "http://www.ufpi.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.79615,
+          -5.06138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4347",
+        "sigla": "UFPR",
+        "nome": "UNIVERSIDADE FEDERAL DO PARANÁ",
+        "logradouro": "RUA XV DE NOVEMBRO, 1299",
+        "bairro": "Centro",
+        "complemento": "",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80060000",
+        "telefone": "(41)33605090",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.26172,
+          -25.42675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4368",
+        "sigla": "UFRA",
+        "nome": "UNIVERSIDADE FEDERAL RURAL DA AMAZÔNIA",
+        "logradouro": "Av. Tancredo Neves, 2501",
+        "bairro": "Terra Firme",
+        "complemento": "",
+        "cidade": "Belém",
+        "estado": "PA",
+        "cep": "66077530",
+        "telefone": "",
+        "url": "http://www.ufra.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.504,
+          -1.456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4044",
+        "sigla": "UFRB",
+        "nome": "UNIVERSIDADE FEDERAL DO RECÔNCAVO DA BAHIA",
+        "logradouro": "Rua Rui Barbosa, 710",
+        "bairro": "Centro",
+        "complemento": "",
+        "cidade": "Cruz das Almas",
+        "estado": "BA",
+        "cep": "44380000",
+        "telefone": "",
+        "url": "https://www.ufrb.edu.br/portal/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.09102,
+          -12.66013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4358",
+        "sigla": "UFRGS",
+        "nome": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+        "logradouro": "Av. Paulo Gama, 110 - 7º andar",
+        "bairro": "Bom Fim",
+        "complemento": "",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "cep": "90040900",
+        "telefone": "(51)33167000",
+        "url": "http://www.ufrgs.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.12043,
+          -30.07037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4363",
+        "sigla": "UFRJ",
+        "nome": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+        "logradouro": "Av. Brigadeiro Trompowsky, s/n - Préd.da Reitoria",
+        "bairro": "Ilha do Fundão",
+        "complemento": "",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "21941901",
+        "telefone": "(21)25989600",
+        "url": "http://ufrj.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.22303,
+          -22.86323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4344",
+        "sigla": "UFRN",
+        "nome": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+        "logradouro": "AVENIDA SENADOR SALGADO FILHO",
+        "bairro": "Lagoa Nova",
+        "complemento": "",
+        "cidade": "Natal",
+        "estado": "RN",
+        "cep": "00000000",
+        "telefone": "(84)32153125",
+        "url": "www.sociairis.org",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.20179,
+          -5.83976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4364",
+        "sigla": "UFRPE",
+        "nome": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO",
+        "logradouro": "Rua Dom Manoel de Medeiros, s/n",
+        "bairro": "Dois Irmãos",
+        "complemento": "",
+        "cidade": "Recife",
+        "estado": "PE",
+        "cep": "52171900",
+        "telefone": "(81)33206000",
+        "url": "http://www.pgbiom.ufrpe.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.94409,
+          -8.0178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5137",
+        "sigla": "UFRR",
+        "nome": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE RORAIMA",
+        "logradouro": "Av. Dr. Zany",
+        "bairro": "Centro",
+        "complemento": "",
+        "cidade": "Caracaraí",
+        "estado": "RR",
+        "cep": "69360000",
+        "telefone": "(95)36213100",
+        "url": "http://ufrr.br/ppgdra/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.69474,
+          2.83356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4350",
+        "sigla": "UFRRJ",
+        "nome": "UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO",
+        "logradouro": "RODOVIA BR 465, KM 7",
+        "bairro": "C.UNIVERSITÁRIO",
+        "complemento": "",
+        "cidade": "Seropédica",
+        "estado": "RJ",
+        "cep": "23835000",
+        "telefone": "(21)26821210",
+        "url": "http://www.ufrrj.br/portal/modulo/home/index.php",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.68978,
+          -22.76487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4362",
+        "sigla": "UFSC",
+        "nome": "UNIVERSIDADE FEDERAL DE SANTA CATARINA",
+        "logradouro": "LOC  CONJUNTO UNIVERSITARIO",
+        "bairro": "Trindade",
+        "complemento": "",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "cep": "88045108",
+        "telefone": "(48)37219000",
+        "url": "http://www.ufsc.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.51487,
+          -27.60006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4445",
+        "sigla": "UFSCAR",
+        "nome": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+        "logradouro": "Rodovia Washington Luís KM 235 SP310",
+        "bairro": "São Carlos",
+        "complemento": "",
+        "cidade": "São Carlos",
+        "estado": "SP",
+        "cep": "13565905",
+        "telefone": "(16)33518111",
+        "url": "http://www.ufscar.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.8812,
+          -21.97996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2035",
+        "sigla": "UFSJ",
+        "nome": "Universidade Federal de São João del-Rei",
+        "logradouro": "PRAÇA FREI ORLANDO, 170",
+        "bairro": "CENTRO",
+        "complemento": "",
+        "cidade": "São João del Rei",
+        "estado": "MG",
+        "cep": "36307352",
+        "telefone": "(32)33792340",
+        "url": "http://www.ufsj.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.26074,
+          -21.14004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4359",
+        "sigla": "UFSM",
+        "nome": "UNIVERSIDADE FEDERAL DE SANTA MARIA",
+        "logradouro": "Av. Roraima, n. 1000",
+        "bairro": "CAMOBI",
+        "complemento": "Prédio da Administração Central, 5º andar",
+        "cidade": "Santa Maria",
+        "estado": "RS",
+        "cep": "97105900",
+        "telefone": "(55)32208000",
+        "url": "http://www.ufsm.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.71475,
+          -29.72092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3803",
+        "sigla": "UFT",
+        "nome": "UNIVERSIDADE FEDERAL DO TOCANTINS",
+        "logradouro": "Av. NS 15, ALCNO 14, Bloco IV, 109 Norte",
+        "bairro": "Centro",
+        "complemento": "",
+        "cidade": "Palmas",
+        "estado": "TO",
+        "cep": "77016524",
+        "telefone": "(63)32188037",
+        "url": "http://ww1.uft.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.35998,
+          -10.17902
         ]
       }
     },
@@ -2431,21 +2335,141 @@
         "id": "4375",
         "sigla": "UFTM",
         "nome": "Universidade Federal do Triângulo Mineiro",
-        "logradouro": "Avenida Getúlio Guarita",
+        "logradouro": "Avenida Frei Paulino",
         "bairro": "Nossa Senhora da Abadia",
-        "complemento": "Centro Educacional Sala 326D",
+        "complemento": "Primeiro andar",
         "cidade": "Uberaba",
         "estado": "MG",
-        "cep": "38025440",
-        "telefone": "() ",
+        "cep": "38025180",
+        "telefone": "",
         "url": "",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -47.930001,
-          -19.755479
+          -47.932,
+          -19.748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2737",
+        "sigla": "UFU",
+        "nome": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
+        "logradouro": "Av.João Naves de Ávila, 2121-Campus Sta Mônica",
+        "bairro": "Sta Mônica",
+        "complemento": "",
+        "cidade": "Uberlândia",
+        "estado": "MG",
+        "cep": "38408144",
+        "telefone": "(34)32394811",
+        "url": "http://www.feciv.ufu.br/posgrad",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.25895,
+          -18.91834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5286",
+        "sigla": "UFV",
+        "nome": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+        "logradouro": "Avenida Peter Henry Rolfs",
+        "bairro": "Campus Universitário",
+        "complemento": "",
+        "cidade": "Viçosa",
+        "estado": "MG",
+        "cep": "36570900",
+        "telefone": "(31)38992100",
+        "url": "http://www.ufv.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.86824,
+          -20.76432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4374",
+        "sigla": "UFVJM",
+        "nome": "UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI",
+        "logradouro": "RODOVIA MGT 367 KM 583",
+        "bairro": "CENTRO",
+        "complemento": "",
+        "cidade": "Diamantina",
+        "estado": "MG",
+        "cep": "39100000",
+        "telefone": "(38)35321283",
+        "url": "http://www.ufvjm.edu.br/site/mesp/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.6008,
+          -18.24176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2990",
+        "sigla": "UNB",
+        "nome": "UNIVERSIDADE DE BRASÍLIA",
+        "logradouro": "Campus Universitário Darcy Ribeiro",
+        "bairro": "Asa Norte",
+        "complemento": "",
+        "cidade": "Brasília",
+        "estado": "DF",
+        "cep": "70910900",
+        "telefone": "(61)33073300",
+        "url": "http://www.propaga.unb.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.86701,
+          -15.76298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5278",
+        "sigla": "UNCISAL",
+        "nome": "UNIVERSIDADE ESTADUAL DE CIENCIAS DA SAUDE DE ALAGOAS",
+        "logradouro": "Rua Jorge de Lima",
+        "bairro": "Trapiche da Barra",
+        "complemento": "",
+        "cidade": "Maceió",
+        "estado": "AL",
+        "cep": "57010300",
+        "telefone": "",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.68994,
+          -9.57135
         ]
       }
     },
@@ -2461,15 +2485,303 @@
         "cidade": "Arapiraca",
         "estado": "AL",
         "cep": "57312000",
-        "telefone": "(82) 35303382",
+        "telefone": "(82)35303382",
         "url": "",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -36.652708,
-          -9.747493
+          -36.59315,
+          -9.7438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3870",
+        "sigla": "UNEB",
+        "nome": "UNIVERSIDADE DO ESTADO DA BAHIA",
+        "logradouro": "Avenida Silveira Martins, 2555",
+        "bairro": "Cabula",
+        "complemento": "",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "cep": "41150000",
+        "telefone": "(71)31172200",
+        "url": "http://www.uneb.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.50811,
+          -12.97177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4464",
+        "sigla": "UNEMAT",
+        "nome": "UNIVERSIDADE DO ESTADO DE MATO GROSSO",
+        "logradouro": "Rua Tancredo Neves, 1095",
+        "bairro": "Cavalhada 2",
+        "complemento": "",
+        "cidade": "Cáceres",
+        "estado": "MT",
+        "cep": "78200000",
+        "telefone": "(65)32210025",
+        "url": "http://secexec@bionorte.org.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.71082,
+          -16.42263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4331",
+        "sigla": "UNESP-REITORIA",
+        "nome": "UNIVERSIDADE ESTADUAL PAULISTA JÚLIO DE MESQUITA FILHO (SEDE)",
+        "logradouro": "Rua Quirino de Andrade,  215 - 9°. Andar",
+        "bairro": "CENTRO",
+        "complemento": "",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01049010",
+        "telefone": "(11)56270233",
+        "url": "http://www.unesp.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6408,
+          -23.54794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4296",
+        "sigla": "UNICAMP",
+        "nome": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+        "logradouro": "CIDADE UNIVERSITÁRIA \"ZEFERINO VAZ\"",
+        "bairro": "BARÃO GERALDO",
+        "complemento": "",
+        "cidade": "Campinas",
+        "estado": "SP",
+        "cep": "00000000",
+        "telefone": "",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.06702,
+          -22.82439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5279",
+        "sigla": "UNICENTRO",
+        "nome": "UNIVERSIDADE ESTADUAL DO CENTRO-OESTE",
+        "logradouro": "RUA PE. SALVATORE RENNA, 875",
+        "bairro": "SANTA CRUZ",
+        "complemento": "",
+        "cidade": "Guarapuava",
+        "estado": "PR",
+        "cep": "85015430",
+        "telefone": "(42)36211008",
+        "url": "http://www2.unicentro.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.45998,
+          -25.39858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4373",
+        "sigla": "UNIFAL",
+        "nome": "UNIVERSIDADE FEDERAL DE ALFENAS",
+        "logradouro": "RUA GABRIEL MONTEIRO DA SILVA, 700",
+        "bairro": "CENTRO",
+        "complemento": "",
+        "cidade": "Alfenas",
+        "estado": "MG",
+        "cep": "37130000",
+        "telefone": "(35)32991062",
+        "url": "http://www.unifal-mg.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.94888,
+          -21.41977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4548",
+        "sigla": "UNIFAP",
+        "nome": "UNIVERSIDADE FEDERAL DO AMAPÁ",
+        "logradouro": "RODOVIA JUSCELINO K. DE OLIVEIRA, KM 02",
+        "bairro": "MARCO ZERO",
+        "complemento": "",
+        "cidade": "Macapá",
+        "estado": "AP",
+        "cep": "68903419",
+        "telefone": "(96)33121703",
+        "url": "http://www.unifap.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.08451,
+          -0.00525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5284",
+        "sigla": "UNIFEI",
+        "nome": "UNIVERSIDADE FEDERAL DE ITAJUBÁ",
+        "logradouro": "AV.BPS,1303-C.UNIVER.PROF.JOSÉ R.SEABRA",
+        "bairro": "PINHEIRINHO",
+        "complemento": "",
+        "cidade": "Itajubá",
+        "estado": "MG",
+        "cep": "37500903",
+        "telefone": "(35)36291118",
+        "url": "http://unifei.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.44956,
+          -22.41375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4369",
+        "sigla": "UNIFESP",
+        "nome": "UNIVERSIDADE FEDERAL DE SÃO PAULO",
+        "logradouro": "Rua Sena Madureira, 1500",
+        "bairro": "VILA CLEMENTINO",
+        "complemento": "2º andar",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "04021001",
+        "telefone": "(11)55764522",
+        "url": "http://www.unifesp.br/&#8206;",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.64442,
+          -23.5971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4011",
+        "sigla": "UNIFIMES",
+        "nome": "CENTRO UNIVERSITÁRIO DE MINEIROS",
+        "logradouro": "Rua 22 esq. Avenida 21, s/n",
+        "bairro": "Setor Aeroporto",
+        "complemento": ".",
+        "cidade": "Mineiros",
+        "estado": "GO",
+        "cep": "75.830-000",
+        "telefone": "(64)3672-5100",
+        "url": "www.unifimes.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.71395,
+          -17.40125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5293",
+        "sigla": "UNILAB",
+        "nome": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
+        "logradouro": "AVENIDA  DA ABOLIÇÃO, 03",
+        "bairro": "CENTRO",
+        "complemento": "",
+        "cidade": "Redenção",
+        "estado": "CE",
+        "cep": "62790000",
+        "telefone": "(85)33321410",
+        "url": "http://www.unilab.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.71377,
+          -4.218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3727",
+        "sigla": "UNIMONTES",
+        "nome": "UNIVERSIDADE ESTADUAL DE MONTES CLAROS",
+        "logradouro": "AV. DR. RUY BRAGA, S/N-CAMP.UNIVERSITÁRIO",
+        "bairro": "VILA MAURICÉIA",
+        "complemento": "",
+        "cidade": "Montes Claros",
+        "estado": "MG",
+        "cep": "39401089",
+        "telefone": "(38)32298000",
+        "url": "http://www.cch.unimontes.br/ppgh",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.89995,
+          -16.58789
         ]
       }
     },
@@ -2485,15 +2797,15 @@
         "cidade": "Cascavel",
         "estado": "PR",
         "cep": "85819110",
-        "telefone": "(45) 32203000",
+        "telefone": "(45)32203000",
         "url": "http://www.unioeste.br/odontologia",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -53.43602,
-          -24.985759
+          -53.38807,
+          -25.05252
         ]
       }
     },
@@ -2509,15 +2821,111 @@
         "cidade": "Bagé",
         "estado": "RS",
         "cep": "96400100",
-        "telefone": "(53) 32474549",
+        "telefone": "(53)32474549",
         "url": "http://novoportal.unipampa.edu.br/novoportal/",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -54.106946,
-          -31.331601
+          -54.10683,
+          -31.33184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5285",
+        "sigla": "UNIR",
+        "nome": "UNIVERSIDADE FEDERAL DE RONDÔNIA",
+        "logradouro": "º",
+        "bairro": "",
+        "complemento": "",
+        "cidade": "Porto Velho",
+        "estado": "RO",
+        "cep": "00000000",
+        "telefone": "(69)21822000",
+        "url": "http://www.mestradoeducacao.unir.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.90651,
+          -8.76357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4442",
+        "sigla": "UNIRIO",
+        "nome": "UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO",
+        "logradouro": "AVENIDA PASTEUR, 296",
+        "bairro": "URCA",
+        "complemento": "",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22290240",
+        "telefone": "(21)25427373",
+        "url": "http://www.unirio.br/ppghivhv",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.17319,
+          -22.95292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5134",
+        "sigla": "UNITINS",
+        "nome": "FUNDAÇÃO UNIVERSIDADE DO TOCANTINS",
+        "logradouro": "QUADRA 108 SUL - CONJ. L - LT. 03 - AL. 11",
+        "bairro": "CENTRO",
+        "complemento": "",
+        "cidade": "Palmas",
+        "estado": "TO",
+        "cep": "77123360",
+        "telefone": "(63)2182941",
+        "url": "",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.0777,
+          -10.11592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5287",
+        "sigla": "UNIVASF",
+        "nome": "UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO",
+        "logradouro": "AV. JOSÉ DE SÁ MANIÇOBA, S/N",
+        "bairro": "CENTRO",
+        "complemento": "",
+        "cidade": "Petrolina",
+        "estado": "PE",
+        "cep": "56304917",
+        "telefone": "(87)21016795",
+        "url": "http://www.producaovegetal.univasf.edu.br/",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.49716,
+          -9.39045
         ]
       }
     },
@@ -2532,16 +2940,40 @@
         "complemento": "",
         "cidade": "São Paulo",
         "estado": "SP",
-        "cep": "1415903",
-        "telefone": "() ",
+        "cep": "01415903",
+        "telefone": "",
         "url": "http://univesp.br/sobre-a-univesp",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.660214,
-          -23.555318
+          -46.63503,
+          -23.62703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5133",
+        "sigla": "UPE",
+        "nome": "UNIVERSIDADE DE PERNAMBUCO",
+        "logradouro": "Rua",
+        "bairro": "",
+        "complemento": "",
+        "cidade": "Camaragibe",
+        "estado": "PE",
+        "cep": "00000000",
+        "telefone": "(81)31833700",
+        "url": "http://www.upe.br/fensg/mestrado",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.88631,
+          -8.04392
         ]
       }
     },
@@ -2556,16 +2988,64 @@
         "complemento": "",
         "cidade": "São Paulo",
         "estado": "SP",
-        "cep": "5508900",
-        "telefone": "(11) 30913266",
+        "cep": "05508900",
+        "telefone": "(11)30913266",
         "url": "http://www5.usp.br",
         "tipo": "ipes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.722452,
-          -23.560787
+          -46.73089,
+          -23.5615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4365",
+        "sigla": "UTFPR",
+        "nome": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "logradouro": "AV. SETE DE SETEMBRO, 3165",
+        "bairro": "REBOUÇAS",
+        "complemento": "",
+        "cidade": "Curitiba",
+        "estado": "PR",
+        "cep": "80230901",
+        "telefone": "(41)33104423",
+        "url": "http://www.utfpr.edu.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.26878,
+          -25.43917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4610",
+        "sigla": "UVA-CE",
+        "nome": "UNIVERSIDADE ESTADUAL VALE DO ACARAÚ",
+        "logradouro": "AVENIDA DA UNIVERSIDADE",
+        "bairro": "BETÁNIA",
+        "complemento": "",
+        "cidade": "Sobral",
+        "estado": "CE",
+        "cep": "62040370",
+        "telefone": "",
+        "url": "http://www.uvanet.br",
+        "tipo": "ipes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.15884,
+          -3.83763
         ]
       }
     }
