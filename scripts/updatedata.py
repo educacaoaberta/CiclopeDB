@@ -65,18 +65,9 @@ ipes_old = pd.read_json(IPESOLD)
 # excluir duplicados
 ipes = ipes.drop_duplicates(['id'])
 
+# verificar os dados que não tem lat/long
 
-## verificar quais dados são realmente novos (só incluir novos)
 ipes_old_ids = getIds(ipes_old)
-#new_ipes_ids = [i for i in ipes.id if i in ipes_ids]
-#ipes = ipes.query('id not in ' + str(new_ipes_ids))
-
-# verificar quais foram removidos (não existem mais)
-#del_ipes_ids = [i for i in ipes_ids if i not in ipes.id.values]
-
-
-# verificar os que não tem lat/long
-
 ipes_wo_lat_lng = np.argwhere(np.isnan(ipes.lat.values))[0]
 ipes_wo_lat_lng = np.unique(np.append(ipes_wo_lat_lng,
                                       np.argwhere(np.isnan(ipes.lng.values))[0]))
@@ -91,24 +82,5 @@ for i in ipes_wo_lat_lng:
 ipes.to_csv('/tmp/ipes.csv', index=False)
 subprocess.run(['csv2geojson', '/tmp/ipes.csv'], stdout =
                open('/tmp/newipes.json','w'))
-
-
-
-## merge antigo e novo
-#ipes_new = pd.read_json('/tmp/newipes.json')
-#ipes_updated = pd.concat([ipes_old, ipes_new], ignore_index=True)
-#
-# jeito improvisado de converter para o geojson correto
-# as opções disponíveis no panda não retornam ele no formato correto
-#ipes_new.to_json(IPESOLD + "new", orient='records')
-#ipes_temp = json.load(open(IPESOLD + "new"))
-#ipes_dict = dict()
-#ipes_dict['features'] = []
-#ipes_dict['type'] = 'FeatureCollection'
-#
-#for i in ipes_new:
-#    ipes_dict['features'].append(i['features'])
-#
-#json.dump(ipes_dict, open(IPESOLD + "new",'w'))
 
 
