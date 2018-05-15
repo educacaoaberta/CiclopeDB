@@ -1,113 +1,112 @@
 {
-	"data":
-	[
-		{
-			"quant": 1,
-			"estado": "AP"
-		},
-		{
-			"quant": 1,
-			"estado": "AC"
-		},
-		{
-			"quant": 1,
-			"estado": "SE"
-		},
-		{
-			"quant": 1,
-			"estado": "RO"
-		},
-		{
-			"quant": 1,
-			"estado": "DF"
-		},
-		{
-			"quant": 2,
-			"estado": "GO"
-		},
-		{
-			"quant": 2,
-			"estado": "RR"
-		},
-		{
-			"quant": 2,
-			"estado": "PA"
-		},
-		{
-			"quant": 2,
-			"estado": "ES"
-		},
-		{
-			"quant": 3,
-			"estado": "TO"
-		},
-		{
-			"quant": 3,
-			"estado": "SC"
-		},
-		{
-			"quant": 3,
-			"estado": "MT"
-		},
-		{
-			"quant": 3,
-			"estado": "MS"
-		},
-		{
-			"quant": 3,
-			"estado": "MA"
-		},
-		{
-			"quant": 3,
-			"estado": "PB"
-		},
-		{
-			"quant": 3,
-			"estado": "PI"
-		},
-		{
-			"quant": 3,
-			"estado": "AM"
-		},
-		{
-			"quant": 4,
-			"estado": "CE"
-		},
-		{
-			"quant": 4,
-			"estado": "RN"
-		},
-		{
-			"quant": 4,
-			"estado": "AL"
-		},
-		{
-			"quant": 5,
-			"estado": "PE"
-		},
-		{
-			"quant": 5,
-			"estado": "SP"
-		},
-		{
-			"quant": 7,
-			"estado": "RS"
-		},
-		{
-			"quant": 7,
-			"estado": "BA"
-		},
-		{
-			"quant": 8,
-			"estado": "PR"
-		},
-		{
-			"quant": 9,
-			"estado": "RJ"
-		},
-		{
-			"quant": 15,
-			"estado": "MG"
-		}
-	]
+  "data": [
+    {
+      "quant": 1,
+      "estado": "AC"
+    },
+    {
+      "quant": 1,
+      "estado": "SE"
+    },
+    {
+      "quant": 1,
+      "estado": "DF"
+    },
+    {
+      "quant": 1,
+      "estado": "AP"
+    },
+    {
+      "quant": 1,
+      "estado": "RO"
+    },
+    {
+      "quant": 2,
+      "estado": "ES"
+    },
+    {
+      "quant": 2,
+      "estado": "RR"
+    },
+    {
+      "quant": 2,
+      "estado": "GO"
+    },
+    {
+      "quant": 3,
+      "estado": "MA"
+    },
+    {
+      "quant": 3,
+      "estado": "PA"
+    },
+    {
+      "quant": 3,
+      "estado": "MT"
+    },
+    {
+      "quant": 3,
+      "estado": "PI"
+    },
+    {
+      "quant": 3,
+      "estado": "AM"
+    },
+    {
+      "quant": 3,
+      "estado": "MS"
+    },
+    {
+      "quant": 3,
+      "estado": "SC"
+    },
+    {
+      "quant": 3,
+      "estado": "PB"
+    },
+    {
+      "quant": 3,
+      "estado": "TO"
+    },
+    {
+      "quant": 4,
+      "estado": "CE"
+    },
+    {
+      "quant": 4,
+      "estado": "AL"
+    },
+    {
+      "quant": 4,
+      "estado": "RN"
+    },
+    {
+      "quant": 5,
+      "estado": "PE"
+    },
+    {
+      "quant": 6,
+      "estado": "SP"
+    },
+    {
+      "quant": 7,
+      "estado": "BA"
+    },
+    {
+      "quant": 7,
+      "estado": "RS"
+    },
+    {
+      "quant": 8,
+      "estado": "PR"
+    },
+    {
+      "quant": 9,
+      "estado": "RJ"
+    },
+    {
+      "quant": 15,
+      "estado": "MG"
+    }
+  ]
 }
