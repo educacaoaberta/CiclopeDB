@@ -7,7 +7,7 @@ let $ipes := functions:parse-json(file:read-text("../static/json/ipes.geojson"))
 
 
 let $query_ipes :=
-  for $features in  $polos.features[]
+  for $features in  $ipes.features[]
   let $estado := $features.properties.estado
   group by $estado
   order by count($features.properties.sigla)
