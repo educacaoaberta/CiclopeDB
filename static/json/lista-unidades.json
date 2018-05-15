@@ -1,0 +1,4948 @@
+{
+  "listaunidades": [
+    {
+      "tipo": "ipes",
+      "nome": "CEFET/RJ",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "FIOCRUZ",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "FUFSE",
+      "cidade": "São Cristóvão",
+      "estado": "SE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "FURG",
+      "cidade": "Rio Grande",
+      "estado": "RS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFAC",
+      "cidade": "Rio Branco",
+      "estado": "AC"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFAL",
+      "cidade": "Marechal Deodoro",
+      "estado": "AL"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFAM",
+      "cidade": "Manaus",
+      "estado": "AM"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFAP",
+      "cidade": "Macapá",
+      "estado": "AP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFB",
+      "cidade": "Brasília",
+      "estado": "DF"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFBA",
+      "cidade": "Salvador",
+      "estado": "BA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFCE",
+      "cidade": "Fortaleza",
+      "estado": "CE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFES",
+      "cidade": "Vitória",
+      "estado": "ES"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFF",
+      "cidade": "Campos dos Goytacazes",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFFarroup",
+      "cidade": "Santa Maria",
+      "estado": "RS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFG",
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFGoiano",
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFMA",
+      "cidade": "São Luís",
+      "estado": "MA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFMG",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFMS",
+      "cidade": "Campo Grande",
+      "estado": "MS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFMT",
+      "cidade": "Cuiabá",
+      "estado": "MT"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFNMG",
+      "cidade": "Januária",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFPA",
+      "cidade": "Belém",
+      "estado": "PA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFPB",
+      "cidade": "João Pessoa",
+      "estado": "PB"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFPE",
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFPI",
+      "cidade": "Teresina",
+      "estado": "PI"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFRJ",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFRN",
+      "cidade": "Natal",
+      "estado": "RN"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFRO",
+      "cidade": "Porto Velho",
+      "estado": "RO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFRR",
+      "cidade": "Boa Vista",
+      "estado": "RR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFRS",
+      "cidade": "Bento Gonçalves",
+      "estado": "RS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFSC",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFSP",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFSUDESTEMG",
+      "cidade": "Juiz de Fora",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFSul",
+      "cidade": "Pelotas",
+      "estado": "RS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFSULDEMINAS",
+      "cidade": "Pouso Alegre",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFTM",
+      "cidade": "Uberaba",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "IFTO",
+      "cidade": "Palmas",
+      "estado": "TO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "INES",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UDESC",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEA",
+      "cidade": "Manaus",
+      "estado": "AM"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UECE",
+      "cidade": "Fortaleza",
+      "estado": "CE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEFS",
+      "cidade": "Feira de Santana",
+      "estado": "BA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEG",
+      "cidade": "Anápolis",
+      "estado": "GO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEL",
+      "cidade": "Londrina",
+      "estado": "PR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEM",
+      "cidade": "Maringá",
+      "estado": "PR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEMA",
+      "cidade": "São Luís",
+      "estado": "MA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEMG",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEMS",
+      "cidade": "Dourados",
+      "estado": "MS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UENF",
+      "cidade": "Campos dos Goytacazes",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UENP",
+      "cidade": "Jacarezinho",
+      "estado": "PR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEPA",
+      "cidade": "Belém",
+      "estado": "PA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEPB",
+      "cidade": "Campina Grande",
+      "estado": "PB"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UEPG",
+      "cidade": "Ponta Grossa",
+      "estado": "PR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UERGS",
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UERJ",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UERN",
+      "cidade": "Mossoró",
+      "estado": "RN"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UERR",
+      "cidade": "Boa Vista",
+      "estado": "RR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UESB",
+      "cidade": "Vitória da Conquista",
+      "estado": "BA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UESC",
+      "cidade": "Ilhéus",
+      "estado": "BA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UESPI",
+      "cidade": "Teresina",
+      "estado": "PI"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFABC",
+      "cidade": "Santo André",
+      "estado": "SP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFAC",
+      "cidade": "Rio Branco",
+      "estado": "AC"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFAL",
+      "cidade": "Arapiraca",
+      "estado": "AL"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFAM",
+      "cidade": "Manaus",
+      "estado": "AM"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFBA",
+      "cidade": "Salvador",
+      "estado": "BA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFC",
+      "cidade": "Fortaleza",
+      "estado": "CE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFERSA",
+      "cidade": "Mossoró",
+      "estado": "RN"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFES",
+      "cidade": "Vitória",
+      "estado": "ES"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFF",
+      "cidade": "Niterói",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFG",
+      "cidade": "Goiânia",
+      "estado": "GO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFGD",
+      "cidade": "Dourados",
+      "estado": "MS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFJF",
+      "cidade": "Juiz de Fora",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFLA",
+      "cidade": "Lavras",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFMA",
+      "cidade": "São Luís",
+      "estado": "MA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFMG",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFMS",
+      "cidade": "Campo Grande",
+      "estado": "MS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFMT",
+      "cidade": "Cuiabá",
+      "estado": "MT"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFOP",
+      "cidade": "Ouro Preto",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFPA",
+      "cidade": "Belém",
+      "estado": "PA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFPB",
+      "cidade": "Areia",
+      "estado": "PB"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFPE",
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFPEL",
+      "cidade": "Pelotas",
+      "estado": "RS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFPI",
+      "cidade": "Teresina",
+      "estado": "PI"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFPR",
+      "cidade": "Curitiba",
+      "estado": "PR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFRA",
+      "cidade": "Belém",
+      "estado": "PA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFRB",
+      "cidade": "Cruz das Almas",
+      "estado": "BA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFRGS",
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFRJ",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFRN",
+      "cidade": "Natal",
+      "estado": "RN"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFRPE",
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFRR",
+      "cidade": "Caracaraí",
+      "estado": "RR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFRRJ",
+      "cidade": "Seropédica",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFSC",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFSCAR",
+      "cidade": "São Carlos",
+      "estado": "SP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFSJ",
+      "cidade": "São João del Rei",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFSM",
+      "cidade": "Santa Maria",
+      "estado": "RS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFT",
+      "cidade": "Palmas",
+      "estado": "TO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFTM",
+      "cidade": "Uberaba",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFU",
+      "cidade": "Uberlândia",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFV",
+      "cidade": "Viçosa",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UFVJM",
+      "cidade": "Diamantina",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNB",
+      "cidade": "Brasília",
+      "estado": "DF"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNCISAL",
+      "cidade": "Maceió",
+      "estado": "AL"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNEAL",
+      "cidade": "Arapiraca",
+      "estado": "AL"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNEB",
+      "cidade": "Salvador",
+      "estado": "BA"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNEMAT",
+      "cidade": "Cáceres",
+      "estado": "MT"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNESP-REITORIA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNICAMP",
+      "cidade": "Campinas",
+      "estado": "SP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNICENTRO",
+      "cidade": "Guarapuava",
+      "estado": "PR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIFAL",
+      "cidade": "Alfenas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIFAP",
+      "cidade": "Macapá",
+      "estado": "AP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIFEI",
+      "cidade": "Itajubá",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIFESP",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIFIMES",
+      "cidade": "Mineiros",
+      "estado": "GO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNILAB",
+      "cidade": "Redenção",
+      "estado": "CE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIMONTES",
+      "cidade": "Montes Claros",
+      "estado": "MG"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIOESTE",
+      "cidade": "Cascavel",
+      "estado": "PR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIPAMPA",
+      "cidade": "Bagé",
+      "estado": "RS"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIR",
+      "cidade": "Porto Velho",
+      "estado": "RO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIRIO",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNITINS",
+      "cidade": "Palmas",
+      "estado": "TO"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIVASF",
+      "cidade": "Petrolina",
+      "estado": "PE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UNIVESP",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UPE",
+      "cidade": "Camaragibe",
+      "estado": "PE"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "USP",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UTFPR",
+      "cidade": "Curitiba",
+      "estado": "PR"
+    },
+    {
+      "tipo": "ipes",
+      "nome": "UVA-CE",
+      "cidade": "Sobral",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AÇAILÂNDIA - JARDIM GLÓRIA",
+      "cidade": "Açailândia",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ACRELANDIA - CENTRO",
+      "cidade": "Acrelândia",
+      "estado": "AC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AFONSO CLAUDIO - CUSTODIO LEITE RIBEIRO",
+      "cidade": "Afonso Cláudio",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AFRANIO - CENTRO",
+      "cidade": "Afrânio",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AGUA BOA - TROPICAL",
+      "cidade": "Água Boa",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AGUA BRANCA - CENTRO",
+      "cidade": "Água Branca",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AGUA CLARA - JARDIM DAS PALMEIRAS",
+      "cidade": "Água Clara",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AGUAS BELAS - CENTRO",
+      "cidade": "Águas Belas",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AGUAS FORMOSAS - CENTRO",
+      "cidade": "Águas Formosas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AGUAS LINDAS DE GOIAS - MANSOES OLINDA",
+      "cidade": "Águas Lindas de Goiás",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AGUDO - CENTRO",
+      "cidade": "Agudo",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALAGOA GRANDE - CONJUNTO CEHAP I",
+      "cidade": "Alagoa Grande",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALEGRE - CENTRO",
+      "cidade": "Alegre",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALEGRETE DO PIAUI - VILA",
+      "cidade": "Alegrete do Piauí",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALEXANIA - FAZENDA CACHOEIRA",
+      "cidade": "Alexânia",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALMENARA - CENTRO",
+      "cidade": "Almenara",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALTAMIRA - BRASILIA",
+      "cidade": "Altamira",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALTEROSA - CRUZEIRO",
+      "cidade": "Alterosa",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALTO ALEGRE - CENTRO",
+      "cidade": "Alto Alegre",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALTO ARAGUAIA - CENTRO",
+      "cidade": "Alto Araguaia",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALTO PARAISO DE GOIAS - CENTRO",
+      "cidade": "Alto Paraíso de Goiás",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALTO PARNAIBA - SANTA CRUZ",
+      "cidade": "Alto Parnaíba",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ALVORADA - CENTRO",
+      "cidade": "Alvorada",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AMAJARI - CENTRO",
+      "cidade": "Amajari",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "AMARGOSA - CENTRO",
+      "cidade": "Amargosa",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ANANAS - CENTRO",
+      "cidade": "Ananás",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ANAPOLIS - JUNDIAI",
+      "cidade": "Anápolis",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ANAPURUS - AEROPORTO",
+      "cidade": "Anapurus",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ANDRELÂNDIA - SANTOS DUMONT",
+      "cidade": "Andrelândia",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ANGRA DOS REIS - JACUECANGA",
+      "cidade": "Angra dos Reis",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ANISIO DE ABREU - CENTRO",
+      "cidade": "Anísio de Abreu",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "APARECIDA DE GOIANIA - VILA BRASILIA",
+      "cidade": "Aparecida de Goiânia",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "APARECIDA DO TABOADO - JARDIM AEROPORTO",
+      "cidade": "Aparecida do Taboado",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "APIAÍ - CENTRO",
+      "cidade": "Apiaí",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "APUCARANA - CENTRO",
+      "cidade": "Apucarana",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARACATI - AEROPORTO",
+      "cidade": "Aracati",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARACOIABA - CONJUNTO SOLON LIMAVERDE",
+      "cidade": "Aracoiaba",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARACRUZ - CENTRO",
+      "cidade": "Aracruz",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARACUAI - CENTRO",
+      "cidade": "Araçuaí",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARAGUACEMA - CENTRO",
+      "cidade": "Araguacema",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARAGUAINA - CIMBA",
+      "cidade": "Araguaína",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARAGUARI - FATIMA",
+      "cidade": "Araguari",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARAGUATINS - NOVA ARAGUATINS",
+      "cidade": "Araguatins",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARAPONGAS - CENTRO",
+      "cidade": "Arapongas",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARARANGUA - NOVA DIVINEIA",
+      "cidade": "Araranguá",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARARAS - CENTRO",
+      "cidade": "Araras",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARARI - CENTRO",
+      "cidade": "Arari",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARARUNA - CENTRO",
+      "cidade": "Araruna",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARAUA - CENTRO",
+      "cidade": "Arauá",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARAXA - SANTA RITA",
+      "cidade": "Araxá",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARENAPOLIS - VILA NOVA",
+      "cidade": "Arenápolis",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARIPUANA - CENTRO",
+      "cidade": "Aripuanã",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARIQUEMES - SETOR INSTITUCIONAL",
+      "cidade": "Ariquemes",
+      "estado": "RO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARRAIAS - CENTRO",
+      "cidade": "Arraias",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ARROIO DOS RATOS - CENTRO",
+      "cidade": "Arroio dos Ratos",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ASSAI - CENTRO",
+      "cidade": "Assaí",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ASTORGA - VILA SAMUEL",
+      "cidade": "Astorga",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BAIXO GUANDU - CENTRO",
+      "cidade": "Baixo Guandu",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BALNEÁRIO PIÇARRAS - ITACOLUMI",
+      "cidade": "Balneário Piçarras",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BALNEARIO PINHAL - DISTRITO DE MAGISTERIO",
+      "cidade": "Balneário Pinhal",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BALSAMO - CENTRO",
+      "cidade": "Bálsamo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BAMBUI - CENTRO",
+      "cidade": "Bambuí",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BANDEIRANTES - VILA MORETI",
+      "cidade": "Bandeirantes",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BARAO DE COCAIS - CIDADE NOVA",
+      "cidade": "Barão de Cocais",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BARCARENA - SAO FRANCISCO",
+      "cidade": "Barcarena",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BARRA DO BUGRES - CENTRO",
+      "cidade": "Barra do Bugres",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BARRA DO CORDA - ALTAMIRA",
+      "cidade": "Barra do Corda",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BARRA DO PIRAI - QUIMICA",
+      "cidade": "Barra do Piraí",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BARRAS - CENTRO",
+      "cidade": "Barras",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BARRETOS - DERBYCLUB",
+      "cidade": "Barretos",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BARROSO - SANTA MARIA",
+      "cidade": "Barroso",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BARUERI - ALPHAVILLE EMPRESARIAL",
+      "cidade": "Barueri",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BATAGUASSU - JARDIM SANTA MARIA",
+      "cidade": "Bataguassu",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BEBERIBE - CENTRO",
+      "cidade": "Beberibe",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BELA VISTA - CENTRO",
+      "cidade": "Bela Vista",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BELA VISTA DO PARAISO - CENTRO",
+      "cidade": "Bela Vista do Paraíso",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BELFORD ROXO - PARQUE COLONIAL (JARDIM DO IPE- LOTE XV)",
+      "cidade": "Belford Roxo",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BICAS - CENTRO",
+      "cidade": "Bicas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BITURUNA - CENTRO",
+      "cidade": "Bituruna",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BLUMENAU - CENTRO",
+      "cidade": "Blumenau",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BOA ESPERANCA - OZANAN",
+      "cidade": "Boa Esperança",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BOA VISTA - PRICUMA",
+      "cidade": "Boa Vista",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BOCAIUVA - ALTEROSA",
+      "cidade": "Bocaiúva",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BOM DESPACHO - ANA ROSA",
+      "cidade": "Bom Despacho",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BOM JESUS - JOSUE PARENTE",
+      "cidade": "Bom Jesus",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BOM JESUS DA LAPA - AMARALINA",
+      "cidade": "Bom Jesus da Lapa",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BOM JESUS DAS SELVAS - CENTRO",
+      "cidade": "Bom Jesus das Selvas",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BOM JESUS DO ITABAPOANA - CENTRO",
+      "cidade": "Bom Jesus do Itabapoana",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BOM JESUS DO NORTE - CENTRO",
+      "cidade": "Bom Jesus do Norte",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BONFIM - CENTRO",
+      "cidade": "Bonfim",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BRACO DO NORTE - VILA NOVA",
+      "cidade": "Braço do Norte",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BRAGANCA PAULISTA - UBERABA",
+      "cidade": "Bragança Paulista",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BRASILEIA - CENTRO",
+      "cidade": "Brasiléia",
+      "estado": "AC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BRASILIA DE MINAS - CENTRO",
+      "cidade": "Brasília de Minas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BREJO GRANDE - CENTRO",
+      "cidade": "Brejo Grande",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BREJO SANTO - CENTRO",
+      "cidade": "Brejo Santo",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BREVES - AEROPORTO",
+      "cidade": "Breves",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BRUMADO - TANQUE",
+      "cidade": "Brumado",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BUJARU - BAIRRO NOVO",
+      "cidade": "Bujaru",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BURITI DOS LOPES - COHAB",
+      "cidade": "Buriti dos Lopes",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BURITIS - SETOR 1",
+      "cidade": "Buritis",
+      "estado": "RO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BURITIS - VEREDAS",
+      "cidade": "Buritis",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "BURITIZEIRO - JARDIM DOS BURITIS",
+      "cidade": "Buritizeiro",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CABACEIRAS - CENTRO",
+      "cidade": "Cabaceiras",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CABROBO - CENTRO",
+      "cidade": "Cabrobó",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CACADOR - CENTRO",
+      "cidade": "Caçador",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CACEQUI - CENTRO",
+      "cidade": "Cacequi",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CACERES - MARACANAZINHO",
+      "cidade": "Cáceres",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CACHOEIRA DO ARARI - PETROPOLIS",
+      "cidade": "Cachoeira do Arari",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CACHOEIRA DO SUL - CENTRO",
+      "cidade": "Cachoeira do Sul",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CACHOEIRO DE ITAPEMIRIM - DR. LUIZ TINOCO DA FONSECA - MORRO GRANDE",
+      "cidade": "Cachoeiro de Itapemirim",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAJAZEIRAS DO PIAUÍ - CENTRO",
+      "cidade": "Cajazeiras do Piauí",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAJUEIRO - CENTRO",
+      "cidade": "Cajueiro",
+      "estado": "AL"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMACARI - BAIRRO DO NATAL",
+      "cidade": "Camaçari",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMAPUA - VILA DIAMANTINA",
+      "cidade": "Camapuã",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMARGO - CENTRO",
+      "cidade": "Camargo",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMBUI - CENTRO",
+      "cidade": "Cambuí",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMETA - CENTRAL",
+      "cidade": "Cametá",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMOCIM - CENTRO",
+      "cidade": "Camocim",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPINA GRANDE - CENTRO",
+      "cidade": "Campina Grande",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPINAS - JARDIM PAINEIRAS",
+      "cidade": "Campinas",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPO ALEGRE DE LOURDES - CENTRO",
+      "cidade": "Campo Alegre de Lourdes",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPO BELO - CIDADE MONTESA",
+      "cidade": "Campo Belo",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPO FORMOSO - CENTRO",
+      "cidade": "Campo Formoso",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPO LARGO - CENTRO",
+      "cidade": "Campo Largo",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPO MAIOR - SAO LUIS",
+      "cidade": "Campo Maior",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPO VERDE - CENTRO",
+      "cidade": "Campo Verde",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPOS GERAIS - CENTRO",
+      "cidade": "Campos Gerais",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPOS NOVOS - CENTRO",
+      "cidade": "Campos Novos",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAMPOS SALES - ALTO ALEGRE",
+      "cidade": "Campos Sales",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CANAA DOS CARAJAS - CENTRO",
+      "cidade": "Canaã dos Carajás",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CANARANA - CENTRO",
+      "cidade": "Canarana",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CANDIDO DE ABREU - CENTRO",
+      "cidade": "Cândido de Abreu",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CANELINHA - AREIAO",
+      "cidade": "Canelinha",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CANOINHAS - CENTRO",
+      "cidade": "Canoinhas",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CANTA - CENTRO",
+      "cidade": "Cantá",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CANTAGALO - CENTRO",
+      "cidade": "Cantagalo",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CANTO DO BURITI - AEROPORTO",
+      "cidade": "Canto do Buriti",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAPIM GROSSO - JARDIM ARAUJO",
+      "cidade": "Capim Grosso",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARACARAI - CENTRO",
+      "cidade": "Caracaraí",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARANDAÍ - ROSA RIO",
+      "cidade": "Carandaí",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARATINGA - DARIO GROSSI",
+      "cidade": "Caratinga",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARAUBAS - DR. SEBASTIAO MALTEZ",
+      "cidade": "Caraúbas",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARINHANHA - CENTRO",
+      "cidade": "Carinhanha",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARIRA - VILA NOVA",
+      "cidade": "Carira",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARLOS CHAGAS - CENTRO",
+      "cidade": "Carlos Chagas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARMO DO RIO CLARO - CENTRO",
+      "cidade": "Carmo do Rio Claro",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARNEIRINHO - CENTRO",
+      "cidade": "Carneirinho",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAROLINA - SETOR UNIVERSITARIO",
+      "cidade": "Carolina",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARPINA - SAO JOSE",
+      "cidade": "Carpina",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CARUTAPERA - APARECIDA",
+      "cidade": "Carutapera",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CASTELO - VILA ISABEL",
+      "cidade": "Castelo",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CASTELO DO PIAUI - CENTRO",
+      "cidade": "Castelo do Piauí",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CATAGUASES - SANTA CLARA",
+      "cidade": "Cataguases",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CATALAO - JARDIM PRIMAVERA",
+      "cidade": "Catalão",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAUCAIA - ARATURI",
+      "cidade": "Caucaia",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAUCAIA - ITAMBE I",
+      "cidade": "Caucaia",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAUCAIA - NOVO PABUSSU",
+      "cidade": "Caucaia",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAVALCANTE - CENTRO",
+      "cidade": "Cavalcante",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CAXIAS - CENTRO",
+      "cidade": "Caxias",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CERRO AZUL - CENTRO",
+      "cidade": "Cerro Azul",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CERRO LARGO - CENTRO",
+      "cidade": "Cerro Largo",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CEU AZUL - CENTRO",
+      "cidade": "Céu Azul",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CEZARINA - CENTRO",
+      "cidade": "Cezarina",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CHAPECO - SAO CRISTOVAO",
+      "cidade": "Chapecó",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CHUPINGUAIA - CENTRO",
+      "cidade": "Chupinguaia",
+      "estado": "RO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CIANORTE - ZONA 06",
+      "cidade": "Cianorte",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CIDADE GAUCHA - RODOVIA",
+      "cidade": "Cidade Gaúcha",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COARI - UNIAO",
+      "cidade": "Coari",
+      "estado": "AM"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CODO - SAO BENEDITO",
+      "cidade": "Codó",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COELHO NETO - CENTRO",
+      "cidade": "Coelho Neto",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COLATINA - ESPLANADA",
+      "cidade": "Colatina",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COLIDER - SANTA CLARA",
+      "cidade": "Colíder",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COLINAS - CENTRO",
+      "cidade": "Colinas",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COLOMBO - JD. NOSSA SENHORA DE FATIMA",
+      "cidade": "Colombo",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COMODORO - NOVA VACARIA",
+      "cidade": "Comodoro",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONCEICAO DA BARRA - CENTRO",
+      "cidade": "Conceição da Barra",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONCEICAO DO ARAGUAIA - CENTRO",
+      "cidade": "Conceição do Araguaia",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONCEICAO DO COITE - CENTRO",
+      "cidade": "Conceição do Coité",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONCORDIA - CENTRO",
+      "cidade": "Concórdia",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONDE - CENTRO",
+      "cidade": "Conde",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONFINS - CENTRO",
+      "cidade": "Confins",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONGONHINHAS - CENTRO",
+      "cidade": "Congonhinhas",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONSELHEIRO LAFAIETE - SAO DIMAS",
+      "cidade": "Conselheiro Lafaiete",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONSTANTINA - CENTRO",
+      "cidade": "Constantina",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CONTAGEM - INCONFIDENTES",
+      "cidade": "Contagem",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COREMAS - CENTRO",
+      "cidade": "Coremas",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CORINTO - CLARINDO DE PAIVA",
+      "cidade": "Corinto",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COROMANDEL - SAO DOMINGOS",
+      "cidade": "Coromandel",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CORRENTE - CENTRO",
+      "cidade": "Corrente",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "COSTA RICA - AREA RURAL",
+      "cidade": "Costa Rica",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CRICIUMA - COMERCIARIO",
+      "cidade": "Criciúma",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CRISTALANDIA - CENTRO",
+      "cidade": "Cristalândia",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CRISTALIA - CENTRO",
+      "cidade": "Cristália",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CRUZ ALTA - CENTRO",
+      "cidade": "Cruz Alta",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CRUZEIRO DO OESTE - CENTRO",
+      "cidade": "Cruzeiro do Oeste",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CRUZEIRO DO SUL - CENTRO",
+      "cidade": "Cruzeiro do Sul",
+      "estado": "AC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CUBATAO - VILA COUTO",
+      "cidade": "Cubatão",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CUIABA - CENTRO-SUL",
+      "cidade": "Cuiabá",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CUITE DE MAMANGUAPE - CENTRO",
+      "cidade": "Cuité de Mamanguape",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "CURITIBA - ALTO DA GLÓRIA",
+      "cidade": "Curitiba",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DIADEMA - CENTRO",
+      "cidade": "Diadema",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DIAMANTE DO NORTE - CRN UEM",
+      "cidade": "Diamante do Norte",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DIAMANTINA - CENTRO",
+      "cidade": "Diamantina",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DIAMANTINO - MT 240",
+      "cidade": "Diamantino",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DIANOPOLIS - CENTRO",
+      "cidade": "Dianópolis",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DIAS D'AVILA - NOVA DIAS D'AVILA",
+      "cidade": "Dias d´Ávila",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DIVINOLANDIA DE MINAS - CENTRO",
+      "cidade": "Divinolândia de Minas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DIVINOPOLIS - JARDIM BELVEDERE",
+      "cidade": "Divinópolis",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DOIS VIZINHOS - CENTRO",
+      "cidade": "Dois Vizinhos",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DOM ELISEU - PDS",
+      "cidade": "Dom Eliseu",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DOM PEDRO - CENTRO",
+      "cidade": "Dom Pedro",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DOMINGOS MARTINS - CENTRO",
+      "cidade": "Domingos Martins",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DUAS ESTRADAS - CENTRO",
+      "cidade": "Duas Estradas",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DUQUE DE CAXIAS - JARDIM 25 DE AGOSTO",
+      "cidade": "Duque de Caxias",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "DURANDE - CENTRO",
+      "cidade": "Durandé",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ECOPORANGA - CENTRO",
+      "cidade": "Ecoporanga",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ELESBAO VELOSO - CAPITAO MUNDOCO",
+      "cidade": "Elesbão Veloso",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ENCANTADO - LAMBARI",
+      "cidade": "Encantado",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ENGENHEIRO BELTRAO - CENTRO",
+      "cidade": "Engenheiro Beltrão",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ESPERANTINA - CENTRO",
+      "cidade": "Esperantina",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ESPLANADA - CENTRO",
+      "cidade": "Esplanada",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ESTANCIA - CENTRO",
+      "cidade": "Estância",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ESTEIO - PARQUE AMADOR",
+      "cidade": "Esteio",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "EUCLIDES DA CUNHA - JEREMIAS",
+      "cidade": "Euclides da Cunha",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FAXINAL - CENTRO",
+      "cidade": "Faxinal",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FAXINAL DO SOTURNO - CENTRO",
+      "cidade": "Faxinal do Soturno",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FEIJO - CIDADE NOVA",
+      "cidade": "Feijó",
+      "estado": "AC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FLOR DA SERRA DO SUL - CENTRO",
+      "cidade": "Flor da Serra do Sul",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FLORESTA - CENTRO",
+      "cidade": "Floresta",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FLORIANOPOLIS - CENTRO",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FORMIGA - ROSARIO",
+      "cidade": "Formiga",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FORMOSA - ABREU",
+      "cidade": "Formosa",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FORTALEZA - DAMAS",
+      "cidade": "Fortaleza",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FORTALEZA DOS NOGUEIRAS - NOVA FORTALEZA",
+      "cidade": "Fortaleza dos Nogueiras",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FOZ DO IGUACU - PARQUE TECNOLOGICO ITAIPU",
+      "cidade": "Foz do Iguaçu",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FRANCA - CENTRO",
+      "cidade": "Franca",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FRANCISCO SA - CENTRO",
+      "cidade": "Francisco Sá",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "FRUTAL - UNIVERSITARIO",
+      "cidade": "Frutal",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GILBUES - SANTO ANTONIO",
+      "cidade": "Gilbués",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GOIANESIA - SANTA LUZIA",
+      "cidade": "Goianésia",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GOIAS - ALTO DO SANTANA",
+      "cidade": "Goiás",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GOIOERE - CENTRO",
+      "cidade": "Goioerê",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GOVERNADOR VALADARES - CENTRO",
+      "cidade": "Governador Valadares",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GRAJAU - TREZIDELA",
+      "cidade": "Grajaú",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GRAMADO - MOURA",
+      "cidade": "Gramado",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GRAVATA - CENTRO",
+      "cidade": "Gravatá",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GROSSOS - BOA ESPERANCA",
+      "cidade": "Grossos",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GUAMARE - CENTRO",
+      "cidade": "Guamaré",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GUARAI - SETOR VANDERLITO",
+      "cidade": "Guaraí",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GUARANIACU - CENTRO",
+      "cidade": "Guaraniaçu",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GUARANTA DO NORTE - CENTRO",
+      "cidade": "Guarantã do Norte",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GUARAPUAVA - INDUSTRIAL",
+      "cidade": "Guarapuava",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GUARULHOS - MACEDO",
+      "cidade": "Guarulhos",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "GURUPI - ZONA RURAL",
+      "cidade": "Gurupi",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "HERVAL - CENTRO",
+      "cidade": "Herval",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "HULHA NEGRA - CENTRO",
+      "cidade": "Hulha Negra",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "HUMBERTO DE CAMPOS -  BACABEIRA",
+      "cidade": "Humberto de Campos",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IBAITI - S.JUDAS TADEU",
+      "cidade": "Ibaiti",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IBICUI - CENTRO",
+      "cidade": "Ibicuí",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IBOTIRAMA - IBOTIRAMINHA",
+      "cidade": "Ibotirama",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IGARAPAVA - VILA GOMES",
+      "cidade": "Igarapava",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IGARAPE-MIRI - CIDADE NOVA",
+      "cidade": "Igarapé-Miri",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ILHEUS - MALHADO",
+      "cidade": "Ilhéus",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ILICINEA - CENTRO",
+      "cidade": "Ilicínea",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IMPERATRIZ - PRACA UNIAO",
+      "cidade": "Imperatriz",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "INDAIAL - CENTRO",
+      "cidade": "Indaial",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "INHUMA - LIBERDADE",
+      "cidade": "Inhuma",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "INHUMAS - VILA HEITOR",
+      "cidade": "Inhumas",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IPANEMA - CENTRO",
+      "cidade": "Ipanema",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IPATINGA - BOM RETIRO",
+      "cidade": "Ipatinga",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IPIAU - CENTRO",
+      "cidade": "Ipiaú",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IPIRA - SETE DE JULHO",
+      "cidade": "Ipirá",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IPIRANGA - CENTRO",
+      "cidade": "Ipiranga",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IPUPIARA - CENTRO",
+      "cidade": "Ipupiara",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IRACEMA - CENTRO",
+      "cidade": "Iracema",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IRECE - CENTRO",
+      "cidade": "Irecê",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IRETAMA - CENTRO",
+      "cidade": "Iretama",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITABERABA - CENTRO",
+      "cidade": "Itaberaba",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITABIRA - AMAZONAS",
+      "cidade": "Itabira",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITABUNA - LOMANTO JUNIOR",
+      "cidade": "Itabuna",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITACOATIARA - SAO FRANCISCO",
+      "cidade": "Itacoatiara",
+      "estado": "AM"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAGUAI - CENTRO",
+      "cidade": "Itaguaí",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAINOPOLIS - COHAB",
+      "cidade": "Itainópolis",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAJAI - FAZENDA",
+      "cidade": "Itajaí",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAMARAJU - JAQUEIRA",
+      "cidade": "Itamaraju",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAMARANDIBA - FLORESTAL",
+      "cidade": "Itamarandiba",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAMBE - PARQUE INDUSTRIAL",
+      "cidade": "Itambé",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAMONTE - CENTRO",
+      "cidade": "Itamonte",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITANHEM - SAO JOAO",
+      "cidade": "Itanhém",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAOCARA - CENTRO",
+      "cidade": "Itaocara",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAPEMA - MORRETES",
+      "cidade": "Itapema",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAPEMIRIM - CENTRO",
+      "cidade": "Itapemirim",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAPERUNA - PRESIDENTE COSTA E SILVA",
+      "cidade": "Itaperuna",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAPETINGA - CENTRO",
+      "cidade": "Itapetinga",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAPETININGA - TABOAOZINHO",
+      "cidade": "Itapetininga",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAPEVI - COHAB/SETOR B",
+      "cidade": "Itapevi",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAPICURU - CENTRO",
+      "cidade": "Itapicuru",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAPIPOCA - COQUEIRO",
+      "cidade": "Itapipoca",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAPORANGA - CENTRO",
+      "cidade": "Itaporanga",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAQUI - CENTRO",
+      "cidade": "Itaqui",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITAREMA - CENTRO",
+      "cidade": "Itarema",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ITUIUTABA - CENTRO",
+      "cidade": "Ituiutaba",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IUNA - NITEROI",
+      "cidade": "Iúna",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "IVAIPORA - CENTRO",
+      "cidade": "Ivaiporã",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JABOTICATUBAS - SAO VICENTE",
+      "cidade": "Jaboticatubas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JACARACI - CENTRO",
+      "cidade": "Jacaraci",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JACAREZINHO - CENTRO",
+      "cidade": "Jacarezinho",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JACUIZINHO - CENTRO",
+      "cidade": "Jacuizinho",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JACUNDA - SANTA RITA",
+      "cidade": "Jacundá",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAGUAPITÃ - CENTRO",
+      "cidade": "Jaguapitã",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAGUARAO - CENTRO",
+      "cidade": "Jaguarão",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAGUARARI - CENTRO",
+      "cidade": "Jaguarari",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAGUARIAIVA - CIANE",
+      "cidade": "Jaguariaíva",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAGUARIBE - CENTRO",
+      "cidade": "Jaguaribe",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAIBA - CENTRO",
+      "cidade": "Jaíba",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAICOS - CENTRO",
+      "cidade": "Jaicós",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JALES - COHAB JACB II",
+      "cidade": "Jales",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JANAUBA - VEREDAS",
+      "cidade": "Janaúba",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JANUARIA - VILA FATIMA",
+      "cidade": "Januária",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAPARATUBA - CENTRO",
+      "cidade": "Japaratuba",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAPORA - CENTRO",
+      "cidade": "Japorã",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAQUIRANA - CENTRO",
+      "cidade": "Jaquirana",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JARAGUÁ DO SUL - NOVA BRASÍLIA",
+      "cidade": "Jaraguá do Sul",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAU - CENTRO",
+      "cidade": "Jaú",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JAURU - CRUZEIRO",
+      "cidade": "Jauru",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JEQUIÉ - CAMPO DO AMÉRICA",
+      "cidade": "Jequié",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JEQUITINHONHA - CENTRO",
+      "cidade": "Jequitinhonha",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JI-PARANA - JARDIM DOS IMIGRANTES",
+      "cidade": "Ji-Paraná",
+      "estado": "RO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JOACABA - CENTRO",
+      "cidade": "Joaçaba",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JOAIMA - CENTRO",
+      "cidade": "Joaíma",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JOAO MONLEVADE - VILA TANQUE",
+      "cidade": "João Monlevade",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JOÃO PESSOA - TORRE",
+      "cidade": "João Pessoa",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JOAO PINHEIRO - CENTRO",
+      "cidade": "João Pinheiro",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JOINVILLE - CENTRO",
+      "cidade": "Joinville",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JUARA - CENTRO",
+      "cidade": "Juara",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JUAZEIRO - SAO GERALDO",
+      "cidade": "Juazeiro",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JUINA - SETOR DE SERVICOS",
+      "cidade": "Juína",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JUIZ DE FORA - LADEIRA",
+      "cidade": "Juiz de Fora",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JURUTI - MARACANA",
+      "cidade": "Juruti",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "JUSSARA - SAO FRANCISCO",
+      "cidade": "Jussara",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LABREA - CENTRO",
+      "cidade": "Lábrea",
+      "estado": "AM"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LAGAMAR - CENTRO",
+      "cidade": "Lagamar",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LAGARTO - COLONIA TREZE",
+      "cidade": "Lagarto",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LAGES - GETHAL",
+      "cidade": "Lages",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LAGOA SANTA - SANTOS DUMONT",
+      "cidade": "Lagoa Santa",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LAGUNA - PORTINHO",
+      "cidade": "Laguna",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LAJES - CENTRO",
+      "cidade": "Lajes",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LAPA - CENTRO",
+      "cidade": "Lapa",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LARANJEIRAS DO SUL - ESTRADA PARA PORTO BARREIRA",
+      "cidade": "Laranjeiras do Sul",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LAURO DE FREITAS - JOQUEI CLUB - PITANGA",
+      "cidade": "Lauro de Freitas",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LAVRAS - CENTRO",
+      "cidade": "Lavras",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LIMOEIRO - JUA",
+      "cidade": "Limoeiro",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LIMOEIRO DO NORTE - SANTA LUZIA - CENTRO",
+      "cidade": "Limoeiro do Norte",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LINHARES - NOVO HORIZONTE",
+      "cidade": "Linhares",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LIVRAMENTO - SANTO ANTONIO",
+      "cidade": "Livramento",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LONDRINA - CONJUNTO HABITACIONAL MARIA CECÍLIA SERRANO DE OLIVEIRA",
+      "cidade": "Londrina",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LUCAS DO RIO VERDE - JARDIM PRIMAVERA",
+      "cidade": "Lucas do Rio Verde",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LUCENA - FAGUNDES",
+      "cidade": "Lucena",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LUIS CORREIA - CENTRO",
+      "cidade": "Luís Correia",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LUIS GOMES - CENTRO",
+      "cidade": "Luís Gomes",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "LUZILANDIA - CENTRO",
+      "cidade": "Luzilândia",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MACAE - IMBOACICA",
+      "cidade": "Macaé",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MACAPA - CENTRO",
+      "cidade": "Macapá",
+      "estado": "AP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MACAUBAS - ALTO ALEXANDRINO",
+      "cidade": "Macaúbas",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MACEIO - TABULEIRO DO MARTINS",
+      "cidade": "Maceió",
+      "estado": "AL"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MAGE - CENTRO",
+      "cidade": "Magé",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MANACAPURU - TERRA PRETA",
+      "cidade": "Manacapuru",
+      "estado": "AM"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MANTENA - CENTRO",
+      "cidade": "Mantena",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MANTENOPOLIS - CENTRO",
+      "cidade": "Mantenópolis",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MARABA - AMAPA",
+      "cidade": "Marabá",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MARACANAÚ - CENTRO",
+      "cidade": "Maracanaú",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MARAGOGI - CENTRO",
+      "cidade": "Maragogi",
+      "estado": "AL"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MARANGUAPE - GUABIRABA",
+      "cidade": "Maranguape",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MARCELINO VIEIRA - CENTRO",
+      "cidade": "Marcelino Vieira",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MARCOS PARENTE - CENTRO",
+      "cidade": "Marcos Parente",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MARI - JOSE AMERICO",
+      "cidade": "Mari",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MARIANA - COLINA",
+      "cidade": "Mariana",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MARTINS - CENTRO",
+      "cidade": "Martins",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MATA DE SAO JOAO - CENTRO",
+      "cidade": "Mata de São João",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MATÃO - CENTRO",
+      "cidade": "Matão",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MATEIROS - CENTRO",
+      "cidade": "Mateiros",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MATRIZ DE CAMARAGIBE - CENTRO",
+      "cidade": "Matriz de Camaragibe",
+      "estado": "AL"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MAUES - SANTA LUZIA",
+      "cidade": "Maués",
+      "estado": "AM"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MAURITI - SERRINHA",
+      "cidade": "Mauriti",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MERUOCA - CENTRO",
+      "cidade": "Meruoca",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MIGUEL PEREIRA - GOVERNADOR PORTELA",
+      "cidade": "Miguel Pereira",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MIMOSO DO SUL - CHACARA DO CHAFARIZ",
+      "cidade": "Mimoso do Sul",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MINAS NOVAS - SANTA RITA",
+      "cidade": "Minas Novas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MINEIROS - IORES",
+      "cidade": "Mineiros",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MIRANDA - COAHB",
+      "cidade": "Miranda",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MOJU - LIDERANCA",
+      "cidade": "Moju",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MONSENHOR GIL - CENTRO",
+      "cidade": "Monsenhor Gil",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MONTANHA - CENTRO",
+      "cidade": "Montanha",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MONTE AZUL - SAO JOSE",
+      "cidade": "Monte Azul",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MONTE SIÃO - SÃO SIMÃO",
+      "cidade": "Monte Sião",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MONTES CLAROS - JK",
+      "cidade": "Montes Claros",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MOSTARDAS - VILA NORTE",
+      "cidade": "Mostardas",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MUCAJAI - CENTRO",
+      "cidade": "Mucajaí",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "MUNDO NOVO - CENTRO",
+      "cidade": "Mundo Novo",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NANUQUE - ROMILDA RUAS",
+      "cidade": "Nanuque",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NATAL - NOSSA SENHORA DE NAZARE",
+      "cidade": "Natal",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NATIVIDADE - CENTRO",
+      "cidade": "Natividade",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NINA RODRIGUES - CENTRO",
+      "cidade": "Nina Rodrigues",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NIQUELÂNDIA - CENTRO",
+      "cidade": "Niquelândia",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NITEROI - FONSECA",
+      "cidade": "Niterói",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NORMANDIA - CENTRO",
+      "cidade": "Normandia",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOSSA SENHORA DA GLORIA - SILOS",
+      "cidade": "Nossa Senhora da Glória",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOSSA SENHORA DAS DORES - CENTRO",
+      "cidade": "Nossa Senhora das Dores",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA FRIBURGO - OLARIA",
+      "cidade": "Nova Friburgo",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA IGUACU - CENTRO",
+      "cidade": "Nova Iguaçu",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA LONDRINA - CENTRO",
+      "cidade": "Nova Londrina",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA MAMORE - CIDADE NOVA",
+      "cidade": "Nova Mamoré",
+      "estado": "RO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA OLINDA - CENTRO",
+      "cidade": "Nova Olinda",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA SANTA ROSA - CENTRO",
+      "cidade": "Nova Santa Rosa",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA SERRANA - JARDINS DO LAGO",
+      "cidade": "Nova Serrana",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA TEBAS - CENTRO",
+      "cidade": "Nova Tebas",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA VENECIA - RUBIA",
+      "cidade": "Nova Venécia",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVA XAVANTINA - JARDIM ALVORADA",
+      "cidade": "Nova Xavantina",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "NOVO HAMBURGO - CENTRO",
+      "cidade": "Novo Hamburgo",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "OEIRAS - CENTRO",
+      "cidade": "Oeiras",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "OIAPOQUE - CENTRO",
+      "cidade": "Oiapoque",
+      "estado": "AP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "OLHO D'AGUA DAS FLORES - CENTRO",
+      "cidade": "Olho d´Água das Flores",
+      "estado": "AL"
+    },
+    {
+      "tipo": "polos",
+      "nome": "OROS - CENTRO",
+      "cidade": "Orós",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "OSASCO - CENTRO",
+      "cidade": "Osasco",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "OTACILIO COSTA - FATIMA",
+      "cidade": "Otacílio Costa",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "OURICURI - ZONA URBANA",
+      "cidade": "Ouricuri",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PACARAIMA - SUAPI",
+      "cidade": "Pacaraima",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PADRE PARAISO - CORONEL OLINTO VIEIRA",
+      "cidade": "Padre Paraíso",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PAES LANDIM - CENTRO",
+      "cidade": "Paes Landim",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PALHOCA - PONTE DO IMARUIM",
+      "cidade": "Palhoça",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PALMARES - CENTRO",
+      "cidade": "Palmares",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PALMAS - PLANO DIRETOR NORTE",
+      "cidade": "Palmas",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PALMEIRA - CENTRO",
+      "cidade": "Palmeira",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PALMITAL - VILA PARQUE JUNIOR",
+      "cidade": "Palmital",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PALMITOS - CENTRO",
+      "cidade": "Palmitos",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PANAMBI - CENTRO",
+      "cidade": "Panambi",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARACAMBI - FABRICA",
+      "cidade": "Paracambi",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARACATU - CENTRO",
+      "cidade": "Paracatu",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARAGOMINAS - JK",
+      "cidade": "Paragominas",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARAISÓPOLIS - JARDIM AEROPORTO",
+      "cidade": "Paraisópolis",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARANAGUÁ - JARDIM GUARAITUBA",
+      "cidade": "Paranaguá",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARANAVAI - JARDIM SANTOS DUMOND",
+      "cidade": "Paranavaí",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARANHOS - VILA NOVA",
+      "cidade": "Paranhos",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARATINGA - SAO JOAO",
+      "cidade": "Paratinga",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARAUAPEBAS - CIDADE NOVA",
+      "cidade": "Parauapebas",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PARNAMIRIM - COHABINAL",
+      "cidade": "Parnamirim",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PASSOS - BELO HORIZONTE",
+      "cidade": "Passos",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PATO BRANCO - SAIDA PARA BOM SUCESSO DO SUL",
+      "cidade": "Pato Branco",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PATOS DE MINAS - CENTRO",
+      "cidade": "Patos de Minas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PAULO AFONSO - PANORAMA",
+      "cidade": "Paulo Afonso",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PEDRA AZUL - CENTRO",
+      "cidade": "Pedra Azul",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PEDRA BRANCA - BOM PRINCÍPIO",
+      "cidade": "Pedra Branca",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PEDRA PRETA - CENTRO",
+      "cidade": "Pedra Preta",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PEDRO AFONSO - SETOR BELA VISTA 1",
+      "cidade": "Pedro Afonso",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PERUIBE - BALNEARIO STELLA MARIS",
+      "cidade": "Peruíbe",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PESQUEIRA - CENTRO",
+      "cidade": "Pesqueira",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PETROLINA - VILA EDUARDO",
+      "cidade": "Petrolina",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PETRÓPOLIS - CASCATINHA",
+      "cidade": "Petrópolis",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PICADA CAFE - CENTRO",
+      "cidade": "Picada Café",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PICOS - JUNCO",
+      "cidade": "Picos",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PINHAO - CENTRO",
+      "cidade": "Pinhão",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PINHEIROS - CENTRO",
+      "cidade": "Pinheiros",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PINTADAS - CENTRO",
+      "cidade": "Pintadas",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PINTO BANDEIRA - CENTRO",
+      "cidade": "Pinto Bandeira",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PIO IX - CENTRO",
+      "cidade": "Pio IX",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PIQUET CARNEIRO - CENTRO",
+      "cidade": "Piquet Carneiro",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PIRACURUCA - CENTRO",
+      "cidade": "Piracuruca",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PIRAI - CENTRO",
+      "cidade": "Piraí",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PIRIPIRI - PETECAS",
+      "cidade": "Piripiri",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PIRITIBA - CENTRO",
+      "cidade": "Piritiba",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PITIMBU -  CENTRO",
+      "cidade": "Pitimbu",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PIUMA - CENTRO",
+      "cidade": "Piúma",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "POCO VERDE - CENTRO",
+      "cidade": "Poço Verde",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "POMBAL - CENTRO",
+      "cidade": "Pombal",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "POMPEU - PARAÍSO",
+      "cidade": "Pompéu",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PONTA GROSSA - UVARANAS",
+      "cidade": "Ponta Grossa",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PONTAL DO PARANA - BALNEARIO ATAMI",
+      "cidade": "Pontal do Paraná",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PONTE SERRADA - BERTE",
+      "cidade": "Ponte Serrada",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PONTES E LACERDA - CENTRO",
+      "cidade": "Pontes e Lacerda",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PORTO DA FOLHA - CENTRO",
+      "cidade": "Porto da Folha",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PORTO ESPERIDIÃO - ZONA RURAL",
+      "cidade": "Porto Esperidião",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PORTO FRANCO - VILA SAO FRANCISCO",
+      "cidade": "Porto Franco",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PORTO MURTINHO - CENTRO",
+      "cidade": "Porto Murtinho",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PORTO NACIONAL - CENTRO",
+      "cidade": "Porto Nacional",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PORTO VELHO - CENTRO",
+      "cidade": "Porto Velho",
+      "estado": "RO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "POSSE - CENTRO",
+      "cidade": "Posse",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "POUSO REDONDO - PROGRESSO",
+      "cidade": "Pouso Redondo",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PRAIA GRANDE - CENTRO",
+      "cidade": "Praia Grande",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PRIMAVERA DO LESTE - CENTRO",
+      "cidade": "Primavera do Leste",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "PRUDENTOPOLIS - BARRO PRETO",
+      "cidade": "Prudentópolis",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "QUARAI - CENTRO",
+      "cidade": "Quaraí",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "QUILOMBO - CENTRO",
+      "cidade": "Quilombo",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "QUITERIANOPOLIS - SANTA CLARA",
+      "cidade": "Quiterianópolis",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "QUIXADA - CEDRO VELHO",
+      "cidade": "Quixadá",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "QUIXERAMOBIM - CENTRO",
+      "cidade": "Quixeramobim",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RECIFE - MADALENA",
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "REDENCAO - VILA PAULISTA",
+      "cidade": "Redenção",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "REDENCAO DO GURGUEIA - SANTO ANTONIO",
+      "cidade": "Redenção do Gurguéia",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "REGENERACAO - CENTRO",
+      "cidade": "Regeneração",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RESENDE - CENTRO",
+      "cidade": "Resende",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RESERVA - CENTRO",
+      "cidade": "Reserva",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RESTINGA SECA - CENTRO",
+      "cidade": "Restinga Seca",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIBEIRAO CASCALHEIRA - SETOR INDUSTRIAL",
+      "cidade": "Ribeirão Cascalheira",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO BONITO - PRACA DO CRUZEIRO",
+      "cidade": "Rio Bonito",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO BRANCO - VILA IVONETE",
+      "cidade": "Rio Branco",
+      "estado": "AC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO BRILHANTE - ZONA RURAL",
+      "cidade": "Rio Brilhante",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO DAS FLORES - CENTRO",
+      "cidade": "Rio das Flores",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO DAS OSTRAS - ZONA ESPECIAL DE NEGOCIOS- ZEN",
+      "cidade": "Rio das Ostras",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO DE JANEIRO - CAMPO GRANDE",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO DE JANEIRO - SÃO CONRADO",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO NEGRO - SEMINARIO",
+      "cidade": "Rio Negro",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO PARDO DE MINAS - CENTRO",
+      "cidade": "Rio Pardo de Minas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RIO REAL - ESTADUAL",
+      "cidade": "Rio Real",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ROLIM DE MOURA - CIDADE ALTA",
+      "cidade": "Rolim de Moura",
+      "estado": "RO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RORAINOPOLIS - CENTRO",
+      "cidade": "Rorainópolis",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "ROSARIO DO SUL - CENTENARIO",
+      "cidade": "Rosário do Sul",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "RUSSAS - YPIRANGA",
+      "cidade": "Russas",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SABARÁ - CENTRO",
+      "cidade": "Sabará",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SALGUEIRO - NOSSA SENHORA DAS GRACAS",
+      "cidade": "Salgueiro",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SALINAS - CENTRO",
+      "cidade": "Salinas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SALINOPOLIS - PORTO GRANDE",
+      "cidade": "Salinópolis",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SALVADOR - PERIPERI",
+      "cidade": "Salvador",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANT' ANA DO LIVRAMENTO - CENTRO",
+      "cidade": "Sant´Ana do Livramento",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA CRUZ DO CAPIBARIBE - CENTRO",
+      "cidade": "Santa Cruz do Capibaribe",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA CRUZ DO PIAUI - CENTRO",
+      "cidade": "Santa Cruz do Piauí",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA INES - SABBAK",
+      "cidade": "Santa Inês",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA ISABEL - JARDIM NOVO ÉDEN",
+      "cidade": "Santa Isabel",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA ISABEL DO RIO NEGRO - SAO JUDAS TADEU",
+      "cidade": "Santa Isabel do Rio Negro",
+      "estado": "AM"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA LEOPOLDINA - CENTRO",
+      "cidade": "Santa Leopoldina",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA QUITERIA DO MARANHAO - MUTIRAO",
+      "cidade": "Santa Quitéria do Maranhão",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA RITA DE CALDAS - CENTRO",
+      "cidade": "Santa Rita de Caldas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA RITA DO SAPUCAI - CENTRO",
+      "cidade": "Santa Rita do Sapucaí",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA TERESA - CENTRO",
+      "cidade": "Santa Teresa",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTA VITORIA DO PALMAR - CENTRO",
+      "cidade": "Santa Vitória do Palmar",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTANA - NOVA BRASÍLIA",
+      "cidade": "Santana",
+      "estado": "AP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTANA DA BOA VISTA - NOSSA SENHORA DO ROSARIO",
+      "cidade": "Santana da Boa Vista",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTANA DO IPANEMA - NOVO CENTRO COMERCIAL",
+      "cidade": "Santana do Ipanema",
+      "estado": "AL"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTO AMARO - CENTRO",
+      "cidade": "Santo Amaro",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTO ANTONIO DA PATRULHA - CIDADE ALTA",
+      "cidade": "Santo Antônio da Patrulha",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTO ANTÔNIO DO DESCOBERTO - CENTRO",
+      "cidade": "Santo Antônio do Descoberto",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTO ANTONIO DO SUDOESTE - CENTRO",
+      "cidade": "Santo Antônio do Sudoeste",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTO ANTONIO DOS LOPES - CENTRO",
+      "cidade": "Santo Antônio dos Lopes",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTO ESTEVAO - CENTRO",
+      "cidade": "Santo Estêvão",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SANTOS - VILA NOVA",
+      "cidade": "Santos",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO BENTO - CICERO DIAS",
+      "cidade": "São Bento",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO CARLOS - VILA NERY",
+      "cidade": "São Carlos",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO CRISTOVAO - ROZA ELZE",
+      "cidade": "São Cristóvão",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO DOMINGOS - CENTRO",
+      "cidade": "São Domingos",
+      "estado": "SE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO FELIX DO ARAGUAIA - CENTRO",
+      "cidade": "São Félix do Araguaia",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO FIDELIS - DIRLEY PERLINGEIRO DE ABREU",
+      "cidade": "São Fidélis",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO FRANCISCO DE ITABAPOANA - CENTRO",
+      "cidade": "São Francisco de Itabapoana",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO FRANCISCO DE PAULA - CENTRO",
+      "cidade": "São Francisco de Paula",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO GABRIEL DO OESTE - ZONA RURAL",
+      "cidade": "São Gabriel do Oeste",
+      "estado": "MS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO GONCALO - GRADIM",
+      "cidade": "São Gonçalo",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO GONCALO DO AMARANTE - CONJUNTO AMARANTE",
+      "cidade": "São Gonçalo do Amarante",
+      "estado": "RN"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO GONCALO DO AMARANTE - LIBERDADE",
+      "cidade": "São Gonçalo do Amarante",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOAO DA BALIZA - CENTRO",
+      "cidade": "São João da Baliza",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOAO DA BOA VISTA - CENTRO",
+      "cidade": "São João da Boa Vista",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOAO DA PONTE - INDUSTRIAL",
+      "cidade": "São João da Ponte",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOAO DEL REI - TIJUCO",
+      "cidade": "São João del Rei",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOAO DO IVAI - CONJUNTO NEY BRAGA",
+      "cidade": "São João do Ivaí",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOAO DO PIAUI - CENTRO",
+      "cidade": "São João do Piauí",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOAO DO POLESINE - CENTRO",
+      "cidade": "São João do Polêsine",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOAO DOS PATOS - SAO RAIMUNDO",
+      "cidade": "São João dos Patos",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOSE - FORQUILHINHAS",
+      "cidade": "São José",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOSE DA LAJE - NOVO CENTRO COMERCIAL",
+      "cidade": "São José da Laje",
+      "estado": "AL"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SÃO JOSÉ DO EGITO - CENTRO",
+      "cidade": "São José do Egito",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOSE DO NORTE - GUARIDA",
+      "cidade": "São José do Norte",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SÃO JOSÉ DO PEIXE - CENTRO",
+      "cidade": "São José do Peixe",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOSE DO RIO PRETO - VILA IMPERIAL",
+      "cidade": "São José do Rio Preto",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO JOSE DOS CAMPOS - SANTANA",
+      "cidade": "São José dos Campos",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO LOURENCO DO SUL - AVENIDA",
+      "cidade": "São Lourenço do Sul",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO LUIS - JARDIM RENASCENCA",
+      "cidade": "São Luís",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO LUIZ - CENTRO",
+      "cidade": "São Luiz",
+      "estado": "RR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO MATEUS - CARAPINA",
+      "cidade": "São Mateus",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO MATEUS DO SUL - CENTRO",
+      "cidade": "São Mateus do Sul",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO MIGUEL DO OESTE - SAO GOTARDO",
+      "cidade": "São Miguel do Oeste",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO -  PENHA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - BALNEARIO SAO FRANCISCO",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - BARRO BRANCO",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - CANGAIBA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - CAPAO REDONDO",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - CHACARA DONA OLIVIA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - CIDADE ANTONIO ESTEVAO DE CARVALHO",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - CIDADE TIRADENTES",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - INTERLAGOS",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARAGUA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM ANGELA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM ESMERALDA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM GUAPIRA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM MIRANGAIA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM MORENO",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM NOVO PARELHEIROS",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM PAULISTANO (ZONA NORTE)",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM PROMORAR",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM SANTA LUCRECIA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM SAO CARLOS (ZONA LESTE)",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - JARDIM SAO ROBERTO",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - PARAISOPOLIS",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - PARQUE BOA ESPERANCA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - PARQUE BRISTOL",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - PARQUE RESIDENCIAL COCAIA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - PIRAJUSSARA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - SAO JOAO CLIMACO",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - VILA ARICANDUVA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - VILA DAS BELEZAS",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - VILA FORMOSA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - VILA MALVINA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PAULO - VILA NOVA CACHOEIRINHA",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO PEDRO DA ALDEIA - NOVA SAO PEDRO DA ALDEIA",
+      "cidade": "São Pedro da Aldeia",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO SEBASTIAO DA BOA VISTA - CENTRO",
+      "cidade": "São Sebastião da Boa Vista",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO SEBASTIAO DO PARAISO - LAGOINHA",
+      "cidade": "São Sebastião do Paraíso",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO SEPE - CENTRO",
+      "cidade": "São Sepé",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAO SIMAO - POPULAR",
+      "cidade": "São Simão",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAPEACU - CENTRO",
+      "cidade": "Sapeaçu",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAPEZAL - CENTRO",
+      "cidade": "Sapezal",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAPIRANGA - CENTRO",
+      "cidade": "Sapiranga",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAPUCAIA DO SUL - PARAISO",
+      "cidade": "Sapucaia do Sul",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SAQUAREMA - RIO DE AREIA",
+      "cidade": "Saquarema",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SARANDI - JARDIM INDEPENDENCIA III PARTE",
+      "cidade": "Sarandi",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SARANDI - SANTA GEMA",
+      "cidade": "Sarandi",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SEABRA - CENTRO",
+      "cidade": "Seabra",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SEBERI - CENTRO",
+      "cidade": "Seberi",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SENA MADUREIRA - CSU",
+      "cidade": "Sena Madureira",
+      "estado": "AC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SERAFINA CORREA - GRAMADINHO/ SANTA LUCIA",
+      "cidade": "Serafina Corrêa",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SERRANA - JARDIM CRISTINA",
+      "cidade": "Serrana",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SERRINHA - GINASIO",
+      "cidade": "Serrinha",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SERTANIA - CENTRO",
+      "cidade": "Sertânia",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SETE LAGOAS - DISTRITO INDUSTRIAL",
+      "cidade": "Sete Lagoas",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SIMOES - CENTRO",
+      "cidade": "Simões",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SIMOES FILHO - CIA I",
+      "cidade": "Simões Filho",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SIMPLICIO MENDES - CENTRO",
+      "cidade": "Simplício Mendes",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SIQUEIRA CAMPOS - CENTRO",
+      "cidade": "Siqueira Campos",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SITIO DO QUINTO - CENTRO",
+      "cidade": "Sítio do Quinto",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SOBRADINHO - VERA CRUZ",
+      "cidade": "Sobradinho",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SOBRAL - DERBY CLUBE",
+      "cidade": "Sobral",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SORRISO - CENTRO",
+      "cidade": "Sorriso",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "SURUBIM - SAO JOSE",
+      "cidade": "Surubim",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TABIRA - JUREMINHA",
+      "cidade": "Tabira",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TAGUATINGA - SETOR NORTE",
+      "cidade": "Taguatinga",
+      "estado": "TO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TAILANDIA - NOVO",
+      "cidade": "Tailândia",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TAIOBEIRAS - NOSSA SENHORA DE FATIMA",
+      "cidade": "Taiobeiras",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TAMARANA - CENTRO",
+      "cidade": "Tamarana",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TAPEJARA - ZONA RURAL",
+      "cidade": "Tapejara",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TAPEROA - ALTO DA CONCEICAO",
+      "cidade": "Taperoá",
+      "estado": "PB"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TARAUACA - CENTRO",
+      "cidade": "Tarauacá",
+      "estado": "AC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TARUMA - CENTRO",
+      "cidade": "Tarumã",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TAUA - COLIBRIS",
+      "cidade": "Tauá",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TEFE - JURUA",
+      "cidade": "Tefé",
+      "estado": "AM"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TEIXEIRA DE FREITAS - SAO JOSE",
+      "cidade": "Teixeira de Freitas",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TELEMACO BORBA - NOSSA SENHORA DO PERPETUO SOCORRO-BNH",
+      "cidade": "Telêmaco Borba",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TEODORO SAMPAIO - CENTRO",
+      "cidade": "Teodoro Sampaio",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TEOFILO OTONI - VILA SANTA CLARA",
+      "cidade": "Teófilo Otoni",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TERESINA - MATINHA",
+      "cidade": "Teresina",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TIMBIRAS - CENTRO",
+      "cidade": "Timbiras",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TIMOTEO - CENTRO NORTE",
+      "cidade": "Timóteo",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TIO HUGO - DO LORO",
+      "cidade": "Tio Hugo",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TIRADENTES - PARQUE DAS ABELHAS",
+      "cidade": "Tiradentes",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TRES DE MAIO - GLORIA",
+      "cidade": "Três de Maio",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TRÊS MARIAS - JOAQUIM DE LIMA",
+      "cidade": "Três Marias",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TRES PASSOS - ERICO VERISSIMO",
+      "cidade": "Três Passos",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TRES RIOS - CENTRO",
+      "cidade": "Três Rios",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TREZE TILIAS - CENTRO",
+      "cidade": "Treze Tílias",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TRINDADE - CENTRO",
+      "cidade": "Trindade",
+      "estado": "PE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TUBARAO - HUMAITA DE CIMA",
+      "cidade": "Tubarão",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TUCUMA - BAIRRO DAS FLORES",
+      "cidade": "Tucumã",
+      "estado": "PA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "TURMALINA - VILA NOVA",
+      "cidade": "Turmalina",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "UBA - TRIANGULO",
+      "cidade": "Ubá",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "UBAJARA - CENTRO",
+      "cidade": "Ubajara",
+      "estado": "CE"
+    },
+    {
+      "tipo": "polos",
+      "nome": "UBERABA - MERCES",
+      "cidade": "Uberaba",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "UBERLANDIA - BRASIL",
+      "cidade": "Uberlândia",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "UBIRATA - JARDIM SAO PAULO",
+      "cidade": "Ubiratã",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "UMUARAMA - JARDIM SAO FERNANDES",
+      "cidade": "Umuarama",
+      "estado": "PR"
+    },
+    {
+      "tipo": "polos",
+      "nome": "UNIAO - SAO SEBASTIAO",
+      "cidade": "União",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "URUACU - CENTRO",
+      "cidade": "Uruaçu",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "URUANA - CENTRO",
+      "cidade": "Uruana",
+      "estado": "GO"
+    },
+    {
+      "tipo": "polos",
+      "nome": "URUCUI - MALVINAS",
+      "cidade": "Uruçuí",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "URUCUIA -  CENTRO",
+      "cidade": "Urucuia",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VALENCA DO PIAUI - CENTRO",
+      "cidade": "Valença do Piauí",
+      "estado": "PI"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VARGEM ALTA - CENTRO",
+      "cidade": "Vargem Alta",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VARGINHA - VILA BUENO",
+      "cidade": "Varginha",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VARZEA DA PALMA - CENTRO",
+      "cidade": "Várzea da Palma",
+      "estado": "MG"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VENDA NOVA DO IMIGRANTE - CENTRO",
+      "cidade": "Venda Nova do Imigrante",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VIANA - CENTRO",
+      "cidade": "Viana",
+      "estado": "MA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VIDEIRA - MATRIZ",
+      "cidade": "Videira",
+      "estado": "SC"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VILA FLORES - CENTRO",
+      "cidade": "Vila Flores",
+      "estado": "RS"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VILA RICA - BELA VISTA",
+      "cidade": "Vila Rica",
+      "estado": "MT"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VILA VELHA - CENTRO",
+      "cidade": "Vila Velha",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VIRADOURO - JARDIM DAS PALMEIRAS",
+      "cidade": "Viradouro",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VITORIA - TABUAZEIRO",
+      "cidade": "Vitória",
+      "estado": "ES"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VITORIA DA CONQUISTA - RECREIO",
+      "cidade": "Vitória da Conquista",
+      "estado": "BA"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VITORIA DO JARI - CIDADE LIVRE",
+      "cidade": "Vitória do Jari",
+      "estado": "AP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VOLTA REDONDA - JARDIM PARAIBA",
+      "cidade": "Volta Redonda",
+      "estado": "RJ"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VOTORANTIM - CENTRO",
+      "cidade": "Votorantim",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "VOTUPORANGA - VILA MUNIZ",
+      "cidade": "Votuporanga",
+      "estado": "SP"
+    },
+    {
+      "tipo": "polos",
+      "nome": "XAPURI - CENTRO",
+      "cidade": "Xapuri",
+      "estado": "AC"
+    }
+  ]
+}

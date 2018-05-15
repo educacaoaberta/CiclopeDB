@@ -6,7 +6,7 @@
                 <th>Tipo</th>
                 <th>Nome</th>
                 <th>Cidade</th>
-                <th>UF</th>
+                <th>Estado</th>
             </tr>
             </thead>
         </table>
@@ -69,17 +69,17 @@
 
       $('#allunits').DataTable({
         "ajax": {
-          "url": "./static/json/lista-unidades.geojson",
-          "dataSrc": "features"
+          "url": "./static/json/lista-unidades.json",
+          "dataSrc": "listaunidades"
         },
         "language": {
           "url": "./static/json/datatables_pt-br.json"
         },
           "columns": [
-          { "data": "properties.tipo" },
-          { "data": "properties.nome" },
-          { "data": "properties.cidade" },
-          { "data": "properties.estado" }
+          { "data": "tipo" },
+          { "data": "nome" },
+          { "data": "cidade" },
+          { "data": "estado" }
         ],
         "columnDefs": [
           { "width": "20%", "targets": 0 },
