@@ -192,12 +192,12 @@ function processBarChartPolos(barChart) {
   $.getJSON(polosByStateJson, function (polos) {
     var soma = 0
     for (var i = 0; i < polos.data.length; i++) {
-      let uf = polos.data[i]["uf"];
+      let estado = polos.data[i]["estado"];
       let quant = Number(polos.data[i]["quant"]);
-      barChart.data.labels.push(uf);
+      barChart.data.labels.push(estado);
       barChart.data.datasets.forEach((dataset) => {
         dataset.data.push(quant)
-        dataset.backgroundColor.push(regionsColors[regioes[uf]]);
+        dataset.backgroundColor.push(regionsColors[regioes[estado]]);
       });
       soma += quant
     }
@@ -214,13 +214,13 @@ function processBarChartPolosRegion(myBarChart) {
 
   $.getJSON(polosByStateJson, function (polos) {
     for (var i = 0; i < polos.data.length; i++) {
-      let uf = polos.data[i]["uf"];
+      let estado = polos.data[i]["estado"];
       let quant = Number(polos.data[i]["quant"]);
-      if (!(regioes[uf] in polosRegiao)) {
-        polosRegiao[regioes[uf]] = quant;
+      if (!(regioes[estado] in polosRegiao)) {
+        polosRegiao[regioes[estado]] = quant;
       }
       else {
-        polosRegiao[regioes[uf]] = polosRegiao[regioes[uf]] + quant;
+        polosRegiao[regioes[estado]] = polosRegiao[regioes[estado]] + quant;
       }
     }
 
