@@ -18,4 +18,6 @@ else
     echo "Gerando um novo arquivo nomes.json"
     zorba --uri-path '../static/json/' ipes_polos_names.jq -o ../static/json/nomes.json
 
+    echo "Gerando um novo arquivo ipesdatatable.json"
+    zorba --uri-path '../static/json/' ipesdatatable.jq -o ../static/json/ipesdatatable.json
 fi
