@@ -567,44 +567,44 @@
     {
       "sigla_ipes": "FIOCRUZ",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 278",
-      "estado_polo": "Dado inexistente para o Polo com ID = 278"
+      "nome_polo": "Polo não cadastrado (ID = 278)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "FIOCRUZ",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1004",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1004"
+      "nome_polo": "Polo não cadastrado (ID = 1004)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "FIOCRUZ",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 282",
-      "estado_polo": "Dado inexistente para o Polo com ID = 282"
+      "nome_polo": "Polo não cadastrado (ID = 282)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "FIOCRUZ",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 819",
-      "estado_polo": "Dado inexistente para o Polo com ID = 819"
+      "nome_polo": "Polo não cadastrado (ID = 819)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "FIOCRUZ",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 34",
-      "estado_polo": "Dado inexistente para o Polo com ID = 34"
+      "nome_polo": "Polo não cadastrado (ID = 34)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "FIOCRUZ",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 829",
-      "estado_polo": "Dado inexistente para o Polo com ID = 829"
+      "nome_polo": "Polo não cadastrado (ID = 829)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "FIOCRUZ",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 830",
-      "estado_polo": "Dado inexistente para o Polo com ID = 830"
+      "nome_polo": "Polo não cadastrado (ID = 830)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "FUFSE",
@@ -681,14 +681,14 @@
     {
       "sigla_ipes": "FUFSE",
       "estado_ipes": "SE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 652",
-      "estado_polo": "Dado inexistente para o Polo com ID = 652"
+      "nome_polo": "Polo não cadastrado (ID = 652)",
+      "estado_polo": "SE"
     },
     {
       "sigla_ipes": "FUFSE",
       "estado_ipes": "SE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 269",
-      "estado_polo": "Dado inexistente para o Polo com ID = 269"
+      "nome_polo": "Polo não cadastrado (ID = 269)",
+      "estado_polo": "SE"
     },
     {
       "sigla_ipes": "FURG",
@@ -861,8 +861,8 @@
     {
       "sigla_ipes": "FURG",
       "estado_ipes": "RS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1000",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1000"
+      "nome_polo": "Polo não cadastrado (ID = 1000)",
+      "estado_polo": "RS"
     },
     {
       "sigla_ipes": "IFAL",
@@ -909,26 +909,26 @@
     {
       "sigla_ipes": "IFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 859",
-      "estado_polo": "Dado inexistente para o Polo com ID = 859"
+      "nome_polo": "Polo não cadastrado (ID = 859)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "IFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 953",
-      "estado_polo": "Dado inexistente para o Polo com ID = 953"
+      "nome_polo": "Polo não cadastrado (ID = 953)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "IFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 820",
-      "estado_polo": "Dado inexistente para o Polo com ID = 820"
+      "nome_polo": "Polo não cadastrado (ID = 820)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "IFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 819",
-      "estado_polo": "Dado inexistente para o Polo com ID = 819"
+      "nome_polo": "Polo não cadastrado (ID = 819)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "IFAM",
@@ -1005,26 +1005,26 @@
     {
       "sigla_ipes": "IFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 850",
-      "estado_polo": "Dado inexistente para o Polo com ID = 850"
+      "nome_polo": "Polo não cadastrado (ID = 850)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "IFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1083",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1083"
+      "nome_polo": "Polo não cadastrado (ID = 1083)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "IFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1084",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1084"
+      "nome_polo": "Polo não cadastrado (ID = 1084)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "IFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 565",
-      "estado_polo": "Dado inexistente para o Polo com ID = 565"
+      "nome_polo": "Polo não cadastrado (ID = 565)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "IFBA",
@@ -1101,8 +1101,8 @@
     {
       "sigla_ipes": "IFBA",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1006",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1006"
+      "nome_polo": "Polo não cadastrado (ID = 1006)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "IFCE",
@@ -1215,14 +1215,14 @@
     {
       "sigla_ipes": "IFCE",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 955",
-      "estado_polo": "Dado inexistente para o Polo com ID = 955"
+      "nome_polo": "Polo não cadastrado (ID = 955)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "IFCE",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 40",
-      "estado_polo": "Dado inexistente para o Polo com ID = 40"
+      "nome_polo": "Polo não cadastrado (ID = 40)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "IFES",
@@ -1977,32 +1977,32 @@
     {
       "sigla_ipes": "IFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 221",
-      "estado_polo": "Dado inexistente para o Polo com ID = 221"
+      "nome_polo": "Polo não cadastrado (ID = 221)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "IFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 229",
-      "estado_polo": "Dado inexistente para o Polo com ID = 229"
+      "nome_polo": "Polo não cadastrado (ID = 229)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "IFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 132",
-      "estado_polo": "Dado inexistente para o Polo com ID = 132"
+      "nome_polo": "Polo não cadastrado (ID = 132)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "IFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 385",
-      "estado_polo": "Dado inexistente para o Polo com ID = 385"
+      "nome_polo": "Polo não cadastrado (ID = 385)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "IFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 128",
-      "estado_polo": "Dado inexistente para o Polo com ID = 128"
+      "nome_polo": "Polo não cadastrado (ID = 128)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "IFPB",
@@ -2121,20 +2121,20 @@
     {
       "sigla_ipes": "IFPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 149",
-      "estado_polo": "Dado inexistente para o Polo com ID = 149"
+      "nome_polo": "Polo não cadastrado (ID = 149)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "IFPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 141",
-      "estado_polo": "Dado inexistente para o Polo com ID = 141"
+      "nome_polo": "Polo não cadastrado (ID = 141)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "IFPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 474",
-      "estado_polo": "Dado inexistente para o Polo com ID = 474"
+      "nome_polo": "Polo não cadastrado (ID = 474)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "IFPI",
@@ -2163,8 +2163,8 @@
     {
       "sigla_ipes": "IFPI",
       "estado_ipes": "PI",
-      "nome_polo": "Dado inexistente para o Polo com ID = 161",
-      "estado_polo": "Dado inexistente para o Polo com ID = 161"
+      "nome_polo": "Polo não cadastrado (ID = 161)",
+      "estado_polo": "PI"
     },
     {
       "sigla_ipes": "IFRN",
@@ -2235,32 +2235,32 @@
     {
       "sigla_ipes": "IFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1067",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1067"
+      "nome_polo": "Polo não cadastrado (ID = 1067)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "IFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 829",
-      "estado_polo": "Dado inexistente para o Polo com ID = 829"
+      "nome_polo": "Polo não cadastrado (ID = 829)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "IFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 830",
-      "estado_polo": "Dado inexistente para o Polo com ID = 830"
+      "nome_polo": "Polo não cadastrado (ID = 830)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "IFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 206",
-      "estado_polo": "Dado inexistente para o Polo com ID = 206"
+      "nome_polo": "Polo não cadastrado (ID = 206)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "IFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 825",
-      "estado_polo": "Dado inexistente para o Polo com ID = 825"
+      "nome_polo": "Polo não cadastrado (ID = 825)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "IFRR",
@@ -2541,8 +2541,8 @@
     {
       "sigla_ipes": "IFSC",
       "estado_ipes": "SC",
-      "nome_polo": "Dado inexistente para o Polo com ID = 875",
-      "estado_polo": "Dado inexistente para o Polo com ID = 875"
+      "nome_polo": "Polo não cadastrado (ID = 875)",
+      "estado_polo": "SC"
     },
     {
       "sigla_ipes": "IFSul",
@@ -2733,80 +2733,80 @@
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1888",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1888"
+      "nome_polo": "Polo não cadastrado (ID = 1888)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1849",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1849"
+      "nome_polo": "Polo não cadastrado (ID = 1849)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1868",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1868"
+      "nome_polo": "Polo não cadastrado (ID = 1868)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1887",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1887"
+      "nome_polo": "Polo não cadastrado (ID = 1887)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1870",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1870"
+      "nome_polo": "Polo não cadastrado (ID = 1870)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1847",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1847"
+      "nome_polo": "Polo não cadastrado (ID = 1847)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1869",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1869"
+      "nome_polo": "Polo não cadastrado (ID = 1869)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1830",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1830"
+      "nome_polo": "Polo não cadastrado (ID = 1830)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1848",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1848"
+      "nome_polo": "Polo não cadastrado (ID = 1848)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1867",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1867"
+      "nome_polo": "Polo não cadastrado (ID = 1867)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1828",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1828"
+      "nome_polo": "Polo não cadastrado (ID = 1828)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1827",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1827"
+      "nome_polo": "Polo não cadastrado (ID = 1827)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "INES",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1829",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1829"
+      "nome_polo": "Polo não cadastrado (ID = 1829)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UDESC",
@@ -3003,8 +3003,8 @@
     {
       "sigla_ipes": "UDESC",
       "estado_ipes": "SC",
-      "nome_polo": "Dado inexistente para o Polo com ID = 687",
-      "estado_polo": "Dado inexistente para o Polo com ID = 687"
+      "nome_polo": "Polo não cadastrado (ID = 687)",
+      "estado_polo": "SC"
     },
     {
       "sigla_ipes": "UECE",
@@ -3153,26 +3153,26 @@
     {
       "sigla_ipes": "UECE",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 40",
-      "estado_polo": "Dado inexistente para o Polo com ID = 40"
+      "nome_polo": "Polo não cadastrado (ID = 40)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UECE",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1159",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1159"
+      "nome_polo": "Polo não cadastrado (ID = 1159)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UECE",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1176",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1176"
+      "nome_polo": "Polo não cadastrado (ID = 1176)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UECE",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 581",
-      "estado_polo": "Dado inexistente para o Polo com ID = 581"
+      "nome_polo": "Polo não cadastrado (ID = 581)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UEFS",
@@ -3285,32 +3285,32 @@
     {
       "sigla_ipes": "UEG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 705",
-      "estado_polo": "Dado inexistente para o Polo com ID = 705"
+      "nome_polo": "Polo não cadastrado (ID = 705)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UEG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 889",
-      "estado_polo": "Dado inexistente para o Polo com ID = 889"
+      "nome_polo": "Polo não cadastrado (ID = 889)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UEG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1160",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1160"
+      "nome_polo": "Polo não cadastrado (ID = 1160)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UEG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 665",
-      "estado_polo": "Dado inexistente para o Polo com ID = 665"
+      "nome_polo": "Polo não cadastrado (ID = 665)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UEG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 887",
-      "estado_polo": "Dado inexistente para o Polo com ID = 887"
+      "nome_polo": "Polo não cadastrado (ID = 887)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UEL",
@@ -3819,26 +3819,26 @@
     {
       "sigla_ipes": "UEMA",
       "estado_ipes": "MA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 964",
-      "estado_polo": "Dado inexistente para o Polo com ID = 964"
+      "nome_polo": "Polo não cadastrado (ID = 964)",
+      "estado_polo": "MA"
     },
     {
       "sigla_ipes": "UEMA",
       "estado_ipes": "MA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 962",
-      "estado_polo": "Dado inexistente para o Polo com ID = 962"
+      "nome_polo": "Polo não cadastrado (ID = 962)",
+      "estado_polo": "MA"
     },
     {
       "sigla_ipes": "UEMA",
       "estado_ipes": "MA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 963",
-      "estado_polo": "Dado inexistente para o Polo com ID = 963"
+      "nome_polo": "Polo não cadastrado (ID = 963)",
+      "estado_polo": "MA"
     },
     {
       "sigla_ipes": "UEMA",
       "estado_ipes": "MA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 766",
-      "estado_polo": "Dado inexistente para o Polo com ID = 766"
+      "nome_polo": "Polo não cadastrado (ID = 766)",
+      "estado_polo": "MA"
     },
     {
       "sigla_ipes": "UEMG",
@@ -4227,32 +4227,32 @@
     {
       "sigla_ipes": "UEPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 341",
-      "estado_polo": "Dado inexistente para o Polo com ID = 341"
+      "nome_polo": "Polo não cadastrado (ID = 341)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UEPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 352",
-      "estado_polo": "Dado inexistente para o Polo com ID = 352"
+      "nome_polo": "Polo não cadastrado (ID = 352)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UEPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 639",
-      "estado_polo": "Dado inexistente para o Polo com ID = 639"
+      "nome_polo": "Polo não cadastrado (ID = 639)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UEPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 606",
-      "estado_polo": "Dado inexistente para o Polo com ID = 606"
+      "nome_polo": "Polo não cadastrado (ID = 606)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UEPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 513",
-      "estado_polo": "Dado inexistente para o Polo com ID = 513"
+      "nome_polo": "Polo não cadastrado (ID = 513)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UEPB",
@@ -4299,20 +4299,20 @@
     {
       "sigla_ipes": "UEPB",
       "estado_ipes": "PB",
-      "nome_polo": "Dado inexistente para o Polo com ID = 835",
-      "estado_polo": "Dado inexistente para o Polo com ID = 835"
+      "nome_polo": "Polo não cadastrado (ID = 835)",
+      "estado_polo": "PB"
     },
     {
       "sigla_ipes": "UEPB",
       "estado_ipes": "PB",
-      "nome_polo": "Dado inexistente para o Polo com ID = 141",
-      "estado_polo": "Dado inexistente para o Polo com ID = 141"
+      "nome_polo": "Polo não cadastrado (ID = 141)",
+      "estado_polo": "PB"
     },
     {
       "sigla_ipes": "UEPB",
       "estado_ipes": "PB",
-      "nome_polo": "Dado inexistente para o Polo com ID = 836",
-      "estado_polo": "Dado inexistente para o Polo com ID = 836"
+      "nome_polo": "Polo não cadastrado (ID = 836)",
+      "estado_polo": "PB"
     },
     {
       "sigla_ipes": "UEPG",
@@ -4629,8 +4629,8 @@
     {
       "sigla_ipes": "UEPG",
       "estado_ipes": "PR",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1081",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1081"
+      "nome_polo": "Polo não cadastrado (ID = 1081)",
+      "estado_polo": "PR"
     },
     {
       "sigla_ipes": "UERJ",
@@ -4773,14 +4773,14 @@
     {
       "sigla_ipes": "UERN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 830",
-      "estado_polo": "Dado inexistente para o Polo com ID = 830"
+      "nome_polo": "Polo não cadastrado (ID = 830)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "UERN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1185",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1185"
+      "nome_polo": "Polo não cadastrado (ID = 1185)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "UESB",
@@ -4917,38 +4917,38 @@
     {
       "sigla_ipes": "UESB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 750",
-      "estado_polo": "Dado inexistente para o Polo com ID = 750"
+      "nome_polo": "Polo não cadastrado (ID = 750)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 461",
-      "estado_polo": "Dado inexistente para o Polo com ID = 461"
+      "nome_polo": "Polo não cadastrado (ID = 461)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 807",
-      "estado_polo": "Dado inexistente para o Polo com ID = 807"
+      "nome_polo": "Polo não cadastrado (ID = 807)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 804",
-      "estado_polo": "Dado inexistente para o Polo com ID = 804"
+      "nome_polo": "Polo não cadastrado (ID = 804)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 648",
-      "estado_polo": "Dado inexistente para o Polo com ID = 648"
+      "nome_polo": "Polo não cadastrado (ID = 648)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 801",
-      "estado_polo": "Dado inexistente para o Polo com ID = 801"
+      "nome_polo": "Polo não cadastrado (ID = 801)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESC",
@@ -5037,26 +5037,26 @@
     {
       "sigla_ipes": "UESC",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 333",
-      "estado_polo": "Dado inexistente para o Polo com ID = 333"
+      "nome_polo": "Polo não cadastrado (ID = 333)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESC",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 293",
-      "estado_polo": "Dado inexistente para o Polo com ID = 293"
+      "nome_polo": "Polo não cadastrado (ID = 293)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESC",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 750",
-      "estado_polo": "Dado inexistente para o Polo com ID = 750"
+      "nome_polo": "Polo não cadastrado (ID = 750)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESC",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 657",
-      "estado_polo": "Dado inexistente para o Polo com ID = 657"
+      "nome_polo": "Polo não cadastrado (ID = 657)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UESPI",
@@ -5271,14 +5271,14 @@
     {
       "sigla_ipes": "UESPI",
       "estado_ipes": "PI",
-      "nome_polo": "Dado inexistente para o Polo com ID = 796",
-      "estado_polo": "Dado inexistente para o Polo com ID = 796"
+      "nome_polo": "Polo não cadastrado (ID = 796)",
+      "estado_polo": "PI"
     },
     {
       "sigla_ipes": "UESPI",
       "estado_ipes": "PI",
-      "nome_polo": "Dado inexistente para o Polo com ID = 161",
-      "estado_polo": "Dado inexistente para o Polo com ID = 161"
+      "nome_polo": "Polo não cadastrado (ID = 161)",
+      "estado_polo": "PI"
     },
     {
       "sigla_ipes": "UFABC",
@@ -5415,14 +5415,14 @@
     {
       "sigla_ipes": "UFABC",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 278",
-      "estado_polo": "Dado inexistente para o Polo com ID = 278"
+      "nome_polo": "Polo não cadastrado (ID = 278)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UFABC",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 282",
-      "estado_polo": "Dado inexistente para o Polo com ID = 282"
+      "nome_polo": "Polo não cadastrado (ID = 282)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UFAC",
@@ -5487,50 +5487,50 @@
     {
       "sigla_ipes": "UFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 820",
-      "estado_polo": "Dado inexistente para o Polo com ID = 820"
+      "nome_polo": "Polo não cadastrado (ID = 820)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 819",
-      "estado_polo": "Dado inexistente para o Polo com ID = 819"
+      "nome_polo": "Polo não cadastrado (ID = 819)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 953",
-      "estado_polo": "Dado inexistente para o Polo com ID = 953"
+      "nome_polo": "Polo não cadastrado (ID = 953)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 815",
-      "estado_polo": "Dado inexistente para o Polo com ID = 815"
+      "nome_polo": "Polo não cadastrado (ID = 815)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1012",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1012"
+      "nome_polo": "Polo não cadastrado (ID = 1012)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 859",
-      "estado_polo": "Dado inexistente para o Polo com ID = 859"
+      "nome_polo": "Polo não cadastrado (ID = 859)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1006",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1006"
+      "nome_polo": "Polo não cadastrado (ID = 1006)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UFAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1004",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1004"
+      "nome_polo": "Polo não cadastrado (ID = 1004)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UFAM",
@@ -5643,38 +5643,38 @@
     {
       "sigla_ipes": "UFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 221",
-      "estado_polo": "Dado inexistente para o Polo com ID = 221"
+      "nome_polo": "Polo não cadastrado (ID = 221)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "UFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 565",
-      "estado_polo": "Dado inexistente para o Polo com ID = 565"
+      "nome_polo": "Polo não cadastrado (ID = 565)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "UFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 850",
-      "estado_polo": "Dado inexistente para o Polo com ID = 850"
+      "nome_polo": "Polo não cadastrado (ID = 850)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "UFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 328",
-      "estado_polo": "Dado inexistente para o Polo com ID = 328"
+      "nome_polo": "Polo não cadastrado (ID = 328)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "UFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1083",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1083"
+      "nome_polo": "Polo não cadastrado (ID = 1083)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "UFAM",
       "estado_ipes": "AM",
-      "nome_polo": "Dado inexistente para o Polo com ID = 870",
-      "estado_polo": "Dado inexistente para o Polo com ID = 870"
+      "nome_polo": "Polo não cadastrado (ID = 870)",
+      "estado_polo": "AM"
     },
     {
       "sigla_ipes": "UFBA",
@@ -5901,26 +5901,26 @@
     {
       "sigla_ipes": "UFBA",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 35",
-      "estado_polo": "Dado inexistente para o Polo com ID = 35"
+      "nome_polo": "Polo não cadastrado (ID = 35)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UFBA",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 461",
-      "estado_polo": "Dado inexistente para o Polo com ID = 461"
+      "nome_polo": "Polo não cadastrado (ID = 461)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UFBA",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1006",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1006"
+      "nome_polo": "Polo não cadastrado (ID = 1006)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UFBA",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 34",
-      "estado_polo": "Dado inexistente para o Polo com ID = 34"
+      "nome_polo": "Polo não cadastrado (ID = 34)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UFC",
@@ -6075,26 +6075,26 @@
     {
       "sigla_ipes": "UFC",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 40",
-      "estado_polo": "Dado inexistente para o Polo com ID = 40"
+      "nome_polo": "Polo não cadastrado (ID = 40)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UFC",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 49",
-      "estado_polo": "Dado inexistente para o Polo com ID = 49"
+      "nome_polo": "Polo não cadastrado (ID = 49)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UFC",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 581",
-      "estado_polo": "Dado inexistente para o Polo com ID = 581"
+      "nome_polo": "Polo não cadastrado (ID = 581)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UFC",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 506",
-      "estado_polo": "Dado inexistente para o Polo com ID = 506"
+      "nome_polo": "Polo não cadastrado (ID = 506)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UFERSA",
@@ -6135,14 +6135,14 @@
     {
       "sigla_ipes": "UFERSA",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1183",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1183"
+      "nome_polo": "Polo não cadastrado (ID = 1183)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "UFERSA",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1185",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1185"
+      "nome_polo": "Polo não cadastrado (ID = 1185)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "UFES",
@@ -6891,62 +6891,62 @@
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 282",
-      "estado_polo": "Dado inexistente para o Polo com ID = 282"
+      "nome_polo": "Polo não cadastrado (ID = 282)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 484",
-      "estado_polo": "Dado inexistente para o Polo com ID = 484"
+      "nome_polo": "Polo não cadastrado (ID = 484)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 183",
-      "estado_polo": "Dado inexistente para o Polo com ID = 183"
+      "nome_polo": "Polo não cadastrado (ID = 183)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 278",
-      "estado_polo": "Dado inexistente para o Polo com ID = 278"
+      "nome_polo": "Polo não cadastrado (ID = 278)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 605",
-      "estado_polo": "Dado inexistente para o Polo com ID = 605"
+      "nome_polo": "Polo não cadastrado (ID = 605)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 601",
-      "estado_polo": "Dado inexistente para o Polo com ID = 601"
+      "nome_polo": "Polo não cadastrado (ID = 601)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 351",
-      "estado_polo": "Dado inexistente para o Polo com ID = 351"
+      "nome_polo": "Polo não cadastrado (ID = 351)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 197",
-      "estado_polo": "Dado inexistente para o Polo com ID = 197"
+      "nome_polo": "Polo não cadastrado (ID = 197)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 453",
-      "estado_polo": "Dado inexistente para o Polo com ID = 453"
+      "nome_polo": "Polo não cadastrado (ID = 453)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFF",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 645",
-      "estado_polo": "Dado inexistente para o Polo com ID = 645"
+      "nome_polo": "Polo não cadastrado (ID = 645)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UFG",
@@ -7065,38 +7065,38 @@
     {
       "sigla_ipes": "UFG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 585",
-      "estado_polo": "Dado inexistente para o Polo com ID = 585"
+      "nome_polo": "Polo não cadastrado (ID = 585)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UFG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 889",
-      "estado_polo": "Dado inexistente para o Polo com ID = 889"
+      "nome_polo": "Polo não cadastrado (ID = 889)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UFG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 665",
-      "estado_polo": "Dado inexistente para o Polo com ID = 665"
+      "nome_polo": "Polo não cadastrado (ID = 665)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UFG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 705",
-      "estado_polo": "Dado inexistente para o Polo com ID = 705"
+      "nome_polo": "Polo não cadastrado (ID = 705)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UFG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 634",
-      "estado_polo": "Dado inexistente para o Polo com ID = 634"
+      "nome_polo": "Polo não cadastrado (ID = 634)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UFG",
       "estado_ipes": "GO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 505",
-      "estado_polo": "Dado inexistente para o Polo com ID = 505"
+      "nome_polo": "Polo não cadastrado (ID = 505)",
+      "estado_polo": "GO"
     },
     {
       "sigla_ipes": "UFGD",
@@ -7497,26 +7497,26 @@
     {
       "sigla_ipes": "UFJF",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 106",
-      "estado_polo": "Dado inexistente para o Polo com ID = 106"
+      "nome_polo": "Polo não cadastrado (ID = 106)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFJF",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1014",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1014"
+      "nome_polo": "Polo não cadastrado (ID = 1014)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFJF",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 835",
-      "estado_polo": "Dado inexistente para o Polo com ID = 835"
+      "nome_polo": "Polo não cadastrado (ID = 835)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFJF",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 605",
-      "estado_polo": "Dado inexistente para o Polo com ID = 605"
+      "nome_polo": "Polo não cadastrado (ID = 605)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFLA",
@@ -7983,8 +7983,8 @@
     {
       "sigla_ipes": "UFMG",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 422",
-      "estado_polo": "Dado inexistente para o Polo com ID = 422"
+      "nome_polo": "Polo não cadastrado (ID = 422)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFMS",
@@ -8103,26 +8103,26 @@
     {
       "sigla_ipes": "UFMS",
       "estado_ipes": "MS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 674",
-      "estado_polo": "Dado inexistente para o Polo com ID = 674"
+      "nome_polo": "Polo não cadastrado (ID = 674)",
+      "estado_polo": "MS"
     },
     {
       "sigla_ipes": "UFMS",
       "estado_ipes": "MS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 151",
-      "estado_polo": "Dado inexistente para o Polo com ID = 151"
+      "nome_polo": "Polo não cadastrado (ID = 151)",
+      "estado_polo": "MS"
     },
     {
       "sigla_ipes": "UFMS",
       "estado_ipes": "MS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1055",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1055"
+      "nome_polo": "Polo não cadastrado (ID = 1055)",
+      "estado_polo": "MS"
     },
     {
       "sigla_ipes": "UFMS",
       "estado_ipes": "MS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1050",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1050"
+      "nome_polo": "Polo não cadastrado (ID = 1050)",
+      "estado_polo": "MS"
     },
     {
       "sigla_ipes": "UFMT",
@@ -8655,26 +8655,26 @@
     {
       "sigla_ipes": "UFOP",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 34",
-      "estado_polo": "Dado inexistente para o Polo com ID = 34"
+      "nome_polo": "Polo não cadastrado (ID = 34)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFOP",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 605",
-      "estado_polo": "Dado inexistente para o Polo com ID = 605"
+      "nome_polo": "Polo não cadastrado (ID = 605)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFOP",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 282",
-      "estado_polo": "Dado inexistente para o Polo com ID = 282"
+      "nome_polo": "Polo não cadastrado (ID = 282)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFOP",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 35",
-      "estado_polo": "Dado inexistente para o Polo com ID = 35"
+      "nome_polo": "Polo não cadastrado (ID = 35)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFPA",
@@ -8805,38 +8805,38 @@
     {
       "sigla_ipes": "UFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 385",
-      "estado_polo": "Dado inexistente para o Polo com ID = 385"
+      "nome_polo": "Polo não cadastrado (ID = 385)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 341",
-      "estado_polo": "Dado inexistente para o Polo com ID = 341"
+      "nome_polo": "Polo não cadastrado (ID = 341)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 601",
-      "estado_polo": "Dado inexistente para o Polo com ID = 601"
+      "nome_polo": "Polo não cadastrado (ID = 601)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 125",
-      "estado_polo": "Dado inexistente para o Polo com ID = 125"
+      "nome_polo": "Polo não cadastrado (ID = 125)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 120",
-      "estado_polo": "Dado inexistente para o Polo com ID = 120"
+      "nome_polo": "Polo não cadastrado (ID = 120)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UFPA",
       "estado_ipes": "PA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 606",
-      "estado_polo": "Dado inexistente para o Polo com ID = 606"
+      "nome_polo": "Polo não cadastrado (ID = 606)",
+      "estado_polo": "PA"
     },
     {
       "sigla_ipes": "UFPB",
@@ -9003,14 +9003,14 @@
     {
       "sigla_ipes": "UFPB",
       "estado_ipes": "PB",
-      "nome_polo": "Dado inexistente para o Polo com ID = 149",
-      "estado_polo": "Dado inexistente para o Polo com ID = 149"
+      "nome_polo": "Polo não cadastrado (ID = 149)",
+      "estado_polo": "PB"
     },
     {
       "sigla_ipes": "UFPB",
       "estado_ipes": "PB",
-      "nome_polo": "Dado inexistente para o Polo com ID = 141",
-      "estado_polo": "Dado inexistente para o Polo com ID = 141"
+      "nome_polo": "Polo não cadastrado (ID = 141)",
+      "estado_polo": "PB"
     },
     {
       "sigla_ipes": "UFPE",
@@ -9105,26 +9105,26 @@
     {
       "sigla_ipes": "UFPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 474",
-      "estado_polo": "Dado inexistente para o Polo com ID = 474"
+      "nome_polo": "Polo não cadastrado (ID = 474)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 149",
-      "estado_polo": "Dado inexistente para o Polo com ID = 149"
+      "nome_polo": "Polo não cadastrado (ID = 149)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 525",
-      "estado_polo": "Dado inexistente para o Polo com ID = 525"
+      "nome_polo": "Polo não cadastrado (ID = 525)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 151",
-      "estado_polo": "Dado inexistente para o Polo com ID = 151"
+      "nome_polo": "Polo não cadastrado (ID = 151)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFPEL",
@@ -9387,8 +9387,8 @@
     {
       "sigla_ipes": "UFPEL",
       "estado_ipes": "RS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1013",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1013"
+      "nome_polo": "Polo não cadastrado (ID = 1013)",
+      "estado_polo": "RS"
     },
     {
       "sigla_ipes": "UFPI",
@@ -9633,14 +9633,14 @@
     {
       "sigla_ipes": "UFPI",
       "estado_ipes": "PI",
-      "nome_polo": "Dado inexistente para o Polo com ID = 796",
-      "estado_polo": "Dado inexistente para o Polo com ID = 796"
+      "nome_polo": "Polo não cadastrado (ID = 796)",
+      "estado_polo": "PI"
     },
     {
       "sigla_ipes": "UFPI",
       "estado_ipes": "PI",
-      "nome_polo": "Dado inexistente para o Polo com ID = 161",
-      "estado_polo": "Dado inexistente para o Polo com ID = 161"
+      "nome_polo": "Polo não cadastrado (ID = 161)",
+      "estado_polo": "PI"
     },
     {
       "sigla_ipes": "UFPR",
@@ -9885,8 +9885,8 @@
     {
       "sigla_ipes": "UFPR",
       "estado_ipes": "PR",
-      "nome_polo": "Dado inexistente para o Polo com ID = 453",
-      "estado_polo": "Dado inexistente para o Polo com ID = 453"
+      "nome_polo": "Polo não cadastrado (ID = 453)",
+      "estado_polo": "PR"
     },
     {
       "sigla_ipes": "UFRB",
@@ -9987,8 +9987,8 @@
     {
       "sigla_ipes": "UFRB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1006",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1006"
+      "nome_polo": "Polo não cadastrado (ID = 1006)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UFRGS",
@@ -10245,20 +10245,20 @@
     {
       "sigla_ipes": "UFRGS",
       "estado_ipes": "RS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1013",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1013"
+      "nome_polo": "Polo não cadastrado (ID = 1013)",
+      "estado_polo": "RS"
     },
     {
       "sigla_ipes": "UFRGS",
       "estado_ipes": "RS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1014",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1014"
+      "nome_polo": "Polo não cadastrado (ID = 1014)",
+      "estado_polo": "RS"
     },
     {
       "sigla_ipes": "UFRGS",
       "estado_ipes": "RS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1000",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1000"
+      "nome_polo": "Polo não cadastrado (ID = 1000)",
+      "estado_polo": "RS"
     },
     {
       "sigla_ipes": "UFRJ",
@@ -10389,32 +10389,32 @@
     {
       "sigla_ipes": "UFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 825",
-      "estado_polo": "Dado inexistente para o Polo com ID = 825"
+      "nome_polo": "Polo não cadastrado (ID = 825)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "UFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 826",
-      "estado_polo": "Dado inexistente para o Polo com ID = 826"
+      "nome_polo": "Polo não cadastrado (ID = 826)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "UFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 830",
-      "estado_polo": "Dado inexistente para o Polo com ID = 830"
+      "nome_polo": "Polo não cadastrado (ID = 830)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "UFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 207",
-      "estado_polo": "Dado inexistente para o Polo com ID = 207"
+      "nome_polo": "Polo não cadastrado (ID = 207)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "UFRN",
       "estado_ipes": "RN",
-      "nome_polo": "Dado inexistente para o Polo com ID = 829",
-      "estado_polo": "Dado inexistente para o Polo com ID = 829"
+      "nome_polo": "Polo não cadastrado (ID = 829)",
+      "estado_polo": "RN"
     },
     {
       "sigla_ipes": "UFRPE",
@@ -10551,38 +10551,38 @@
     {
       "sigla_ipes": "UFRPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 897",
-      "estado_polo": "Dado inexistente para o Polo com ID = 897"
+      "nome_polo": "Polo não cadastrado (ID = 897)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFRPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 149",
-      "estado_polo": "Dado inexistente para o Polo com ID = 149"
+      "nome_polo": "Polo não cadastrado (ID = 149)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFRPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 151",
-      "estado_polo": "Dado inexistente para o Polo com ID = 151"
+      "nome_polo": "Polo não cadastrado (ID = 151)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFRPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 141",
-      "estado_polo": "Dado inexistente para o Polo com ID = 141"
+      "nome_polo": "Polo não cadastrado (ID = 141)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFRPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 474",
-      "estado_polo": "Dado inexistente para o Polo com ID = 474"
+      "nome_polo": "Polo não cadastrado (ID = 474)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFRPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 525",
-      "estado_polo": "Dado inexistente para o Polo com ID = 525"
+      "nome_polo": "Polo não cadastrado (ID = 525)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UFRR",
@@ -10647,8 +10647,8 @@
     {
       "sigla_ipes": "UFRR",
       "estado_ipes": "RR",
-      "nome_polo": "Dado inexistente para o Polo com ID = 229",
-      "estado_polo": "Dado inexistente para o Polo com ID = 229"
+      "nome_polo": "Polo não cadastrado (ID = 229)",
+      "estado_polo": "RR"
     },
     {
       "sigla_ipes": "UFRRJ",
@@ -11103,14 +11103,14 @@
     {
       "sigla_ipes": "UFSC",
       "estado_ipes": "SC",
-      "nome_polo": "Dado inexistente para o Polo com ID = 221",
-      "estado_polo": "Dado inexistente para o Polo com ID = 221"
+      "nome_polo": "Polo não cadastrado (ID = 221)",
+      "estado_polo": "SC"
     },
     {
       "sigla_ipes": "UFSC",
       "estado_ipes": "SC",
-      "nome_polo": "Dado inexistente para o Polo com ID = 229",
-      "estado_polo": "Dado inexistente para o Polo com ID = 229"
+      "nome_polo": "Polo não cadastrado (ID = 229)",
+      "estado_polo": "SC"
     },
     {
       "sigla_ipes": "UFSCAR",
@@ -11301,38 +11301,38 @@
     {
       "sigla_ipes": "UFSCAR",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 278",
-      "estado_polo": "Dado inexistente para o Polo com ID = 278"
+      "nome_polo": "Polo não cadastrado (ID = 278)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UFSCAR",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 35",
-      "estado_polo": "Dado inexistente para o Polo com ID = 35"
+      "nome_polo": "Polo não cadastrado (ID = 35)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UFSCAR",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 201",
-      "estado_polo": "Dado inexistente para o Polo com ID = 201"
+      "nome_polo": "Polo não cadastrado (ID = 201)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UFSCAR",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 282",
-      "estado_polo": "Dado inexistente para o Polo com ID = 282"
+      "nome_polo": "Polo não cadastrado (ID = 282)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UFSCAR",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 36",
-      "estado_polo": "Dado inexistente para o Polo com ID = 36"
+      "nome_polo": "Polo não cadastrado (ID = 36)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UFSCAR",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 183",
-      "estado_polo": "Dado inexistente para o Polo com ID = 183"
+      "nome_polo": "Polo não cadastrado (ID = 183)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UFSJ",
@@ -11697,26 +11697,26 @@
     {
       "sigla_ipes": "UFSJ",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 351",
-      "estado_polo": "Dado inexistente para o Polo com ID = 351"
+      "nome_polo": "Polo não cadastrado (ID = 351)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFSJ",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 453",
-      "estado_polo": "Dado inexistente para o Polo com ID = 453"
+      "nome_polo": "Polo não cadastrado (ID = 453)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFSJ",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 580",
-      "estado_polo": "Dado inexistente para o Polo com ID = 580"
+      "nome_polo": "Polo não cadastrado (ID = 580)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFSJ",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 605",
-      "estado_polo": "Dado inexistente para o Polo com ID = 605"
+      "nome_polo": "Polo não cadastrado (ID = 605)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UFSM",
@@ -12009,20 +12009,20 @@
     {
       "sigla_ipes": "UFSM",
       "estado_ipes": "RS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1000",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1000"
+      "nome_polo": "Polo não cadastrado (ID = 1000)",
+      "estado_polo": "RS"
     },
     {
       "sigla_ipes": "UFSM",
       "estado_ipes": "RS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1014",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1014"
+      "nome_polo": "Polo não cadastrado (ID = 1014)",
+      "estado_polo": "RS"
     },
     {
       "sigla_ipes": "UFSM",
       "estado_ipes": "RS",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1003",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1003"
+      "nome_polo": "Polo não cadastrado (ID = 1003)",
+      "estado_polo": "RS"
     },
     {
       "sigla_ipes": "UFT",
@@ -12123,8 +12123,8 @@
     {
       "sigla_ipes": "UFT",
       "estado_ipes": "TO",
-      "nome_polo": "Dado inexistente para o Polo com ID = 291",
-      "estado_polo": "Dado inexistente para o Polo com ID = 291"
+      "nome_polo": "Polo não cadastrado (ID = 291)",
+      "estado_polo": "TO"
     },
     {
       "sigla_ipes": "UFU",
@@ -12627,14 +12627,14 @@
     {
       "sigla_ipes": "UNB",
       "estado_ipes": "DF",
-      "nome_polo": "Dado inexistente para o Polo com ID = 674",
-      "estado_polo": "Dado inexistente para o Polo com ID = 674"
+      "nome_polo": "Polo não cadastrado (ID = 674)",
+      "estado_polo": "DF"
     },
     {
       "sigla_ipes": "UNB",
       "estado_ipes": "DF",
-      "nome_polo": "Dado inexistente para o Polo com ID = 403",
-      "estado_polo": "Dado inexistente para o Polo com ID = 403"
+      "nome_polo": "Polo não cadastrado (ID = 403)",
+      "estado_polo": "DF"
     },
     {
       "sigla_ipes": "UNCISAL",
@@ -12663,14 +12663,14 @@
     {
       "sigla_ipes": "UNCISAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 820",
-      "estado_polo": "Dado inexistente para o Polo com ID = 820"
+      "nome_polo": "Polo não cadastrado (ID = 820)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UNCISAL",
       "estado_ipes": "AL",
-      "nome_polo": "Dado inexistente para o Polo com ID = 953",
-      "estado_polo": "Dado inexistente para o Polo com ID = 953"
+      "nome_polo": "Polo não cadastrado (ID = 953)",
+      "estado_polo": "AL"
     },
     {
       "sigla_ipes": "UNEB",
@@ -12903,50 +12903,50 @@
     {
       "sigla_ipes": "UNEB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 750",
-      "estado_polo": "Dado inexistente para o Polo com ID = 750"
+      "nome_polo": "Polo não cadastrado (ID = 750)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UNEB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 36",
-      "estado_polo": "Dado inexistente para o Polo com ID = 36"
+      "nome_polo": "Polo não cadastrado (ID = 36)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UNEB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 35",
-      "estado_polo": "Dado inexistente para o Polo com ID = 35"
+      "nome_polo": "Polo não cadastrado (ID = 35)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UNEB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 461",
-      "estado_polo": "Dado inexistente para o Polo com ID = 461"
+      "nome_polo": "Polo não cadastrado (ID = 461)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UNEB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 657",
-      "estado_polo": "Dado inexistente para o Polo com ID = 657"
+      "nome_polo": "Polo não cadastrado (ID = 657)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UNEB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 293",
-      "estado_polo": "Dado inexistente para o Polo com ID = 293"
+      "nome_polo": "Polo não cadastrado (ID = 293)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UNEB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 655",
-      "estado_polo": "Dado inexistente para o Polo com ID = 655"
+      "nome_polo": "Polo não cadastrado (ID = 655)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UNEB",
       "estado_ipes": "BA",
-      "nome_polo": "Dado inexistente para o Polo com ID = 333",
-      "estado_polo": "Dado inexistente para o Polo com ID = 333"
+      "nome_polo": "Polo não cadastrado (ID = 333)",
+      "estado_polo": "BA"
     },
     {
       "sigla_ipes": "UNEMAT",
@@ -13377,32 +13377,32 @@
     {
       "sigla_ipes": "UNESP-REITORIA",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 453",
-      "estado_polo": "Dado inexistente para o Polo com ID = 453"
+      "nome_polo": "Polo não cadastrado (ID = 453)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNESP-REITORIA",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 580",
-      "estado_polo": "Dado inexistente para o Polo com ID = 580"
+      "nome_polo": "Polo não cadastrado (ID = 580)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNESP-REITORIA",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 645",
-      "estado_polo": "Dado inexistente para o Polo com ID = 645"
+      "nome_polo": "Polo não cadastrado (ID = 645)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNESP-REITORIA",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 484",
-      "estado_polo": "Dado inexistente para o Polo com ID = 484"
+      "nome_polo": "Polo não cadastrado (ID = 484)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNESP-REITORIA",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 351",
-      "estado_polo": "Dado inexistente para o Polo com ID = 351"
+      "nome_polo": "Polo não cadastrado (ID = 351)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNICENTRO",
@@ -13791,8 +13791,8 @@
     {
       "sigla_ipes": "UNIFAL",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 422",
-      "estado_polo": "Dado inexistente para o Polo com ID = 422"
+      "nome_polo": "Polo não cadastrado (ID = 422)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UNIFAP",
@@ -13941,8 +13941,8 @@
     {
       "sigla_ipes": "UNIFEI",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 453",
-      "estado_polo": "Dado inexistente para o Polo com ID = 453"
+      "nome_polo": "Polo não cadastrado (ID = 453)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UNIFESP",
@@ -14409,32 +14409,32 @@
     {
       "sigla_ipes": "UNIFESP",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 282",
-      "estado_polo": "Dado inexistente para o Polo com ID = 282"
+      "nome_polo": "Polo não cadastrado (ID = 282)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNIFESP",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 278",
-      "estado_polo": "Dado inexistente para o Polo com ID = 278"
+      "nome_polo": "Polo não cadastrado (ID = 278)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNIFESP",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 484",
-      "estado_polo": "Dado inexistente para o Polo com ID = 484"
+      "nome_polo": "Polo não cadastrado (ID = 484)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNIFESP",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1014",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1014"
+      "nome_polo": "Polo não cadastrado (ID = 1014)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNIFESP",
       "estado_ipes": "SP",
-      "nome_polo": "Dado inexistente para o Polo com ID = 351",
-      "estado_polo": "Dado inexistente para o Polo com ID = 351"
+      "nome_polo": "Polo não cadastrado (ID = 351)",
+      "estado_polo": "SP"
     },
     {
       "sigla_ipes": "UNILAB",
@@ -14463,14 +14463,14 @@
     {
       "sigla_ipes": "UNILAB",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1004",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1004"
+      "nome_polo": "Polo não cadastrado (ID = 1004)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UNILAB",
       "estado_ipes": "CE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 1006",
-      "estado_polo": "Dado inexistente para o Polo com ID = 1006"
+      "nome_polo": "Polo não cadastrado (ID = 1006)",
+      "estado_polo": "CE"
     },
     {
       "sigla_ipes": "UNIMONTES",
@@ -14655,8 +14655,8 @@
     {
       "sigla_ipes": "UNIMONTES",
       "estado_ipes": "MG",
-      "nome_polo": "Dado inexistente para o Polo com ID = 422",
-      "estado_polo": "Dado inexistente para o Polo com ID = 422"
+      "nome_polo": "Polo não cadastrado (ID = 422)",
+      "estado_polo": "MG"
     },
     {
       "sigla_ipes": "UNIOESTE",
@@ -15111,32 +15111,32 @@
     {
       "sigla_ipes": "UNIRIO",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 197",
-      "estado_polo": "Dado inexistente para o Polo com ID = 197"
+      "nome_polo": "Polo não cadastrado (ID = 197)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UNIRIO",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 453",
-      "estado_polo": "Dado inexistente para o Polo com ID = 453"
+      "nome_polo": "Polo não cadastrado (ID = 453)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UNIRIO",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 645",
-      "estado_polo": "Dado inexistente para o Polo com ID = 645"
+      "nome_polo": "Polo não cadastrado (ID = 645)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UNIRIO",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 351",
-      "estado_polo": "Dado inexistente para o Polo com ID = 351"
+      "nome_polo": "Polo não cadastrado (ID = 351)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UNIRIO",
       "estado_ipes": "RJ",
-      "nome_polo": "Dado inexistente para o Polo com ID = 183",
-      "estado_polo": "Dado inexistente para o Polo com ID = 183"
+      "nome_polo": "Polo não cadastrado (ID = 183)",
+      "estado_polo": "RJ"
     },
     {
       "sigla_ipes": "UNITINS",
@@ -15483,26 +15483,26 @@
     {
       "sigla_ipes": "UPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 151",
-      "estado_polo": "Dado inexistente para o Polo com ID = 151"
+      "nome_polo": "Polo não cadastrado (ID = 151)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 897",
-      "estado_polo": "Dado inexistente para o Polo com ID = 897"
+      "nome_polo": "Polo não cadastrado (ID = 897)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 836",
-      "estado_polo": "Dado inexistente para o Polo com ID = 836"
+      "nome_polo": "Polo não cadastrado (ID = 836)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UPE",
       "estado_ipes": "PE",
-      "nome_polo": "Dado inexistente para o Polo com ID = 474",
-      "estado_polo": "Dado inexistente para o Polo com ID = 474"
+      "nome_polo": "Polo não cadastrado (ID = 474)",
+      "estado_polo": "PE"
     },
     {
       "sigla_ipes": "UTFPR",
@@ -15753,14 +15753,14 @@
     {
       "sigla_ipes": "UTFPR",
       "estado_ipes": "PR",
-      "nome_polo": "Dado inexistente para o Polo com ID = 282",
-      "estado_polo": "Dado inexistente para o Polo com ID = 282"
+      "nome_polo": "Polo não cadastrado (ID = 282)",
+      "estado_polo": "PR"
     },
     {
       "sigla_ipes": "UTFPR",
       "estado_ipes": "PR",
-      "nome_polo": "Dado inexistente para o Polo com ID = 580",
-      "estado_polo": "Dado inexistente para o Polo com ID = 580"
+      "nome_polo": "Polo não cadastrado (ID = 580)",
+      "estado_polo": "PR"
     }
   ]
 }

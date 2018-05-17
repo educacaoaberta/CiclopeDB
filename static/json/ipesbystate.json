@@ -2,23 +2,11 @@
   "data": [
     {
       "quant": 1,
-      "estado": "AC"
-    },
-    {
-      "quant": 1,
       "estado": "SE"
     },
     {
-      "quant": 1,
-      "estado": "DF"
-    },
-    {
-      "quant": 1,
-      "estado": "AP"
-    },
-    {
-      "quant": 1,
-      "estado": "RO"
+      "quant": 2,
+      "estado": "AC"
     },
     {
       "quant": 2,
@@ -26,39 +14,15 @@
     },
     {
       "quant": 2,
-      "estado": "RR"
+      "estado": "RO"
     },
     {
       "quant": 2,
-      "estado": "GO"
+      "estado": "AP"
     },
     {
-      "quant": 3,
-      "estado": "MA"
-    },
-    {
-      "quant": 3,
-      "estado": "PA"
-    },
-    {
-      "quant": 3,
-      "estado": "MT"
-    },
-    {
-      "quant": 3,
-      "estado": "PI"
-    },
-    {
-      "quant": 3,
-      "estado": "AM"
-    },
-    {
-      "quant": 3,
-      "estado": "MS"
-    },
-    {
-      "quant": 3,
-      "estado": "SC"
+      "quant": 2,
+      "estado": "DF"
     },
     {
       "quant": 3,
@@ -66,11 +30,31 @@
     },
     {
       "quant": 3,
+      "estado": "PI"
+    },
+    {
+      "quant": 3,
       "estado": "TO"
     },
     {
-      "quant": 4,
-      "estado": "CE"
+      "quant": 3,
+      "estado": "AM"
+    },
+    {
+      "quant": 3,
+      "estado": "MA"
+    },
+    {
+      "quant": 3,
+      "estado": "MT"
+    },
+    {
+      "quant": 3,
+      "estado": "RR"
+    },
+    {
+      "quant": 3,
+      "estado": "SC"
     },
     {
       "quant": 4,
@@ -78,34 +62,50 @@
     },
     {
       "quant": 4,
+      "estado": "MS"
+    },
+    {
+      "quant": 4,
       "estado": "RN"
+    },
+    {
+      "quant": 4,
+      "estado": "PA"
+    },
+    {
+      "quant": 5,
+      "estado": "GO"
+    },
+    {
+      "quant": 5,
+      "estado": "CE"
     },
     {
       "quant": 5,
       "estado": "PE"
     },
     {
-      "quant": 6,
-      "estado": "SP"
-    },
-    {
       "quant": 7,
       "estado": "BA"
-    },
-    {
-      "quant": 7,
-      "estado": "RS"
     },
     {
       "quant": 8,
       "estado": "PR"
     },
     {
+      "quant": 8,
+      "estado": "SP"
+    },
+    {
       "quant": 9,
+      "estado": "RS"
+    },
+    {
+      "quant": 11,
       "estado": "RJ"
     },
     {
-      "quant": 15,
+      "quant": 18,
       "estado": "MG"
     }
   ]
