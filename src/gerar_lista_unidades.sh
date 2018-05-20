@@ -22,4 +22,6 @@ else
     zorba --uri-path '../static/json/' ipesdatatable.jq -o ../static/json/ipesdatatable.json
     echo "Gerando um novo arquivo ipesSigla_polosData-1.json"
     zorba --uri-path '../static/json/' ipesSigla_polosData.jq -o ../static/json/ipesSigla_polosData.json
+    echo "Gerando um novo arquivo poloId_ipesData.json"
+    zorba --uri-path '../static/json/' poloId_ipesData.jq -o ../static/json/poloId_ipesData.json
 fi

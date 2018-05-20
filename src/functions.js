@@ -117,19 +117,21 @@ function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
 function processBarChartIpesByState(myBarChart, idPolo) {
   $.getJSON(ipesByStateWithPoloId, function (polos) {
     $('#ipesGraphContainer').show()
-    for (var key in polos) {
-      if(key === idPolo) {
-        if(Object.keys(polos[key]).length !== 0) {
-          for(var estado in polos[key]) {
-            myBarChart.data.labels.push(estado);
-            myBarChart.data.datasets.forEach((dataset) => {
-              dataset.data.push(polos[key][estado]);
-              dataset.backgroundColor.push(regionsColors[regioes[estado]]);
-            });
+    for (let i = 0; i < polos.length; i++) {
+      for (let key in polos[i]) {
+        if (key === idPolo) {
+          if (Object.keys(polos[i][key]).length !== 0) {
             $("#polos-tab-dados").removeClass("hide-visually");
+            for (let itemipes in polos[i][key]) {
+              myBarChart.data.labels.push(polos[i][key][itemipes].estado);
+              myBarChart.data.datasets.forEach((dataset) => {
+                dataset.data.push(polos[i][key][itemipes].quantidade_ipes);
+                dataset.backgroundColor.push(regionsColors[regioes[polos[i][key][itemipes].estado]]);
+              });
+            }
+          } else {
+            $('#polos-tab-dados').addClass("hide-visually");
           }
-        } else {
-          $('#polos-tab-dados').addClass("hide-visually");
         }
       }
     }
