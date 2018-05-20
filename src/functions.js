@@ -91,21 +91,23 @@ function loadChart(id, type, label) {
 // Número de polos por estado dentro dos arquivos do content
 function processBarChartIpesWithSiglaIpes(myBarChart, siglaIpes) {
   $.getJSON(polosByStateWithFederativeUnitJson, function (ipes) {
-    for (let key in ipes) {
-        if(key === siglaIpes) {
-          if(Object.keys(ipes[key]).length !== 0) {
-            for(let estado in ipes[key]) {
-              myBarChart.data.labels.push(estado);
+    for (let i = 0; i < ipes.length; i++) {
+      for (let key in ipes[i]) {
+        if (key === siglaIpes) {
+          if (Object.keys(ipes[i][key]).length !== 0) {
+            $("#ipes-tab-dados").removeClass("hide-visually");
+            for (let itempolo in ipes[i][key]) {
+              myBarChart.data.labels.push(ipes[i][key][itempolo].estado);
               myBarChart.data.datasets.forEach((dataset) => {
-                dataset.data.push(ipes[key][estado]);
-                dataset.backgroundColor.push(regionsColors[regioes[estado]]);
+                dataset.data.push(ipes[i][key][itempolo].quantidade_polos);
+                dataset.backgroundColor.push(regionsColors[regioes[ipes[i][key][itempolo].estado]]);
               });
-              $("#ipes-tab-dados").removeClass("hide-visually");
             }
           } else {
             $("#ipes-tab-dados").addClass("hide-visually");
           }
         }
+      }
     }
     myBarChart.update();
   });
