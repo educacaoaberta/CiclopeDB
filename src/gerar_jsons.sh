@@ -7,23 +7,23 @@ then
     echo "brew install zorba"
 else
     echo "Gerando um novo arquivo lista-unidades.json"
-    zorba --uri-path '../static/json/' lista_unidades.jq -o ../static/json/lista-unidades.json
+    zorba --uri-path '../static/json/' scripts/lista_unidades.jq -o ../static/json/lista-unidades.json
 
     echo "Gerando um novo arquivo polosbystate.json"
-    zorba --uri-path '../static/json/' polosbystate.jq -o ../static/json/polosbystate.json
+    zorba --uri-path '../static/json/' scripts/polosbystate.jq -o ../static/json/polosbystate.json
 
     echo "Gerando um novo arquivo ipesbystate.json"
-    zorba --uri-path '../static/json/' ipesbystate.jq -o ../static/json/ipesbystate.json
+    zorba --uri-path '../static/json/' scripts/ipesbystate.jq -o ../static/json/ipesbystate.json
 
     echo "Gerando um novo arquivo nomes.json"
-    zorba --uri-path '../static/json/' ipes_polos_names.jq -o ../static/json/nomes.json
+    zorba --uri-path '../static/json/' scripts/ipes_polos_names.jq -o ../static/json/nomes.json
 
     echo "Gerando um novo arquivo ipesdatatable.json"
-    zorba --uri-path '../static/json/' ipesdatatable.jq -o ../static/json/ipesdatatable.json
+    zorba --uri-path '../static/json/' scripts/ipesdatatable.jq -o ../static/json/ipesdatatable.json
 
      echo "Gerando um novo arquivo ipesSigla_polosData.json"
-     zorba --uri-path '../static/json/' ipesSigla_polosData.jq -o ../static/json/ipesSigla_polosData.json
+     zorba --uri-path '../static/json/' scripts/ipesSigla_polosData.jq -o ../static/json/ipesSigla_polosData.json
 
     echo "Gerando um novo arquivo poloId_ipesData.json"
-    zorba --uri-path '../static/json/' poloId_ipesData.jq -o ../static/json/poloId_ipesData.json
+    zorba --uri-path '../static/json/' scripts/poloId_ipesData.jq -o ../static/json/poloId_ipesData.json
 fi
