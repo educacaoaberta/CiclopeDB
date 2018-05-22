@@ -16,14 +16,14 @@
 
       <section id="software" class="pb12">
         <div class="txt-l txt-bold">O software</div>
-        <p>Caso identifique algum problema, dado errado ou problema técnico, utilize <a class="unprose link" http://questionarios.revoada.net.br/index.php/survey/index/sid/356882/newtest/Y/lang/pt-BR">esse formulário de contato</a>.</p>
+        <p>Caso identifique algum problema, dado errado ou problema técnico, utilize <a class="unprose link" href="http://questionarios.revoada.net.br/index.php/survey/index/sid/356882/newtest/Y/lang/pt-BR">esse formulário de contato</a>.</p>
         <p>Para questões relacionadas ao software, por favor utilize o nosso repositório no <a class="unprose link" href="http://github.com/educacaoaberta/CiclopeDB">Github</a>.</p>
       </section>
 
       <section id="pesquisadores" class="pb12">
         <p>Tel Amiel (<a class="unprose link" href="http://fe.unb.br">FE/UnB</a>) - Coordenador do projeto | <a class="unprose link" href="https://github.com/tamielbr">/tamielbr</a></p>
         <p>Cícero Neto - Desenvolvedor backend e frontend | <a class="unprose link" href="https://github.com/greevin/">/greevin</a></p>
-        <p>Gabriel Fedel - <a class="unprose link" href="http://www.lnls.cnpem.br">LNLS</a> | Desenvolvedor backend e consultor <a class="unprose link" href="https://github.com/gabrielfedel">/gabrielfedel</a></p>
+        <p>Gabriel Fedel (<a class="unprose link" href="http://www.lnls.cnpem.br">LNLS</a>) - Desenvolvedor backend e consultor | <a class="unprose link" href="https://github.com/gabrielfedel">/gabrielfedel</a></p>
         <p>Kalimar Maia (<a class="unprose link" href="http://mapbox.com">Mapbox</a>) - Consultor técnico <a class="unprose link" href="https://github.com/kalimar">/kalimar</a></p>
       </section>
 
