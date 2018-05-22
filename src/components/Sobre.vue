@@ -1,22 +1,23 @@
 <template>
   <div>
     <section id="sobre">
-    <p><b>Última atualização:</b> 15/01/2018</p>
+    <p><b>Última atualização:</b> 07/maio/2018</p>
       <section id="projeto" class="pb12">
         <div class="txt-l txt-bold">O projeto</div>
-        <p>Este mapa apresenta as Instituições de Ensino Superior (IPES) e os polos que fazem parte do Sistema Universidade Aberta do Brasil. Os dados foram fornecidos pelas bases de dados da DED/CAPES.
+        <p>Este mapa apresenta as Instituições de Ensino Superior (IES) e os polos que fazem parte do Sistema Universidade Aberta do Brasil. Os dados foram fornecidos pelas bases de dados e com apoio da DED/CAPES.
 
-        Quando os dados de geolocalização não são precisos, informamos nos dados. informações mais detalhadas sobre os Núcleos de Educação a Distância de 8 universidades que participaram de uma pesquisa prévia, focada na gestão de recursos educacionais no âmbito da UAB, são apresentadas para demonstrar o potencial do mapa para visualização de dados. Para essas instituições incluímos um texto introdutório e uma linha do tempo de sua participação na UAB.
+        Informações mais detalhadas sobre os Núcleos de Educação a Distância de 8 universidades que participaram de uma pesquisa prévia, focada na gestão de recursos educacionais no âmbito da UAB. Os dados podem ser antigos e só são apresentadas para demonstrar a flexibilidade do sistema para visualização de dados. Para essas instituições incluímos um texto introdutório e uma linha do tempo de sua participação na UAB.
         </p>
       </section>
 
       <section id="introducao" class="pb12">
-          <p>Este é um projeto que foi criado por iniciativa do grupo de pesquisa <a class="unprose link" href="http://dgp.cnpq.br/dgp/espelhogrupo/8749855854098226">Formação docente e tecnologias de informação e comunicação</a> que desde 2011 estuda a Universidade Aberta do Brasil (<a class="unprose link" href="http://www.uab.capes.gov.br/">UAB</a>).O projeto de mapeamento foi conduzido pela <a class="unprose link" href="http://educacaoaberta.org/">Cátedra UNESCO em Educação Aberta</a> na UNICAMP em parceria com a Universidade de Brasília com apoio da Diretoria de Educação a Distância (DED)/CAPES.</p>
+          <p>Este é um projeto que foi criado por iniciativa do grupo de pesquisa <a class="unprose link" href="http://dgp.cnpq.br/dgp/espelhogrupo/8749855854098226">Formação docente e tecnologias de informação e comunicação</a> que desde 2011 estuda a Universidade Aberta do Brasil (<a class="unprose link" href="http://www.uab.capes.gov.br/">UAB</a>).O projeto de mapeamento foi conduzido pela <a class="unprose link" href="http://educacaoaberta.org/">Cátedra UNESCO em Educação Aberta</a> na UNICAMP em parceria com a Universidade de Brasília, com apoio da Diretoria de Educação a Distância DED/CAPES.</p>
       </section>
 
       <section id="software" class="pb12">
         <div class="txt-l txt-bold">O software</div>
-        <p>Caso identifique algum problema, dado incongruente, ou queira ajudar a melhorar o sistema, entre em contato colocando um <i>problema/comentário</i> na nossa página no <a class="unprose link" href="http://github.com/educacaoaberta/CiclopeDB/issues">Github</a>.</p>
+        <p>Caso identifique algum problema, dado errado ou problema técnico, utilize <a class="unprose link" http://questionarios.revoada.net.br/index.php/survey/index/sid/356882/newtest/Y/lang/pt-BR">esse formulário de contato</a>.</p>
+        <p>Para questões relacionadas ao software, por favor utilize o nosso repositório no <a class="unprose link" href="http://github.com/educacaoaberta/CiclopeDB">Github</a>.</p>
       </section>
 
       <section id="pesquisadores" class="pb12">

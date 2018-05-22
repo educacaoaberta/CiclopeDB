@@ -1,11 +1,10 @@
 <template>
     <div>
         <div class="prose">
-            <p>Este site, em <i>beta</i>, apresenta dados sobre as Instituições Públicas de Ensino Superior (IPES) e os Polos Presenciais
+            <p>Este site, em <i>beta</i>, apresenta dados sobre as Instituições Ensino Superior (IES) e os Polos Presenciais
                 que fazem parte do Sistema Universidade Aberta do Brasil (UAB).</p>
-            <p>Abaixo, nessa página, você encontra algumas informações básicas sobre a UAB, incluindo uma linha do tempo da EaD com enfoque na UAB.</p>
-            <p>Para navegar utilize o mapa. Ao clicar em uma IPES, aparecerão os polos nos quais ela atualmente oferece cursos. Clicando em IPES ou polos, a janela da direita mostrará abas com dados descritivos e de contato bem como gráficos e tabelas pertinentes.</p>
-            <p>Nessa mesma janela, nas abas acima, você pode saber mais sobre o projeto e encontrar dados atualizados sobre o Sistema UAB, na forma de gráficos e tabelas.</p>
+            <p>Abaixo, você encontrará uma linha do tempo da EaD com enfoque na UAB. Nas abas, você encontra algumas informações básicas sobre a UAB na forma de gráficos e tabelas.</p>
+            <p>Para navegar utilize o mapa ao lado. Ao clicar em uma IES, aparecerão os polos nos quais ela atualmente oferece cursos. Clicando em IES ou polo, a janela da direita mostrará abas com dados descritivos e de contato bem como gráficos e tabelas com dados pertinentes.</p>
         </div>
 
         <div>
@@ -22,7 +21,7 @@
             <p> O governo federal, particularmente a Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
                 (CAPES/Ministério da Educação), é responsável pelo financiamento (desenvolvimento de material, custo de
                 pessoal, entre outros), gestão e pelo estabelecimento das regras de funcionamento do Sistema.</p>
-            <p>Ao contrário de outras Universidades abertas ao redor do mundo (como a Open University, Inglaterra) a UAB não é um instituição. As instâncias (IPES, municípios, etc.) agem em forma de consórcio.</p>
+            <p>Ao contrário de outras Universidades abertas ao redor do mundo (como a Open University, Inglaterra) a UAB não é um instituição. As instâncias (IES, municípios, etc.) agem em forma de consórcio.</p>
         </div>
 
         <footer class="bg-blue-faint px12 py12 round-b-ml txt-s">
@@ -30,7 +29,7 @@
                 O site e seu conteúdo estão licenciados com licença Creative Commons Atribuição (<a class="unprose link"
                     href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>) - Grupo de Pesquisa Educação Aberta.
             </p>
-            <p>Dados atualizados em 15/01/2018.</p>
+            <p>Dados atualizados em 07/maio/2018.</p>
         </footer>
     </div>
 </template>
