@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="prose">
-            <p>Este site, em <i>beta</i>, apresenta dados sobre as Instituições Ensino Superior (IES) e os Polos Presenciais
+            <p>Este site apresenta dados sobre as Instituições Ensino Superior (IES) e os polos presenciais
                 que fazem parte do Sistema Universidade Aberta do Brasil (UAB).</p>
-            <p>Abaixo, você encontrará uma linha do tempo da EaD com enfoque na UAB. Nas abas, você encontra algumas informações básicas sobre a UAB na forma de gráficos e tabelas.</p>
-            <p>Para navegar utilize o mapa ao lado. Ao clicar em uma IES, aparecerão os polos nos quais ela atualmente oferece cursos. Clicando em IES ou polo, a janela da direita mostrará abas com dados descritivos e de contato bem como gráficos e tabelas com dados pertinentes.</p>
+            <p>Abaixo, você encontrará uma linha do tempo da EaD com enfoque na UAB. Nas abas dessa página principal você encontrará alguns dados descritivos sobre a UAB na forma de gráficos e tabelas.</p>
+            <p>Para navegar utilize o mapa ao lado. Ao clicar em uma IES, aparecerão os polos nos quais ela atualmente oferece cursos. Clicando em IES ou polo, a janela da direita mostrará abas com dados descritivos, de contato bem como gráficos e tabelas com dados pertinentes.</p>
         </div>
 
         <div>
