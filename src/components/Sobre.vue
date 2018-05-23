@@ -13,8 +13,8 @@
       </section>
 
       <section id="software" class="pb12">
-        <div class="txt-l txt-bold">O software</div>
-        <p>Caso identifique algum problema, dado errado ou problema técnico, utilize <a class="unprose link" href="http://questionarios.revoada.net.br/index.php/survey/index/sid/356882/newtest/Y/lang/pt-BR">esse formulário de contato</a>. Para questões relacionadas ao software, por favor confira o nosso repositório no <a class="unprose link" href="http://github.com/educacaoaberta/CiclopeDB">Github</a>.</p>
+        <div class="txt-l txt-bold">O software e licenças de uso</div>
+        <p>Caso identifique algum problema, dado errado ou problema técnico, utilize <a class="unprose link" href="http://questionarios.revoada.net.br/index.php/survey/index/sid/356882/newtest/Y/lang/pt-BR">esse formulário de contato</a>. Para questões relacionadas ao software, por favor confira o nosso repositório no <a class="unprose link" href="http://github.com/educacaoaberta/CiclopeDB">Github</a>.</p>. Todo o conteúdo aqui disponível está licenciado com uma licença <a class="unprose link" href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR">Creative Commons - Atribuição (CC-BY)</a>.
       </section>
 
       <section id="pesquisadores" class="pb12">
