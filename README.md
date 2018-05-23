@@ -2,8 +2,6 @@
 
 **[EN]**  A map + tabs, JSON (no SQL) visualization tools. Our goal is to make it easy to geo-reference and show diverse information (charts, timelines, tabular data) as a way to communicate research output and permit easy access to open data.
 
-<img src="http://amiel.info/uab_github.png">
-
 Among others, we use:
 * Datatables, http://datatables.net
 * TimelineJS, http://timeline.knightlab.com
