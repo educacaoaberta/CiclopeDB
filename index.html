@@ -1,113 +1,80 @@
-<!--Ciclope project - https://github.com/tamielbr/Ciclope/-->
-<!-- Began as a remix from AfyaMap, https://github.com/Jumagreens/AfyaMap -->
-<!--GPL v3.0 by Tel Amiel and Gabriel Fedel-->
-
 <!DOCTYPE html>
-<html>
+<html lang="pt-br" dir="ltr">
+
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="description" content="Dados do estudo de Núcleos UAB">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#4285f4">
+  <title>Grupo de pesquisa: UAB</title>
 
-    <title>Grupo de pesquisa: UAB</title>
-    <meta name="description" content="Dados do estudo de Núcleos UAB">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="static/style.css">
 
-    <!--jQuery-->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- Assembly.css -->
+  <link href="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.min.css" rel="stylesheet">
+  <script async defer src="https://api.mapbox.com/mapbox-assembly/v0.21.0/assembly.js"></script>
 
-    <!--Main mapping library-->
-    <script type='text/javascript' src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-    <script src="libraries/leaflet-search/leaflet-search.js"></script>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
+  <!--Timeline-->
+  <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 
-    <!--Identify your location-->
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css'>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css'
-          rel='stylesheet'/>
-
-    <!--Timeline scripts-->
-    <script src="http://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-    <link title="timeline-styles" rel="stylesheet"
-          href="http://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-
-    <!--Scripts and css for dynamic tables-->
-    <script type='text/javascript' src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-    <script type='text/javascript' src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
-    <script type='text/javascript' src='https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js'></script>
-    <script type='text/javascript' src='https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js'></script>
-
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="http://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css">
-
-
-    <link rel="stylesheet" href="libraries/leaflet-sidebar/leaflet-sidebar.css">
-
-    <!--<link rel="stylesheet" href="libraries/leaflet-search/leaflet-search.css">-->
-
-    <!--Script for Chart -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
-
-    <!--Local scripts-->
-    <script src="libraries/leaflet-search/leaflet-search.js"></script>
-    <script src="libraries/leaflet-sidebar/leaflet-sidebar.js"></script>
-
-    <!--Application stylesheet and application-->
-    <link rel="stylesheet" href="style/app.css">
-
-    <script type='text/javascript' src="js/functions.js"></script>
-    <script src="js/ciclope.js"></script>
+  <!--Awesomplete-->
+  <link rel="stylesheet" href="static/awesomplete.css" />
+  <script src="static/awesomplete.min.js"></script>
 
 </head>
 
 <body>
-<!--Loads map-->
-<div id="map">
-    <div id="menu-group">
-        <div id="menu-icon" class="leaflet-left">
-            <a href="#" id="menu-link"></a>
-        </div>
-        <div class="menu">
-            <a href="#" class="menuitem" name="principal.html">Principal</a><br>
-            <a href="#" class="menuitem" name="sobre.html">Sobre</a>
-        </div>
-    </div>
-</div>
-
-<div id="sidebar">
-    <!-- carrega a página inicial -->
-    <div id="about-data">
-        <ul class="tabs">
-            <li class="current">
-                <a href="#tab-principal">Principal</a>
-            </li>
-            <li>
-                <a href="#tab-sobre">Sobre o projeto</a>
-            </li>
-            <li>
-                <a href="#tab-dados">Dados</a>
-            </li>
-        </ul>
-
-        <div id="tab-principal"></div>
-        <div id="tab-sobre"></div>
-        <div id="tab-dados"></div>
+    <!--loading panel-->
+    <div id="loading-panel" class="flex-parent flex-parent--center-cross flex-parent--center-main absolute top right bottom left bg-darken25 z5">
+        <div class="flex-child loading"></div>
     </div>
 
-    <!-- carrega as informações dos polos -->
-    <div id="tabs-data"></div>
-</div>
+  <div id="app" class="app-sidebar">
+    <initial-sidebar></initial-sidebar>
+    <info-ipes class="hide-visually"></info-ipes>
+    <info-polos class="hide-visually"></info-polos>
+  </div>
+  <div id="map" style='position: fixed;top: 0;bottom: 0;width: 100%;height: 100%;'></div>
+
+    <form class="filter-ctrl hide-visually" id="search">
+      <div>
+        <label for="filter-input" class="hide-visually">Pesquisar</label>
+        <input id='filter-input' class="awesomplete" type='text' name='filter-input' placeholder='Pesquisar' />
+      </div>
+    </form>
+    
+    <!--layers menu-->
+  <form class="hide-visually" id="menu">
+    <div class="leaflet-control-layers-overlays">
+      <div>
+        <input type="checkbox" class="leaflet-control-layers-selector" id="ipes" checked>
+        <label for="ipes"> Núcleos</label>
+      </div>
+      <div>
+        <input type="checkbox" id="polos" class="leaflet-control-layers-selector">
+        <label for="polos"> Polos</label>
+      </div>
+    </div>
+  </form>
 
 <script>
-  $(function () {
-    $("#about-data").tabs({show: 'fade', hide: 'fade'});
-    $("#tab-principal").load("content/principal.html");
-    $("#tab-sobre").load("content/sobre.html");
-    $("#tab-dados").load("content/dados.html");
-    $("#tabs-data").load("content/polos.html");
-  });
-</script>
+  $(window).on('load', function () {
+    setTimeout(function () {
+      $(".loading").fadeOut("slow");
+      $("#loading-panel").addClass('hide-visually');
+    }, 5000);
 
+    let filterInput = document.getElementById('filter-input');
+    let awesomplete = new Awesomplete(filterInput);
+    const namesList = './static/json/nomes.json';
+
+    $.getJSON(namesList, function (data) {
+      awesomplete.list = data.nomes;
+    });
+  });
+
+</script>
 </body>
+
 </html>

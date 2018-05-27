@@ -1,0 +1,169 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "gidole" !important;
+}
+
+@font-face {
+  font-family: gidole;
+  src: url(./font/Gidole-Regular.ttf);
+}
+
+li.ui-tabs-active.ui-state-active {
+    color: #fff !important;
+    border-bottom: 5px solid #fff !important;
+}
+
+.link {
+    color: #1c68c0 !important;
+}
+
+.mapboxgl-popup {
+    max-width: 300px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 3px;
+    width: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu a {
+    font-size: 13px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+#menu a:last-child {
+    border: none;
+}
+
+#menu a:hover {
+    background-color: #f8f8f8;
+    color: #404040;
+}
+
+#menu a.active {
+    background-color: #3887be;
+    color: #ffffff;
+}
+
+#menu a.active:hover {
+    background: #3074a4;
+}
+
+.mapboxgl-ctrl-icon.mapboxgl-ctrl-layers {
+    background-image: url('./images/layers.svg') !important;
+    background-position: 50% 50%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.mapboxgl-ctrl-search-icon.mapboxgl-ctrl-layers {
+    background-image: url('./images/search.svg') !important;
+    background-position: 50% 50%;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.mapboxgl-ctrl-close-icon.mapboxgl-ctrl-layers {
+    background-image: url('./images/close.svg') !important;
+    background-position: 50% 50%;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.filter-ctrl {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1;
+    width: 250px;
+}
+
+.filter-ctrl input[type=text] {
+    width: 100%;
+    border: 0;
+    background-color: #fff;
+    height: 30px;
+    margin: 0;
+    color: rgba(0,0,0,.5);
+    padding: 10px;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+.mapboxgl-popup-content {
+    border-radius: 7px !important;
+}
+
+#tab-dados td.sorting_1{
+    text-transform: uppercase;
+}
+
+a {
+    word-break: break-word;
+}
+
+@media screen and (min-width: 800px) {
+    #content {
+        height: calc(100vh - 125px) !important;
+    }
+    #tabs-polos > div > div.px12.py12.scroll-auto.set-height {
+        height: calc(100vh - 144px) !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #content {
+        height: calc(100vh - 450px) !important;
+    }
+
+    .app-sidebar {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #content {
+        min-height: calc(100vh - 300px) !important;
+    }
+
+    .txt-l.txt-bold.mb-neg3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .col.col--11.my6 {
+        padding-left: 10px;
+    }
+
+    #app > #initial-sidebar .scroll-hidden > .absolute > .px12.py12.bg-blue-faint.txt-s {
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+
+    .app-sidebar {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        bottom: 0;
+    }
+}

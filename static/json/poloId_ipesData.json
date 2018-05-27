@@ -1,0 +1,4797 @@
+[{
+  "1627": [{
+    "estado": "MA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "54": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "787": [{
+    "estado": "PE",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "997": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "154": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "112": [{
+    "estado": "MS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "893": [{
+    "estado": "PE",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "921": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "73": [{
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "230": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "135": [{
+    "estado": "PB",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "294": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "155": [{
+    "estado": "PI",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "74": [{
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "296": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "297": [{
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "85": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "215": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "299": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "75": [{
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "300": [{
+    "estado": "MA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "857": [{
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "216": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "302": [{
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "288": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "303": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "304": [{
+    "estado": "MA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1181": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "180": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 8
+  }]
+}, {
+  "978": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "76": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1171": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "273": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "305": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "38": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "39": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "55": [{
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "86": [{
+    "estado": "MG",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "308": [{
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "860": [{
+    "estado": "TO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "87": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "310": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1090": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "311": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "313": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "314": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "136": [{
+    "estado": "PB",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "264": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "315": [{
+    "estado": "MG",
+    "quantidade_ipes": 6
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1007": [{
+    "estado": "MT",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1052": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "211": [{
+    "estado": "RO",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "317": [{
+    "estado": "TO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "231": [{
+    "estado": "RS",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "318": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "169": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "56": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1359": [{
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "232": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "274": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "323": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "324": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "939": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "327": [{
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "330": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "331": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "862": [{
+    "estado": "RJ",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "979": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "275": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "335": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1068": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "336": [{
+    "estado": "MS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "337": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "339": [{
+    "estado": "MS",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "340": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "863": [{
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "88": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "345": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "346": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "89": [{
+    "estado": "MG",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "217": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1114": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "918": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "347": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "19": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "349": [{
+    "estado": "MA",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "PI",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "181": [{
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "57": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "218": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "767": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "353": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "2": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1139": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "266": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "354": [{
+    "estado": "CE",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "358": [{
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "359": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "121": [{
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "156": [{
+    "estado": "MT",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "362": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "90": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "768": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "363": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "894": [{
+    "estado": "PE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "877": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "364": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "965": [{
+    "estado": "MT",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "365": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "233": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "366": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1355": [{
+    "estado": "PI",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1071": [{
+    "estado": "AL",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "20": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "371": [{
+    "estado": "MS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "234": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "91": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "373": [{
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "41": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "137": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "375": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "805": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PI",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "376": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1063": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1356": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "378": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1009": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "92": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "876": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "381": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "122": [{
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1199": [{
+    "estado": "MT",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1085": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1078": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "383": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "219": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "182": [{
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "157": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1075": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "220": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1198": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "923": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "389": [{
+    "estado": "RN",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "21": [{
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "390": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "391": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1015": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "392": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "393": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "878": [{
+    "estado": "PE",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "1162": [{
+    "estado": "MA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "58": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "158": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "924": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "77": [{
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "42": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "44": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "43": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1010": [{
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "400": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "MT",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "405": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "235": [{
+    "estado": "RS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "852": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "78": [{
+    "estado": "GO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "407": [{
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "212": [{
+    "estado": "RO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1057": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "170": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "13": [{
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "412": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "414": [{
+    "estado": "MA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "415": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "784": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "417": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "419": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "1008": [{
+    "estado": "MT",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "59": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "123": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "421": [{
+    "estado": "BA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "388": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "138": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "424": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "425": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "93": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "236": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1165": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "427": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "94": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "95": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "MT",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "428": [{
+    "estado": "PI",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "429": [{
+    "estado": "MS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "792": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "433": [{
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "434": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "237": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "171": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 6
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "3": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "437": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "438": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "139": [{
+    "estado": "PB",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RN",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1056": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "442": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "848": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "944": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "444": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "446": [{
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "22": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "96": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1154": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "855": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "124": [{
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "448": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "60": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "140": [{
+    "estado": "PB",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "450": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "451": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "61": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "159": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "454": [{
+    "estado": "RS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "455": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "160": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "23": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "267": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1080": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "458": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "460": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "238": [{
+    "estado": "RS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "4": [{
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "AC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "463": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "881": [{
+    "estado": "PE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "466": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "97": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "79": [{
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "45": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "CE",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "470": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "172": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "471": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "472": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "945": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "162": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "80": [{
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "477": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "478": [{
+    "estado": "MA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "98": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "480": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1647": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "896": [{
+    "estado": "PE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "482": [{
+    "estado": "RN",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "208": [{
+    "estado": "RN",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "834": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "871": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "487": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1131": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "276": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "489": [{
+    "estado": "TO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "239": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "240": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "491": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "173": [{
+    "estado": "PR",
+    "quantidade_ipes": 6
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "492": [{
+    "estado": "BA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "493": [{
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "277": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "495": [{
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "498": [{
+    "estado": "PE",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AL",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "99": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "83": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "500": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "163": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "501": [{
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "502": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "100": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "503": [{
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1087": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "504": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "24": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "222": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "507": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1089": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "509": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "101": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "510": [{
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "842": [{
+    "estado": "AM",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "512": [{
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "981": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "514": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "25": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "515": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "516": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "102": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "26": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "184": [{
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "517": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "62": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "185": [{
+    "estado": "RJ",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "518": [{
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "279": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "280": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "27": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "520": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "142": [{
+    "estado": "PB",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "241": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1177": [{
+    "estado": "CE",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "946": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "63": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "837": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "526": [{
+    "estado": "MG",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "28": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "527": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "242": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "529": [{
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1364": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "530": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "1054": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "531": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "532": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1119": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "797": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "281": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "533": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "103": [{
+    "estado": "MG",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "268": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1091": [{
+    "estado": "MS",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "243": [{
+    "estado": "RS",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1187": [{
+    "estado": "SC",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "534": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "535": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "536": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1150": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "213": [{
+    "estado": "RO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1072": [{
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1088": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "104": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "143": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1133": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "793": [{
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "115": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "813": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PI",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "542": [{
+    "estado": "MT",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "543": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "126": [{
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "888": [{
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "14": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "105": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "545": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1062": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "548": [{
+    "estado": "MG",
+    "quantidade_ipes": 6
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "856": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "551": [{
+    "estado": "RN",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "552": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "553": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "29": [{
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "554": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "150": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PE",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "46": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "CE",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "557": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "144": [{
+    "estado": "PB",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1186": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "560": [{
+    "estado": "MT",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "145": [{
+    "estado": "PB",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "983": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "209": [{
+    "estado": "RN",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "561": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "186": [{
+    "estado": "RJ",
+    "quantidade_ipes": 7
+  }]
+}, {
+  "562": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "808": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "9": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AL",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "564": [{
+    "estado": "RJ",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "15": [{
+    "estado": "MT",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "567": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "64": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "568": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1299": [{
+    "estado": "CE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "10": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AL",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "570": [{
+    "estado": "CE",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "571": [{
+    "estado": "RN",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "572": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "146": [{
+    "estado": "PB",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1136": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "210": [{
+    "estado": "RN",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "30": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AL",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "574": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "575": [{
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1051": [{
+    "estado": "AL",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "16": [{
+    "estado": "MT",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "576": [{
+    "estado": "CE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "47": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "187": [{
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "65": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "935": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "578": [{
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "579": [{
+    "estado": "MS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "127": [{
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "582": [{
+    "estado": "MT",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1053": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1130": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1163": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "950": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "244": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "223": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "31": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "925": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "586": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RN",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "188": [{
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "588": [{
+    "estado": "MA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1161": [{
+    "estado": "GO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "861": [{
+    "estado": "RJ",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "224": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "589": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "590": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "189": [{
+    "estado": "RJ",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "593": [{
+    "estado": "RJ",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "174": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "594": [{
+    "estado": "RO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "289": [{
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "595": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1155": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "175": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "596": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "598": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "599": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "600": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "821": [{
+    "estado": "AP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "11": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AL",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "602": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "283": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "604": [{
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "907": [{
+    "estado": "PE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "225": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "926": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "984": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "607": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "880": [{
+    "estado": "PE",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "290": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "610": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "611": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "612": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "613": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "190": [{
+    "estado": "RJ",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "1135": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "614": [{
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1164": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "176": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "177": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1222": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "32": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "129": [{
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "617": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RN",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "919": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "178": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "619": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "621": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "623": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1358": [{
+    "estado": "CE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "624": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "833": [{
+    "estado": "TO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "627": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "152": [{
+    "estado": "PE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "879": [{
+    "estado": "PE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "191": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "245": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "629": [{
+    "estado": "PI",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "631": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "67": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "816": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1354": [{
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "798": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "633": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "164": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "192": [{
+    "estado": "RJ",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "635": [{
+    "estado": "PI",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "33": [{
+    "estado": "PE",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "147": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "68": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "270": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "148": [{
+    "estado": "PB",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "638": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "640": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1065": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "884": [{
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "116": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "271": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1172": [{
+    "estado": "MT",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "84": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "646": [{
+    "estado": "MS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "647": [{
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "649": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RO",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "650": [{
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "651": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "789": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "117": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "854": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "246": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1173": [{
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "653": [{
+    "estado": "CE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "48": [{
+    "estado": "CE",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "50": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "656": [{
+    "estado": "PE",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "130": [{
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "799": [{
+    "estado": "PI",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "987": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "194": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "858": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "247": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "118": [{
+    "estado": "MT",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "195": [{
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "5": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "113": [{
+    "estado": "MS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "661": [{
+    "estado": "RJ",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "662": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "196": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1200": [{
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "664": [{
+    "estado": "PR",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1127": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1082": [{
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "214": [{
+    "estado": "RO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "226": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "667": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "51": [{
+    "estado": "CE",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1182": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "892": [{
+    "estado": "PE",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "107": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "131": [{
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1158": [{
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "250": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "891": [{
+    "estado": "PE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "988": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "669": [{
+    "estado": "MA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "671": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "672": [{
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "69": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "677": [{
+    "estado": "MA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "108": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "1152": []
+}, {
+  "678": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "248": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "17": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "249": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "12": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AL",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1759": [{
+    "estado": "BA",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "251": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1191": [{
+    "estado": "GO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1066": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "683": [{
+    "estado": "MA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "684": [{
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "685": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "686": [{
+    "estado": "PB",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "284": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "869": [{
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "272": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "119": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "198": [{
+    "estado": "RJ",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "199": [{
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "252": [{
+    "estado": "RS",
+    "quantidade_ipes": 6
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "114": [{
+    "estado": "MS",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "200": [{
+    "estado": "RJ",
+    "quantidade_ipes": 7
+  }]
+}, {
+  "975": [{
+    "estado": "RN",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "52": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "227": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "694": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "695": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "109": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1157": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "165": [{
+    "estado": "PE",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "253": [{
+    "estado": "RS",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "696": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "697": [{
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "698": [{
+    "estado": "AL",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1174": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "254": [{
+    "estado": "RS",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1365": [{
+    "estado": "PI",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "699": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1076": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "255": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "780": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "228": [{
+    "estado": "MA",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "702": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "853": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "707": [{
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1106": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1024": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1098": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1027": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1102": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1032": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1094": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1034": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1029": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1021": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1096": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1018": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1023": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1031": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1033": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1104": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1026": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1100": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1022": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1030": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1025": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1103": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1107": [{
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1099": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1097": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1036": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1020": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1028": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1035": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1095": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1105": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1101": [{
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "202": [{
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "709": [{
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "1141": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "710": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "81": [{
+    "estado": "MT",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1125": [{
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "998": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "711": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "712": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "203": [{
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "713": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "999": [{
+    "estado": "RS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "714": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "256": [{
+    "estado": "RS",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "6": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "715": [{
+    "estado": "RS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "716": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "717": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "895": [{
+    "estado": "PE",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "719": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "166": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "37": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "167": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "179": [{
+    "estado": "MS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "721": [{
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "257": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1366": [{
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "CE",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "724": [{
+    "estado": "MT",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "725": [{
+    "estado": "PE",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "726": [{
+    "estado": "PE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "868": [{
+    "estado": "TO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "133": [{
+    "estado": "PA",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "948": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1357": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "258": [{
+    "estado": "RS",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "727": [{
+    "estado": "PB",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "7": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AM",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "287": [{
+    "estado": "PR",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "728": [{
+    "estado": "CE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "729": [{
+    "estado": "AM",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "811": [{
+    "estado": "BA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "731": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "1123": [{
+    "estado": "BA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "110": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "990": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "733": [{
+    "estado": "MA",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "734": [{
+    "estado": "MG",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "259": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RS",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "735": [{
+    "estado": "MG",
+    "quantidade_ipes": 6
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "260": [{
+    "estado": "RS",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "1170": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "261": [{
+    "estado": "RS",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "204": [{
+    "estado": "RJ",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "262": [{
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "153": [{
+    "estado": "PE",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "794": [{
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "134": [{
+    "estado": "PA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "949": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "909": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "53": [{
+    "estado": "PB",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "CE",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "111": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "742": [{
+    "estado": "MG",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "872": [{
+    "estado": "PR",
+    "quantidade_ipes": 5
+  }]
+}, {
+  "744": [{
+    "estado": "PR",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "746": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "747": [{
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "82": [{
+    "estado": "GO",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "168": [{
+    "estado": "PI",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "748": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "751": [{
+    "estado": "PI",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "70": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "938": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1129": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "753": [{
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "1190": [{
+    "estado": "MA",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "263": [{
+    "estado": "RS",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 3
+  }]
+}, {
+  "757": [{
+    "estado": "RS",
+    "quantidade_ipes": 5
+  }, {
+    "estado": "SC",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "1184": [{
+    "estado": "MT",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "758": [{
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "760": [{
+    "estado": "MG",
+    "quantidade_ipes": 3
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "72": [{
+    "estado": "MG",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "ES",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "762": [{
+    "estado": "PE",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AL",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "BA",
+    "quantidade_ipes": 6
+  }]
+}, {
+  "18": [{
+    "estado": "PA",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "AP",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "205": [{
+    "estado": "RJ",
+    "quantidade_ipes": 4
+  }]
+}, {
+  "764": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }]
+}, {
+  "765": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "PR",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "SP",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "GO",
+    "quantidade_ipes": 1
+  }]
+}, {
+  "8": [{
+    "estado": "MG",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_ipes": 2
+  }, {
+    "estado": "AC",
+    "quantidade_ipes": 1
+  }, {
+    "estado": "DF",
+    "quantidade_ipes": 1
+  }]
+}]
