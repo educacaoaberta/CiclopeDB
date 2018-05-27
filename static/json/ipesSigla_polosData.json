@@ -1,0 +1,981 @@
+[{
+  "CEFET/RJ": [{
+    "estado": "RJ",
+    "quantidade_polos": 15
+  }]
+}, {
+  "FIOCRUZ": [{
+    "estado": "MG",
+    "quantidade_polos": 5
+  }, {
+    "estado": "MS",
+    "quantidade_polos": 2
+  }, {
+    "estado": "MT",
+    "quantidade_polos": 1
+  }, {
+    "estado": "PA",
+    "quantidade_polos": 1
+  }, {
+    "estado": "PB",
+    "quantidade_polos": 1
+  }, {
+    "estado": "PR",
+    "quantidade_polos": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_polos": 5
+  }, {
+    "estado": "RO",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RR",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RS",
+    "quantidade_polos": 2
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 3
+  }, {
+    "estado": "SE",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 21
+  }, {
+    "estado": "TO",
+    "quantidade_polos": 3
+  }, {
+    "estado": "AC",
+    "quantidade_polos": 4
+  }, {
+    "estado": "AL",
+    "quantidade_polos": 4
+  }, {
+    "estado": "AM",
+    "quantidade_polos": 3
+  }, {
+    "estado": "AP",
+    "quantidade_polos": 2
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 6
+  }, {
+    "estado": "CE",
+    "quantidade_polos": 4
+  }, {
+    "estado": "ES",
+    "quantidade_polos": 4
+  }, {
+    "estado": "GO",
+    "quantidade_polos": 3
+  }]
+}, {
+  "FUFSE": [{
+    "estado": "SE",
+    "quantidade_polos": 12
+  }]
+}, {
+  "FURG": [{
+    "estado": "RS",
+    "quantidade_polos": 21
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 7
+  }]
+}, {
+  "IFAC": []
+}, {
+  "IFAL": [{
+    "estado": "AL",
+    "quantidade_polos": 4
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 3
+  }]
+}, {
+  "IFAM": [{
+    "estado": "RO",
+    "quantidade_polos": 2
+  }, {
+    "estado": "RR",
+    "quantidade_polos": 5
+  }, {
+    "estado": "AM",
+    "quantidade_polos": 5
+  }]
+}, {
+  "IFAP": []
+}, {
+  "IFB": []
+}, {
+  "IFBA": [{
+    "estado": "BA",
+    "quantidade_polos": 12
+  }]
+}, {
+  "IFCE": [{
+    "estado": "CE",
+    "quantidade_polos": 18
+  }]
+}, {
+  "IFES": [{
+    "estado": "ES",
+    "quantidade_polos": 27
+  }]
+}, {
+  "IFF": []
+}, {
+  "IFFarroup": []
+}, {
+  "IFG": []
+}, {
+  "IFGoiano": []
+}, {
+  "IFMA": [{
+    "estado": "MA",
+    "quantidade_polos": 16
+  }, {
+    "estado": "RR",
+    "quantidade_polos": 1
+  }]
+}, {
+  "IFMG": []
+}, {
+  "IFMS": []
+}, {
+  "IFMT": [{
+    "estado": "MG",
+    "quantidade_polos": 1
+  }, {
+    "estado": "MT",
+    "quantidade_polos": 25
+  }]
+}, {
+  "IFNMG": [{
+    "estado": "MG",
+    "quantidade_polos": 26
+  }]
+}, {
+  "IFPA": [{
+    "estado": "PA",
+    "quantidade_polos": 14
+  }, {
+    "estado": "RR",
+    "quantidade_polos": 13
+  }, {
+    "estado": "AP",
+    "quantidade_polos": 2
+  }]
+}, {
+  "IFPB": [{
+    "estado": "PB",
+    "quantidade_polos": 8
+  }]
+}, {
+  "IFPE": [{
+    "estado": "PE",
+    "quantidade_polos": 9
+  }, {
+    "estado": "AL",
+    "quantidade_polos": 1
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 1
+  }]
+}, {
+  "IFPI": [{
+    "estado": "PI",
+    "quantidade_polos": 4
+  }]
+}, {
+  "IFRJ": []
+}, {
+  "IFRN": [{
+    "estado": "PB",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RN",
+    "quantidade_polos": 10
+  }]
+}, {
+  "IFRO": []
+}, {
+  "IFRR": [{
+    "estado": "RR",
+    "quantidade_polos": 12
+  }]
+}, {
+  "IFRS": []
+}, {
+  "IFSC": [{
+    "estado": "PR",
+    "quantidade_polos": 2
+  }, {
+    "estado": "RS",
+    "quantidade_polos": 4
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 27
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 1
+  }]
+}, {
+  "IFSP": []
+}, {
+  "IFSUDESTEMG": []
+}, {
+  "IFSul": [{
+    "estado": "RS",
+    "quantidade_polos": 14
+  }]
+}, {
+  "IFSULDEMINAS": []
+}, {
+  "IFTM": [{
+    "estado": "MG",
+    "quantidade_polos": 13
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 4
+  }]
+}, {
+  "IFTO": []
+}, {
+  "INES": []
+}, {
+  "UDESC": [{
+    "estado": "SC",
+    "quantidade_polos": 32
+  }]
+}, {
+  "UEA": []
+}, {
+  "UECE": [{
+    "estado": "CE",
+    "quantidade_polos": 24
+  }]
+}, {
+  "UEFS": [{
+    "estado": "BA",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UEG": [{
+    "estado": "GO",
+    "quantidade_polos": 17
+  }]
+}, {
+  "UEL": [{
+    "estado": "PR",
+    "quantidade_polos": 26
+  }]
+}, {
+  "UEM": [{
+    "estado": "PR",
+    "quantidade_polos": 30
+  }]
+}, {
+  "UEMA": [{
+    "estado": "MA",
+    "quantidade_polos": 26
+  }, {
+    "estado": "PR",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RR",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UEMG": [{
+    "estado": "MG",
+    "quantidade_polos": 13
+  }]
+}, {
+  "UEMS": [{
+    "estado": "MS",
+    "quantidade_polos": 12
+  }]
+}, {
+  "UENF": [{
+    "estado": "RJ",
+    "quantidade_polos": 12
+  }]
+}, {
+  "UENP": [{
+    "estado": "PR",
+    "quantidade_polos": 10
+  }]
+}, {
+  "UEPA": [{
+    "estado": "PA",
+    "quantidade_polos": 17
+  }]
+}, {
+  "UEPB": [{
+    "estado": "PB",
+    "quantidade_polos": 7
+  }]
+}, {
+  "UEPG": [{
+    "estado": "PR",
+    "quantidade_polos": 47
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 2
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 3
+  }]
+}, {
+  "UERGS": []
+}, {
+  "UERJ": [{
+    "estado": "RJ",
+    "quantidade_polos": 16
+  }]
+}, {
+  "UERN": [{
+    "estado": "RN",
+    "quantidade_polos": 7
+  }]
+}, {
+  "UERR": []
+}, {
+  "UESB": [{
+    "estado": "BA",
+    "quantidade_polos": 22
+  }]
+}, {
+  "UESC": [{
+    "estado": "BA",
+    "quantidade_polos": 14
+  }]
+}, {
+  "UESPI": [{
+    "estado": "MA",
+    "quantidade_polos": 1
+  }, {
+    "estado": "PI",
+    "quantidade_polos": 34
+  }]
+}, {
+  "UFABC": [{
+    "estado": "SP",
+    "quantidade_polos": 22
+  }]
+}, {
+  "UFAC": [{
+    "estado": "AC",
+    "quantidade_polos": 4
+  }]
+}, {
+  "UFAL": [{
+    "estado": "AL",
+    "quantidade_polos": 6
+  }]
+}, {
+  "UFAM": [{
+    "estado": "RR",
+    "quantidade_polos": 7
+  }, {
+    "estado": "AC",
+    "quantidade_polos": 4
+  }, {
+    "estado": "AM",
+    "quantidade_polos": 7
+  }]
+}, {
+  "UFBA": [{
+    "estado": "BA",
+    "quantidade_polos": 37
+  }]
+}, {
+  "UFC": [{
+    "estado": "CE",
+    "quantidade_polos": 25
+  }]
+}, {
+  "UFERSA": [{
+    "estado": "RN",
+    "quantidade_polos": 6
+  }]
+}, {
+  "UFES": [{
+    "estado": "ES",
+    "quantidade_polos": 27
+  }]
+}, {
+  "UFF": [{
+    "estado": "MG",
+    "quantidade_polos": 8
+  }, {
+    "estado": "PA",
+    "quantidade_polos": 8
+  }, {
+    "estado": "RJ",
+    "quantidade_polos": 31
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 35
+  }, {
+    "estado": "AC",
+    "quantidade_polos": 8
+  }, {
+    "estado": "ES",
+    "quantidade_polos": 7
+  }]
+}, {
+  "UFG": [{
+    "estado": "SP",
+    "quantidade_polos": 1
+  }, {
+    "estado": "GO",
+    "quantidade_polos": 18
+  }]
+}, {
+  "UFGD": [{
+    "estado": "MS",
+    "quantidade_polos": 10
+  }]
+}, {
+  "UFJF": [{
+    "estado": "MG",
+    "quantidade_polos": 32
+  }, {
+    "estado": "MT",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 21
+  }, {
+    "estado": "ES",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFLA": [{
+    "estado": "MG",
+    "quantidade_polos": 21
+  }]
+}, {
+  "UFMA": [{
+    "estado": "MA",
+    "quantidade_polos": 22
+  }]
+}, {
+  "UFMG": [{
+    "estado": "MG",
+    "quantidade_polos": 32
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 2
+  }]
+}, {
+  "UFMS": [{
+    "estado": "MS",
+    "quantidade_polos": 9
+  }, {
+    "estado": "PR",
+    "quantidade_polos": 5
+  }, {
+    "estado": "RN",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 2
+  }, {
+    "estado": "AL",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFMT": [{
+    "estado": "MA",
+    "quantidade_polos": 1
+  }, {
+    "estado": "MT",
+    "quantidade_polos": 21
+  }, {
+    "estado": "PI",
+    "quantidade_polos": 2
+  }, {
+    "estado": "AM",
+    "quantidade_polos": 2
+  }, {
+    "estado": "GO",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFOP": [{
+    "estado": "MG",
+    "quantidade_polos": 31
+  }, {
+    "estado": "PA",
+    "quantidade_polos": 2
+  }, {
+    "estado": "RJ",
+    "quantidade_polos": 3
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 12
+  }, {
+    "estado": "AC",
+    "quantidade_polos": 3
+  }, {
+    "estado": "AP",
+    "quantidade_polos": 2
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 7
+  }, {
+    "estado": "ES",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFPA": [{
+    "estado": "PA",
+    "quantidade_polos": 20
+  }, {
+    "estado": "AP",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFPB": [{
+    "estado": "PB",
+    "quantidade_polos": 17
+  }, {
+    "estado": "PE",
+    "quantidade_polos": 2
+  }, {
+    "estado": "RN",
+    "quantidade_polos": 1
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 6
+  }, {
+    "estado": "CE",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFPE": [{
+    "estado": "PE",
+    "quantidade_polos": 14
+  }, {
+    "estado": "AL",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFPEL": [{
+    "estado": "PR",
+    "quantidade_polos": 2
+  }, {
+    "estado": "RS",
+    "quantidade_polos": 40
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFPI": [{
+    "estado": "PI",
+    "quantidade_polos": 38
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 2
+  }]
+}, {
+  "UFPR": [{
+    "estado": "PR",
+    "quantidade_polos": 30
+  }, {
+    "estado": "RS",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 9
+  }]
+}, {
+  "UFRA": []
+}, {
+  "UFRB": [{
+    "estado": "BA",
+    "quantidade_polos": 16
+  }]
+}, {
+  "UFRGS": [{
+    "estado": "RS",
+    "quantidade_polos": 42
+  }]
+}, {
+  "UFRJ": [{
+    "estado": "RJ",
+    "quantidade_polos": 11
+  }]
+}, {
+  "UFRN": [{
+    "estado": "RN",
+    "quantidade_polos": 10
+  }]
+}, {
+  "UFRPE": [{
+    "estado": "PE",
+    "quantidade_polos": 13
+  }, {
+    "estado": "PI",
+    "quantidade_polos": 1
+  }, {
+    "estado": "TO",
+    "quantidade_polos": 1
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 5
+  }, {
+    "estado": "CE",
+    "quantidade_polos": 2
+  }]
+}, {
+  "UFRR": [{
+    "estado": "RR",
+    "quantidade_polos": 10
+  }]
+}, {
+  "UFRRJ": [{
+    "estado": "RJ",
+    "quantidade_polos": 14
+  }]
+}, {
+  "UFSC": [{
+    "estado": "MG",
+    "quantidade_polos": 1
+  }, {
+    "estado": "MS",
+    "quantidade_polos": 1
+  }, {
+    "estado": "PI",
+    "quantidade_polos": 1
+  }, {
+    "estado": "PR",
+    "quantidade_polos": 9
+  }, {
+    "estado": "RR",
+    "quantidade_polos": 11
+  }, {
+    "estado": "RS",
+    "quantidade_polos": 10
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 27
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFSCAR": [{
+    "estado": "MT",
+    "quantidade_polos": 2
+  }, {
+    "estado": "PR",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RS",
+    "quantidade_polos": 2
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 20
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 5
+  }, {
+    "estado": "GO",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFSJ": [{
+    "estado": "MG",
+    "quantidade_polos": 34
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 26
+  }]
+}, {
+  "UFSM": [{
+    "estado": "PR",
+    "quantidade_polos": 2
+  }, {
+    "estado": "RS",
+    "quantidade_polos": 43
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 1
+  }, {
+    "estado": "TO",
+    "quantidade_polos": 1
+  }, {
+    "estado": "CE",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UFT": [{
+    "estado": "TO",
+    "quantidade_polos": 16
+  }]
+}, {
+  "UFTM": []
+}, {
+  "UFU": [{
+    "estado": "MG",
+    "quantidade_polos": 12
+  }, {
+    "estado": "MT",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RO",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 4
+  }]
+}, {
+  "UFV": [{
+    "estado": "MG",
+    "quantidade_polos": 10
+  }]
+}, {
+  "UFVJM": [{
+    "estado": "MG",
+    "quantidade_polos": 17
+  }]
+}, {
+  "UNB": [{
+    "estado": "MG",
+    "quantidade_polos": 3
+  }, {
+    "estado": "MT",
+    "quantidade_polos": 3
+  }, {
+    "estado": "PB",
+    "quantidade_polos": 1
+  }, {
+    "estado": "PR",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RR",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 5
+  }, {
+    "estado": "TO",
+    "quantidade_polos": 2
+  }, {
+    "estado": "AC",
+    "quantidade_polos": 8
+  }, {
+    "estado": "AL",
+    "quantidade_polos": 1
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 2
+  }, {
+    "estado": "ES",
+    "quantidade_polos": 1
+  }, {
+    "estado": "GO",
+    "quantidade_polos": 9
+  }]
+}, {
+  "UNCISAL": [{
+    "estado": "AL",
+    "quantidade_polos": 4
+  }]
+}, {
+  "UNEAL": []
+}, {
+  "UNEB": [{
+    "estado": "BA",
+    "quantidade_polos": 38
+  }]
+}, {
+  "UNEMAT": [{
+    "estado": "MT",
+    "quantidade_polos": 24
+  }]
+}, {
+  "UNESP-REITORIA": [{
+    "estado": "SP",
+    "quantidade_polos": 47
+  }]
+}, {
+  "UNICAMP": []
+}, {
+  "UNICENTRO": [{
+    "estado": "PR",
+    "quantidade_polos": 40
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UNIFAL": [{
+    "estado": "MG",
+    "quantidade_polos": 14
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 9
+  }]
+}, {
+  "UNIFAP": [{
+    "estado": "AP",
+    "quantidade_polos": 4
+  }]
+}, {
+  "UNIFEI": [{
+    "estado": "MG",
+    "quantidade_polos": 9
+  }, {
+    "estado": "PR",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_polos": 2
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 8
+  }]
+}, {
+  "UNIFESP": [{
+    "estado": "MG",
+    "quantidade_polos": 2
+  }, {
+    "estado": "MT",
+    "quantidade_polos": 4
+  }, {
+    "estado": "PA",
+    "quantidade_polos": 4
+  }, {
+    "estado": "PB",
+    "quantidade_polos": 1
+  }, {
+    "estado": "PE",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RN",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RS",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 1
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 53
+  }, {
+    "estado": "TO",
+    "quantidade_polos": 1
+  }, {
+    "estado": "AM",
+    "quantidade_polos": 4
+  }, {
+    "estado": "CE",
+    "quantidade_polos": 2
+  }, {
+    "estado": "ES",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UNIFIMES": []
+}, {
+  "UNILAB": [{
+    "estado": "CE",
+    "quantidade_polos": 4
+  }]
+}, {
+  "UNIMONTES": [{
+    "estado": "MG",
+    "quantidade_polos": 30
+  }]
+}, {
+  "UNIOESTE": [{
+    "estado": "PR",
+    "quantidade_polos": 10
+  }]
+}, {
+  "UNIPAMPA": [{
+    "estado": "RS",
+    "quantidade_polos": 22
+  }]
+}, {
+  "UNIR": [{
+    "estado": "RO",
+    "quantidade_polos": 7
+  }]
+}, {
+  "UNIRIO": [{
+    "estado": "MG",
+    "quantidade_polos": 1
+  }, {
+    "estado": "RJ",
+    "quantidade_polos": 29
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 6
+  }]
+}, {
+  "UNITINS": [{
+    "estado": "TO",
+    "quantidade_polos": 12
+  }]
+}, {
+  "UNIVASF": [{
+    "estado": "PE",
+    "quantidade_polos": 11
+  }, {
+    "estado": "PI",
+    "quantidade_polos": 1
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 20
+  }]
+}, {
+  "UNIVESP": []
+}, {
+  "UPE": [{
+    "estado": "PE",
+    "quantidade_polos": 13
+  }]
+}, {
+  "USP": []
+}, {
+  "UTFPR": [{
+    "estado": "PR",
+    "quantidade_polos": 13
+  }, {
+    "estado": "RS",
+    "quantidade_polos": 2
+  }, {
+    "estado": "SC",
+    "quantidade_polos": 7
+  }, {
+    "estado": "SP",
+    "quantidade_polos": 18
+  }, {
+    "estado": "BA",
+    "quantidade_polos": 1
+  }]
+}, {
+  "UVA-CE": []
+}]

@@ -1,11 +1,14 @@
-._*
-uab/libraries/leaflet-sidebar/..gitignore.~7f76ece
-*.bak
-.~*
-.Trash-*
-model/config.php
-*.swp
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-\.DS_Store
-
-\.idea/
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

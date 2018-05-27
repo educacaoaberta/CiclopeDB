@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "quant": 1,
+      "estado": "SE"
+    },
+    {
+      "quant": 2,
+      "estado": "AC"
+    },
+    {
+      "quant": 2,
+      "estado": "ES"
+    },
+    {
+      "quant": 2,
+      "estado": "RO"
+    },
+    {
+      "quant": 2,
+      "estado": "AP"
+    },
+    {
+      "quant": 2,
+      "estado": "DF"
+    },
+    {
+      "quant": 3,
+      "estado": "PB"
+    },
+    {
+      "quant": 3,
+      "estado": "PI"
+    },
+    {
+      "quant": 3,
+      "estado": "TO"
+    },
+    {
+      "quant": 3,
+      "estado": "AM"
+    },
+    {
+      "quant": 3,
+      "estado": "MA"
+    },
+    {
+      "quant": 3,
+      "estado": "MT"
+    },
+    {
+      "quant": 3,
+      "estado": "RR"
+    },
+    {
+      "quant": 3,
+      "estado": "SC"
+    },
+    {
+      "quant": 4,
+      "estado": "AL"
+    },
+    {
+      "quant": 4,
+      "estado": "MS"
+    },
+    {
+      "quant": 4,
+      "estado": "RN"
+    },
+    {
+      "quant": 4,
+      "estado": "PA"
+    },
+    {
+      "quant": 5,
+      "estado": "GO"
+    },
+    {
+      "quant": 5,
+      "estado": "CE"
+    },
+    {
+      "quant": 5,
+      "estado": "PE"
+    },
+    {
+      "quant": 7,
+      "estado": "BA"
+    },
+    {
+      "quant": 8,
+      "estado": "PR"
+    },
+    {
+      "quant": 8,
+      "estado": "SP"
+    },
+    {
+      "quant": 9,
+      "estado": "RS"
+    },
+    {
+      "quant": 11,
+      "estado": "RJ"
+    },
+    {
+      "quant": 18,
+      "estado": "MG"
+    }
+  ]
+}
